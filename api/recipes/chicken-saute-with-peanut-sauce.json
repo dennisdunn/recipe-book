@@ -1,0 +1,240 @@
+{
+  "schemaVersion": 1,
+  "id": "347892db-0210-5553-98d5-ad1e28e99726",
+  "slug": "chicken-saute-with-peanut-sauce",
+  "title": "Chicken Saute with Peanut Sauce",
+  "description": "Takes 20 minutes to make, 15 minutes to simmer and 10 minutes to eat!",
+  "category": "Protein Recipes",
+  "subcategory": null,
+  "tags": [
+    "main"
+  ],
+  "servings": null,
+  "times": [],
+  "ingredients": [
+    {
+      "raw": "1 medium onion, sliced vertically",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": null,
+      "item": "medium onion",
+      "prep": "sliced vertically",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "onion",
+      "amount": {
+        "value": 1,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "1 stalk celery, chopped",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "stalk",
+      "item": "celery",
+      "prep": "chopped",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "celery",
+      "amount": {
+        "value": 1,
+        "unit": "each",
+        "countUnit": "stalk"
+      }
+    },
+    {
+      "raw": "1 lg clove of garlic, sliced thin",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": null,
+      "item": "lg clove of garlic",
+      "prep": "sliced thin",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "garlic",
+      "amount": {
+        "value": 1,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "½ bell pepper (any color), chopped",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": null,
+      "item": "bell pepper",
+      "prep": "chopped",
+      "note": "any color",
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "bell-pepper",
+      "amount": {
+        "value": 0.5,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "8 thick baby carrots, sliced",
+      "quantity": 8,
+      "quantityMax": null,
+      "unit": null,
+      "item": "thick baby carrots",
+      "prep": "sliced",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "carrot",
+      "amount": {
+        "value": 8,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "1 cup or more leftover chicken, diced",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "or more leftover chicken",
+      "prep": "diced",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "chicken",
+      "amount": {
+        "value": 236.588,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 cup cooked basmati rice",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "cooked basmati rice",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "rice",
+      "amount": {
+        "value": 236.588,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "½ cup coconut milk",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "coconut milk",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "coconut-milk",
+      "amount": {
+        "value": 118.294,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "9oz bottle of Peanut Coconut Sauce (World Market)",
+      "quantity": 9,
+      "quantityMax": null,
+      "unit": "oz",
+      "item": "bottle of Peanut Coconut Sauce",
+      "prep": null,
+      "note": "World Market",
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "curry-sauce",
+      "amount": {
+        "value": 255.145,
+        "unit": "g"
+      }
+    },
+    {
+      "raw": "4 TBSP crushed pineapple",
+      "quantity": 4,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "crushed pineapple",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "crushed-pineapple",
+      "amount": {
+        "value": 59.147,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "Salt and pepper to taste",
+      "quantity": null,
+      "quantityMax": null,
+      "unit": null,
+      "item": "Salt and pepper",
+      "prep": null,
+      "note": "to taste",
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "salt",
+      "amount": null
+    }
+  ],
+  "steps": [
+    {
+      "text": "Chop vegetables and sauté in olive oil until almost tender.",
+      "group": null
+    },
+    {
+      "text": "Stir in chicken, rice, coconut milk and peanut sauce.",
+      "group": null
+    },
+    {
+      "text": "Add crushed pineapple and simmer until mixture is as tender or crunchy as you like.",
+      "group": null
+    },
+    {
+      "text": "Originally made out of existing leftovers, so add whatever you have handy!",
+      "group": null
+    }
+  ],
+  "footnotes": [],
+  "nutrition": null,
+  "importedNotes": [],
+  "seeAlso": [],
+  "source": {
+    "attribution": null,
+    "file": "RECIPES/PROTEIN RECIPES/Chicken Saute with Peanut Sauce.doc",
+    "type": "doc",
+    "duplicateFiles": []
+  }
+}

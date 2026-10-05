@@ -1,0 +1,256 @@
+{
+  "schemaVersion": 1,
+  "id": "d265b0c0-e2f7-5fe1-a413-0648b8677b6b",
+  "slug": "chinese-fried-rice",
+  "title": "Chinese Fried Rice",
+  "description": "\"Traditionally fried rice was prepared with leftovers and overnight rice. There was no special recipe to fried rice. Look in your fridge or pantry for what you think could enhance the flavor of leftover rice. If you are looking to cook a different fried rice, Chinese style, here's one. If rice is cooked slightly dry or 1 day old, the output will turn out better.\"",
+  "category": "Side Dishes",
+  "subcategory": null,
+  "tags": [
+    "main"
+  ],
+  "servings": null,
+  "times": [],
+  "ingredients": [
+    {
+      "raw": "2 -3 cups left over rice",
+      "quantity": 2,
+      "quantityMax": 3,
+      "unit": "cup",
+      "item": "left over rice",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "rice",
+      "amount": {
+        "value": 591.47,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "Chopped fresh mushrooms",
+      "quantity": null,
+      "quantityMax": null,
+      "unit": null,
+      "item": "Chopped fresh mushrooms",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "low",
+      "shop": true,
+      "catalogId": "mushrooms",
+      "amount": null
+    },
+    {
+      "raw": "1/2 pound ground chicken",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "lb",
+      "item": "ground chicken",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "chicken",
+      "amount": {
+        "value": 226.796,
+        "unit": "g"
+      }
+    },
+    {
+      "raw": "1 tablespoon soy sauce",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "soy sauce",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "soy-sauce",
+      "amount": {
+        "value": 14.787,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 teaspoon sesame oil",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "sesame oil",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "sesame-oil",
+      "amount": {
+        "value": 4.929,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 pinch white pepper",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "pinch",
+      "item": "white pepper",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "white-pepper",
+      "amount": {
+        "value": 0.31,
+        "unit": "ml",
+        "approximate": true
+      }
+    },
+    {
+      "raw": "2 tablespoons vegetable oil",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "vegetable oil",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "vegetable-oil",
+      "amount": {
+        "value": 29.574,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "3 cloves garlic, sliced",
+      "quantity": 3,
+      "quantityMax": null,
+      "unit": "clove",
+      "item": "garlic",
+      "prep": "sliced",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "garlic",
+      "amount": {
+        "value": 3,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "1 tablespoon dark soy sauce",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "dark soy sauce",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "soy-sauce",
+      "amount": {
+        "value": 14.787,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "4 green onions, chopped",
+      "quantity": 4,
+      "quantityMax": null,
+      "unit": null,
+      "item": "green onions",
+      "prep": "chopped",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "green-onion",
+      "amount": {
+        "value": 4,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "2 eggs, lightly beaten",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": null,
+      "item": "eggs",
+      "prep": "lightly beaten",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "eggs",
+      "amount": {
+        "value": 2,
+        "unit": "each"
+      }
+    }
+  ],
+  "steps": [
+    {
+      "text": "Season the ground chicken with the soy sauce, sesame oil, and white pepper.",
+      "group": null
+    },
+    {
+      "text": "Heat the vegetable oil in a skillet over medium heat. Stir in the onion and garlic and cook until fragrant. Toss in the ground chicken and mushroom. Cook and stir until the chicken is crumbly, evenly browned, and no longer pink. Stir in the dark soy sauce, green onions, and rice. Cook and stir until the rice is evenly coated with the sauce. Pour the eggs over the rice, stirring until the eggs are no longer runny.",
+      "group": null
+    },
+    {
+      "text": "Hmm. None of these ingredients are on sale today.",
+      "group": null
+    },
+    {
+      "text": "Show ingredients on sale",
+      "group": null
+    },
+    {
+      "text": "Sort stores by",
+      "group": null
+    },
+    {
+      "text": "Save money at local stores when ingredients are on sale!",
+      "group": null
+    },
+    {
+      "text": "Watch video tips and tricks",
+      "group": null
+    },
+    {
+      "text": "All about Eggs",
+      "group": null
+    }
+  ],
+  "footnotes": [],
+  "nutrition": null,
+  "importedNotes": [],
+  "seeAlso": [],
+  "source": {
+    "attribution": null,
+    "file": "RECIPES/SIDE DISHES/Chinese Fried Rice.doc",
+    "type": "doc",
+    "duplicateFiles": []
+  }
+}

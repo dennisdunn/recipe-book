@@ -1,0 +1,209 @@
+{
+  "schemaVersion": 1,
+  "id": "d67ebf4d-8035-5167-a330-3478470df63d",
+  "slug": "grandmas-corn-chowder",
+  "title": "Grandma's Corn Chowder",
+  "description": null,
+  "category": "Soups and Stews",
+  "subcategory": null,
+  "tags": [
+    "main"
+  ],
+  "servings": null,
+  "times": [],
+  "ingredients": [
+    {
+      "raw": "1/2 cup diced bacon",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "diced bacon",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "bacon",
+      "amount": {
+        "value": 118.294,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "4 medium potatoes, peeled and chopped",
+      "quantity": 4,
+      "quantityMax": null,
+      "unit": null,
+      "item": "medium potatoes",
+      "prep": "peeled and chopped",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "potato",
+      "amount": {
+        "value": 4,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "1 medium onion, chopped",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": null,
+      "item": "medium onion",
+      "prep": "chopped",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "onion",
+      "amount": {
+        "value": 1,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "2 cups water",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "water",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "water",
+      "amount": {
+        "value": 473.176,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "2 cups cream-style corn",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "cream-style corn",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "corn-canned",
+      "amount": {
+        "value": 473.176,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 cup whole kernel corn",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "whole kernel corn",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "corn-canned",
+      "amount": {
+        "value": 236.588,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "2 teaspoons salt",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "salt",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "salt",
+      "amount": {
+        "value": 9.858,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "ground black pepper to taste",
+      "quantity": null,
+      "quantityMax": null,
+      "unit": null,
+      "item": "ground black pepper",
+      "prep": null,
+      "note": "to taste",
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "black-pepper",
+      "amount": null
+    },
+    {
+      "raw": "2 cups half-and-half",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "half-and-half",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "half-and-half",
+      "amount": {
+        "value": 473.176,
+        "unit": "ml"
+      }
+    }
+  ],
+  "steps": [
+    {
+      "text": "Place the bacon in a large pot over medium-high heat, and cook until crisp. Drain and crumble, reserving about 2 tablespoons drippings in the pot.",
+      "group": null
+    },
+    {
+      "text": "Mix potatoes and onion into the pot with the crumbled bacon and reserved drippings. Cook and stir 5 minutes. Pour in the water, and stir in corn. Season with salt and pepper. Bring to a boil, reduce heat to low, and cover pot. Simmer 20 minutes, stirring frequently, until potatoes are tender.",
+      "group": null
+    },
+    {
+      "text": "Warm the half-and-half in a small saucepan until it bubbles. Remove from heat before it boils, and mix into the chowder just before serving.",
+      "group": null
+    }
+  ],
+  "footnotes": [],
+  "nutrition": null,
+  "importedNotes": [
+    {
+      "text": "While cooking I left a bit more bacon grease in, and I also added chicken bouillon to the 2 cups of water. To top it off I sprinkled shredded cheddar cheese on the top and let it melt a little before serving."
+    },
+    {
+      "text": "Be sure not to skip the step of lightly browning the potatoes and onions with the bacon and drippings as I think this really develops the flavors. Will probably try it with milk instead of the half-and-half and may possibly try reducing the salt, but otherwise, this is a wonderful recipe."
+    },
+    {
+      "text": "If needed, thicken the soup with instant mashed potatoes."
+    }
+  ],
+  "seeAlso": [],
+  "source": {
+    "attribution": null,
+    "file": "RECIPES/SOUPS AND STEWS/Grandma_s Corn Chowder.doc",
+    "type": "doc",
+    "duplicateFiles": []
+  }
+}

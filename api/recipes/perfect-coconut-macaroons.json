@@ -1,0 +1,229 @@
+{
+  "schemaVersion": 1,
+  "id": "d4f863de-5cf0-5e12-8865-0d0f7459be0e",
+  "slug": "perfect-coconut-macaroons",
+  "title": "Perfect Coconut Macaroons",
+  "description": null,
+  "category": "Desserts",
+  "subcategory": null,
+  "tags": [],
+  "servings": {
+    "text": "Original recipe makes 18 macaroons",
+    "amount": 18
+  },
+  "times": [],
+  "ingredients": [
+    {
+      "raw": "1 (14 ounce) package sweetened, flaked coconut",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "pkg",
+      "item": "sweetened, flaked coconut",
+      "prep": null,
+      "note": "package size: 14 ounce",
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "coconut",
+      "amount": {
+        "value": 1,
+        "unit": "pkg",
+        "package": "pkg",
+        "packageOz": 14
+      }
+    },
+    {
+      "raw": "1/3 cup white sugar",
+      "quantity": 0.333,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "white sugar",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "sugar",
+      "amount": {
+        "value": 78.784,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 tablespoon all-purpose flour",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "all-purpose flour",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "all-purpose-flour",
+      "amount": {
+        "value": 14.787,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1/2 teaspoon vanilla extract",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "vanilla extract",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "vanilla-extract",
+      "amount": {
+        "value": 2.464,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1/2 teaspoon almond extract",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "almond extract",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "almond-extract",
+      "amount": {
+        "value": 2.464,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 pinch salt",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "pinch",
+      "item": "salt",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "salt",
+      "amount": {
+        "value": 0.31,
+        "unit": "ml",
+        "approximate": true
+      }
+    },
+    {
+      "raw": "3 egg whites, room temperature",
+      "quantity": 3,
+      "quantityMax": null,
+      "unit": null,
+      "item": "egg whites, room temperature",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "egg-whites",
+      "amount": {
+        "value": 3,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "8 ounces semisweet chocolate chips",
+      "quantity": 8,
+      "quantityMax": null,
+      "unit": "oz",
+      "item": "semisweet chocolate chips",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "chocolate-chips",
+      "amount": {
+        "value": 226.796,
+        "unit": "g"
+      }
+    }
+  ],
+  "steps": [
+    {
+      "text": "Preheat oven to 350 degrees F (175 degrees C).",
+      "group": null
+    },
+    {
+      "text": "Line a baking sheet with parchment paper.",
+      "group": null
+    },
+    {
+      "text": "Blend coconut, sugar, flour, vanilla extract, almond extract, and salt in a food processor until combined, about 30 seconds.",
+      "group": null
+    },
+    {
+      "text": "Beat egg whites in a bowl until soft peaks form.",
+      "group": null
+    },
+    {
+      "text": "Fold coconut mixture into egg whites until just combined.",
+      "group": null
+    },
+    {
+      "text": "Wet your hands. Roll spoonfuls of coconut mixture between palms to golf ball-size cookies; arrange on the prepared baking sheet.",
+      "group": null
+    },
+    {
+      "text": "Bake cookies in the preheated oven until coconut is slightly golden and toasted, about 15 minutes. Transfer to a wire rack to cool, 30 minutes.",
+      "group": null
+    },
+    {
+      "text": "Line baking sheet with new piece of parchment paper.",
+      "group": null
+    },
+    {
+      "text": "Melt chocolate chips in the top of a double boiler over just-barely simmering water, stirring frequently and scraping down the sides with a rubber spatula to avoid scorching.",
+      "group": null
+    },
+    {
+      "text": "Dip half of each cookie in the chocolate and place on the prepared baking sheet. Place in refrigerator until chocolate is set, about 15 minutes.",
+      "group": null
+    }
+  ],
+  "footnotes": [],
+  "nutrition": null,
+  "importedNotes": [
+    {
+      "text": "These were divine! They turned out exactly as I hoped they would. They seemed just like a macaroon from a bakery. Wonderful texture and just the right amount of sweetness. The ratio of ingredients works perfectly. I prefer larger shreds of coconut, so …"
+    },
+    {
+      "text": "I skipped the step with the food processor."
+    },
+    {
+      "text": "I mixed all of the ingredients (minus the egg whites and extracts) in the mixer on low speed until well combined."
+    },
+    {
+      "text": "After moving that mixture to a large bowl, I beat the eggs whites and then beat in the extracts."
+    }
+  ],
+  "seeAlso": [],
+  "source": {
+    "attribution": null,
+    "file": "RECIPES/DESSERTS/Perfect Coconut Macaroons.doc",
+    "type": "doc",
+    "duplicateFiles": []
+  }
+}

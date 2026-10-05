@@ -1,0 +1,313 @@
+{
+  "schemaVersion": 1,
+  "id": "2c558db5-d452-5407-ba09-77ca8f119643",
+  "slug": "cheesy-squash-and-zucchini-casserole-help",
+  "title": "Cheesy Squash and Zucchini Casserole   Help",
+  "description": null,
+  "category": "Side Dishes",
+  "subcategory": null,
+  "tags": [],
+  "servings": null,
+  "times": [],
+  "ingredients": [
+    {
+      "raw": "1 pound zucchini, sliced",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "lb",
+      "item": "zucchini",
+      "prep": "sliced",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "zucchini",
+      "amount": {
+        "value": 453.592,
+        "unit": "g"
+      }
+    },
+    {
+      "raw": "1 pound yellow",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "lb",
+      "item": "yellow squash",
+      "prep": "sliced",
+      "note": "source line reads '1 pound yellow'; 'squash' inferred from the directions",
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "yellow-squash",
+      "amount": {
+        "value": 453.592,
+        "unit": "g"
+      }
+    },
+    {
+      "raw": "1/2 onion, diced",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": null,
+      "item": "onion",
+      "prep": "diced",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "onion",
+      "amount": {
+        "value": 0.5,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "1 cup shredded Cheddar cheese",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "shredded Cheddar cheese",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "cheddar-cheese",
+      "amount": {
+        "value": 236.588,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1/2 cup biscuit baking mix (such as Bisquick)",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "biscuit baking mix",
+      "prep": null,
+      "note": "such as Bisquick",
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "baking-mix",
+      "amount": {
+        "value": 118.294,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1/4 cup butter",
+      "quantity": 0.25,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "butter",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "butter",
+      "amount": {
+        "value": 59.147,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "2 eggs",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": null,
+      "item": "eggs",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "eggs",
+      "amount": {
+        "value": 2,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "1 tablespoon white sugar",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "white sugar",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "sugar",
+      "amount": {
+        "value": 14.787,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 teaspoon salt",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "salt",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "salt",
+      "amount": {
+        "value": 4.929,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "Italian flavored crutons, crushed",
+      "quantity": null,
+      "quantityMax": null,
+      "unit": null,
+      "item": "Italian flavored crutons",
+      "prep": "crushed",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "low",
+      "shop": true,
+      "catalogId": "croutons",
+      "amount": null
+    },
+    {
+      "raw": "1/4 cup bread crumbs",
+      "quantity": 0.25,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "bread crumbs",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "bread-crumbs",
+      "amount": {
+        "value": 59.147,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "3 Tbsp. of lemon juice",
+      "quantity": 3,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "lemon juice",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "lemon-juice",
+      "amount": {
+        "value": 44.36,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "2 sliced red Bell peppers",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": null,
+      "item": "sliced red Bell peppers",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "bell-pepper",
+      "amount": {
+        "value": 2,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "1 tsp black pepper",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "black pepper",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "black-pepper",
+      "amount": {
+        "value": 4.929,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "½ tsp nutmeg",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "nutmeg",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "nutmeg",
+      "amount": {
+        "value": 2.464,
+        "unit": "ml"
+      }
+    }
+  ],
+  "steps": [
+    {
+      "text": "Preheat oven to 325 degrees F (165 degrees C).",
+      "group": null
+    },
+    {
+      "text": "Fill a large pot with water and bring to a rolling boil. Add yellow squash, zucchini, and onion; bring back to a boil, and cook vegetables until tender, about 15 minutes. Drain and transfer vegetables to a large bowl.",
+      "group": null
+    },
+    {
+      "text": "Mix Cheddar cheese, baking mix, butter, eggs, sugar, and salt with the cooked vegetables using a large spoon; stir until butter has melted and baking mix has dissolved.",
+      "group": null
+    },
+    {
+      "text": "Fold crushed crutons into the mixture until the liquid has been absorbed. Pour mixture into a 1 1/2-quart casserole dish; top with bread crumbs.",
+      "group": null
+    },
+    {
+      "text": "Bake in the preheated oven until topping is lightly browned and cheese is melted, 30 minutes.",
+      "group": null
+    }
+  ],
+  "footnotes": [],
+  "nutrition": null,
+  "importedNotes": [],
+  "seeAlso": [],
+  "source": {
+    "attribution": null,
+    "file": "RECIPES/SIDE DISHES/Cheesy Squash and Zucchini Casserole.doc",
+    "type": "doc",
+    "duplicateFiles": []
+  }
+}

@@ -1,0 +1,384 @@
+{
+  "schemaVersion": 1,
+  "id": "72181227-fb4c-5dd7-b680-1dd487abfa31",
+  "slug": "adeles-chicken-stew",
+  "title": "Adele's Chicken Stew",
+  "description": null,
+  "category": "Chicken Dishes",
+  "subcategory": null,
+  "tags": [
+    "main"
+  ],
+  "servings": {
+    "text": "Serves: 6",
+    "amount": 6
+  },
+  "times": [
+    {
+      "label": "Prep time",
+      "text": "30 mins."
+    },
+    {
+      "label": "Cook time",
+      "text": "3 to 4 hours."
+    }
+  ],
+  "ingredients": [
+    {
+      "raw": "1 roll of Grands Buttermilk biscuits",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": null,
+      "item": "roll of Grands Buttermilk biscuits",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "biscuits",
+      "amount": {
+        "value": 1,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "3 boneless, skinless chicken breast halves",
+      "quantity": 3,
+      "quantityMax": null,
+      "unit": null,
+      "item": "boneless, skinless chicken breast halves",
+      "prep": null,
+      "note": null,
+      "group": "Chicken Prep",
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "chicken-breast",
+      "amount": {
+        "value": 3,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "½  cup flour",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "flour",
+      "prep": null,
+      "note": null,
+      "group": "Chicken Prep",
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "all-purpose-flour",
+      "amount": {
+        "value": 118.294,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "½  tsp cornstarch",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "cornstarch",
+      "prep": null,
+      "note": null,
+      "group": "Chicken Prep",
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "cornstarch",
+      "amount": {
+        "value": 2.464,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "½  tsp basil (or poultry seasoning)",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "basil",
+      "prep": null,
+      "note": "or poultry seasoning",
+      "group": "Chicken Prep",
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "dried-basil",
+      "amount": {
+        "value": 2.464,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 cup diced onion",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "diced onion",
+      "prep": null,
+      "note": null,
+      "group": "Filling",
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "onion",
+      "amount": {
+        "value": 236.588,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 cup carrots sliced on diagonal",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "carrots sliced on diagonal",
+      "prep": null,
+      "note": null,
+      "group": "Filling",
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "carrot",
+      "amount": {
+        "value": 236.588,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 cup sliced celery",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "sliced celery",
+      "prep": null,
+      "note": null,
+      "group": "Filling",
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "celery",
+      "amount": {
+        "value": 236.588,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 clove garlic, minced",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "clove",
+      "item": "garlic",
+      "prep": "minced",
+      "note": null,
+      "group": "Filling",
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "garlic",
+      "amount": {
+        "value": 1,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "1 (10.75 ounce) can cream of chicken soup",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "can",
+      "item": "cream of chicken soup",
+      "prep": null,
+      "note": "package size: 10.75 ounce",
+      "group": "Filling",
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "cream-of-chicken-soup",
+      "amount": {
+        "value": 1,
+        "unit": "pkg",
+        "package": "can",
+        "packageOz": 10.75
+      }
+    },
+    {
+      "raw": "1 (10.75 ounce) can cream of celery soup",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "can",
+      "item": "cream of celery soup",
+      "prep": null,
+      "note": "package size: 10.75 ounce",
+      "group": "Filling",
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "cream-of-celery-soup",
+      "amount": {
+        "value": 1,
+        "unit": "pkg",
+        "package": "can",
+        "packageOz": 10.75
+      }
+    },
+    {
+      "raw": "1/2 cup shredded Cheddar cheese",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "shredded Cheddar cheese",
+      "prep": null,
+      "note": null,
+      "group": "Filling",
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "cheddar-cheese",
+      "amount": {
+        "value": 118.294,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1/2 cup shredded mozzarella cheese",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "shredded mozzarella cheese",
+      "prep": null,
+      "note": null,
+      "group": "Filling",
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "mozzarella-cheese",
+      "amount": {
+        "value": 118.294,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "¼ tsp coarse ground pepper",
+      "quantity": 0.25,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "coarse ground pepper",
+      "prep": null,
+      "note": null,
+      "group": "Filling",
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "black-pepper",
+      "amount": {
+        "value": 1.232,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "Dash of red pepper (optional)",
+      "quantity": null,
+      "quantityMax": null,
+      "unit": "dash",
+      "item": "red pepper",
+      "prep": null,
+      "note": null,
+      "group": "Filling",
+      "optional": true,
+      "confidence": "low",
+      "shop": true,
+      "catalogId": "bell-pepper",
+      "amount": null
+    },
+    {
+      "raw": "1 cup sliced fresh mushrooms",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "sliced fresh mushrooms",
+      "prep": null,
+      "note": null,
+      "group": "Filling",
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "mushrooms",
+      "amount": {
+        "value": 236.588,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 can peas",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "can",
+      "item": "peas",
+      "prep": null,
+      "note": null,
+      "group": "Filling",
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "frozen-peas",
+      "amount": {
+        "value": 1,
+        "unit": "pkg",
+        "package": "can"
+      }
+    }
+  ],
+  "steps": [
+    {
+      "text": "Cut chicken breasts into cubes. Combine flour, 1 tsp cornstarch and 1 tsp basil or poultry seasoning in gallon size plastic bag. Add chicken cubes and shake to coat.",
+      "group": null
+    },
+    {
+      "text": "Saute chicken cubes over medium heat until slightly browned. Remove and set aside.",
+      "group": null
+    },
+    {
+      "text": "Saute onions, carrots, celery and garlic in olive oil and a splash of white wine.",
+      "group": null
+    },
+    {
+      "text": "In a large bowl, combine chicken, soups, Cheddar cheese, mozzarella cheese, sauteed vegetables, salt (if needed) and pepper. Mix thoroughly.",
+      "group": null
+    },
+    {
+      "text": "Pour mixture into Crock Pot and simmer on low and cook for 3 to 4 hours or until all is tender and flavors have blended.",
+      "group": null
+    },
+    {
+      "text": "Slice and saute mushrooms until they just start to form a broth.",
+      "group": null
+    },
+    {
+      "text": "Add mushrooms and peas to stew about 30 minutes before stew finishes cooking.",
+      "group": null
+    },
+    {
+      "text": "Serve over Grands Buttermilk Biscuits.",
+      "group": null
+    },
+    {
+      "text": "P.S. I doubled everything in this recipe except the peas for Home Group. Large chunks of chicken and vegetables have more “presence” than the small chunks usually found in pot pies. If you make this recipe as a pot pie, thicken the broth with cornstarch and don’t use frozen vegetables or sauce will get too soupy. Brush pie crust with egg wash for a golden crust, cut vents in pie crust and bake at 350 degrees for 50 minutes.",
+      "group": null
+    }
+  ],
+  "footnotes": [],
+  "nutrition": null,
+  "importedNotes": [],
+  "seeAlso": [],
+  "source": {
+    "attribution": null,
+    "file": "RECIPES/CHICKEN DISHES/Chicken Pot Pie VI.doc",
+    "type": "doc",
+    "duplicateFiles": []
+  }
+}

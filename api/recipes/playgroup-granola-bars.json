@@ -1,0 +1,326 @@
+{
+  "schemaVersion": 1,
+  "id": "e3e064e2-cb8e-520f-8098-5f86459e227a",
+  "slug": "playgroup-granola-bars",
+  "title": "Playgroup Granola Bars",
+  "description": null,
+  "category": "Protein Recipes",
+  "subcategory": null,
+  "tags": [],
+  "servings": null,
+  "times": [],
+  "ingredients": [
+    {
+      "raw": "2 cups rolled oats",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "rolled oats",
+      "prep": null,
+      "note": null,
+      "group": "Wet Ingredients",
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "oats",
+      "amount": {
+        "value": 473.176,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1/3 cup packed brown sugar",
+      "quantity": 0.333,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "packed brown sugar",
+      "prep": null,
+      "note": null,
+      "group": "Wet Ingredients",
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "brown-sugar",
+      "amount": {
+        "value": 78.784,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1/2 cup wheat germ",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "wheat germ",
+      "prep": null,
+      "note": null,
+      "group": "Wet Ingredients",
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "wheat-germ",
+      "amount": {
+        "value": 118.294,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1/2 teaspoon ground cinnamon",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "ground cinnamon",
+      "prep": null,
+      "note": null,
+      "group": "Wet Ingredients",
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "cinnamon",
+      "amount": {
+        "value": 2.464,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "3/4 cup all-purpose flour",
+      "quantity": 0.75,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "all-purpose flour",
+      "prep": null,
+      "note": null,
+      "group": "Wet Ingredients",
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "all-purpose-flour",
+      "amount": {
+        "value": 177.441,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1/4 cup almond flour",
+      "quantity": 0.25,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "almond flour",
+      "prep": null,
+      "note": null,
+      "group": "Wet Ingredients",
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "almond-flour",
+      "amount": {
+        "value": 59.147,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 ¼ tsp xantha gum (for leavening)",
+      "quantity": 1.25,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "xantha gum",
+      "prep": null,
+      "note": "for leavening",
+      "group": "Wet Ingredients",
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "xanthan-gum",
+      "amount": {
+        "value": 6.161,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1/4 cup almond flour",
+      "quantity": 0.25,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "almond flour",
+      "prep": null,
+      "note": null,
+      "group": "Wet Ingredients",
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "almond-flour",
+      "amount": {
+        "value": 59.147,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "3/4 cup dried cranberries",
+      "quantity": 0.75,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "dried cranberries",
+      "prep": null,
+      "note": null,
+      "group": "Wet Ingredients",
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "dried-cranberries",
+      "amount": {
+        "value": 177.441,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1/2 cup dried coconut flakes",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "dried coconut flakes",
+      "prep": null,
+      "note": null,
+      "group": "Wet Ingredients",
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "coconut",
+      "amount": {
+        "value": 118.294,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1/2 cup toasted almonds",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "toasted almonds",
+      "prep": null,
+      "note": null,
+      "group": "Wet Ingredients",
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "almonds",
+      "amount": {
+        "value": 118.294,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1/2 teaspoon salt",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "salt",
+      "prep": null,
+      "note": null,
+      "group": "Wet Ingredients",
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "salt",
+      "amount": {
+        "value": 2.464,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1/2 cup honey",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "honey",
+      "prep": null,
+      "note": null,
+      "group": "Wet Ingredients",
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "honey",
+      "amount": {
+        "value": 118.294,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 large egg, beaten",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": null,
+      "item": "large egg, beaten",
+      "prep": null,
+      "note": null,
+      "group": "Wet Ingredients",
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "eggs",
+      "amount": {
+        "value": 1,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "1/2 cup Canola oil",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "Canola oil",
+      "prep": null,
+      "note": null,
+      "group": "Wet Ingredients",
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "vegetable-oil",
+      "amount": {
+        "value": 118.294,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "2 teaspoons vanilla extract",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "vanilla extract",
+      "prep": null,
+      "note": null,
+      "group": "Wet Ingredients",
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "vanilla-extract",
+      "amount": {
+        "value": 9.858,
+        "unit": "ml"
+      }
+    }
+  ],
+  "steps": [
+    {
+      "text": "Preheat the oven to 350 degrees F (175 degrees C). Generously grease a 9x13 inch baking pan.",
+      "group": null
+    },
+    {
+      "text": "In a large bowl, mix together the dry ingredients. Make a well in the center, and pour in the wet ingredients. Mix well using your hands. Pat the mixture evenly into the prepared pan.",
+      "group": null
+    },
+    {
+      "text": "Bake for about 18  minutes in the preheated oven, or until the bars begin to turn golden at the edges. Cool for 5 minutes, then cut into bars while still warm. Do not allow the bars to cool completely before cutting, or they will be too hard to cut.",
+      "group": null
+    }
+  ],
+  "footnotes": [],
+  "nutrition": null,
+  "importedNotes": [],
+  "seeAlso": [],
+  "source": {
+    "attribution": null,
+    "file": "RECIPES/PROTEIN RECIPES/Playgroup Granola Bars.doc",
+    "type": "doc",
+    "duplicateFiles": []
+  }
+}

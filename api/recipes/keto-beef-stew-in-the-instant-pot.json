@@ -1,0 +1,360 @@
+{
+  "schemaVersion": 1,
+  "id": "f3b35037-85ce-5852-976c-41a878fbad6c",
+  "slug": "keto-beef-stew-in-the-instant-pot",
+  "title": "Keto Beef Stew in the Instant Pot",
+  "description": null,
+  "category": "Protein Recipes",
+  "subcategory": "KETO RECIPES",
+  "tags": [
+    "keto",
+    "main"
+  ],
+  "servings": null,
+  "times": [],
+  "ingredients": [
+    {
+      "raw": "2 tablespoons butter or Ghee",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "butter or Ghee",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "butter",
+      "amount": {
+        "value": 29.574,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 yellow onion diced or 1 cup pearl onions",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": null,
+      "item": "yellow onion diced or 1 cup pearl onions",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "onion",
+      "amount": {
+        "value": 1,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "2 cloves garlic sliced",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "clove",
+      "item": "garlic sliced",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "garlic",
+      "amount": {
+        "value": 2,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "1 pound cubed chuck roast",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "lb",
+      "item": "cubed chuck roast",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "stew-meat",
+      "amount": {
+        "value": 453.592,
+        "unit": "g"
+      }
+    },
+    {
+      "raw": "1/2 cup dry red wine",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "dry red wine",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "wine",
+      "amount": {
+        "value": 118.294,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "3 carrots sliced",
+      "quantity": 3,
+      "quantityMax": null,
+      "unit": null,
+      "item": "carrots sliced",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "carrot",
+      "amount": {
+        "value": 3,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "1 cup green beans cut into 1-inch pieces",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "green beans cut into 1-inch pieces",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "green-beans",
+      "amount": {
+        "value": 236.588,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 can diced tomatoes no salt added",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "can",
+      "item": "diced tomatoes no salt added",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "diced-tomatoes",
+      "amount": {
+        "value": 1,
+        "unit": "pkg",
+        "package": "can"
+      }
+    },
+    {
+      "raw": "1 cup diced potatoes OPTIONAL",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "diced potatoes",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": true,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "potato",
+      "amount": {
+        "value": 236.588,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 beef marrow bones or 4 cups organic, grass-fed beef bone broth",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": null,
+      "item": "beef marrow bones or 4 cups organic",
+      "prep": "grass-fed beef bone broth",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "beef-bones",
+      "amount": {
+        "value": 1,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "4 cups water (omit if using bone broth)",
+      "quantity": 4,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "water",
+      "prep": null,
+      "note": "omit if using bone broth",
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "water",
+      "amount": {
+        "value": 946.352,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 tablespoon red wine vinegar",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "red wine vinegar",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "red-wine-vinegar",
+      "amount": {
+        "value": 14.787,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "½ tsp red pepper flakes",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "red pepper flakes",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "red-pepper-flakes",
+      "amount": {
+        "value": 2.464,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 large bay leaf",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": null,
+      "item": "large bay leaf",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "bay-leaf",
+      "amount": {
+        "value": 1,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "½ tsp ground thyme",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "ground thyme",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "dried-thyme",
+      "amount": {
+        "value": 2.464,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "salt and pepper to taste",
+      "quantity": null,
+      "quantityMax": null,
+      "unit": null,
+      "item": "salt and pepper",
+      "prep": null,
+      "note": "to taste",
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "salt",
+      "amount": null
+    },
+    {
+      "raw": "Chives + Parsley to garnish",
+      "quantity": null,
+      "quantityMax": null,
+      "unit": null,
+      "item": "Chives + Parsley to garnish",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "low",
+      "shop": true,
+      "catalogId": "fresh-parsley",
+      "amount": null
+    }
+  ],
+  "steps": [
+    {
+      "text": "Set your Instant Pot to sauté and add the butter. Once hot, add the onion and sauté until soft, about 3 minutes.",
+      "group": null
+    },
+    {
+      "text": "Add the beef cubes, season with salt and pepper, and brown on all sides, about 5-7 minutes.",
+      "group": null
+    },
+    {
+      "text": "Add the garlic and cook until aromatic, about 1 minute.",
+      "group": null
+    },
+    {
+      "text": "Pour the red wine over top and use a wooden spatula to scrape up any browned bits.",
+      "group": null
+    },
+    {
+      "text": "Turn the Instant Pot off and add the remaining ingredients. Screw on the lid and set to High Pressure, Manual for 15 minutes.",
+      "group": null
+    },
+    {
+      "text": "Release steam when finished cooking. Remove the marrow bones, if using, and the bay leaves.",
+      "group": null
+    },
+    {
+      "text": "Serve and enjoy!",
+      "group": null
+    }
+  ],
+  "footnotes": [],
+  "nutrition": {
+    "text": "Serves 6 Amount Per Serving Calories 222 % Daily Value* Total Fat 10g 15% Cholesterol 54.8mg 18% Sodium 405mg 17% Total Carbohydrate 11.7g (w/ 2 cups potatoes: 20g) 4% Dietary Fiber 3.4g 14% Sugars 4.5g Protein 19.2g 38% Vitamin A 21% Vitamin C 16% Iron 19% Magnesium 11% Potassium 20% Zinc 31% Phosphorus 22% Thiamin (B1) 14% Riboflavin (B2) 26% Niacin (B3) 26% Vitamin B6 33% Vitamin B12 41% Vitamin K 38%"
+  },
+  "importedNotes": [],
+  "seeAlso": [],
+  "source": {
+    "attribution": null,
+    "file": "RECIPES/PROTEIN RECIPES/KETO RECIPES/Keto Beef Stew in the Instant Pot.doc",
+    "type": "doc",
+    "duplicateFiles": []
+  }
+}

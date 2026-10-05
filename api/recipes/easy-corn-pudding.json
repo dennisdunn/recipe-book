@@ -1,0 +1,222 @@
+{
+  "schemaVersion": 1,
+  "id": "2ffbb2bf-8998-5316-a20f-8d9c225f85fe",
+  "slug": "easy-corn-pudding",
+  "title": "Easy Corn Pudding",
+  "description": "(Comfort food for Deborah on her return from Washington, DC in May of 2008)",
+  "category": "Side Dishes",
+  "subcategory": null,
+  "tags": [],
+  "servings": {
+    "text": "Serves: 6",
+    "amount": 6
+  },
+  "times": [
+    {
+      "label": "Prep time",
+      "text": "20 minutes"
+    }
+  ],
+  "ingredients": [
+    {
+      "raw": "1 (15 oz) can creamed corn",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "can",
+      "item": "creamed corn",
+      "prep": null,
+      "note": "package size: 15 oz",
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "corn-canned",
+      "amount": {
+        "value": 1,
+        "unit": "pkg",
+        "package": "can",
+        "packageOz": 15
+      }
+    },
+    {
+      "raw": "1 (15.25 oz) can whole kernel corn",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "can",
+      "item": "whole kernel corn",
+      "prep": null,
+      "note": "package size: 15.25 oz",
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "corn-canned",
+      "amount": {
+        "value": 1,
+        "unit": "pkg",
+        "package": "can",
+        "packageOz": 15.25
+      }
+    },
+    {
+      "raw": "½ stick butter, softened",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "stick",
+      "item": "butter",
+      "prep": "softened",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "butter",
+      "amount": {
+        "value": 56.7,
+        "unit": "g"
+      }
+    },
+    {
+      "raw": "1 (8.5 oz) package Jiffy corn muffin mix",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "pkg",
+      "item": "Jiffy corn muffin mix",
+      "prep": null,
+      "note": "package size: 8.5 oz",
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "cornbread-mix",
+      "amount": {
+        "value": 1,
+        "unit": "pkg",
+        "package": "pkg",
+        "packageOz": 8.5
+      }
+    },
+    {
+      "raw": "2 eggs rather than the one listed on the box",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": null,
+      "item": "eggs rather than the one listed on the box",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "eggs",
+      "amount": {
+        "value": 2,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "½ cup of half and half cream",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "half and half cream",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "half-and-half",
+      "amount": {
+        "value": 118.294,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 (8 oz) container sour cream",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "pkg",
+      "item": "container sour cream",
+      "prep": null,
+      "note": "package size: 8 oz",
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "sour-cream",
+      "amount": {
+        "value": 1,
+        "unit": "pkg",
+        "package": "pkg",
+        "packageOz": 8
+      }
+    },
+    {
+      "raw": "1 cup shredded cheddar",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "shredded cheddar",
+      "prep": null,
+      "note": "only in Easy Corn Pudding.pdf",
+      "group": "Optional",
+      "optional": true,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "cheddar-cheese",
+      "amount": {
+        "value": 236.588,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "mild green chilies",
+      "quantity": null,
+      "quantityMax": null,
+      "unit": null,
+      "item": "mild green chilies",
+      "prep": null,
+      "note": "only in Easy Corn Pudding.pdf",
+      "group": "Optional",
+      "optional": true,
+      "confidence": "low",
+      "shop": true,
+      "catalogId": "green-chilies",
+      "amount": null
+    }
+  ],
+  "steps": [
+    {
+      "text": "Preheat oven to 350 degrees F. Put butter in 2 quart casserole dish, place in oven until melted",
+      "group": null
+    },
+    {
+      "text": "Remove casserole dish and add creamed corn, kernel corn, muffin mix and sour cream.",
+      "group": null
+    },
+    {
+      "text": "Mix well, bake uncovered approximately 40 minutes.",
+      "group": null
+    }
+  ],
+  "footnotes": [],
+  "nutrition": null,
+  "importedNotes": [
+    {
+      "text": "This was easy and very, very tasty. The best part was the top gets golden brown like cornbread, but the dish’s consistency is that of a thick pudding. I threw in a handful of grated cheddar cheese. Others have added a can of mild green chilies. The extra egg and cream gives this recipe more of a soufflé appearance. The Jiffy brand mix adds a little sweetness."
+    },
+    {
+      "text": "This is easy and very, very tasty. The best part is the top gets golden brown like cornbread, but the dish's consistency is that of a thick pudding. I threw in a handful of grated cheddar cheese. Others have added a can of mild green chilies. The extra egg and cream gives this recipe more of a soufflé appearance. The Jiffy brand mix adds a little sweetness."
+    }
+  ],
+  "seeAlso": [],
+  "source": {
+    "attribution": null,
+    "file": "RECIPES/SIDE DISHES/Easy Corn Pudding.doc",
+    "type": "doc",
+    "duplicateFiles": [
+      "RECIPES/SIDE DISHES/Easy Corn Pudding.pdf"
+    ]
+  }
+}

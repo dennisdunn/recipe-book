@@ -1,0 +1,195 @@
+{
+  "schemaVersion": 1,
+  "id": "4165fb55-203a-5c4c-93a0-1c77151eb25c",
+  "slug": "parrothead-salad",
+  "title": "Parrothead Salad",
+  "description": null,
+  "category": "Salads",
+  "subcategory": null,
+  "tags": [],
+  "servings": null,
+  "times": [],
+  "ingredients": [
+    {
+      "raw": "Romaine and/or spinach - rinsed, dried, and torn into bite-size pieces",
+      "quantity": null,
+      "quantityMax": null,
+      "unit": null,
+      "item": "Romaine and/or spinach",
+      "prep": "rinsed, dried, and torn into bite-size pieces",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "low",
+      "shop": true,
+      "catalogId": "lettuce",
+      "amount": null
+    },
+    {
+      "raw": "1/2 pound fresh strawberries, sliced",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "lb",
+      "item": "fresh strawberries",
+      "prep": "sliced",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "strawberries",
+      "amount": {
+        "value": 226.796,
+        "unit": "g"
+      }
+    },
+    {
+      "raw": "1/2 pound fresh blueberries",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "lb",
+      "item": "fresh blueberries",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "blueberries",
+      "amount": {
+        "value": 226.796,
+        "unit": "g"
+      }
+    },
+    {
+      "raw": "1 cup cherry tomatoes, halved (optional)",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "cherry tomatoes",
+      "prep": "halved",
+      "note": null,
+      "group": null,
+      "optional": true,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "cherry-tomatoes",
+      "amount": {
+        "value": 236.588,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1/2 cup raisins or grapes cut in half",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "raisins or grapes cut in half",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "raisins",
+      "amount": {
+        "value": 118.294,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1/4 cup toasted slivered almonds",
+      "quantity": 0.25,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "toasted slivered almonds",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "almonds",
+      "amount": {
+        "value": 59.147,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1/4 cup chopped red onion",
+      "quantity": 0.25,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "chopped red onion",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "red-onion",
+      "amount": {
+        "value": 59.147,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "4 slices bacon",
+      "quantity": 4,
+      "quantityMax": null,
+      "unit": "slice",
+      "item": "bacon",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "bacon",
+      "amount": {
+        "value": 4,
+        "unit": "each",
+        "countUnit": "slice"
+      }
+    },
+    {
+      "raw": "Poppyseed Dressing",
+      "quantity": null,
+      "quantityMax": null,
+      "unit": null,
+      "item": "Poppyseed Dressing",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "low",
+      "shop": true,
+      "catalogId": "salad-dressing",
+      "amount": null
+    }
+  ],
+  "steps": [
+    {
+      "text": "Toss the lettuce, strawberries, blueberries, tomatoes, raisins or grapes, almonds, and onions together in a salad bowl. Cover, and refrigerate at least 30 minutes to allow the flavors to mingle. Do not refrigerate more than 4 hours.",
+      "group": null
+    },
+    {
+      "text": "Place the bacon in a large, deep skillet, and cook over medium-high heat, turning occasionally, until crisp and evenly browned, about 10 minutes. Drain the bacon slices on a paper towel-lined plate. Crumble and sprinkle over the salad to serve.",
+      "group": null
+    }
+  ],
+  "footnotes": [],
+  "nutrition": null,
+  "importedNotes": [
+    {
+      "text": "All that fruit really weights down the tender leaf lettuce. I’d suggest a sturdier lettuce, such as Romaine. And I wouldn’t toss this salad with dressing as all your fruit would go straight to the bottom of the bowl due to its weight. Instead, arrange the salad on the plate and then drizzle with poppy seed dressing, which complimented this well. This was tasty and we enjoyed it, but I don’t think all five fruits are necessary. You could have an equally delicious salad using 2-3."
+    }
+  ],
+  "seeAlso": [],
+  "source": {
+    "attribution": null,
+    "file": "RECIPES/SALADS/Parrothead Salad.doc",
+    "type": "doc",
+    "duplicateFiles": []
+  }
+}

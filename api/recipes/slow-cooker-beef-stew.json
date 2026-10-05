@@ -1,0 +1,224 @@
+{
+  "schemaVersion": 1,
+  "id": "549fd5d5-56ad-57a4-adab-bffe2edf8b2b",
+  "slug": "slow-cooker-beef-stew",
+  "title": "Slow Cooker Beef Stew",
+  "description": null,
+  "category": "Soups and Stews",
+  "subcategory": null,
+  "tags": [
+    "main"
+  ],
+  "servings": null,
+  "times": [],
+  "ingredients": [
+    {
+      "raw": "1 to 1 1/2 lbs Simple Truth Organic grass fed beef for stew meat",
+      "quantity": 1,
+      "quantityMax": 1.5,
+      "unit": "lb",
+      "item": "Simple Truth Organic grass fed beef for stew meat",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "stew-meat",
+      "amount": {
+        "value": 566.99,
+        "unit": "g"
+      }
+    },
+    {
+      "raw": "3 tbsp organic tomato paste",
+      "quantity": 3,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "organic tomato paste",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "tomato-paste",
+      "amount": {
+        "value": 44.36,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 tbsp balsamic vinegar",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "balsamic vinegar",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "balsamic-vinegar",
+      "amount": {
+        "value": 14.787,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 1/3 cup beef stock",
+      "quantity": 1.333,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "beef stock",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "beef-broth",
+      "amount": {
+        "value": 315.372,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "3 cloves garlic, crushed",
+      "quantity": 3,
+      "quantityMax": null,
+      "unit": "clove",
+      "item": "garlic",
+      "prep": "crushed",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "garlic",
+      "amount": {
+        "value": 3,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "1 bay leaf",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": null,
+      "item": "bay leaf",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "bay-leaf",
+      "amount": {
+        "value": 1,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "1 small sprig fresh rosemary (or 1/4 tsp dried rosemary)",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": null,
+      "item": "small sprig fresh rosemary",
+      "prep": null,
+      "note": "or 1/4 tsp dried rosemary",
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "fresh-rosemary",
+      "amount": {
+        "value": 1,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "1 medium yellow onion, cut into 1-inch chunks",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": null,
+      "item": "medium yellow onion",
+      "prep": "cut into 1-inch chunks",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "onion",
+      "amount": {
+        "value": 1,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "1 1/2 lbs small white or red potatoes, peeled & cut in half",
+      "quantity": 1.5,
+      "quantityMax": null,
+      "unit": "lb",
+      "item": "small white or red potatoes",
+      "prep": "peeled & cut in half",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "potato",
+      "amount": {
+        "value": 680.388,
+        "unit": "g"
+      }
+    },
+    {
+      "raw": "5-6 medium carrots, cut into 2-inch pieces",
+      "quantity": 5,
+      "quantityMax": 6,
+      "unit": null,
+      "item": "medium carrots",
+      "prep": "cut into 2-inch pieces",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "carrot",
+      "amount": {
+        "value": 5.5,
+        "unit": "each"
+      }
+    }
+  ],
+  "steps": [
+    {
+      "text": "Place the beef in a 4-5 quart slow cooker and generously season with about a half-teaspoon of sea salt and a half-teaspoon of freshly ground black pepper.",
+      "group": null
+    },
+    {
+      "text": "Next, add the tomato paste, vinegar and beef stock. Use a wooden spoon to combine.",
+      "group": null
+    },
+    {
+      "text": "Then, add the garlic, bay leaf and rosemary. Top with the chopped onion, potatoes and carrots in that order. Do not stir.",
+      "group": null
+    },
+    {
+      "text": "Cover slow cooker; cook on high until beef is fork-tender, about 5 hours (or cook on low heat about 7-8 hours).",
+      "group": null
+    }
+  ],
+  "footnotes": [],
+  "nutrition": null,
+  "importedNotes": [],
+  "seeAlso": [],
+  "source": {
+    "attribution": null,
+    "file": "RECIPES/SOUPS AND STEWS/Slow Cooker Beef Stew.png",
+    "type": "image",
+    "duplicateFiles": []
+  }
+}

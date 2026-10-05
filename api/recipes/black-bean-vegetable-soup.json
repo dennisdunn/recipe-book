@@ -1,0 +1,335 @@
+{
+  "schemaVersion": 1,
+  "id": "cd784539-c22e-568f-9005-c5031d32e1a9",
+  "slug": "black-bean-vegetable-soup",
+  "title": "Black Bean Vegetable Soup",
+  "description": null,
+  "category": "Soups and Stews",
+  "subcategory": null,
+  "tags": [
+    "main"
+  ],
+  "servings": null,
+  "times": [],
+  "ingredients": [
+    {
+      "raw": "1 Tbsp vegetable oil",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "vegetable oil",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "vegetable-oil",
+      "amount": {
+        "value": 14.787,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 onion, chopped",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": null,
+      "item": "onion",
+      "prep": "chopped",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "onion",
+      "amount": {
+        "value": 1,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "1 clove garlic,  minced",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "clove",
+      "item": "garlic",
+      "prep": "minced",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "garlic",
+      "amount": {
+        "value": 1,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "2 carrots, chopped",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": null,
+      "item": "carrots",
+      "prep": "chopped",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "carrot",
+      "amount": {
+        "value": 2,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "Optional: diced zucchini",
+      "quantity": null,
+      "quantityMax": null,
+      "unit": null,
+      "item": "diced zucchini",
+      "prep": null,
+      "note": null,
+      "group": "Optional",
+      "optional": true,
+      "confidence": "low",
+      "shop": true,
+      "catalogId": "zucchini",
+      "amount": null
+    },
+    {
+      "raw": "2 tsp chili powder",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "chili powder",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "chili-powder",
+      "amount": {
+        "value": 9.858,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 tsp cumin",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "cumin",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "cumin",
+      "amount": {
+        "value": 4.929,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "2 cups vegetable stock",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "vegetable stock",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "vegetable-broth",
+      "amount": {
+        "value": 473.176,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 (15oz) black beans (drained)",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "pkg",
+      "item": "black beans",
+      "prep": null,
+      "note": "package size: 15oz; drained",
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "black-beans",
+      "amount": {
+        "value": 1,
+        "unit": "pkg",
+        "package": "can",
+        "packageOz": 15
+      }
+    },
+    {
+      "raw": "1 (14.5oz) can fiesta corn",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "can",
+      "item": "fiesta corn",
+      "prep": null,
+      "note": "package size: 14.5oz",
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "corn-canned",
+      "amount": {
+        "value": 1,
+        "unit": "pkg",
+        "package": "can",
+        "packageOz": 14.5
+      }
+    },
+    {
+      "raw": "½ green pepper",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": null,
+      "item": "green pepper",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "bell-pepper",
+      "amount": {
+        "value": 0.5,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "Black pepper to taste (~1/4 tsp)",
+      "quantity": null,
+      "quantityMax": null,
+      "unit": null,
+      "item": "Black pepper",
+      "prep": null,
+      "note": "~1/4 tsp; to taste",
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "black-pepper",
+      "amount": null
+    },
+    {
+      "raw": "Optional: left over pot roast",
+      "quantity": null,
+      "quantityMax": null,
+      "unit": null,
+      "item": "left over pot roast",
+      "prep": null,
+      "note": null,
+      "group": "Optional",
+      "optional": true,
+      "confidence": "low",
+      "shop": true,
+      "catalogId": "stew-meat",
+      "amount": null
+    },
+    {
+      "raw": "1 (15oz) can stewed tomatoes",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "can",
+      "item": "stewed tomatoes",
+      "prep": null,
+      "note": "package size: 15oz",
+      "group": "Puree together",
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "diced-tomatoes",
+      "amount": {
+        "value": 1,
+        "unit": "pkg",
+        "package": "can",
+        "packageOz": 15
+      }
+    },
+    {
+      "raw": "1 (15oz) black beans",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "pkg",
+      "item": "black beans",
+      "prep": null,
+      "note": "package size: 15oz",
+      "group": "Puree together",
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "black-beans",
+      "amount": {
+        "value": 1,
+        "unit": "pkg",
+        "package": "can",
+        "packageOz": 15
+      }
+    },
+    {
+      "raw": "Shredded Cheddar / Monterey Jack cheese",
+      "quantity": null,
+      "quantityMax": null,
+      "unit": null,
+      "item": "Shredded Cheddar / Monterey Jack cheese",
+      "prep": null,
+      "note": null,
+      "group": "Garnish with",
+      "optional": false,
+      "confidence": "low",
+      "shop": true,
+      "catalogId": "cheddar-cheese",
+      "amount": null
+    },
+    {
+      "raw": "Dollop sour cream per bowl",
+      "quantity": null,
+      "quantityMax": null,
+      "unit": null,
+      "item": "Dollop sour cream per bowl",
+      "prep": null,
+      "note": null,
+      "group": "Garnish with",
+      "optional": false,
+      "confidence": "low",
+      "shop": true,
+      "catalogId": "sour-cream",
+      "amount": null
+    }
+  ],
+  "steps": [
+    {
+      "text": "In large saucepan, heat oil over medium heat; cook onion, garlic, and carrots, stirring occasionally, for 5 minutes or until onion is softened. Add chili powder and cumin; cook, stirring, for 1 minute. Add stock, 1 can of the beans, corn, and pepper; bring to boil.",
+      "group": null
+    },
+    {
+      "text": "Meanwhile, in food processor or blender, puree together tomatoes and remaining can of beans; add to pot. Reduce heat, cover, and simmer for 10 to 15 minutes or until carrots are tender.",
+      "group": null
+    }
+  ],
+  "footnotes": [],
+  "nutrition": null,
+  "importedNotes": [],
+  "seeAlso": [],
+  "source": {
+    "attribution": null,
+    "file": "RECIPES/SOUPS AND STEWS/Black Bean Vegetable Soup.doc",
+    "type": "doc",
+    "duplicateFiles": []
+  }
+}

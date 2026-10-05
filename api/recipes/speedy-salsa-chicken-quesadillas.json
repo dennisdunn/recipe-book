@@ -1,0 +1,158 @@
+{
+  "schemaVersion": 1,
+  "id": "a9acb61b-027a-5ec5-98e4-d1d03e80efc8",
+  "slug": "speedy-salsa-chicken-quesadillas",
+  "title": "Speedy Salsa-Chicken Quesadillas",
+  "description": null,
+  "category": "Chicken Dishes",
+  "subcategory": null,
+  "tags": [
+    "main"
+  ],
+  "servings": {
+    "text": "Serves 4",
+    "amount": 4
+  },
+  "times": [
+    {
+      "label": "Prep time",
+      "text": "10 minutes"
+    },
+    {
+      "label": "Total time",
+      "text": "20 minutes"
+    }
+  ],
+  "ingredients": [
+    {
+      "raw": "1/2 cup salsa",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "salsa",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "salsa",
+      "amount": {
+        "value": 118.294,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "2 Tbsp. mayonnaise",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "mayonnaise",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "mayonnaise",
+      "amount": {
+        "value": 29.574,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1/2 tsp. chili powder",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "chili powder",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "chili-powder",
+      "amount": {
+        "value": 2.464,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "8 (6-inch) flour tortillas",
+      "quantity": 8,
+      "quantityMax": null,
+      "unit": null,
+      "item": "flour tortillas",
+      "prep": null,
+      "note": "package size: 6-inch",
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "tortillas",
+      "amount": {
+        "value": 8,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "3/4 lb. cooked boneless skinless chicken breasts, sliced",
+      "quantity": 0.75,
+      "quantityMax": null,
+      "unit": "lb",
+      "item": "cooked boneless skinless chicken breasts",
+      "prep": "sliced",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "chicken-breast",
+      "amount": {
+        "value": 340.194,
+        "unit": "g"
+      }
+    },
+    {
+      "raw": "1 cup KRAFT Mexican Style Shredded Four Cheese with a Touch of PHILADELPHIA",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "KRAFT Mexican Style Shredded Four Cheese with a Touch of PHILADELPHIA",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "mexican-cheese-blend",
+      "amount": {
+        "value": 236.588,
+        "unit": "ml"
+      }
+    }
+  ],
+  "steps": [
+    {
+      "text": "Mix salsa, mayonnaise and chili powder; spread onto tortillas. Layer chicken and cheese on half of each tortilla; fold over to enclose filling.",
+      "group": null
+    },
+    {
+      "text": "Spray large skillet with cooking spray; heat to medium. Add quesadillas, two at a time. Cook 4 to 5 minutes on each side or until lightly browned. Cut into wedges to serve. Refrigerate any leftovers.",
+      "group": null
+    }
+  ],
+  "footnotes": [],
+  "nutrition": null,
+  "importedNotes": [],
+  "seeAlso": [],
+  "source": {
+    "attribution": null,
+    "file": "RECIPES/CHICKEN DISHES/Chicken Quesadillas.png",
+    "type": "image",
+    "duplicateFiles": [
+      "RECIPES/PORK DISHES/Chicken Quesadillas.png"
+    ]
+  }
+}

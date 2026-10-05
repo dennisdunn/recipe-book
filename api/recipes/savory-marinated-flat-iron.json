@@ -1,0 +1,170 @@
+{
+  "schemaVersion": 1,
+  "id": "46b3e60c-dcd1-5282-a24f-38c2fbb50d23",
+  "slug": "savory-marinated-flat-iron",
+  "title": "Savory Marinated Flat Iron",
+  "description": null,
+  "category": "Beef Dishes",
+  "subcategory": null,
+  "tags": [
+    "main"
+  ],
+  "servings": {
+    "text": "Serves 4",
+    "amount": 4
+  },
+  "times": [],
+  "ingredients": [
+    {
+      "raw": "1 (2-pound) Certified Angus Beef ® flat iron",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "pkg",
+      "item": "Certified Angus Beef ® flat iron",
+      "prep": null,
+      "note": "package size: 2-pound",
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "beef-steak",
+      "amount": {
+        "value": 1,
+        "unit": "pkg",
+        "package": "pkg",
+        "packageOz": 32
+      }
+    },
+    {
+      "raw": "1/2 cup Lea & Perrins® Worcestershire Sauce",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "Lea & Perrins® Worcestershire Sauce",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "worcestershire-sauce",
+      "amount": {
+        "value": 118.294,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "3 tablespoons balsamic vinegar",
+      "quantity": 3,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "balsamic vinegar",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "balsamic-vinegar",
+      "amount": {
+        "value": 44.36,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 1/2 tablespoons Dijon mustard",
+      "quantity": 1.5,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "Dijon mustard",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "dijon-mustard",
+      "amount": {
+        "value": 22.18,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1/2 teaspoon pepper",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "pepper",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "black-pepper",
+      "amount": {
+        "value": 2.464,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "Salt and pepper to taste",
+      "quantity": null,
+      "quantityMax": null,
+      "unit": null,
+      "item": "Salt and pepper",
+      "prep": null,
+      "note": "to taste",
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "salt",
+      "amount": null
+    }
+  ],
+  "steps": [
+    {
+      "text": "Combine Worcestershire, vinegar, Dijon and pepper.",
+      "group": null
+    },
+    {
+      "text": "In large, shallow non-aluminum baking dish or plastic bag, pour",
+      "group": null
+    },
+    {
+      "text": "marinade over flat iron; turn to coat. Marinate in refrigerator for 30",
+      "group": null
+    },
+    {
+      "text": "minutes. Remove steaks; discard marinade.",
+      "group": null
+    },
+    {
+      "text": "Preheat grill or broiler to medium high.",
+      "group": null
+    },
+    {
+      "text": "Season beef with salt and pepper to taste. Grill or broil to desired",
+      "group": null
+    },
+    {
+      "text": "doneness.",
+      "group": null
+    },
+    {
+      "text": "Remove steaks and let rest 5 minutes; slice thinly across the grain.",
+      "group": null
+    }
+  ],
+  "footnotes": [],
+  "nutrition": null,
+  "importedNotes": [],
+  "seeAlso": [],
+  "source": {
+    "attribution": null,
+    "file": "RECIPES/BEEF DISHES/Savory Marinated Flat Iron.doc",
+    "type": "doc",
+    "duplicateFiles": []
+  }
+}

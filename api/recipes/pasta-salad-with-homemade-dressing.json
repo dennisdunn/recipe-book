@@ -1,0 +1,370 @@
+{
+  "schemaVersion": 1,
+  "id": "86890876-8e9a-57e3-a62d-e76af00b503f",
+  "slug": "pasta-salad-with-homemade-dressing",
+  "title": "Pasta Salad with Homemade Dressing",
+  "description": null,
+  "category": "Salads",
+  "subcategory": null,
+  "tags": [],
+  "servings": null,
+  "times": [],
+  "ingredients": [
+    {
+      "raw": "1 (8 ounce) package uncooked tri-color rotini pasta",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "pkg",
+      "item": "uncooked tri-color rotini pasta",
+      "prep": null,
+      "note": "package size: 8 ounce",
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "rotini",
+      "amount": {
+        "value": 1,
+        "unit": "pkg",
+        "package": "pkg",
+        "packageOz": 8
+      }
+    },
+    {
+      "raw": "6 ounces pepperoni slices, cut in 1/2",
+      "quantity": 6,
+      "quantityMax": null,
+      "unit": "oz",
+      "item": "pepperoni slices",
+      "prep": "cut in 1/2",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "pepperoni",
+      "amount": {
+        "value": 170.097,
+        "unit": "g"
+      }
+    },
+    {
+      "raw": "6 ounces provolone cheese slice, cut in 1/2” squares",
+      "quantity": 6,
+      "quantityMax": null,
+      "unit": "oz",
+      "item": "provolone cheese slice",
+      "prep": "cut in 1/2” squares",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "provolone-cheese",
+      "amount": {
+        "value": 170.097,
+        "unit": "g"
+      }
+    },
+    {
+      "raw": "½ red onion chopped or 2 green onions, sliced",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": null,
+      "item": "red onion chopped or 2 green onions",
+      "prep": "sliced",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "red-onion",
+      "amount": {
+        "value": 0.5,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "1 small cucumber, ¼” slices, quartered",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": null,
+      "item": "small cucumber, 1/4” slices, quartered",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "cucumber",
+      "amount": {
+        "value": 1,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "1/2 cup chopped green bell pepper",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "chopped green bell pepper",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "bell-pepper",
+      "amount": {
+        "value": 118.294,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1/2 cup chopped red bell pepper",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "chopped red bell pepper",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "bell-pepper",
+      "amount": {
+        "value": 118.294,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 (6 ounce) can pitted black olives",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "can",
+      "item": "pitted black olives",
+      "prep": null,
+      "note": "package size: 6 ounce",
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "olives",
+      "amount": {
+        "value": 1,
+        "unit": "pkg",
+        "package": "can",
+        "packageOz": 6
+      }
+    },
+    {
+      "raw": "1/4 cup minced fresh parsley or 2 Tbsp dried parsley",
+      "quantity": 0.25,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "minced fresh parsley or 2 Tbsp dried parsley",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "fresh-parsley",
+      "amount": {
+        "value": 59.147,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1/4 cup grated Parmesan cheese",
+      "quantity": 0.25,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "grated Parmesan cheese",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "parmesan-cheese",
+      "amount": {
+        "value": 59.147,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1/2 cup olive oil",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "olive oil",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "olive-oil",
+      "amount": {
+        "value": 118.294,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1/4 cup red wine vinegar",
+      "quantity": 0.25,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "red wine vinegar",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "red-wine-vinegar",
+      "amount": {
+        "value": 59.147,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "2 cloves garlic, minced",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "clove",
+      "item": "garlic",
+      "prep": "minced",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "garlic",
+      "amount": {
+        "value": 2,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "1 teaspoon dried basil",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "dried basil",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "dried-basil",
+      "amount": {
+        "value": 4.929,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 teaspoon dried oregano",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "dried oregano",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "dried-oregano",
+      "amount": {
+        "value": 4.929,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1/2 teaspoon ground mustard seed",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "ground mustard seed",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "mustard-seed",
+      "amount": {
+        "value": 2.464,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1/4 teaspoon salt",
+      "quantity": 0.25,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "salt",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "salt",
+      "amount": {
+        "value": 1.232,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1/8 teaspoon ground black pepper",
+      "quantity": 0.125,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "ground black pepper",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "black-pepper",
+      "amount": {
+        "value": 0.616,
+        "unit": "ml"
+      }
+    }
+  ],
+  "steps": [
+    {
+      "text": "Bring a large pot of lightly salted water to a boil. Add rotini pasta, and cook for 8 to 10 minutes, until al dente. Drain, and rinse with cold water.",
+      "group": null
+    },
+    {
+      "text": "In a large bowl, mix the cooled pasta, pepperoni, provolone cheese, onion, cucumber, green bell pepper, red bell pepper, olives, parsley, and Parmesan cheese.",
+      "group": null
+    },
+    {
+      "text": "In a jar with a lid, mix the olive oil, vinegar, garlic, basil, oregano, ground mustard, salt, and pepper. Seal jar, and shake well.",
+      "group": null
+    },
+    {
+      "text": "Pour the dressing mixture over the pasta salad, and toss to coat. Cover, and chill 8 hours in the refrigerator",
+      "group": null
+    }
+  ],
+  "footnotes": [],
+  "nutrition": null,
+  "importedNotes": [],
+  "seeAlso": [],
+  "source": {
+    "attribution": null,
+    "file": "RECIPES/SALADS/PASTA SALAD WITH  HOMEMADE DRESSING.doc",
+    "type": "doc",
+    "duplicateFiles": []
+  }
+}

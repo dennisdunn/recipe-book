@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 1,
+  "id": "79bfd733-a4e4-5597-bd4b-13ae9da18a1c",
+  "slug": "chipped-beef-cheese-ball",
+  "title": "Chipped Beef Cheese Ball",
+  "description": null,
+  "category": "Snacks",
+  "subcategory": null,
+  "tags": [],
+  "servings": null,
+  "times": [],
+  "ingredients": [
+    {
+      "raw": "5 ounces Carl Buddig Sliced Beef, chopped (not dried beef – too salty)",
+      "quantity": 5,
+      "quantityMax": null,
+      "unit": "oz",
+      "item": "Carl Buddig Sliced Beef",
+      "prep": "chopped",
+      "note": "not dried beef – too salty",
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "deli-beef",
+      "amount": {
+        "value": 141.748,
+        "unit": "g"
+      }
+    },
+    {
+      "raw": "1 (8 ounce) packages cream cheese, softened",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "pkg",
+      "item": "cream cheese",
+      "prep": "softened",
+      "note": "package size: 8 ounce",
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "cream-cheese",
+      "amount": {
+        "value": 1,
+        "unit": "pkg",
+        "package": "pkg",
+        "packageOz": 8
+      }
+    },
+    {
+      "raw": "8 oz shredded cheddar cheese",
+      "quantity": 8,
+      "quantityMax": null,
+      "unit": "oz",
+      "item": "shredded cheddar cheese",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "cheddar-cheese",
+      "amount": {
+        "value": 226.796,
+        "unit": "g"
+      }
+    },
+    {
+      "raw": "6 green onions, chopped",
+      "quantity": 6,
+      "quantityMax": null,
+      "unit": null,
+      "item": "green onions",
+      "prep": "chopped",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "green-onion",
+      "amount": {
+        "value": 6,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "1 tablespoon Worcestershire sauce",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "Worcestershire sauce",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "worcestershire-sauce",
+      "amount": {
+        "value": 14.787,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1/2 teaspoon seasoned salt",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "seasoned salt",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "seasoned-salt",
+      "amount": {
+        "value": 2.464,
+        "unit": "ml"
+      }
+    }
+  ],
+  "steps": [
+    {
+      "text": "Reserve about a half cup of chopped beef.",
+      "group": null
+    },
+    {
+      "text": "In a separate medium bowl, combine the remaining beef, cream cheese, cheddar cheese, green onions, Worcestershire sauce and seasoned salt. Mix well and roll into a ball.",
+      "group": null
+    },
+    {
+      "text": "Roll the ball in the reserved beef, coating the entire outside of the ball.",
+      "group": null
+    }
+  ],
+  "footnotes": [],
+  "nutrition": null,
+  "importedNotes": [],
+  "seeAlso": [],
+  "source": {
+    "attribution": null,
+    "file": "RECIPES/SNACKS/Chipped Beef Cheese Ball.doc",
+    "type": "doc",
+    "duplicateFiles": []
+  }
+}

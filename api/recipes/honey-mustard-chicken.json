@@ -1,0 +1,175 @@
+{
+  "schemaVersion": 1,
+  "id": "c6b50b62-72cd-50b4-9b50-f595fdc906a3",
+  "slug": "honey-mustard-chicken",
+  "title": "Honey Mustard Chicken",
+  "description": null,
+  "category": "Chicken Dishes",
+  "subcategory": null,
+  "tags": [
+    "main"
+  ],
+  "servings": null,
+  "times": [],
+  "ingredients": [
+    {
+      "raw": "1 TBSP margarine",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "margarine",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "margarine",
+      "amount": {
+        "value": 14.787,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "4 skinless chicken breasts",
+      "quantity": 4,
+      "quantityMax": null,
+      "unit": null,
+      "item": "skinless chicken breasts",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "chicken-breast",
+      "amount": {
+        "value": 4,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "1 103/4 oz can of cream of chicken soup",
+      "quantity": 26.75,
+      "quantityMax": null,
+      "unit": "oz",
+      "item": "can of cream of chicken soup",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "cream-of-chicken-soup",
+      "amount": {
+        "value": 758.349,
+        "unit": "g"
+      }
+    },
+    {
+      "raw": "¼ cup mayo",
+      "quantity": 0.25,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "mayo",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "mayonnaise",
+      "amount": {
+        "value": 59.147,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 TBSP spicy brown mustard (or Ben’s Mustard)",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "spicy brown mustard",
+      "prep": null,
+      "note": "or Ben’s Mustard",
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "yellow-mustard",
+      "amount": {
+        "value": 14.787,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "2 TBSP honey",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "honey",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "honey",
+      "amount": {
+        "value": 29.574,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "Orange slices, chopped pecans and parsley for garnish",
+      "quantity": null,
+      "quantityMax": null,
+      "unit": null,
+      "item": "Orange slices",
+      "prep": "chopped pecans and parsley for garnish",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "orange",
+      "amount": null
+    }
+  ],
+  "steps": [
+    {
+      "text": "Prepare rice",
+      "group": null
+    },
+    {
+      "text": "Brown chicken in margarine to brown (approx 10 mins).",
+      "group": null
+    },
+    {
+      "text": "Remove and set aside.",
+      "group": null
+    },
+    {
+      "text": "In same skillet, combine soup, mayo, honey and mustard and bring to a boil.",
+      "group": null
+    },
+    {
+      "text": "Return chicken to skillet, reduce heat to low, cover and cook until chicken is no longer pink.",
+      "group": null
+    },
+    {
+      "text": "Garnish with orange slices, chopped pecans and parsley.",
+      "group": null
+    }
+  ],
+  "footnotes": [],
+  "nutrition": null,
+  "importedNotes": [],
+  "seeAlso": [],
+  "source": {
+    "attribution": "Stacey Butcher",
+    "file": "RECIPES/CHICKEN DISHES/Honey Mustard Chicken.doc",
+    "type": "doc",
+    "duplicateFiles": []
+  }
+}

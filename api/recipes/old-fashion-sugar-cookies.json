@@ -1,0 +1,208 @@
+{
+  "schemaVersion": 1,
+  "id": "cf97b17b-1c40-5d1f-a6ad-91b029e040c8",
+  "slug": "old-fashion-sugar-cookies",
+  "title": "Old Fashion Sugar Cookies",
+  "description": null,
+  "category": "Desserts",
+  "subcategory": null,
+  "tags": [],
+  "servings": null,
+  "times": [],
+  "ingredients": [
+    {
+      "raw": "3 ½ to 4 cups all-purpose flour",
+      "quantity": 3.5,
+      "quantityMax": 4,
+      "unit": "cup",
+      "item": "all-purpose flour",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "all-purpose-flour",
+      "amount": {
+        "value": 887.205,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "½  teaspoon baking powder",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "baking powder",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "baking-powder",
+      "amount": {
+        "value": 2.464,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "½  teaspoon baking soda",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "baking soda",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "baking-soda",
+      "amount": {
+        "value": 2.464,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1/8 teaspoon salt",
+      "quantity": 0.125,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "salt",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "salt",
+      "amount": {
+        "value": 0.616,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 ½  cups white sugar",
+      "quantity": 1.5,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "white sugar",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "sugar",
+      "amount": {
+        "value": 354.882,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "¾  cup butter, softened",
+      "quantity": 0.75,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "butter",
+      "prep": "softened",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "butter",
+      "amount": {
+        "value": 177.441,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 egg",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": null,
+      "item": "egg",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "eggs",
+      "amount": {
+        "value": 1,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "1 teaspoon vanilla extract",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "vanilla extract",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "vanilla-extract",
+      "amount": {
+        "value": 4.929,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1/2 teaspoon lemon extract",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "lemon extract",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "lemon-extract",
+      "amount": {
+        "value": 2.464,
+        "unit": "ml"
+      }
+    }
+  ],
+  "steps": [
+    {
+      "text": "In a large bowl, stir together the flour, baking powder, baking soda, salt and sugar.",
+      "group": null
+    },
+    {
+      "text": "Cut in 1 cup of softened butter until the mixture is crumbly. In a separate bowl, beat 2 eggs, 1 teaspoon vanilla and 1/2 teaspoon of lemon extract until light and fluffy",
+      "group": null
+    },
+    {
+      "text": "Pour into the dry ingredients and mix until well blended. Cover bowl and chill for 1 hour.",
+      "group": null
+    },
+    {
+      "text": "Preheat oven to 350 degrees F (175 degrees C). On a heavily floured surface, roll the dough out to 1/4 inch in thickness. Cut into desired shapes with cookie cutters. Place cookies 1 1/2 inches apart onto cookie sheets.",
+      "group": null
+    },
+    {
+      "text": "Bake for 10 to 12 minutes in the preheated oven, until edges begin to brown. You can decorate them with sugar before baking of frost after baking.",
+      "group": null
+    }
+  ],
+  "footnotes": [],
+  "nutrition": null,
+  "importedNotes": [],
+  "seeAlso": [],
+  "source": {
+    "attribution": null,
+    "file": "RECIPES/DESSERTS/Old Fashion Sugar Cookies.doc",
+    "type": "doc",
+    "duplicateFiles": []
+  }
+}

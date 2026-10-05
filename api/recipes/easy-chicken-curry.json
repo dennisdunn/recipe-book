@@ -1,0 +1,228 @@
+{
+  "schemaVersion": 1,
+  "id": "22497dbf-526b-5716-a9da-26457b70e0a0",
+  "slug": "easy-chicken-curry",
+  "title": "Easy Chicken Curry",
+  "description": null,
+  "category": "Chicken Dishes",
+  "subcategory": null,
+  "tags": [
+    "main"
+  ],
+  "servings": null,
+  "times": [],
+  "ingredients": [
+    {
+      "raw": "3 skinless, boneless chicken breast halves - cut into strips",
+      "quantity": 3,
+      "quantityMax": null,
+      "unit": null,
+      "item": "skinless, boneless chicken breast halves - cut into strips",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "chicken-breast",
+      "amount": {
+        "value": 3,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "olive oil",
+      "quantity": null,
+      "quantityMax": null,
+      "unit": null,
+      "item": "olive oil",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "low",
+      "shop": true,
+      "catalogId": "olive-oil",
+      "amount": null
+    },
+    {
+      "raw": "1 large onion, diced",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": null,
+      "item": "large onion",
+      "prep": "diced",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "onion",
+      "amount": {
+        "value": 1,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "Sliced fresh mushrooms",
+      "quantity": null,
+      "quantityMax": null,
+      "unit": null,
+      "item": "Sliced fresh mushrooms",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "low",
+      "shop": true,
+      "catalogId": "mushrooms",
+      "amount": null
+    },
+    {
+      "raw": "Peas",
+      "quantity": null,
+      "quantityMax": null,
+      "unit": null,
+      "item": "Peas",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "low",
+      "shop": true,
+      "catalogId": "frozen-peas",
+      "amount": null
+    },
+    {
+      "raw": "1 Tbsp curry powder, or to taste",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "curry powder",
+      "prep": null,
+      "note": "to taste",
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "curry-powder",
+      "amount": {
+        "value": 14.787,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "Hot pepper flakes",
+      "quantity": null,
+      "quantityMax": null,
+      "unit": null,
+      "item": "Hot pepper flakes",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "low",
+      "shop": true,
+      "catalogId": "red-pepper-flakes",
+      "amount": null
+    },
+    {
+      "raw": "1 cup chicken broth",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "chicken broth",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "chicken-broth",
+      "amount": {
+        "value": 236.588,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "¼ cup unsweetened coconut milk",
+      "quantity": 0.25,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "unsweetened coconut milk",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "coconut-milk",
+      "amount": {
+        "value": 59.147,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "Texmati rice",
+      "quantity": null,
+      "quantityMax": null,
+      "unit": null,
+      "item": "Texmati rice",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "low",
+      "shop": true,
+      "catalogId": "rice",
+      "amount": null
+    },
+    {
+      "raw": "Mango chutney",
+      "quantity": null,
+      "quantityMax": null,
+      "unit": null,
+      "item": "Mango chutney",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "low",
+      "shop": true,
+      "catalogId": "chutney",
+      "amount": null
+    }
+  ],
+  "steps": [
+    {
+      "text": "Heat oil in a large skillet over medium heat. Brown chicken in olive oil.",
+      "group": null
+    },
+    {
+      "text": "In separate plan, sauté onion until soft and golden brown. Add mushrooms and peas to onion and when heated, add curry, pepper flakes, chicken broth and coconut milk.",
+      "group": null
+    },
+    {
+      "text": "Once ingredients are blended together, add chicken breasts. Cover and simmer over medium low heat for about 45 minutes until chicken is no longer pink inside.",
+      "group": null
+    },
+    {
+      "text": "Remove cover from skillet and cook for an additional 15 minutes, until sauce reduces. (Note: Make sure that you stir and that dish does not burn, as curry powder burns very easily!)",
+      "group": null
+    },
+    {
+      "text": "Serve over Texmati rice and serve with a side of mango chutney.",
+      "group": null
+    }
+  ],
+  "footnotes": [],
+  "nutrition": null,
+  "importedNotes": [],
+  "seeAlso": [],
+  "source": {
+    "attribution": null,
+    "file": "RECIPES/CHICKEN DISHES/Easy Chicken Curry.doc",
+    "type": "doc",
+    "duplicateFiles": []
+  }
+}

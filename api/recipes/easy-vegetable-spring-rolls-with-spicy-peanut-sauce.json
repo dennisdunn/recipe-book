@@ -1,0 +1,260 @@
+{
+  "schemaVersion": 1,
+  "id": "b4226165-ce01-5fa0-891a-ad97ca9f7cfe",
+  "slug": "easy-vegetable-spring-rolls-with-spicy-peanut-sauce",
+  "title": "Easy Vegetable Spring Rolls with Spicy Peanut Sauce",
+  "description": null,
+  "category": "Dips, Rubs, Sauces & Marinades",
+  "subcategory": null,
+  "tags": [],
+  "servings": {
+    "text": "Makes enough for one hungry person’s lunch.",
+    "amount": null
+  },
+  "times": [],
+  "ingredients": [
+    {
+      "raw": "2 heaping TBSP peanut butter",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "peanut butter",
+      "prep": null,
+      "note": null,
+      "group": "Spicy peanut sauce",
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "peanut-butter",
+      "amount": {
+        "value": 29.574,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1/4 tsp Sriracha (a little more if you like more heat; you can also use sweet chili sauce)",
+      "quantity": 0.25,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "Sriracha",
+      "prep": null,
+      "note": "a little more if you like more heat; you can also use sweet chili sauce",
+      "group": "Spicy peanut sauce",
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "sriracha",
+      "amount": {
+        "value": 1.232,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1/2 tsp soy sauce",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "soy sauce",
+      "prep": null,
+      "note": null,
+      "group": "Spicy peanut sauce",
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "soy-sauce",
+      "amount": {
+        "value": 2.464,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1/4 tsp brown sugar",
+      "quantity": 0.25,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "brown sugar",
+      "prep": null,
+      "note": null,
+      "group": "Spicy peanut sauce",
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "brown-sugar",
+      "amount": {
+        "value": 1.232,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "4 or 5 spring roll skins (see above, available at Asian grocers and the Asian aisle of most supermarkets)",
+      "quantity": 4,
+      "quantityMax": 5,
+      "unit": null,
+      "item": "spring roll skins",
+      "prep": null,
+      "note": "see above, available at Asian grocers and the Asian aisle of most supermarkets",
+      "group": "Spicy peanut sauce",
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "tortillas",
+      "amount": {
+        "value": 4.5,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "bowl of warm water",
+      "quantity": null,
+      "quantityMax": null,
+      "unit": null,
+      "item": "bowl of warm water",
+      "prep": null,
+      "note": null,
+      "group": "Spicy peanut sauce",
+      "optional": false,
+      "confidence": "low",
+      "shop": true,
+      "catalogId": "water",
+      "amount": null
+    },
+    {
+      "raw": "1 Bibb lettuce leaf",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": null,
+      "item": "Bibb lettuce leaf",
+      "prep": null,
+      "note": null,
+      "group": "Spicy peanut sauce",
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "lettuce",
+      "amount": {
+        "value": 1,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "1 large carrot, peeled and sliced into 2-inch matchsticks",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": null,
+      "item": "large carrot",
+      "prep": "peeled and sliced into 2-inch matchsticks",
+      "note": null,
+      "group": "Spicy peanut sauce",
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "carrot",
+      "amount": {
+        "value": 1,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "1 large cucumber, peeled, seeded, and sliced into 2-inch matchsticks",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": null,
+      "item": "large cucumber, peeled, seeded, and sliced into 2-inch matchsticks",
+      "prep": null,
+      "note": null,
+      "group": "Spicy peanut sauce",
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "cucumber",
+      "amount": {
+        "value": 1,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "a few strands of purple cabbage",
+      "quantity": null,
+      "quantityMax": null,
+      "unit": null,
+      "item": "a few strands of purple cabbage",
+      "prep": null,
+      "note": null,
+      "group": "Spicy peanut sauce",
+      "optional": false,
+      "confidence": "low",
+      "shop": true,
+      "catalogId": "cabbage",
+      "amount": null
+    },
+    {
+      "raw": "1 bunch cilantro leaves, stems removed",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "bunch",
+      "item": "cilantro leaves, stems removed",
+      "prep": null,
+      "note": null,
+      "group": "Spicy peanut sauce",
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "fresh-cilantro",
+      "amount": {
+        "value": 1,
+        "unit": "each",
+        "countUnit": "bunch"
+      }
+    },
+    {
+      "raw": "1/2 avocado, cut into slices",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": null,
+      "item": "avocado",
+      "prep": "cut into slices",
+      "note": null,
+      "group": "Spicy peanut sauce",
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "avocado",
+      "amount": {
+        "value": 0.5,
+        "unit": "each"
+      }
+    }
+  ],
+  "steps": [
+    {
+      "text": "squeeze of lime",
+      "group": null
+    },
+    {
+      "text": "hot water (the hottest you can get from the sink is fine, no need to boil)",
+      "group": null
+    },
+    {
+      "text": "wraps",
+      "group": null
+    },
+    {
+      "text": "Make sauce: Add all ingredients to a measuring cup and stir with a fork. Add a shot or two of hot water and stir vigorously until it reaches desired consistency, adding more water as you see fit. (I like my dipping sauce more on the drizzly side than the thick side.)",
+      "group": null
+    },
+    {
+      "text": "Make wraps: Dip one spring roll skin into warm water for about two seconds. Remove and lay, smooth-side down, on a cutting board. Act fast because the roll gets stickier the longer you wait. Lay down one lettuce leaf in the bottom center of the wrap. (If the wrap is a clock, then think between 8:00 and 4:00) Add a small bunch of vegetables and carefully roll bottom side over filling. Fold in each side of the wrap and continue to roll until it’s all bundled up. Continue with remaining spring roll skins and vegetables. Serve with peanut sauce.",
+      "group": null
+    }
+  ],
+  "footnotes": [],
+  "nutrition": null,
+  "importedNotes": [],
+  "seeAlso": [],
+  "source": {
+    "attribution": null,
+    "file": "RECIPES/DIPS, RUBS, SAUCES & MARINADES/Spring Rolls with Spicy Peanut Sauce.doc",
+    "type": "doc",
+    "duplicateFiles": []
+  }
+}

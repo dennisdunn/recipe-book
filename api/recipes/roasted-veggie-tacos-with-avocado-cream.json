@@ -1,0 +1,405 @@
+{
+  "schemaVersion": 1,
+  "id": "aebcd680-6024-5912-9a12-70e2d0b026ad",
+  "slug": "roasted-veggie-tacos-with-avocado-cream",
+  "title": "Roasted Veggie Tacos with Avocado Cream",
+  "description": null,
+  "category": "Mexican Dishes",
+  "subcategory": null,
+  "tags": [
+    "main"
+  ],
+  "servings": {
+    "text": "Serves: 6",
+    "amount": 6
+  },
+  "times": [
+    {
+      "label": "Prep time",
+      "text": "20 mins."
+    },
+    {
+      "label": "Cook time",
+      "text": "30 mins."
+    }
+  ],
+  "ingredients": [
+    {
+      "raw": "3 small zucchini, diced",
+      "quantity": 3,
+      "quantityMax": null,
+      "unit": null,
+      "item": "small zucchini",
+      "prep": "diced",
+      "note": null,
+      "group": "For Tacos",
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "zucchini",
+      "amount": {
+        "value": 3,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "1 cup fresh mushrooms, sliced",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "fresh mushrooms",
+      "prep": "sliced",
+      "note": null,
+      "group": "For Tacos",
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "mushrooms",
+      "amount": {
+        "value": 236.588,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 ½  medium red onions, diced",
+      "quantity": 1.5,
+      "quantityMax": null,
+      "unit": null,
+      "item": "medium red onions",
+      "prep": "diced",
+      "note": null,
+      "group": "For Tacos",
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "red-onion",
+      "amount": {
+        "value": 1.5,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "1 ½ cups frozen corn, thawed",
+      "quantity": 1.5,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "frozen corn",
+      "prep": "thawed",
+      "note": null,
+      "group": "For Tacos",
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "frozen-corn",
+      "amount": {
+        "value": 354.882,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "3 medium red peppers, diced",
+      "quantity": 3,
+      "quantityMax": null,
+      "unit": null,
+      "item": "medium red peppers",
+      "prep": "diced",
+      "note": null,
+      "group": "For Tacos",
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "bell-pepper",
+      "amount": {
+        "value": 3,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "2 cups cherry tomatoes, sliced in half",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "cherry tomatoes",
+      "prep": "sliced in half",
+      "note": null,
+      "group": "For Tacos",
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "cherry-tomatoes",
+      "amount": {
+        "value": 473.176,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "2 cans black beans, rinsed",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "can",
+      "item": "black beans",
+      "prep": "rinsed",
+      "note": null,
+      "group": "For Tacos",
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "black-beans",
+      "amount": {
+        "value": 2,
+        "unit": "pkg",
+        "package": "can"
+      }
+    },
+    {
+      "raw": "1.4 cup olive oil",
+      "quantity": 1.4,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "olive oil",
+      "prep": null,
+      "note": null,
+      "group": "For Tacos",
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "olive-oil",
+      "amount": {
+        "value": 331.223,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "6 cloves garlic, mince",
+      "quantity": 6,
+      "quantityMax": null,
+      "unit": "clove",
+      "item": "garlic, mince",
+      "prep": null,
+      "note": null,
+      "group": "For Tacos",
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "garlic",
+      "amount": {
+        "value": 6,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "1 tsp salt",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "salt",
+      "prep": null,
+      "note": null,
+      "group": "For Tacos",
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "salt",
+      "amount": {
+        "value": 4.929,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "4 ½ tsp cumin",
+      "quantity": 4.5,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "cumin",
+      "prep": null,
+      "note": null,
+      "group": "For Tacos",
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "cumin",
+      "amount": {
+        "value": 22.18,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "Feta or goat cheese",
+      "quantity": null,
+      "quantityMax": null,
+      "unit": null,
+      "item": "Feta or goat cheese",
+      "prep": null,
+      "note": null,
+      "group": "For Tacos",
+      "optional": false,
+      "confidence": "low",
+      "shop": true,
+      "catalogId": "feta-cheese",
+      "amount": null
+    },
+    {
+      "raw": "Cilantro, freshly chopped",
+      "quantity": null,
+      "quantityMax": null,
+      "unit": null,
+      "item": "Cilantro",
+      "prep": "freshly chopped",
+      "note": null,
+      "group": "For Tacos",
+      "optional": false,
+      "confidence": "low",
+      "shop": true,
+      "catalogId": "fresh-cilantro",
+      "amount": null
+    },
+    {
+      "raw": "12 – 18 small corn or flour tortillas",
+      "quantity": 12,
+      "quantityMax": 18,
+      "unit": null,
+      "item": "small corn or flour tortillas",
+      "prep": null,
+      "note": null,
+      "group": "For Tacos",
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "tortillas",
+      "amount": {
+        "value": 15,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "2 lg ripe avocadoes, halved & pitted",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": null,
+      "item": "lg ripe avocadoes",
+      "prep": "halved & pitted",
+      "note": null,
+      "group": "For Avocado Cream",
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "avocado",
+      "amount": {
+        "value": 2,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "1 cup sour cream",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "sour cream",
+      "prep": null,
+      "note": null,
+      "group": "For Avocado Cream",
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "sour-cream",
+      "amount": {
+        "value": 236.588,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "2 TBSP fresh lime juice",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "fresh lime juice",
+      "prep": null,
+      "note": null,
+      "group": "For Avocado Cream",
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "lime-juice",
+      "amount": {
+        "value": 29.574,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "½ tsp salt",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "salt",
+      "prep": null,
+      "note": null,
+      "group": "For Avocado Cream",
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "salt",
+      "amount": {
+        "value": 2.464,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "½ cup fresh cilantro, chopped",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "fresh cilantro",
+      "prep": "chopped",
+      "note": null,
+      "group": "For Avocado Cream",
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "fresh-cilantro",
+      "amount": {
+        "value": 118.294,
+        "unit": "ml"
+      }
+    }
+  ],
+  "steps": [
+    {
+      "text": "Preheat oven to 425 F.",
+      "group": null
+    },
+    {
+      "text": "Combine veggies, tomatoes and black  beans in a large bowl.",
+      "group": null
+    },
+    {
+      "text": "In a small bowl, whisk together olive oil, garlic, salt and cumin.",
+      "group": null
+    },
+    {
+      "text": "Toss with veggie mixture to coat & spread evenly in a lg roasting pan.",
+      "group": null
+    },
+    {
+      "text": "Roast, stirring every 10 mins until veggies are cooked thru & browned.",
+      "group": null
+    },
+    {
+      "text": "In a serving bowl, mash avocado, sour cream and lime juice until smooth and stir in cilantro to taste.",
+      "group": null
+    },
+    {
+      "text": "Warm tortillas and fill with veggies and avocado cream and top with cheese and cilantro.",
+      "group": null
+    }
+  ],
+  "footnotes": [],
+  "nutrition": null,
+  "importedNotes": [],
+  "seeAlso": [],
+  "source": {
+    "attribution": null,
+    "file": "RECIPES/MEXICAN DISHES/Veggie tacos with avocado cream.doc",
+    "type": "doc",
+    "duplicateFiles": []
+  }
+}

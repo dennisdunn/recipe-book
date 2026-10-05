@@ -1,0 +1,160 @@
+{
+  "schemaVersion": 1,
+  "id": "94ff3e7e-1824-5159-9046-33fd6f418c7a",
+  "slug": "magazine-hummus",
+  "title": "Magazine Hummus",
+  "description": null,
+  "category": "Dips, Rubs, Sauces & Marinades",
+  "subcategory": null,
+  "tags": [],
+  "servings": null,
+  "times": [],
+  "ingredients": [
+    {
+      "raw": "1 (15oz) can Garbanzo beans",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "can",
+      "item": "Garbanzo beans",
+      "prep": null,
+      "note": "package size: 15oz",
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "chickpeas",
+      "amount": {
+        "value": 1,
+        "unit": "pkg",
+        "package": "can",
+        "packageOz": 15
+      }
+    },
+    {
+      "raw": "1/4 cup sesame tahini",
+      "quantity": 0.25,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "sesame tahini",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "tahini",
+      "amount": {
+        "value": 59.147,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1/4 cup lemon juice",
+      "quantity": 0.25,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "lemon juice",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "lemon-juice",
+      "amount": {
+        "value": 59.147,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1/4 cup olive oil",
+      "quantity": 0.25,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "olive oil",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "olive-oil",
+      "amount": {
+        "value": 59.147,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 clove garlic, minced",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "clove",
+      "item": "garlic",
+      "prep": "minced",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "garlic",
+      "amount": {
+        "value": 1,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "1/2 tsp salt",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "salt",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "salt",
+      "amount": {
+        "value": 2.464,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1/4 tsp paprika",
+      "quantity": 0.25,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "paprika",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "paprika",
+      "amount": {
+        "value": 1.232,
+        "unit": "ml"
+      }
+    }
+  ],
+  "steps": [
+    {
+      "text": "To serve: garnish with 1 TBSP fresh parsley and drizzle with olive oil.",
+      "group": null
+    }
+  ],
+  "footnotes": [],
+  "nutrition": {
+    "text": "Calories 84; fat 7g; sodium 156mg; carbs 5g; fiber 1g; protein 2g"
+  },
+  "importedNotes": [],
+  "seeAlso": [],
+  "source": {
+    "attribution": "Magazine recipe (via Deb)",
+    "file": "RECIPES/DIPS, RUBS, SAUCES & MARINADES/Hummus Recipes.doc",
+    "type": "doc",
+    "duplicateFiles": []
+  }
+}

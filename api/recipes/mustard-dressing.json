@@ -1,0 +1,201 @@
+{
+  "schemaVersion": 1,
+  "id": "ad66a58f-8742-5564-89a3-b1a906a11cc8",
+  "slug": "mustard-dressing",
+  "title": "Mustard Dressing",
+  "description": null,
+  "category": "Protein Recipes",
+  "subcategory": "KETO RECIPES",
+  "tags": [
+    "keto"
+  ],
+  "servings": null,
+  "times": [],
+  "ingredients": [
+    {
+      "raw": "3 tablespoons oil (extra-virgin olive oil)",
+      "quantity": 3,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "oil",
+      "prep": null,
+      "note": "extra-virgin olive oil",
+      "group": "Italian vinaigrette",
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "vegetable-oil",
+      "amount": {
+        "value": 44.36,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "2 tablespoons vinegar (white, cider, wine, red wine vinegar, not balsamic)",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "vinegar",
+      "prep": null,
+      "note": "white, cider, wine, red wine vinegar, not balsamic",
+      "group": "Italian vinaigrette",
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "white-vinegar",
+      "amount": {
+        "value": 29.574,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "salt",
+      "quantity": null,
+      "quantityMax": null,
+      "unit": null,
+      "item": "salt",
+      "prep": null,
+      "note": null,
+      "group": "Italian vinaigrette",
+      "optional": false,
+      "confidence": "low",
+      "shop": true,
+      "catalogId": "salt",
+      "amount": null
+    },
+    {
+      "raw": "black pepper (fresh-ground)",
+      "quantity": null,
+      "quantityMax": null,
+      "unit": null,
+      "item": "black pepper",
+      "prep": null,
+      "note": "fresh-ground",
+      "group": "Italian vinaigrette",
+      "optional": false,
+      "confidence": "low",
+      "shop": true,
+      "catalogId": "black-pepper",
+      "amount": null
+    },
+    {
+      "raw": "1/2 teaspoon minced garlic",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "minced garlic",
+      "prep": null,
+      "note": null,
+      "group": "Italian vinaigrette",
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "garlic",
+      "amount": {
+        "value": 2.464,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1/2 teaspoon Italian seasoning",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "Italian seasoning",
+      "prep": null,
+      "note": null,
+      "group": "Italian vinaigrette",
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "italian-seasoning",
+      "amount": {
+        "value": 2.464,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 pinch crushed red pepper flakes (optional)",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "pinch",
+      "item": "crushed red pepper flakes",
+      "prep": null,
+      "note": null,
+      "group": "Italian vinaigrette",
+      "optional": true,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "red-pepper-flakes",
+      "amount": {
+        "value": 0.31,
+        "unit": "ml",
+        "approximate": true
+      }
+    },
+    {
+      "raw": "1 teaspoon prepared mustard (Dijon or spicy brown)",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "prepared mustard",
+      "prep": null,
+      "note": "Dijon or spicy brown",
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "yellow-mustard",
+      "amount": {
+        "value": 4.929,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 - 3 teaspoon honey (optional) or another sweetener, to taste (optional)",
+      "quantity": 1,
+      "quantityMax": 3,
+      "unit": "tsp",
+      "item": "honey or another sweetener",
+      "prep": null,
+      "note": "to taste",
+      "group": null,
+      "optional": true,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "honey",
+      "amount": {
+        "value": 9.858,
+        "unit": "ml"
+      }
+    }
+  ],
+  "steps": [
+    {
+      "text": "Shake all ingredients together in a tightly-lidded container OR whisk together in a small bowl.",
+      "group": null
+    },
+    {
+      "text": "Let stand 10 minutes to rehydrate dried herbs and blend flavors.",
+      "group": null
+    },
+    {
+      "text": "Shake again then dress salad as desired.",
+      "group": null
+    }
+  ],
+  "footnotes": [],
+  "nutrition": null,
+  "importedNotes": [
+    {
+      "text": "Use on strong greens such as escarole, curly endive, and dandelion greens. The sweeter version is good for a vinegar coleslaw."
+    }
+  ],
+  "seeAlso": [],
+  "source": {
+    "attribution": null,
+    "file": "RECIPES/PROTEIN RECIPES/KETO RECIPES/Basic Vinaigrette.doc",
+    "type": "doc",
+    "duplicateFiles": []
+  }
+}

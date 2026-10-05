@@ -1,0 +1,198 @@
+{
+  "schemaVersion": 1,
+  "id": "0a89e35e-2789-5ae7-b8f9-d49cccb88808",
+  "slug": "moms-best-peanut-brittle",
+  "title": "Mom's Best Peanut Brittle",
+  "description": "This is a wonderful peanut brittle that is easy to make and wows everyone! Have all the ingredients for this recipe measured out and ready. This recipe requires that you react quickly. You do not have time to measure ingredients in between steps.",
+  "category": "Snacks",
+  "subcategory": null,
+  "tags": [],
+  "servings": null,
+  "times": [],
+  "ingredients": [
+    {
+      "raw": "1 cup white sugar",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "white sugar",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "sugar",
+      "amount": {
+        "value": 236.588,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "½ cup light corn syrup",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "light corn syrup",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "corn-syrup",
+      "amount": {
+        "value": 118.294,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "¼ tsp salt",
+      "quantity": 0.25,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "salt",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "salt",
+      "amount": {
+        "value": 1.232,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "¼ cup water",
+      "quantity": 0.25,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "water",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "water",
+      "amount": {
+        "value": 59.147,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 ¼ cup raw peanuts or raw Spanish peanuts",
+      "quantity": 1.25,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "raw peanuts or raw Spanish peanuts",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "peanuts",
+      "amount": {
+        "value": 295.735,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "2 tbsp softened butter",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "softened butter",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "butter",
+      "amount": {
+        "value": 29.574,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 tsp baking powder",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "baking powder",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "baking-powder",
+      "amount": {
+        "value": 4.929,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 tsp vanilla",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "vanilla",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "vanilla-extract",
+      "amount": {
+        "value": 4.929,
+        "unit": "ml"
+      }
+    }
+  ],
+  "steps": [
+    {
+      "text": "Butter a large cookie sheet. Set aside.",
+      "group": null
+    },
+    {
+      "text": "Measure all ingredients in advance.",
+      "group": null
+    },
+    {
+      "text": "Have a pot of BOILING water ready so that you can place your sticky utensils in it immediately to help with clean up.",
+      "group": null
+    },
+    {
+      "text": "In a heavy 2 quart saucepan, over medium heat, bring to a boil sugar, corn syrup, salt, and water. Set candy thermometer in place and stir until sugar is dissolved and reaches a temperature of 250 degrees.",
+      "group": null
+    },
+    {
+      "text": "Stir in peanuts and continue cooking. Stir frequently until temperature reaches 300 degrees F (150 degrees C), or until a small amount of mixture dropped into very cold water separates into hard and brittle threads.",
+      "group": null
+    },
+    {
+      "text": "Immediately stir in butter, baking soda and vanilla. Mixture will foam up. Pour at once onto cookie sheet. With 2 forks, lift and pull peanut mixture into rectangle about 14x12 inches; cool. Snap candy into pieces.",
+      "group": null
+    }
+  ],
+  "footnotes": [],
+  "nutrition": null,
+  "importedNotes": [
+    {
+      "text": "Use a digital candy thermometer for accuracy. It must reach 300-degrees F. to be crunchy. Baking soda adds an \"easier bite\" to the peanut brittle, causing it to break when less force is applied. It also causes the sugar base around the peanuts to be opaque. It does this by \"foaming up\" and introducing small bubbles in the sugar syrup. If you use salted peanuts, omit the salt in the recipe."
+    }
+  ],
+  "seeAlso": [],
+  "source": {
+    "attribution": null,
+    "file": "RECIPES/SNACKS/Peanut Brittle (Mom_s Best).doc",
+    "type": "doc",
+    "duplicateFiles": []
+  }
+}

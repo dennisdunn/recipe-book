@@ -1,0 +1,262 @@
+{
+  "schemaVersion": 1,
+  "id": "c1226b6d-f0f2-50b7-8803-30685815e8f4",
+  "slug": "jims-spaghetti-sauce",
+  "title": "Jim's Spaghetti Sauce",
+  "description": null,
+  "category": "Pasta Dishes",
+  "subcategory": null,
+  "tags": [
+    "main"
+  ],
+  "servings": null,
+  "times": [],
+  "ingredients": [
+    {
+      "raw": "3 med onions, chopped",
+      "quantity": 3,
+      "quantityMax": null,
+      "unit": null,
+      "item": "med onions",
+      "prep": "chopped",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "onion",
+      "amount": {
+        "value": 3,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "1 clove garlic, minced",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "clove",
+      "item": "garlic",
+      "prep": "minced",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "garlic",
+      "amount": {
+        "value": 1,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "Olive oil",
+      "quantity": null,
+      "quantityMax": null,
+      "unit": null,
+      "item": "Olive oil",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "low",
+      "shop": true,
+      "catalogId": "olive-oil",
+      "amount": null
+    },
+    {
+      "raw": "Bob Evans regular or Italian Sausage",
+      "quantity": null,
+      "quantityMax": null,
+      "unit": null,
+      "item": "Bob Evans regular or Italian Sausage",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "low",
+      "shop": true,
+      "catalogId": "sausage",
+      "amount": null
+    },
+    {
+      "raw": "1 quart canned tomatoes or large can stewed tomatoes, partially drained",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "qt",
+      "item": "canned tomatoes or large can stewed tomatoes",
+      "prep": "partially drained",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "diced-tomatoes",
+      "amount": {
+        "value": 946.353,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "Large jar Ragu, regular style",
+      "quantity": null,
+      "quantityMax": null,
+      "unit": "jar",
+      "item": "Ragu, regular style",
+      "prep": null,
+      "note": "size: large",
+      "group": null,
+      "optional": false,
+      "confidence": "low",
+      "shop": true,
+      "catalogId": "pasta-sauce",
+      "amount": null
+    },
+    {
+      "raw": "1/2 lb. sliced mushrooms",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "lb",
+      "item": "sliced mushrooms",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "mushrooms",
+      "amount": {
+        "value": 226.796,
+        "unit": "g"
+      }
+    },
+    {
+      "raw": "Dollop dry red wine",
+      "quantity": null,
+      "quantityMax": null,
+      "unit": null,
+      "item": "Dollop dry red wine",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "low",
+      "shop": true,
+      "catalogId": "wine",
+      "amount": null
+    },
+    {
+      "raw": "Bay leaf",
+      "quantity": null,
+      "quantityMax": null,
+      "unit": null,
+      "item": "Bay leaf",
+      "prep": null,
+      "note": null,
+      "group": "Spices",
+      "optional": false,
+      "confidence": "low",
+      "shop": true,
+      "catalogId": "bay-leaf",
+      "amount": null
+    },
+    {
+      "raw": "Red pepper",
+      "quantity": null,
+      "quantityMax": null,
+      "unit": null,
+      "item": "Red pepper",
+      "prep": null,
+      "note": null,
+      "group": "Spices",
+      "optional": false,
+      "confidence": "low",
+      "shop": true,
+      "catalogId": "bell-pepper",
+      "amount": null
+    },
+    {
+      "raw": "Basil",
+      "quantity": null,
+      "quantityMax": null,
+      "unit": null,
+      "item": "Basil",
+      "prep": null,
+      "note": null,
+      "group": "Spices",
+      "optional": false,
+      "confidence": "low",
+      "shop": true,
+      "catalogId": "dried-basil",
+      "amount": null
+    },
+    {
+      "raw": "Ground fennel",
+      "quantity": null,
+      "quantityMax": null,
+      "unit": null,
+      "item": "Ground fennel",
+      "prep": null,
+      "note": null,
+      "group": "Spices",
+      "optional": false,
+      "confidence": "low",
+      "shop": true,
+      "catalogId": "fennel",
+      "amount": null
+    },
+    {
+      "raw": "Parsley",
+      "quantity": null,
+      "quantityMax": null,
+      "unit": null,
+      "item": "Parsley",
+      "prep": null,
+      "note": null,
+      "group": "Spices",
+      "optional": false,
+      "confidence": "low",
+      "shop": true,
+      "catalogId": "dried-parsley",
+      "amount": null
+    },
+    {
+      "raw": "Oregano",
+      "quantity": null,
+      "quantityMax": null,
+      "unit": null,
+      "item": "Oregano",
+      "prep": null,
+      "note": null,
+      "group": "Spices",
+      "optional": false,
+      "confidence": "low",
+      "shop": true,
+      "catalogId": "dried-oregano",
+      "amount": null
+    }
+  ],
+  "steps": [
+    {
+      "text": "Saute onions and garlic in olive oil.",
+      "group": null
+    },
+    {
+      "text": "Brown sausage and drain off greases.",
+      "group": null
+    },
+    {
+      "text": "Add remaining ingredients. Simmer at least 2 to 4 hours.",
+      "group": null
+    }
+  ],
+  "footnotes": [],
+  "nutrition": null,
+  "importedNotes": [],
+  "seeAlso": [],
+  "source": {
+    "attribution": null,
+    "file": "RECIPES/PASTA DISHES/Jim_s Spaghetti Sauce.doc",
+    "type": "doc",
+    "duplicateFiles": []
+  }
+}

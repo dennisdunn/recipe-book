@@ -1,0 +1,137 @@
+{
+  "schemaVersion": 1,
+  "id": "56650fd1-3dd9-5039-8d53-9c71a0afcaaa",
+  "slug": "hidden-mint-cookies-a-paul-dean-recipe",
+  "title": "HIDDEN MINT COOKIES – a Paul Dean recipe",
+  "description": null,
+  "category": "Desserts",
+  "subcategory": null,
+  "tags": [],
+  "servings": null,
+  "times": [],
+  "ingredients": [
+    {
+      "raw": "2 rolls of Sugar Cookie dough",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": null,
+      "item": "rolls of Sugar Cookie dough",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "cookie-dough",
+      "amount": {
+        "value": 2,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "1 package chocolate mint cookies",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "pkg",
+      "item": "chocolate mint cookies",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "cookies",
+      "amount": {
+        "value": 1,
+        "unit": "pkg",
+        "package": "pkg"
+      }
+    },
+    {
+      "raw": "White of one egg, beaten",
+      "quantity": null,
+      "quantityMax": null,
+      "unit": null,
+      "item": "White of one egg, beaten",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "low",
+      "shop": true,
+      "catalogId": "egg-whites",
+      "amount": null
+    },
+    {
+      "raw": "Chocolate sprinkles or finely chopped nuts",
+      "quantity": null,
+      "quantityMax": null,
+      "unit": null,
+      "item": "Chocolate sprinkles or finely chopped nuts",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "low",
+      "shop": true,
+      "catalogId": "sprinkles",
+      "amount": null
+    }
+  ],
+  "steps": [
+    {
+      "text": "Preheat oven to 350 degrees.",
+      "group": null
+    },
+    {
+      "text": "Keep dough refrigerated until ready to use.",
+      "group": null
+    },
+    {
+      "text": "Slice dough in ¼ inch slices for bottom.",
+      "group": null
+    },
+    {
+      "text": "Spread parchment paper on cookie sheet.",
+      "group": null
+    },
+    {
+      "text": "Place slices on paper, allowing 2 inches between cookies.",
+      "group": null
+    },
+    {
+      "text": "Place chocolate cookie in center of bottom cookie slice.",
+      "group": null
+    },
+    {
+      "text": "Slice dough in ¼” slices to cover top of chocolate cookie.",
+      "group": null
+    },
+    {
+      "text": "Bake for 13 minutes. Do not wait for top to brown.",
+      "group": null
+    },
+    {
+      "text": "While still semi- hot, brush centers of cookies with egg white.",
+      "group": null
+    },
+    {
+      "text": "Decorate by sprinkling a light layer of desired topping over center of cookie.",
+      "group": null
+    }
+  ],
+  "footnotes": [],
+  "nutrition": null,
+  "importedNotes": [
+    {
+      "text": "These make 3” diameter cookies. Very large, but very tasty."
+    }
+  ],
+  "seeAlso": [],
+  "source": {
+    "attribution": null,
+    "file": "RECIPES/DESSERTS/Hidden Mint Coookies.doc",
+    "type": "doc",
+    "duplicateFiles": []
+  }
+}

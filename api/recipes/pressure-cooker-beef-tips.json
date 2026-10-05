@@ -1,0 +1,269 @@
+{
+  "schemaVersion": 1,
+  "id": "7fc43486-e7b1-5015-bd0c-a8ad3f931cdd",
+  "slug": "pressure-cooker-beef-tips",
+  "title": "Pressure Cooker Beef Tips",
+  "description": null,
+  "category": "Protein Recipes",
+  "subcategory": "KETO RECIPES",
+  "tags": [
+    "keto",
+    "main"
+  ],
+  "servings": {
+    "text": "Makes: 4 servings",
+    "amount": 4
+  },
+  "times": [
+    {
+      "label": "Prep time",
+      "text": "20 min."
+    },
+    {
+      "label": "Cook time",
+      "text": "15 min."
+    }
+  ],
+  "ingredients": [
+    {
+      "raw": "3 teaspoons olive oil",
+      "quantity": 3,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "olive oil",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "olive-oil",
+      "amount": {
+        "value": 14.787,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 beef top sirloin steak (1 pound), cubed",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "pkg",
+      "item": "beef top sirloin steak",
+      "prep": "cubed",
+      "note": "package size: 1 pound; 1 pound",
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "beef-steak",
+      "amount": {
+        "value": 1,
+        "unit": "pkg",
+        "package": "pkg",
+        "packageOz": 16
+      }
+    },
+    {
+      "raw": "1/2 teaspoon salt",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "salt",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "salt",
+      "amount": {
+        "value": 2.464,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1/4 teaspoon pepper",
+      "quantity": 0.25,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "pepper",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "black-pepper",
+      "amount": {
+        "value": 1.232,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1/3 cup dry red wine or beef broth",
+      "quantity": 0.333,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "dry red wine or beef broth",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "wine",
+      "amount": {
+        "value": 78.784,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1/2 pound sliced baby portabello mushrooms",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "lb",
+      "item": "sliced baby portabello mushrooms",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "mushrooms",
+      "amount": {
+        "value": 226.796,
+        "unit": "g"
+      }
+    },
+    {
+      "raw": "1 small onion, halved and sliced",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": null,
+      "item": "small onion",
+      "prep": "halved and sliced",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "onion",
+      "amount": {
+        "value": 1,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "2 cups beef broth",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "beef broth",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "beef-broth",
+      "amount": {
+        "value": 473.176,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 tablespoon Worcestershire sauce",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "Worcestershire sauce",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "worcestershire-sauce",
+      "amount": {
+        "value": 14.787,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "3 to 4 tablespoons cornstarch",
+      "quantity": 3,
+      "quantityMax": 4,
+      "unit": "tbsp",
+      "item": "cornstarch",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "cornstarch",
+      "amount": {
+        "value": 51.754,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1/4 cup cold water",
+      "quantity": 0.25,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "cold water",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "water",
+      "amount": {
+        "value": 59.147,
+        "unit": "ml"
+      }
+    }
+  ],
+  "steps": [
+    {
+      "text": "Select saute setting on a 6-qt. electric pressure cooker and adjust for high heat.",
+      "group": null
+    },
+    {
+      "text": "Add 2 teaspoons oil. Sprinkle beef with salt and pepper. Use the saute feature to brown the beef for added flavor. Brown meat in batches, adding oil as needed. Transfer meat to a bowl.",
+      "group": null
+    },
+    {
+      "text": "Add wine to cooker, stirring to loosen browned bits.",
+      "group": null
+    },
+    {
+      "text": "Return beef to cooker; add mushrooms, onion, broth and Worcestershire sauce. Lock lid; make sure vent is closed.",
+      "group": null
+    },
+    {
+      "text": "Select manual setting; adjust pressure to high and set time for 15 minutes. When finished cooking, quick-release pressure according to manufacturer's directions.",
+      "group": null
+    },
+    {
+      "text": "Select saute setting and adjust for high heat; bring liquid to a boil. In a small bowl, mix cornstarch and water until smooth; gradually stir into beef mixture. Cook and stir until sauce is thickened, 1-2 minutes.",
+      "group": null
+    },
+    {
+      "text": "The next day, stir a little heavy cream or sour cream into leftover sauce and (carb alert) serve over mashed potatoes, rice or pasta.",
+      "group": null
+    }
+  ],
+  "footnotes": [],
+  "nutrition": null,
+  "importedNotes": [],
+  "seeAlso": [],
+  "source": {
+    "attribution": null,
+    "file": "RECIPES/PROTEIN RECIPES/KETO RECIPES/Pressure Cooker Beef Tips.doc",
+    "type": "doc",
+    "duplicateFiles": []
+  }
+}

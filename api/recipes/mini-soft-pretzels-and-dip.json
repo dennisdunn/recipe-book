@@ -1,0 +1,145 @@
+{
+  "schemaVersion": 1,
+  "id": "ac1ed6b5-8051-5a9f-a9d5-7c2a6a7e7f05",
+  "slug": "mini-soft-pretzels-and-dip",
+  "title": "Mini Soft Pretzels and Dip",
+  "description": null,
+  "category": "Snacks",
+  "subcategory": null,
+  "tags": [],
+  "servings": null,
+  "times": [],
+  "ingredients": [
+    {
+      "raw": "1 can (11 oz) Pillsbury® refrigerated breadsticks",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "can",
+      "item": "Pillsbury® refrigerated breadsticks",
+      "prep": null,
+      "note": "package size: 11 oz",
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "biscuits",
+      "amount": {
+        "value": 1,
+        "unit": "pkg",
+        "package": "can",
+        "packageOz": 11
+      }
+    },
+    {
+      "raw": "1 egg, beaten",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": null,
+      "item": "egg, beaten",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "eggs",
+      "amount": {
+        "value": 1,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "Kosher (coarse) salt, if desired",
+      "quantity": null,
+      "quantityMax": null,
+      "unit": null,
+      "item": "Kosher  salt",
+      "prep": "if desired",
+      "note": "coarse",
+      "group": null,
+      "optional": false,
+      "confidence": "low",
+      "shop": true,
+      "catalogId": "salt",
+      "amount": null
+    },
+    {
+      "raw": "1 jar (5 oz) pasteurized process cheese spread with bacon",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "jar",
+      "item": "pasteurized process cheese spread with bacon",
+      "prep": null,
+      "note": "package size: 5 oz",
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "american-cheese",
+      "amount": {
+        "value": 1,
+        "unit": "pkg",
+        "package": "jar",
+        "packageOz": 5
+      }
+    },
+    {
+      "raw": "2 tablespoons milk",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "milk",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "milk",
+      "amount": {
+        "value": 29.574,
+        "unit": "ml"
+      }
+    }
+  ],
+  "steps": [
+    {
+      "text": "Heat oven to 375°F. Unroll dough; separate into 12 breadsticks. Cut each in half. Roll each breadstick lightly to form 10-inch-long rope.",
+      "group": null
+    },
+    {
+      "text": "To shape each pretzel, shape rope into a circle, overlapping dough about 2 inches from each end, leaving ends free. Take 1 end in each hand; twist once at point where dough overlaps. Lift ends over opposite side of circle.",
+      "group": null
+    },
+    {
+      "text": "Place 1 inch apart on ungreased cookie sheet. Brush each with beaten egg; sprinkle with Kosher salt.",
+      "group": null
+    },
+    {
+      "text": "Bake 13 to 15 minutes or until golden brown.",
+      "group": null
+    },
+    {
+      "text": "Meanwhile, in small microwavable bowl, mix cheese spread and milk.",
+      "group": null
+    },
+    {
+      "text": "Microwave on high 1 min, stirring once halfway through cooking, until melted and hot.",
+      "group": null
+    },
+    {
+      "text": "Remove pretzels from cookie sheet. Serve warm pretzels with warm cheese dip.",
+      "group": null
+    }
+  ],
+  "footnotes": [],
+  "nutrition": null,
+  "importedNotes": [],
+  "seeAlso": [],
+  "source": {
+    "attribution": null,
+    "file": "RECIPES/SNACKS/Mini Soft Pretzels and Dip.doc",
+    "type": "doc",
+    "duplicateFiles": []
+  }
+}

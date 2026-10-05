@@ -1,0 +1,292 @@
+{
+  "schemaVersion": 1,
+  "id": "b164b8cf-78fc-5a55-afb4-3ecd5ae2d7be",
+  "slug": "chicken-primavera-alfredo",
+  "title": "Chicken Primavera Alfredo",
+  "description": "\"Chicken strips, green and red bell peppers, and mushrooms are cooked in butter, then stirred into a creamy, comforting Alfredo sauce with fettuccini.\"",
+  "category": "Pasta Dishes",
+  "subcategory": null,
+  "tags": [
+    "main"
+  ],
+  "servings": {
+    "text": "Servings: 6",
+    "amount": 6
+  },
+  "times": [
+    {
+      "label": "Prep time",
+      "text": "20 Minutes"
+    },
+    {
+      "label": "Ready in",
+      "text": "50 Minutes"
+    },
+    {
+      "label": "Cook time",
+      "text": "30 Minutes"
+    }
+  ],
+  "ingredients": [
+    {
+      "raw": "1 pound fettuccine pasta",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "lb",
+      "item": "fettuccine pasta",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "fettuccine",
+      "amount": {
+        "value": 453.592,
+        "unit": "g"
+      }
+    },
+    {
+      "raw": "1/4 cup butter",
+      "quantity": 0.25,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "butter",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "butter",
+      "amount": {
+        "value": 59.147,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "2 skinless, boneless chicken breast halves, cut into strips",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": null,
+      "item": "skinless, boneless chicken breast halves, cut into strips",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "chicken-breast",
+      "amount": {
+        "value": 2,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "1 clove garlic, minced, or more to taste",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "clove",
+      "item": "garlic, minced, or more",
+      "prep": null,
+      "note": "to taste",
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "garlic",
+      "amount": {
+        "value": 1,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "8 ounces sliced fresh mushrooms",
+      "quantity": 8,
+      "quantityMax": null,
+      "unit": "oz",
+      "item": "sliced fresh mushrooms",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "mushrooms",
+      "amount": {
+        "value": 226.796,
+        "unit": "g"
+      }
+    },
+    {
+      "raw": "1 green bell pepper, sliced",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": null,
+      "item": "green bell pepper",
+      "prep": "sliced",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "bell-pepper",
+      "amount": {
+        "value": 1,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "1 red bell pepper, sliced",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": null,
+      "item": "red bell pepper",
+      "prep": "sliced",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "bell-pepper",
+      "amount": {
+        "value": 1,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "1/4 cup butter",
+      "quantity": 0.25,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "butter",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "butter",
+      "amount": {
+        "value": 59.147,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "heavy whipping cream to thin sauce",
+      "quantity": null,
+      "quantityMax": null,
+      "unit": null,
+      "item": "heavy whipping cream to thin sauce",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "low",
+      "shop": true,
+      "catalogId": "heavy-cream",
+      "amount": null
+    },
+    {
+      "raw": "1/2 cup grated Parmesan cheese",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "grated Parmesan cheese",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "parmesan-cheese",
+      "amount": {
+        "value": 118.294,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "4-6 ounce cream cheese, cut into pieces",
+      "quantity": 4,
+      "quantityMax": 6,
+      "unit": "oz",
+      "item": "cream cheese",
+      "prep": "cut into pieces",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "cream-cheese",
+      "amount": {
+        "value": 141.748,
+        "unit": "g"
+      }
+    },
+    {
+      "raw": "salt and ground black pepper to taste",
+      "quantity": null,
+      "quantityMax": null,
+      "unit": null,
+      "item": "salt and ground black pepper",
+      "prep": null,
+      "note": "to taste",
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "salt",
+      "amount": null
+    },
+    {
+      "raw": "1 egg, beaten",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": null,
+      "item": "egg, beaten",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "eggs",
+      "amount": {
+        "value": 1,
+        "unit": "each"
+      }
+    }
+  ],
+  "steps": [
+    {
+      "text": "Fill a large pot with lightly salted water and bring to a rolling boil. Stir in the fettuccine, bring back to a boil, and cook pasta over medium heat until cooked through but still firm to the bite, about 8 minutes. Drain.",
+      "group": null
+    },
+    {
+      "text": "Melt 1/4 cup butter in a large skillet over medium heat; cook and stir chicken and garlic in butter until chicken is browned. Add mushrooms, green bell pepper, and red bell pepper; cook and stir until vegetables are tender.",
+      "group": null
+    },
+    {
+      "text": "Melt remaining 1/4 cup butter with half the heavy cream in a large saucepan over medium heat. Gradually add Parmesan cheese, alternating with pieces of cream cheese, stirring constantly. Stir in remaining heavy cream, simmering until sauce has thickened, about 5 minutes. Stir chicken and vegetable mixture into cream sauce.",
+      "group": null
+    },
+    {
+      "text": "Transfer pasta to the saucepan and stir in egg. Cook and stir for 1 minute and serve immediately.",
+      "group": null
+    }
+  ],
+  "footnotes": [],
+  "nutrition": null,
+  "importedNotes": [
+    {
+      "text": "I only used 1/2 cup butter total. 1/4 cup for the chicken/veggies and 1/4 cup to make the alfredo sauce. I used a whole 8oz. pkg, of sliced mushrooms (I used baby bella), 4oz. cream cheese and only used part of the other cup of heavy cream (just enough to thin the sauce out a bit). The sauce was so good that I was afraid to ruin it by adding the egg, so I omitted it, lol. It was still plenty for 1# of pasta."
+    }
+  ],
+  "seeAlso": [],
+  "source": {
+    "attribution": null,
+    "file": "RECIPES/PASTA DISHES/Chicken Primavera Alfredo.doc",
+    "type": "doc",
+    "duplicateFiles": []
+  }
+}

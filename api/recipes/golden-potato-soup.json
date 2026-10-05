@@ -1,0 +1,276 @@
+{
+  "schemaVersion": 1,
+  "id": "1b8a2762-1184-5627-8d37-4176163c95c4",
+  "slug": "golden-potato-soup",
+  "title": "Golden Potato Soup",
+  "description": null,
+  "category": "Soups and Stews",
+  "subcategory": null,
+  "tags": [
+    "main"
+  ],
+  "servings": null,
+  "times": [],
+  "ingredients": [
+    {
+      "raw": "3 cups cubed Yukon potatoes or frozen hash browns",
+      "quantity": 3,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "cubed Yukon potatoes or frozen hash browns",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "potato",
+      "amount": {
+        "value": 709.764,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "½ cup chopped celery",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "chopped celery",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "celery",
+      "amount": {
+        "value": 118.294,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "½ cup chopped onion",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "chopped onion",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "onion",
+      "amount": {
+        "value": 118.294,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 cube chicken bouillon",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": null,
+      "item": "cube chicken bouillon",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "chicken-broth",
+      "amount": {
+        "value": 1,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "1 cup water",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "water",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "water",
+      "amount": {
+        "value": 236.588,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 tsp dried parsley",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "dried parsley",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "dried-parsley",
+      "amount": {
+        "value": 4.929,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "½ tsp salt",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "salt",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "salt",
+      "amount": {
+        "value": 2.464,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "¼ tsp black pepper",
+      "quantity": 0.25,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "black pepper",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "black-pepper",
+      "amount": {
+        "value": 1.232,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "2 tsp all-purpose flour",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "all-purpose flour",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "all-purpose-flour",
+      "amount": {
+        "value": 9.858,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 ½ cups milk",
+      "quantity": 1.5,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "milk",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "milk",
+      "amount": {
+        "value": 354.882,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "½ cup shredded American cheese",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "shredded American cheese",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "american-cheese",
+      "amount": {
+        "value": 118.294,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 cup chopped ham, bacon or smoked sausage",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "chopped ham, bacon or smoked sausage",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "ham",
+      "amount": {
+        "value": 236.588,
+        "unit": "ml"
+      }
+    }
+  ],
+  "steps": [
+    {
+      "text": "In a large stock pot saute celery and onion in butter.",
+      "group": null
+    },
+    {
+      "text": "Add potatoes, chicken bouillon, water and parsley flakes.",
+      "group": null
+    },
+    {
+      "text": "Season with salt and pepper",
+      "group": null
+    },
+    {
+      "text": "Simmer until vegetables become tender.",
+      "group": null
+    },
+    {
+      "text": "In a separate bowl mix flour and milk. Once it is well blended, add to soup mixture and cook until soup becomes thick.",
+      "group": null
+    },
+    {
+      "text": "Stir in cheese and cooked ham (smoked sausage) and simmer until cheese is melted.",
+      "group": null
+    },
+    {
+      "text": "Garnish with green onions, shredded cheese and crumbled bacon.",
+      "group": null
+    }
+  ],
+  "footnotes": [],
+  "nutrition": null,
+  "importedNotes": [
+    {
+      "text": "I substituted cheddar cheese for the american cheese and bacon for the ham. Fry the bacon and set it aside; use 2 tbsp of bacon drippings to sautee the onion & celery."
+    }
+  ],
+  "seeAlso": [],
+  "source": {
+    "attribution": null,
+    "file": "RECIPES/SOUPS AND STEWS/Potato Soup, Golden.doc",
+    "type": "doc",
+    "duplicateFiles": []
+  }
+}

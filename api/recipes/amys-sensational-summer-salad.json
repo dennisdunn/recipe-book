@@ -1,0 +1,227 @@
+{
+  "schemaVersion": 1,
+  "id": "595a8c82-7210-5774-9e72-d8311feb47e3",
+  "slug": "amys-sensational-summer-salad",
+  "title": "Amy's Sensational Summer Salad",
+  "description": null,
+  "category": "Salads",
+  "subcategory": null,
+  "tags": [
+    "main"
+  ],
+  "servings": null,
+  "times": [],
+  "ingredients": [
+    {
+      "raw": "3 (6 ounce) skinless, boneless chicken breast halves",
+      "quantity": 3,
+      "quantityMax": null,
+      "unit": "pkg",
+      "item": "skinless, boneless chicken breast halves",
+      "prep": null,
+      "note": "package size: 6 ounce",
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "chicken-breast",
+      "amount": {
+        "value": 3,
+        "unit": "pkg",
+        "package": "pkg",
+        "packageOz": 6
+      }
+    },
+    {
+      "raw": "1 cup Italian-style salad dressing",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "Italian-style salad dressing",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "salad-dressing",
+      "amount": {
+        "value": 236.588,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 Granny Smith apple, cored and diced",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": null,
+      "item": "Granny Smith apple",
+      "prep": "cored and diced",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "apple",
+      "amount": {
+        "value": 1,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "2 tablespoons lemon juice",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "lemon juice",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "lemon-juice",
+      "amount": {
+        "value": 29.574,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 head romaine lettuce, chopped",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "head",
+      "item": "romaine lettuce",
+      "prep": "chopped",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "lettuce",
+      "amount": {
+        "value": 1,
+        "unit": "each",
+        "countUnit": "head"
+      }
+    },
+    {
+      "raw": "1 avocado, diced",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": null,
+      "item": "avocado",
+      "prep": "diced",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "avocado",
+      "amount": {
+        "value": 1,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "4 ounces feta cheese, crumbled",
+      "quantity": 4,
+      "quantityMax": null,
+      "unit": "oz",
+      "item": "feta cheese",
+      "prep": "crumbled",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "feta-cheese",
+      "amount": {
+        "value": 113.398,
+        "unit": "g"
+      }
+    },
+    {
+      "raw": "1 1/2 cups diced fresh strawberries",
+      "quantity": 1.5,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "diced fresh strawberries",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "strawberries",
+      "amount": {
+        "value": 354.882,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 cup dried cranberries",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "dried cranberries",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "dried-cranberries",
+      "amount": {
+        "value": 236.588,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "3/4 cup balsamic vinaigrette, or to taste",
+      "quantity": 0.75,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "balsamic vinaigrette",
+      "prep": null,
+      "note": "to taste",
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "salad-dressing",
+      "amount": {
+        "value": 177.441,
+        "unit": "ml"
+      }
+    }
+  ],
+  "steps": [
+    {
+      "text": "Place the chicken breasts and Italian dressing into a resealable plastic bag. Mix together to coat the chicken with the dressing, squeeze out excess air, and seal the bag. Marinate in the refrigerator for 1 hour.",
+      "group": null
+    },
+    {
+      "text": "Preheat an outdoor grill for medium-high heat, and lightly oil grate.",
+      "group": null
+    },
+    {
+      "text": "Remove the chicken from the marinade, and shake off excess. Discard the remaining marinade. Grill the chicken breasts until no longer pink in the center, or to an internal temperature of 165 degrees F (74 degrees C), about 3 minutes per side. Set aside to cool while preparing the ingredients for salad, then dice.",
+      "group": null
+    },
+    {
+      "text": "Toss the diced apple with the lemon juice in a large mixing bowl until well coated; drain and discard any excess lemon juice. Place the lettuce into the mixing bowl, then sprinkle with the diced chicken, avocado, feta cheese, strawberries, and cranberries. Gently toss the salad with the balsamic vinaigrette, and serve immediately.",
+      "group": null
+    }
+  ],
+  "footnotes": [],
+  "nutrition": null,
+  "importedNotes": [],
+  "seeAlso": [],
+  "source": {
+    "attribution": null,
+    "file": "RECIPES/SALADS/Amy_s summer salad.doc",
+    "type": "doc",
+    "duplicateFiles": []
+  }
+}

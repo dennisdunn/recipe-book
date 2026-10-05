@@ -1,0 +1,257 @@
+{
+  "schemaVersion": 1,
+  "id": "6c67836d-ce1d-5ff1-a411-15b5885bab04",
+  "slug": "roasted-acorn-squash-soup",
+  "title": "Roasted Acorn Squash Soup",
+  "description": null,
+  "category": "Soups and Stews",
+  "subcategory": null,
+  "tags": [],
+  "servings": {
+    "text": "serves 6",
+    "amount": 6
+  },
+  "times": [],
+  "ingredients": [
+    {
+      "raw": "2 acorn squash, halved and seeded",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": null,
+      "item": "acorn squash",
+      "prep": "halved and seeded",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "acorn-squash",
+      "amount": {
+        "value": 2,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "water, as needed",
+      "quantity": null,
+      "quantityMax": null,
+      "unit": null,
+      "item": "water, as needed",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "water",
+      "amount": null
+    },
+    {
+      "raw": "3 tablespoons unsalted butter",
+      "quantity": 3,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "unsalted butter",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "butter",
+      "amount": {
+        "value": 44.36,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 large sweet onion, chopped",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": null,
+      "item": "large sweet onion",
+      "prep": "chopped",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "onion",
+      "amount": {
+        "value": 1,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "1 large carrot, peeled and chopped",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": null,
+      "item": "large carrot",
+      "prep": "peeled and chopped",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "carrot",
+      "amount": {
+        "value": 1,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "1 clove garlic, minced",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "clove",
+      "item": "garlic",
+      "prep": "minced",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "garlic",
+      "amount": {
+        "value": 1,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "3 1/2 cups low-sodium chicken stock",
+      "quantity": 3.5,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "low-sodium chicken stock",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "chicken-broth",
+      "amount": {
+        "value": 828.058,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1/4 cup half-and-half",
+      "quantity": 0.25,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "half-and-half",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "half-and-half",
+      "amount": {
+        "value": 59.147,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1/2 teaspoon ground nutmeg",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "ground nutmeg",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "nutmeg",
+      "amount": {
+        "value": 2.464,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1/2 teaspoon ground cinnamon",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "ground cinnamon",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "cinnamon",
+      "amount": {
+        "value": 2.464,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 pinch salt and ground black pepper to taste",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "pinch",
+      "item": "salt and ground black pepper",
+      "prep": null,
+      "note": "to taste",
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "salt",
+      "amount": {
+        "value": 0.31,
+        "unit": "ml",
+        "approximate": true
+      }
+    }
+  ],
+  "steps": [
+    {
+      "text": "Preheat oven to 400 degrees F (200 degrees C).",
+      "group": null
+    },
+    {
+      "text": "Put squash into a baking dish with the cut side down. Pour enough water into the baking dish to cover the bottom.",
+      "group": null
+    },
+    {
+      "text": "Bake in preheated oven until the flesh of the squash is easily pricked with a fork, about 45 minutes. Remove from oven and allow to cool until squash can be handled. Scoop flesh into a bowl and set aside.",
+      "group": null
+    },
+    {
+      "text": "Melt butter in a pot over medium-high heat. Cook onion, carrot, and garlic in melted butter until soft, 5 to 7 minutes. Pour chicken stock into the pot; add the squash.",
+      "group": null
+    },
+    {
+      "text": "Bring the mixture to a simmer and cook for 20 minutes.",
+      "group": null
+    },
+    {
+      "text": "Pour mixture into a blender no more than half full. Cover and hold lid down; pulse a few times before leaving on to blend. Puree in batches until smooth and return to pot.",
+      "group": null
+    },
+    {
+      "text": "Stir half-and-half, nutmeg, and cinnamon through the blended soup; season with salt and pepper. Thin the soup with water if desired",
+      "group": null
+    }
+  ],
+  "footnotes": [],
+  "nutrition": null,
+  "importedNotes": [
+    {
+      "text": "Roasted the onion, carrots and garlic along with the squash. Combined all in a pan with the rest of ingredients and used my immersion blender from other reviews. Only roast garlic for about half an hour, then take out of oven and set aside til ready to use."
+    }
+  ],
+  "seeAlso": [],
+  "source": {
+    "attribution": null,
+    "file": "RECIPES/SOUPS AND STEWS/Roasted Acorn Squash Soup.doc",
+    "type": "doc",
+    "duplicateFiles": []
+  }
+}

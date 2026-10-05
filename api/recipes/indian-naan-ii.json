@@ -1,0 +1,217 @@
+{
+  "schemaVersion": 1,
+  "id": "9a431eff-7043-52fe-9387-cd50047f81aa",
+  "slug": "indian-naan-ii",
+  "title": "Indian Naan II",
+  "description": null,
+  "category": "Indian & Curries",
+  "subcategory": null,
+  "tags": [],
+  "servings": null,
+  "times": [
+    {
+      "label": "Prep time",
+      "text": "25 mins."
+    },
+    {
+      "label": "Cook time",
+      "text": "20 mins. Ready in 2 hrs 25 mins. Yields: 6"
+    }
+  ],
+  "ingredients": [
+    {
+      "raw": "2/3 cup warm water (110 degrees F/45 degrees C)",
+      "quantity": 0.667,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "warm water",
+      "prep": null,
+      "note": "110 degrees F/45 degrees C",
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "water",
+      "amount": {
+        "value": 157.804,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 teaspoon active dry yeast",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "active dry yeast",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "yeast",
+      "amount": {
+        "value": 4.929,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 teaspoon white sugar",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "white sugar",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "sugar",
+      "amount": {
+        "value": 4.929,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "2 cups all-purpose flour",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "all-purpose flour",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "all-purpose-flour",
+      "amount": {
+        "value": 473.176,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 teaspoon salt",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "salt",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "salt",
+      "amount": {
+        "value": 4.929,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1/4 cup ghee",
+      "quantity": 0.25,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "ghee",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "butter",
+      "amount": {
+        "value": 59.147,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "2 tablespoons plain yogurt",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "plain yogurt",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "yogurt",
+      "amount": {
+        "value": 29.574,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "2 teaspoons kalonji (onion seed)",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "kalonji",
+      "prep": null,
+      "note": "onion seed",
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "kalonji",
+      "amount": {
+        "value": 9.858,
+        "unit": "ml"
+      }
+    }
+  ],
+  "steps": [
+    {
+      "text": "Whisk the warm water with the yeast and sugar until the yeast is dissolved. Cover and let stand in a warm place for 10 minutes.",
+      "group": null
+    },
+    {
+      "text": "Sift flour and salt three times into a large bowl add the yeast mixture, half of the ghee and all the yogurt. Mix into a soft dough then knead on a floured surface for about 5 minutes or until dough is smooth and elastic. Place the dough in a large greased bowl, cover and let stand in a warm place for 1 1/2 hours or until the dough is doubled in size .",
+      "group": null
+    },
+    {
+      "text": "Punch down dough then knead for 5 minutes. Divide dough into 6 pieces. Roll each piece out into 8 inch round naans.",
+      "group": null
+    },
+    {
+      "text": "Cover an oven tray with foil and grease the foil. Brush the naan with a little of the remaining ghee and sprinkle with some of the kalonji. Cook naan one at a time under a very hot grill for about 2 minutes on each side or until puffed and just browned.",
+      "group": null
+    }
+  ],
+  "footnotes": [],
+  "nutrition": null,
+  "importedNotes": [
+    {
+      "text": "These came out well! The only thing I did different was add a bit more salt and cook them in a hot pan coated with a bit of oil. My first naan didn't bubble (perhaps too thick). I rolled the rest super thin and got excellent results."
+    },
+    {
+      "text": "\"Proofing\" the yeast means that you must add about 1 Tblsp. of sugar to the warm water and yeast, then allow to double in volume prior to adding any further ingredients (I might not have known that had I not stumbled upon proofing instructions on the package). Also, I found that it took a considerable amount of time for this dough to rise, so keep that in mind when you are planning for this to accompany a meal. High heat was way too extreme a cooking temperature. I burned the first few and ended up keeping the heat on medium-low. This recipe had a wonderful flavor, and you could truly eat them alone with nothing more than a little butter. Tasty!"
+    },
+    {
+      "text": "I used my baking stone and set my oven to 600 degrees rather than use the grill. The baking stone helped to give it the tandoori oven taste. The cooking time was considerably less though, taking about two minutes total, at most. I tried both regular butter and ghee (clarified butter) and found the ghee imparted more of the restaurant taste. Omitted the garlic."
+    },
+    {
+      "text": "Tips to make them bubble up:"
+    },
+    {
+      "text": "Add a 1/2 teaspoon of baking soda and putting a lid on the pan... Do this and bubbles will pop out everywhere and the bread will melt in your mouth..."
+    },
+    {
+      "text": "Roll it as thin as possible. Then when cooking it on the grill only cook it until the grill marks get dark brown, do not let the whole Naan brown. Aside from the grill marks, the rest of the Naan should still be white in color. It's the closest you'll get to the Naan they serve in the Indian restaurants."
+    },
+    {
+      "text": "When pinching the balls, pinch half in each hand, put the two halves together and then make the ball. Let rise, roll out and fry in butter."
+    }
+  ],
+  "seeAlso": [],
+  "source": {
+    "attribution": null,
+    "file": "RECIPES/INDIAN & CURRIES/Indian Naan II.doc",
+    "type": "doc",
+    "duplicateFiles": []
+  }
+}

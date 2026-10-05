@@ -1,0 +1,207 @@
+{
+  "schemaVersion": 1,
+  "id": "d035e4e2-0026-575d-ba68-316819d37832",
+  "slug": "thai-fried-bananas",
+  "title": "Thai Fried Bananas",
+  "description": "\"This is one of my favorite recipes. I have it every time I go to a Thai restaurant topped with coconut ice cream or drizzled with honey. If you have never tried it, now is the time, it's so good! I use Nam, a variety of banana that can be found at most Asian Markets. You can also use sweet potatoes in this recipe.\"",
+  "category": "Snacks",
+  "subcategory": null,
+  "tags": [],
+  "servings": {
+    "text": "Servings: 20",
+    "amount": 20
+  },
+  "times": [
+    {
+      "label": "Prep time",
+      "text": "20 mins."
+    },
+    {
+      "label": "Cook time",
+      "text": "15 mins."
+    }
+  ],
+  "ingredients": [
+    {
+      "raw": "3/4 cup white rice flour",
+      "quantity": 0.75,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "white rice flour",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "other-flour",
+      "amount": {
+        "value": 177.441,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1/4 cup tapioca flour",
+      "quantity": 0.25,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "tapioca flour",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "other-flour",
+      "amount": {
+        "value": 59.147,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "2 tablespoons white sugar",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "white sugar",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "sugar",
+      "amount": {
+        "value": 29.574,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 teaspoon salt",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "salt",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "salt",
+      "amount": {
+        "value": 4.929,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1/2 cup shredded coconut",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "shredded coconut",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "coconut",
+      "amount": {
+        "value": 118.294,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 1/4 cups water",
+      "quantity": 1.25,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "water",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "water",
+      "amount": {
+        "value": 295.735,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "10 bananas",
+      "quantity": 10,
+      "quantityMax": null,
+      "unit": null,
+      "item": "bananas",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "banana",
+      "amount": {
+        "value": 10,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "3 cups oil for frying",
+      "quantity": 3,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "oil for frying",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "vegetable-oil",
+      "amount": {
+        "value": 709.764,
+        "unit": "ml"
+      }
+    }
+  ],
+  "steps": [
+    {
+      "text": "In a medium bowl, mix rice flour, tapioca, sugar, salt and coconut. Stir in water, a little at a time, and mix to form a thick batter.",
+      "group": null
+    },
+    {
+      "text": "Peel the bananas and cut each lengthwise into 3 or 4 pieces. Heat oil in deep-fryer or deep wok to 375 degrees F (190 degrees C).",
+      "group": null
+    },
+    {
+      "text": "Completely coat each banana slice in batter, then fry in hot oil until golden. Drain on paper towels. Serve at once.",
+      "group": null
+    }
+  ],
+  "footnotes": [],
+  "nutrition": null,
+  "importedNotes": [
+    {
+      "text": "I would use the premade mix for bananas sold in the Asian markets next time, too much trouble for nothing better than a cheaper premade mix."
+    },
+    {
+      "text": "A fabulous recipe!! Even better fried with sesame seeds, and drizzled with honey when finished. Ice cream goes perfectly as well."
+    },
+    {
+      "text": "I halved the recipe and followed to the T. The batter came out very thin. I added a tbsp more of both flour and still looked thin. For some reasone after I let it sat for an hour on the counter...it came out thicker, and coated the bananas well. I sprinkle extra coconut on top and drizzled it with condensed milk. It's delicious! Then I tried it with the melted chocolate with a scoop of vanilla ice cream... it's like eating frozen banana but BETTER!"
+    },
+    {
+      "text": "It doesn't get any better than this when they serve them warm drizzled with a sweet Thai honey sauce and served with a Thai vanilla bean coconut ice cream SO GOOD!!!!!"
+    }
+  ],
+  "seeAlso": [],
+  "source": {
+    "attribution": null,
+    "file": "RECIPES/SNACKS/Thai Fried Bananas.doc",
+    "type": "doc",
+    "duplicateFiles": []
+  }
+}

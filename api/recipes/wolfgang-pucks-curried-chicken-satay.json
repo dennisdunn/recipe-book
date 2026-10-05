@@ -1,0 +1,259 @@
+{
+  "schemaVersion": 1,
+  "id": "fcae443c-29d5-58a3-bd2d-c9e3ffd4e0f4",
+  "slug": "wolfgang-pucks-curried-chicken-satay",
+  "title": "Wolfgang Puck's Curried Chicken Satay",
+  "description": "Served at Dellie’s on our return from Washington, DC in May of 2008",
+  "category": "Chicken Dishes",
+  "subcategory": null,
+  "tags": [
+    "main"
+  ],
+  "servings": {
+    "text": "Makes:  24 kabobs",
+    "amount": 24
+  },
+  "times": [
+    {
+      "label": "Prep time",
+      "text": "40 minutes"
+    },
+    {
+      "label": "Cook time",
+      "text": "5 minutes"
+    }
+  ],
+  "ingredients": [
+    {
+      "raw": "1 boneless chicken breast (1 lb)",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "pkg",
+      "item": "boneless chicken breast",
+      "prep": null,
+      "note": "package size: 1 lb; 1 lb",
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "chicken-breast",
+      "amount": {
+        "value": 1,
+        "unit": "pkg",
+        "package": "pkg",
+        "packageOz": 16
+      }
+    },
+    {
+      "raw": "1 ½ tsp curry powder",
+      "quantity": 1.5,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "curry powder",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "curry-powder",
+      "amount": {
+        "value": 7.393,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "½ tsp  ground cumin",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "ground cumin",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "cumin",
+      "amount": {
+        "value": 2.464,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "Salt & pepper",
+      "quantity": null,
+      "quantityMax": null,
+      "unit": null,
+      "item": "Salt & pepper",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "low",
+      "shop": true,
+      "catalogId": "salt",
+      "amount": null
+    },
+    {
+      "raw": "½ cup plus 2 tbsp peanut oil",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "plus 2 tbsp peanut oil",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "vegetable-oil",
+      "amount": {
+        "value": 118.294,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "3 tbsp rice vinegar",
+      "quantity": 3,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "rice vinegar",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "rice-vinegar",
+      "amount": {
+        "value": 44.36,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "2 tbsp mayo",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "mayo",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "mayonnaise",
+      "amount": {
+        "value": 29.574,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 tbsp soy sauce",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "soy sauce",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "soy-sauce",
+      "amount": {
+        "value": 14.787,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "2 tsp chopped fresh mint",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "chopped fresh mint",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "fresh-mint",
+      "amount": {
+        "value": 9.858,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "½ tsp ground coriander",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "ground coriander",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "coriander",
+      "amount": {
+        "value": 2.464,
+        "unit": "ml"
+      }
+    }
+  ],
+  "steps": [
+    {
+      "text": "Soak bamboo skewers in water for 30 minutes",
+      "group": null
+    },
+    {
+      "text": "Thinly slice breast lengthwise, thread lengthwise thru skewers",
+      "group": null
+    },
+    {
+      "text": "Combine curry, cumin, ½ tsp salt and 1 tsp pepper",
+      "group": null
+    },
+    {
+      "text": "Brush chicken with peanut oil & sprinkle with dry ingredients",
+      "group": null
+    },
+    {
+      "text": "Refrigerator 1 hour",
+      "group": null
+    },
+    {
+      "text": "In food processor, combine rice vinegar, mayo, soy, mint, coriander, ¼ tsp salt and ¼ tsp pepper.",
+      "group": null
+    },
+    {
+      "text": "With machine on, drizzle in ½ c peanut oil & process until smooth.",
+      "group": null
+    },
+    {
+      "text": "Transfer vinegarette into dipping bowls & refrigerate until ready to serve",
+      "group": null
+    },
+    {
+      "text": "Preheat stovetop grill over high heat. Grill skewers turning once until cooked and browned, about 2 minutes per side.",
+      "group": null
+    },
+    {
+      "text": "Serve with vinegarette.",
+      "group": null
+    }
+  ],
+  "footnotes": [],
+  "nutrition": null,
+  "importedNotes": [],
+  "seeAlso": [],
+  "source": {
+    "attribution": null,
+    "file": "RECIPES/CHICKEN DISHES/Wolfgang Puck_s Curried Chicken Satay.doc",
+    "type": "doc",
+    "duplicateFiles": []
+  }
+}

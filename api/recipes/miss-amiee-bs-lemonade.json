@@ -1,0 +1,167 @@
+{
+  "schemaVersion": 1,
+  "id": "d3a5c55d-8055-5ffe-b4ec-56fdf9c69d3f",
+  "slug": "miss-amiee-bs-lemonade",
+  "title": "MISS AMIEE B's LEMONADE",
+  "description": "\"This refreshing beverage is a little different from your run-of-the-mill lemonade.        The recipe comes from a charming tearoom in an historic home in St. Louis”",
+  "category": "Snacks",
+  "subcategory": null,
+  "tags": [],
+  "servings": {
+    "text": "Serves: 4",
+    "amount": 4
+  },
+  "times": [
+    {
+      "label": "Prep time",
+      "text": "30 mins."
+    }
+  ],
+  "ingredients": [
+    {
+      "raw": "2 medium lemons",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": null,
+      "item": "medium lemons",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "lemon",
+      "amount": {
+        "value": 2,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "1 1/2 cups sugar",
+      "quantity": 1.5,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "sugar",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "sugar",
+      "amount": {
+        "value": 354.882,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "2 cups milk",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "milk",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "milk",
+      "amount": {
+        "value": 473.176,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "3 cups club soda, chilled",
+      "quantity": 3,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "club soda",
+      "prep": "chilled",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "beer",
+      "amount": {
+        "value": 709.764,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "2 drops yellow food coloring (optional)",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": null,
+      "item": "drops yellow food coloring",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": true,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "food-coloring",
+      "amount": {
+        "value": 2,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "Additional sugar",
+      "quantity": null,
+      "quantityMax": null,
+      "unit": null,
+      "item": "Additional sugar",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "low",
+      "shop": true,
+      "catalogId": "sugar",
+      "amount": null
+    }
+  ],
+  "steps": [
+    {
+      "text": "Remove ends from lemons and discard. Remove lemon peel with a knife and set aside.",
+      "group": null
+    },
+    {
+      "text": "Quarter lemons and squeeze juice and pulp into a bowl. Remove and discard white membrane and seeds.",
+      "group": null
+    },
+    {
+      "text": "Break the peel into half inch chunks and place the peel, juice and pulp in a blender or food processor. Cover and process until coarsely chopped.",
+      "group": null
+    },
+    {
+      "text": "Add sugar to the lemon mixture. Mix well and let stand for 30 minutes.",
+      "group": null
+    },
+    {
+      "text": "Stir in milk and then strain lemon mixture.",
+      "group": null
+    },
+    {
+      "text": "Add club soda and food coloring if desired. Serve immediately in sugar-rimmed glasses if desired.",
+      "group": null
+    }
+  ],
+  "footnotes": [],
+  "nutrition": null,
+  "importedNotes": [
+    {
+      "text": "Plan ahead on how you will strain the lemon mixture with the rind in it. I ended up using a colander because the mixture was too thick for a strainer. I tripled this recipe for the home group so it took about an hour to prepare. Adele"
+    }
+  ],
+  "seeAlso": [],
+  "source": {
+    "attribution": null,
+    "file": "RECIPES/SNACKS/Miss Amiee B_s Lemonade.doc",
+    "type": "doc",
+    "duplicateFiles": []
+  }
+}

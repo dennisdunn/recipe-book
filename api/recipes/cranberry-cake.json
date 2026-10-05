@@ -1,0 +1,254 @@
+{
+  "schemaVersion": 1,
+  "id": "a227bf80-b9cf-5b7f-89b9-fae0fb27f660",
+  "slug": "cranberry-cake",
+  "title": "Cranberry Cake",
+  "description": null,
+  "category": "Desserts",
+  "subcategory": null,
+  "tags": [],
+  "servings": null,
+  "times": [],
+  "ingredients": [
+    {
+      "raw": "3/4 cup sugar",
+      "quantity": 0.75,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "sugar",
+      "prep": null,
+      "note": null,
+      "group": "Cream together",
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "sugar",
+      "amount": {
+        "value": 177.441,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "2 Tbsp butter",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "butter",
+      "prep": null,
+      "note": null,
+      "group": "Cream together",
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "butter",
+      "amount": {
+        "value": 29.574,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 egg",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": null,
+      "item": "egg",
+      "prep": null,
+      "note": null,
+      "group": "Cream together",
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "eggs",
+      "amount": {
+        "value": 1,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "1 cup flour",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "flour",
+      "prep": null,
+      "note": null,
+      "group": "Dry ingredients",
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "all-purpose-flour",
+      "amount": {
+        "value": 236.588,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 tsp baking powder",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "baking powder",
+      "prep": null,
+      "note": null,
+      "group": "Dry ingredients",
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "baking-powder",
+      "amount": {
+        "value": 4.929,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1/4 tsp salt",
+      "quantity": 0.25,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "salt",
+      "prep": null,
+      "note": null,
+      "group": "Dry ingredients",
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "salt",
+      "amount": {
+        "value": 1.232,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1/2 cup milk",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "milk",
+      "prep": null,
+      "note": null,
+      "group": "Dry ingredients",
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "milk",
+      "amount": {
+        "value": 118.294,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 and 1/2 cup cranberries, halved",
+      "quantity": 1.5,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "cranberries",
+      "prep": "halved",
+      "note": null,
+      "group": "Dry ingredients",
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "cranberries",
+      "amount": {
+        "value": 354.882,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 cup half and half",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "half and half",
+      "prep": null,
+      "note": null,
+      "group": "Sauce",
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "half-and-half",
+      "amount": {
+        "value": 236.588,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "2/3 cup sugar",
+      "quantity": 0.667,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "sugar",
+      "prep": null,
+      "note": null,
+      "group": "Sauce",
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "sugar",
+      "amount": {
+        "value": 157.804,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "4 Tbsp butter",
+      "quantity": 4,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "butter",
+      "prep": null,
+      "note": null,
+      "group": "Sauce",
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "butter",
+      "amount": {
+        "value": 59.147,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 Tbsp cornstarch",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "cornstarch",
+      "prep": null,
+      "note": null,
+      "group": "Sauce",
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "cornstarch",
+      "amount": {
+        "value": 14.787,
+        "unit": "ml"
+      }
+    }
+  ],
+  "steps": [
+    {
+      "text": "Cream butter, sugar and egg. Add dry ingredients alternating with milk. Coat cranberries with a bit of flour before adding to mixture. Bake in a 9 x 9 cake pan at 370 degrees for 40 minutes.",
+      "group": null
+    },
+    {
+      "text": "Combine sauce ingredients and cook over low heat, stirring constantly, until thick.  Pour over cake and serve while still warm.",
+      "group": null
+    }
+  ],
+  "footnotes": [],
+  "nutrition": null,
+  "importedNotes": [
+    {
+      "text": "I doubled the ingredients and baked it in a 9 x 13 pan. The cake didn’t rise quite as high as I expected, perhaps due to the weight of the cranberries or the size of the pan, but no one complained!  When I doubled the sauce, I had to reduce the amount of half and half so that it would thicken, then it tasted a little too sweet. So if you double the sauce, reduce the cream and sugar by ¼ cup. You can always add more cream if it gets too thick. Enjoy!"
+    }
+  ],
+  "seeAlso": [],
+  "source": {
+    "attribution": null,
+    "file": "RECIPES/DESSERTS/Cranberry Cake.doc",
+    "type": "doc",
+    "duplicateFiles": []
+  }
+}

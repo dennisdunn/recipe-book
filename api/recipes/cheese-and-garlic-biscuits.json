@@ -1,0 +1,142 @@
+{
+  "schemaVersion": 1,
+  "id": "852cea39-eb46-533d-8aeb-9295b121bbf4",
+  "slug": "cheese-and-garlic-biscuits",
+  "title": "Cheese and Garlic Biscuits",
+  "description": null,
+  "category": "Breads & Cereals",
+  "subcategory": null,
+  "tags": [],
+  "servings": null,
+  "times": [],
+  "ingredients": [
+    {
+      "raw": "2 cups buttermilk baking mix",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "buttermilk baking mix",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "baking-mix",
+      "amount": {
+        "value": 473.176,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "2/3 cup milk",
+      "quantity": 0.667,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "milk",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "milk",
+      "amount": {
+        "value": 157.804,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1/2 cup shredded Cheddar cheese",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "shredded Cheddar cheese",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "cheddar-cheese",
+      "amount": {
+        "value": 118.294,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1/4 cup butter, melted",
+      "quantity": 0.25,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "butter",
+      "prep": "melted",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "butter",
+      "amount": {
+        "value": 59.147,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1/2 teaspoon garlic powder",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "garlic powder",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "garlic-powder",
+      "amount": {
+        "value": 2.464,
+        "unit": "ml"
+      }
+    }
+  ],
+  "steps": [
+    {
+      "text": "Preheat oven to 450 degrees F (230 degrees C).",
+      "group": null
+    },
+    {
+      "text": "Combine baking mix, milk and cheddar cheese in mixing bowl. Beat with wooden spoon till soft dough forms.",
+      "group": null
+    },
+    {
+      "text": "Drop dough by spoonfuls onto ungreased cookie sheet. Bake 8-10 minutes until golden brown.",
+      "group": null
+    },
+    {
+      "text": "Mix butter and garlic powder and brush over warm biscuits before removing from cookie sheet.",
+      "group": null
+    }
+  ],
+  "footnotes": [],
+  "nutrition": null,
+  "importedNotes": [
+    {
+      "text": "I doubled the cheese and used the extra aged super sharp cheddar. I mixed the garlic in with the Bisquik & cheese, and then I put parsley and more garlic in the butter and brushed it on both before and after baking."
+    },
+    {
+      "text": "I melted 1/4 cup butter, added 1/4 tsp garlic powder, dash of salt, and dried parsley flakes, and I used a sharp cheddar cheese."
+    },
+    {
+      "text": "I make smaller biscuits, they cook all the way through and tend not to burn (we get a dozen from the recipe)."
+    }
+  ],
+  "seeAlso": [],
+  "source": {
+    "attribution": null,
+    "file": "RECIPES/BREADS & CEREALS/Cheese and Garlic Biscuits.doc",
+    "type": "doc",
+    "duplicateFiles": []
+  }
+}

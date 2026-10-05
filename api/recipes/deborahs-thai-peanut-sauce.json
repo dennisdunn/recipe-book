@@ -1,0 +1,300 @@
+{
+  "schemaVersion": 1,
+  "id": "89bae717-4f95-597f-8359-0ee717582e0c",
+  "slug": "deborahs-thai-peanut-sauce",
+  "title": "Deborah's Thai Peanut Sauce",
+  "description": null,
+  "category": "Dips, Rubs, Sauces & Marinades",
+  "subcategory": null,
+  "tags": [],
+  "servings": null,
+  "times": [],
+  "ingredients": [
+    {
+      "raw": "2 TBSP Coconut Oil",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "Coconut Oil",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "coconut-oil",
+      "amount": {
+        "value": 29.574,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "2 TBSP scallions",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "scallions",
+      "prep": null,
+      "note": null,
+      "group": "Saute",
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "green-onion",
+      "amount": {
+        "value": 29.574,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "½ cup thinly sliced carrots",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "thinly sliced carrots",
+      "prep": null,
+      "note": null,
+      "group": "Saute",
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "carrot",
+      "amount": {
+        "value": 118.294,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "½ cup thinly sliced green beans",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "thinly sliced green beans",
+      "prep": null,
+      "note": null,
+      "group": "Saute",
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "green-beans",
+      "amount": {
+        "value": 118.294,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "2 TBSP fresh ginger",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "fresh ginger",
+      "prep": null,
+      "note": null,
+      "group": "Saute",
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "ginger",
+      "amount": {
+        "value": 29.574,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 TBSP ginger juice",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "ginger juice",
+      "prep": null,
+      "note": null,
+      "group": "Saute",
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "ginger",
+      "amount": {
+        "value": 14.787,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 small tomato",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": null,
+      "item": "small tomato",
+      "prep": null,
+      "note": null,
+      "group": "Saute",
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "tomato",
+      "amount": {
+        "value": 1,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "½ can chicken stock",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "can",
+      "item": "chicken stock",
+      "prep": null,
+      "note": null,
+      "group": "Saute",
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "chicken-broth",
+      "amount": {
+        "value": 0.5,
+        "unit": "pkg",
+        "package": "can"
+      }
+    },
+    {
+      "raw": "¼ cup peanut butter",
+      "quantity": 0.25,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "peanut butter",
+      "prep": null,
+      "note": null,
+      "group": "Saute",
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "peanut-butter",
+      "amount": {
+        "value": 59.147,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "½ tsp curry powder",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "curry powder",
+      "prep": null,
+      "note": null,
+      "group": "Saute",
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "curry-powder",
+      "amount": {
+        "value": 2.464,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "Dash of cayenne pepper",
+      "quantity": null,
+      "quantityMax": null,
+      "unit": "dash",
+      "item": "cayenne pepper",
+      "prep": null,
+      "note": null,
+      "group": "Saute",
+      "optional": false,
+      "confidence": "low",
+      "shop": true,
+      "catalogId": "cayenne",
+      "amount": null
+    },
+    {
+      "raw": "Dash of salt",
+      "quantity": null,
+      "quantityMax": null,
+      "unit": "dash",
+      "item": "salt",
+      "prep": null,
+      "note": null,
+      "group": "Saute",
+      "optional": false,
+      "confidence": "low",
+      "shop": true,
+      "catalogId": "salt",
+      "amount": null
+    },
+    {
+      "raw": "Handful of chopped cilantro",
+      "quantity": null,
+      "quantityMax": null,
+      "unit": null,
+      "item": "Handful of chopped cilantro",
+      "prep": null,
+      "note": null,
+      "group": "Saute",
+      "optional": false,
+      "confidence": "low",
+      "shop": true,
+      "catalogId": "fresh-cilantro",
+      "amount": null
+    },
+    {
+      "raw": "Juice of 1 lime",
+      "quantity": null,
+      "quantityMax": null,
+      "unit": null,
+      "item": "Juice of 1 lime",
+      "prep": null,
+      "note": null,
+      "group": "Saute",
+      "optional": false,
+      "confidence": "low",
+      "shop": true,
+      "catalogId": "lime",
+      "amount": {
+        "value": 1,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "2 TBSP brown sugar",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "brown sugar",
+      "prep": null,
+      "note": null,
+      "group": "Saute",
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "brown-sugar",
+      "amount": {
+        "value": 29.574,
+        "unit": "ml"
+      }
+    }
+  ],
+  "steps": [
+    {
+      "text": "Add ½ can coconut milk",
+      "group": null
+    },
+    {
+      "text": "Serve over jasmine rice",
+      "group": null
+    },
+    {
+      "text": "(add 1 cup of cut up chicken if available)",
+      "group": null
+    }
+  ],
+  "footnotes": [],
+  "nutrition": null,
+  "importedNotes": [],
+  "seeAlso": [],
+  "source": {
+    "attribution": null,
+    "file": "RECIPES/DIPS, RUBS, SAUCES & MARINADES/Deb_s Thai Peanut Sauce.doc",
+    "type": "doc",
+    "duplicateFiles": []
+  }
+}

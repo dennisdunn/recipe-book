@@ -1,0 +1,185 @@
+{
+  "schemaVersion": 1,
+  "id": "acb882a1-947f-5dba-b5b9-9ace42fce0f7",
+  "slug": "sweet-coated-pecans",
+  "title": "Sweet Coated Pecans",
+  "description": "Sweet flavored pecans with a cinnamon twist.",
+  "category": "Salads",
+  "subcategory": null,
+  "tags": [],
+  "servings": null,
+  "times": [
+    {
+      "label": "Prep time",
+      "text": "10 Min"
+    },
+    {
+      "label": "Cook time",
+      "text": "1 Hr"
+    },
+    {
+      "label": "Ready in",
+      "text": "1 Hr 10 Min"
+    }
+  ],
+  "ingredients": [
+    {
+      "raw": "1 egg white",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": null,
+      "item": "egg white",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "egg-whites",
+      "amount": {
+        "value": 1,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "1 teaspoon ground cinnamon",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "ground cinnamon",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "cinnamon",
+      "amount": {
+        "value": 4.929,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 cup sugar  (or ½ c sugar and ½ c brown sugar)",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "sugar",
+      "prep": null,
+      "note": "or 1/2 c sugar and 1/2 c brown sugar",
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "sugar",
+      "amount": {
+        "value": 236.588,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "3/4 teaspoon salt",
+      "quantity": 0.75,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "salt",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "salt",
+      "amount": {
+        "value": 3.697,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 1/2  tablespoons water",
+      "quantity": 1.5,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "water",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "water",
+      "amount": {
+        "value": 22.18,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 tsp real vanilla",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "real vanilla",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "vanilla-extract",
+      "amount": {
+        "value": 4.929,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 pound pecan halves",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "lb",
+      "item": "pecan halves",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "pecans",
+      "amount": {
+        "value": 453.592,
+        "unit": "g"
+      }
+    }
+  ],
+  "steps": [
+    {
+      "text": "Preheat oven to 250 degrees F (120 degrees C). Lightly butter a baking sheet.",
+      "group": null
+    },
+    {
+      "text": "In a bowl, beat the egg white until foamy. Mix in cinnamon, sugar, salt, and water. Mix well. Stir in pecan halves, stirring until well coated. Spread on baking sheet.",
+      "group": null
+    },
+    {
+      "text": "Spray cookie sheet with cooking spray for easier clean-up.",
+      "group": null
+    },
+    {
+      "text": "Bake in preheated oven for 1 hour, stirring every 15 minutes.",
+      "group": null
+    }
+  ],
+  "footnotes": [],
+  "nutrition": null,
+  "importedNotes": [
+    {
+      "text": "These aren’t pretty when done but they sure taste good. You probably won’t need a pound of pecans for your recipe, so cut recipe in half or freeze those you don’t gobble up immediately."
+    }
+  ],
+  "seeAlso": [],
+  "source": {
+    "attribution": null,
+    "file": "RECIPES/SALADS/Sweet Coated Pecans.doc",
+    "type": "doc",
+    "duplicateFiles": []
+  }
+}

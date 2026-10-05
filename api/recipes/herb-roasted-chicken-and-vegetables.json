@@ -1,0 +1,247 @@
+{
+  "schemaVersion": 1,
+  "id": "94e7b404-e154-56aa-8c2c-4793601cac55",
+  "slug": "herb-roasted-chicken-and-vegetables",
+  "title": "Herb Roasted Chicken and Vegetables",
+  "description": null,
+  "category": "Chicken Dishes",
+  "subcategory": null,
+  "tags": [
+    "main"
+  ],
+  "servings": {
+    "text": "Makes: 4 servings",
+    "amount": 4
+  },
+  "times": [
+    {
+      "label": "Prep time",
+      "text": "15 mins."
+    },
+    {
+      "label": "Cook time",
+      "text": "30 mins."
+    }
+  ],
+  "ingredients": [
+    {
+      "raw": "4 to 6 bone-in chicken pieces",
+      "quantity": 4,
+      "quantityMax": 6,
+      "unit": null,
+      "item": "bone-in chicken pieces",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "chicken",
+      "amount": {
+        "value": 5,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "2 TBSP olive oil, divided",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "olive oil",
+      "prep": "divided",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "olive-oil",
+      "amount": {
+        "value": 29.574,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 ½ tsp dried basil",
+      "quantity": 1.5,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "dried basil",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "dried-basil",
+      "amount": {
+        "value": 7.393,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 tsp dried rosemary",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "dried rosemary",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "dried-rosemary",
+      "amount": {
+        "value": 4.929,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 tsp garlic salt",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "garlic salt",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "garlic-salt",
+      "amount": {
+        "value": 4.929,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "4 medium red-skin potatoes, quartered",
+      "quantity": 4,
+      "quantityMax": null,
+      "unit": null,
+      "item": "medium red-skin potatoes",
+      "prep": "quartered",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "potato",
+      "amount": {
+        "value": 4,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "1 package (8 oz) peeled baby carrots",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "pkg",
+      "item": "peeled baby carrots",
+      "prep": null,
+      "note": "package size: 8 oz",
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "carrot",
+      "amount": {
+        "value": 1,
+        "unit": "pkg",
+        "package": "pkg",
+        "packageOz": 8
+      }
+    },
+    {
+      "raw": "1 medium onion, cut in eighths",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": null,
+      "item": "medium onion",
+      "prep": "cut in eighths",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "onion",
+      "amount": {
+        "value": 1,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "Heavy Duty Aluminum Foil*",
+      "quantity": null,
+      "quantityMax": null,
+      "unit": null,
+      "item": "Heavy Duty Aluminum Foil",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "low",
+      "shop": true,
+      "catalogId": "aluminum-foil",
+      "amount": null
+    }
+  ],
+  "steps": [
+    {
+      "text": "Preheat oven to 425 degrees F.",
+      "group": null
+    },
+    {
+      "text": "Line a 13x9x2 pan with heavy duty foil.",
+      "group": null
+    },
+    {
+      "text": "Place chicken pieces in pan and brush with 1 TBSP olive oil.",
+      "group": null
+    },
+    {
+      "text": "Combine basil, rosemary and garlic salt in medium bowl.",
+      "group": null
+    },
+    {
+      "text": "Sprinkle ½ of the herb mixture on the chicken.",
+      "group": null
+    },
+    {
+      "text": "Add remaining olive oil, potatoes, carrots and onion to the bowl with the herb mixture and stir to coat.",
+      "group": null
+    },
+    {
+      "text": "Arrange vegetables in an even layer around the chicken.",
+      "group": null
+    },
+    {
+      "text": "Cover dish with sheet of foil and fold back one edge for heat circulation.",
+      "group": null
+    },
+    {
+      "text": "Bake 45 to 50 minutes or until vegetables are done and meat thermometer reads 170 degree for white met and 180 for dark meat.",
+      "group": null
+    },
+    {
+      "text": "Carefully remove cover.",
+      "group": null
+    },
+    {
+      "text": "Remove foil. Flip pan upright and drop foil inside. Crimp edges to rim of pan.",
+      "group": null
+    }
+  ],
+  "footnotes": [
+    "To line pan, flip pan upside down. Press a sheet of foil around the pan."
+  ],
+  "nutrition": null,
+  "importedNotes": [],
+  "seeAlso": [],
+  "source": {
+    "attribution": null,
+    "file": "RECIPES/CHICKEN DISHES/Herb Roasted Chicken and Veggies.doc",
+    "type": "doc",
+    "duplicateFiles": []
+  }
+}

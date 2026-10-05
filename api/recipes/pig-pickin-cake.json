@@ -1,0 +1,193 @@
+{
+  "schemaVersion": 1,
+  "id": "fe449794-a7e2-576b-a825-6d1e151c16e7",
+  "slug": "pig-pickin-cake",
+  "title": "Pig Pickin' Cake",
+  "description": null,
+  "category": "Desserts",
+  "subcategory": null,
+  "tags": [],
+  "servings": null,
+  "times": [],
+  "ingredients": [
+    {
+      "raw": "Duncan Hines Super Moist Yellow Cake Mix",
+      "quantity": null,
+      "quantityMax": null,
+      "unit": null,
+      "item": "Duncan Hines Super Moist Yellow Cake Mix",
+      "prep": null,
+      "note": null,
+      "group": "Cake",
+      "optional": false,
+      "confidence": "low",
+      "shop": true,
+      "catalogId": "cake-mix",
+      "amount": null
+    },
+    {
+      "raw": "1 cup water",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "water",
+      "prep": null,
+      "note": null,
+      "group": "Cake",
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "water",
+      "amount": {
+        "value": 236.588,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1/3 cup oil",
+      "quantity": 0.333,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "oil",
+      "prep": null,
+      "note": null,
+      "group": "Cake",
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "vegetable-oil",
+      "amount": {
+        "value": 78.784,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "3 large eggs",
+      "quantity": 3,
+      "quantityMax": null,
+      "unit": null,
+      "item": "large eggs",
+      "prep": null,
+      "note": null,
+      "group": "Cake",
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "eggs",
+      "amount": {
+        "value": 3,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "1 small can Mandarin Orange segments*",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "can",
+      "item": "Mandarin Orange segments",
+      "prep": null,
+      "note": "size: small",
+      "group": "Cake",
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "mandarin-oranges",
+      "amount": {
+        "value": 1,
+        "unit": "pkg",
+        "package": "can"
+      }
+    },
+    {
+      "raw": "1 large can crushed pineapple",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "can",
+      "item": "crushed pineapple",
+      "prep": null,
+      "note": "size: large",
+      "group": "Topping",
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "crushed-pineapple",
+      "amount": {
+        "value": 1,
+        "unit": "pkg",
+        "package": "can"
+      }
+    },
+    {
+      "raw": "1 small box instant vanilla pudding",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "box",
+      "item": "instant vanilla pudding",
+      "prep": null,
+      "note": "size: small",
+      "group": "Topping",
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "pudding-mix",
+      "amount": {
+        "value": 1,
+        "unit": "pkg",
+        "package": "box"
+      }
+    },
+    {
+      "raw": "1 tub thawed original Cool Whip",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "tub",
+      "item": "thawed original Cool Whip",
+      "prep": null,
+      "note": null,
+      "group": "Topping",
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "whipped-topping",
+      "amount": {
+        "value": 1,
+        "unit": "pkg",
+        "package": "tub"
+      }
+    }
+  ],
+  "steps": [
+    {
+      "text": "Use mixer to stir batter and chop up mandarin oranges into pieces.",
+      "group": null
+    },
+    {
+      "text": "Bake at 350degrees for 25 minutes.",
+      "group": null
+    },
+    {
+      "text": "Mix together and spread between layers, on top and around sides.",
+      "group": null
+    },
+    {
+      "text": "Place reserved Mandarin Orange segments in spiral design on top.",
+      "group": null
+    },
+    {
+      "text": "Keep refrigerated until ready to eat dinner. Let thaw while eating.",
+      "group": null
+    }
+  ],
+  "footnotes": [
+    "save out 6 – 8 segments for decoration on finished cake"
+  ],
+  "nutrition": null,
+  "importedNotes": [],
+  "seeAlso": [],
+  "source": {
+    "attribution": null,
+    "file": "RECIPES/DESSERTS/Pig Pickin_ Cake.doc",
+    "type": "doc",
+    "duplicateFiles": []
+  }
+}

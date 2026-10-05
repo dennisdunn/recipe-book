@@ -1,0 +1,350 @@
+{
+  "schemaVersion": 1,
+  "id": "f4440bd8-8e8f-567f-bcbe-8ba21f364345",
+  "slug": "brazilian-pork-casserole",
+  "title": "Brazilian Pork Casserole",
+  "description": "Red kidney beans, an essential part of Brazilian cooking, are often combined with rice and pork. Here is one of my favorite Brazilian Ragouts.",
+  "category": "Casseroles",
+  "subcategory": null,
+  "tags": [
+    "main"
+  ],
+  "servings": {
+    "text": "Servings: 8",
+    "amount": 8
+  },
+  "times": [
+    {
+      "label": "Prep time",
+      "text": "30 mins.  Cooking time:  2 hours."
+    }
+  ],
+  "ingredients": [
+    {
+      "raw": "2 Tbsp butter",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "butter",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "butter",
+      "amount": {
+        "value": 29.574,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 Tbsp oil",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "oil",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "vegetable-oil",
+      "amount": {
+        "value": 14.787,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "2 lbs pork butt cut into one inch cubes",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "lb",
+      "item": "pork butt cut into one inch cubes",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "pork-roast",
+      "amount": {
+        "value": 907.184,
+        "unit": "g"
+      }
+    },
+    {
+      "raw": "2 large onions, minced (2 cups)",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": null,
+      "item": "large onions",
+      "prep": "minced",
+      "note": "2 cups",
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "onion",
+      "amount": {
+        "value": 2,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "2 cloves garlic, minced",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "clove",
+      "item": "garlic",
+      "prep": "minced",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "garlic",
+      "amount": {
+        "value": 2,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "½ tsp salt",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "salt",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "salt",
+      "amount": {
+        "value": 2.464,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "½ tsp pepper",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "pepper",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "black-pepper",
+      "amount": {
+        "value": 2.464,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 Tbsp flour",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "flour",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "all-purpose-flour",
+      "amount": {
+        "value": 14.787,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "2 to 4 tbsp chili powder",
+      "quantity": 2,
+      "quantityMax": 4,
+      "unit": "tbsp",
+      "item": "chili powder",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "chili-powder",
+      "amount": {
+        "value": 44.36,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 tsp ground cumin",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "ground cumin",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "cumin",
+      "amount": {
+        "value": 4.929,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 tsp leaf marjoram, crumbled",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "leaf marjoram",
+      "prep": "crumbled",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "marjoram",
+      "amount": {
+        "value": 4.929,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 can (1 pound, 12 ounces) Italian plum tomatoes, chopped",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "can",
+      "item": "Italian plum tomatoes",
+      "prep": "chopped",
+      "note": "package size: 1 pound, 12 ounces",
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "diced-tomatoes",
+      "amount": {
+        "value": 1,
+        "unit": "pkg",
+        "package": "can",
+        "packageOz": 16
+      }
+    },
+    {
+      "raw": "½ cup dry red wine (or red cooking wine)",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "dry red wine",
+      "prep": null,
+      "note": "or red cooking wine",
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "wine",
+      "amount": {
+        "value": 118.294,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 bay leaf",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": null,
+      "item": "bay leaf",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "bay-leaf",
+      "amount": {
+        "value": 1,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "2 cans’ (15 ¼ ounce each) dark red kidney beans, drained",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "can",
+      "item": "’  dark red kidney beans",
+      "prep": "drained",
+      "note": "15 1/4 ounce each",
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "kidney-beans",
+      "amount": {
+        "value": 2,
+        "unit": "pkg",
+        "package": "can",
+        "packageOz": 4
+      }
+    }
+  ],
+  "steps": [
+    {
+      "text": "Preheat oven to 350 degrees.",
+      "group": null
+    },
+    {
+      "text": "Heat the butter and oil in a flame-proof casserole or Dutch oven.  Brown the pork cubes, a few at a time, remove and reserve.",
+      "group": null
+    },
+    {
+      "text": "Discard all but 2 tablespoons fat from casserole. Add onions and garlic; cook until lightly browned.",
+      "group": null
+    },
+    {
+      "text": "Add salt, pepper and flour, stirring until blended.",
+      "group": null
+    },
+    {
+      "text": "Add chili powder, cumin, marjoram, tomatoes and wine. Bring to boiling, cook 2 to 3 minutes stirring constantly.",
+      "group": null
+    },
+    {
+      "text": "Return pork to casserole and add the bay leaf. Cover casserole and place in center of oven. Cook for 1 and ½ hours or until meat is tender.",
+      "group": null
+    },
+    {
+      "text": "Remove casserole from oven and carefully degrease the stew.",
+      "group": null
+    },
+    {
+      "text": "Add the beans and simmer on top of the stove until beans are heated through.",
+      "group": null
+    },
+    {
+      "text": "Taste and add additional seasonings as desired.",
+      "group": null
+    },
+    {
+      "text": "Note: This kind of stew can be made one or two days ahead of time. Let it cool and degrease thoroughly. Reheat it in a slow oven before serving.",
+      "group": null
+    }
+  ],
+  "footnotes": [],
+  "nutrition": null,
+  "importedNotes": [],
+  "seeAlso": [],
+  "source": {
+    "attribution": null,
+    "file": "RECIPES/CASSEROLES/Brazilian Pork Casserole.doc",
+    "type": "doc",
+    "duplicateFiles": []
+  }
+}

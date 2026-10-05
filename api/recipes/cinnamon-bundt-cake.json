@@ -1,0 +1,185 @@
+{
+  "schemaVersion": 1,
+  "id": "a75f12da-ceaa-5e82-b067-8c46d184c684",
+  "slug": "cinnamon-bundt-cake",
+  "title": "Cinnamon Bundt Cake",
+  "description": null,
+  "category": "Desserts",
+  "subcategory": null,
+  "tags": [],
+  "servings": null,
+  "times": [],
+  "ingredients": [
+    {
+      "raw": "1 box yellow cake mix",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "box",
+      "item": "yellow cake mix",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "cake-mix",
+      "amount": {
+        "value": 1,
+        "unit": "pkg",
+        "package": "box"
+      }
+    },
+    {
+      "raw": "1 ¼ cups water",
+      "quantity": 1.25,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "water",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "water",
+      "amount": {
+        "value": 295.735,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "½ cup vegetable oil",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "vegetable oil",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "vegetable-oil",
+      "amount": {
+        "value": 118.294,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "4 eggs",
+      "quantity": 4,
+      "quantityMax": null,
+      "unit": null,
+      "item": "eggs",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "eggs",
+      "amount": {
+        "value": 4,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "1 sm box vanilla instant pudding (or French vanilla pudding)",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": null,
+      "item": "sm box vanilla instant pudding",
+      "prep": null,
+      "note": "or French vanilla pudding",
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "pudding-mix",
+      "amount": {
+        "value": 1,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "6 tbsp brown sugar",
+      "quantity": 6,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "brown sugar",
+      "prep": null,
+      "note": null,
+      "group": "Cinnamon Mix",
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "brown-sugar",
+      "amount": {
+        "value": 88.721,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "2 tbsp cinnamon",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "cinnamon",
+      "prep": null,
+      "note": null,
+      "group": "Cinnamon Mix",
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "cinnamon",
+      "amount": {
+        "value": 29.574,
+        "unit": "ml"
+      }
+    }
+  ],
+  "steps": [
+    {
+      "text": "Preheat oven to 350 degrees.",
+      "group": null
+    },
+    {
+      "text": "Combine all cake ingredients and mix with hand mixer for 1 minute.",
+      "group": null
+    },
+    {
+      "text": "Pour half of the cake mixture into a greased bundt pan.",
+      "group": null
+    },
+    {
+      "text": "Pour second layer of cinnamon mix onto on top.",
+      "group": null
+    },
+    {
+      "text": "Pour remaining cake mix on top.",
+      "group": null
+    },
+    {
+      "text": "Using a chop stick, swirl the cinnamon mixture through the cake batter.",
+      "group": null
+    },
+    {
+      "text": "Bake for 45 minutes or until toothpick comes out clean.",
+      "group": null
+    },
+    {
+      "text": "This may be served with or with a glaze or powdered sugar.",
+      "group": null
+    }
+  ],
+  "footnotes": [],
+  "nutrition": null,
+  "importedNotes": [],
+  "seeAlso": [],
+  "source": {
+    "attribution": null,
+    "file": "RECIPES/DESSERTS/Cinnamon Bundt CakeE.doc",
+    "type": "doc",
+    "duplicateFiles": []
+  }
+}

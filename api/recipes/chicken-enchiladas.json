@@ -1,0 +1,216 @@
+{
+  "schemaVersion": 1,
+  "id": "7e61ccd8-862a-5704-9535-990b8c6a5654",
+  "slug": "chicken-enchiladas",
+  "title": "Chicken Enchiladas",
+  "description": null,
+  "category": "Mexican Dishes",
+  "subcategory": null,
+  "tags": [
+    "main"
+  ],
+  "servings": null,
+  "times": [],
+  "ingredients": [
+    {
+      "raw": "2 cups chopped, cooked chicken",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "chopped, cooked chicken",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "chicken",
+      "amount": {
+        "value": 473.176,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 can(4oz) green chilies, chopped",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "can",
+      "item": "green chilies",
+      "prep": "chopped",
+      "note": "package size: 4oz",
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "green-chilies",
+      "amount": {
+        "value": 1,
+        "unit": "pkg",
+        "package": "can",
+        "packageOz": 4
+      }
+    },
+    {
+      "raw": "1 medium tomato, chopped",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": null,
+      "item": "medium tomato",
+      "prep": "chopped",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "tomato",
+      "amount": {
+        "value": 1,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "1 medium onion, chopped",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": null,
+      "item": "medium onion",
+      "prep": "chopped",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "onion",
+      "amount": {
+        "value": 1,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "1 clove garlic, minced",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "clove",
+      "item": "garlic",
+      "prep": "minced",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "garlic",
+      "amount": {
+        "value": 1,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "8 gluten free tortillas (8 inches each)",
+      "quantity": 8,
+      "quantityMax": null,
+      "unit": null,
+      "item": "gluten free tortillas",
+      "prep": null,
+      "note": "8 inches each",
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "tortillas",
+      "amount": {
+        "value": 8,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "1 can (10oz) enchilada sauce",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "can",
+      "item": "enchilada sauce",
+      "prep": null,
+      "note": "package size: 10oz",
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "enchilada-sauce",
+      "amount": {
+        "value": 1,
+        "unit": "pkg",
+        "package": "can",
+        "packageOz": 10
+      }
+    },
+    {
+      "raw": "1 cup shredded Cheddar cheese",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "shredded Cheddar cheese",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "cheddar-cheese",
+      "amount": {
+        "value": 236.588,
+        "unit": "ml"
+      }
+    }
+  ],
+  "steps": [
+    {
+      "text": "Preheat oven to 350 degrees.",
+      "group": null
+    },
+    {
+      "text": "Mix chicken, green chilies, tomato, onion and garlic in s large skillet over medium high heat.",
+      "group": null
+    },
+    {
+      "text": "Heat until mixture starts to boil",
+      "group": null
+    },
+    {
+      "text": "Cover, reduce heat to low and simmer 5 – 6 minutes.",
+      "group": null
+    },
+    {
+      "text": "Warm each tortilla separately in a dry skillet over medium-high heat.",
+      "group": null
+    },
+    {
+      "text": "Spread 1/3 cup chicken mixture down center of each tortilla.",
+      "group": null
+    },
+    {
+      "text": "Roll tortillas and arrange seam sides down in a baking dish.",
+      "group": null
+    },
+    {
+      "text": "Pour enchilada sauce over all.",
+      "group": null
+    },
+    {
+      "text": "Sprinkle with the cheese.",
+      "group": null
+    },
+    {
+      "text": "Bake uncovered 20 – 30 minutes or until cheese is bubbling.",
+      "group": null
+    }
+  ],
+  "footnotes": [],
+  "nutrition": null,
+  "importedNotes": [],
+  "seeAlso": [],
+  "source": {
+    "attribution": null,
+    "file": "RECIPES/MEXICAN DISHES/Chicken Enchiladas.doc",
+    "type": "doc",
+    "duplicateFiles": []
+  }
+}

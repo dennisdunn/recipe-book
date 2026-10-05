@@ -1,0 +1,165 @@
+{
+  "schemaVersion": 1,
+  "id": "6d237fde-a00c-5c97-bfd2-9ef883164e78",
+  "slug": "homemade-pesto",
+  "title": "Homemade Pesto",
+  "description": null,
+  "category": "Pasta Dishes",
+  "subcategory": null,
+  "tags": [],
+  "servings": {
+    "text": "Original recipe makes 12 servings",
+    "amount": 12
+  },
+  "times": [],
+  "ingredients": [
+    {
+      "raw": "3 cups chopped fresh basil",
+      "quantity": 3,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "chopped fresh basil",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "fresh-basil",
+      "amount": {
+        "value": 709.764,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "½ cup to 1 cup extra virgin olive oil",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "to 1 cup extra virgin olive oil",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "olive-oil",
+      "amount": {
+        "value": 118.294,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1/2 cup pine nuts",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "pine nuts",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "pine-nuts",
+      "amount": {
+        "value": 118.294,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "2/3 cup grated Parmesan cheese",
+      "quantity": 0.667,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "grated Parmesan cheese",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "parmesan-cheese",
+      "amount": {
+        "value": 157.804,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "2 tablespoons minced garlic",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "minced garlic",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "garlic",
+      "amount": {
+        "value": 29.574,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1/2 teaspoon chili powder",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "chili powder",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "chili-powder",
+      "amount": {
+        "value": 2.464,
+        "unit": "ml"
+      }
+    }
+  ],
+  "steps": [
+    {
+      "text": "Place the basil in a blender. Pour in about 1 tablespoon of the oil, and blend basil into a paste. Gradually add pine nuts, Parmesan cheese, garlic, chili powder, and remaining oil. Continue to blend until smooth.",
+      "group": null
+    },
+    {
+      "text": "Reader Comments",
+      "group": null
+    },
+    {
+      "text": "Toast your pine nuts first to intensify their nutty flavor (roll around in a very hot pan until lightly browned on some but not all sides), then chop them all in your food processer a bit, but not too much as you want texture.",
+      "group": null
+    },
+    {
+      "text": "Add some seasoned salt and red pepper flakes while blending!",
+      "group": null
+    },
+    {
+      "text": "The chili powder is such a great addition, adding zip but no noticeable flavor.",
+      "group": null
+    },
+    {
+      "text": "Less oil has worked fine, as well as fewer pine nuts when short.",
+      "group": null
+    },
+    {
+      "text": "TIP: Pesto should not be frozen with the cheese in it; it makes one of the ingredients rancid. Freeze and add cheese later.",
+      "group": null
+    }
+  ],
+  "footnotes": [],
+  "nutrition": null,
+  "importedNotes": [],
+  "seeAlso": [],
+  "source": {
+    "attribution": null,
+    "file": "RECIPES/PASTA DISHES/Homemade Pesto.doc",
+    "type": "doc",
+    "duplicateFiles": []
+  }
+}

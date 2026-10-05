@@ -1,0 +1,178 @@
+{
+  "schemaVersion": 1,
+  "id": "c21333ec-4d9c-5a9e-823b-20a3f2e3d65c",
+  "slug": "pesto-sauce",
+  "title": "Pesto Sauce",
+  "description": null,
+  "category": "Pasta Dishes",
+  "subcategory": null,
+  "tags": [],
+  "servings": {
+    "text": "Serves: 4",
+    "amount": 4
+  },
+  "times": [
+    {
+      "label": "Prep time",
+      "text": "10 mins."
+    },
+    {
+      "label": "Ready in",
+      "text": "20 mins"
+    }
+  ],
+  "ingredients": [
+    {
+      "raw": "3 cups fresh basil leaves",
+      "quantity": 3,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "fresh basil leaves",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "fresh-basil",
+      "amount": {
+        "value": 709.764,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 1/2 cups chopped walnuts",
+      "quantity": 1.5,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "chopped walnuts",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "walnuts",
+      "amount": {
+        "value": 354.882,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "3 cloves garlic, peeled",
+      "quantity": 3,
+      "quantityMax": null,
+      "unit": "clove",
+      "item": "garlic",
+      "prep": "peeled",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "garlic",
+      "amount": {
+        "value": 3,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "1/4 cup grated Parmesan cheese",
+      "quantity": 0.25,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "grated Parmesan cheese",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "parmesan-cheese",
+      "amount": {
+        "value": 59.147,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 cup olive oil",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "olive oil",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "olive-oil",
+      "amount": {
+        "value": 236.588,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "salt and pepper to taste",
+      "quantity": null,
+      "quantityMax": null,
+      "unit": null,
+      "item": "salt and pepper",
+      "prep": null,
+      "note": "to taste",
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "salt",
+      "amount": null
+    }
+  ],
+  "steps": [
+    {
+      "text": "In a food processor, blend together basil leaves, nuts, garlic, and cheese. Pour in oil slowly while still mixing. Stir in salt and pepper.",
+      "group": null
+    }
+  ],
+  "footnotes": [],
+  "nutrition": null,
+  "importedNotes": [
+    {
+      "text": "This was incredibly good! I arranged boneless chicken breasts in a 9x13 dish. I coated each breast with the pesto and then layered sliced tomatos on top. Sprinkled on shredded mozzarella and baked. So good!"
+    },
+    {
+      "text": "The proportion of ingredients were perfect! And its a relief to know that the more affordable walnut can be used instead of the rather expensive pine nut without casualty."
+    },
+    {
+      "text": "I absolutely love garlic, but next time I'll use 2-3. I used toasted pine nuts instead of walnuts. Expensive but worth it. I also added fresh parmesan and the juice of 1/2 a lemon."
+    },
+    {
+      "text": "I came out with around 2 cups of pesto. The recipe says 4 servings, but this pesto is extremely rich. On a smaller-sized bowl of pasta I use 2 spoonfuls of the sauce - not 1/2 cup."
+    },
+    {
+      "text": "The different nuts make whole different tastes, personally, I use walnut because they are so much cheaper. Roasting any nut first in a dry skillet makes the taste even better."
+    },
+    {
+      "text": "You can save it in fridge with a thin layer of olive oil poured over top - stays bright green."
+    },
+    {
+      "text": "If you're freezing it, a bit of lemon juice mixed in will help prevent browning."
+    },
+    {
+      "text": "I've reduced the oil from 1 cup to 3/4 cup to thicken the sauce, and I use only 2 cloves of garlic."
+    },
+    {
+      "text": "I wanted to make it a little less fattening. In place of the 1 cup of olive oil, I used 1/2 cup chicken broth and 1/2 cup olive oil."
+    },
+    {
+      "text": "I halved the amount of oil, and tripled the amount of cheese."
+    }
+  ],
+  "seeAlso": [],
+  "source": {
+    "attribution": null,
+    "file": "RECIPES/PASTA DISHES/Pesto Sauce.doc",
+    "type": "doc",
+    "duplicateFiles": []
+  }
+}

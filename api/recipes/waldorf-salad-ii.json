@@ -1,0 +1,248 @@
+{
+  "schemaVersion": 1,
+  "id": "9e747f91-09b4-5089-a760-d22d6b741543",
+  "slug": "waldorf-salad-ii",
+  "title": "Waldorf Salad II",
+  "description": "\"If possible make the salad the day it is going to be served so the apples don't turn brown. Some people prefer tart apples over sweet ones so use your favorite.",
+  "category": "Salads",
+  "subcategory": null,
+  "tags": [],
+  "servings": {
+    "text": "SERVINGS: 8",
+    "amount": 8
+  },
+  "times": [],
+  "ingredients": [
+    {
+      "raw": "3 Granny Smith apples, chopped with skin on",
+      "quantity": 3,
+      "quantityMax": null,
+      "unit": null,
+      "item": "Granny Smith apples",
+      "prep": "chopped with skin on",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "apple",
+      "amount": {
+        "value": 3,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "3 Fuji apples, chopped with skin on",
+      "quantity": 3,
+      "quantityMax": null,
+      "unit": null,
+      "item": "Fuji apples",
+      "prep": "chopped with skin on",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "apple",
+      "amount": {
+        "value": 3,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "½ cup mayonnaise",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "mayonnaise",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "mayonnaise",
+      "amount": {
+        "value": 118.294,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "¼ cup powdered sugar",
+      "quantity": 0.25,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "powdered sugar",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "powdered-sugar",
+      "amount": {
+        "value": 59.147,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "3 tablespoons lemon juice",
+      "quantity": 3,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "lemon juice",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "lemon-juice",
+      "amount": {
+        "value": 44.36,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "3 tablespoons orange juice",
+      "quantity": 3,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "orange juice",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "orange-juice",
+      "amount": {
+        "value": 44.36,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 cup heavy whipped cream",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "heavy whipped cream",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "heavy-cream",
+      "amount": {
+        "value": 236.588,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "½ cup celery, diced (approx. 4 stalks)",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "celery",
+      "prep": "diced",
+      "note": "approx. 4 stalks",
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "celery",
+      "amount": {
+        "value": 118.294,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "½ cup golden raisins or cranraisins",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "golden raisins or cranraisins",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "raisins",
+      "amount": {
+        "value": 118.294,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "½ cup walnuts",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "walnuts",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "walnuts",
+      "amount": {
+        "value": 118.294,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "2 pinches of ground nutmeg",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "pinch",
+      "item": "ground nutmeg",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "nutmeg",
+      "amount": {
+        "value": 0.62,
+        "unit": "ml",
+        "approximate": true
+      }
+    }
+  ],
+  "steps": [
+    {
+      "text": "Dice apples with skin still on. Place in a bowl of water with a little lemon juice to keep them from turning brown preparing other ingredients..",
+      "group": null
+    },
+    {
+      "text": "In a large bowl, whisk together the mayonnaise, sugar, lemon juice and orange juice. Fold in the whipped cream.",
+      "group": null
+    },
+    {
+      "text": "Drain the apples and add to the mayonnaise mixture, along with the celery, walnuts and raisins. Stir until ingredients are evenly coated.",
+      "group": null
+    },
+    {
+      "text": "Sprinkle with nutmeg and chill before serving.",
+      "group": null
+    }
+  ],
+  "footnotes": [],
+  "nutrition": null,
+  "importedNotes": [
+    {
+      "text": "This recipes was best the second day. The juices really settled and melded together in a way that made it pop! Will make again."
+    }
+  ],
+  "seeAlso": [],
+  "source": {
+    "attribution": null,
+    "file": "RECIPES/SALADS/Waldorf Salad II.doc",
+    "type": "doc",
+    "duplicateFiles": []
+  }
+}

@@ -1,0 +1,350 @@
+{
+  "schemaVersion": 1,
+  "id": "a2139a41-ac10-59c7-b41e-b70daae68140",
+  "slug": "blueberry-protein-cheesecake",
+  "title": "Blueberry Protein Cheesecake",
+  "description": null,
+  "category": "Desserts",
+  "subcategory": null,
+  "tags": [],
+  "servings": null,
+  "times": [],
+  "ingredients": [
+    {
+      "raw": "40g vanilla protein powder",
+      "quantity": 40,
+      "quantityMax": null,
+      "unit": "g",
+      "item": "vanilla protein powder",
+      "prep": null,
+      "note": null,
+      "group": "Crust",
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "protein-powder",
+      "amount": {
+        "value": 40,
+        "unit": "g"
+      }
+    },
+    {
+      "raw": "6 TBSP. almond flour",
+      "quantity": 6,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "almond flour",
+      "prep": null,
+      "note": null,
+      "group": "Crust",
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "almond-flour",
+      "amount": {
+        "value": 88.721,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "6 TBSP gluten-free baking blend",
+      "quantity": 6,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "gluten-free baking blend",
+      "prep": null,
+      "note": null,
+      "group": "Crust",
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "gluten-free-flour",
+      "amount": {
+        "value": 88.721,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 TBSP Pyrue Stevia (or Truvia blend or 2 tbsp. baking stevia or erythritol)",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "Pyrue Stevia",
+      "prep": null,
+      "note": "or Truvia blend or 2 tbsp. baking stevia or erythritol",
+      "group": "Crust",
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "sweetener",
+      "amount": {
+        "value": 14.787,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1/4 tsp. salt (optional)",
+      "quantity": 0.25,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "salt",
+      "prep": null,
+      "note": null,
+      "group": "Crust",
+      "optional": true,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "salt",
+      "amount": {
+        "value": 1.232,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "2 TBSP butter, melted",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "butter",
+      "prep": "melted",
+      "note": null,
+      "group": "Crust",
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "butter",
+      "amount": {
+        "value": 29.574,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 large egg white (8 tsp)",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": null,
+      "item": "large egg white",
+      "prep": null,
+      "note": "8 tsp",
+      "group": "Crust",
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "egg-whites",
+      "amount": {
+        "value": 1,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "1 cup (8 oz.) fat free cream cheese",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "fat free cream cheese",
+      "prep": null,
+      "note": "package size: 8 oz.",
+      "group": "Crust",
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "cream-cheese",
+      "amount": {
+        "value": 236.588,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1/2 cup (4 oz.) nonfat plain Greek yogurt",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "nonfat plain Greek yogurt",
+      "prep": null,
+      "note": "package size: 4 oz.",
+      "group": "Crust",
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "yogurt",
+      "amount": {
+        "value": 118.294,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "2 large egg whites (1/3 cup)",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": null,
+      "item": "large egg whites",
+      "prep": null,
+      "note": "1/3 cup",
+      "group": "Crust",
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "egg-whites",
+      "amount": {
+        "value": 2,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "1/4 tsp. vanilla extract",
+      "quantity": 0.25,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "vanilla extract",
+      "prep": null,
+      "note": null,
+      "group": "Crust",
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "vanilla-extract",
+      "amount": {
+        "value": 1.232,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "40g vanilla protein powder",
+      "quantity": 40,
+      "quantityMax": null,
+      "unit": "g",
+      "item": "vanilla protein powder",
+      "prep": null,
+      "note": null,
+      "group": "Crust",
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "protein-powder",
+      "amount": {
+        "value": 40,
+        "unit": "g"
+      }
+    },
+    {
+      "raw": "¼ cup Pyure Stevia or Truvia blend cup or ½ cup baking Stevia or erythritol",
+      "quantity": 0.25,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "Pyure Stevia or Truvia blend cup or 1/2 cup baking Stevia or erythritol",
+      "prep": null,
+      "note": null,
+      "group": "Crust",
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "sweetener",
+      "amount": {
+        "value": 59.147,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 cup blueberries, fresh or frozen",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "blueberries, fresh or frozen",
+      "prep": null,
+      "note": null,
+      "group": "Crust",
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "blueberries",
+      "amount": {
+        "value": 236.588,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "2 TBSP Pyure organic stevia blend (or Truvia Baking Blend, or 1/4 cup baking stevia or erythritol)",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "Pyure organic stevia blend",
+      "prep": null,
+      "note": "or Truvia Baking Blend, or 1/4 cup baking stevia or erythritol",
+      "group": "Crust",
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "sweetener",
+      "amount": {
+        "value": 29.574,
+        "unit": "ml"
+      }
+    }
+  ],
+  "steps": [
+    {
+      "text": "Preheat oven to 350 degrees F.",
+      "group": null
+    },
+    {
+      "text": "Combine crust ingredients to form a crumbly mixture that sticks to itself (add 1 tbsp. water if mixture is too dry).",
+      "group": null
+    },
+    {
+      "text": "Lightly coat a 8\" or 9\" pan with cooking spray and press crust mixture into bottom.",
+      "group": null
+    },
+    {
+      "text": "Bake for 10 minutes and set aside.",
+      "group": null
+    },
+    {
+      "text": "Reduce oven temperature to 300 degrees F.",
+      "group": null
+    },
+    {
+      "text": "Meanwhile, blend together cream cheese and yogurt until smooth.",
+      "group": null
+    },
+    {
+      "text": "Add egg whites, protein powder, sweetener, and vanilla; blend again until smooth.",
+      "group": null
+    },
+    {
+      "text": "Pour cheesecake mixture into pan over baked crust.",
+      "group": null
+    },
+    {
+      "text": "Mash berries (thaw in microwave if frozen) and stir in sweetener to taste.",
+      "group": null
+    },
+    {
+      "text": "Drop berry mixture over cheesecake one tablespoon at a time, then swirl through with a knife.",
+      "group": null
+    },
+    {
+      "text": "Bake for 25-35 minutes until center is set. Cracking indicates over-baking.",
+      "group": null
+    },
+    {
+      "text": "Let cheesecake cool at room temperature for 10-15 minutes, then chill in fridge for a minimum of 3 hours or overnight.",
+      "group": null
+    },
+    {
+      "text": "Cut into eight pieces and enjoy! Store in fridge up to one week.",
+      "group": null
+    }
+  ],
+  "footnotes": [],
+  "nutrition": {
+    "text": "Calories (per slice, without crust): 69kcal, Fat: 0.8g, Sat fat: 0.3g, Carbs: 5g, Fiber: 1g, Sugar: 3g, Protein: 10g, Sodium: 237mg Calories (per slice, with crust): 167kcal, Fat: 7.3g, Sat fat: 3.6g, Carbs: 11g, Fiber: 3g, Sugar: 4g, Protein: 16g, Sodium: 333mg"
+  },
+  "importedNotes": [],
+  "seeAlso": [],
+  "source": {
+    "attribution": null,
+    "file": "RECIPES/DESSERTS/Blueberry Protein Cheesecake.doc",
+    "type": "doc",
+    "duplicateFiles": []
+  }
+}

@@ -1,0 +1,246 @@
+{
+  "schemaVersion": 1,
+  "id": "02af20eb-4311-5c28-88c8-2a51a7e7e298",
+  "slug": "microwave-bread-and-butter-pickles",
+  "title": "Microwave Bread and Butter Pickles",
+  "description": null,
+  "category": "Side Dishes",
+  "subcategory": null,
+  "tags": [],
+  "servings": {
+    "text": "Original recipe makes 3 cups",
+    "amount": 3
+  },
+  "times": [],
+  "ingredients": [
+    {
+      "raw": "1 large cucumber, partially peeled and sliced",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": null,
+      "item": "large cucumber",
+      "prep": "partially peeled and sliced",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "cucumber",
+      "amount": {
+        "value": 1,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "1 teaspoon salt",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "salt",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "salt",
+      "amount": {
+        "value": 4.929,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 sweet Vidalia onion, thinly sliced (or more)",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": null,
+      "item": "sweet Vidalia onion",
+      "prep": "thinly sliced",
+      "note": "or more",
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "onion",
+      "amount": {
+        "value": 1,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "1 sweet red pepper, thinly sliced",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": null,
+      "item": "sweet red pepper",
+      "prep": "thinly sliced",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "bell-pepper",
+      "amount": {
+        "value": 1,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "1 clove minced garlic",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "clove",
+      "item": "minced garlic",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "garlic",
+      "amount": {
+        "value": 1,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "1/2 teaspoon mustard seeds (optional)",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "mustard seeds",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": true,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "mustard-seed",
+      "amount": {
+        "value": 2.464,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1/2 cup white sugar",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "white sugar",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "sugar",
+      "amount": {
+        "value": 118.294,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1/2 cup distilled white vinegar",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "distilled white vinegar",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "white-vinegar",
+      "amount": {
+        "value": 118.294,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1/4 teaspoon celery seed (increase to ½ if omitting mustard seed)",
+      "quantity": 0.25,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "celery seed",
+      "prep": null,
+      "note": "increase to 1/2 if omitting mustard seed",
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "celery-seed",
+      "amount": {
+        "value": 1.232,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1/4 teaspoon ground turmeric",
+      "quantity": 0.25,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "ground turmeric",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "turmeric",
+      "amount": {
+        "value": 1.232,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "¼ tsp red pepper flakes (optional)",
+      "quantity": 0.25,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "red pepper flakes",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": true,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "red-pepper-flakes",
+      "amount": {
+        "value": 1.232,
+        "unit": "ml"
+      }
+    }
+  ],
+  "steps": [
+    {
+      "text": "In a medium microwave safe bowl, mix cucumber, salt, onion, mustard seeds, white sugar, distilled white vinegar, celery seed and turmeric.",
+      "group": null
+    },
+    {
+      "text": "Microwave on high 7 to 8 minutes, stirring twice, until cucumbers are tender and onion is translucent.",
+      "group": null
+    },
+    {
+      "text": "Transfer to sterile containers. Seal and chill in the refrigerator until serving.",
+      "group": null
+    }
+  ],
+  "footnotes": [],
+  "nutrition": null,
+  "importedNotes": [
+    {
+      "text": "So easy, so quick, so good! Better make a double batch cause they don't last long. You can eat them as soon as they get cold!"
+    },
+    {
+      "text": "I did make one variation: I added dehydrated red cayenne peppers for color and a bit of spice."
+    }
+  ],
+  "seeAlso": [],
+  "source": {
+    "attribution": null,
+    "file": "RECIPES/SIDE DISHES/Pickles made in microwave.doc",
+    "type": "doc",
+    "duplicateFiles": []
+  }
+}

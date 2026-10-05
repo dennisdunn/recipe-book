@@ -1,0 +1,228 @@
+{
+  "schemaVersion": 1,
+  "id": "df8364a4-7acc-539e-aae3-f686c89a95ff",
+  "slug": "sweet-italian-pasta-toss",
+  "title": "Sweet Italian Pasta Toss",
+  "description": null,
+  "category": "Pasta Dishes",
+  "subcategory": null,
+  "tags": [
+    "main"
+  ],
+  "servings": null,
+  "times": [],
+  "ingredients": [
+    {
+      "raw": "5 Johnsonville Sweet Italian Links, cooked and coin-sliced",
+      "quantity": 5,
+      "quantityMax": null,
+      "unit": null,
+      "item": "Johnsonville Sweet Italian Links",
+      "prep": "cooked and coin-sliced",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "sausage",
+      "amount": {
+        "value": 5,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "1 16oz pkg farfelle (bow tie) pasta",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "pkg",
+      "item": "farfelle  pasta",
+      "prep": null,
+      "note": "package size: 16 oz; bow tie",
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "bow-tie-pasta",
+      "amount": {
+        "value": 1,
+        "unit": "pkg",
+        "package": "pkg",
+        "packageOz": 16
+      }
+    },
+    {
+      "raw": "3 Tbsp olive oil",
+      "quantity": 3,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "olive oil",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "olive-oil",
+      "amount": {
+        "value": 44.36,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "3 cloves garlic, minced",
+      "quantity": 3,
+      "quantityMax": null,
+      "unit": "clove",
+      "item": "garlic",
+      "prep": "minced",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "garlic",
+      "amount": {
+        "value": 3,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "1 onion cut in small wedges",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": null,
+      "item": "onion cut in small wedges",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "onion",
+      "amount": {
+        "value": 1,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "1 zucchini, coin-sliced",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": null,
+      "item": "zucchini",
+      "prep": "coin-sliced",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "zucchini",
+      "amount": {
+        "value": 1,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "1 yellow squash, coin-sliced",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": null,
+      "item": "yellow squash",
+      "prep": "coin-sliced",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "yellow-squash",
+      "amount": {
+        "value": 1,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "15 cherry tomatoes",
+      "quantity": 15,
+      "quantityMax": null,
+      "unit": null,
+      "item": "cherry tomatoes",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "cherry-tomatoes",
+      "amount": {
+        "value": 15,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "Salt and pepper to taste",
+      "quantity": null,
+      "quantityMax": null,
+      "unit": null,
+      "item": "Salt and pepper",
+      "prep": null,
+      "note": "to taste",
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "salt",
+      "amount": null
+    },
+    {
+      "raw": "Parmesan cheese",
+      "quantity": null,
+      "quantityMax": null,
+      "unit": null,
+      "item": "Parmesan cheese",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "low",
+      "shop": true,
+      "catalogId": "parmesan-cheese",
+      "amount": null
+    }
+  ],
+  "steps": [
+    {
+      "text": "Cook pasta according to directions, reserve.",
+      "group": null
+    },
+    {
+      "text": "Cook sausage per directions. Remove from pan when fully cooked. Reserve drippings.",
+      "group": null
+    },
+    {
+      "text": "Place olive oil and drippings into sauté pan with garlic. Heat on low until garlic releases its flavor but is not browned.",
+      "group": null
+    },
+    {
+      "text": "Add vegetables and sauté until tender.",
+      "group": null
+    },
+    {
+      "text": "Mix sausage and pasta with vegetables. Add salt and pepper to taste.",
+      "group": null
+    },
+    {
+      "text": "Top with parmesan cheese and serve warm.",
+      "group": null
+    }
+  ],
+  "footnotes": [],
+  "nutrition": null,
+  "importedNotes": [],
+  "seeAlso": [],
+  "source": {
+    "attribution": null,
+    "file": "RECIPES/PASTA DISHES/Sweet Italian Pasta Toss.doc",
+    "type": "doc",
+    "duplicateFiles": []
+  }
+}

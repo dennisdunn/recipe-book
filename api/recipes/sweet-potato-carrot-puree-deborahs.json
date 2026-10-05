@@ -1,0 +1,276 @@
+{
+  "schemaVersion": 1,
+  "id": "9c4e39bb-8288-5f20-966c-924e6d659656",
+  "slug": "sweet-potato-carrot-puree-deborahs",
+  "title": "Sweet Potato & Carrot Puree (Deborah's)",
+  "description": null,
+  "category": "Soups and Stews",
+  "subcategory": null,
+  "tags": [],
+  "servings": {
+    "text": "6-8 portions",
+    "amount": 6
+  },
+  "times": [],
+  "ingredients": [
+    {
+      "raw": "3 pounds sweet potatoes (about 4 sweet potatoes)",
+      "quantity": 3,
+      "quantityMax": null,
+      "unit": "lb",
+      "item": "sweet potatoes",
+      "prep": null,
+      "note": "about 4 sweet potatoes",
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "sweet-potato",
+      "amount": {
+        "value": 1360.776,
+        "unit": "g"
+      }
+    },
+    {
+      "raw": "1 pound bag of baby carrots",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "lb",
+      "item": "bag of baby carrots",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "carrot",
+      "amount": {
+        "value": 453.592,
+        "unit": "g"
+      }
+    },
+    {
+      "raw": "1 1/2 teaspoons freshly grated orange zest (zest of about 2 oranges)",
+      "quantity": 1.5,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "freshly grated orange zest",
+      "prep": null,
+      "note": "zest of about 2 oranges",
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "orange",
+      "amount": {
+        "value": 7.393,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1/2 cup freshly squeezed orange juice (juice of about 2 oranges)",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "freshly squeezed orange juice",
+      "prep": null,
+      "note": "juice of about 2 oranges",
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "orange-juice",
+      "amount": {
+        "value": 118.294,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 1/2 stick unsalted butter, room temperature (12 tablespoons)",
+      "quantity": 1.5,
+      "quantityMax": null,
+      "unit": "stick",
+      "item": "unsalted butter, room temperature",
+      "prep": null,
+      "note": "12 tablespoons",
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "butter",
+      "amount": {
+        "value": 170.1,
+        "unit": "g"
+      }
+    },
+    {
+      "raw": "1 tablespoon sugar",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "sugar",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "sugar",
+      "amount": {
+        "value": 14.787,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "3 rounded tablespoons of brown sugar",
+      "quantity": 3,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "brown sugar",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "brown-sugar",
+      "amount": {
+        "value": 44.36,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1/4 to 1/2 cup half and half",
+      "quantity": 0.25,
+      "quantityMax": 0.5,
+      "unit": "cup",
+      "item": "half and half",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "half-and-half",
+      "amount": {
+        "value": 88.721,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1/2 teaspoon freshly grated ginger",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "freshly grated ginger",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "ginger",
+      "amount": {
+        "value": 2.464,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1/2 teaspoon freshly grated nutmeg",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "freshly grated nutmeg",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "nutmeg",
+      "amount": {
+        "value": 2.464,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "salt and pepper to taste",
+      "quantity": null,
+      "quantityMax": null,
+      "unit": null,
+      "item": "salt and pepper",
+      "prep": null,
+      "note": "to taste",
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "salt",
+      "amount": null
+    },
+    {
+      "raw": "1/2 cup pecans",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "pecans",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "pecans",
+      "amount": {
+        "value": 118.294,
+        "unit": "ml"
+      }
+    }
+  ],
+  "steps": [
+    {
+      "text": "Scrub sweet potatoes, cut deep slit in top of each, place on cookie sheet, put into oven preheated to 375 degrees F, bake 1 hour, until tender when pierced with fork.",
+      "group": null
+    },
+    {
+      "text": "Meanwhile, cut baby carrots into 1 inch pieces, place into saucepan, add water to cover, 1 tablespoon sugar, 2 tablespoons butter, salt and pepper. Cook uncovered about 30 minutes until water is mostly evaporated and carrots are tender to fork.",
+      "group": null
+    },
+    {
+      "text": "Scrape potato out of skins and combine with carrots in bowl of food processor, fitted with steel blade. Gradually add half & half and process until smooth, creamy consistency is attained.",
+      "group": null
+    },
+    {
+      "text": "Add nutmeg, orange zest, orange juice, 2 tablespoons of brown sugar, ginger, salt and pepper. Once mixed, transfer to pot on stove, set to simmer. Add 9 tablespoons of butter, (reserving 1 tablespoon for pecans). Once completely heated, transfer to oven/microwave-proof baking dish.",
+      "group": null
+    },
+    {
+      "text": "Top with pecans, pan-toasted in 1 tablespoon butter, with 1 tablespoon brown sugar, and dashes of salt and cayenne.",
+      "group": null
+    },
+    {
+      "text": "For timeliness with serving schedule, keep covered and warm in 350 degree oven until time to serve. 6-8 portions. All amounts of ingredients can be modified, according to taste.",
+      "group": null
+    },
+    {
+      "text": "Enjoy!",
+      "group": null
+    }
+  ],
+  "footnotes": [
+    "Handwritten 'Yum! Enjoy!' at the top right."
+  ],
+  "nutrition": null,
+  "importedNotes": [],
+  "seeAlso": [
+    "sweet-potato-and-carrot-puree"
+  ],
+  "source": {
+    "attribution": "Recipe created by Deborah Brazee by combining recipes from Barefoot Contessa, Ina Garten & The Silver Palate, Julee Rosso & Sheila Lukins",
+    "file": "RECIPES/SOUPS AND STEWS/Sweet Potato & Carrot Soup.png",
+    "type": "image",
+    "duplicateFiles": [
+      "RECIPES/SOUPS AND STEWS/Sweet Potato & Carrot Soup 02.png"
+    ]
+  }
+}

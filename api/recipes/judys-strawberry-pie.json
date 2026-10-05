@@ -1,0 +1,140 @@
+{
+  "schemaVersion": 1,
+  "id": "7776dd7c-0ec7-56c5-94d9-a66f83bfd2f3",
+  "slug": "judys-strawberry-pie",
+  "title": "Judy's Strawberry Pie",
+  "description": null,
+  "category": "Desserts",
+  "subcategory": null,
+  "tags": [],
+  "servings": null,
+  "times": [],
+  "ingredients": [
+    {
+      "raw": "1 small box sugar-free strawberry jello",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "box",
+      "item": "sugar-free strawberry jello",
+      "prep": null,
+      "note": "size: small",
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "gelatin",
+      "amount": {
+        "value": 1,
+        "unit": "pkg",
+        "package": "box"
+      }
+    },
+    {
+      "raw": "1 small box sugar-free, cook and serve (not instant) vanilla pudding",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "box",
+      "item": "sugar-free, cook and serve  vanilla pudding",
+      "prep": null,
+      "note": "size: small; not instant",
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "pudding-mix",
+      "amount": {
+        "value": 1,
+        "unit": "pkg",
+        "package": "box"
+      }
+    },
+    {
+      "raw": "1 shortbread crust",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": null,
+      "item": "shortbread crust",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "pie-crust",
+      "amount": {
+        "value": 1,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "1 carton strawberries",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "carton",
+      "item": "strawberries",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "strawberries",
+      "amount": {
+        "value": 1,
+        "unit": "pkg",
+        "package": "carton"
+      }
+    },
+    {
+      "raw": "Lite cool whip",
+      "quantity": null,
+      "quantityMax": null,
+      "unit": null,
+      "item": "Lite cool whip",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "low",
+      "shop": true,
+      "catalogId": "whipped-topping",
+      "amount": null
+    }
+  ],
+  "steps": [
+    {
+      "text": "Mix 2 boxes with 2 cups of water.",
+      "group": null
+    },
+    {
+      "text": "Heat until cloudiness disappears and before it boils.",
+      "group": null
+    },
+    {
+      "text": "Stir frequently.",
+      "group": null
+    },
+    {
+      "text": "Set aside to cool while cutting up the strawberries.",
+      "group": null
+    },
+    {
+      "text": "Combine and pour into crust.",
+      "group": null
+    },
+    {
+      "text": "Cover with cool whip.",
+      "group": null
+    }
+  ],
+  "footnotes": [],
+  "nutrition": null,
+  "importedNotes": [],
+  "seeAlso": [],
+  "source": {
+    "attribution": null,
+    "file": "RECIPES/DESSERTS/Judy_s Strawberry Pie.doc",
+    "type": "doc",
+    "duplicateFiles": []
+  }
+}

@@ -1,0 +1,243 @@
+{
+  "schemaVersion": 1,
+  "id": "06fc7502-e65d-5a51-ace7-288e70c1bc1c",
+  "slug": "chicken-chilaquiles",
+  "title": "Chicken Chilaquiles",
+  "description": null,
+  "category": "Mexican Dishes",
+  "subcategory": null,
+  "tags": [
+    "main"
+  ],
+  "servings": {
+    "text": "Serves 6-8",
+    "amount": 6
+  },
+  "times": [],
+  "ingredients": [
+    {
+      "raw": "1 ½ TBSP vegetable oil",
+      "quantity": 1.5,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "vegetable oil",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "vegetable-oil",
+      "amount": {
+        "value": 22.18,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 med. onion, chopped",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": null,
+      "item": "med. onion",
+      "prep": "chopped",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "onion",
+      "amount": {
+        "value": 1,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "3 cloves garlic, minced",
+      "quantity": 3,
+      "quantityMax": null,
+      "unit": "clove",
+      "item": "garlic",
+      "prep": "minced",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "garlic",
+      "amount": {
+        "value": 3,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "2 cups shredded chicken",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "shredded chicken",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "chicken",
+      "amount": {
+        "value": 473.176,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 (10oz) cans diced tomatoes with green chillies",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "can",
+      "item": "diced tomatoes with green chillies",
+      "prep": null,
+      "note": "package size: 10oz",
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "diced-tomatoes",
+      "amount": {
+        "value": 1,
+        "unit": "pkg",
+        "package": "can",
+        "packageOz": 10
+      }
+    },
+    {
+      "raw": "1 (15oz) can black beans, drained",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "can",
+      "item": "black beans",
+      "prep": "drained",
+      "note": "package size: 15oz",
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "black-beans",
+      "amount": {
+        "value": 1,
+        "unit": "pkg",
+        "package": "can",
+        "packageOz": 15
+      }
+    },
+    {
+      "raw": "1 TBSP chicken bouillon dissolved in ¼ cup water",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "chicken bouillon dissolved in 1/4 cup water",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "chicken-broth",
+      "amount": {
+        "value": 14.787,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "2 cups broken tortilla chips",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "broken tortilla chips",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "cracker",
+      "amount": {
+        "value": 473.176,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 cup Mexican queso blanco",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "Mexican queso blanco",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "mexican-cheese-blend",
+      "amount": {
+        "value": 236.588,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "2 TBSP freshly chopped cilantro",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "freshly chopped cilantro",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "fresh-cilantro",
+      "amount": {
+        "value": 29.574,
+        "unit": "ml"
+      }
+    }
+  ],
+  "steps": [
+    {
+      "text": "Heat oil in skillet. Add onion and cook til lightly browned.",
+      "group": null
+    },
+    {
+      "text": "Add garlic and cook for an additional minute.",
+      "group": null
+    },
+    {
+      "text": "Add meat, diced tomatoes, beans and chicken bouillon, stir to combine.",
+      "group": null
+    },
+    {
+      "text": "Reduce heat to medium, cover and cook for 8-10m minutes.",
+      "group": null
+    },
+    {
+      "text": "Stir in Tortilla chips, cook for 5 minutes.",
+      "group": null
+    },
+    {
+      "text": "Add cheese and cook for an additional minute.",
+      "group": null
+    },
+    {
+      "text": "Sprinkle with cilantro and serve.",
+      "group": null
+    }
+  ],
+  "footnotes": [],
+  "nutrition": null,
+  "importedNotes": [],
+  "seeAlso": [],
+  "source": {
+    "attribution": null,
+    "file": "RECIPES/MEXICAN DISHES/Chicken Chilaquiles.doc",
+    "type": "doc",
+    "duplicateFiles": []
+  }
+}

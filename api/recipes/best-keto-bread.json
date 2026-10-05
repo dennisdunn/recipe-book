@@ -1,0 +1,193 @@
+{
+  "schemaVersion": 1,
+  "id": "b83f522c-8ffa-52e1-80fa-3312d5b400cd",
+  "slug": "best-keto-bread",
+  "title": "Best Keto Bread",
+  "description": null,
+  "category": "Protein Recipes",
+  "subcategory": "KETO RECIPES",
+  "tags": [
+    "keto"
+  ],
+  "servings": {
+    "text": "Servings: 20 Slices",
+    "amount": 20
+  },
+  "times": [
+    {
+      "label": "Prep time",
+      "text": "10 minutes"
+    },
+    {
+      "label": "Cook time",
+      "text": "30 minutes"
+    }
+  ],
+  "ingredients": [
+    {
+      "raw": "1 1/2 cup almond flour",
+      "quantity": 1.5,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "almond flour",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "almond-flour",
+      "amount": {
+        "value": 354.882,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "6 large eggs, separated",
+      "quantity": 6,
+      "quantityMax": null,
+      "unit": null,
+      "item": "large eggs",
+      "prep": "separated",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "eggs",
+      "amount": {
+        "value": 6,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "4 tbsp butter, melted",
+      "quantity": 4,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "butter",
+      "prep": "melted",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "butter",
+      "amount": {
+        "value": 59.147,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "3 tsp baking powder",
+      "quantity": 3,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "baking powder",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "baking-powder",
+      "amount": {
+        "value": 14.787,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1/4 tsp cream of tartar (optional)",
+      "quantity": 0.25,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "cream of tartar",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": true,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "cream-of-tartar",
+      "amount": {
+        "value": 1.232,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 pinch pink salt",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "pinch",
+      "item": "pink salt",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "salt",
+      "amount": {
+        "value": 0.31,
+        "unit": "ml",
+        "approximate": true
+      }
+    },
+    {
+      "raw": "6 drops liquid sucralose optional",
+      "quantity": 6,
+      "quantityMax": null,
+      "unit": null,
+      "item": "drops liquid sucralose",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": true,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "sweetener",
+      "amount": {
+        "value": 6,
+        "unit": "each"
+      }
+    }
+  ],
+  "steps": [
+    {
+      "text": "Preheat oven to 375.",
+      "group": null
+    },
+    {
+      "text": "Separate the egg whites from the yolks. Add Cream of Tartar to the whites and beat until soft peaks are achieved.",
+      "group": null
+    },
+    {
+      "text": "In a food processor combine the egg yolks, 1/3 of the beaten egg whites, melted butter, almond flour, baking powder and salt (Adding approx. 6 drops of liquid sucralose to the batter can help reduce the mild egg taste). Mix until combined. This will be a lumpy thick dough until the whites are added.",
+      "group": null
+    },
+    {
+      "text": "Add the remaining 2/3 of the egg whites and gently process until fully incorporated. Be careful not to over mix as this is what gives the bread it's volume!",
+      "group": null
+    },
+    {
+      "text": "Pour mixture into a buttered 8x4 loaf pan. Bake for 30 minutes. Check with a toothpick to ensure the bread is cooked through. Enjoy! 1 loaf makes 20 slices.",
+      "group": null
+    }
+  ],
+  "footnotes": [],
+  "nutrition": {
+    "text": "Calories: 90 kcal"
+  },
+  "importedNotes": [
+    {
+      "text": "Net Carbs: 1.25g"
+    }
+  ],
+  "seeAlso": [],
+  "source": {
+    "attribution": null,
+    "file": "RECIPES/PROTEIN RECIPES/KETO RECIPES/Best Keto Bread.doc",
+    "type": "doc",
+    "duplicateFiles": []
+  }
+}

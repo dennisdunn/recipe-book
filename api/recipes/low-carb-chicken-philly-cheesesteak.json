@@ -1,0 +1,249 @@
+{
+  "schemaVersion": 1,
+  "id": "88f83db5-216c-5657-bd3f-dc7aeabf415b",
+  "slug": "low-carb-chicken-philly-cheesesteak",
+  "title": "Low Carb Chicken Philly Cheesesteak",
+  "description": null,
+  "category": "Protein Recipes",
+  "subcategory": "KETO RECIPES",
+  "tags": [
+    "keto",
+    "main"
+  ],
+  "servings": {
+    "text": "Servings 3",
+    "amount": 3
+  },
+  "times": [
+    {
+      "label": "Prep time",
+      "text": "10 minutes"
+    },
+    {
+      "label": "Cook time",
+      "text": "15 minutes"
+    },
+    {
+      "label": "Total time",
+      "text": "25 minutes"
+    }
+  ],
+  "ingredients": [
+    {
+      "raw": "10 oz boneless chicken breasts (about 2)",
+      "quantity": 10,
+      "quantityMax": null,
+      "unit": "oz",
+      "item": "boneless chicken breasts",
+      "prep": null,
+      "note": "about 2",
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "chicken-breast",
+      "amount": {
+        "value": 283.495,
+        "unit": "g"
+      }
+    },
+    {
+      "raw": "2 Tbsp worcestershire sauce",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "worcestershire sauce",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "worcestershire-sauce",
+      "amount": {
+        "value": 29.574,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1/2 tsp onion powder",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "onion powder",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "onion-powder",
+      "amount": {
+        "value": 2.464,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1/2 tsp garlic powder",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "garlic powder",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "garlic-powder",
+      "amount": {
+        "value": 2.464,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 dash ground pepper",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "dash",
+      "item": "ground pepper",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "black-pepper",
+      "amount": {
+        "value": 0.62,
+        "unit": "ml",
+        "approximate": true
+      }
+    },
+    {
+      "raw": "2 tsp olive oil, divided",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "olive oil",
+      "prep": "divided",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "olive-oil",
+      "amount": {
+        "value": 9.858,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1/2 cup diced onion fresh or frozen",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "diced onion fresh or frozen",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "onion",
+      "amount": {
+        "value": 118.294,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1/2 cup diced bell pepper fresh or frozen",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "diced bell pepper fresh or frozen",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "bell-pepper",
+      "amount": {
+        "value": 118.294,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1/2 tsp minced garlic",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "minced garlic",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "garlic",
+      "amount": {
+        "value": 2.464,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "3 slices provolone cheese or queso melting cheese",
+      "quantity": 3,
+      "quantityMax": null,
+      "unit": "slice",
+      "item": "provolone cheese or queso melting cheese",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "provolone-cheese",
+      "amount": {
+        "value": 3,
+        "unit": "each",
+        "countUnit": "slice"
+      }
+    }
+  ],
+  "steps": [
+    {
+      "text": "Slice chicken breasts into very thin pieces (freeze slightly if desired to make this easier) and place in a medium bowl.  Add next 4 ingredients (worcestershire through ground pepper) and stir to coat chicken.",
+      "group": null
+    },
+    {
+      "text": "Heat 1 teaspoon olive oil in a large (9\") oven proof skillet.  Add chicken pieces and cook until browned -about 5 minutes. Turn pieces over and cook about 2-3 minutes more or until brown.  Remove from skillet.",
+      "group": null
+    },
+    {
+      "text": "Add remaining 1 teaspoon olive oil to warm skillet. Then add onions, bell pepper and garlic.  Cook and stir to heated and tender- 2-3 minutes.",
+      "group": null
+    },
+    {
+      "text": "Turn heat off and add chicken back to skillet and stir with veggies to combine.  Place sliced cheese over all and cover 2-3 minutes to melt.",
+      "group": null
+    },
+    {
+      "text": "Note: Serve up in bowls for those eating low carb.  Serve with warm hoagie rolls for others.",
+      "group": null
+    }
+  ],
+  "footnotes": [],
+  "nutrition": {
+    "text": "Calories 263 kcal Low Carb Chicken Philly Cheesesteak Amount Per Serving Calories 263 Calories from Fat 117 % Daily Value* Total Fat 13g 20% Saturated Fat 5g 25% Cholesterol 79mg 26% Sodium 330mg 14% Potassium 570mg 16% Total Carbohydrates 5g 2% Dietary Fiber 1g 4% Sugars 2g Protein 27g 54% Vitamin A 21% Vitamin C 44% Calcium 23.5% Iron 6.7%"
+  },
+  "importedNotes": [],
+  "seeAlso": [],
+  "source": {
+    "attribution": null,
+    "file": "RECIPES/PROTEIN RECIPES/KETO RECIPES/Low Carb Chicken Philly Cheesesteak.doc",
+    "type": "doc",
+    "duplicateFiles": []
+  }
+}

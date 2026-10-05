@@ -1,0 +1,193 @@
+{
+  "schemaVersion": 1,
+  "id": "5176953e-0d99-5907-9417-838b63b05c3c",
+  "slug": "vickis-veggie-fajitas",
+  "title": "Vicki's Veggie Fajitas",
+  "description": null,
+  "category": "Mexican Dishes",
+  "subcategory": null,
+  "tags": [
+    "main"
+  ],
+  "servings": null,
+  "times": [],
+  "ingredients": [
+    {
+      "raw": "Lemon pepper to taste",
+      "quantity": null,
+      "quantityMax": null,
+      "unit": null,
+      "item": "Lemon pepper",
+      "prep": null,
+      "note": "to taste",
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "lemon-pepper",
+      "amount": null
+    },
+    {
+      "raw": "2 cloves garlic, minced",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "clove",
+      "item": "garlic",
+      "prep": "minced",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "garlic",
+      "amount": {
+        "value": 2,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "2 sliced red bell peppers",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": null,
+      "item": "sliced red bell peppers",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "bell-pepper",
+      "amount": {
+        "value": 2,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "2 sliced yellow bell peppers",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": null,
+      "item": "sliced yellow bell peppers",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "bell-pepper",
+      "amount": {
+        "value": 2,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "1 cup sliced mushrooms",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "sliced mushrooms",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "mushrooms",
+      "amount": {
+        "value": 236.588,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "3 green onions, chopped",
+      "quantity": 3,
+      "quantityMax": null,
+      "unit": null,
+      "item": "green onions",
+      "prep": "chopped",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "green-onion",
+      "amount": {
+        "value": 3,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "½ onion, sliced",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": null,
+      "item": "onion",
+      "prep": "sliced",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "onion",
+      "amount": {
+        "value": 0.5,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "2 tsp olive oil",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "olive oil",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "olive-oil",
+      "amount": {
+        "value": 9.858,
+        "unit": "ml"
+      }
+    }
+  ],
+  "steps": [
+    {
+      "text": "Over medium heat, sauté olive oil and garlic in a large frying pan for 2 minutes.",
+      "group": null
+    },
+    {
+      "text": "Stir in bell peppers and let them sauté for 2 minutes before stirring in the onions.",
+      "group": null
+    },
+    {
+      "text": "After 2 more minutes, stir in the mushrooms and green onions.",
+      "group": null
+    },
+    {
+      "text": "Season the vegetables with lemon pepper to taste and stir well.",
+      "group": null
+    },
+    {
+      "text": "Cover the frying pan and cook until all vegetables are tender.",
+      "group": null
+    },
+    {
+      "text": "Serve individual portions, wrapped in warmed tortillas.",
+      "group": null
+    }
+  ],
+  "footnotes": [],
+  "nutrition": null,
+  "importedNotes": [],
+  "seeAlso": [],
+  "source": {
+    "attribution": null,
+    "file": "RECIPES/MEXICAN DISHES/Vicki_s Veggie Frajitas.doc",
+    "type": "doc",
+    "duplicateFiles": []
+  }
+}

@@ -1,0 +1,172 @@
+{
+  "schemaVersion": 1,
+  "id": "059303ed-385f-55a0-850a-a8ca721b2590",
+  "slug": "chocolate-cashew-smoothie",
+  "title": "Chocolate Cashew Smoothie",
+  "description": null,
+  "category": "Protein Recipes",
+  "subcategory": null,
+  "tags": [],
+  "servings": null,
+  "times": [],
+  "ingredients": [
+    {
+      "raw": "3 oz. nonfat vanilla Greek yogurt",
+      "quantity": 3,
+      "quantityMax": null,
+      "unit": "oz",
+      "item": "nonfat vanilla Greek yogurt",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "yogurt",
+      "amount": {
+        "value": 85.048,
+        "unit": "g"
+      }
+    },
+    {
+      "raw": "1/2 frozen banana",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": null,
+      "item": "frozen banana",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "banana",
+      "amount": {
+        "value": 0.5,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "1/4 avocado",
+      "quantity": 0.25,
+      "quantityMax": null,
+      "unit": null,
+      "item": "avocado",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "avocado",
+      "amount": {
+        "value": 0.25,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "1/2 cup spinach",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "spinach",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "spinach",
+      "amount": {
+        "value": 118.294,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1/2 cup chocolate soy milk",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "chocolate soy milk",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "soy-milk",
+      "amount": {
+        "value": 118.294,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1/8 cup raw cashews",
+      "quantity": 0.125,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "raw cashews",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "cashews",
+      "amount": {
+        "value": 29.573,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1/2 cup water",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "water",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "water",
+      "amount": {
+        "value": 118.294,
+        "unit": "ml"
+      }
+    }
+  ],
+  "steps": [
+    {
+      "text": "For garnish:",
+      "group": null
+    },
+    {
+      "text": "3 dark chocolate chips",
+      "group": null
+    },
+    {
+      "text": "Add ingredients to a blender (save three cashews for topping) and mix until smooth.",
+      "group": null
+    },
+    {
+      "text": "Pour into a glass.",
+      "group": null
+    },
+    {
+      "text": "Chop remaining cashews and chocolate chips, sprinkle on the top, and enjoy.",
+      "group": null
+    }
+  ],
+  "footnotes": [],
+  "nutrition": null,
+  "importedNotes": [],
+  "seeAlso": [],
+  "source": {
+    "attribution": null,
+    "file": "RECIPES/PROTEIN RECIPES/Chocolate Cashew Smoothie.doc",
+    "type": "doc",
+    "duplicateFiles": []
+  }
+}

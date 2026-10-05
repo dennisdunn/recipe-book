@@ -1,0 +1,277 @@
+{
+  "schemaVersion": 1,
+  "id": "0411ab73-4b01-5371-8b15-39a128303303",
+  "slug": "buttermilk-pumpkin-pie",
+  "title": "Buttermilk Pumpkin Pie",
+  "description": null,
+  "category": "Desserts",
+  "subcategory": null,
+  "tags": [],
+  "servings": null,
+  "times": [
+    {
+      "label": "Preparation time",
+      "text": "40 minutes"
+    },
+    {
+      "label": "Total time",
+      "text": "1 hour 25 minutes"
+    }
+  ],
+  "ingredients": [
+    {
+      "raw": "1 frozen Marie Callender pie crust",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": null,
+      "item": "frozen Marie Callender pie crust",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "pie-crust",
+      "amount": {
+        "value": 1,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "1 cup sugar",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "sugar",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "sugar",
+      "amount": {
+        "value": 236.588,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 ¼ tsp cardamom OR 1 tsp cinnamon, ½ tsp ginger and ¼ tsp cloves",
+      "quantity": 1.25,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "cardamom OR 1 tsp cinnamon, 1/2 tsp ginger and 1/4 tsp cloves",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "cardamom",
+      "amount": {
+        "value": 6.161,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "¼ tsp salt",
+      "quantity": 0.25,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "salt",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "salt",
+      "amount": {
+        "value": 1.232,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "3 tbsp all-purpose flour",
+      "quantity": 3,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "all-purpose flour",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "all-purpose-flour",
+      "amount": {
+        "value": 44.36,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "(1) 15 oz can pumpkin",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "can",
+      "item": "pumpkin",
+      "prep": null,
+      "note": "package size: 15 oz",
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "pumpkin-puree",
+      "amount": {
+        "value": 1,
+        "unit": "pkg",
+        "package": "can",
+        "packageOz": 15
+      }
+    },
+    {
+      "raw": "3 eggs, lightly beaten",
+      "quantity": 3,
+      "quantityMax": null,
+      "unit": null,
+      "item": "eggs",
+      "prep": "lightly beaten",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "eggs",
+      "amount": {
+        "value": 3,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "½ cup buttermilk",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "buttermilk",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "buttermilk",
+      "amount": {
+        "value": 118.294,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "½ tsp vanilla",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "vanilla",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "vanilla-extract",
+      "amount": {
+        "value": 2.464,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "¼ cup melted butter",
+      "quantity": 0.25,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "melted butter",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "butter",
+      "amount": {
+        "value": 59.147,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "2 tbsp sugar",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "sugar",
+      "prep": null,
+      "note": null,
+      "group": "Optional topping",
+      "optional": true,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "sugar",
+      "amount": {
+        "value": 29.574,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 tsp cardamom",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "cardamom",
+      "prep": null,
+      "note": null,
+      "group": "Optional topping",
+      "optional": true,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "cardamom",
+      "amount": {
+        "value": 4.929,
+        "unit": "ml"
+      }
+    }
+  ],
+  "steps": [
+    {
+      "text": "Preheat oven to 350 degrees.",
+      "group": null
+    },
+    {
+      "text": "In a large bowl, combine the sugar, flour, spices and salt and mix well. Add pumpkin and mix well. Add eggs and stir to combine.",
+      "group": null
+    },
+    {
+      "text": "In a small bowl, combine buttermilk, vanilla and melted butter. Add to pumpkin mix  and stir just until combined. Pour pumpkin mix into piecrust.",
+      "group": null
+    },
+    {
+      "text": "Optional: sprinkle top with ½ of the sugar and cardamom mixture. Cover edges with foil. Bake 45 to 50 minutes or until edges are puffed and center appears set. Cool on wire racks and chill within 2 hours.",
+      "group": null
+    },
+    {
+      "text": "Optional: sprinkle with remaining mixture of 1 tbsp sugar and ½ tsp cardamom before serving.",
+      "group": null
+    },
+    {
+      "text": "Serving size 1/8 of pie: 395 calories, 19 grams fat, 106 mg cholesterol, 371 mg sodium, 52 grams carb, 2 grams fiber, 6 grams protein",
+      "group": null
+    }
+  ],
+  "footnotes": [],
+  "nutrition": null,
+  "importedNotes": [],
+  "seeAlso": [],
+  "source": {
+    "attribution": null,
+    "file": "RECIPES/DESSERTS/Buttermilk Pumpkin Pie.doc",
+    "type": "doc",
+    "duplicateFiles": []
+  }
+}

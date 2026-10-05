@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "id": "fc2dfb8a-f11f-5dc6-a0ed-effe97885822",
+  "slug": "green-beans-with-herb-butter",
+  "title": "Green Beans with Herb Butter",
+  "description": null,
+  "category": "Side Dishes",
+  "subcategory": null,
+  "tags": [],
+  "servings": null,
+  "times": [],
+  "ingredients": [
+    {
+      "raw": "1 TBSP scallions",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "scallions",
+      "prep": null,
+      "note": null,
+      "group": "Fresh green beans",
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "green-onion",
+      "amount": {
+        "value": 14.787,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 TBSP dill",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "dill",
+      "prep": null,
+      "note": null,
+      "group": "Fresh green beans",
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "fresh-dill",
+      "amount": {
+        "value": 14.787,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 TBSP parsley",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "parsley",
+      "prep": null,
+      "note": null,
+      "group": "Fresh green beans",
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "fresh-parsley",
+      "amount": {
+        "value": 14.787,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "4 TBSP warm butter",
+      "quantity": 4,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "warm butter",
+      "prep": null,
+      "note": null,
+      "group": "Fresh green beans",
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "butter",
+      "amount": {
+        "value": 59.147,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "Salt and pepper",
+      "quantity": null,
+      "quantityMax": null,
+      "unit": null,
+      "item": "Salt and pepper",
+      "prep": null,
+      "note": null,
+      "group": "Fresh green beans",
+      "optional": false,
+      "confidence": "low",
+      "shop": true,
+      "catalogId": "salt",
+      "amount": null
+    }
+  ],
+  "steps": [
+    {
+      "text": "Clean green beans, snap ends and remove vein.",
+      "group": null
+    },
+    {
+      "text": "Boil for 2 minutes, then drain",
+      "group": null
+    },
+    {
+      "text": "Combine remaining ingredients and pour over beans.",
+      "group": null
+    },
+    {
+      "text": "Salt and Pepper to taste",
+      "group": null
+    }
+  ],
+  "footnotes": [],
+  "nutrition": null,
+  "importedNotes": [],
+  "seeAlso": [],
+  "source": {
+    "attribution": null,
+    "file": "RECIPES/SIDE DISHES/Green Beans with Herb Butter.doc",
+    "type": "doc",
+    "duplicateFiles": []
+  }
+}

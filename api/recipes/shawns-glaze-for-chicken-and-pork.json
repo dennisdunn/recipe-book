@@ -1,0 +1,168 @@
+{
+  "schemaVersion": 1,
+  "id": "79f2099e-283c-510a-a4dc-d05b38f5dba0",
+  "slug": "shawns-glaze-for-chicken-and-pork",
+  "title": "Shawn's Glaze for Chicken and Pork",
+  "description": null,
+  "category": "Dips, Rubs, Sauces & Marinades",
+  "subcategory": null,
+  "tags": [],
+  "servings": null,
+  "times": [],
+  "ingredients": [
+    {
+      "raw": "2 TBSP ketchup",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "ketchup",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "ketchup",
+      "amount": {
+        "value": 29.574,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 TBSP low sodium Soy Sauce",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "low sodium Soy Sauce",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "soy-sauce",
+      "amount": {
+        "value": 14.787,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 TBSP Worchestershire Sauce",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "Worchestershire Sauce",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "worcestershire-sauce",
+      "amount": {
+        "value": 14.787,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 TBSP Red Wine Vinegar",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "Red Wine Vinegar",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "red-wine-vinegar",
+      "amount": {
+        "value": 14.787,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "2 TBSP brown sugar",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "brown sugar",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "brown-sugar",
+      "amount": {
+        "value": 29.574,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 garlic clove, chopped",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": null,
+      "item": "garlic clove",
+      "prep": "chopped",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "garlic",
+      "amount": {
+        "value": 1,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "1 TBSP Frank’s Red Hot (mainly for pork)",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "Frank’s Red Hot",
+      "prep": null,
+      "note": "mainly for pork",
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "hot-sauce",
+      "amount": {
+        "value": 14.787,
+        "unit": "ml"
+      }
+    }
+  ],
+  "steps": [
+    {
+      "text": "Preheat oven to 430 degrees",
+      "group": null
+    },
+    {
+      "text": "Spread glaze over chicken or pork.",
+      "group": null
+    },
+    {
+      "text": "Bake for 15 minutes",
+      "group": null
+    },
+    {
+      "text": "Flip chicken or pork over and bake for another 15  minutes.",
+      "group": null
+    }
+  ],
+  "footnotes": [],
+  "nutrition": null,
+  "importedNotes": [],
+  "seeAlso": [],
+  "source": {
+    "attribution": null,
+    "file": "RECIPES/DIPS, RUBS, SAUCES & MARINADES/Glaze for chicken or pork.doc",
+    "type": "doc",
+    "duplicateFiles": []
+  }
+}

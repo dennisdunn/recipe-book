@@ -1,0 +1,140 @@
+{
+  "schemaVersion": 1,
+  "id": "08a5a9cc-f02f-5ac7-b958-7824e6d0991a",
+  "slug": "chicken-pot-pie",
+  "title": "Chicken Pot Pie",
+  "description": null,
+  "category": "Chicken Dishes",
+  "subcategory": null,
+  "tags": [
+    "main"
+  ],
+  "servings": null,
+  "times": [],
+  "ingredients": [
+    {
+      "raw": "2/3 cup frozen mixed vegetables",
+      "quantity": 0.667,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "frozen mixed vegetables",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "frozen-mixed-vegetables",
+      "amount": {
+        "value": 157.804,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 cup cut-up chicken",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "cut-up chicken",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "chicken",
+      "amount": {
+        "value": 236.588,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 10.75oz can cream of chicken soup",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "can",
+      "item": "cream of chicken soup",
+      "prep": null,
+      "note": "package size: 10.75 oz",
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "cream-of-chicken-soup",
+      "amount": {
+        "value": 1,
+        "unit": "pkg",
+        "package": "can",
+        "packageOz": 10.75
+      }
+    },
+    {
+      "raw": "½ cup milk",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "milk",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "milk",
+      "amount": {
+        "value": 118.294,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 egg",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": null,
+      "item": "egg",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "eggs",
+      "amount": {
+        "value": 1,
+        "unit": "each"
+      }
+    }
+  ],
+  "steps": [
+    {
+      "text": "Heat oven to 400 degrees.",
+      "group": null
+    },
+    {
+      "text": "Mix veggies, chicken and soup in ungreased glass pie plate.",
+      "group": null
+    },
+    {
+      "text": "Stir together milk and egg with fork until blended.",
+      "group": null
+    },
+    {
+      "text": "Pour into pie plate.",
+      "group": null
+    },
+    {
+      "text": "Bake 30 minutes or until golden brown.",
+      "group": null
+    }
+  ],
+  "footnotes": [],
+  "nutrition": null,
+  "importedNotes": [],
+  "seeAlso": [],
+  "source": {
+    "attribution": null,
+    "file": "RECIPES/CHICKEN DISHES/Chicken Pot Pie.doc",
+    "type": "doc",
+    "duplicateFiles": []
+  }
+}

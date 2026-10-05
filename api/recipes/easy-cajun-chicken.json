@@ -1,0 +1,247 @@
+{
+  "schemaVersion": 1,
+  "id": "71acd753-1bc3-59ab-b1f2-39071e417d69",
+  "slug": "easy-cajun-chicken",
+  "title": "Easy Cajun Chicken",
+  "description": "Low Carb & Gluten Free",
+  "category": "Protein Recipes",
+  "subcategory": "KETO RECIPES",
+  "tags": [
+    "keto",
+    "main"
+  ],
+  "servings": {
+    "text": "Yield: Approximately 6 - 8 servings. Serving size: 2 legs or thighs.",
+    "amount": 6
+  },
+  "times": [],
+  "ingredients": [
+    {
+      "raw": "5 lbs chicken parts (legs or thighs are best)",
+      "quantity": 5,
+      "quantityMax": null,
+      "unit": "lb",
+      "item": "chicken parts",
+      "prep": null,
+      "note": "legs or thighs are best",
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "chicken",
+      "amount": {
+        "value": 2267.96,
+        "unit": "g"
+      }
+    },
+    {
+      "raw": "2 Tbl olive oil",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "olive oil",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "olive-oil",
+      "amount": {
+        "value": 29.574,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1/4 cup Cajun seasoning (store-bought or homemade)",
+      "quantity": 0.25,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "Cajun seasoning",
+      "prep": null,
+      "note": "store-bought or homemade",
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "cajun-seasoning",
+      "amount": {
+        "value": 59.147,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "Ranch dressing for serving (optional)",
+      "quantity": null,
+      "quantityMax": null,
+      "unit": null,
+      "item": "Ranch dressing for serving",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": true,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "salad-dressing",
+      "amount": null
+    },
+    {
+      "raw": "2 tsp kosher salt",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "kosher salt",
+      "prep": null,
+      "note": null,
+      "group": "Cajun seasoning blend (if making)",
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "salt",
+      "amount": {
+        "value": 9.858,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 Tbl garlic powder",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "garlic powder",
+      "prep": null,
+      "note": null,
+      "group": "Cajun seasoning blend (if making)",
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "garlic-powder",
+      "amount": {
+        "value": 14.787,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 tsp black pepper",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "black pepper",
+      "prep": null,
+      "note": null,
+      "group": "Cajun seasoning blend (if making)",
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "black-pepper",
+      "amount": {
+        "value": 4.929,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 1/2 tsp onion powder",
+      "quantity": 1.5,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "onion powder",
+      "prep": null,
+      "note": null,
+      "group": "Cajun seasoning blend (if making)",
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "onion-powder",
+      "amount": {
+        "value": 7.393,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 tsp cayenne pepper",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "cayenne pepper",
+      "prep": null,
+      "note": null,
+      "group": "Cajun seasoning blend (if making)",
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "cayenne",
+      "amount": {
+        "value": 4.929,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 1/2 tsp dried oregano",
+      "quantity": 1.5,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "dried oregano",
+      "prep": null,
+      "note": null,
+      "group": "Cajun seasoning blend (if making)",
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "dried-oregano",
+      "amount": {
+        "value": 7.393,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 tsp dried thyme",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "dried thyme",
+      "prep": null,
+      "note": null,
+      "group": "Cajun seasoning blend (if making)",
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "dried-thyme",
+      "amount": {
+        "value": 4.929,
+        "unit": "ml"
+      }
+    }
+  ],
+  "steps": [
+    {
+      "text": "Rub the chicken with olive oil.",
+      "group": null
+    },
+    {
+      "text": "Add Cajun seasoning and toss until chicken is fully coated.",
+      "group": null
+    },
+    {
+      "text": "Spread the chicken out on cookie sheets with at least an inch between pieces.",
+      "group": null
+    },
+    {
+      "text": "Bake in the center of a preheated 400 degree (F) oven for about 50 minutes (40 minutes for wings). The skin should be golden and crispy, and the juices should run clear.",
+      "group": null
+    }
+  ],
+  "footnotes": [],
+  "nutrition": null,
+  "importedNotes": [
+    {
+      "text": "Approx nutrition info per serving (2pcs.): 495 calories, 26g fat, 0 net carbs, 60g protein."
+    }
+  ],
+  "seeAlso": [],
+  "source": {
+    "attribution": null,
+    "file": "RECIPES/PROTEIN RECIPES/KETO RECIPES/Easy Cajun Chicken.doc",
+    "type": "doc",
+    "duplicateFiles": []
+  }
+}

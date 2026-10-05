@@ -1,0 +1,277 @@
+{
+  "schemaVersion": 1,
+  "id": "a4ff071d-0531-59fb-9d69-893141b52e3d",
+  "slug": "savory-keto-beef-stew",
+  "title": "Savory Keto Beef Stew",
+  "description": null,
+  "category": "Protein Recipes",
+  "subcategory": "KETO RECIPES",
+  "tags": [
+    "keto",
+    "main"
+  ],
+  "servings": null,
+  "times": [],
+  "ingredients": [
+    {
+      "raw": "1 lb beef stew meat",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "lb",
+      "item": "beef stew meat",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "stew-meat",
+      "amount": {
+        "value": 453.592,
+        "unit": "g"
+      }
+    },
+    {
+      "raw": "carrots",
+      "quantity": null,
+      "quantityMax": null,
+      "unit": null,
+      "item": "carrots",
+      "prep": null,
+      "note": null,
+      "group": "Optional",
+      "optional": true,
+      "confidence": "low",
+      "shop": true,
+      "catalogId": "carrot",
+      "amount": null
+    },
+    {
+      "raw": "onion",
+      "quantity": null,
+      "quantityMax": null,
+      "unit": null,
+      "item": "onion",
+      "prep": null,
+      "note": null,
+      "group": "Optional",
+      "optional": true,
+      "confidence": "low",
+      "shop": true,
+      "catalogId": "onion",
+      "amount": null
+    },
+    {
+      "raw": "cauliflower",
+      "quantity": null,
+      "quantityMax": null,
+      "unit": null,
+      "item": "cauliflower",
+      "prep": null,
+      "note": null,
+      "group": "Optional",
+      "optional": true,
+      "confidence": "low",
+      "shop": true,
+      "catalogId": "cauliflower",
+      "amount": null
+    },
+    {
+      "raw": "broccoli",
+      "quantity": null,
+      "quantityMax": null,
+      "unit": null,
+      "item": "broccoli",
+      "prep": null,
+      "note": null,
+      "group": "Optional",
+      "optional": true,
+      "confidence": "low",
+      "shop": true,
+      "catalogId": "broccoli",
+      "amount": null
+    },
+    {
+      "raw": "green beans",
+      "quantity": null,
+      "quantityMax": null,
+      "unit": null,
+      "item": "green beans",
+      "prep": null,
+      "note": null,
+      "group": "Optional",
+      "optional": true,
+      "confidence": "low",
+      "shop": true,
+      "catalogId": "green-beans",
+      "amount": null
+    },
+    {
+      "raw": "5 Tbsps butter",
+      "quantity": 5,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "butter",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "butter",
+      "amount": {
+        "value": 73.934,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "3 cups beef broth",
+      "quantity": 3,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "beef broth",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "beef-broth",
+      "amount": {
+        "value": 709.764,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 tsp Worchestershire Sauce",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "Worchestershire Sauce",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "worcestershire-sauce",
+      "amount": {
+        "value": 4.929,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "½ tsp garlic powder",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "garlic powder",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "garlic-powder",
+      "amount": {
+        "value": 2.464,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "6 pepperoncini hot peppers",
+      "quantity": 6,
+      "quantityMax": null,
+      "unit": null,
+      "item": "pepperoncini hot peppers",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "pepperoncini",
+      "amount": {
+        "value": 6,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "Salt and pepper to taste",
+      "quantity": null,
+      "quantityMax": null,
+      "unit": null,
+      "item": "Salt and pepper",
+      "prep": null,
+      "note": "to taste",
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "salt",
+      "amount": null
+    },
+    {
+      "raw": "1 recipe ranch dressing* or  bottled Ranch w/o MSG and artificial ingred.",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": null,
+      "item": "recipe ranch dressing* or  bottled Ranch w/o MSG and artificial ingred.",
+      "prep": null,
+      "note": "sub-recipe reference (ingredients listed separately)",
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": false,
+      "catalogId": "salad-dressing",
+      "amount": {
+        "value": 1,
+        "unit": "each"
+      }
+    }
+  ],
+  "steps": [
+    {
+      "text": "Set instapot to sauté and oil to coat, allow pot to warm up as you prepare the ingredients.",
+      "group": null
+    },
+    {
+      "text": "Add beef cubes and brown for 5-7 minutes, then add veggies to the mix.",
+      "group": null
+    },
+    {
+      "text": "Next, sprinkle the ranch dressing mix over the meat. Cut butter into patties and place evenly over meat.",
+      "group": null
+    },
+    {
+      "text": "In separate dish, mix broth, Worchestershire sauce, and garlic powder and then pour mixture into the crockpot.",
+      "group": null
+    },
+    {
+      "text": "Finally, place pepperoncini evenly over the top of the mixture and add salt and pepper to taste.",
+      "group": null
+    },
+    {
+      "text": "Keto Beef Stew Nutrition Facts (per serving):",
+      "group": null
+    },
+    {
+      "text": "Recipe yields 4 servings",
+      "group": null
+    }
+  ],
+  "footnotes": [
+    "¼ cup dried parsley leaf, 1 tablespoon dill weed, 1 tablespoon garlic powder,       1 tablespoon onion powder, 1 teaspoon sea salt, ½ teaspoon dried chives, and ½ teaspoon ground black pepper."
+  ],
+  "nutrition": {
+    "text": "Calories: 373 Total fat: 22 g Total carbohydrate: 4 g Dietary fiber: 0 g Protein: 24 g"
+  },
+  "importedNotes": [],
+  "seeAlso": [],
+  "source": {
+    "attribution": null,
+    "file": "RECIPES/PROTEIN RECIPES/KETO RECIPES/Savory Keto Beef Stew.doc",
+    "type": "doc",
+    "duplicateFiles": []
+  }
+}

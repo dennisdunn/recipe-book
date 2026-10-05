@@ -1,0 +1,414 @@
+{
+  "schemaVersion": 1,
+  "id": "5fc12b69-b8bd-58c5-8f1a-20d730c67ed4",
+  "slug": "skyline-copy-cat-chili",
+  "title": "Skyline Copy Cat Chili",
+  "description": null,
+  "category": "Soups and Stews",
+  "subcategory": null,
+  "tags": [
+    "main"
+  ],
+  "servings": null,
+  "times": [],
+  "ingredients": [
+    {
+      "raw": "2 lbs ground beef",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "lb",
+      "item": "ground beef",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "ground-beef",
+      "amount": {
+        "value": 907.184,
+        "unit": "g"
+      }
+    },
+    {
+      "raw": "2 cups chopped onions",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "chopped onions",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "onion",
+      "amount": {
+        "value": 473.176,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "3 cups beef stock",
+      "quantity": 3,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "beef stock",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "beef-broth",
+      "amount": {
+        "value": 709.764,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 (16 oz) can tomato sauce",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "can",
+      "item": "tomato sauce",
+      "prep": null,
+      "note": "package size: 16 oz",
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "tomato-sauce",
+      "amount": {
+        "value": 1,
+        "unit": "pkg",
+        "package": "can",
+        "packageOz": 16
+      }
+    },
+    {
+      "raw": "3 tablespoons chili powder",
+      "quantity": 3,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "chili powder",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "chili-powder",
+      "amount": {
+        "value": 44.36,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "2 tablespoons apple cider vinegar",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "apple cider vinegar",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "apple-cider-vinegar",
+      "amount": {
+        "value": 29.574,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "2 teaspoons Worcestershire sauce",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "Worcestershire sauce",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "worcestershire-sauce",
+      "amount": {
+        "value": 9.858,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "3 tbsp unsweetened cocoa or ½ oz grated unsweetened chocolate",
+      "quantity": 3,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "unsweetened cocoa or 1/2 oz grated unsweetened chocolate",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "cocoa-powder",
+      "amount": {
+        "value": 44.36,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "2 teaspoons instant minced garlic",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "instant minced garlic",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "garlic",
+      "amount": {
+        "value": 9.858,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "¾ teaspoon ground cinnamon",
+      "quantity": 0.75,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "ground cinnamon",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "cinnamon",
+      "amount": {
+        "value": 3.697,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "½ teaspoon ground cumin",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "ground cumin",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "cumin",
+      "amount": {
+        "value": 2.464,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "½ teaspoon salt",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "salt",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "salt",
+      "amount": {
+        "value": 2.464,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "¼ teaspoon ground red pepper or ½ teaspoon cayenne pepper",
+      "quantity": 0.25,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "ground red pepper or 1/2 teaspoon cayenne pepper",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "cayenne",
+      "amount": {
+        "value": 1.232,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "¼ teaspoon ground allspice",
+      "quantity": 0.25,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "ground allspice",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "allspice",
+      "amount": {
+        "value": 1.232,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "¼ teaspoon ground cloves",
+      "quantity": 0.25,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "ground cloves",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "cloves",
+      "amount": {
+        "value": 1.232,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 bay leaves",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": null,
+      "item": "bay leaves",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "bay-leaf",
+      "amount": {
+        "value": 1,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "hot spaghetti",
+      "quantity": null,
+      "quantityMax": null,
+      "unit": null,
+      "item": "hot spaghetti",
+      "prep": null,
+      "note": null,
+      "group": "Toppings",
+      "optional": false,
+      "confidence": "low",
+      "shop": true,
+      "catalogId": "spaghetti",
+      "amount": null
+    },
+    {
+      "raw": "finely shredded cheddar cheese",
+      "quantity": null,
+      "quantityMax": null,
+      "unit": null,
+      "item": "finely shredded cheddar cheese",
+      "prep": null,
+      "note": null,
+      "group": "Toppings",
+      "optional": false,
+      "confidence": "low",
+      "shop": true,
+      "catalogId": "cheddar-cheese",
+      "amount": null
+    },
+    {
+      "raw": "chopped onion (optional)",
+      "quantity": null,
+      "quantityMax": null,
+      "unit": null,
+      "item": "chopped onion",
+      "prep": null,
+      "note": null,
+      "group": "Toppings",
+      "optional": true,
+      "confidence": "low",
+      "shop": true,
+      "catalogId": "onion",
+      "amount": null
+    },
+    {
+      "raw": "soup crackers (optional)",
+      "quantity": null,
+      "quantityMax": null,
+      "unit": null,
+      "item": "soup crackers",
+      "prep": null,
+      "note": null,
+      "group": "Toppings",
+      "optional": true,
+      "confidence": "low",
+      "shop": true,
+      "catalogId": "cracker",
+      "amount": null
+    }
+  ],
+  "steps": [
+    {
+      "text": "Brown ground beef and onion, drain.",
+      "group": null
+    },
+    {
+      "text": "Add beef stock to beef mixture and simmer 10 minutes.",
+      "group": null
+    },
+    {
+      "text": "Add remaining 13 ingredients, simmer uncovered 1 hour.",
+      "group": null
+    },
+    {
+      "text": "Remove bay leaf, skim off extra fat.",
+      "group": null
+    },
+    {
+      "text": "Serve over hot spaghetti, or hot dogs in buns for chili dogs.",
+      "group": null
+    },
+    {
+      "text": "Top with plenty of cheese and other optional toppings.",
+      "group": null
+    },
+    {
+      "text": "I used 1 lb ground beef and 1 lb ground pork and it tasted great.",
+      "group": null
+    },
+    {
+      "text": "If too spicy (hot), add milk and simmer until sauce is hot and right consistency.",
+      "group": null
+    },
+    {
+      "text": "Tastes as good or better than skyline!",
+      "group": null
+    }
+  ],
+  "footnotes": [],
+  "nutrition": null,
+  "importedNotes": [],
+  "seeAlso": [],
+  "source": {
+    "attribution": null,
+    "file": "RECIPES/SOUPS AND STEWS/Skyline Copy Cat Chili.doc",
+    "type": "doc",
+    "duplicateFiles": []
+  }
+}

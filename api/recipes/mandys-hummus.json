@@ -1,0 +1,129 @@
+{
+  "schemaVersion": 1,
+  "id": "2545d02a-e5a3-54d5-ba04-6b6734c4d92a",
+  "slug": "mandys-hummus",
+  "title": "Mandy's Hummus",
+  "description": null,
+  "category": "Dips, Rubs, Sauces & Marinades",
+  "subcategory": null,
+  "tags": [],
+  "servings": null,
+  "times": [],
+  "ingredients": [
+    {
+      "raw": "1 (16oz) can of Chickpeas",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "can",
+      "item": "Chickpeas",
+      "prep": null,
+      "note": "package size: 16oz",
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "chickpeas",
+      "amount": {
+        "value": 1,
+        "unit": "pkg",
+        "package": "can",
+        "packageOz": 16
+      }
+    },
+    {
+      "raw": "1/2 cup sesame seeds",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "sesame seeds",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "sesame-seeds",
+      "amount": {
+        "value": 118.294,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "3 TBSP lemon juice",
+      "quantity": 3,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "lemon juice",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "lemon-juice",
+      "amount": {
+        "value": 44.36,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 clove garlic, minced",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "clove",
+      "item": "garlic",
+      "prep": "minced",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "garlic",
+      "amount": {
+        "value": 1,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "Cayenne pepper, black pepper and parsley to taste",
+      "quantity": null,
+      "quantityMax": null,
+      "unit": null,
+      "item": "Cayenne pepper, black pepper and parsley",
+      "prep": null,
+      "note": "to taste",
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "cayenne",
+      "amount": null
+    }
+  ],
+  "steps": [
+    {
+      "text": "Put chickpea liquid, garlic and sesame seeds in blender on high.",
+      "group": null
+    },
+    {
+      "text": "Add chickpeas and lemon juice. Blend until creamy.",
+      "group": null
+    },
+    {
+      "text": "Add spices and blend briefly to mix in.",
+      "group": null
+    }
+  ],
+  "footnotes": [],
+  "nutrition": {
+    "text": "Calories 43.4; fat 2g; sodium 56.4mg; carbs 4.7g; fiber 1.6g; protein 9g"
+  },
+  "importedNotes": [],
+  "seeAlso": [],
+  "source": {
+    "attribution": null,
+    "file": "RECIPES/DIPS, RUBS, SAUCES & MARINADES/Hummus Recipes.doc",
+    "type": "doc",
+    "duplicateFiles": []
+  }
+}

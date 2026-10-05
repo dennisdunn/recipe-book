@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 1,
+  "id": "be279eb9-5947-5bbd-a6af-78dc77a50c70",
+  "slug": "basic-vinaigrette",
+  "title": "Basic Vinaigrette",
+  "description": null,
+  "category": "Protein Recipes",
+  "subcategory": "KETO RECIPES",
+  "tags": [
+    "keto"
+  ],
+  "servings": null,
+  "times": [],
+  "ingredients": [
+    {
+      "raw": "3 tablespoons oil (extra-virgin olive oil)",
+      "quantity": 3,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "oil",
+      "prep": null,
+      "note": "extra-virgin olive oil",
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "vegetable-oil",
+      "amount": {
+        "value": 44.36,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "2 tablespoons vinegar (white, cider, wine, red wine vinegar, not balsamic)",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "vinegar",
+      "prep": null,
+      "note": "white, cider, wine, red wine vinegar, not balsamic",
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "white-vinegar",
+      "amount": {
+        "value": 29.574,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "salt",
+      "quantity": null,
+      "quantityMax": null,
+      "unit": null,
+      "item": "salt",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "low",
+      "shop": true,
+      "catalogId": "salt",
+      "amount": null
+    },
+    {
+      "raw": "black pepper (fresh-ground)",
+      "quantity": null,
+      "quantityMax": null,
+      "unit": null,
+      "item": "black pepper",
+      "prep": null,
+      "note": "fresh-ground",
+      "group": null,
+      "optional": false,
+      "confidence": "low",
+      "shop": true,
+      "catalogId": "black-pepper",
+      "amount": null
+    }
+  ],
+  "steps": [
+    {
+      "text": "Shake all ingredients together in a tightly-lidded container OR whisk together in a small bowl.",
+      "group": null
+    },
+    {
+      "text": "Let stand 10 minutes to rehydrate dried herbs and blend flavors.",
+      "group": null
+    },
+    {
+      "text": "Shake again then dress salad as desired.",
+      "group": null
+    }
+  ],
+  "footnotes": [],
+  "nutrition": null,
+  "importedNotes": [],
+  "seeAlso": [],
+  "source": {
+    "attribution": null,
+    "file": "RECIPES/PROTEIN RECIPES/KETO RECIPES/Basic Vinaigrette.doc",
+    "type": "doc",
+    "duplicateFiles": []
+  }
+}

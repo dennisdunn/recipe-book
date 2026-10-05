@@ -1,0 +1,396 @@
+{
+  "schemaVersion": 1,
+  "id": "e1b653d8-1261-5ab2-a603-7fef2e044dcc",
+  "slug": "hearty-ham-and-bean-soup",
+  "title": "Hearty Ham and Bean Soup",
+  "description": null,
+  "category": "Soups and Stews",
+  "subcategory": null,
+  "tags": [
+    "main"
+  ],
+  "servings": null,
+  "times": [],
+  "ingredients": [
+    {
+      "raw": "1 (20 ounce) package 15 bean mixture, soaked overnight",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "pkg",
+      "item": "15 bean mixture",
+      "prep": "soaked overnight",
+      "note": "package size: 20 ounce",
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "mixed-beans",
+      "amount": {
+        "value": 1,
+        "unit": "pkg",
+        "package": "can",
+        "packageOz": 20
+      }
+    },
+    {
+      "raw": "1 ham bone",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": null,
+      "item": "ham bone",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "ham-bone",
+      "amount": {
+        "value": 1,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "2 1/2 cups cubed ham",
+      "quantity": 2.5,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "cubed ham",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "ham",
+      "amount": {
+        "value": 591.47,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 large onion, chopped",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": null,
+      "item": "large onion",
+      "prep": "chopped",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "onion",
+      "amount": {
+        "value": 1,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "3 stalks celery, chopped",
+      "quantity": 3,
+      "quantityMax": null,
+      "unit": "stalk",
+      "item": "celery",
+      "prep": "chopped",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "celery",
+      "amount": {
+        "value": 3,
+        "unit": "each",
+        "countUnit": "stalk"
+      }
+    },
+    {
+      "raw": "5 large carrots, chopped",
+      "quantity": 5,
+      "quantityMax": null,
+      "unit": null,
+      "item": "large carrots",
+      "prep": "chopped",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "carrot",
+      "amount": {
+        "value": 5,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "1 (14.5 ounce) can diced tomatoes, with liquid",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "can",
+      "item": "diced tomatoes",
+      "prep": "with liquid",
+      "note": "package size: 14.5 ounce",
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "diced-tomatoes",
+      "amount": {
+        "value": 1,
+        "unit": "pkg",
+        "package": "can",
+        "packageOz": 14.5
+      }
+    },
+    {
+      "raw": "1 (12 fluid ounce) can low-sodium vegetable juice",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "can",
+      "item": "low-sodium vegetable juice",
+      "prep": null,
+      "note": "package size: 12 fluid ounce",
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "vegetable-juice",
+      "amount": {
+        "value": 1,
+        "unit": "pkg",
+        "package": "can"
+      }
+    },
+    {
+      "raw": "3 cups vegetable broth",
+      "quantity": 3,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "vegetable broth",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "vegetable-broth",
+      "amount": {
+        "value": 709.764,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "2 tablespoons Worcestershire sauce",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "Worcestershire sauce",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "worcestershire-sauce",
+      "amount": {
+        "value": 29.574,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "2 tablespoons Dijon mustard",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "Dijon mustard",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "dijon-mustard",
+      "amount": {
+        "value": 29.574,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 tablespoon chili powder",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "chili powder",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "chili-powder",
+      "amount": {
+        "value": 14.787,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "3 bay leaves",
+      "quantity": 3,
+      "quantityMax": null,
+      "unit": null,
+      "item": "bay leaves",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "bay-leaf",
+      "amount": {
+        "value": 3,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "1 teaspoon ground black pepper",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "ground black pepper",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "black-pepper",
+      "amount": {
+        "value": 4.929,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 tablespoon dried parsley",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "dried parsley",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "dried-parsley",
+      "amount": {
+        "value": 14.787,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "3 tablespoons lemon juice",
+      "quantity": 3,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "lemon juice",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "lemon-juice",
+      "amount": {
+        "value": 44.36,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "7 cups low fat, low sodium chicken broth",
+      "quantity": 7,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "low fat, low sodium chicken broth",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "chicken-broth",
+      "amount": {
+        "value": 1656.116,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 teaspoon kosher salt",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "kosher salt",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "salt",
+      "amount": {
+        "value": 4.929,
+        "unit": "ml"
+      }
+    }
+  ],
+  "steps": [
+    {
+      "text": "Remove and discard seasoning packet, if any, from beans. Place beans in large stockpot. Cover with water to 2 inches over beans and soak overnight.",
+      "group": null
+    },
+    {
+      "text": "Drain the soaking water from the beans. Cover beans with fresh water and bring to boil. Reduce heat and simmer, uncovered, 30 minutes.",
+      "group": null
+    },
+    {
+      "text": "Drain again, discarding water. Remove all visible fat from ham bone. Combine beans, ham bone, ham, onion, celery, carrots, tomatoes, V8, Worcestershire, mustard, chili powder, bay leaves, pepper, parsley, lemon juice, and vegetable stock in stockpot.",
+      "group": null
+    },
+    {
+      "text": "Add chicken stock to cover beans. Bring to boil. Reduce heat, and simmer, stirring occasionally, for about 8 hours.",
+      "group": null
+    },
+    {
+      "text": "Add remaining chicken stock to the pot throughout the day as needed to keep liquid level up.",
+      "group": null
+    },
+    {
+      "text": "After about 8 hours, remove the ham bone, and add salt as needed. Continue simmering another 2 hours, or until beans are tender.",
+      "group": null
+    },
+    {
+      "text": "Remove bay leaves before serving.",
+      "group": null
+    }
+  ],
+  "footnotes": [],
+  "nutrition": null,
+  "importedNotes": [
+    {
+      "text": "Very nice recipe and very easy. Two changes I made. I did not use stock, I used water and a ham hock instead of ham. The soup was still very flavorful and had less fat and sodium using water instead of stock. I also quick soak the beans by boiling them for 3 minutes and then soaking them in the hot water for 1 hour."
+    },
+    {
+      "text": "I followed this recipe to the letter adding some brown sugar as well and I followed suggestions from other users to add the baking soda. I used more ham then what the recipe called for."
+    },
+    {
+      "text": "I cooked ham and beans in crock pot alone for the first 4 hours, then added the rest for the next 4 hours since we don't like our veggies real mushy."
+    }
+  ],
+  "seeAlso": [],
+  "source": {
+    "attribution": null,
+    "file": "RECIPES/SOUPS AND STEWS/Hearty Ham and Bean Soup.doc",
+    "type": "doc",
+    "duplicateFiles": []
+  }
+}

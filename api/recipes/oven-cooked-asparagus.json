@@ -1,0 +1,130 @@
+{
+  "schemaVersion": 1,
+  "id": "63fb1665-ecc1-5316-b2dd-1b54291000c7",
+  "slug": "oven-cooked-asparagus",
+  "title": "Oven Cooked Asparagus",
+  "description": null,
+  "category": "Side Dishes",
+  "subcategory": null,
+  "tags": [],
+  "servings": null,
+  "times": [],
+  "ingredients": [
+    {
+      "raw": "1 bunch of asparagus",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "bunch",
+      "item": "asparagus",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "asparagus",
+      "amount": {
+        "value": 1,
+        "unit": "each",
+        "countUnit": "bunch"
+      }
+    },
+    {
+      "raw": "2 tbsp olive oil",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "olive oil",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "olive-oil",
+      "amount": {
+        "value": 29.574,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "3 tbsp Balsamic Vinegar",
+      "quantity": 3,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "Balsamic Vinegar",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "balsamic-vinegar",
+      "amount": {
+        "value": 44.36,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "2 tbsp lemon juice",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "lemon juice",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "lemon-juice",
+      "amount": {
+        "value": 29.574,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "Salt, pepper and garlic to taste",
+      "quantity": null,
+      "quantityMax": null,
+      "unit": null,
+      "item": "Salt, pepper and garlic",
+      "prep": null,
+      "note": "to taste",
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "salt",
+      "amount": null
+    }
+  ],
+  "steps": [
+    {
+      "text": "Wash asparagus first, then combine all ingredients in a large zip lock bag.",
+      "group": null
+    },
+    {
+      "text": "Marinate for 30 minutes.",
+      "group": null
+    },
+    {
+      "text": "Bake on a sheet pan at 400 degrees for 8 to 12 minutes (depending on desired firmness).",
+      "group": null
+    },
+    {
+      "text": "Remove from oven and let cool for 5 minutes.",
+      "group": null
+    }
+  ],
+  "footnotes": [],
+  "nutrition": null,
+  "importedNotes": [],
+  "seeAlso": [],
+  "source": {
+    "attribution": null,
+    "file": "RECIPES/SIDE DISHES/Oven Cooked Asparagus.doc",
+    "type": "doc",
+    "duplicateFiles": []
+  }
+}

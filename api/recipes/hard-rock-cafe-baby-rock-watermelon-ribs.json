@@ -1,0 +1,216 @@
+{
+  "schemaVersion": 1,
+  "id": "1bbebc53-da11-5fa0-9163-9a845b1734fc",
+  "slug": "hard-rock-cafe-baby-rock-watermelon-ribs",
+  "title": "Hard Rock Cafe Baby Rock Watermelon Ribs",
+  "description": null,
+  "category": "Pork Dishes",
+  "subcategory": null,
+  "tags": [
+    "main"
+  ],
+  "servings": null,
+  "times": [],
+  "ingredients": [
+    {
+      "raw": "Hard Rock Cafe Watermelon BBQ Sauce",
+      "quantity": null,
+      "quantityMax": null,
+      "unit": null,
+      "item": "Hard Rock Cafe Watermelon BBQ Sauce",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "low",
+      "shop": true,
+      "catalogId": "bbq-sauce",
+      "amount": null
+    },
+    {
+      "raw": "Watermelon rind from about 1/2 of a small watermelon",
+      "quantity": null,
+      "quantityMax": null,
+      "unit": null,
+      "item": "Watermelon rind from about 1/2 of a small watermelon",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "low",
+      "shop": true,
+      "catalogId": "watermelon",
+      "amount": null
+    },
+    {
+      "raw": "1 cup dark corn syrup",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "dark corn syrup",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "corn-syrup",
+      "amount": {
+        "value": 236.588,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1/2 cup water",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "water",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "water",
+      "amount": {
+        "value": 118.294,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1/4 cup tomato ketchup",
+      "quantity": 0.25,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "tomato ketchup",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "ketchup",
+      "amount": {
+        "value": 59.147,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1/4 cup distilled white vinegar",
+      "quantity": 0.25,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "distilled white vinegar",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "white-vinegar",
+      "amount": {
+        "value": 59.147,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "3/4 teaspoon crushed red pepper flakes",
+      "quantity": 0.75,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "crushed red pepper flakes",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "red-pepper-flakes",
+      "amount": {
+        "value": 3.697,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1/2 teaspoon liquid smoke",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "liquid smoke",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "liquid-smoke",
+      "amount": {
+        "value": 2.464,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1/4 teaspoon black pepper",
+      "quantity": 0.25,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "black pepper",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "black-pepper",
+      "amount": {
+        "value": 1.232,
+        "unit": "ml"
+      }
+    }
+  ],
+  "steps": [
+    {
+      "text": "To prepare the watermelon rind, cut off the green skin and about 1/2 inch of the hard white part of the rind, keeping the part that is lighter red to white. This is the tender part of the rind. (Avoid using the harder, white rind that is just inside the green skin.)",
+      "group": null
+    },
+    {
+      "text": "Cut the trimmed rind into chunks or pieces, and puree in a blender or food processor for about 10 seconds only. Strain the liquid from the pulp, and measure 1 cup of strained pulp.",
+      "group": null
+    },
+    {
+      "text": "In a saucepan, combine the 1 cup of strained pulp with all of the remaining ingredients, and bring this mixture to a boil over high heat. Immediately reduce heat and simmer, covered, for about 1 hour or until the sauce has reached desired thickness.",
+      "group": null
+    },
+    {
+      "text": "To make the famous ribs: Marinate 4 pounds of baby back ribs for two hours minimum - or overnight - in one recipe for Watermelon Barbecue Sauce, reserving some sauce (marinade) for basting at grilling time.",
+      "group": null
+    },
+    {
+      "text": "Bake the marinated ribs, wrapped in foil (seam side up so the package won't leak in the oven), at 300 degrees F for 2 to 2 1/2 hours or until ribs are very tender and the rib meat begins to pull back (about 1/2 inch) from the cut ends of the bone.",
+      "group": null
+    },
+    {
+      "text": "Remove ribs from foil and place on grill, brushing with reserved marinade - about 2 to 4 minutes per side. Finished ribs should be slightly charred, but not burned.",
+      "group": null
+    },
+    {
+      "text": "Serve with leftover sauce on the side.",
+      "group": null
+    },
+    {
+      "text": "This makes enough for 4 pounds of ribs.",
+      "group": null
+    }
+  ],
+  "footnotes": [],
+  "nutrition": null,
+  "importedNotes": [],
+  "seeAlso": [],
+  "source": {
+    "attribution": null,
+    "file": "RECIPES/PORK DISHES/Hard Rock Cafe Baby Rock Watermelon Ribs.doc",
+    "type": "doc",
+    "duplicateFiles": []
+  }
+}

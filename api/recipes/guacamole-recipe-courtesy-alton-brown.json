@@ -1,0 +1,230 @@
+{
+  "schemaVersion": 1,
+  "id": "b4ba11b2-c756-534c-8a6b-285b2193a840",
+  "slug": "guacamole-recipe-courtesy-alton-brown",
+  "title": "Guacamole  Recipe courtesy Alton Brown",
+  "description": null,
+  "category": "Dips, Rubs, Sauces & Marinades",
+  "subcategory": null,
+  "tags": [],
+  "servings": null,
+  "times": [],
+  "ingredients": [
+    {
+      "raw": "3 Haas avocados, halved, seeded and peeled",
+      "quantity": 3,
+      "quantityMax": null,
+      "unit": null,
+      "item": "Haas avocados, halved, seeded and peeled",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "avocado",
+      "amount": {
+        "value": 3,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "1 lime, juiced",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": null,
+      "item": "lime",
+      "prep": "juiced",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "lime",
+      "amount": {
+        "value": 1,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "1/2 teaspoon kosher salt",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "kosher salt",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "salt",
+      "amount": {
+        "value": 2.464,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1/2 teaspoon ground cumin",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "ground cumin",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "cumin",
+      "amount": {
+        "value": 2.464,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1/4 teaspoon cayenne",
+      "quantity": 0.25,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "cayenne",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "cayenne",
+      "amount": {
+        "value": 1.232,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 tbsp diced jalapeno (optional)",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "diced jalapeno",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": true,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "jalapeno",
+      "amount": {
+        "value": 14.787,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1/2 medium onion, diced",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": null,
+      "item": "medium onion",
+      "prep": "diced",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "onion",
+      "amount": {
+        "value": 0.5,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "2 Roma tomatoes, seeded and diced (or 2 Tbsp salsa)",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": null,
+      "item": "Roma tomatoes",
+      "prep": "seeded and diced",
+      "note": "or 2 Tbsp salsa",
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "tomato",
+      "amount": {
+        "value": 2,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "1 tablespoon chopped cilantro",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "chopped cilantro",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "fresh-cilantro",
+      "amount": {
+        "value": 14.787,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 clove garlic, minced",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "clove",
+      "item": "garlic",
+      "prep": "minced",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "garlic",
+      "amount": {
+        "value": 1,
+        "unit": "each"
+      }
+    }
+  ],
+  "steps": [
+    {
+      "text": "In a large bowl place the scooped avocado pulp and lime juice, toss to coat.",
+      "group": null
+    },
+    {
+      "text": "Drain, and reserve the lime juice, after all of the avocados have been coated.",
+      "group": null
+    },
+    {
+      "text": "Using a potato masher add the salt, cumin, and cayenne and mash.",
+      "group": null
+    },
+    {
+      "text": "Fold in the onions, tomatoes, cilantro, and garlic.",
+      "group": null
+    },
+    {
+      "text": "Add 1 tablespoon of the reserved lime juice.",
+      "group": null
+    },
+    {
+      "text": "Let sit at room temperature for 1 hour and then serve.",
+      "group": null
+    }
+  ],
+  "footnotes": [],
+  "nutrition": null,
+  "importedNotes": [],
+  "seeAlso": [],
+  "source": {
+    "attribution": null,
+    "file": "RECIPES/DIPS, RUBS, SAUCES & MARINADES/Guacamole  Recipe.doc",
+    "type": "doc",
+    "duplicateFiles": []
+  }
+}

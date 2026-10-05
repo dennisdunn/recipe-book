@@ -1,0 +1,198 @@
+{
+  "schemaVersion": 1,
+  "id": "07bb6290-ade9-5b56-80a7-9e0d43f99f3c",
+  "slug": "classic-caramel-corn",
+  "title": "Classic Caramel Corn",
+  "description": null,
+  "category": "Snacks",
+  "subcategory": null,
+  "tags": [],
+  "servings": null,
+  "times": [],
+  "ingredients": [
+    {
+      "raw": "Mazola Pure® Cooking Spray",
+      "quantity": null,
+      "quantityMax": null,
+      "unit": null,
+      "item": "Mazola Pure® Cooking Spray",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "low",
+      "shop": true,
+      "catalogId": "cooking-spray",
+      "amount": null
+    },
+    {
+      "raw": "4 quarts popped popcorn",
+      "quantity": 4,
+      "quantityMax": null,
+      "unit": "qt",
+      "item": "popped popcorn",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "popped-popcorn",
+      "amount": {
+        "value": 3785.412,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 cup brown sugar",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "brown sugar",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "brown-sugar",
+      "amount": {
+        "value": 236.588,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1/2 cup Karo® Light OR Dark Corn Syrup",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "Karo® Light OR Dark Corn Syrup",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "corn-syrup",
+      "amount": {
+        "value": 118.294,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1/2 cup butter OR margarine",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "butter OR margarine",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "butter",
+      "amount": {
+        "value": 118.294,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1/2 teaspoon salt",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "salt",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "salt",
+      "amount": {
+        "value": 2.464,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1/2 teaspoon baking soda",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "baking soda",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "baking-soda",
+      "amount": {
+        "value": 2.464,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 teaspoon Spice Islands® Pure Vanilla Extract",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "Spice Islands® Pure Vanilla Extract",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "vanilla-extract",
+      "amount": {
+        "value": 4.929,
+        "unit": "ml"
+      }
+    }
+  ],
+  "steps": [
+    {
+      "text": "Spray large shallow roasting pan with cooking spray. Add popcorn and place in preheated 250 degrees F oven while preparing caramel.",
+      "group": null
+    },
+    {
+      "text": "Mix brown sugar, corn syrup, butter and salt in a heavy 2-quart saucepan. Stirring constantly, bring to a boil over medium heat.",
+      "group": null
+    },
+    {
+      "text": "Boil 5 minutes without stirring. Remove from heat. Stir in baking soda and vanilla; mix well.",
+      "group": null
+    },
+    {
+      "text": "Pour syrup over warm popcorn, stirring to coat evenly.",
+      "group": null
+    },
+    {
+      "text": "Bake for 45 minutes, stirring occasionally. Remove from oven and spread on foil that has been sprayed with cooking spray.",
+      "group": null
+    },
+    {
+      "text": "Cool; break apart. Store in tightly covered container.",
+      "group": null
+    }
+  ],
+  "footnotes": [],
+  "nutrition": null,
+  "importedNotes": [
+    {
+      "text": "I took the advice of others and sprayed a roasting pan, left the popcorn in the oven while the sauce was preparing. I also sprayed my spatula so nothing would stick. Drizzled it and stirred it. Helped to have someone mixing the popcorn around as I was drizzling it. Cooked it 45 min and stirred it every 10 min. Laid it out on parchment paper and it was delicious. Gone! Very easy, just time consuming because of the stirring but so easy for anyone to make and look like a pro! I am going to try adding peanuts and drizzle chocolate next time."
+    },
+    {
+      "text": "I used dark corn syrup and followed the recipe exactly. To pop the popcorn, I put the kernels in a brown paper bag, folded the top over twice, and microwaved for 2-3 minutes. No oil needed. Repeat until you have 4 quarts. The only tip I'd suggest that isn't in the recipe already is to also spray the spoon or spatula you use to stir the corn with cooking spray. The pots and pans clean up easily after a soak in hot soapy water. Then you can relax and attempt to avoid eating the entire batch of caramel corn all at once."
+    }
+  ],
+  "seeAlso": [],
+  "source": {
+    "attribution": null,
+    "file": "RECIPES/SNACKS/Classic Caramel Corn.doc",
+    "type": "doc",
+    "duplicateFiles": []
+  }
+}

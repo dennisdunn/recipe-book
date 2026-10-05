@@ -1,0 +1,295 @@
+{
+  "schemaVersion": 1,
+  "id": "f5510f2b-2645-54fc-8ee2-35d9106f976f",
+  "slug": "slow-cooker-pepper-steak",
+  "title": "Slow Cooker Pepper Steak",
+  "description": null,
+  "category": "Beef Dishes",
+  "subcategory": null,
+  "tags": [
+    "main"
+  ],
+  "servings": null,
+  "times": [
+    {
+      "label": "Prep time",
+      "text": "20 mins."
+    },
+    {
+      "label": "Cook time",
+      "text": "4 – 6 hours on low or 8 to 10 hours on high"
+    }
+  ],
+  "ingredients": [
+    {
+      "raw": "1-2 lbs beef sirloin, cut into 2 inch strips (or presliced for stir fry)",
+      "quantity": 1,
+      "quantityMax": 2,
+      "unit": "lb",
+      "item": "beef sirloin",
+      "prep": "cut into 2 inch strips",
+      "note": "or presliced for stir fry",
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "beef-steak",
+      "amount": {
+        "value": 680.388,
+        "unit": "g"
+      }
+    },
+    {
+      "raw": "Minced garlic",
+      "quantity": null,
+      "quantityMax": null,
+      "unit": null,
+      "item": "Minced garlic",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "low",
+      "shop": true,
+      "catalogId": "garlic",
+      "amount": null
+    },
+    {
+      "raw": "Garlic powder",
+      "quantity": null,
+      "quantityMax": null,
+      "unit": null,
+      "item": "Garlic powder",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "low",
+      "shop": true,
+      "catalogId": "garlic-powder",
+      "amount": null
+    },
+    {
+      "raw": "2 tbsp vegetable oil",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "vegetable oil",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "vegetable-oil",
+      "amount": {
+        "value": 29.574,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "2 cloves garlic",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "clove",
+      "item": "garlic",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "garlic",
+      "amount": {
+        "value": 2,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "1 cube beef bouillon or beef base",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": null,
+      "item": "cube beef bouillon or beef base",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "beef-broth",
+      "amount": {
+        "value": 1,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "¼ cup hot water",
+      "quantity": 0.25,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "hot water",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "water",
+      "amount": {
+        "value": 59.147,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 tbsp cornstarch",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "cornstarch",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "cornstarch",
+      "amount": {
+        "value": 14.787,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "½ to 1 chopped onion",
+      "quantity": 0.5,
+      "quantityMax": 1,
+      "unit": null,
+      "item": "chopped onion",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "onion",
+      "amount": {
+        "value": 0.75,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "1 large green bell pepper, cut into strips (sauté and add when serving)",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": null,
+      "item": "large green bell pepper",
+      "prep": "cut into strips",
+      "note": "sauté and add when serving",
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "bell-pepper",
+      "amount": {
+        "value": 1,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "1 (14.5 ounce) stewed tomatoes",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "pkg",
+      "item": "stewed tomatoes",
+      "prep": null,
+      "note": "package size: 14.5 ounce",
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "diced-tomatoes",
+      "amount": {
+        "value": 1,
+        "unit": "pkg",
+        "package": "can",
+        "packageOz": 14.5
+      }
+    },
+    {
+      "raw": "1 jar canned tomatoes (from my garden)",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "jar",
+      "item": "canned tomatoes",
+      "prep": null,
+      "note": "from my garden",
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "diced-tomatoes",
+      "amount": {
+        "value": 1,
+        "unit": "pkg",
+        "package": "jar"
+      }
+    },
+    {
+      "raw": "A few dashes of Worchestershire Sauce",
+      "quantity": null,
+      "quantityMax": null,
+      "unit": null,
+      "item": "A few dashes of Worchestershire Sauce",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "low",
+      "shop": true,
+      "catalogId": "worcestershire-sauce",
+      "amount": null
+    },
+    {
+      "raw": "1 tsp white or brown sugar",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "white or brown sugar",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "brown-sugar",
+      "amount": {
+        "value": 4.929,
+        "unit": "ml"
+      }
+    }
+  ],
+  "steps": [
+    {
+      "text": "Sprinkle strips of sirloin with garlic powder to taste. In a large skillet over medium heat, heat the oil and brown the seasoned beef strips. Transfer to a slow cooker. Cook on high for 3 to 4 hours or on low for 6 to 8 hours.",
+      "group": null
+    },
+    {
+      "text": "Then mix bouillon cube with hot water until dissolved, and mix in cornstarch until dissolved. Pour into the slow cooker with meat. Stir in onion, stewed tomatoes, garlic and sugar.",
+      "group": null
+    },
+    {
+      "text": "Saute green peppers separately to desired tenderness and add just prior to serving.",
+      "group": null
+    }
+  ],
+  "footnotes": [],
+  "nutrition": null,
+  "importedNotes": [],
+  "seeAlso": [],
+  "source": {
+    "attribution": null,
+    "file": "RECIPES/BEEF DISHES/Slow Cooker Pepper Steak.doc",
+    "type": "doc",
+    "duplicateFiles": []
+  }
+}

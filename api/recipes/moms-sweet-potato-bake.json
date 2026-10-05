@@ -1,0 +1,232 @@
+{
+  "schemaVersion": 1,
+  "id": "4f37eae3-9ae4-54be-8084-4a17d9a35e9f",
+  "slug": "moms-sweet-potato-bake",
+  "title": "Mom's Sweet Potato Bake",
+  "description": null,
+  "category": "Side Dishes",
+  "subcategory": null,
+  "tags": [],
+  "servings": {
+    "text": "Original Recipe Yield 8 servings",
+    "amount": 8
+  },
+  "times": [
+    {
+      "label": "Prep time",
+      "text": "10 mins."
+    },
+    {
+      "label": "Cook time",
+      "text": "45 mins."
+    }
+  ],
+  "ingredients": [
+    {
+      "raw": "5 large sweet potatoes",
+      "quantity": 5,
+      "quantityMax": null,
+      "unit": null,
+      "item": "large sweet potatoes",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "sweet-potato",
+      "amount": {
+        "value": 5,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "1/2 cup milk",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "milk",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "milk",
+      "amount": {
+        "value": 118.294,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1/4 cup butter or margarine, softened",
+      "quantity": 0.25,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "butter or margarine",
+      "prep": "softened",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "butter",
+      "amount": {
+        "value": 59.147,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "3 small eggs",
+      "quantity": 3,
+      "quantityMax": null,
+      "unit": null,
+      "item": "small eggs",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "eggs",
+      "amount": {
+        "value": 3,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "1/2 teaspoon salt",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "salt",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "salt",
+      "amount": {
+        "value": 2.464,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 teaspoon vanilla extract",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "vanilla extract",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "vanilla-extract",
+      "amount": {
+        "value": 4.929,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1/2 cup packed brown sugar",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "packed brown sugar",
+      "prep": null,
+      "note": null,
+      "group": "Topping",
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "brown-sugar",
+      "amount": {
+        "value": 118.294,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1/2 cup chopped pecans",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "chopped pecans",
+      "prep": null,
+      "note": null,
+      "group": "Topping",
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "pecans",
+      "amount": {
+        "value": 118.294,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1/4 cup all-purpose flour",
+      "quantity": 0.25,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "all-purpose flour",
+      "prep": null,
+      "note": null,
+      "group": "Topping",
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "all-purpose-flour",
+      "amount": {
+        "value": 59.147,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "2 tablespoons cold butter or margarine",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "cold butter or margarine",
+      "prep": null,
+      "note": null,
+      "group": "Topping",
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "butter",
+      "amount": {
+        "value": 29.574,
+        "unit": "ml"
+      }
+    }
+  ],
+  "steps": [
+    {
+      "text": "In a mixing bowl, beat sweet potatoes, sugar, milk, butter, eggs, salt and vanilla until smooth. Transfer to a greased 2-qt. baking dish. In a small bowl, combine brown sugar, pecans and flour; cut in butter until crumbly. Sprinkle over potato mixture. Bake, uncovered, at 325 degrees F for 45-50 minutes or until golden brown.",
+      "group": null
+    }
+  ],
+  "footnotes": [],
+  "nutrition": null,
+  "importedNotes": [
+    {
+      "text": "I doubled the topping and layered half sweet potato mixture, half topping, then repeated it. Definitely sweet, definitely good!!!"
+    },
+    {
+      "text": "If doubling the whole recipe, add 5 eggs instead of six."
+    },
+    {
+      "text": "Try mini marshmallows on half of it for the kids."
+    }
+  ],
+  "seeAlso": [],
+  "source": {
+    "attribution": null,
+    "file": "RECIPES/SIDE DISHES/Mom_s Sweet Potato Bake.doc",
+    "type": "doc",
+    "duplicateFiles": []
+  }
+}

@@ -1,0 +1,268 @@
+{
+  "schemaVersion": 1,
+  "id": "1b1b4695-c78b-5afc-809c-cb0b704d5fc9",
+  "slug": "chef-johns-sloppy-joes",
+  "title": "Chef John's Sloppy Joes",
+  "description": "\"The secret to a great 'Sloppy Joe' is a thick, rich, almost dry consistency, which allows it to be eaten two-fisted, sans fork.\"",
+  "category": "Beef Dishes",
+  "subcategory": null,
+  "tags": [
+    "main"
+  ],
+  "servings": null,
+  "times": [],
+  "ingredients": [
+    {
+      "raw": "1 1/2 pounds extra lean ground beef",
+      "quantity": 1.5,
+      "quantityMax": null,
+      "unit": "lb",
+      "item": "extra lean ground beef",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "ground-beef",
+      "amount": {
+        "value": 680.388,
+        "unit": "g"
+      }
+    },
+    {
+      "raw": "1/2 onion, diced",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": null,
+      "item": "onion",
+      "prep": "diced",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "onion",
+      "amount": {
+        "value": 0.5,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "2 cloves garlic, minced",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "clove",
+      "item": "garlic",
+      "prep": "minced",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "garlic",
+      "amount": {
+        "value": 2,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "1 red bell pepper, diced",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": null,
+      "item": "red bell pepper",
+      "prep": "diced",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "bell-pepper",
+      "amount": {
+        "value": 1,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "1 cup water",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "water",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "water",
+      "amount": {
+        "value": 236.588,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "3/4 cup ketchup",
+      "quantity": 0.75,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "ketchup",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "ketchup",
+      "amount": {
+        "value": 177.441,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "2 tablespoons brown sugar",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "brown sugar",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "brown-sugar",
+      "amount": {
+        "value": 29.574,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 teaspoon Dijon mustard",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "Dijon mustard",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "dijon-mustard",
+      "amount": {
+        "value": 4.929,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 dash Worcestershire sauce",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "dash",
+      "item": "Worcestershire sauce",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "worcestershire-sauce",
+      "amount": {
+        "value": 0.62,
+        "unit": "ml",
+        "approximate": true
+      }
+    },
+    {
+      "raw": "1 1/2 teaspoons salt, or to taste",
+      "quantity": 1.5,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "salt",
+      "prep": null,
+      "note": "to taste",
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "salt",
+      "amount": {
+        "value": 7.393,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1/2 teaspoon ground black pepper",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "ground black pepper",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "black-pepper",
+      "amount": {
+        "value": 2.464,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 cup water",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "water",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "water",
+      "amount": {
+        "value": 236.588,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 pinch cayenne pepper, or to taste",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "pinch",
+      "item": "cayenne pepper",
+      "prep": null,
+      "note": "to taste",
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "cayenne",
+      "amount": {
+        "value": 0.31,
+        "unit": "ml",
+        "approximate": true
+      }
+    }
+  ],
+  "steps": [
+    {
+      "text": "Combine the ground beef and onion in a cold skillet, place the skillet onto a stove burner, and turn the heat to medium; cook and stir until the beef is crumbly and browned. Stir the garlic and bell pepper into the beef mixture; continue cooking and stirring until the vegetables are tender, 2 to 3 more minutes. Add 1 cup of water. Mix in ketchup, brown sugar, Dijon mustard, Worcestershire, salt, and pepper. Pour in 1 more cup of water. Bring to a simmer. Reduce heat to low and cook until the mixture becomes very thick, 30 to 45 minutes. Adjust salt and pepper as needed. Season with cayenne.",
+      "group": null
+    }
+  ],
+  "footnotes": [],
+  "nutrition": null,
+  "importedNotes": [],
+  "seeAlso": [],
+  "source": {
+    "attribution": null,
+    "file": "RECIPES/BEEF DISHES/Sloppy Joe.doc",
+    "type": "doc",
+    "duplicateFiles": []
+  }
+}

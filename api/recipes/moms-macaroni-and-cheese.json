@@ -1,0 +1,287 @@
+{
+  "schemaVersion": 1,
+  "id": "285a03e8-05bc-5d77-80cc-0ff5ecedd0cf",
+  "slug": "moms-macaroni-and-cheese",
+  "title": "Mom's Macaroni and Cheese",
+  "description": null,
+  "category": "Side Dishes",
+  "subcategory": null,
+  "tags": [],
+  "servings": {
+    "text": "Servings: 8",
+    "amount": 8
+  },
+  "times": [
+    {
+      "label": "Prep time",
+      "text": "30 mins"
+    },
+    {
+      "label": "Cook time",
+      "text": "30 mins"
+    }
+  ],
+  "ingredients": [
+    {
+      "raw": "1 box lg whole wheat Rotini and 1 box salad Rotini, uncooked",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "box",
+      "item": "lg whole wheat Rotini and 1 box salad Rotini",
+      "prep": "uncooked",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "rotini",
+      "amount": {
+        "value": 1,
+        "unit": "pkg",
+        "package": "box"
+      }
+    },
+    {
+      "raw": "6 tbsps butter, divided",
+      "quantity": 6,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "butter",
+      "prep": "divided",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "butter",
+      "amount": {
+        "value": 88.721,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "5 tbsps all-purpose flour",
+      "quantity": 5,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "all-purpose flour",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "all-purpose-flour",
+      "amount": {
+        "value": 73.934,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 ½  tsp salt",
+      "quantity": 1.5,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "salt",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "salt",
+      "amount": {
+        "value": 7.393,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1  tsp pepper",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "pepper",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "black-pepper",
+      "amount": {
+        "value": 4.929,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "2 tsp ground mustard",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "ground mustard",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "mustard-seed",
+      "amount": {
+        "value": 9.858,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "3 cups milk",
+      "quantity": 3,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "milk",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "milk",
+      "amount": {
+        "value": 709.764,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "3 cups shredded Cheddar cheese",
+      "quantity": 3,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "shredded Cheddar cheese",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "cheddar-cheese",
+      "amount": {
+        "value": 709.764,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "6 ounces processed cheese food (eg. Velveeta), cubed",
+      "quantity": 6,
+      "quantityMax": null,
+      "unit": "oz",
+      "item": "processed cheese food",
+      "prep": "cubed",
+      "note": "eg. Velveeta",
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "american-cheese",
+      "amount": {
+        "value": 170.097,
+        "unit": "g"
+      }
+    },
+    {
+      "raw": "12 tablespoons cornflake crumbs",
+      "quantity": 12,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "cornflake crumbs",
+      "prep": null,
+      "note": null,
+      "group": "Topping",
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "bread-crumbs",
+      "amount": {
+        "value": 177.442,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "½  cup shredded cheddar",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "shredded cheddar",
+      "prep": null,
+      "note": null,
+      "group": "Topping",
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "cheddar-cheese",
+      "amount": {
+        "value": 118.294,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "2 tbsp butter",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "butter",
+      "prep": null,
+      "note": null,
+      "group": "Topping",
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "butter",
+      "amount": {
+        "value": 29.574,
+        "unit": "ml"
+      }
+    }
+  ],
+  "steps": [
+    {
+      "text": "Cook macaroni according to package directions. Drain macaroni.",
+      "group": null
+    },
+    {
+      "text": "Meanwhile, in a saucepan, melt 4 tablespoons butter over medium heat.",
+      "group": null
+    },
+    {
+      "text": "Stir in flour, salt, pepper and mustard until smooth.",
+      "group": null
+    },
+    {
+      "text": "Slowly add milk, stirring constantly. Bring to a boil, cook and stir for 2 minutes or until thickened. Reduce heat.",
+      "group": null
+    },
+    {
+      "text": "Slowly add the cheeses, stirring constantly until cheese is melted. Remove from heat as soon as melted.  In large bowl, combine cheese mixture and macaroni and stir gently until mixed.",
+      "group": null
+    },
+    {
+      "text": "Transfer macaroni and cheese to a greased 9 x 13 baking dish.",
+      "group": null
+    },
+    {
+      "text": "Melt the remaining butter, add the bread crumbs and stir. Remove from heat and add ½  cup shredded cheddar. Sprinkle over top.",
+      "group": null
+    },
+    {
+      "text": "Bake, uncovered, at 375 degrees F for 30 minutes or until heated through and topping is golden.",
+      "group": null
+    }
+  ],
+  "footnotes": [],
+  "nutrition": null,
+  "importedNotes": [],
+  "seeAlso": [],
+  "source": {
+    "attribution": null,
+    "file": "RECIPES/SIDE DISHES/Mom_s Macaroni and Cheese.doc",
+    "type": "doc",
+    "duplicateFiles": []
+  }
+}

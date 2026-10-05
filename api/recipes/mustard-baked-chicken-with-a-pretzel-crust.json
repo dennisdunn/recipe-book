@@ -1,0 +1,185 @@
+{
+  "schemaVersion": 1,
+  "id": "bb259956-a4d7-599b-a9e9-8374f9ce1555",
+  "slug": "mustard-baked-chicken-with-a-pretzel-crust",
+  "title": "Mustard-Baked Chicken with a Pretzel Crust",
+  "description": null,
+  "category": "Chicken Dishes",
+  "subcategory": null,
+  "tags": [
+    "main"
+  ],
+  "servings": null,
+  "times": [],
+  "ingredients": [
+    {
+      "raw": "1/2 pound hard pretzels, coarsely crushed (4 cups)",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "lb",
+      "item": "hard pretzels",
+      "prep": "coarsely crushed",
+      "note": "4 cups",
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "pretzels",
+      "amount": {
+        "value": 226.796,
+        "unit": "g"
+      }
+    },
+    {
+      "raw": "1/2 cup canola oil",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "canola oil",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "vegetable-oil",
+      "amount": {
+        "value": 118.294,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1/2 cup whole-grain mustard",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "whole-grain mustard",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "dijon-mustard",
+      "amount": {
+        "value": 118.294,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "2 tablespoons Dijon mustard",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "Dijon mustard",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "dijon-mustard",
+      "amount": {
+        "value": 29.574,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1/4 cup water",
+      "quantity": 0.25,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "water",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "water",
+      "amount": {
+        "value": 59.147,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "3 tablespoons red wine vinegar",
+      "quantity": 3,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "red wine vinegar",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "red-wine-vinegar",
+      "amount": {
+        "value": 44.36,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "Salt and freshly ground pepper",
+      "quantity": null,
+      "quantityMax": null,
+      "unit": null,
+      "item": "Salt and freshly ground pepper",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "low",
+      "shop": true,
+      "catalogId": "salt",
+      "amount": null
+    },
+    {
+      "raw": "6 large skinless, boneless chicken breast halves",
+      "quantity": 6,
+      "quantityMax": null,
+      "unit": null,
+      "item": "large skinless, boneless chicken breast halves",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "chicken-breast",
+      "amount": {
+        "value": 6,
+        "unit": "each"
+      }
+    }
+  ],
+  "steps": [
+    {
+      "text": "Preheat the oven to 400°. In a food processor, pulse the pretzels until coarsely ground; you should have coarse chunks and fine crumbs. Transfer to a large, shallow bowl.",
+      "group": null
+    },
+    {
+      "text": "Wipe out the food processor. Add the oil, whole-grain and Dijon mustards, water and vinegar and process until smooth. Season the dressing with salt and pepper.",
+      "group": null
+    },
+    {
+      "text": "Pour half of the dressing into a large shallow bowl, add the chicken breasts and turn to coat. Dredge the chicken in the pretzel crumbs and transfer to a rack set over a rimmed baking sheet.",
+      "group": null
+    },
+    {
+      "text": "Bake in the upper third of the oven for 20 to 25 minutes, or until cooked through. Slice the chicken and serve warm or at room temperature wit",
+      "group": null
+    }
+  ],
+  "footnotes": [],
+  "nutrition": null,
+  "importedNotes": [],
+  "seeAlso": [],
+  "source": {
+    "attribution": null,
+    "file": "RECIPES/CHICKEN DISHES/Chicken with Pretzel Crust.doc",
+    "type": "doc",
+    "duplicateFiles": []
+  }
+}

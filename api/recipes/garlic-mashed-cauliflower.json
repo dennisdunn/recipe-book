@@ -1,0 +1,167 @@
+{
+  "schemaVersion": 1,
+  "id": "473a4040-ec0f-599b-82c8-005c5fad75cd",
+  "slug": "garlic-mashed-cauliflower",
+  "title": "Garlic Mashed Cauliflower",
+  "description": null,
+  "category": "Protein Recipes",
+  "subcategory": "KETO RECIPES",
+  "tags": [
+    "keto"
+  ],
+  "servings": null,
+  "times": [],
+  "ingredients": [
+    {
+      "raw": "1 head cauliflower, cut into florets",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "head",
+      "item": "cauliflower",
+      "prep": "cut into florets",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "cauliflower",
+      "amount": {
+        "value": 1,
+        "unit": "each",
+        "countUnit": "head"
+      }
+    },
+    {
+      "raw": "1 tablespoon olive oil",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "olive oil",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "olive-oil",
+      "amount": {
+        "value": 14.787,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 clove garlic, smashed",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "clove",
+      "item": "garlic",
+      "prep": "smashed",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "garlic",
+      "amount": {
+        "value": 1,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "1/4 cup grated Parmesan cheese",
+      "quantity": 0.25,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "grated Parmesan cheese",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "parmesan-cheese",
+      "amount": {
+        "value": 59.147,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 tablespoon reduced-fat cream cheese",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "reduced-fat cream cheese",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "cream-cheese",
+      "amount": {
+        "value": 14.787,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1/2 teaspoon kosher salt",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "kosher salt",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "salt",
+      "amount": {
+        "value": 2.464,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1/8 teaspoon freshly ground black pepper",
+      "quantity": 0.125,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "freshly ground black pepper",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "black-pepper",
+      "amount": {
+        "value": 0.616,
+        "unit": "ml"
+      }
+    }
+  ],
+  "steps": [
+    {
+      "text": "Place a steamer insert into a saucepan and fill with water to just below the bottom of the steamer. Bring water to a boil. Add cauliflower, cover, and steam until tender, about 10 minutes.",
+      "group": null
+    },
+    {
+      "text": "Meanwhile, heat olive oil in a small skillet over medium heat; cook and stir garlic until softened, about 2 minutes. Remove from heat.",
+      "group": null
+    },
+    {
+      "text": "Transfer half the cauliflower to a food processor; cover and blend on high. Add remaining cauliflower florets, one at a time, until vegetables are creamy. Blend in garlic, Parmesan cheese, cream cheese, salt, and black pepper.",
+      "group": null
+    }
+  ],
+  "footnotes": [],
+  "nutrition": null,
+  "importedNotes": [],
+  "seeAlso": [],
+  "source": {
+    "attribution": null,
+    "file": "RECIPES/PROTEIN RECIPES/KETO RECIPES/Garlic Mashed Cauliflower.doc",
+    "type": "doc",
+    "duplicateFiles": []
+  }
+}

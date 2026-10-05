@@ -1,0 +1,220 @@
+{
+  "schemaVersion": 1,
+  "id": "b88c71b1-35fc-5e8a-8496-dbe18073342c",
+  "slug": "pasta-primavera",
+  "title": "Pasta Primavera",
+  "description": null,
+  "category": "Pasta Dishes",
+  "subcategory": null,
+  "tags": [
+    "main"
+  ],
+  "servings": null,
+  "times": [],
+  "ingredients": [
+    {
+      "raw": "½ lb linguine, cooked",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "lb",
+      "item": "linguine",
+      "prep": "cooked",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "linguine",
+      "amount": {
+        "value": 226.796,
+        "unit": "g"
+      }
+    },
+    {
+      "raw": "1 cup tomatoes, diced",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "tomatoes",
+      "prep": "diced",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "tomato",
+      "amount": {
+        "value": 236.588,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "½ cup zucchini, diced",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "zucchini",
+      "prep": "diced",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "zucchini",
+      "amount": {
+        "value": 118.294,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "½ cup yellow squash, diced",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "yellow squash",
+      "prep": "diced",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "yellow-squash",
+      "amount": {
+        "value": 118.294,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "¼ cup red pepper, diced",
+      "quantity": 0.25,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "red pepper",
+      "prep": "diced",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "bell-pepper",
+      "amount": {
+        "value": 59.147,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "¼ cup green pepper, diced",
+      "quantity": 0.25,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "green pepper",
+      "prep": "diced",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "bell-pepper",
+      "amount": {
+        "value": 59.147,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "¼ cup red wine vinegar",
+      "quantity": 0.25,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "red wine vinegar",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "red-wine-vinegar",
+      "amount": {
+        "value": 59.147,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "¼ cup olive oil",
+      "quantity": 0.25,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "olive oil",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "olive-oil",
+      "amount": {
+        "value": 59.147,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 tsp Italian seasoning",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "Italian seasoning",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "italian-seasoning",
+      "amount": {
+        "value": 4.929,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "4 oz crumbled feta cheese",
+      "quantity": 4,
+      "quantityMax": null,
+      "unit": "oz",
+      "item": "crumbled feta cheese",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "feta-cheese",
+      "amount": {
+        "value": 113.398,
+        "unit": "g"
+      }
+    }
+  ],
+  "steps": [
+    {
+      "text": "Combine all ingredients.",
+      "group": null
+    },
+    {
+      "text": "Heat in 350 degree oven for 30 minutes.",
+      "group": null
+    },
+    {
+      "text": "Refrigerate any leftovers. Serves 4",
+      "group": null
+    }
+  ],
+  "footnotes": [],
+  "nutrition": null,
+  "importedNotes": [],
+  "seeAlso": [],
+  "source": {
+    "attribution": null,
+    "file": "RECIPES/PASTA DISHES/Pasta Primavera.doc",
+    "type": "doc",
+    "duplicateFiles": []
+  }
+}

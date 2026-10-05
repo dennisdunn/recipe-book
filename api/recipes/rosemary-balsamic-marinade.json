@@ -1,0 +1,196 @@
+{
+  "schemaVersion": 1,
+  "id": "bafa9329-6df6-563b-8fd5-c85f680a9710",
+  "slug": "rosemary-balsamic-marinade",
+  "title": "Rosemary Balsamic Marinade",
+  "description": null,
+  "category": "Dips, Rubs, Sauces & Marinades",
+  "subcategory": null,
+  "tags": [],
+  "servings": null,
+  "times": [],
+  "ingredients": [
+    {
+      "raw": "6 cloves garlic, minced",
+      "quantity": 6,
+      "quantityMax": null,
+      "unit": "clove",
+      "item": "garlic",
+      "prep": "minced",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "garlic",
+      "amount": {
+        "value": 6,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "1/4 cup extra virgin olive oil",
+      "quantity": 0.25,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "extra virgin olive oil",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "olive-oil",
+      "amount": {
+        "value": 59.147,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1/4 cup balsamic vinegar",
+      "quantity": 0.25,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "balsamic vinegar",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "balsamic-vinegar",
+      "amount": {
+        "value": 59.147,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1/2 cup dry red wine, divided",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "dry red wine",
+      "prep": "divided",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "wine",
+      "amount": {
+        "value": 118.294,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "2 tablespoons chopped fresh rosemary, divided",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "chopped fresh rosemary",
+      "prep": "divided",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "fresh-rosemary",
+      "amount": {
+        "value": 29.574,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "3/4 teaspoon salt",
+      "quantity": 0.75,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "salt",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "salt",
+      "amount": {
+        "value": 3.697,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1/2 teaspoon black pepper",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "black pepper",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "black-pepper",
+      "amount": {
+        "value": 2.464,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 1/4 pound flat iron steak",
+      "quantity": 1.25,
+      "quantityMax": null,
+      "unit": "lb",
+      "item": "flat iron steak",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "beef-steak",
+      "amount": {
+        "value": 566.99,
+        "unit": "g"
+      }
+    }
+  ],
+  "steps": [
+    {
+      "text": "1 In a bowl whisk together garlic, extra virgin olive oil, balsamic, 1/4 cup red wine, 1 tablespoon chopped rosemary, salt and pepper.",
+      "group": null
+    },
+    {
+      "text": "2 Place flat iron steak in a plastic bag. Pour marinade over the top. Shake to coat steak in marinade. Refrigerate for 8 hours or overnight.",
+      "group": null
+    },
+    {
+      "text": "3 When you're ready to cook, preheat your grill to medium-high heat.",
+      "group": null
+    },
+    {
+      "text": "4 Place the steak on the grill and reserve the marinade. Cook steak 3 - 4 minutes per-side for medium rare. Remove steak from grill and let rest for 10 minutes. Remember the steak will continue to cook a bit while resting",
+      "group": null
+    },
+    {
+      "text": "5 Meanwhile, pour marinade into a skillet over medium heat. Pour in remaining 1/4 cup of red wine. Bring to a boil and allow to cook until it reduces by half, 5 - 10 minutes. Stir in remaining tablespoon of fresh rosemary. Remove from heat.",
+      "group": null
+    },
+    {
+      "text": "6 After steak has rested, slice it against the grain into 1/2 inch slices. Spoon sauce over the top and serve.",
+      "group": null
+    }
+  ],
+  "footnotes": [],
+  "nutrition": {
+    "text": "Calories: 766 , Total Fat: 51.9g , Saturated Fat: 16.3g , Cholesterol: 250mg , Sodium: 577mg , Carbohydrates: 2.4g , Fiber: 0.6g , Sugar: 0.2g , Protein: 70.3g"
+  },
+  "importedNotes": [],
+  "seeAlso": [],
+  "source": {
+    "attribution": null,
+    "file": "RECIPES/DIPS, RUBS, SAUCES & MARINADES/Rosemary Balsamic Marinade.doc",
+    "type": "doc",
+    "duplicateFiles": []
+  }
+}

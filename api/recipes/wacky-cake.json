@@ -1,0 +1,186 @@
+{
+  "schemaVersion": 1,
+  "id": "4b46f763-1d7f-57d1-a586-15170cb49c73",
+  "slug": "wacky-cake",
+  "title": "Wacky Cake",
+  "description": null,
+  "category": "Desserts",
+  "subcategory": null,
+  "tags": [],
+  "servings": null,
+  "times": [],
+  "ingredients": [
+    {
+      "raw": "1 ½ cups flour",
+      "quantity": 1.5,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "flour",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "all-purpose-flour",
+      "amount": {
+        "value": 354.882,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "½ tsp baking soda",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "baking soda",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "baking-soda",
+      "amount": {
+        "value": 2.464,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "½ tsp salt",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "salt",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "salt",
+      "amount": {
+        "value": 2.464,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "3 tbsp cocoa",
+      "quantity": 3,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "cocoa",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "cocoa-powder",
+      "amount": {
+        "value": 44.36,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "6 tbsp oil",
+      "quantity": 6,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "oil",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "vegetable-oil",
+      "amount": {
+        "value": 88.721,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 cup sugar or less",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "sugar or less",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "sugar",
+      "amount": {
+        "value": 236.588,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 tsp vanilla",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "vanilla",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "vanilla-extract",
+      "amount": {
+        "value": 4.929,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 tbsp vinegar",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "vinegar",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "white-vinegar",
+      "amount": {
+        "value": 14.787,
+        "unit": "ml"
+      }
+    }
+  ],
+  "steps": [
+    {
+      "text": "Sift all dry ingredients together in a 9” square pan.",
+      "group": null
+    },
+    {
+      "text": "Make 3 holes with a spoon and pour oil into one, vinegar into one and vanilla into one.",
+      "group": null
+    },
+    {
+      "text": "Pour 1 cup warm water over all and stir gently with a fork until well blended.",
+      "group": null
+    },
+    {
+      "text": "Bake at 350 degrees for 30 mins.",
+      "group": null
+    }
+  ],
+  "footnotes": [],
+  "nutrition": null,
+  "importedNotes": [],
+  "seeAlso": [],
+  "source": {
+    "attribution": null,
+    "file": "RECIPES/DESSERTS/Wacky Cake.doc",
+    "type": "doc",
+    "duplicateFiles": []
+  }
+}

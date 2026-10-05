@@ -1,0 +1,185 @@
+{
+  "schemaVersion": 1,
+  "id": "3259eed1-c5ef-5c36-9544-b093b837c8a2",
+  "slug": "pepper-sirloin-steak",
+  "title": "Pepper Sirloin Steak",
+  "description": null,
+  "category": "Beef Dishes",
+  "subcategory": null,
+  "tags": [
+    "main"
+  ],
+  "servings": {
+    "text": "Serves 6",
+    "amount": 6
+  },
+  "times": [],
+  "ingredients": [
+    {
+      "raw": "1 (2 1/2 pounds) sirloin steak, 1 1/2 inches thick",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "pkg",
+      "item": "sirloin steak, 1 1/2 inches thick",
+      "prep": null,
+      "note": "package size: 2 1/2 pounds",
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "beef-steak",
+      "amount": {
+        "value": 1,
+        "unit": "pkg",
+        "package": "pkg",
+        "packageOz": 32
+      }
+    },
+    {
+      "raw": "1/2 cup butter or margarine",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "butter or margarine",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "butter",
+      "amount": {
+        "value": 118.294,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1/4 cup chopped fresh parsley or 4 teaspoons dried parsley",
+      "quantity": 0.25,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "chopped fresh parsley or 4 teaspoons dried parsley",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "fresh-parsley",
+      "amount": {
+        "value": 59.147,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1/4 cup minced onion",
+      "quantity": 0.25,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "minced onion",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "onion",
+      "amount": {
+        "value": 59.147,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "2 tablespoons Worcestershire sauce",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "Worcestershire sauce",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "worcestershire-sauce",
+      "amount": {
+        "value": 29.574,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 teaspoon freshly ground pepper",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "freshly ground pepper",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "black-pepper",
+      "amount": {
+        "value": 4.929,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1/2 teaspoon dry mustard",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "dry mustard",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "mustard-seed",
+      "amount": {
+        "value": 2.464,
+        "unit": "ml"
+      }
+    }
+  ],
+  "steps": [
+    {
+      "text": "Lightly score edges of steak at 1-inch intervals. Preheat grill or broiler.",
+      "group": null
+    },
+    {
+      "text": "Combine butter, parsley, onion, Worcestershire sauce, pepper and mustard in a small saucepan. Heat, stirring continually, over low heat, until butter melts. Reserve 1/2 of the mixture.",
+      "group": null
+    },
+    {
+      "text": "Place steak on grill or broiler pan. Brush steak with butter mixture. Cook, basting frequently with butter mixture, about 6 minutes per side for medium.",
+      "group": null
+    },
+    {
+      "text": "Place steak on a serving platter. Cut thin slices across the grain. Drizzle reserved butter mixture over steak.",
+      "group": null
+    }
+  ],
+  "footnotes": [
+    "Tip: it's easy to please individual tastes by grilling or broiling steaks to-order. Cut steak into serving-size portions before cooking.",
+    "Tip: a clean grill rack helps prevent meat from sticking. Rub a wire brush over the rack after the grill has been sufficiently heated."
+  ],
+  "nutrition": null,
+  "importedNotes": [
+    {
+      "text": "Make ahead: leftover steak keeps well wrapped in the refrigerator for up to 2 days. Slice and serve alongside eggs or make a hearty last-minute salad for a weeknight supper."
+    },
+    {
+      "text": "Variation: sprinkle fresh herbs on hot coals while grilling to enhance the flavor of the meat."
+    }
+  ],
+  "seeAlso": [],
+  "source": {
+    "attribution": null,
+    "file": "RECIPES/SOUPS AND STEWS/Pepper Serloin Steak.png",
+    "type": "image",
+    "duplicateFiles": []
+  }
+}

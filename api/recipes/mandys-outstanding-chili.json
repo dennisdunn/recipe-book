@@ -1,0 +1,242 @@
+{
+  "schemaVersion": 1,
+  "id": "c6bea7d3-ee7c-5be1-9986-4548690cf6cf",
+  "slug": "mandys-outstanding-chili",
+  "title": "Mandy's Outstanding Chili",
+  "description": null,
+  "category": "Soups and Stews",
+  "subcategory": null,
+  "tags": [
+    "main"
+  ],
+  "servings": null,
+  "times": [],
+  "ingredients": [
+    {
+      "raw": "2 cans Black Beans (Rinsed and Drained)",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "can",
+      "item": "Black Beans",
+      "prep": null,
+      "note": "Rinsed and Drained",
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "black-beans",
+      "amount": {
+        "value": 2,
+        "unit": "pkg",
+        "package": "can"
+      }
+    },
+    {
+      "raw": "2 cans Red Kidney Beans (Rinsed and Drained)",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "can",
+      "item": "Red Kidney Beans",
+      "prep": null,
+      "note": "Rinsed and Drained",
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "kidney-beans",
+      "amount": {
+        "value": 2,
+        "unit": "pkg",
+        "package": "can"
+      }
+    },
+    {
+      "raw": "2 cans Chili Beans",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "can",
+      "item": "Chili Beans",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "chili-beans",
+      "amount": {
+        "value": 2,
+        "unit": "pkg",
+        "package": "can"
+      }
+    },
+    {
+      "raw": "2 cans Chili Spiced Tomatoes",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "can",
+      "item": "Chili Spiced Tomatoes",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "diced-tomatoes",
+      "amount": {
+        "value": 2,
+        "unit": "pkg",
+        "package": "can"
+      }
+    },
+    {
+      "raw": "Bell Peppers (I like tricolor Red, Yellow, and Green) Chopped",
+      "quantity": null,
+      "quantityMax": null,
+      "unit": null,
+      "item": "Bell Peppers  Chopped",
+      "prep": null,
+      "note": "I like tricolor Red, Yellow, and Green",
+      "group": null,
+      "optional": false,
+      "confidence": "low",
+      "shop": true,
+      "catalogId": "bell-pepper",
+      "amount": null
+    },
+    {
+      "raw": "1 medium Onion Chopped",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": null,
+      "item": "medium Onion Chopped",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "onion",
+      "amount": {
+        "value": 1,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "2 cloves garlic pressed",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "clove",
+      "item": "garlic pressed",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "garlic",
+      "amount": {
+        "value": 2,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "Chili Powder to taste",
+      "quantity": null,
+      "quantityMax": null,
+      "unit": null,
+      "item": "Chili Powder",
+      "prep": null,
+      "note": "to taste",
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "chili-powder",
+      "amount": null
+    },
+    {
+      "raw": "Black Pepper to taste",
+      "quantity": null,
+      "quantityMax": null,
+      "unit": null,
+      "item": "Black Pepper",
+      "prep": null,
+      "note": "to taste",
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "black-pepper",
+      "amount": null
+    },
+    {
+      "raw": "Ground Beef (seasoned with Chili powder, steak sauce, Worchester Sauce)",
+      "quantity": null,
+      "quantityMax": null,
+      "unit": null,
+      "item": "Ground Beef",
+      "prep": null,
+      "note": "seasoned with Chili powder, steak sauce, Worchester Sauce",
+      "group": null,
+      "optional": false,
+      "confidence": "low",
+      "shop": true,
+      "catalogId": "ground-beef",
+      "amount": null
+    },
+    {
+      "raw": "1 cup beer (alcohol will cook out only leaving flavor)",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "beer",
+      "prep": null,
+      "note": "alcohol will cook out only leaving flavor",
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "beer",
+      "amount": {
+        "value": 236.588,
+        "unit": "ml"
+      }
+    }
+  ],
+  "steps": [
+    {
+      "text": "Mix beef and seasoning and set it aside to marinade for 30 minutes.",
+      "group": null
+    },
+    {
+      "text": "Open cans and put in crock pot.",
+      "group": null
+    },
+    {
+      "text": "Sautee Peppers and Onions in olive oil, salt, and pepper until onions caramelize and add to crock pot.",
+      "group": null
+    },
+    {
+      "text": "Brown the seasoned beef in the same pan and add to crock pot.",
+      "group": null
+    },
+    {
+      "text": "Deglaze sauté pan with beer and pressed garlic allow the mixture to reduce (3-5 minutes) and add to crock pot.",
+      "group": null
+    },
+    {
+      "text": "Refrigerate overnight if time allows.",
+      "group": null
+    }
+  ],
+  "footnotes": [],
+  "nutrition": null,
+  "importedNotes": [],
+  "seeAlso": [],
+  "source": {
+    "attribution": null,
+    "file": "RECIPES/SOUPS AND STEWS/Mandy_s Outstanding Chili.doc",
+    "type": "doc",
+    "duplicateFiles": []
+  }
+}

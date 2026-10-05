@@ -1,0 +1,337 @@
+{
+  "schemaVersion": 1,
+  "id": "8eab5174-eb47-5a1f-b389-a7954dcde08f",
+  "slug": "oatmeal-raisin-cookies",
+  "title": "Oatmeal Raisin Cookies",
+  "description": null,
+  "category": "Desserts",
+  "subcategory": null,
+  "tags": [],
+  "servings": null,
+  "times": [],
+  "ingredients": [
+    {
+      "raw": "3 jumbo eggs (or 4 large eggs), beaten",
+      "quantity": 3,
+      "quantityMax": null,
+      "unit": null,
+      "item": "jumbo eggs , beaten",
+      "prep": null,
+      "note": "or 4 large eggs",
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "eggs",
+      "amount": {
+        "value": 3,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "½ cup golden raisins",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "golden raisins",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "raisins",
+      "amount": {
+        "value": 118.294,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "½ cup chopped dates",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "chopped dates",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "dates",
+      "amount": {
+        "value": 118.294,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 teaspoon vanilla extract",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "vanilla extract",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "vanilla-extract",
+      "amount": {
+        "value": 4.929,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 cup softened butter",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "softened butter",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "butter",
+      "amount": {
+        "value": 236.588,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "½ to 1 cup packed brown sugar",
+      "quantity": 0.5,
+      "quantityMax": 1,
+      "unit": "cup",
+      "item": "packed brown sugar",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "brown-sugar",
+      "amount": {
+        "value": 177.441,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "½ to 1 cup white sugar",
+      "quantity": 0.5,
+      "quantityMax": 1,
+      "unit": "cup",
+      "item": "white sugar",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "sugar",
+      "amount": {
+        "value": 177.441,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "2 ½ to 3 cups all-purpose flour",
+      "quantity": 2.5,
+      "quantityMax": 3,
+      "unit": "cup",
+      "item": "all-purpose flour",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "all-purpose-flour",
+      "amount": {
+        "value": 650.617,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "2 teaspoons ground cinnamon",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "ground cinnamon",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "cinnamon",
+      "amount": {
+        "value": 9.858,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "½  tsp allspice",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "allspice",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "allspice",
+      "amount": {
+        "value": 2.464,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "Dash of nutmeg",
+      "quantity": null,
+      "quantityMax": null,
+      "unit": "dash",
+      "item": "nutmeg",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "low",
+      "shop": true,
+      "catalogId": "nutmeg",
+      "amount": null
+    },
+    {
+      "raw": "½ tsp salt",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "salt",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "salt",
+      "amount": {
+        "value": 2.464,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 teaspoon baking soda (check expiration date)",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "baking soda",
+      "prep": null,
+      "note": "check expiration date",
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "baking-soda",
+      "amount": {
+        "value": 4.929,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 tsp baking powder",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "baking powder",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "baking-powder",
+      "amount": {
+        "value": 4.929,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "2 cups minute oats",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "minute oats",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "oats",
+      "amount": {
+        "value": 473.176,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 cup chopped pecans or walnuts",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "chopped pecans or walnuts",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "pecans",
+      "amount": {
+        "value": 236.588,
+        "unit": "ml"
+      }
+    }
+  ],
+  "steps": [
+    {
+      "text": "Combine eggs, vanilla and raisins in a small bowl; cover and let stand for 1 hour.",
+      "group": null
+    },
+    {
+      "text": "Preheat oven to 350 degrees F (175 degrees C).",
+      "group": null
+    },
+    {
+      "text": "In a large bowl, cream the butter, brown sugar, and white sugar together. Sift together the flour, cinnamon, and baking soda; stir into the creamed mixture. Then mix in the raisin mixture, rolled oats, and nuts by hand.",
+      "group": null
+    },
+    {
+      "text": "Roll the dough into logs in plastic wrap and popped 'em in the freezer for 30 minutes, then slice and bake on parchment covered cookie sheets. Bake for 9 minutes (15 if using frozen dough) or until lightly browned. Let cool for 2 minutes before removing from pan. Yields 6 dozen.",
+      "group": null
+    }
+  ],
+  "footnotes": [],
+  "nutrition": null,
+  "importedNotes": [
+    {
+      "text": "I soaked the raisins in 2 eggs and added 1 egg to the batter for easier mixing. Soaking the raisins in the egg makes the difference, never skip this step!"
+    },
+    {
+      "text": "I dumped a little of the egg in early because this dough is pretty stiff and it helped with the mixing."
+    },
+    {
+      "text": "Don't make the balls too large as you drop them on the cookie sheet, or the middles will stay gooey. Keep them around a teaspoon to a teaspoon and a half."
+    }
+  ],
+  "seeAlso": [],
+  "source": {
+    "attribution": null,
+    "file": "RECIPES/DESSERTS/Oatmeal Raisin Cookies.doc",
+    "type": "doc",
+    "duplicateFiles": []
+  }
+}

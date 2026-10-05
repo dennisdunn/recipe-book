@@ -1,0 +1,80 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Recipe",
+  "type": "object",
+  "required": ["schemaVersion", "id", "slug", "title", "category", "ingredients", "steps"],
+  "properties": {
+    "schemaVersion": { "const": 1 },
+    "id": { "type": "string", "format": "uuid", "description": "Immutable. Key for cook notes, favorites and shopping lists stored in the browser. Never change it." },
+    "slug": { "type": "string", "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$", "description": "URL name; equals the file name. Mutable, since user data is keyed by id." },
+    "title": { "type": "string" },
+    "description": { "type": ["string", "null"] },
+    "category": { "type": "string" },
+    "subcategory": { "type": ["string", "null"] },
+    "tags": { "type": "array", "items": { "type": "string" } },
+    "servings": {
+      "type": ["object", "null"],
+      "properties": { "text": { "type": "string" }, "amount": { "type": ["number", "null"] } }
+    },
+    "times": {
+      "type": "array",
+      "description": "Free-text times as written in the source, e.g. { label: 'Prep time', text: '20 mins' }.",
+      "items": { "type": "object", "required": ["label", "text"], "properties": { "label": { "type": "string" }, "text": { "type": "string" } } }
+    },
+    "ingredients": {
+      "type": "array", "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["raw", "item"],
+        "properties": {
+          "raw": { "type": "string", "description": "Line as written in the source. Display this when confidence is low." },
+          "quantity": { "type": ["number", "null"] },
+          "quantityMax": { "type": ["number", "null"], "description": "Upper end of a range such as 2-3." },
+          "unit": { "type": ["string", "null"] },
+          "item": { "type": "string" },
+          "prep": { "type": ["string", "null"], "description": "chopped, diced, ..." },
+          "note": { "type": ["string", "null"] },
+          "group": { "type": ["string", "null"], "description": "Sub-heading such as 'Sauce' or 'Dressing'." },
+          "optional": { "type": "boolean" },
+          "confidence": { "enum": ["high", "medium", "low"] },
+          "shop": { "type": "boolean", "description": "false for lines that are not purchasable (e.g. 'recipe follows')." },
+          "catalogId": { "type": ["string", "null"], "description": "Key into catalog.json; null when unmatched." },
+          "amount": {
+            "type": ["object", "null"],
+            "description": "Quantity converted to a canonical unit for summing in a shopping list. Sum by catalogId + amount.unit.",
+            "properties": {
+              "value": { "type": "number" },
+              "unit": { "enum": ["g", "ml", "each", "pkg"] },
+              "package": { "type": "string", "description": "Package kind when unit is pkg: can, jar, box, bag, pkg..." },
+              "packageOz": { "type": "number", "description": "Size of one package in ounces, when the source gave it." },
+              "countUnit": { "type": "string", "description": "Counting noun for unit each, e.g. cloves, slices." },
+              "approximate": { "type": "boolean" }
+            }
+          }
+        }
+      }
+    },
+    "steps": {
+      "type": "array",
+      "description": "May be empty when the source has no directions.",
+      "items": { "type": "object", "required": ["text"], "properties": { "text": { "type": "string" }, "group": { "type": ["string", "null"] } } }
+    },
+    "footnotes": { "type": "array", "items": { "type": "string" } },
+    "nutrition": { "type": ["object", "null"], "properties": { "text": { "type": "string" } } },
+    "importedNotes": {
+      "type": "array",
+      "description": "Cook's notes that were already in the source files. Notes added on the site live in the browser.",
+      "items": { "type": "object", "required": ["text"], "properties": { "text": { "type": "string" } } }
+    },
+    "seeAlso": { "type": "array", "items": { "type": "string" }, "description": "Slugs of related recipes (e.g. the same dish from another source)." },
+    "source": {
+      "type": "object",
+      "properties": {
+        "attribution": { "type": ["string", "null"] },
+        "file": { "type": ["string", "null"], "description": "Original archive path." },
+        "type": { "enum": ["doc", "image", "pdf", null] },
+        "duplicateFiles": { "type": "array", "items": { "type": "string" } }
+      }
+    }
+  }
+}

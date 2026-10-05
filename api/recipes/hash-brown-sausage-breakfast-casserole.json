@@ -1,0 +1,190 @@
+{
+  "schemaVersion": 1,
+  "id": "aa7e9008-6ada-5366-8371-b8a2bb337689",
+  "slug": "hash-brown-sausage-breakfast-casserole",
+  "title": "Hash Brown & Sausage Breakfast Casserole",
+  "description": null,
+  "category": "Casseroles",
+  "subcategory": null,
+  "tags": [],
+  "servings": null,
+  "times": [],
+  "ingredients": [
+    {
+      "raw": "1 lbs. frozen hash browns, regular or Southern style",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "lb",
+      "item": "frozen hash browns, regular or Southern style",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "hash-browns",
+      "amount": {
+        "value": 453.592,
+        "unit": "g"
+      }
+    },
+    {
+      "raw": "1 onion chopped",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": null,
+      "item": "onion chopped",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "onion",
+      "amount": {
+        "value": 1,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "1 green pepper chopped",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": null,
+      "item": "green pepper chopped",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "bell-pepper",
+      "amount": {
+        "value": 1,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "1 lbs. sausage or ham (could also use bacon or smoked sausage or any meat you like).",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "lb",
+      "item": "sausage or ham .",
+      "prep": null,
+      "note": "could also use bacon or smoked sausage or any meat you like",
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "sausage",
+      "amount": {
+        "value": 453.592,
+        "unit": "g"
+      }
+    },
+    {
+      "raw": "5 eggs beaten",
+      "quantity": 5,
+      "quantityMax": null,
+      "unit": null,
+      "item": "eggs beaten",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "eggs",
+      "amount": {
+        "value": 5,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "Salt and pepper to taste",
+      "quantity": null,
+      "quantityMax": null,
+      "unit": null,
+      "item": "Salt and pepper",
+      "prep": null,
+      "note": "to taste",
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "salt",
+      "amount": null
+    },
+    {
+      "raw": "1/4 teaspoon garlic powder, Optional",
+      "quantity": 0.25,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "garlic powder",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": true,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "garlic-powder",
+      "amount": {
+        "value": 1.232,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "3/4 cups shredded cheddar cheese",
+      "quantity": 0.75,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "shredded cheddar cheese",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "cheddar-cheese",
+      "amount": {
+        "value": 177.441,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "Oil for cooking hash browns",
+      "quantity": null,
+      "quantityMax": null,
+      "unit": null,
+      "item": "Oil for cooking hash browns",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "low",
+      "shop": true,
+      "catalogId": "vegetable-oil",
+      "amount": null
+    }
+  ],
+  "steps": [
+    {
+      "text": "Heat oil, add hash browns, onion and peppers. Cook till potatoes begin to brown. Grease  9 x 9 baking dish. Spread potato mixture in pan, top with cooked sausage or ham. Pour beaten eggs over all and season with salt and pepper and garlic. Gently stir to coat all ingredients with eggs. Sprinkle with cheese. Can refrigerate overnight and then bake.",
+      "group": null
+    },
+    {
+      "text": "Bake uncovered at 375 degrees for 35 to 40 minutes. Makes 4 servings. Enjoy.",
+      "group": null
+    }
+  ],
+  "footnotes": [],
+  "nutrition": null,
+  "importedNotes": [],
+  "seeAlso": [],
+  "source": {
+    "attribution": "Mandy Dunn",
+    "file": "RECIPES/CASSEROLES/Breakfast Casserole.doc",
+    "type": "doc",
+    "duplicateFiles": []
+  }
+}

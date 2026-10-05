@@ -1,0 +1,167 @@
+{
+  "schemaVersion": 1,
+  "id": "78b0b486-4363-50b4-8382-9a1c4c49ede1",
+  "slug": "adeles-sausage-and-potato-medley",
+  "title": "Adele's Sausage and Potato Medley",
+  "description": null,
+  "category": "Pork Dishes",
+  "subcategory": null,
+  "tags": [
+    "main"
+  ],
+  "servings": {
+    "text": "Serves 3",
+    "amount": 3
+  },
+  "times": [],
+  "ingredients": [
+    {
+      "raw": "12 to 15 mini potatoes",
+      "quantity": 12,
+      "quantityMax": 15,
+      "unit": null,
+      "item": "mini potatoes",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "potato",
+      "amount": {
+        "value": 13.5,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "1 medium onion, sliced in ribbons",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": null,
+      "item": "medium onion",
+      "prep": "sliced in ribbons",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "onion",
+      "amount": {
+        "value": 1,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "12 mini carrots, whole or thickly sliced if needed",
+      "quantity": 12,
+      "quantityMax": null,
+      "unit": null,
+      "item": "mini carrots, whole or thickly sliced if needed",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "carrot",
+      "amount": {
+        "value": 12,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "½ smoked chicken sausage, sliced",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": null,
+      "item": "smoked chicken sausage",
+      "prep": "sliced",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "sausage",
+      "amount": {
+        "value": 0.5,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "½ pint mushrooms, quartered (optional)",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "pt",
+      "item": "mushrooms",
+      "prep": "quartered",
+      "note": null,
+      "group": null,
+      "optional": true,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "mushrooms",
+      "amount": {
+        "value": 236.588,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "red pepper flakes",
+      "quantity": null,
+      "quantityMax": null,
+      "unit": null,
+      "item": "red pepper flakes",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "low",
+      "shop": true,
+      "catalogId": "red-pepper-flakes",
+      "amount": null
+    },
+    {
+      "raw": "basil, salt and pepper",
+      "quantity": null,
+      "quantityMax": null,
+      "unit": null,
+      "item": "basil, salt and pepper",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "low",
+      "shop": true,
+      "catalogId": "fresh-basil",
+      "amount": null
+    }
+  ],
+  "steps": [
+    {
+      "text": "Boil potatoes and carrots until tender",
+      "group": null
+    },
+    {
+      "text": "Sautee sausage, onions and mushrooms",
+      "group": null
+    },
+    {
+      "text": "Add potatoes and carrots when tender",
+      "group": null
+    },
+    {
+      "text": "Season",
+      "group": null
+    }
+  ],
+  "footnotes": [],
+  "nutrition": null,
+  "importedNotes": [],
+  "seeAlso": [],
+  "source": {
+    "attribution": null,
+    "file": "RECIPES/PORK DISHES/Adele_s Sausage and Potato Medley.doc",
+    "type": "doc",
+    "duplicateFiles": []
+  }
+}

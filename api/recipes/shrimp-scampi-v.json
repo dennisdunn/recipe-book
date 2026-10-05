@@ -1,0 +1,212 @@
+{
+  "schemaVersion": 1,
+  "id": "42629612-bdce-5fcd-8e55-113045589c4d",
+  "slug": "shrimp-scampi-v",
+  "title": "Shrimp Scampi V",
+  "description": null,
+  "category": "Seafood",
+  "subcategory": null,
+  "tags": [
+    "main"
+  ],
+  "servings": null,
+  "times": [],
+  "ingredients": [
+    {
+      "raw": "1 (8 ounce) package angel hair pasta",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "pkg",
+      "item": "angel hair pasta",
+      "prep": null,
+      "note": "package size: 8 ounce",
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "angel-hair-pasta",
+      "amount": {
+        "value": 1,
+        "unit": "pkg",
+        "package": "pkg",
+        "packageOz": 8
+      }
+    },
+    {
+      "raw": "¼ cup butter",
+      "quantity": 0.25,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "butter",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "butter",
+      "amount": {
+        "value": 59.147,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "¼ cup olive oil",
+      "quantity": 0.25,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "olive oil",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "olive-oil",
+      "amount": {
+        "value": 59.147,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "4 cloves minced garlic",
+      "quantity": 4,
+      "quantityMax": null,
+      "unit": "clove",
+      "item": "minced garlic",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "garlic",
+      "amount": {
+        "value": 4,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "1 pound shrimp, peeled and deveined",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "lb",
+      "item": "shrimp",
+      "prep": "peeled and deveined",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "shrimp",
+      "amount": {
+        "value": 453.592,
+        "unit": "g"
+      }
+    },
+    {
+      "raw": "½  cup dry white wine",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "dry white wine",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "wine",
+      "amount": {
+        "value": 118.294,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "¼ teaspoon ground black pepper",
+      "quantity": 0.25,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "ground black pepper",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "black-pepper",
+      "amount": {
+        "value": 1.232,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "3/4 cup grated Parmesan cheese",
+      "quantity": 0.75,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "grated Parmesan cheese",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "parmesan-cheese",
+      "amount": {
+        "value": 177.441,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 tablespoon chopped fresh parsley",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "chopped fresh parsley",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "fresh-parsley",
+      "amount": {
+        "value": 14.787,
+        "unit": "ml"
+      }
+    }
+  ],
+  "steps": [
+    {
+      "text": "Bring a large pot of salted water to a boil. Stir in pasta and return pot to boil. Cook until al dente. Drain well.",
+      "group": null
+    },
+    {
+      "text": "Melt butter in a large saucepan over medium heat. Stir in garlic and shrimp. Cook, stirring constantly, for 3 to 5 minutes.",
+      "group": null
+    },
+    {
+      "text": "Stir in wine and pepper. Bring to a boil and cook for 30 seconds while stirring constantly.",
+      "group": null
+    },
+    {
+      "text": "Mix shrimp with drained pasta in a serving bowl. Sprinkle with cheese and parsley. Serve immediately.",
+      "group": null
+    }
+  ],
+  "footnotes": [],
+  "nutrition": null,
+  "importedNotes": [
+    {
+      "text": "This is a very tasty but simple recipe. I had some frozen, cooked jumbo shrimp in the freezer, so I just used those and cooked them until heated through. I added 1 cup broccoli and 1/4 cup freshly roasted red peppers to the pasta to make this a one dish meal. I will try adding asparagus next time."
+    }
+  ],
+  "seeAlso": [],
+  "source": {
+    "attribution": null,
+    "file": "RECIPES/SEAFOOD/Shrimp Scampi V.doc",
+    "type": "doc",
+    "duplicateFiles": []
+  }
+}

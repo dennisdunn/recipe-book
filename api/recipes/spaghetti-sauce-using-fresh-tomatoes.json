@@ -1,0 +1,202 @@
+{
+  "schemaVersion": 1,
+  "id": "d5abcbef-328f-5fde-a246-9fd8cf635038",
+  "slug": "spaghetti-sauce-using-fresh-tomatoes",
+  "title": "Spaghetti Sauce (using fresh tomatoes)",
+  "description": null,
+  "category": "Pasta Dishes",
+  "subcategory": null,
+  "tags": [],
+  "servings": {
+    "text": "Original recipe makes 6 servings",
+    "amount": 6
+  },
+  "times": [],
+  "ingredients": [
+    {
+      "raw": "8 pounds tomatoes, peeled and diced",
+      "quantity": 8,
+      "quantityMax": null,
+      "unit": "lb",
+      "item": "tomatoes",
+      "prep": "peeled and diced",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "tomato",
+      "amount": {
+        "value": 3628.736,
+        "unit": "g"
+      }
+    },
+    {
+      "raw": "1/4 cup chopped fresh basil",
+      "quantity": 0.25,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "chopped fresh basil",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "fresh-basil",
+      "amount": {
+        "value": 59.147,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 large yellow onion, minced",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": null,
+      "item": "large yellow onion",
+      "prep": "minced",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "onion",
+      "amount": {
+        "value": 1,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "4 lg cloves garlic, minced",
+      "quantity": 4,
+      "quantityMax": null,
+      "unit": null,
+      "item": "lg cloves garlic",
+      "prep": "minced",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "garlic",
+      "amount": {
+        "value": 4,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "Add diced green peppers, carrots and celery as desired",
+      "quantity": null,
+      "quantityMax": null,
+      "unit": null,
+      "item": "Add diced green peppers, carrots and celery as desired",
+      "prep": null,
+      "note": "add-in as desired",
+      "group": null,
+      "optional": true,
+      "confidence": "low",
+      "shop": false,
+      "catalogId": "bell-pepper",
+      "amount": null
+    },
+    {
+      "raw": "1/2 cup olive oil",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "olive oil",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "olive-oil",
+      "amount": {
+        "value": 118.294,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 tbsp sugar",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "sugar",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "sugar",
+      "amount": {
+        "value": 14.787,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "Sea salt and pepper to taste",
+      "quantity": null,
+      "quantityMax": null,
+      "unit": null,
+      "item": "Sea salt and pepper",
+      "prep": null,
+      "note": "to taste",
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "salt",
+      "amount": null
+    },
+    {
+      "raw": "Add rosemary, marjoram and/or thyme or Italian seasoning as desired",
+      "quantity": null,
+      "quantityMax": null,
+      "unit": null,
+      "item": "Add rosemary, marjoram and/or thyme or Italian seasoning as desired",
+      "prep": null,
+      "note": "add-in as desired",
+      "group": null,
+      "optional": true,
+      "confidence": "low",
+      "shop": false,
+      "catalogId": "fresh-rosemary",
+      "amount": null
+    }
+  ],
+  "steps": [
+    {
+      "text": "To peel tomatoes make star slits with a sharp knife at the stem end of tomatoes,    blanch them in boiling hot water for 30 seconds, shock in ice water, remove skins  and  dice.",
+      "group": null
+    },
+    {
+      "text": "In large saucepan, cook tomatoes and basil over medium-low heat until tomatoes are soft.",
+      "group": null
+    },
+    {
+      "text": "Meanwhile, in medium skillet, saute onion and garlic in olive oil until onions are translucent.",
+      "group": null
+    },
+    {
+      "text": "Add onion mixture to tomato mixture and add salt and pepper. Simmer for 20 to 30 minutes at the barest simmer to retain bright red color.",
+      "group": null
+    },
+    {
+      "text": "Sprinkle each serving with additional basil before serving.",
+      "group": null
+    }
+  ],
+  "footnotes": [],
+  "nutrition": null,
+  "importedNotes": [],
+  "seeAlso": [],
+  "source": {
+    "attribution": null,
+    "file": "RECIPES/PASTA DISHES/Spaghetti Sauce using fresh tomatoes.doc",
+    "type": "doc",
+    "duplicateFiles": []
+  }
+}

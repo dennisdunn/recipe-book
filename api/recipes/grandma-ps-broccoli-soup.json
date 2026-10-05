@@ -1,0 +1,207 @@
+{
+  "schemaVersion": 1,
+  "id": "f9fae205-434a-5540-80f0-d1104309f207",
+  "slug": "grandma-ps-broccoli-soup",
+  "title": "Grandma P's Broccoli Soup",
+  "description": null,
+  "category": "Soups and Stews",
+  "subcategory": null,
+  "tags": [],
+  "servings": null,
+  "times": [],
+  "ingredients": [
+    {
+      "raw": "2 lbs broccoli",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "lb",
+      "item": "broccoli",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "broccoli",
+      "amount": {
+        "value": 907.184,
+        "unit": "g"
+      }
+    },
+    {
+      "raw": "1/2 cup chopped yellow onion",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "chopped yellow onion",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "onion",
+      "amount": {
+        "value": 118.294,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1/2 cup chopped green pepper",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "chopped green pepper",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "bell-pepper",
+      "amount": {
+        "value": 118.294,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "46 oz can chicken broth",
+      "quantity": 46,
+      "quantityMax": null,
+      "unit": "oz",
+      "item": "can chicken broth",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "chicken-broth",
+      "amount": {
+        "value": 1304.077,
+        "unit": "g"
+      }
+    },
+    {
+      "raw": "Small bay leaf",
+      "quantity": null,
+      "quantityMax": null,
+      "unit": null,
+      "item": "Small bay leaf",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "low",
+      "shop": true,
+      "catalogId": "bay-leaf",
+      "amount": null
+    },
+    {
+      "raw": "1/2 tsp ground thyme",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "ground thyme",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "dried-thyme",
+      "amount": {
+        "value": 2.464,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "4 oz cubed cream cheese",
+      "quantity": 4,
+      "quantityMax": null,
+      "unit": "oz",
+      "item": "cubed cream cheese",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "cream-cheese",
+      "amount": {
+        "value": 113.398,
+        "unit": "g"
+      }
+    },
+    {
+      "raw": "Pinch of nutmeg",
+      "quantity": null,
+      "quantityMax": null,
+      "unit": "pinch",
+      "item": "nutmeg",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "low",
+      "shop": true,
+      "catalogId": "nutmeg",
+      "amount": null
+    },
+    {
+      "raw": "Salt and pepper to taste",
+      "quantity": null,
+      "quantityMax": null,
+      "unit": null,
+      "item": "Salt and pepper",
+      "prep": null,
+      "note": "to taste",
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "salt",
+      "amount": null
+    }
+  ],
+  "steps": [
+    {
+      "text": "Wash and chop broccoli. Save 2 cups of flowerettes.",
+      "group": null
+    },
+    {
+      "text": "Cook stems, broth, onion, pepper, bay and thyme until broccoli is tender.",
+      "group": null
+    },
+    {
+      "text": "Discard Bay leaf.",
+      "group": null
+    },
+    {
+      "text": "Blend some of mixture and return to pot.",
+      "group": null
+    },
+    {
+      "text": "Bring to a boil.",
+      "group": null
+    },
+    {
+      "text": "Add cream cheese, flowerettes and nutmeg.",
+      "group": null
+    },
+    {
+      "text": "Stir until smooth.",
+      "group": null
+    }
+  ],
+  "footnotes": [],
+  "nutrition": null,
+  "importedNotes": [],
+  "seeAlso": [],
+  "source": {
+    "attribution": "Recipe from Phyllis Pinnell",
+    "file": "RECIPES/SOUPS AND STEWS/Grandma P_s Broccoli Soup.png",
+    "type": "image",
+    "duplicateFiles": []
+  }
+}

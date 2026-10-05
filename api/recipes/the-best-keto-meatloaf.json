@@ -1,0 +1,239 @@
+{
+  "schemaVersion": 1,
+  "id": "fa4162c7-4ccd-58c7-842c-61f31ec335b0",
+  "slug": "the-best-keto-meatloaf",
+  "title": "The Best Keto Meatloaf",
+  "description": null,
+  "category": "Protein Recipes",
+  "subcategory": "KETO RECIPES",
+  "tags": [
+    "keto",
+    "main"
+  ],
+  "servings": null,
+  "times": [],
+  "ingredients": [
+    {
+      "raw": "1 ½ pounds ground beef",
+      "quantity": 1.5,
+      "quantityMax": null,
+      "unit": "lb",
+      "item": "ground beef",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "ground-beef",
+      "amount": {
+        "value": 680.388,
+        "unit": "g"
+      }
+    },
+    {
+      "raw": "2 cage-free eggs",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": null,
+      "item": "cage-free eggs",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "eggs",
+      "amount": {
+        "value": 2,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "1 small onion diced",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": null,
+      "item": "small onion diced",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "onion",
+      "amount": {
+        "value": 1,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "2 garlic cloves minced",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": null,
+      "item": "garlic cloves minced",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "garlic",
+      "amount": {
+        "value": 2,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "2 cups mushrooms finely chopped, optional",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "mushrooms finely chopped",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": true,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "mushrooms",
+      "amount": {
+        "value": 473.176,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 tablespoon tomato paste",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "tomato paste",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "tomato-paste",
+      "amount": {
+        "value": 14.787,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "¼ cup unsweetened almond milk",
+      "quantity": 0.25,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "unsweetened almond milk",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "almond-milk",
+      "amount": {
+        "value": 59.147,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "¼ cup almond flour",
+      "quantity": 0.25,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "almond flour",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "almond-flour",
+      "amount": {
+        "value": 59.147,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 tablespoon dried oregano",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "dried oregano",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "dried-oregano",
+      "amount": {
+        "value": 14.787,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 teaspoon Himalayan pink salt",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "Himalayan pink salt",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "salt",
+      "amount": {
+        "value": 4.929,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 teaspoon ground black pepper",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "ground black pepper",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "black-pepper",
+      "amount": {
+        "value": 4.929,
+        "unit": "ml"
+      }
+    }
+  ],
+  "steps": [
+    {
+      "text": "Heat oven to 350°F.",
+      "group": null
+    },
+    {
+      "text": "In a large bowl, combine all the meatloaf ingredients and knead the mixture with your hands until fully combined.",
+      "group": null
+    },
+    {
+      "text": "In a non-stick, 9x5-inch loaf pan, add the meatloaf mixture and press down to fill all the edges of the pan.",
+      "group": null
+    }
+  ],
+  "footnotes": [],
+  "nutrition": null,
+  "importedNotes": [],
+  "seeAlso": [],
+  "source": {
+    "attribution": null,
+    "file": "RECIPES/PROTEIN RECIPES/KETO RECIPES/The Best Keto Meatloaf.doc",
+    "type": "doc",
+    "duplicateFiles": []
+  }
+}

@@ -1,0 +1,191 @@
+{
+  "schemaVersion": 1,
+  "id": "79b43caf-15a7-5135-a255-708f1bad7281",
+  "slug": "almond-flour-keto-pancakes",
+  "title": "Almond Flour Keto Pancakes",
+  "description": "Total recipe yields 8 small pancakes.",
+  "category": "Protein Recipes",
+  "subcategory": "KETO RECIPES",
+  "tags": [
+    "keto"
+  ],
+  "servings": null,
+  "times": [],
+  "ingredients": [
+    {
+      "raw": "2 eggs large, separated",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": null,
+      "item": "eggs large",
+      "prep": "separated",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "eggs",
+      "amount": {
+        "value": 2,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "2 oz heavy whipping cream",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "oz",
+      "item": "heavy whipping cream",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "heavy-cream",
+      "amount": {
+        "value": 56.699,
+        "unit": "g"
+      }
+    },
+    {
+      "raw": "2 tsp Stevia",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "Stevia",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "sweetener",
+      "amount": {
+        "value": 9.858,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "pinch sea salt",
+      "quantity": null,
+      "quantityMax": null,
+      "unit": "pinch",
+      "item": "sea salt",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "low",
+      "shop": true,
+      "catalogId": "salt",
+      "amount": null
+    },
+    {
+      "raw": "2 oz almond flour finely ground",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "oz",
+      "item": "almond flour finely ground",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "almond-flour",
+      "amount": {
+        "value": 56.699,
+        "unit": "g"
+      }
+    },
+    {
+      "raw": "1/4 tsp baking powder gluten free",
+      "quantity": 0.25,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "baking powder gluten free",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "baking-powder",
+      "amount": {
+        "value": 1.232,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 tsp unsalted butter",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "unsalted butter",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "butter",
+      "amount": {
+        "value": 4.929,
+        "unit": "ml"
+      }
+    }
+  ],
+  "steps": [
+    {
+      "text": "In a large mixing bowl, combine the egg yolks, whipping cream, low carb sweetener, and salt until the mixture is smooth.",
+      "group": null
+    },
+    {
+      "text": "In a small mixing bowl, combine almond flour with baking powder; whisk it into the creamy egg mixture until uniform in appearance.",
+      "group": null
+    },
+    {
+      "text": "Using an electric mixer, beat the egg whites in a separate bowl until soft peaks form. Fold the egg whites into the batter.",
+      "group": null
+    },
+    {
+      "text": "Melt butter in a large non-stick frying pan over medium heat, then wipe with a paper towel to evenly distribute the butter for cooking. Spoon in the batter to make your pancakes; use about 2 tablespoons per pancake.",
+      "group": null
+    },
+    {
+      "text": "Cook for 3 minutes, or until lightly browned, and then gently flip each pancake and cook for an additional 2 minutes on the other side. Take care not to agitate the pancake before it's ready to flip or disaster will ensue.",
+      "group": null
+    },
+    {
+      "text": "Nutritional Value per serving:",
+      "group": null
+    },
+    {
+      "text": "1 serving = 4 pancakes as prepared per recipe instructions.",
+      "group": null
+    },
+    {
+      "text": "Carbs: 7g",
+      "group": null
+    },
+    {
+      "text": "Sugars: 1g",
+      "group": null
+    },
+    {
+      "text": "Protein: 12g",
+      "group": null
+    }
+  ],
+  "footnotes": [],
+  "nutrition": null,
+  "importedNotes": [],
+  "seeAlso": [],
+  "source": {
+    "attribution": null,
+    "file": "RECIPES/PROTEIN RECIPES/KETO RECIPES/Keto Pancakes.doc",
+    "type": "doc",
+    "duplicateFiles": []
+  }
+}

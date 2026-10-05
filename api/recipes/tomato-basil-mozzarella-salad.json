@@ -1,0 +1,166 @@
+{
+  "schemaVersion": 1,
+  "id": "2e3c1d65-88d1-507f-8254-14a09855ab1c",
+  "slug": "tomato-basil-mozzarella-salad",
+  "title": "Tomato, Basil & Mozzarella Salad",
+  "description": null,
+  "category": "Salads",
+  "subcategory": null,
+  "tags": [],
+  "servings": null,
+  "times": [],
+  "ingredients": [
+    {
+      "raw": "Bib lettuce",
+      "quantity": null,
+      "quantityMax": null,
+      "unit": null,
+      "item": "Bib lettuce",
+      "prep": null,
+      "note": null,
+      "group": "Salad",
+      "optional": false,
+      "confidence": "low",
+      "shop": true,
+      "catalogId": "lettuce",
+      "amount": null
+    },
+    {
+      "raw": "2 lg vine ripened beefsteak tomatoes, sliced fairly thick",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": null,
+      "item": "lg vine ripened beefsteak tomatoes",
+      "prep": "sliced fairly thick",
+      "note": null,
+      "group": "Salad",
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "tomato",
+      "amount": {
+        "value": 2,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "4 oz fresh mozzarella cheese, sliced 3/8th inch thick",
+      "quantity": 4,
+      "quantityMax": null,
+      "unit": "oz",
+      "item": "fresh mozzarella cheese",
+      "prep": "sliced 3/8th inch thick",
+      "note": null,
+      "group": "Salad",
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "mozzarella-cheese",
+      "amount": {
+        "value": 113.398,
+        "unit": "g"
+      }
+    },
+    {
+      "raw": "¼ cup julienne fresh basil",
+      "quantity": 0.25,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "julienne fresh basil",
+      "prep": null,
+      "note": null,
+      "group": "Salad",
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "fresh-basil",
+      "amount": {
+        "value": 59.147,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "3 tbsp olive oil",
+      "quantity": 3,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "olive oil",
+      "prep": null,
+      "note": null,
+      "group": "Dressing",
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "olive-oil",
+      "amount": {
+        "value": 44.36,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 tbsp red wine vinegar",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "red wine vinegar",
+      "prep": null,
+      "note": null,
+      "group": "Dressing",
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "red-wine-vinegar",
+      "amount": {
+        "value": 14.787,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "½ tsp salt (optional)",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "salt",
+      "prep": null,
+      "note": null,
+      "group": "Dressing",
+      "optional": true,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "salt",
+      "amount": {
+        "value": 2.464,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "¼ tsp ground pepper",
+      "quantity": 0.25,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "ground pepper",
+      "prep": null,
+      "note": null,
+      "group": "Dressing",
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "black-pepper",
+      "amount": {
+        "value": 1.232,
+        "unit": "ml"
+      }
+    }
+  ],
+  "steps": [],
+  "footnotes": [],
+  "nutrition": null,
+  "importedNotes": [],
+  "seeAlso": [],
+  "source": {
+    "attribution": "Chris Dunn (Dellie’s step-mother)",
+    "file": "RECIPES/SALADS/Salads.doc",
+    "type": "doc",
+    "duplicateFiles": []
+  }
+}

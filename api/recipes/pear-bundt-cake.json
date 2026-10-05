@@ -1,0 +1,186 @@
+{
+  "schemaVersion": 1,
+  "id": "e798b2df-ee10-5db9-be53-fa9a14196bda",
+  "slug": "pear-bundt-cake",
+  "title": "Pear Bundt Cake",
+  "description": null,
+  "category": "Desserts",
+  "subcategory": null,
+  "tags": [],
+  "servings": null,
+  "times": [],
+  "ingredients": [
+    {
+      "raw": "1 (15 ounce) can pears in light syrup",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "can",
+      "item": "pears in light syrup",
+      "prep": null,
+      "note": "package size: 15 ounce",
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "pie-filling",
+      "amount": {
+        "value": 1,
+        "unit": "pkg",
+        "package": "can",
+        "packageOz": 15
+      }
+    },
+    {
+      "raw": "1 (18.25 ounce) package white cake mix",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "pkg",
+      "item": "white cake mix",
+      "prep": null,
+      "note": "package size: 18.25 ounce",
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "cake-mix",
+      "amount": {
+        "value": 1,
+        "unit": "pkg",
+        "package": "pkg",
+        "packageOz": 18.25
+      }
+    },
+    {
+      "raw": "2 egg white",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": null,
+      "item": "egg white",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "egg-whites",
+      "amount": {
+        "value": 2,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "1 egg",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": null,
+      "item": "egg",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "eggs",
+      "amount": {
+        "value": 1,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "2 teaspoons confectioners' sugar",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "confectioners' sugar",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "powdered-sugar",
+      "amount": {
+        "value": 9.858,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "¼ cp brown sugar",
+      "quantity": 0.25,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "brown sugar",
+      "prep": null,
+      "note": null,
+      "group": "Streusel Topping",
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "brown-sugar",
+      "amount": {
+        "value": 59.147,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 tsp cinnamon",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "cinnamon",
+      "prep": null,
+      "note": null,
+      "group": "Streusel Topping",
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "cinnamon",
+      "amount": {
+        "value": 4.929,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "Chopped pecans or walnuts",
+      "quantity": null,
+      "quantityMax": null,
+      "unit": null,
+      "item": "Chopped pecans or walnuts",
+      "prep": null,
+      "note": null,
+      "group": "Streusel Topping",
+      "optional": false,
+      "confidence": "low",
+      "shop": true,
+      "catalogId": "pecans",
+      "amount": null
+    }
+  ],
+  "steps": [
+    {
+      "text": "Drain pears, reserving the syrup; chop pears. Place pears and syrup in a mixing bowl; add dry cake mix, egg whites and egg. Beat on low speed for 30 seconds. beat on high for 4 minutes.",
+      "group": null
+    },
+    {
+      "text": "Coat a 10-in. fluted tube pan with nonstick cooking spray and dust with flour. Add batter. Bake at 350 degrees F for 50-55 minutes or until a toothpick inserted near the center comes out clean. Cool for 10 minutes before removing from pan to a wire rack to cool completely. Dust with confectioners' sugar.",
+      "group": null
+    }
+  ],
+  "footnotes": [],
+  "nutrition": null,
+  "importedNotes": [
+    {
+      "text": "I used a large can on pears in lite syrup. First I chopped up half of the pears (4 halves) and added enough syrup to equal 15 oz.  I then chopped the remaining drained, pear halves and put them in the bottom of a well greased bundt pan. I sprinkled light brown sugar and nutmeg (or cinnamon) on top of the chopped pears. I poured half of the batter on top of the chopped pears and then spooned on the streusel filling.  I poured the rest of the batter on top of the streusel filling. I checked the cake after 45 minutes in the oven and it tested done."
+    },
+    {
+      "text": "If you are looking for distinct pear taste - add more pears or fold in at the very end."
+    }
+  ],
+  "seeAlso": [],
+  "source": {
+    "attribution": null,
+    "file": "RECIPES/DESSERTS/Pear Bundt Cake.doc",
+    "type": "doc",
+    "duplicateFiles": []
+  }
+}

@@ -1,0 +1,209 @@
+{
+  "schemaVersion": 1,
+  "id": "197ee09f-a17f-513d-a645-e3367ed15b43",
+  "slug": "spicy-slow-cooker-black-bean-soup",
+  "title": "Spicy Slow Cooker Black Bean Soup",
+  "description": "\"This soup can be served as is or run through the blender for a creamy version. You can adjust the spice to cool it down.\"",
+  "category": "Soups and Stews",
+  "subcategory": null,
+  "tags": [
+    "main"
+  ],
+  "servings": null,
+  "times": [],
+  "ingredients": [
+    {
+      "raw": "1 pound dry black beans, soaked overnight",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "lb",
+      "item": "dry black beans",
+      "prep": "soaked overnight",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "black-beans",
+      "amount": {
+        "value": 453.592,
+        "unit": "g"
+      }
+    },
+    {
+      "raw": "2 teaspoons diced jalapeno peppers",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "diced jalapeno peppers",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "jalapeno",
+      "amount": {
+        "value": 9.858,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "6 cups chicken broth",
+      "quantity": 6,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "chicken broth",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "chicken-broth",
+      "amount": {
+        "value": 1419.528,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1/2 teaspoon garlic powder",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "garlic powder",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "garlic-powder",
+      "amount": {
+        "value": 2.464,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 tablespoon chili powder",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "chili powder",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "chili-powder",
+      "amount": {
+        "value": 14.787,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 teaspoon ground cumin",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "ground cumin",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "cumin",
+      "amount": {
+        "value": 4.929,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 teaspoon cayenne pepper",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "cayenne pepper",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "cayenne",
+      "amount": {
+        "value": 4.929,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "3/4 teaspoon ground black pepper",
+      "quantity": 0.75,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "ground black pepper",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "black-pepper",
+      "amount": {
+        "value": 3.697,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1/2 teaspoon hot pepper sauce",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "hot pepper sauce",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "hot-sauce",
+      "amount": {
+        "value": 2.464,
+        "unit": "ml"
+      }
+    }
+  ],
+  "steps": [
+    {
+      "text": "Drain black beans, and rinse.",
+      "group": null
+    },
+    {
+      "text": "Combine beans, jalapenos, and chicken broth in a slow cooker. Season with garlic powder, chili powder, cumin, cayenne, pepper, and hot pepper sauce.",
+      "group": null
+    },
+    {
+      "text": "Cook on High for 4 hours. Reduce heat to Low, and continue cooking for 2 hours, or until you are ready to eat.",
+      "group": null
+    }
+  ],
+  "footnotes": [],
+  "nutrition": null,
+  "importedNotes": [
+    {
+      "text": "If you are using dry beans, make sure to boil them first on the stovetop and then add them to the slower cooker. Dry beans do not get as tender in a slow cooker even if you soak them overnight."
+    },
+    {
+      "text": "If you are pressed for time just use the canned black beans, toss the rest of the stuff into a slow cooker and add a can of diced tomatoes. I pureed about 1/2 the soup for a more authentic look, and served it with chopped green onion, sour cream, cheddar cheese and homemade guacamole. I found the amount of cayenne recommended and two minced jalapenos was just the right amount of spice. They really mellow out in the soup. YUM!"
+    }
+  ],
+  "seeAlso": [],
+  "source": {
+    "attribution": null,
+    "file": "RECIPES/SOUPS AND STEWS/Spicy Slow Cooker Black Bean Soup.doc",
+    "type": "doc",
+    "duplicateFiles": []
+  }
+}

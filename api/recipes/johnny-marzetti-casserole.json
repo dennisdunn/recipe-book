@@ -1,0 +1,247 @@
+{
+  "schemaVersion": 1,
+  "id": "ce54d82b-7177-5c0b-8137-7f4562117662",
+  "slug": "johnny-marzetti-casserole",
+  "title": "Johnny Marzetti Casserole",
+  "description": null,
+  "category": "Casseroles",
+  "subcategory": null,
+  "tags": [
+    "main"
+  ],
+  "servings": null,
+  "times": [],
+  "ingredients": [
+    {
+      "raw": "8 ounces rotini or penne pasta",
+      "quantity": 8,
+      "quantityMax": null,
+      "unit": "oz",
+      "item": "rotini or penne pasta",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "rotini",
+      "amount": {
+        "value": 226.796,
+        "unit": "g"
+      }
+    },
+    {
+      "raw": "1 pound ground beef",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "lb",
+      "item": "ground beef",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "ground-beef",
+      "amount": {
+        "value": 453.592,
+        "unit": "g"
+      }
+    },
+    {
+      "raw": "1/2 pound bulk mild Italian sausage",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "lb",
+      "item": "bulk mild Italian sausage",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "sausage",
+      "amount": {
+        "value": 226.796,
+        "unit": "g"
+      }
+    },
+    {
+      "raw": "3/4 cup chopped onion",
+      "quantity": 0.75,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "chopped onion",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "onion",
+      "amount": {
+        "value": 177.441,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "¼ cup chopped celery",
+      "quantity": 0.25,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "chopped celery",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "celery",
+      "amount": {
+        "value": 59.147,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 clove garlic, minced",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "clove",
+      "item": "garlic",
+      "prep": "minced",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "garlic",
+      "amount": {
+        "value": 1,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "salt and pepper to taste",
+      "quantity": null,
+      "quantityMax": null,
+      "unit": null,
+      "item": "salt and pepper",
+      "prep": null,
+      "note": "to taste",
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "salt",
+      "amount": null
+    },
+    {
+      "raw": "1 (14.4 ounce) can diced tomatoes",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "can",
+      "item": "diced tomatoes",
+      "prep": null,
+      "note": "package size: 14.4 ounce",
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "diced-tomatoes",
+      "amount": {
+        "value": 1,
+        "unit": "pkg",
+        "package": "can",
+        "packageOz": 14.4
+      }
+    },
+    {
+      "raw": "1 (15 ounce) can stewed tomatoes with celery, onions, and garlic",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "can",
+      "item": "stewed tomatoes with celery, onions, and garlic",
+      "prep": null,
+      "note": "package size: 15 ounce",
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "diced-tomatoes",
+      "amount": {
+        "value": 1,
+        "unit": "pkg",
+        "package": "can",
+        "packageOz": 15
+      }
+    },
+    {
+      "raw": "2 cups shredded Italian cheese blend",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "shredded Italian cheese blend",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "mexican-cheese-blend",
+      "amount": {
+        "value": 473.176,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 cup shredded sharp Cheddar cheese or Monterey Jack/Cheddar",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "shredded sharp Cheddar cheese or Monterey Jack/Cheddar",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "cheddar-cheese",
+      "amount": {
+        "value": 236.588,
+        "unit": "ml"
+      }
+    }
+  ],
+  "steps": [
+    {
+      "text": "Preheat oven to 350 degrees F (175 degrees C).",
+      "group": null
+    },
+    {
+      "text": "Bring a large pot of lightly salted water to a boil. Add pasta and cook until just al dente, 6 to 8 minutes; drain. Run cold water over the pasta to stop pasta from cooking further. Set aside.",
+      "group": null
+    },
+    {
+      "text": "Meanwhile, cook the ground beef and sausage until completely browned and crumbled, 7 to 10 minutes. Mix in the onion, celery, garlic, and pepper; continue to cook and stir another 5 minutes. Season with salt and pepper. Remove from heat and stir in tomatoes and tomato sauce. Allow to cool five minutes.",
+      "group": null
+    },
+    {
+      "text": "Lightly grease a large casserole dish. Spread the pasta over the bottom of the dish. Sprinkle the Italian cheese blend over the pasta. Pour the meat mixture over the pasta and cheese. Cover dish with heavy aluminum foil. Bake in preheated oven for 45 minutes; remove foil and sprinkle Cheddar cheese evenly over the casserole. Continue baking until Cheddar cheese has melted, about 5 minutes. Rest for 10 minutes before serving.",
+      "group": null
+    },
+    {
+      "text": "Serve with French bread or garlic bread and applesauce.",
+      "group": null
+    }
+  ],
+  "footnotes": [],
+  "nutrition": null,
+  "importedNotes": [],
+  "seeAlso": [],
+  "source": {
+    "attribution": null,
+    "file": "RECIPES/CASSEROLES/Johnny Marzetti Casserole.doc",
+    "type": "doc",
+    "duplicateFiles": []
+  }
+}

@@ -1,0 +1,315 @@
+{
+  "schemaVersion": 1,
+  "id": "79671137-4147-53a1-888b-3f0031301e8b",
+  "slug": "amys-best-in-cabin-chili",
+  "title": "Amy's Best in Cabin Chili",
+  "description": null,
+  "category": "Soups and Stews",
+  "subcategory": null,
+  "tags": [
+    "main"
+  ],
+  "servings": null,
+  "times": [],
+  "ingredients": [
+    {
+      "raw": "1 lb. lean ground beef seasoned with Old El Paso taco seasoning packet",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "lb",
+      "item": "lean ground beef seasoned with Old El Paso taco seasoning packet",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "taco-seasoning",
+      "amount": {
+        "value": 453.592,
+        "unit": "g"
+      }
+    },
+    {
+      "raw": "1 (28oz.) can fully cooked beef (Keystone All Natural from Walmart)",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "can",
+      "item": "fully cooked beef",
+      "prep": null,
+      "note": "package size: 28oz.; Keystone All Natural from Walmart",
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "stew-meat",
+      "amount": {
+        "value": 1,
+        "unit": "pkg",
+        "package": "can",
+        "packageOz": 28
+      }
+    },
+    {
+      "raw": "1 (10oz) container hot and spicy pico del gallo (Marketplace brand from Walmart)",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "pkg",
+      "item": "container hot and spicy pico del gallo",
+      "prep": null,
+      "note": "package size: 10oz; Marketplace brand from Walmart",
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "salsa",
+      "amount": {
+        "value": 1,
+        "unit": "pkg",
+        "package": "pkg",
+        "packageOz": 10
+      }
+    },
+    {
+      "raw": "1 (22oz) can Bush's Grillin' Beans: Bourbon and brown sugar",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "can",
+      "item": "Bush's Grillin' Beans: Bourbon and brown sugar",
+      "prep": null,
+      "note": "package size: 22oz",
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "mixed-beans",
+      "amount": {
+        "value": 1,
+        "unit": "pkg",
+        "package": "can",
+        "packageOz": 22
+      }
+    },
+    {
+      "raw": "1 (15.5oz.) can hot chili beans (generic)",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "can",
+      "item": "hot chili beans",
+      "prep": null,
+      "note": "package size: 15.5oz.; generic",
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "chili-beans",
+      "amount": {
+        "value": 1,
+        "unit": "pkg",
+        "package": "can",
+        "packageOz": 15.5
+      }
+    },
+    {
+      "raw": "1 (15.5oz.) light red kidney beans (generic)",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "pkg",
+      "item": "light red kidney beans",
+      "prep": null,
+      "note": "package size: 15.5oz.; generic",
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "kidney-beans",
+      "amount": {
+        "value": 1,
+        "unit": "pkg",
+        "package": "can",
+        "packageOz": 15.5
+      }
+    },
+    {
+      "raw": "3 (15 oz. cans) tomato sauce (generic)",
+      "quantity": 3,
+      "quantityMax": null,
+      "unit": "pkg",
+      "item": "tomato sauce",
+      "prep": null,
+      "note": "package size: 15 oz. cans; generic",
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "tomato-sauce",
+      "amount": {
+        "value": 3,
+        "unit": "pkg",
+        "package": "can",
+        "packageOz": 15
+      }
+    },
+    {
+      "raw": "1 (12oz.) can Bud Light",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "can",
+      "item": "Bud Light",
+      "prep": null,
+      "note": "package size: 12oz.",
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "beer",
+      "amount": {
+        "value": 1,
+        "unit": "pkg",
+        "package": "can",
+        "packageOz": 12
+      }
+    },
+    {
+      "raw": "1 package McCormack chili seasoning- hot",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "pkg",
+      "item": "McCormack chili seasoning- hot",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "chili-seasoning",
+      "amount": {
+        "value": 1,
+        "unit": "pkg",
+        "package": "pkg"
+      }
+    },
+    {
+      "raw": "1/4 stick salted butter",
+      "quantity": 0.25,
+      "quantityMax": null,
+      "unit": "stick",
+      "item": "salted butter",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "butter",
+      "amount": {
+        "value": 28.35,
+        "unit": "g"
+      }
+    },
+    {
+      "raw": "1/4 cup Frank's Hot Sauce",
+      "quantity": 0.25,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "Frank's Hot Sauce",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "hot-sauce",
+      "amount": {
+        "value": 59.147,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "Ground cumin",
+      "quantity": null,
+      "quantityMax": null,
+      "unit": null,
+      "item": "Ground cumin",
+      "prep": null,
+      "note": null,
+      "group": "Seasonings added to taste",
+      "optional": false,
+      "confidence": "low",
+      "shop": true,
+      "catalogId": "cumin",
+      "amount": null
+    },
+    {
+      "raw": "Chili powder",
+      "quantity": null,
+      "quantityMax": null,
+      "unit": null,
+      "item": "Chili powder",
+      "prep": null,
+      "note": null,
+      "group": "Seasonings added to taste",
+      "optional": false,
+      "confidence": "low",
+      "shop": true,
+      "catalogId": "chili-powder",
+      "amount": null
+    },
+    {
+      "raw": "Salt",
+      "quantity": null,
+      "quantityMax": null,
+      "unit": null,
+      "item": "Salt",
+      "prep": null,
+      "note": null,
+      "group": "Seasonings added to taste",
+      "optional": false,
+      "confidence": "low",
+      "shop": true,
+      "catalogId": "salt",
+      "amount": null
+    },
+    {
+      "raw": "Curry powder",
+      "quantity": null,
+      "quantityMax": null,
+      "unit": null,
+      "item": "Curry powder",
+      "prep": null,
+      "note": null,
+      "group": "Seasonings added to taste",
+      "optional": false,
+      "confidence": "low",
+      "shop": true,
+      "catalogId": "curry-powder",
+      "amount": null
+    },
+    {
+      "raw": "Oregano",
+      "quantity": null,
+      "quantityMax": null,
+      "unit": null,
+      "item": "Oregano",
+      "prep": null,
+      "note": null,
+      "group": "Seasonings added to taste",
+      "optional": false,
+      "confidence": "low",
+      "shop": true,
+      "catalogId": "fresh-oregano",
+      "amount": null
+    }
+  ],
+  "steps": [],
+  "footnotes": [],
+  "nutrition": null,
+  "importedNotes": [],
+  "seeAlso": [],
+  "source": {
+    "attribution": null,
+    "file": "RECIPES/SOUPS AND STEWS/Amy_s Best in Cabin Chili.png",
+    "type": "image",
+    "duplicateFiles": []
+  }
+}

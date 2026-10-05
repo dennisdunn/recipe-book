@@ -1,0 +1,210 @@
+{
+  "schemaVersion": 1,
+  "id": "c9709e1b-431e-56e7-8cc0-5250dc2ab0f4",
+  "slug": "shepherds-pie-gluten-free",
+  "title": "Shepherd's Pie (Gluten Free)",
+  "description": "gluten free version",
+  "category": "Casseroles",
+  "subcategory": null,
+  "tags": [
+    "main"
+  ],
+  "servings": null,
+  "times": [],
+  "ingredients": [
+    {
+      "raw": "1 lb regular sausage (not hot sausage or sage sausage).",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "lb",
+      "item": "regular sausage .",
+      "prep": null,
+      "note": "not hot sausage or sage sausage",
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "sausage",
+      "amount": {
+        "value": 453.592,
+        "unit": "g"
+      }
+    },
+    {
+      "raw": "¼ cup gluten free flour",
+      "quantity": 0.25,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "gluten free flour",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "gluten-free-flour",
+      "amount": {
+        "value": 59.147,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "2 or 2 and ½ cups of milk as needed",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "milk, as needed",
+      "prep": null,
+      "note": "source: 2 or 2 1/2 cups as needed",
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "milk",
+      "amount": {
+        "value": 473.176,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "3 or 4 tbsp butter",
+      "quantity": 3,
+      "quantityMax": 4,
+      "unit": "tbsp",
+      "item": "butter",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "butter",
+      "amount": {
+        "value": 51.754,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 (10 or 12 oz) frozen vegetables (corn, green beans and peas)",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "pkg",
+      "item": "frozen vegetables",
+      "prep": null,
+      "note": "package size: 10 or 12 oz; corn, green beans and peas",
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "frozen-mixed-vegetables",
+      "amount": {
+        "value": 1,
+        "unit": "pkg",
+        "package": "pkg",
+        "packageOz": 12
+      }
+    },
+    {
+      "raw": "2 tsp Worcestershire Sauce",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "Worcestershire Sauce",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "worcestershire-sauce",
+      "amount": {
+        "value": 9.858,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 (24 oz) Bob Evans Sour Cream and Chives Mashed Potatoes or plain if you prefer.",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "pkg",
+      "item": "Bob Evans Sour Cream and Chives Mashed Potatoes or plain if you prefer.",
+      "prep": null,
+      "note": "package size: 24 oz",
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "sour-cream",
+      "amount": {
+        "value": 1,
+        "unit": "pkg",
+        "package": "pkg",
+        "packageOz": 24
+      }
+    }
+  ],
+  "steps": [
+    {
+      "text": "Preheat oven to 400 degrees.",
+      "group": null
+    },
+    {
+      "text": "In skillet, brown sausage and drain off the grease.",
+      "group": null
+    },
+    {
+      "text": "Push sausage to far side of pan. Melt butter in close side of pan.",
+      "group": null
+    },
+    {
+      "text": "Add ¼ cup gluten free flour to the melted butter to make a paste.",
+      "group": null
+    },
+    {
+      "text": "Gradually add milk and stir the sausage back in as gravy thickens.",
+      "group": null
+    },
+    {
+      "text": "Add 2 tsp of Worcestershire Sauce to darken gravy and increase flavor.",
+      "group": null
+    },
+    {
+      "text": "While sausage gravy is thickening, microwave frozen vegetables   according to directions on bag.",
+      "group": null
+    },
+    {
+      "text": "Then add vegetables to the sausage and gravy.",
+      "group": null
+    },
+    {
+      "text": "Leave in frying pan or pour into a greased 2 quart casserole dish or large pie plate.",
+      "group": null
+    },
+    {
+      "text": "Heat mashed potatoes in microwave per instructions on package.",
+      "group": null
+    },
+    {
+      "text": "Spoon mashed potatoes on top of mixture and spread evenly.",
+      "group": null
+    },
+    {
+      "text": "Bake at 400 degrees for 30 to 40 mins or until hot and bubbly.",
+      "group": null
+    },
+    {
+      "text": "Comments: Really easy and really good. One of Grandpa Dennis’ favorites.",
+      "group": null
+    }
+  ],
+  "footnotes": [],
+  "nutrition": null,
+  "importedNotes": [],
+  "seeAlso": [],
+  "source": {
+    "attribution": null,
+    "file": "RECIPES/CASSEROLES/Shepherd_s Pie (gluten free).doc",
+    "type": "doc",
+    "duplicateFiles": []
+  }
+}

@@ -1,0 +1,205 @@
+{
+  "schemaVersion": 1,
+  "id": "a7f5c23c-0558-5049-85e4-75fe7cd8a0cb",
+  "slug": "holiday-nuggets",
+  "title": "Holiday Nuggets",
+  "description": null,
+  "category": "Desserts",
+  "subcategory": null,
+  "tags": [],
+  "servings": null,
+  "times": [],
+  "ingredients": [
+    {
+      "raw": "½ cup butter, softened",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "butter",
+      "prep": "softened",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "butter",
+      "amount": {
+        "value": 118.294,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "½ cup margarine, softened",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "margarine",
+      "prep": "softened",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "margarine",
+      "amount": {
+        "value": 118.294,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "½ cup confection sugar, sifted",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "confection sugar",
+      "prep": "sifted",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "powdered-sugar",
+      "amount": {
+        "value": 118.294,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 tbsp vanilla",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "vanilla",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "vanilla-extract",
+      "amount": {
+        "value": 14.787,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 tsp almond",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "almond",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "almonds",
+      "amount": {
+        "value": 4.929,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "2 cups flour, sifted",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "flour",
+      "prep": "sifted",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "all-purpose-flour",
+      "amount": {
+        "value": 473.176,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "½ tsp salt",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "salt",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "salt",
+      "amount": {
+        "value": 2.464,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "½ cup chopped walnuts",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "chopped walnuts",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "walnuts",
+      "amount": {
+        "value": 118.294,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "Confectioner sugar to dust baked cookies",
+      "quantity": null,
+      "quantityMax": null,
+      "unit": null,
+      "item": "Confectioner sugar to dust baked cookies",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "low",
+      "shop": true,
+      "catalogId": "powdered-sugar",
+      "amount": null
+    }
+  ],
+  "steps": [
+    {
+      "text": "Cream butter, margarine and sugar. Blend in vanilla and almond.",
+      "group": null
+    },
+    {
+      "text": "Gradually add flour and salt. Stir in nuts.",
+      "group": null
+    },
+    {
+      "text": "Shape into balls about 1 ¼ inch and place on ungreased cookie sheet and       flatten slightly.",
+      "group": null
+    },
+    {
+      "text": "Bake at 350 degrees for 25 minutes or until bottom gets slightly brown.",
+      "group": null
+    },
+    {
+      "text": "Cool and sprinkle with confection sugar.",
+      "group": null
+    }
+  ],
+  "footnotes": [],
+  "nutrition": null,
+  "importedNotes": [],
+  "seeAlso": [],
+  "source": {
+    "attribution": "Adele Dunn",
+    "file": "RECIPES/DESSERTS/Holiday Nuggets.doc",
+    "type": "doc",
+    "duplicateFiles": []
+  }
+}

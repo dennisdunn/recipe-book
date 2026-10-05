@@ -1,0 +1,216 @@
+{
+  "schemaVersion": 1,
+  "id": "192daf72-6bfb-5d0a-80fb-60dabae784d0",
+  "slug": "pucker-up-lemon-protein-bars",
+  "title": "Pucker Up Lemon Protein Bars",
+  "description": null,
+  "category": "Protein Recipes",
+  "subcategory": null,
+  "tags": [],
+  "servings": {
+    "text": "Serves 12",
+    "amount": 12
+  },
+  "times": [
+    {
+      "label": "Total time",
+      "text": "35 mins"
+    }
+  ],
+  "ingredients": [
+    {
+      "raw": "Zest of one lemon",
+      "quantity": null,
+      "quantityMax": null,
+      "unit": null,
+      "item": "Zest of one lemon",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "low",
+      "shop": true,
+      "catalogId": "lemon",
+      "amount": {
+        "value": 1,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "1 cup Protein Powder",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "Protein Powder",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "protein-powder",
+      "amount": {
+        "value": 236.588,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "½ cup lemon juice",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "lemon juice",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "lemon-juice",
+      "amount": {
+        "value": 118.294,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "¼ cup maple syrup",
+      "quantity": 0.25,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "maple syrup",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "maple-syrup",
+      "amount": {
+        "value": 59.147,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "¾ cup almond meal",
+      "quantity": 0.75,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "almond meal",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "almond-flour",
+      "amount": {
+        "value": 177.441,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "½ cup coconut",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "coconut",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "coconut",
+      "amount": {
+        "value": 118.294,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "2 TBSP Chia Seeds",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "Chia Seeds",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "chia-seeds",
+      "amount": {
+        "value": 29.574,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "½ cup Dried Coconut",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "Dried Coconut",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "coconut",
+      "amount": {
+        "value": 118.294,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "3 lg free range eggs",
+      "quantity": 3,
+      "quantityMax": null,
+      "unit": null,
+      "item": "lg free range eggs",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "eggs",
+      "amount": {
+        "value": 3,
+        "unit": "each"
+      }
+    }
+  ],
+  "steps": [
+    {
+      "text": "Preheat oven to 180 degrees and grease and line a 20c20 square cake pan, put aside. Combine protein powder, almond meal, coconut flour and coconut flakes into a large bowl and whisk until well mixed. Put aside.",
+      "group": null
+    },
+    {
+      "text": "In another large bowl, beat eggs until paled and creamy. Add maple syrup, lemon juice, zest and chia seeds and continue to beat until all incorporated.",
+      "group": null
+    },
+    {
+      "text": "Turn stand mixed to lowest speed or mix by hand until just mixed. Batter should be the texture of cake batter. If too dry, add coconut milk in 1 tbsp increments until moist and thickened.",
+      "group": null
+    },
+    {
+      "text": "Pour into prepared baking dish and smooth out with back of  wooden spoon or spatula. Bake for 30 mins or until skewer comes out clean.",
+      "group": null
+    },
+    {
+      "text": "Allow to cool completely, then remove from pan and cut once horizontally and then cut each portion into 6 bars to make 12 total.",
+      "group": null
+    }
+  ],
+  "footnotes": [],
+  "nutrition": null,
+  "importedNotes": [],
+  "seeAlso": [],
+  "source": {
+    "attribution": null,
+    "file": "RECIPES/PROTEIN RECIPES/PUCKER UP LEMON PROTEIN BARS.doc",
+    "type": "doc",
+    "duplicateFiles": []
+  }
+}

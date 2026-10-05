@@ -1,0 +1,236 @@
+{
+  "schemaVersion": 1,
+  "id": "be41398d-4fac-5407-b002-30aa53a36fd5",
+  "slug": "grandpas-fried-spaghetti",
+  "title": "Grandpa's Fried Spaghetti",
+  "description": null,
+  "category": "Pasta Dishes",
+  "subcategory": null,
+  "tags": [
+    "main"
+  ],
+  "servings": null,
+  "times": [],
+  "ingredients": [
+    {
+      "raw": "Whole wheat (or gluten free) spaghetti",
+      "quantity": null,
+      "quantityMax": null,
+      "unit": null,
+      "item": "Whole wheat  spaghetti",
+      "prep": null,
+      "note": "or gluten free",
+      "group": null,
+      "optional": false,
+      "confidence": "low",
+      "shop": true,
+      "catalogId": "spaghetti",
+      "amount": null
+    },
+    {
+      "raw": "Zuchinni sliced in thin rounds",
+      "quantity": null,
+      "quantityMax": null,
+      "unit": null,
+      "item": "Zuchinni sliced in thin rounds",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "low",
+      "shop": true,
+      "catalogId": "zucchini",
+      "amount": null
+    },
+    {
+      "raw": "Onion sliced in thin wedges",
+      "quantity": null,
+      "quantityMax": null,
+      "unit": null,
+      "item": "Onion sliced in thin wedges",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "low",
+      "shop": true,
+      "catalogId": "onion",
+      "amount": null
+    },
+    {
+      "raw": "Baby Portobello Mushrooms quartered",
+      "quantity": null,
+      "quantityMax": null,
+      "unit": null,
+      "item": "Baby Portobello Mushrooms quartered",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "low",
+      "shop": true,
+      "catalogId": "mushrooms",
+      "amount": null
+    },
+    {
+      "raw": "Clove garlic cut in thin slices",
+      "quantity": null,
+      "quantityMax": null,
+      "unit": "clove",
+      "item": "garlic cut in thin slices",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "low",
+      "shop": true,
+      "catalogId": "garlic",
+      "amount": null
+    },
+    {
+      "raw": "Left over brats or smoked sausage cut in thin slices",
+      "quantity": null,
+      "quantityMax": null,
+      "unit": null,
+      "item": "Left over brats or smoked sausage cut in thin slices",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "low",
+      "shop": true,
+      "catalogId": "sausage",
+      "amount": null
+    },
+    {
+      "raw": "crusty bread or roll",
+      "quantity": null,
+      "quantityMax": null,
+      "unit": null,
+      "item": "crusty bread or roll",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "low",
+      "shop": true,
+      "catalogId": "bread",
+      "amount": null
+    },
+    {
+      "raw": "Pesto (or just basil)",
+      "quantity": null,
+      "quantityMax": null,
+      "unit": null,
+      "item": "Pesto",
+      "prep": null,
+      "note": "or just basil",
+      "group": "Season with",
+      "optional": false,
+      "confidence": "low",
+      "shop": true,
+      "catalogId": "pesto",
+      "amount": null
+    },
+    {
+      "raw": "Sea Salt",
+      "quantity": null,
+      "quantityMax": null,
+      "unit": null,
+      "item": "Sea Salt",
+      "prep": null,
+      "note": null,
+      "group": "Season with",
+      "optional": false,
+      "confidence": "low",
+      "shop": true,
+      "catalogId": "salt",
+      "amount": null
+    },
+    {
+      "raw": "Freshly Ground Pepper",
+      "quantity": null,
+      "quantityMax": null,
+      "unit": null,
+      "item": "Freshly Ground Pepper",
+      "prep": null,
+      "note": null,
+      "group": "Season with",
+      "optional": false,
+      "confidence": "low",
+      "shop": true,
+      "catalogId": "black-pepper",
+      "amount": null
+    },
+    {
+      "raw": "Red Pepper Flakes (optional)",
+      "quantity": null,
+      "quantityMax": null,
+      "unit": null,
+      "item": "Red Pepper Flakes",
+      "prep": null,
+      "note": null,
+      "group": "Season with",
+      "optional": true,
+      "confidence": "low",
+      "shop": true,
+      "catalogId": "red-pepper-flakes",
+      "amount": null
+    },
+    {
+      "raw": "Parmesan Cheese (add last)",
+      "quantity": null,
+      "quantityMax": null,
+      "unit": null,
+      "item": "Parmesan Cheese",
+      "prep": null,
+      "note": "add last",
+      "group": "Season with",
+      "optional": false,
+      "confidence": "low",
+      "shop": true,
+      "catalogId": "parmesan-cheese",
+      "amount": null
+    }
+  ],
+  "steps": [
+    {
+      "text": "Add enough of each to feed all the hungry mouths",
+      "group": null
+    },
+    {
+      "text": "Saute vegetables in equal parts olive oil and butter until tender.",
+      "group": null
+    },
+    {
+      "text": "Season to suit your taste buds.",
+      "group": null
+    },
+    {
+      "text": "Boil spaghetti in salted water until al dente, drain.",
+      "group": null
+    },
+    {
+      "text": "Add olive oil to pasta pot and when hot, add all ingredients (i.e., the spaghetti and vegetable mixture) and stir.",
+      "group": null
+    },
+    {
+      "text": "Serve in preheated bowls and top with grated or flaked Parmesan Cheese",
+      "group": null
+    },
+    {
+      "text": "Be sure to have a crusty bread or roll to go with it.",
+      "group": null
+    }
+  ],
+  "footnotes": [],
+  "nutrition": null,
+  "importedNotes": [],
+  "seeAlso": [],
+  "source": {
+    "attribution": null,
+    "file": "RECIPES/PASTA DISHES/Grandpa_s Fried Spaghetti.doc",
+    "type": "doc",
+    "duplicateFiles": []
+  }
+}

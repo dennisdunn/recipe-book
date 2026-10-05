@@ -1,0 +1,306 @@
+{
+  "schemaVersion": 1,
+  "id": "bd4195c6-8d7a-574f-9086-66f9303be893",
+  "slug": "salsa-chicken-rice-casserole",
+  "title": "Salsa Chicken Rice Casserole",
+  "description": null,
+  "category": "Chicken Dishes",
+  "subcategory": null,
+  "tags": [
+    "main"
+  ],
+  "servings": null,
+  "times": [],
+  "ingredients": [
+    {
+      "raw": "1 cup uncooked brown rice",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "uncooked brown rice",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "rice",
+      "amount": {
+        "value": 236.588,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "2 2/3 cups water",
+      "quantity": 2.667,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "water",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "water",
+      "amount": {
+        "value": 630.98,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "4 skinless, boneless chicken breast halves",
+      "quantity": 4,
+      "quantityMax": null,
+      "unit": null,
+      "item": "skinless, boneless chicken breast halves",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "chicken-breast",
+      "amount": {
+        "value": 4,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "Southwestern seasoning",
+      "quantity": null,
+      "quantityMax": null,
+      "unit": null,
+      "item": "Southwestern seasoning",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "low",
+      "shop": true,
+      "catalogId": "other-seasoning-blend",
+      "amount": null
+    },
+    {
+      "raw": "2 cloves of garlic, minced",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "clove",
+      "item": "garlic",
+      "prep": "minced",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "garlic",
+      "amount": {
+        "value": 2,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "1 small to medium onion, chopped",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": null,
+      "item": "small to medium onion",
+      "prep": "chopped",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "onion",
+      "amount": {
+        "value": 1,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "1 1/2 cup shredded Monterey Jack cheese",
+      "quantity": 1.5,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "shredded Monterey Jack cheese",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "mexican-cheese-blend",
+      "amount": {
+        "value": 354.882,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 1/2 cup shredded reduced fat Cheddar cheese",
+      "quantity": 1.5,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "shredded reduced fat Cheddar cheese",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "cheddar-cheese",
+      "amount": {
+        "value": 354.882,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 (10.75 ounce) can Campbell’s Health Request chicken soup",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "can",
+      "item": "Campbell’s Health Request chicken soup",
+      "prep": null,
+      "note": "package size: 10.75 ounce",
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "cream-of-chicken-soup",
+      "amount": {
+        "value": 1,
+        "unit": "pkg",
+        "package": "can",
+        "packageOz": 10.75
+      }
+    },
+    {
+      "raw": "2 cups mild salsa (save some for topping)",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "mild salsa",
+      "prep": null,
+      "note": "save some for topping",
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "salsa",
+      "amount": {
+        "value": 473.176,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "Small container low fat sour cream (for topping)",
+      "quantity": null,
+      "quantityMax": null,
+      "unit": null,
+      "item": "Small container low fat sour cream",
+      "prep": null,
+      "note": "for topping",
+      "group": null,
+      "optional": false,
+      "confidence": "low",
+      "shop": true,
+      "catalogId": "sour-cream",
+      "amount": null
+    },
+    {
+      "raw": "Can of corn",
+      "quantity": null,
+      "quantityMax": null,
+      "unit": "can",
+      "item": "corn",
+      "prep": null,
+      "note": null,
+      "group": "Optional",
+      "optional": true,
+      "confidence": "low",
+      "shop": true,
+      "catalogId": "corn-canned",
+      "amount": null
+    },
+    {
+      "raw": "can of black beans",
+      "quantity": null,
+      "quantityMax": null,
+      "unit": "can",
+      "item": "black beans",
+      "prep": null,
+      "note": null,
+      "group": "Optional",
+      "optional": true,
+      "confidence": "low",
+      "shop": true,
+      "catalogId": "black-beans",
+      "amount": null
+    },
+    {
+      "raw": "sautéed celery",
+      "quantity": null,
+      "quantityMax": null,
+      "unit": null,
+      "item": "sautéed celery",
+      "prep": null,
+      "note": null,
+      "group": "Optional",
+      "optional": true,
+      "confidence": "low",
+      "shop": true,
+      "catalogId": "celery",
+      "amount": null
+    },
+    {
+      "raw": "chopped bell pepper",
+      "quantity": null,
+      "quantityMax": null,
+      "unit": null,
+      "item": "chopped bell pepper",
+      "prep": null,
+      "note": null,
+      "group": "Optional",
+      "optional": true,
+      "confidence": "low",
+      "shop": true,
+      "catalogId": "bell-pepper",
+      "amount": null
+    }
+  ],
+  "steps": [
+    {
+      "text": "Place rice and water in a saucepan, and bring to a boil. Reduce heat to low, cover, and simmer for 20 minutes.",
+      "group": null
+    },
+    {
+      "text": "Brown chicken in olive oil with southwestern seasoning, onion and garlic. When cool enough to handle, cut meat into bite-size pieces.",
+      "group": null
+    },
+    {
+      "text": "Preheat oven to 350 degrees F (175 degrees C). Lightly grease a 9x13 inch baking dish.",
+      "group": null
+    },
+    {
+      "text": "In a medium bowl, combine Monterey Jack and Cheddar cheeses. In a separate bowl, mix together chicken soup, onion, and salsa. Layer 1/2 of the rice, 1/2 of the chicken, 1/2 of the soup and salsa mixture, and 1/2 of the cheese mixture in prepared dish. Repeat layers, ending with cheese.",
+      "group": null
+    },
+    {
+      "text": "Cover with foil and bake in preheated oven for about 30 minutes. Remove foil and bake another 10 minutes (to keep cheese stringing rather than crunchy).",
+      "group": null
+    },
+    {
+      "text": "Top off each serving with dollop of sour cream and spoonful of salsa.",
+      "group": null
+    }
+  ],
+  "footnotes": [],
+  "nutrition": null,
+  "importedNotes": [],
+  "seeAlso": [],
+  "source": {
+    "attribution": null,
+    "file": "RECIPES/CHICKEN DISHES/Salsa chicken and rice.doc",
+    "type": "doc",
+    "duplicateFiles": []
+  }
+}

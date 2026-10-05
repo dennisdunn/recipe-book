@@ -1,0 +1,181 @@
+{
+  "schemaVersion": 1,
+  "id": "59c79040-febc-501e-b910-c32d3d732698",
+  "slug": "chicken-divan",
+  "title": "Chicken Divan",
+  "description": null,
+  "category": "Chicken Dishes",
+  "subcategory": null,
+  "tags": [
+    "main"
+  ],
+  "servings": null,
+  "times": [],
+  "ingredients": [
+    {
+      "raw": "(1) 10 oz frozen chopped broccoli",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "pkg",
+      "item": "frozen chopped broccoli",
+      "prep": null,
+      "note": "package size: 10 oz",
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "broccoli",
+      "amount": {
+        "value": 1,
+        "unit": "pkg",
+        "package": "pkg",
+        "packageOz": 10
+      }
+    },
+    {
+      "raw": "4 chicken breasts",
+      "quantity": 4,
+      "quantityMax": null,
+      "unit": null,
+      "item": "chicken breasts",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "chicken-breast",
+      "amount": {
+        "value": 4,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "2 cans cream of chicken soup",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "can",
+      "item": "cream of chicken soup",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "cream-of-chicken-soup",
+      "amount": {
+        "value": 2,
+        "unit": "pkg",
+        "package": "can"
+      }
+    },
+    {
+      "raw": "1 cup mayo",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "mayo",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "mayonnaise",
+      "amount": {
+        "value": 236.588,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 tsp lemon juice",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "lemon juice",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "lemon-juice",
+      "amount": {
+        "value": 4.929,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "2 cups shredded cheddar cheese",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "shredded cheddar cheese",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "cheddar-cheese",
+      "amount": {
+        "value": 473.176,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "4 TBSP melted butter",
+      "quantity": 4,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "melted butter",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "butter",
+      "amount": {
+        "value": 59.147,
+        "unit": "ml"
+      }
+    }
+  ],
+  "steps": [
+    {
+      "text": "Microwave the broccoli in the open box for 2-3 minutes.",
+      "group": null
+    },
+    {
+      "text": "Put broccoli in greased 13x9 pan.",
+      "group": null
+    },
+    {
+      "text": "Put cooked cut-up chicken on top of the broccoli.",
+      "group": null
+    },
+    {
+      "text": "Mix mayo, soup, and lemon juice and pour over the chicken.",
+      "group": null
+    },
+    {
+      "text": "Mix cheddar cheese and 4 TBSP butter and spread over the top.",
+      "group": null
+    },
+    {
+      "text": "Bake at 350 degrees for 25 to 30 minutes.",
+      "group": null
+    }
+  ],
+  "footnotes": [],
+  "nutrition": null,
+  "importedNotes": [],
+  "seeAlso": [],
+  "source": {
+    "attribution": "Stacey Butcher",
+    "file": "RECIPES/CHICKEN DISHES/Chicken Divan.doc",
+    "type": "doc",
+    "duplicateFiles": []
+  }
+}

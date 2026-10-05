@@ -1,0 +1,302 @@
+{
+  "schemaVersion": 1,
+  "id": "5bf3a63b-8085-5efa-bcf9-953c5d51b2b8",
+  "slug": "low-fat-farmhouse-vegetable-soup",
+  "title": "Low-Fat Farmhouse Vegetable Soup",
+  "description": null,
+  "category": "Soups and Stews",
+  "subcategory": null,
+  "tags": [],
+  "servings": {
+    "text": "Serves 4",
+    "amount": 4
+  },
+  "times": [],
+  "ingredients": [
+    {
+      "raw": "3 medium carrots",
+      "quantity": 3,
+      "quantityMax": null,
+      "unit": null,
+      "item": "medium carrots",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "carrot",
+      "amount": {
+        "value": 3,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "3 medium parsnips",
+      "quantity": 3,
+      "quantityMax": null,
+      "unit": null,
+      "item": "medium parsnips",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "parsnip",
+      "amount": {
+        "value": 3,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "1 medium sweet potato",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": null,
+      "item": "medium sweet potato",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "sweet-potato",
+      "amount": {
+        "value": 1,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "3 bay leaves",
+      "quantity": 3,
+      "quantityMax": null,
+      "unit": null,
+      "item": "bay leaves",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "bay-leaf",
+      "amount": {
+        "value": 3,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "4 parsley stalks",
+      "quantity": 4,
+      "quantityMax": null,
+      "unit": null,
+      "item": "parsley stalks",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "fresh-parsley",
+      "amount": {
+        "value": 4,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "3 thyme sprigs",
+      "quantity": 3,
+      "quantityMax": null,
+      "unit": null,
+      "item": "thyme sprigs",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "fresh-thyme",
+      "amount": {
+        "value": 3,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "1 tablespoon olive oil",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "olive oil",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "olive-oil",
+      "amount": {
+        "value": 14.787,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 medium yellow onion, peeled and roughly chopped",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": null,
+      "item": "medium yellow onion",
+      "prep": "peeled and roughly chopped",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "onion",
+      "amount": {
+        "value": 1,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "2 fat cloves garlic, crushed and finely chopped",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": null,
+      "item": "fat cloves garlic",
+      "prep": "crushed and finely chopped",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "garlic",
+      "amount": {
+        "value": 2,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "2 cups vegetable stock",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "vegetable stock",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "vegetable-broth",
+      "amount": {
+        "value": 473.176,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1/2 cup evaporated skim milk",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "evaporated skim milk",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "evaporated-milk",
+      "amount": {
+        "value": 118.294,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "Salt",
+      "quantity": null,
+      "quantityMax": null,
+      "unit": null,
+      "item": "Salt",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "low",
+      "shop": true,
+      "catalogId": "salt",
+      "amount": null
+    },
+    {
+      "raw": "Black peppercorns, freshly ground",
+      "quantity": null,
+      "quantityMax": null,
+      "unit": null,
+      "item": "Black peppercorns",
+      "prep": "freshly ground",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "low",
+      "shop": true,
+      "catalogId": "black-pepper",
+      "amount": null
+    },
+    {
+      "raw": "Extra parsley, chopped, for garnish",
+      "quantity": null,
+      "quantityMax": null,
+      "unit": null,
+      "item": "Extra parsley, chopped, for garnish",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "fresh-parsley",
+      "amount": null
+    }
+  ],
+  "steps": [
+    {
+      "text": "Scrub carrots and parsnips; peel one of each and cut into half-inch dice. Roughly chop the rest.",
+      "group": null
+    },
+    {
+      "text": "Peel sweet potato; roughly chop. Tie bay leaves, parsley stalks and thyme into a bunch with string.",
+      "group": null
+    },
+    {
+      "text": "Pour oil in saute pan over medium-high heat. Add roughly chopped vegetables and onion; shallow-fry and stir for about 3 minutes. Add garlic; fry and stir for 1 more minute.",
+      "group": null
+    },
+    {
+      "text": "Add 1 1/2 cups vegetable stock and bunch of herbs. Simmer until softened, 15 to 20 minutes; remove herbs. While simmering, add diced carrots and parsnips and remaining stock to a saucepan; simmer until just cooked, about 12 minutes.",
+      "group": null
+    },
+    {
+      "text": "Whiz onion mixture in blender until smooth. Pour into another saucepan.",
+      "group": null
+    },
+    {
+      "text": "For velvet sauce, take 1 cup of blended onion mixture; return it to blender. Add evaporated skim milk. Blend on high until glossy (at least 2 minutes). Pour into gravy boat.",
+      "group": null
+    },
+    {
+      "text": "Stir diced vegetables into blended mixture; season to taste. Serve dusted with chopped parsley and with velvet sauce on the side, as a topper.",
+      "group": null
+    }
+  ],
+  "footnotes": [],
+  "nutrition": {
+    "text": "Nutrients per serving: 182 calories, 5g protein, 33g carbohydrates, 6g fiber, 4g fat, 5mg cholesterol, 340mg sodium"
+  },
+  "importedNotes": [],
+  "seeAlso": [],
+  "source": {
+    "attribution": null,
+    "file": "RECIPES/SOUPS AND STEWS/Farm Vegetable Soup.png",
+    "type": "image",
+    "duplicateFiles": []
+  }
+}

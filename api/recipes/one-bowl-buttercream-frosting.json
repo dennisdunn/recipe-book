@@ -1,0 +1,136 @@
+{
+  "schemaVersion": 1,
+  "id": "b8110665-4112-53ef-b171-fb2476868f63",
+  "slug": "one-bowl-buttercream-frosting",
+  "title": "One Bowl Buttercream Frosting",
+  "description": null,
+  "category": "Desserts",
+  "subcategory": null,
+  "tags": [],
+  "servings": null,
+  "times": [],
+  "ingredients": [
+    {
+      "raw": "6 tbsp butter, softened",
+      "quantity": 6,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "butter",
+      "prep": "softened",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "butter",
+      "amount": {
+        "value": 88.721,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1/2 cup Hershey's cocoa",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "Hershey's cocoa",
+      "prep": null,
+      "note": "1/3 cup for light flavor, 1/2 cup for medium, 3/4 cup for dark",
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "cocoa-powder",
+      "amount": {
+        "value": 118.294,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "2 2/3 cups sifted confectioners’ sugar",
+      "quantity": 2.667,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "sifted confectioners’ sugar",
+      "prep": null,
+      "note": null,
+      "group": "Hershey’s Cocoa",
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "powdered-sugar",
+      "amount": {
+        "value": 630.98,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1/3 cup milk",
+      "quantity": 0.333,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "milk",
+      "prep": null,
+      "note": null,
+      "group": "Hershey’s Cocoa",
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "milk",
+      "amount": {
+        "value": 78.784,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 tsp vanilla",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "vanilla",
+      "prep": null,
+      "note": null,
+      "group": "Hershey’s Cocoa",
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "vanilla-extract",
+      "amount": {
+        "value": 4.929,
+        "unit": "ml"
+      }
+    }
+  ],
+  "steps": [
+    {
+      "text": "Cream butter in small mixer bowl.",
+      "group": null
+    },
+    {
+      "text": "Add cocoa and confectioners’ sugar alternately with milk.",
+      "group": null
+    },
+    {
+      "text": "Beat to spreading consistency (add a tbsp spoon of milk if needed).",
+      "group": null
+    },
+    {
+      "text": "Blend in vanilla.",
+      "group": null
+    },
+    {
+      "text": "Makes about 2 cups of frosting.",
+      "group": null
+    }
+  ],
+  "footnotes": [],
+  "nutrition": null,
+  "importedNotes": [],
+  "seeAlso": [],
+  "source": {
+    "attribution": null,
+    "file": "RECIPES/DESSERTS/One Bowl Buttercream Frosting.doc",
+    "type": "doc",
+    "duplicateFiles": []
+  }
+}

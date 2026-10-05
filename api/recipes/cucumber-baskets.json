@@ -1,0 +1,128 @@
+{
+  "schemaVersion": 1,
+  "id": "b4e243c4-114d-5364-b8ff-6634869601a7",
+  "slug": "cucumber-baskets",
+  "title": "Cucumber Baskets",
+  "description": null,
+  "category": "Side Dishes",
+  "subcategory": null,
+  "tags": [],
+  "servings": null,
+  "times": [],
+  "ingredients": [
+    {
+      "raw": "1 large round cucumber",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": null,
+      "item": "large round cucumber",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "cucumber",
+      "amount": {
+        "value": 1,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "1 fully ripe tomato",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": null,
+      "item": "fully ripe tomato",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "tomato",
+      "amount": {
+        "value": 1,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "1 avocado",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": null,
+      "item": "avocado",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "avocado",
+      "amount": {
+        "value": 1,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "3 tbsp lime or lemon juice",
+      "quantity": 3,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "lime or lemon juice",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "lime",
+      "amount": {
+        "value": 44.36,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 tbsp canola oil",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "canola oil",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "vegetable-oil",
+      "amount": {
+        "value": 14.787,
+        "unit": "ml"
+      }
+    }
+  ],
+  "steps": [
+    {
+      "text": "Slice just a little off both ends of the cucumber. Cut about three inches from one end so you have two large pieces that sit flat, plus the middle (not needed). Scoop the seeds out of the two ends with a spoon to form two baskets.",
+      "group": null
+    },
+    {
+      "text": "Cut the tomato into quarter-inch dice. Peel and cut the avocado into quarter-inch dice. Loosely mix the avocado and tomato, then pour on the lime or lemon juice and the oil.",
+      "group": null
+    },
+    {
+      "text": "Spoon the mixture into the cucumber baskets. Serve chilled.",
+      "group": null
+    }
+  ],
+  "footnotes": [],
+  "nutrition": null,
+  "importedNotes": [],
+  "seeAlso": [],
+  "source": {
+    "attribution": null,
+    "file": "RECIPES/SIDE DISHES/Recipes for overgrown cucumbers.doc",
+    "type": "doc",
+    "duplicateFiles": []
+  }
+}

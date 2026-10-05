@@ -1,0 +1,210 @@
+{
+  "schemaVersion": 1,
+  "id": "05f495a5-3b26-5131-a0f8-f1a918cf9506",
+  "slug": "low-carb-pancakes",
+  "title": "Low Carb Pancakes",
+  "description": null,
+  "category": "Protein Recipes",
+  "subcategory": "KETO RECIPES",
+  "tags": [
+    "keto"
+  ],
+  "servings": {
+    "text": "Yield: 5 medium sized pancakes. Carbs: 5 -6",
+    "amount": 5
+  },
+  "times": [],
+  "ingredients": [
+    {
+      "raw": "2 large eggs",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": null,
+      "item": "large eggs",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "eggs",
+      "amount": {
+        "value": 2,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "1 tablespoon water",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "water",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "water",
+      "amount": {
+        "value": 14.787,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "2 oz cream cheese, cubed",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "oz",
+      "item": "cream cheese",
+      "prep": "cubed",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "cream-cheese",
+      "amount": {
+        "value": 56.699,
+        "unit": "g"
+      }
+    },
+    {
+      "raw": "2/3 cup almond flour",
+      "quantity": 0.667,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "almond flour",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "almond-flour",
+      "amount": {
+        "value": 157.804,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 teaspoon baking powder",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "baking powder",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "baking-powder",
+      "amount": {
+        "value": 4.929,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "2 teaspoons vanilla extract",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "vanilla extract",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "vanilla-extract",
+      "amount": {
+        "value": 9.858,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1/2 teaspoon cinnamon",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "cinnamon",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "cinnamon",
+      "amount": {
+        "value": 2.464,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1/2 teaspoon Splenda",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "Splenda",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "sweetener",
+      "amount": {
+        "value": 2.464,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "butter and sugar free syrup",
+      "quantity": null,
+      "quantityMax": null,
+      "unit": null,
+      "item": "butter and sugar free syrup",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "low",
+      "shop": true,
+      "catalogId": "butter",
+      "amount": null
+    }
+  ],
+  "steps": [
+    {
+      "text": "Add all ingredients to blender. Start with eggs and water and cream cheese so you don't have anything get stuck at bottom.",
+      "group": null
+    },
+    {
+      "text": "Blend until smooth, scraping down the sides if needed. Let batter sit for 2 minutes.",
+      "group": null
+    },
+    {
+      "text": "Heat a non-stick skillet to medium heat. For each pancake, pour 3 to 4 tablespoons of batter onto skillet.",
+      "group": null
+    },
+    {
+      "text": "Once you start to see little bubbles form, flip and continue to cook until pancake is browned on each side. Continue until you have used all pancake batter.",
+      "group": null
+    },
+    {
+      "text": "Serve pancakes topped with butter and syrup!",
+      "group": null
+    }
+  ],
+  "footnotes": [],
+  "nutrition": null,
+  "importedNotes": [],
+  "seeAlso": [],
+  "source": {
+    "attribution": null,
+    "file": "RECIPES/PROTEIN RECIPES/KETO RECIPES/Low Carb Pancakes.doc",
+    "type": "doc",
+    "duplicateFiles": []
+  }
+}

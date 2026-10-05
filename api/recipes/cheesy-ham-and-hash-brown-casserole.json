@@ -1,0 +1,230 @@
+{
+  "schemaVersion": 1,
+  "id": "fd3548be-4d6b-577f-8377-0f1e42363916",
+  "slug": "cheesy-ham-and-hash-brown-casserole",
+  "title": "Cheesy Ham and Hash Brown Casserole",
+  "description": null,
+  "category": "Side Dishes",
+  "subcategory": null,
+  "tags": [],
+  "servings": null,
+  "times": [],
+  "ingredients": [
+    {
+      "raw": "1 (32 ounce) package frozen hash brown potatoes (or less)",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "pkg",
+      "item": "frozen hash brown potatoes",
+      "prep": null,
+      "note": "package size: 32 ounce; or less",
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "hash-browns",
+      "amount": {
+        "value": 1,
+        "unit": "pkg",
+        "package": "pkg",
+        "packageOz": 32
+      }
+    },
+    {
+      "raw": "1 small to medium diced onion sauteed in butter",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": null,
+      "item": "small to medium diced onion sauteed in butter",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "butter",
+      "amount": {
+        "value": 1,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "12 to 16 ounces chipped cooked deli ham",
+      "quantity": 12,
+      "quantityMax": 16,
+      "unit": "oz",
+      "item": "chipped cooked deli ham",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "ham",
+      "amount": {
+        "value": 396.893,
+        "unit": "g"
+      }
+    },
+    {
+      "raw": "1 (10.75 ounce) can condensed cream of potato soup",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "can",
+      "item": "condensed cream of potato soup",
+      "prep": null,
+      "note": "package size: 10.75 ounce",
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "cream-of-potato-soup",
+      "amount": {
+        "value": 1,
+        "unit": "pkg",
+        "package": "can",
+        "packageOz": 10.75
+      }
+    },
+    {
+      "raw": "½ teaspoon salt",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "salt",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "salt",
+      "amount": {
+        "value": 2.464,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 tsp pepper",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "pepper",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "black-pepper",
+      "amount": {
+        "value": 4.929,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 tsp garlic powder",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "garlic powder",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "garlic-powder",
+      "amount": {
+        "value": 4.929,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "8 to 12 ounces of sour cream",
+      "quantity": 8,
+      "quantityMax": 12,
+      "unit": "oz",
+      "item": "sour cream",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "sour-cream",
+      "amount": {
+        "value": 283.495,
+        "unit": "g"
+      }
+    },
+    {
+      "raw": "2 cups shredded sharp Cheddar cheese",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "shredded sharp Cheddar cheese",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "cheddar-cheese",
+      "amount": {
+        "value": 473.176,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1/2 cups grated Parmesan cheese",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "grated Parmesan cheese",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "parmesan-cheese",
+      "amount": {
+        "value": 118.294,
+        "unit": "ml"
+      }
+    }
+  ],
+  "steps": [
+    {
+      "text": "Preheat oven to 375 degrees F (190 degrees C). Lightly grease a 9x13 inch baking dish.",
+      "group": null
+    },
+    {
+      "text": "In a large bowl, mix hash browns, ham, cream of potato soup, sour cream, and Cheddar cheese. Spread evenly into prepared dish. Sprinkle with Parmesan cheese.",
+      "group": null
+    },
+    {
+      "text": "Bake 1 hour in the preheated oven, or until bubbly and lightly brown. Serve immediately.",
+      "group": null
+    },
+    {
+      "text": "Cover the top with foil toward the end of baking to prevent the cheese from becoming hard.",
+      "group": null
+    },
+    {
+      "text": "NOTE: Omit the ham for a delicious side dish to a ham dinner.",
+      "group": null
+    }
+  ],
+  "footnotes": [],
+  "nutrition": null,
+  "importedNotes": [],
+  "seeAlso": [],
+  "source": {
+    "attribution": null,
+    "file": "RECIPES/SIDE DISHES/Cheesy Ham and Hash Brown Casserole.doc",
+    "type": "doc",
+    "duplicateFiles": []
+  }
+}

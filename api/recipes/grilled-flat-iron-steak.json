@@ -1,0 +1,191 @@
+{
+  "schemaVersion": 1,
+  "id": "98ac642a-8589-53e8-a1d8-658cdf0c3b26",
+  "slug": "grilled-flat-iron-steak",
+  "title": "Grilled Flat Iron Steak",
+  "description": null,
+  "category": "Beef Dishes",
+  "subcategory": null,
+  "tags": [
+    "main"
+  ],
+  "servings": null,
+  "times": [],
+  "ingredients": [
+    {
+      "raw": "1/4 cup red wine vinegar",
+      "quantity": 0.25,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "red wine vinegar",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "red-wine-vinegar",
+      "amount": {
+        "value": 59.147,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1/4 cup olive oil",
+      "quantity": 0.25,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "olive oil",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "olive-oil",
+      "amount": {
+        "value": 59.147,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1/4 cup fresh parsley (chopped)",
+      "quantity": 0.25,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "fresh parsley",
+      "prep": null,
+      "note": "chopped",
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "fresh-parsley",
+      "amount": {
+        "value": 59.147,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1/4 cup fresh chives (thinly sliced)",
+      "quantity": 0.25,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "fresh chives",
+      "prep": null,
+      "note": "thinly sliced",
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "fresh-chives",
+      "amount": {
+        "value": 59.147,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "2 tsp dried tarragon (chopped)",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "dried tarragon",
+      "prep": null,
+      "note": "chopped",
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "dried-tarragon",
+      "amount": {
+        "value": 9.858,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 tsp lemon zest",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "lemon zest",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "lemon",
+      "amount": {
+        "value": 4.929,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 tsp lemon juice",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "lemon juice",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "lemon-juice",
+      "amount": {
+        "value": 4.929,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 lb flat iron steak",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "lb",
+      "item": "flat iron steak",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "beef-steak",
+      "amount": {
+        "value": 453.592,
+        "unit": "g"
+      }
+    },
+    {
+      "raw": "kosher salt and freshly ground black pepper",
+      "quantity": null,
+      "quantityMax": null,
+      "unit": null,
+      "item": "kosher salt and freshly ground black pepper",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "low",
+      "shop": true,
+      "catalogId": "salt",
+      "amount": null
+    }
+  ],
+  "steps": [
+    {
+      "text": "Put all ingredients in a gallon bag and marinate for 5 hours.",
+      "group": null
+    }
+  ],
+  "footnotes": [],
+  "nutrition": null,
+  "importedNotes": [],
+  "seeAlso": [],
+  "source": {
+    "attribution": null,
+    "file": "RECIPES/BEEF DISHES/Grilled Flat Iron Steak Recipe.doc",
+    "type": "doc",
+    "duplicateFiles": []
+  }
+}

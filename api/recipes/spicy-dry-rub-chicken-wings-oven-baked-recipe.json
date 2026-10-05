@@ -1,0 +1,269 @@
+{
+  "schemaVersion": 1,
+  "id": "fc64e1c1-c772-51ab-aec8-228f721925b9",
+  "slug": "spicy-dry-rub-chicken-wings-oven-baked-recipe",
+  "title": "Spicy Dry Rub Chicken Wings – Oven Baked Recipe",
+  "description": null,
+  "category": "Protein Recipes",
+  "subcategory": "KETO RECIPES",
+  "tags": [
+    "keto",
+    "main"
+  ],
+  "servings": {
+    "text": "Servings 15 wings,  Calories 186 kcal",
+    "amount": 15
+  },
+  "times": [
+    {
+      "label": "Prep time",
+      "text": "5 minutes, Cook Time 40 minutes"
+    }
+  ],
+  "ingredients": [
+    {
+      "raw": "2 pounds chicken wings about 20 wingettes & drumettes",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "lb",
+      "item": "chicken wings about 20 wingettes & drumettes",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "chicken-wings",
+      "amount": {
+        "value": 907.184,
+        "unit": "g"
+      }
+    },
+    {
+      "raw": "1 tablespoon olive oil",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "olive oil",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "olive-oil",
+      "amount": {
+        "value": 14.787,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 tablespoon chili powder",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "chili powder",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "chili-powder",
+      "amount": {
+        "value": 14.787,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 tablespoon sweet smoked paprika",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "sweet smoked paprika",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "paprika",
+      "amount": {
+        "value": 14.787,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 1/2 teaspoons ground cumin",
+      "quantity": 1.5,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "ground cumin",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "cumin",
+      "amount": {
+        "value": 7.393,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 teaspoon ground cayenne pepper more for hotter wings",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "ground cayenne pepper more for hotter wings",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "cayenne",
+      "amount": {
+        "value": 4.929,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 1/2 teaspoons garlic powder",
+      "quantity": 1.5,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "garlic powder",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "garlic-powder",
+      "amount": {
+        "value": 7.393,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 1/2 teaspoons onion powder",
+      "quantity": 1.5,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "onion powder",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "onion-powder",
+      "amount": {
+        "value": 7.393,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 1/2 teaspoons kosher salt",
+      "quantity": 1.5,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "kosher salt",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "salt",
+      "amount": {
+        "value": 7.393,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 1/2 teaspoons black pepper",
+      "quantity": 1.5,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "black pepper",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "black-pepper",
+      "amount": {
+        "value": 7.393,
+        "unit": "ml"
+      }
+    }
+  ],
+  "steps": [
+    {
+      "text": "Dry wing pieces with paper towels to remove excess liquid.",
+      "group": null
+    },
+    {
+      "text": "Place wings in a large bowl and rub olive oil evenly into each piece.",
+      "group": null
+    },
+    {
+      "text": "Combine all seasonings in a bowl.",
+      "group": null
+    },
+    {
+      "text": "Sprinkle half of the season mix onto the chicken wings and rub in.",
+      "group": null
+    },
+    {
+      "text": "Flip wings and sprinkle remaining half onto wings and rub in.",
+      "group": null
+    },
+    {
+      "text": "Place rack over shallow baking pan with sides (line pan with foil for",
+      "group": null
+    },
+    {
+      "text": "easy cleanup). Place seasoned wings on rack.",
+      "group": null
+    },
+    {
+      "text": "Bake at 350 degrees °F for 20 minutes, flip each wing, then bake for",
+      "group": null
+    },
+    {
+      "text": "an additional 10 minutes.",
+      "group": null
+    },
+    {
+      "text": "Turn oven broiler on low and broil for another 10 minutes.",
+      "group": null
+    },
+    {
+      "text": "Remove from oven. Serve with celery and blue cheese dressing if",
+      "group": null
+    },
+    {
+      "text": "desired.",
+      "group": null
+    },
+    {
+      "text": "Nutrition per serving: 444 calories, 32.2g fat, 857.2mg sodium, 3.4g carbs, 1.4g fiber, 2g net carbs, 34g protein",
+      "group": null
+    }
+  ],
+  "footnotes": [],
+  "nutrition": null,
+  "importedNotes": [],
+  "seeAlso": [],
+  "source": {
+    "attribution": null,
+    "file": "RECIPES/PROTEIN RECIPES/KETO RECIPES/Spicy Dry Rub Chicken.doc",
+    "type": "doc",
+    "duplicateFiles": []
+  }
+}

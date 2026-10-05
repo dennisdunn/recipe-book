@@ -1,0 +1,302 @@
+{
+  "schemaVersion": 1,
+  "id": "ce581722-c65c-597f-a8dd-986fab3b91c0",
+  "slug": "chicken-fajitas",
+  "title": "Chicken Fajitas",
+  "description": null,
+  "category": "Mexican Dishes",
+  "subcategory": null,
+  "tags": [
+    "main"
+  ],
+  "servings": {
+    "text": "serves 12",
+    "amount": 12
+  },
+  "times": [
+    {
+      "label": "Prep time",
+      "text": "Approx. 1 hour"
+    }
+  ],
+  "ingredients": [
+    {
+      "raw": "(2) 22oz bags of Tyson's Grilled & Ready Chicken Strips",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "bag",
+      "item": "Tyson's Grilled & Ready Chicken Strips",
+      "prep": null,
+      "note": "package size: 22 oz",
+      "group": "Marinade for Chicken",
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "chicken",
+      "amount": {
+        "value": 2,
+        "unit": "pkg",
+        "package": "bag",
+        "packageOz": 22
+      }
+    },
+    {
+      "raw": "2 envelopes Taco seasoning",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "envelope",
+      "item": "Taco seasoning",
+      "prep": null,
+      "note": null,
+      "group": "Marinade for Chicken",
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "taco-seasoning",
+      "amount": {
+        "value": 2,
+        "unit": "pkg",
+        "package": "envelope"
+      }
+    },
+    {
+      "raw": "4 Tbsp vegetable oil",
+      "quantity": 4,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "vegetable oil",
+      "prep": null,
+      "note": null,
+      "group": "Marinade for Chicken",
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "vegetable-oil",
+      "amount": {
+        "value": 59.147,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 large green pepper",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": null,
+      "item": "large green pepper",
+      "prep": null,
+      "note": null,
+      "group": "Vegetables",
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "bell-pepper",
+      "amount": {
+        "value": 1,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "1 large red pepper",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": null,
+      "item": "large red pepper",
+      "prep": null,
+      "note": null,
+      "group": "Vegetables",
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "bell-pepper",
+      "amount": {
+        "value": 1,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "1 large yellow pepper",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": null,
+      "item": "large yellow pepper",
+      "prep": null,
+      "note": null,
+      "group": "Vegetables",
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "bell-pepper",
+      "amount": {
+        "value": 1,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "2 large sweet onions",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": null,
+      "item": "large sweet onions",
+      "prep": null,
+      "note": null,
+      "group": "Vegetables",
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "onion",
+      "amount": {
+        "value": 2,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "1 1/2 cups julienne carrots",
+      "quantity": 1.5,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "julienne carrots",
+      "prep": null,
+      "note": null,
+      "group": "Vegetables",
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "carrot",
+      "amount": {
+        "value": 354.882,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "glacamole",
+      "quantity": null,
+      "quantityMax": null,
+      "unit": null,
+      "item": "glacamole",
+      "prep": null,
+      "note": null,
+      "group": "Toppings",
+      "optional": false,
+      "confidence": "low",
+      "shop": true,
+      "catalogId": "guacamole",
+      "amount": null
+    },
+    {
+      "raw": "fresh salsa from grocery deli",
+      "quantity": null,
+      "quantityMax": null,
+      "unit": null,
+      "item": "fresh salsa from grocery deli",
+      "prep": null,
+      "note": null,
+      "group": "Toppings",
+      "optional": false,
+      "confidence": "low",
+      "shop": true,
+      "catalogId": "salsa",
+      "amount": null
+    },
+    {
+      "raw": "sour cream",
+      "quantity": null,
+      "quantityMax": null,
+      "unit": null,
+      "item": "sour cream",
+      "prep": null,
+      "note": null,
+      "group": "Toppings",
+      "optional": false,
+      "confidence": "low",
+      "shop": true,
+      "catalogId": "sour-cream",
+      "amount": null
+    },
+    {
+      "raw": "Mexican shredded cheese",
+      "quantity": null,
+      "quantityMax": null,
+      "unit": null,
+      "item": "Mexican shredded cheese",
+      "prep": null,
+      "note": null,
+      "group": "Toppings",
+      "optional": false,
+      "confidence": "low",
+      "shop": true,
+      "catalogId": "mexican-cheese-blend",
+      "amount": null
+    },
+    {
+      "raw": "crumbled blue cheese",
+      "quantity": null,
+      "quantityMax": null,
+      "unit": null,
+      "item": "crumbled blue cheese",
+      "prep": null,
+      "note": null,
+      "group": "Toppings",
+      "optional": false,
+      "confidence": "low",
+      "shop": true,
+      "catalogId": "blue-cheese",
+      "amount": null
+    },
+    {
+      "raw": "12 medium burrito wraps",
+      "quantity": 12,
+      "quantityMax": null,
+      "unit": null,
+      "item": "medium burrito wraps",
+      "prep": null,
+      "note": null,
+      "group": "Wraps",
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "tortillas",
+      "amount": {
+        "value": 12,
+        "unit": "each"
+      }
+    }
+  ],
+  "steps": [
+    {
+      "text": "Keep chicken frozen until ready to prepare dinner. Place chicken in 2 gallon zip lock bags for marinating. Combine Taco seasonings, oil and water and pour half into each bag. Let sit for 30 minutes. Flip bag over from time to time.",
+      "group": null
+    },
+    {
+      "text": "Cut peppers in half, then cut into long, thin strips. Cut onion in half, then slice. Buy carrots already slivered.",
+      "group": null
+    },
+    {
+      "text": "Pour chicken and marinade into large skillet. Cook on medium heat until chicken is hot and sauce is absorbed. Keep warm.",
+      "group": null
+    },
+    {
+      "text": "Saute onions in small amount of olive oil until translucent but not browned. Set aside. Saute peppers and carrots until tender but still brightly colored. Stir in onions and serve before veggies are overcooked.",
+      "group": null
+    }
+  ],
+  "footnotes": [
+    "Alternate footer in the copy Chicken Fajitas2.pdf (instead of the serving tips above): \"My son, pay attention to what I say; listen closely to my words. Do not let them out of you, keep them within your heart; for they are life to those who find them and health to a man's whole body.\" Proverbs 4:20-22"
+  ],
+  "nutrition": null,
+  "importedNotes": [
+    {
+      "text": "Warm burrito wraps individually over medium heat in teflon skillet without oil. Serve buffet style so guests can choose their own toppings."
+    }
+  ],
+  "seeAlso": [
+    "adeles-easy-chicken-fajitas"
+  ],
+  "source": {
+    "attribution": "From the kitchen of Adele Dunn",
+    "file": "RECIPES/MEXICAN DISHES/Chicken Fajitas.pdf",
+    "type": "pdf",
+    "duplicateFiles": [
+      "RECIPES/MEXICAN DISHES/Chicken Fajitas2.pdf"
+    ]
+  }
+}

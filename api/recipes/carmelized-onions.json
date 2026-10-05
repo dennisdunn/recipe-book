@@ -1,0 +1,130 @@
+{
+  "schemaVersion": 1,
+  "id": "abb9b969-264c-51b0-b3c4-70bf72c8b939",
+  "slug": "carmelized-onions",
+  "title": "Carmelized Onions",
+  "description": null,
+  "category": "Dips, Rubs, Sauces & Marinades",
+  "subcategory": null,
+  "tags": [],
+  "servings": null,
+  "times": [],
+  "ingredients": [
+    {
+      "raw": "3 tbsp butter",
+      "quantity": 3,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "butter",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "butter",
+      "amount": {
+        "value": 44.36,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "2 tbsp olive oil",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "olive oil",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "olive-oil",
+      "amount": {
+        "value": 29.574,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "2 ½ lbs thinly sliced onions",
+      "quantity": 2.5,
+      "quantityMax": null,
+      "unit": "lb",
+      "item": "thinly sliced onions",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "onion",
+      "amount": {
+        "value": 1133.98,
+        "unit": "g"
+      }
+    },
+    {
+      "raw": "¼ tsp pepper",
+      "quantity": 0.25,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "pepper",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "black-pepper",
+      "amount": {
+        "value": 1.232,
+        "unit": "ml"
+      }
+    }
+  ],
+  "steps": [
+    {
+      "text": "Stir constantly until onions soften (5 minutes).",
+      "group": null
+    },
+    {
+      "text": "Add sugar, scrape bottom of pan frequently.",
+      "group": null
+    },
+    {
+      "text": "Cook 20 minutes until golden brown.",
+      "group": null
+    },
+    {
+      "text": "Serving ideas:",
+      "group": null
+    },
+    {
+      "text": "Add onions to crackers spread with goat cheese or cream cheese.",
+      "group": null
+    },
+    {
+      "text": "Scatter over pizza.",
+      "group": null
+    },
+    {
+      "text": "Toss with pasta and parmesan cheese.",
+      "group": null
+    },
+    {
+      "text": "Add to scrambled eggs.",
+      "group": null
+    }
+  ],
+  "footnotes": [],
+  "nutrition": null,
+  "importedNotes": [],
+  "seeAlso": [],
+  "source": {
+    "attribution": null,
+    "file": "RECIPES/DIPS, RUBS, SAUCES & MARINADES/Carmelized Onions.doc",
+    "type": "doc",
+    "duplicateFiles": []
+  }
+}

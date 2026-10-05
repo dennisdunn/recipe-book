@@ -1,0 +1,124 @@
+{
+  "schemaVersion": 1,
+  "id": "b37b20dd-a50d-5a8e-b363-b3d964459a38",
+  "slug": "super-sausage-gravy",
+  "title": "Super Sausage Gravy",
+  "description": null,
+  "category": "Pork Dishes",
+  "subcategory": null,
+  "tags": [],
+  "servings": {
+    "text": "Servings: 4",
+    "amount": 4
+  },
+  "times": [],
+  "ingredients": [
+    {
+      "raw": "1 pound Bob Evans® Original Recipe Sausage Roll",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "lb",
+      "item": "Bob Evans® Original Recipe Sausage Roll",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "sausage",
+      "amount": {
+        "value": 453.592,
+        "unit": "g"
+      }
+    },
+    {
+      "raw": "1/4 cup all-purpose flour",
+      "quantity": 0.25,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "all-purpose flour",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "all-purpose-flour",
+      "amount": {
+        "value": 59.147,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "2 cups milk",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "milk",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "milk",
+      "amount": {
+        "value": 473.176,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "Salt and black pepper to taste",
+      "quantity": null,
+      "quantityMax": null,
+      "unit": null,
+      "item": "Salt and black pepper",
+      "prep": null,
+      "note": "to taste",
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "salt",
+      "amount": null
+    },
+    {
+      "raw": "8 prepared biscuits",
+      "quantity": 8,
+      "quantityMax": null,
+      "unit": null,
+      "item": "prepared biscuits",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "biscuits",
+      "amount": {
+        "value": 8,
+        "unit": "each"
+      }
+    }
+  ],
+  "steps": [
+    {
+      "text": "Crumble and cook sausage in large skillet over medium heat until browned. Stir in flour     until dissolved. Gradually stir in milk. Cook gravy until thick and bubbly. Season with salt  and pepper. Serve hot over biscuits. Refrigerate leftovers.",
+      "group": null
+    }
+  ],
+  "footnotes": [],
+  "nutrition": null,
+  "importedNotes": [
+    {
+      "text": "This was so good. I used a little less sausage than called for. After it was cooked, I removed it from the skillet, making sure to leave about 4 tbsp of drippings because a good gravy has the ratio of 2 tbsp flour to 2 tbsp fat to 1 cup milk. I cooked the flour and drippings mixture for a little bit and slowly stirred in the milk. Once it was thick and bubbly, I added the sausage back in and simmered to meld flavors. I found no salt was needed but did add lots of freshly cracked black pepper. Served over hot biscuits and it was delicious. This one is a keeper."
+    }
+  ],
+  "seeAlso": [],
+  "source": {
+    "attribution": "Bob Evans",
+    "file": "RECIPES/PORK DISHES/Super Sausage Gravy.doc",
+    "type": "doc",
+    "duplicateFiles": []
+  }
+}

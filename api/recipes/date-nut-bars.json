@@ -1,0 +1,220 @@
+{
+  "schemaVersion": 1,
+  "id": "e3d41ec4-1fa1-5ff7-887c-c488490dc5ff",
+  "slug": "date-nut-bars",
+  "title": "Date Nut Bars",
+  "description": null,
+  "category": "Desserts",
+  "subcategory": null,
+  "tags": [],
+  "servings": null,
+  "times": [
+    {
+      "label": "Prep time",
+      "text": "10 mins, Baking time 20 mins."
+    }
+  ],
+  "ingredients": [
+    {
+      "raw": "2 cups sugar (or less)",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "sugar",
+      "prep": null,
+      "note": "or less",
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "sugar",
+      "amount": {
+        "value": 473.176,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "2 cups all-purpose flour",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "all-purpose flour",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "all-purpose-flour",
+      "amount": {
+        "value": 473.176,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "2 teaspoons baking powder",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "baking powder",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "baking-powder",
+      "amount": {
+        "value": 9.858,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1/4 teaspoon salt",
+      "quantity": 0.25,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "salt",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "salt",
+      "amount": {
+        "value": 1.232,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "2 cups chopped dates",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "chopped dates",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "dates",
+      "amount": {
+        "value": 473.176,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "2 cups chopped walnuts or pecans",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "chopped walnuts or pecans",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "walnuts",
+      "amount": {
+        "value": 473.176,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "4 eggs, lightly beaten",
+      "quantity": 4,
+      "quantityMax": null,
+      "unit": null,
+      "item": "eggs",
+      "prep": "lightly beaten",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "eggs",
+      "amount": {
+        "value": 4,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "2 tablespoons butter, melted",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "butter",
+      "prep": "melted",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "butter",
+      "amount": {
+        "value": 29.574,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 teaspoon vanilla extract",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "vanilla extract",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "vanilla-extract",
+      "amount": {
+        "value": 4.929,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "confectioners' sugar  (can be omitted)",
+      "quantity": null,
+      "quantityMax": null,
+      "unit": null,
+      "item": "confectioners' sugar",
+      "prep": null,
+      "note": "can be omitted",
+      "group": null,
+      "optional": false,
+      "confidence": "low",
+      "shop": true,
+      "catalogId": "powdered-sugar",
+      "amount": null
+    }
+  ],
+  "steps": [
+    {
+      "text": "In a large bowl, combine the sugar, flour, baking powder, salt, dates and nuts. Add the eggs, butter and vanilla; stir just until dry ingredients are moistened (batter will be very stiff).",
+      "group": null
+    },
+    {
+      "text": "Spread in a greased 15-in. x 10-in. x 1-in. baking pan. Bake at 350 degrees F for 20-25 minutes or until golden brown. Cool bars on a wire rack. Dust with confectioners' sugar. Bars will keep well stored in airtight containers in the freezer.",
+      "group": null
+    }
+  ],
+  "footnotes": [],
+  "nutrition": null,
+  "importedNotes": [
+    {
+      "text": "Feel free to add raisins and/or coconut. Recipe is very flexible. Try cutting down sugar to 1 and ½ cups. Also, bars are sweet enough without powdered sugar."
+    }
+  ],
+  "seeAlso": [],
+  "source": {
+    "attribution": null,
+    "file": "RECIPES/DESSERTS/Date Nut Bars.doc",
+    "type": "doc",
+    "duplicateFiles": []
+  }
+}

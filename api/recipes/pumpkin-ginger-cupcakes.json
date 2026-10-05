@@ -1,0 +1,423 @@
+{
+  "schemaVersion": 1,
+  "id": "29257816-3f0b-57d9-aedf-ba5580ac21aa",
+  "slug": "pumpkin-ginger-cupcakes",
+  "title": "Pumpkin Ginger Cupcakes",
+  "description": "\"Delicious, light and fluffy! These taste of Fall, and the crystallized ginger gives then a lovely little zing. Even people who don't like pumpkin love these cupcakes.",
+  "category": "Desserts",
+  "subcategory": null,
+  "tags": [],
+  "servings": {
+    "text": "Original Recipe Yield 24 cupcakes",
+    "amount": 24
+  },
+  "times": [],
+  "ingredients": [
+    {
+      "raw": "2 cups all-purpose flour",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "all-purpose flour",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "all-purpose-flour",
+      "amount": {
+        "value": 473.176,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 (3.4 ounce) package instant butterscotch pudding mix",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "pkg",
+      "item": "instant butterscotch pudding mix",
+      "prep": null,
+      "note": "package size: 3.4 ounce",
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "pudding-mix",
+      "amount": {
+        "value": 1,
+        "unit": "pkg",
+        "package": "pkg",
+        "packageOz": 3.4
+      }
+    },
+    {
+      "raw": "2 teaspoons baking soda",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "baking soda",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "baking-soda",
+      "amount": {
+        "value": 9.858,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1/4 teaspoon salt",
+      "quantity": 0.25,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "salt",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "salt",
+      "amount": {
+        "value": 1.232,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 tablespoon ground cinnamon",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "ground cinnamon",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "cinnamon",
+      "amount": {
+        "value": 14.787,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1/2 teaspoon ground ginger",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "ground ginger",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "ground-ginger",
+      "amount": {
+        "value": 2.464,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1/2 teaspoon ground allspice",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "ground allspice",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "allspice",
+      "amount": {
+        "value": 2.464,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1/4 teaspoon ground cloves",
+      "quantity": 0.25,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "ground cloves",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "cloves",
+      "amount": {
+        "value": 1.232,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1/3 cup finely chopped crystallized ginger (or increase ground ginger to 1 ¼ tsp) (crystalized ginger is the same as candied ginger, sugared ginger, or ginger chips)",
+      "quantity": 0.333,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "finely chopped crystallized ginger",
+      "prep": null,
+      "note": "or increase ground ginger to 1 1/4 tsp; crystalized ginger is the same as candied ginger, sugared ginger, or ginger chips",
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "ginger",
+      "amount": {
+        "value": 78.784,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 cup butter, room temperature",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "butter, room temperature",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "butter",
+      "amount": {
+        "value": 236.588,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 cup white sugar",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "white sugar",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "sugar",
+      "amount": {
+        "value": 236.588,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 cup packed brown sugar",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "packed brown sugar",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "brown-sugar",
+      "amount": {
+        "value": 236.588,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "4 eggs, room temperature",
+      "quantity": 4,
+      "quantityMax": null,
+      "unit": null,
+      "item": "eggs, room temperature",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "eggs",
+      "amount": {
+        "value": 4,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "1 teaspoon vanilla extract",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "vanilla extract",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "vanilla-extract",
+      "amount": {
+        "value": 4.929,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 (15 ounce) can pumpkin puree",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "can",
+      "item": "pumpkin puree",
+      "prep": null,
+      "note": "package size: 15 ounce",
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "pumpkin-puree",
+      "amount": {
+        "value": 1,
+        "unit": "pkg",
+        "package": "can",
+        "packageOz": 15
+      }
+    },
+    {
+      "raw": "1 (8 ounce) package cream cheese, room temperature",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "pkg",
+      "item": "cream cheese, room temperature",
+      "prep": null,
+      "note": "package size: 8 ounce",
+      "group": "Cream Cheese Frosting",
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "cream-cheese",
+      "amount": {
+        "value": 1,
+        "unit": "pkg",
+        "package": "pkg",
+        "packageOz": 8
+      }
+    },
+    {
+      "raw": "1/2 cup butter, room temperature",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "butter, room temperature",
+      "prep": null,
+      "note": null,
+      "group": "Cream Cheese Frosting",
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "butter",
+      "amount": {
+        "value": 118.294,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "2 - 3 cups sifted confectioners' sugar",
+      "quantity": 2,
+      "quantityMax": 3,
+      "unit": "cup",
+      "item": "sifted confectioners' sugar",
+      "prep": null,
+      "note": null,
+      "group": "Cream Cheese Frosting",
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "powdered-sugar",
+      "amount": {
+        "value": 591.47,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 ½  teaspoon vanilla extract",
+      "quantity": 1.5,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "vanilla extract",
+      "prep": null,
+      "note": null,
+      "group": "Cream Cheese Frosting",
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "vanilla-extract",
+      "amount": {
+        "value": 7.393,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "½ tsp cinnamon",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "cinnamon",
+      "prep": null,
+      "note": null,
+      "group": "Cream Cheese Frosting",
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "cinnamon",
+      "amount": {
+        "value": 2.464,
+        "unit": "ml"
+      }
+    }
+  ],
+  "steps": [
+    {
+      "text": "Preheat an oven to 350 degrees F (175 degrees C). Grease 24 muffin cups, or line with paper muffin liners. Whisk together the flour, pudding mix, baking soda, salt, cinnamon, ground ginger, allspice, cloves, and crystallized ginger in a bowl; set aside.",
+      "group": null
+    },
+    {
+      "text": "Beat the butter, white sugar, and brown sugar with an electric mixer in a large bowl until light and fluffy. The mixture should be noticeably lighter in color. Add the room-temperature eggs one at a time, allowing each egg to blend into the butter mixture before adding the next. Beat in the vanilla and pumpkin puree with the last egg.",
+      "group": null
+    },
+    {
+      "text": "Stir in the flour mixture, mixing until just incorporated. Pour the batter into the prepared muffin cups.",
+      "group": null
+    },
+    {
+      "text": "Bake in the preheated oven until golden and the tops spring back when lightly pressed, about 20 minutes. Cool in the pans for 10 minutes before removing to cool completely on a wire rack.",
+      "group": null
+    },
+    {
+      "text": "CREAM CHEESE FROSTING",
+      "group": null
+    },
+    {
+      "text": "In a medium bowl, cream together the cream cheese and butter until light-colored. Mix in the vanilla, then gradually stir in the confectioners' sugar. Beat until creamy. Store in the refrigerator after use.",
+      "group": "Cream Cheese Frosting"
+    },
+    {
+      "text": "Makes enough to cover a 9 x 13 cake.",
+      "group": "Cream Cheese Frosting"
+    }
+  ],
+  "footnotes": [],
+  "nutrition": null,
+  "importedNotes": [],
+  "seeAlso": [],
+  "source": {
+    "attribution": null,
+    "file": "RECIPES/DESSERTS/Pumpkin Ginger Cupcakes.doc",
+    "type": "doc",
+    "duplicateFiles": []
+  }
+}

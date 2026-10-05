@@ -1,0 +1,205 @@
+{
+  "schemaVersion": 1,
+  "id": "67020a79-1dfe-50d5-a910-702ae7293af2",
+  "slug": "cracker-jack",
+  "title": "Cracker Jack",
+  "description": null,
+  "category": "Snacks",
+  "subcategory": null,
+  "tags": [],
+  "servings": null,
+  "times": [],
+  "ingredients": [
+    {
+      "raw": "1 cup unpopped popcorn",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "unpopped popcorn",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "popcorn-kernels",
+      "amount": {
+        "value": 236.588,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "vegetable oil for popping corn",
+      "quantity": null,
+      "quantityMax": null,
+      "unit": null,
+      "item": "vegetable oil for popping corn",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "low",
+      "shop": true,
+      "catalogId": "vegetable-oil",
+      "amount": null
+    },
+    {
+      "raw": "1 cup peanuts",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "peanuts",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "peanuts",
+      "amount": {
+        "value": 236.588,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 cup butter",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "butter",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "butter",
+      "amount": {
+        "value": 236.588,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "2 cups packed brown sugar",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "packed brown sugar",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "brown-sugar",
+      "amount": {
+        "value": 473.176,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1/2 cup light corn syrup",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "light corn syrup",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "corn-syrup",
+      "amount": {
+        "value": 118.294,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 teaspoon salt",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "salt",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "salt",
+      "amount": {
+        "value": 4.929,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1/2 teaspoon baking soda",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "baking soda",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "baking-soda",
+      "amount": {
+        "value": 2.464,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 tsp vanilla",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "vanilla",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "vanilla-extract",
+      "amount": {
+        "value": 4.929,
+        "unit": "ml"
+      }
+    }
+  ],
+  "steps": [
+    {
+      "text": "In a 4-quart pan, add 1 tablespoon of the oil, and heat over high heat. When oil is hot, add 1/2 cup of popping corn. Keep pan moving constantly. When corn stops popping, remove from heat. Spread freshly popped corn on a large shallow sheet pan. Put it in a very slow oven, 250 degrees F (120 degrees C), to keep warm and crisp. Place popped corn in oven to keep warm. Repeat until all corn has been popped, for a total of 5 quarts popped corn.",
+      "group": null
+    },
+    {
+      "text": "Cook and stir peanuts in 2 tablespoons of butter or margarine, about 5 minutes. Drain on paper towel and sprinkle with salt. Fold peanuts into popped corn.",
+      "group": null
+    },
+    {
+      "text": "Combine butter, brown sugar, corn syrup, and salt in a heavy 2 quart saucepan. Place over medium heat, stirring until sugar dissolves. Continue to boil to the firm ball stage, 248 degrees F (118 degrees C), about 5 minutes.",
+      "group": null
+    },
+    {
+      "text": "Remove from heat and stir in baking soda. Syrup will foam. Take popped corn from oven and pour hot caramel mixture over it in a fine stream. Stir to mix well. Return to oven for 30 to 40 minutes, stirring every 15 minutes. Cool and serve, or store. Store in an airtight container and set in a cool place.",
+      "group": null
+    }
+  ],
+  "footnotes": [],
+  "nutrition": null,
+  "importedNotes": [
+    {
+      "text": "Super yummy! I used my microwave popper to make my popcorn. I used honey roasted cashews and added in a few white chocolate chips to the mix. Really good!"
+    }
+  ],
+  "seeAlso": [],
+  "source": {
+    "attribution": null,
+    "file": "RECIPES/SNACKS/Cracker Jack.doc",
+    "type": "doc",
+    "duplicateFiles": []
+  }
+}

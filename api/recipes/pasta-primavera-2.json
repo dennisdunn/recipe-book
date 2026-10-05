@@ -1,0 +1,244 @@
+{
+  "schemaVersion": 1,
+  "id": "3461f777-582b-56c9-b1f8-8d3d3a54d715",
+  "slug": "pasta-primavera-2",
+  "title": "Pasta Primavera 2",
+  "description": null,
+  "category": "Pasta Dishes",
+  "subcategory": null,
+  "tags": [
+    "main"
+  ],
+  "servings": null,
+  "times": [],
+  "ingredients": [
+    {
+      "raw": "8 ounces angel hair pasta",
+      "quantity": 8,
+      "quantityMax": null,
+      "unit": "oz",
+      "item": "angel hair pasta",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "angel-hair-pasta",
+      "amount": {
+        "value": 226.796,
+        "unit": "g"
+      }
+    },
+    {
+      "raw": "1 TBSP crushed garlic",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "crushed garlic",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "garlic",
+      "amount": {
+        "value": 14.787,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "2 TBSP olive oil",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "olive oil",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "olive-oil",
+      "amount": {
+        "value": 29.574,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "½ red bell peppers, chopped",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": null,
+      "item": "red bell peppers",
+      "prep": "chopped",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "bell-pepper",
+      "amount": {
+        "value": 0.5,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "½ cup carrots, shredded",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "carrots",
+      "prep": "shredded",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "carrot",
+      "amount": {
+        "value": 118.294,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 cup mushrooms, chopped",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "mushrooms",
+      "prep": "chopped",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "mushrooms",
+      "amount": {
+        "value": 236.588,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "2 small zucchini, sliced",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": null,
+      "item": "small zucchini",
+      "prep": "sliced",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "zucchini",
+      "amount": {
+        "value": 2,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "3 tomatoes, chopped",
+      "quantity": 3,
+      "quantityMax": null,
+      "unit": null,
+      "item": "tomatoes",
+      "prep": "chopped",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "tomato",
+      "amount": {
+        "value": 3,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "12 leaves fresh basil",
+      "quantity": 12,
+      "quantityMax": null,
+      "unit": null,
+      "item": "leaves fresh basil",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "fresh-basil",
+      "amount": {
+        "value": 12,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "4 ounces mozzarella cheese, shredded",
+      "quantity": 4,
+      "quantityMax": null,
+      "unit": "oz",
+      "item": "mozzarella cheese",
+      "prep": "shredded",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "mozzarella-cheese",
+      "amount": {
+        "value": 113.398,
+        "unit": "g"
+      }
+    }
+  ],
+  "steps": [
+    {
+      "text": "Cook pasta for 8-10 minutes.",
+      "group": null
+    },
+    {
+      "text": "Meanwhile, warm a large skillet over medium heat.",
+      "group": null
+    },
+    {
+      "text": "Pour in oil and sauté garlic, peppers and carrots until tender.",
+      "group": null
+    },
+    {
+      "text": "Stir in zucchini, salt and pepper.",
+      "group": null
+    },
+    {
+      "text": "Saute 2 minutes, then mix in tomato and cook for 2-3 minutes longer.",
+      "group": null
+    },
+    {
+      "text": "Drain pasta and set aside.",
+      "group": null
+    },
+    {
+      "text": "Chop basil and add to vegetables.",
+      "group": null
+    },
+    {
+      "text": "Combine pasta and vegetables.",
+      "group": null
+    },
+    {
+      "text": "Serve with fresh mozzarella cheese.",
+      "group": null
+    }
+  ],
+  "footnotes": [],
+  "nutrition": null,
+  "importedNotes": [],
+  "seeAlso": [],
+  "source": {
+    "attribution": null,
+    "file": "RECIPES/PASTA DISHES/Pasta Primavera 2.doc",
+    "type": "doc",
+    "duplicateFiles": []
+  }
+}

@@ -1,0 +1,337 @@
+{
+  "schemaVersion": 1,
+  "id": "7b8400f2-5553-5ccc-914f-31be40b9120d",
+  "slug": "petite-quiche-seva",
+  "title": "Petite Quiche Seva",
+  "description": "Dellie’s all-time favorite quiche",
+  "category": "Casseroles",
+  "subcategory": null,
+  "tags": [],
+  "servings": null,
+  "times": [],
+  "ingredients": [
+    {
+      "raw": "One frozen unbaked pie shell or homemade pie shell, unbaked",
+      "quantity": null,
+      "quantityMax": null,
+      "unit": null,
+      "item": "One frozen unbaked pie shell or homemade pie shell",
+      "prep": "unbaked",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "low",
+      "shop": true,
+      "catalogId": "pie-crust",
+      "amount": null
+    },
+    {
+      "raw": "½ onion, diced",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": null,
+      "item": "onion",
+      "prep": "diced",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "onion",
+      "amount": {
+        "value": 0.5,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "1 stalk celery, diced",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "stalk",
+      "item": "celery",
+      "prep": "diced",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "celery",
+      "amount": {
+        "value": 1,
+        "unit": "each",
+        "countUnit": "stalk"
+      }
+    },
+    {
+      "raw": "½ lb mushrooms, chopped",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "lb",
+      "item": "mushrooms",
+      "prep": "chopped",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "mushrooms",
+      "amount": {
+        "value": 226.796,
+        "unit": "g"
+      }
+    },
+    {
+      "raw": "½ pepper, chopped",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": null,
+      "item": "pepper",
+      "prep": "chopped",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "bell-pepper",
+      "amount": {
+        "value": 0.5,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "5 eggs",
+      "quantity": 5,
+      "quantityMax": null,
+      "unit": null,
+      "item": "eggs",
+      "prep": null,
+      "note": null,
+      "group": "Custard Sauce",
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "eggs",
+      "amount": {
+        "value": 5,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "¼ cup Chablis (or white cooking wine)",
+      "quantity": 0.25,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "Chablis",
+      "prep": null,
+      "note": "or white cooking wine",
+      "group": "Custard Sauce",
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "wine",
+      "amount": {
+        "value": 59.147,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "3 Tbsp milk",
+      "quantity": 3,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "milk",
+      "prep": null,
+      "note": null,
+      "group": "Custard Sauce",
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "milk",
+      "amount": {
+        "value": 44.36,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "½ cup Provolone cheese, grated",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "Provolone cheese",
+      "prep": "grated",
+      "note": null,
+      "group": "Cheese Mixture",
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "provolone-cheese",
+      "amount": {
+        "value": 118.294,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 cup Colby cheese, grated",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "Colby cheese",
+      "prep": "grated",
+      "note": null,
+      "group": "Cheese Mixture",
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "cheddar-cheese",
+      "amount": {
+        "value": 236.588,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "½ tsp salt",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "salt",
+      "prep": null,
+      "note": null,
+      "group": "Seasoning",
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "salt",
+      "amount": {
+        "value": 2.464,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "½ tsp black pepper",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "black pepper",
+      "prep": null,
+      "note": null,
+      "group": "Seasoning",
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "black-pepper",
+      "amount": {
+        "value": 2.464,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "½ tsp nutmeg",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "nutmeg",
+      "prep": null,
+      "note": null,
+      "group": "Seasoning",
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "nutmeg",
+      "amount": {
+        "value": 2.464,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "½ cup parmesan cheese",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "parmesan cheese",
+      "prep": null,
+      "note": null,
+      "group": "Seasoning",
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "parmesan-cheese",
+      "amount": {
+        "value": 118.294,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 tsp sweet basil",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "sweet basil",
+      "prep": null,
+      "note": null,
+      "group": "Seasoning",
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "dried-basil",
+      "amount": {
+        "value": 4.929,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "Prick pie shell with fork and pre-bake shell at 250 degrees for 15 – 20 minutes. Saute onion, then add celery, mushrooms, and green pepper. Layer the following in pie shell:",
+      "quantity": null,
+      "quantityMax": null,
+      "unit": null,
+      "item": "Prick pie shell with fork and pre-bake shell at 250 degrees for 15",
+      "prep": "20 minutes. Saute onion, then add celery, mushrooms, and green pepper. Layer the following in pie shell:",
+      "note": null,
+      "group": "Seasoning",
+      "optional": false,
+      "confidence": "low",
+      "shop": true,
+      "catalogId": "pie-crust",
+      "amount": null
+    }
+  ],
+  "steps": [
+    {
+      "text": "Spread parmesan over bottom",
+      "group": null
+    },
+    {
+      "text": "Sprinkle on sweet basil",
+      "group": null
+    },
+    {
+      "text": "Add all drained vegetables in an even layer",
+      "group": null
+    },
+    {
+      "text": "Sprinkle on salt, pepper and nutmeg",
+      "group": null
+    },
+    {
+      "text": "Add cheese mixture in an even layer",
+      "group": null
+    },
+    {
+      "text": "Fill almost to brim with custard sauce",
+      "group": null
+    },
+    {
+      "text": "Bake at 400 degrees for 30 minutes. Quiche is done when eggs have set. One pie serves 6.",
+      "group": null
+    }
+  ],
+  "footnotes": [],
+  "nutrition": null,
+  "importedNotes": [],
+  "seeAlso": [],
+  "source": {
+    "attribution": null,
+    "file": "RECIPES/CASSEROLES/Petite Quiche Seva.doc",
+    "type": "doc",
+    "duplicateFiles": []
+  }
+}

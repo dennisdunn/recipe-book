@@ -1,0 +1,190 @@
+{
+  "schemaVersion": 1,
+  "id": "25714ce8-53dd-5d60-bd90-5a9d38adee08",
+  "slug": "pan-fried-chicken-with-asparagus-and-lemon",
+  "title": "Pan-fried Chicken with Asparagus and Lemon",
+  "description": null,
+  "category": "Chicken Dishes",
+  "subcategory": null,
+  "tags": [
+    "main"
+  ],
+  "servings": null,
+  "times": [],
+  "ingredients": [
+    {
+      "raw": "1 bunch asparagus, trimmed of woody stems",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "bunch",
+      "item": "asparagus",
+      "prep": "trimmed of woody stems",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "asparagus",
+      "amount": {
+        "value": 1,
+        "unit": "each",
+        "countUnit": "bunch"
+      }
+    },
+    {
+      "raw": "3 tablespoons olive oil, plus more as needed",
+      "quantity": 3,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "olive oil",
+      "prep": "plus more as needed",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "olive-oil",
+      "amount": {
+        "value": 44.36,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "4 chicken breasts (about 2 pounds), pounded to ½-inch thickness, and cut in half so each piece is roughly the size of a playing card",
+      "quantity": 4,
+      "quantityMax": null,
+      "unit": null,
+      "item": "chicken breasts",
+      "prep": "pounded to 1/2-inch thickness, and cut in half so each piece is roughly the size of a playing card",
+      "note": "about 2 pounds",
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "chicken-breast",
+      "amount": {
+        "value": 4,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "1/3 cup GF flour, salted and peppered",
+      "quantity": 0.333,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "GF flour",
+      "prep": "salted and peppered",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "gluten-free-flour",
+      "amount": {
+        "value": 78.784,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "juice from one small lemon",
+      "quantity": null,
+      "quantityMax": null,
+      "unit": null,
+      "item": "juice from one small lemon",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "low",
+      "shop": true,
+      "catalogId": "lemon",
+      "amount": {
+        "value": 1,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "1 to 2 tablespoons butter",
+      "quantity": 1,
+      "quantityMax": 2,
+      "unit": "tbsp",
+      "item": "butter",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "butter",
+      "amount": {
+        "value": 22.18,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1/2 cup chicken broth",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "chicken broth",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "chicken-broth",
+      "amount": {
+        "value": 118.294,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "chives",
+      "quantity": null,
+      "quantityMax": null,
+      "unit": null,
+      "item": "chives",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "low",
+      "shop": true,
+      "catalogId": "fresh-chives",
+      "amount": null
+    }
+  ],
+  "steps": [
+    {
+      "text": "Set a large platter on the counter near the stovetop.",
+      "group": null
+    },
+    {
+      "text": "Add water to a large, deep-sided skillet, and bring to a boil. Add asparagus spears and cook 2 minutes. Using tongs, remove from water and immediately plunge into an ice bath to stop cooking and preserve bright green color. Remove from ice bath and chop into one-inch pieces. Add to your platter. Drain the water from the skillet and set back on the stovetop over medium-high heat. Add oil.",
+      "group": null
+    },
+    {
+      "text": "Working with one breast at a time, dredge in flour, then add to the skillet. The pan should be hot enough so that the chicken sizzles upon contact. Continue with each breast, flipping each after about 3 minutes a side. Don’t crowd the pan. Once you finish with one breast, remove to the platter, then cook a breast that’s been waiting in the wings.",
+      "group": null
+    },
+    {
+      "text": "Once all chicken has been cooked through (they should feel firm to the touch, but not rock hard) and removed to the platter, return the heat to high, then add butter, lemon juice and chicken broth, scraping up any brown bits that might have collected on the surface of the pan. Cook until broth reduces and thickens slightly, then turn off heat. At this point taste the sauce. If it tastes all right to you, drizzle over the entire platter and shower the whole thing with chives.",
+      "group": null
+    },
+    {
+      "text": "Serve with sautéed diced potatoes.",
+      "group": null
+    }
+  ],
+  "footnotes": [],
+  "nutrition": null,
+  "importedNotes": [],
+  "seeAlso": [],
+  "source": {
+    "attribution": null,
+    "file": "RECIPES/CHICKEN DISHES/Chicken with Asparagus & Lime.doc",
+    "type": "doc",
+    "duplicateFiles": []
+  }
+}

@@ -1,0 +1,354 @@
+{
+  "schemaVersion": 1,
+  "id": "8a194b1e-e2a2-5b5b-96a7-90a1d22e7838",
+  "slug": "easy-keto-lasagna",
+  "title": "Easy Keto Lasagna",
+  "description": "Author: Hey Keto Mama, Prep Time: 40 mins, Cook Time: 25 mins",
+  "category": "Protein Recipes",
+  "subcategory": "KETO RECIPES",
+  "tags": [
+    "keto",
+    "main"
+  ],
+  "servings": {
+    "text": "Yield: 6 servings",
+    "amount": 6
+  },
+  "times": [],
+  "ingredients": [
+    {
+      "raw": "1 pound ground beef",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "lb",
+      "item": "ground beef",
+      "prep": null,
+      "note": null,
+      "group": "Meat sauce",
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "ground-beef",
+      "amount": {
+        "value": 453.592,
+        "unit": "g"
+      }
+    },
+    {
+      "raw": "1 cup raw spinach",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "raw spinach",
+      "prep": null,
+      "note": null,
+      "group": "Meat sauce",
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "spinach",
+      "amount": {
+        "value": 236.588,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1/2 cup low carb alfredo sauce",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "low carb alfredo sauce",
+      "prep": null,
+      "note": null,
+      "group": "Meat sauce",
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "pasta-sauce",
+      "amount": {
+        "value": 118.294,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1/4 cup mozzarella cheese",
+      "quantity": 0.25,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "mozzarella cheese",
+      "prep": null,
+      "note": null,
+      "group": "Meat sauce",
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "mozzarella-cheese",
+      "amount": {
+        "value": 59.147,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1/4 cup grated parmesan",
+      "quantity": 0.25,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "grated parmesan",
+      "prep": null,
+      "note": null,
+      "group": "Meat sauce",
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "parmesan-cheese",
+      "amount": {
+        "value": 59.147,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1/4 cup ricotta cheese",
+      "quantity": 0.25,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "ricotta cheese",
+      "prep": null,
+      "note": null,
+      "group": "Meat sauce",
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "ricotta-cheese",
+      "amount": {
+        "value": 59.147,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "3 tbsp heavy cream",
+      "quantity": 3,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "heavy cream",
+      "prep": null,
+      "note": null,
+      "group": "Meat sauce",
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "heavy-cream",
+      "amount": {
+        "value": 44.36,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1/2 tsp Italian seasoning",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "Italian seasoning",
+      "prep": null,
+      "note": null,
+      "group": "Meat sauce",
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "italian-seasoning",
+      "amount": {
+        "value": 2.464,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "Cauliflower Layers",
+      "quantity": null,
+      "quantityMax": null,
+      "unit": null,
+      "item": "Cauliflower Layers",
+      "prep": null,
+      "note": null,
+      "group": "Meat sauce",
+      "optional": false,
+      "confidence": "low",
+      "shop": true,
+      "catalogId": "cauliflower",
+      "amount": null
+    },
+    {
+      "raw": "1 lb riced cauliflower, cooked",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "lb",
+      "item": "riced cauliflower",
+      "prep": "cooked",
+      "note": null,
+      "group": "Meat sauce",
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "riced-cauliflower",
+      "amount": {
+        "value": 453.592,
+        "unit": "g"
+      }
+    },
+    {
+      "raw": "2 eggs",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": null,
+      "item": "eggs",
+      "prep": null,
+      "note": null,
+      "group": "Meat sauce",
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "eggs",
+      "amount": {
+        "value": 2,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "1/2 cup mozzarella",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "mozzarella",
+      "prep": null,
+      "note": null,
+      "group": "Meat sauce",
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "mozzarella-cheese",
+      "amount": {
+        "value": 118.294,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1/4 cup grated parmesan",
+      "quantity": 0.25,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "grated parmesan",
+      "prep": null,
+      "note": null,
+      "group": "Meat sauce",
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "parmesan-cheese",
+      "amount": {
+        "value": 59.147,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "Seasonings, to taste (garlic, salt, pepper, and Italian seasoning)",
+      "quantity": null,
+      "quantityMax": null,
+      "unit": null,
+      "item": "Seasonings",
+      "prep": null,
+      "note": "garlic, salt, pepper, and Italian seasoning; to taste",
+      "group": "Meat sauce",
+      "optional": false,
+      "confidence": "medium",
+      "shop": false,
+      "catalogId": "other-seasoning-blend",
+      "amount": null
+    }
+  ],
+  "steps": [
+    {
+      "text": "Preheat oven to 375",
+      "group": null
+    },
+    {
+      "text": "Grate fresh cauliflower or use prepared bag of cauliflower rice. Brown over medium heat in a skillet and drain all excess liquid using cheese cloth or towel.",
+      "group": null
+    },
+    {
+      "text": "Mix eggs, mozzarella, grated Parmesan, and seasoning in large bowl with cauliflower rice",
+      "group": null
+    },
+    {
+      "text": "Spread cauliflower rice mixture out like a pizza crust, about 1/4-1/2 inch thick on lined baking sheet",
+      "group": null
+    },
+    {
+      "text": "Bake for 15 minutes or until golden brown, set aside",
+      "group": null
+    },
+    {
+      "text": "Meat sauce (while cauliflower layer bakes)",
+      "group": null
+    },
+    {
+      "text": "Brown ground beef in skillet, drain fat, and add alfredo sauce and raw spinach. Reduce heat and continue cooking until spinach is wilted, set aside",
+      "group": null
+    },
+    {
+      "text": "Ricotta filling",
+      "group": null
+    },
+    {
+      "text": "Mix ricotta, grated parmesan, heavy whipping cream and seasoning together, set aside",
+      "group": null
+    },
+    {
+      "text": "Assembly",
+      "group": null
+    },
+    {
+      "text": "Oven at 375",
+      "group": null
+    },
+    {
+      "text": "Prepare an 8×8 baking dish with non stick spray",
+      "group": null
+    },
+    {
+      "text": "Cut cauliflower sheet into 2 halves and trim to fit the pan",
+      "group": null
+    },
+    {
+      "text": "Place one layer of cauliflower on the bottom of the pan (I had to trim mine a little)",
+      "group": null
+    },
+    {
+      "text": "Place half of meat sauce on top of layer, adding a couple additional tsps of alfredo if needed",
+      "group": null
+    },
+    {
+      "text": "Add half of ricotta mixture on top of meat sauce layer and sprinkle 1/4 cup mozzarella",
+      "group": null
+    },
+    {
+      "text": "Place second half of cauliflower layer and repeat last two previous steps with mozzarella on top",
+      "group": null
+    },
+    {
+      "text": "Bake for 20 minutes until bubbling then broil for 3-5 minutes to brown cheese",
+      "group": null
+    },
+    {
+      "text": "Nutrition: 1/6 of Pan, Calories: 333, Fat: 26, Carbohydrates: 5 Total, 4 Net, Protein: 27",
+      "group": null
+    }
+  ],
+  "footnotes": [],
+  "nutrition": null,
+  "importedNotes": [],
+  "seeAlso": [],
+  "source": {
+    "attribution": null,
+    "file": "RECIPES/PROTEIN RECIPES/KETO RECIPES/Easy Keto Lasagna.doc",
+    "type": "doc",
+    "duplicateFiles": []
+  }
+}

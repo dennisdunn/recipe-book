@@ -1,0 +1,364 @@
+{
+  "schemaVersion": 1,
+  "id": "d4f75d30-7cb6-5cfb-ab64-b4d50bc79e31",
+  "slug": "beefy-vegetable-soup",
+  "title": "Beefy Vegetable Soup",
+  "description": null,
+  "category": "Soups and Stews",
+  "subcategory": null,
+  "tags": [
+    "main"
+  ],
+  "servings": null,
+  "times": [],
+  "ingredients": [
+    {
+      "raw": "2 (14 ounce) cans vegetable broth",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "can",
+      "item": "vegetable broth",
+      "prep": null,
+      "note": "package size: 14 ounce",
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "vegetable-broth",
+      "amount": {
+        "value": 2,
+        "unit": "pkg",
+        "package": "can",
+        "packageOz": 14
+      }
+    },
+    {
+      "raw": "2 cups water",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "water",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "water",
+      "amount": {
+        "value": 473.176,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "5 small potatoes, peeled and diced",
+      "quantity": 5,
+      "quantityMax": null,
+      "unit": null,
+      "item": "small potatoes",
+      "prep": "peeled and diced",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "potato",
+      "amount": {
+        "value": 5,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "1/3 head cabbage, chopped",
+      "quantity": 0.333,
+      "quantityMax": null,
+      "unit": "head",
+      "item": "cabbage",
+      "prep": "chopped",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "cabbage",
+      "amount": {
+        "value": 0.333,
+        "unit": "each",
+        "countUnit": "head"
+      }
+    },
+    {
+      "raw": "Small chuck or rump roast cut into bite size pieces",
+      "quantity": null,
+      "quantityMax": null,
+      "unit": null,
+      "item": "Small chuck or rump roast cut into bite size pieces",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "low",
+      "shop": true,
+      "catalogId": "stew-meat",
+      "amount": null
+    },
+    {
+      "raw": "Beef soup bone",
+      "quantity": null,
+      "quantityMax": null,
+      "unit": null,
+      "item": "Beef soup bone",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "low",
+      "shop": true,
+      "catalogId": "beef-bones",
+      "amount": null
+    },
+    {
+      "raw": "1 small onion, diced",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": null,
+      "item": "small onion",
+      "prep": "diced",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "onion",
+      "amount": {
+        "value": 1,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "1/4 cup diced celery",
+      "quantity": 0.25,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "diced celery",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "celery",
+      "amount": {
+        "value": 59.147,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1/4 cup chopped green bell pepper",
+      "quantity": 0.25,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "chopped green bell pepper",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "bell-pepper",
+      "amount": {
+        "value": 59.147,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 tablespoon minced garlic",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "minced garlic",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "garlic",
+      "amount": {
+        "value": 14.787,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "2 (11.5 ounce) cans tomato-vegetable juice cocktail",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "can",
+      "item": "tomato-vegetable juice cocktail",
+      "prep": null,
+      "note": "package size: 11.5 ounce",
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "vegetable-juice",
+      "amount": {
+        "value": 2,
+        "unit": "pkg",
+        "package": "can",
+        "packageOz": 11.5
+      }
+    },
+    {
+      "raw": "1 (14.5 ounce) can Italian-style diced tomatoes",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "can",
+      "item": "Italian-style diced tomatoes",
+      "prep": null,
+      "note": "package size: 14.5 ounce",
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "diced-tomatoes",
+      "amount": {
+        "value": 1,
+        "unit": "pkg",
+        "package": "can",
+        "packageOz": 14.5
+      }
+    },
+    {
+      "raw": "1/2 (16 ounce) package frozen mixed vegetables",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "pkg",
+      "item": "frozen mixed vegetables",
+      "prep": null,
+      "note": "package size: 16 ounce",
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "frozen-mixed-vegetables",
+      "amount": {
+        "value": 0.5,
+        "unit": "pkg",
+        "package": "pkg",
+        "packageOz": 16
+      }
+    },
+    {
+      "raw": "1 cup frozen butter beans",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "frozen butter beans",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "frozen-butter-beans",
+      "amount": {
+        "value": 236.588,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "2 cubes beef bouillon, crumbled",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": null,
+      "item": "cubes beef bouillon",
+      "prep": "crumbled",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "beef-broth",
+      "amount": {
+        "value": 2,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "2 tablespoons Worcestershire sauce",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "Worcestershire sauce",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "worcestershire-sauce",
+      "amount": {
+        "value": 29.574,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 tablespoon celery seed",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "celery seed",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "celery-seed",
+      "amount": {
+        "value": 14.787,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "salt and pepper to taste",
+      "quantity": null,
+      "quantityMax": null,
+      "unit": null,
+      "item": "salt and pepper",
+      "prep": null,
+      "note": "to taste",
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "salt",
+      "amount": null
+    }
+  ],
+  "steps": [
+    {
+      "text": "Pour 1 can vegetable broth and water into a large pot. Place potatoes and cabbage into pot, and bring to a boil. Cook 10 minutes, or until potatoes are tender but firm.",
+      "group": null
+    },
+    {
+      "text": "Place the beef in a skillet over medium heat, and cook until evenly brown. Drain grease and mix beef into the pot. Stir the onion, celery, green bell pepper, and garlic into the skillet. Cook until tender, then mix into the pot.",
+      "group": null
+    },
+    {
+      "text": "Pour remaining broth and tomato-vegetable juice cocktail into the pot. Mix in tomatoes, frozen mixed vegetables, butter beans, beef bouillon, Worcestershire sauce, and celery seed. Season with salt and pepper. Bring to a boil. Reduce heat to low, and simmer 2 hours.",
+      "group": null
+    }
+  ],
+  "footnotes": [],
+  "nutrition": null,
+  "importedNotes": [],
+  "seeAlso": [],
+  "source": {
+    "attribution": "Rick and Brenda",
+    "file": "RECIPES/SOUPS AND STEWS/Beefy Vegetable Soup.doc",
+    "type": "doc",
+    "duplicateFiles": []
+  }
+}

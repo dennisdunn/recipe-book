@@ -1,0 +1,164 @@
+{
+  "schemaVersion": 1,
+  "id": "bb5ced25-ce30-502d-92e2-78449b5d9d4e",
+  "slug": "strawberries-n-cream-smoothie",
+  "title": "Strawberries 'n' Cream Smoothie",
+  "description": "This recipe uses So Delicious unsweetened vanilla coconut milk. Substitute dairy, almond milk, or any plant-based milk alternative to adjust based on dietary and taste preferences.",
+  "category": "Protein Recipes",
+  "subcategory": null,
+  "tags": [],
+  "servings": null,
+  "times": [],
+  "ingredients": [
+    {
+      "raw": "8 frozen strawberries",
+      "quantity": 8,
+      "quantityMax": null,
+      "unit": null,
+      "item": "frozen strawberries",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "strawberries",
+      "amount": {
+        "value": 8,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "1/2 frozen banana",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": null,
+      "item": "frozen banana",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "banana",
+      "amount": {
+        "value": 0.5,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "1 cup cottage cheese (low-fat optional)",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "cottage cheese (low-fat",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": true,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "cottage-cheese",
+      "amount": {
+        "value": 236.588,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1/4 cup vanilla unsweetened coconut milk",
+      "quantity": 0.25,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "vanilla unsweetened coconut milk",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "almond-milk",
+      "amount": {
+        "value": 59.147,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1/4 teaspoon vanilla extract",
+      "quantity": 0.25,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "vanilla extract",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "vanilla-extract",
+      "amount": {
+        "value": 1.232,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 teaspoon honey",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "honey",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "honey",
+      "amount": {
+        "value": 4.929,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "2 teaspoons chia seeds",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "chia seeds",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "chia-seeds",
+      "amount": {
+        "value": 9.858,
+        "unit": "ml"
+      }
+    }
+  ],
+  "steps": [
+    {
+      "text": "First, add cottage cheese, coconut milk (or substitute), honey, and vanilla extract to a blender. This is to ensure the honey is smoothly blended, and doesn't harden from the frozen fruit.",
+      "group": null
+    },
+    {
+      "text": "Once the \"cream\" base has been created, add in the frozen fruit, and blend on high until smooth. Add additional coconut milk (or substitute) to thin it out, if necessary.",
+      "group": null
+    },
+    {
+      "text": "Add chia seeds last, either stirring or blending in, depending on preference. Enjoy immediately for a frosty breakfast treat, snack, post-workout shake, or dessert.",
+      "group": null
+    }
+  ],
+  "footnotes": [],
+  "nutrition": null,
+  "importedNotes": [],
+  "seeAlso": [],
+  "source": {
+    "attribution": null,
+    "file": "RECIPES/PROTEIN RECIPES/Strawberries and Cream Smoothie.doc",
+    "type": "doc",
+    "duplicateFiles": []
+  }
+}

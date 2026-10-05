@@ -1,0 +1,266 @@
+{
+  "schemaVersion": 1,
+  "id": "aff85dad-2441-59ec-bde8-5cd9e7f3d455",
+  "slug": "shipwreck-stew",
+  "title": "Shipwreck Stew",
+  "description": null,
+  "category": "Soups and Stews",
+  "subcategory": null,
+  "tags": [
+    "main"
+  ],
+  "servings": {
+    "text": "Serves 5",
+    "amount": 5
+  },
+  "times": [],
+  "ingredients": [
+    {
+      "raw": "1 pound ground beef",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "lb",
+      "item": "ground beef",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "ground-beef",
+      "amount": {
+        "value": 453.592,
+        "unit": "g"
+      }
+    },
+    {
+      "raw": "½ package taco seasoning or chili powder",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "pkg",
+      "item": "taco seasoning or chili powder",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "taco-seasoning",
+      "amount": {
+        "value": 0.5,
+        "unit": "pkg",
+        "package": "pkg"
+      }
+    },
+    {
+      "raw": "1 medium onion, chopped",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": null,
+      "item": "medium onion",
+      "prep": "chopped",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "onion",
+      "amount": {
+        "value": 1,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "1 stalk celery, chopped",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "stalk",
+      "item": "celery",
+      "prep": "chopped",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "celery",
+      "amount": {
+        "value": 1,
+        "unit": "each",
+        "countUnit": "stalk"
+      }
+    },
+    {
+      "raw": "1 garlic clove, minced",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": null,
+      "item": "garlic clove",
+      "prep": "minced",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "garlic",
+      "amount": {
+        "value": 1,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "1 (10.75 ounce) can condensed tomato soup",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "can",
+      "item": "condensed tomato soup",
+      "prep": null,
+      "note": "package size: 10.75 ounce",
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "tomato-soup",
+      "amount": {
+        "value": 1,
+        "unit": "pkg",
+        "package": "can",
+        "packageOz": 10.75
+      }
+    },
+    {
+      "raw": "3 medium potatoes, cubed",
+      "quantity": 3,
+      "quantityMax": null,
+      "unit": null,
+      "item": "medium potatoes",
+      "prep": "cubed",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "potato",
+      "amount": {
+        "value": 3,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "½ cup chopped carrots",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "chopped carrots",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "carrot",
+      "amount": {
+        "value": 118.294,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 can diced toatoes",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "can",
+      "item": "diced toatoes",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "diced-tomatoes",
+      "amount": {
+        "value": 1,
+        "unit": "pkg",
+        "package": "can"
+      }
+    },
+    {
+      "raw": "1 can of corn",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "can",
+      "item": "corn",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "corn-canned",
+      "amount": {
+        "value": 1,
+        "unit": "pkg",
+        "package": "can"
+      }
+    },
+    {
+      "raw": "1 can kidney beans",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "can",
+      "item": "kidney beans",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "kidney-beans",
+      "amount": {
+        "value": 1,
+        "unit": "pkg",
+        "package": "can"
+      }
+    }
+  ],
+  "steps": [
+    {
+      "text": "Crumble the ground beef into a large skillet over medium-high heat. Cook and stir until almost brown. Add onions, celery and garlic and cook until meat is no longer pink and onion is tender.",
+      "group": null
+    },
+    {
+      "text": "Drain grease, and transfer beef, onions and garlic to a slow cooker. Add taco seasoning (or chili powder to meat) and stir to coat meat.",
+      "group": null
+    },
+    {
+      "text": "Mix in the tomato soup (undiluted), potatoes, carrots and beans.",
+      "group": null
+    },
+    {
+      "text": "Cover, and cook on the Low setting for 4 to 5 hours, until stew is thick and potatoes are tender.",
+      "group": null
+    },
+    {
+      "text": "Season to taste with salt, pepper and.",
+      "group": null
+    }
+  ],
+  "footnotes": [],
+  "nutrition": null,
+  "importedNotes": [
+    {
+      "text": "I cooked it for about 6 hours...everything was done perfect. Served it with hot cornbread...a definite keeper recipe!"
+    },
+    {
+      "text": "Can also cook in a dutch oven at 325 degrees for 1 hour then reduce the temperature to 200 degrees for 4 more hours. Yummy on a cool autumn night!"
+    },
+    {
+      "text": "Recipe can be easily doubled. Try 1 can kidney beans and 1 can black beans for visual appeal."
+    }
+  ],
+  "seeAlso": [],
+  "source": {
+    "attribution": null,
+    "file": "RECIPES/SOUPS AND STEWS/Shipwreck Stew.doc",
+    "type": "doc",
+    "duplicateFiles": []
+  }
+}

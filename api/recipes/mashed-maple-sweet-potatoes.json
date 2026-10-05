@@ -1,0 +1,244 @@
+{
+  "schemaVersion": 1,
+  "id": "52634135-26c3-528e-9a13-3e5444058283",
+  "slug": "mashed-maple-sweet-potatoes",
+  "title": "Mashed Maple Sweet Potatoes",
+  "description": "Ingredients makes 1 - 2 quart casseroleMakes servings USMetricAdjust Recipe (Help)",
+  "category": "Side Dishes",
+  "subcategory": null,
+  "tags": [],
+  "servings": null,
+  "times": [],
+  "ingredients": [
+    {
+      "raw": "4 large sweet potatoes",
+      "quantity": 4,
+      "quantityMax": null,
+      "unit": null,
+      "item": "large sweet potatoes",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "sweet-potato",
+      "amount": {
+        "value": 4,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "½  cup softened butter",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "softened butter",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "butter",
+      "amount": {
+        "value": 118.294,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 cup heavy cream",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "heavy cream",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "heavy-cream",
+      "amount": {
+        "value": 236.588,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 Tbsp vanilla extract",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "vanilla extract",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "vanilla-extract",
+      "amount": {
+        "value": 14.787,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "¼ cup lightly packed brown sugar",
+      "quantity": 0.25,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "lightly packed brown sugar",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "brown-sugar",
+      "amount": {
+        "value": 59.147,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "½ tsp salt",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "salt",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "salt",
+      "amount": {
+        "value": 2.464,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "½ cup maple syrup",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "maple syrup",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "maple-syrup",
+      "amount": {
+        "value": 118.294,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1/2 cup chopped pecans",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "chopped pecans",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "pecans",
+      "amount": {
+        "value": 118.294,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "2 eggs, beaten",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": null,
+      "item": "eggs, beaten",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "eggs",
+      "amount": {
+        "value": 2,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "2 Tbsp maple syrup",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "maple syrup",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "maple-syrup",
+      "amount": {
+        "value": 29.574,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "¼ cup chopped pecans",
+      "quantity": 0.25,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "chopped pecans",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "pecans",
+      "amount": {
+        "value": 59.147,
+        "unit": "ml"
+      }
+    }
+  ],
+  "steps": [
+    {
+      "text": "Preheat oven to 375 degrees F (190 degrees C). Line a baking sheet with aluminum foil.",
+      "group": null
+    },
+    {
+      "text": "Place sweet potatoes onto the prepared baking sheet, and bake in preheated oven until soft, 45 minutes to 1 hour. Remove from the oven and allow to cool slightly before peeling and placing into a large bowl.",
+      "group": null
+    },
+    {
+      "text": "Preheat oven to 350 degrees F (175 degrees C). Butter a 2 quart casserole dish.",
+      "group": null
+    },
+    {
+      "text": "Mash the warm potatoes along with butter, cream, vanilla extract, brown sugar, salt, 1/2 cup maple syrup, 1 cup chopped pecans, and eggs. Spread mashed sweet potato into the prepared baking dish, and sprinkle with the remaining 2 tablespoons of maple syrup, and 1/4 cup of pecans.",
+      "group": null
+    },
+    {
+      "text": "Bake sweet potatoes in preheated oven until thoroughly hot, 30 to 35 minutes.",
+      "group": null
+    }
+  ],
+  "footnotes": [],
+  "nutrition": null,
+  "importedNotes": [],
+  "seeAlso": [],
+  "source": {
+    "attribution": null,
+    "file": "RECIPES/SIDE DISHES/Mashed Maple Sweet Potatoes.doc",
+    "type": "doc",
+    "duplicateFiles": []
+  }
+}

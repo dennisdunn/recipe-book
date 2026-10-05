@@ -1,0 +1,302 @@
+{
+  "schemaVersion": 1,
+  "id": "49963094-e9ef-580d-96af-dceb96224355",
+  "slug": "golden-granola",
+  "title": "Golden Granola",
+  "description": "This crunchy granola--which may be eaten as cereal or used to top ice cream or fruit--makes a welcome gift,' says Maxine Smith of Owanka, South Dakota. She suggests packaging it in a tin or jar decked with a festive bow.\"",
+  "category": "Breads & Cereals",
+  "subcategory": null,
+  "tags": [],
+  "servings": null,
+  "times": [],
+  "ingredients": [
+    {
+      "raw": "4 cups old-fashioned oats",
+      "quantity": 4,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "old-fashioned oats",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "oats",
+      "amount": {
+        "value": 946.352,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 cup flaked coconut",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "flaked coconut",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "coconut",
+      "amount": {
+        "value": 236.588,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1/2 cup wheat germ",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "wheat germ",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "wheat-germ",
+      "amount": {
+        "value": 118.294,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1/2 cup sesame seeds",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "sesame seeds",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "sesame-seeds",
+      "amount": {
+        "value": 118.294,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1/2 cup sunflower seeds",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "sunflower seeds",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "sunflower-seeds",
+      "amount": {
+        "value": 118.294,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1/2 cup slivered almonds",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "slivered almonds",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "almonds",
+      "amount": {
+        "value": 118.294,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 1/2 teaspoons salt",
+      "quantity": 1.5,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "salt",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "salt",
+      "amount": {
+        "value": 7.393,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 1/2 teaspoons ground cinnamon",
+      "quantity": 1.5,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "ground cinnamon",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "cinnamon",
+      "amount": {
+        "value": 7.393,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1/4 to 1/3 cup vegetable oil",
+      "quantity": 0.25,
+      "quantityMax": 0.333,
+      "unit": "cup",
+      "item": "vegetable oil",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "vegetable-oil",
+      "amount": {
+        "value": 68.965,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1/4 cup packed brown sugar",
+      "quantity": 0.25,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "packed brown sugar",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "brown-sugar",
+      "amount": {
+        "value": 59.147,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1/3 cup honey",
+      "quantity": 0.333,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "honey",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "honey",
+      "amount": {
+        "value": 78.784,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1/3 cup water",
+      "quantity": 0.333,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "water",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "water",
+      "amount": {
+        "value": 78.784,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 tablespoon vanilla extract",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "vanilla extract",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "vanilla-extract",
+      "amount": {
+        "value": 14.787,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1/2 cup golden raisins or chopped dried apricots",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "golden raisins or chopped dried apricots",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "raisins",
+      "amount": {
+        "value": 118.294,
+        "unit": "ml"
+      }
+    }
+  ],
+  "steps": [
+    {
+      "text": "In a large bowl, combine the first eight ingredients; mix well.",
+      "group": null
+    },
+    {
+      "text": "In a saucepan, cook oil, brown sugar, honey, water and vanilla until sugar is dissolved.",
+      "group": null
+    },
+    {
+      "text": "Pour over dry ingredients and mix well.",
+      "group": null
+    },
+    {
+      "text": "Spoon to a greased 13-in. x 9-in. x 2-in. baking pan.",
+      "group": null
+    },
+    {
+      "text": "Bake at 275 degrees F for 1 hour or until golden, stirring every 15 minutes.",
+      "group": null
+    },
+    {
+      "text": "Cool completely. Stir in raisins or apricots.",
+      "group": null
+    }
+  ],
+  "footnotes": [],
+  "nutrition": null,
+  "importedNotes": [],
+  "seeAlso": [],
+  "source": {
+    "attribution": null,
+    "file": "RECIPES/BREADS & CEREALS/Golden Granola.doc",
+    "type": "doc",
+    "duplicateFiles": []
+  }
+}

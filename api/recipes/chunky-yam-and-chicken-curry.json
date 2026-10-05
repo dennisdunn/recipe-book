@@ -1,0 +1,161 @@
+{
+  "schemaVersion": 1,
+  "id": "f3d56d1b-4956-5e93-bf5e-f36f322eefe3",
+  "slug": "chunky-yam-and-chicken-curry",
+  "title": "Chunky Yam and Chicken Curry",
+  "description": null,
+  "category": "Chicken Dishes",
+  "subcategory": null,
+  "tags": [
+    "main"
+  ],
+  "servings": null,
+  "times": [],
+  "ingredients": [
+    {
+      "raw": "1 large or 2 medium yams pealed and cut into bite size chunks",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": null,
+      "item": "large or 2 medium yams pealed and cut into bite size chunks",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "sweet-potato",
+      "amount": {
+        "value": 1,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "1 small onion cut vertically",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": null,
+      "item": "small onion cut vertically",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "onion",
+      "amount": {
+        "value": 1,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "6 small carrots, cut into bite size chunks",
+      "quantity": 6,
+      "quantityMax": null,
+      "unit": null,
+      "item": "small carrots",
+      "prep": "cut into bite size chunks",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "carrot",
+      "amount": {
+        "value": 6,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "4 or 5 chicken tenderloins cut into chunks",
+      "quantity": 4,
+      "quantityMax": 5,
+      "unit": null,
+      "item": "chicken tenderloins cut into chunks",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "chicken-breast",
+      "amount": {
+        "value": 4.5,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "1 tsp minced garlic",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "minced garlic",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "garlic",
+      "amount": {
+        "value": 4.929,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 jar Jalfrezi Curry Sauce",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "jar",
+      "item": "Jalfrezi Curry Sauce",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "curry-sauce",
+      "amount": {
+        "value": 1,
+        "unit": "pkg",
+        "package": "jar"
+      }
+    }
+  ],
+  "steps": [
+    {
+      "text": "Peel and chop up yams (if in hurry, you can microwave yams part way)",
+      "group": null
+    },
+    {
+      "text": "Sauté carrots and onions til tender, add garlic and sauté briefly",
+      "group": null
+    },
+    {
+      "text": "Sauté  chicken chunks",
+      "group": null
+    },
+    {
+      "text": "Add Jalfrezi Sauce to chicken and add sautéed vegetables",
+      "group": null
+    },
+    {
+      "text": "Simmer until yams are tender",
+      "group": null
+    },
+    {
+      "text": "Recipe invites adding whatever leftovers are available!",
+      "group": null
+    }
+  ],
+  "footnotes": [],
+  "nutrition": null,
+  "importedNotes": [],
+  "seeAlso": [],
+  "source": {
+    "attribution": "Adele",
+    "file": "RECIPES/CHICKEN DISHES/Yam and Chicken Curry.doc",
+    "type": "doc",
+    "duplicateFiles": []
+  }
+}

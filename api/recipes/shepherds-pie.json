@@ -1,0 +1,156 @@
+{
+  "schemaVersion": 1,
+  "id": "bce380e8-560b-5af3-acab-f4e23d488b61",
+  "slug": "shepherds-pie",
+  "title": "Shepherd's Pie",
+  "description": null,
+  "category": "Casseroles",
+  "subcategory": null,
+  "tags": [
+    "main"
+  ],
+  "servings": null,
+  "times": [],
+  "ingredients": [
+    {
+      "raw": "1 lb sausage",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "lb",
+      "item": "sausage",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "sausage",
+      "amount": {
+        "value": 453.592,
+        "unit": "g"
+      }
+    },
+    {
+      "raw": "1 (12 oz) jar prepared pork gravy OR make sausage gravy",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "jar",
+      "item": "prepared pork gravy OR make sausage gravy",
+      "prep": null,
+      "note": "package size: 12 oz",
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "sausage",
+      "amount": {
+        "value": 1,
+        "unit": "pkg",
+        "package": "jar",
+        "packageOz": 12
+      }
+    },
+    {
+      "raw": "1 (10 oz) frozen vegetables",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "pkg",
+      "item": "frozen vegetables",
+      "prep": null,
+      "note": "package size: 10 oz",
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "frozen-mixed-vegetables",
+      "amount": {
+        "value": 1,
+        "unit": "pkg",
+        "package": "pkg",
+        "packageOz": 10
+      }
+    },
+    {
+      "raw": "1 tsp Worcestershire Sauce",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "Worcestershire Sauce",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "worcestershire-sauce",
+      "amount": {
+        "value": 4.929,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 (24 oz) Bob Evans Sour Cream and Chives Mashed Potatoes",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "pkg",
+      "item": "Bob Evans Sour Cream and Chives Mashed Potatoes",
+      "prep": null,
+      "note": "package size: 24 oz",
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "sour-cream",
+      "amount": {
+        "value": 1,
+        "unit": "pkg",
+        "package": "pkg",
+        "packageOz": 24
+      }
+    }
+  ],
+  "steps": [
+    {
+      "text": "Preheat oven to 400 degrees.",
+      "group": null
+    },
+    {
+      "text": "In skillet, brown sausage and drain on paper towels.",
+      "group": null
+    },
+    {
+      "text": "In bowl, combine sausage, gravy, vegetables and Worcestershire.",
+      "group": null
+    },
+    {
+      "text": "Pour into a greased 2 quart casserole dish or large pie plate.",
+      "group": null
+    },
+    {
+      "text": "Heat mashed potatoes in microwave per instructions on package.",
+      "group": null
+    },
+    {
+      "text": "Spoon mashed potatoes on top of mixture evenly.",
+      "group": null
+    },
+    {
+      "text": "Bake at 400 degrees for 30 to 40 mins or until hot and bubbly.",
+      "group": null
+    },
+    {
+      "text": "Comments: Really easy and really good. One of Dennis’ favorites.",
+      "group": null
+    }
+  ],
+  "footnotes": [],
+  "nutrition": null,
+  "importedNotes": [],
+  "seeAlso": [],
+  "source": {
+    "attribution": null,
+    "file": "RECIPES/CASSEROLES/Shepherd_s Pie.doc",
+    "type": "doc",
+    "duplicateFiles": []
+  }
+}

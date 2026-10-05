@@ -1,0 +1,251 @@
+{
+  "schemaVersion": 1,
+  "id": "cf3e959e-2b70-560b-9614-7378380faf83",
+  "slug": "beccas-bruschetta",
+  "title": "Becca's Bruschetta",
+  "description": null,
+  "category": "Snacks",
+  "subcategory": null,
+  "tags": [],
+  "servings": null,
+  "times": [],
+  "ingredients": [
+    {
+      "raw": "1 loaf French bread, sliced",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": null,
+      "item": "loaf French bread",
+      "prep": "sliced",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "bread",
+      "amount": {
+        "value": 1,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "1/2 sweet onion, finely chopped",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": null,
+      "item": "sweet onion",
+      "prep": "finely chopped",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "onion",
+      "amount": {
+        "value": 0.5,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "2 cloves garlic, chopped",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "clove",
+      "item": "garlic",
+      "prep": "chopped",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "garlic",
+      "amount": {
+        "value": 2,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "1 (2.25 ounce) can sliced black olives, drained",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "can",
+      "item": "sliced black olives",
+      "prep": "drained",
+      "note": "package size: 2.25 ounce",
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "olives",
+      "amount": {
+        "value": 1,
+        "unit": "pkg",
+        "package": "can",
+        "packageOz": 2.25
+      }
+    },
+    {
+      "raw": "3 tablespoons extra virgin olive oil, divided",
+      "quantity": 3,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "extra virgin olive oil",
+      "prep": "divided",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "olive-oil",
+      "amount": {
+        "value": 44.36,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 tablespoon chopped fresh oregano",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "chopped fresh oregano",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "fresh-oregano",
+      "amount": {
+        "value": 14.787,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "2 teaspoons chopped fresh basil",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "chopped fresh basil",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "fresh-basil",
+      "amount": {
+        "value": 9.858,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "2 teaspoons chopped fresh parsley",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "chopped fresh parsley",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "fresh-parsley",
+      "amount": {
+        "value": 9.858,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "2 large fresh tomatoes, diced",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": null,
+      "item": "large fresh tomatoes",
+      "prep": "diced",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "tomato",
+      "amount": {
+        "value": 2,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "1 cup crumbled feta cheese",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "crumbled feta cheese",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "feta-cheese",
+      "amount": {
+        "value": 236.588,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1/4 cup grated Parmesan cheese",
+      "quantity": 0.25,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "grated Parmesan cheese",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "parmesan-cheese",
+      "amount": {
+        "value": 59.147,
+        "unit": "ml"
+      }
+    }
+  ],
+  "steps": [
+    {
+      "text": "Preheat oven to 375 degrees F (190 degrees C).",
+      "group": null
+    },
+    {
+      "text": "Arrange the bread slices in a single layer on a baking sheet. In a bowl, mix the onion, garlic, olives, 2 tablespoons olive oil, oregano, basil, and parsley. Gently toss in the tomatoes. Top bread slices with the tomato mixture. Sprinkle with feta cheese and Parmesan cheese. Drizzle with remaining olive oil.",
+      "group": null
+    },
+    {
+      "text": "Bake 10 minutes in the preheated oven, or until cheese is melted and bread is lightly toasted.",
+      "group": null
+    }
+  ],
+  "footnotes": [],
+  "nutrition": null,
+  "importedNotes": [
+    {
+      "text": "Very good! I've made it a few times and it is much better if you can let it sit overnight. I also add an extra clove of garlic."
+    },
+    {
+      "text": "Awesome! I made it just as written. I toasted the bread slightly before adding toppings. Crispy and delicious!"
+    },
+    {
+      "text": "It's a really good basic bruschetta recipe, but it's a little bland. Sprinkling a little bit of black pepper over the cheese before baking would probably be a good addition"
+    },
+    {
+      "text": "I mixed the ingredients together (omitted the olives, used extra basil, seeded the tomatoes, only used half the feta called for) and added some salt and pepper."
+    }
+  ],
+  "seeAlso": [],
+  "source": {
+    "attribution": null,
+    "file": "RECIPES/SNACKS/Becca_s Bruschetta.doc",
+    "type": "doc",
+    "duplicateFiles": []
+  }
+}

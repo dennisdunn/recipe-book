@@ -1,0 +1,235 @@
+{
+  "schemaVersion": 1,
+  "id": "550d8f83-86e2-5ac7-87ce-62f9588bc60d",
+  "slug": "mexican-corn-salad",
+  "title": "Mexican Corn Salad",
+  "description": null,
+  "category": "Salads",
+  "subcategory": null,
+  "tags": [],
+  "servings": {
+    "text": "Serves 4",
+    "amount": 4
+  },
+  "times": [],
+  "ingredients": [
+    {
+      "raw": "2 cups corn kernels",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "corn kernels",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "frozen-corn",
+      "amount": {
+        "value": 473.176,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "¼ cup red pepper, diced",
+      "quantity": 0.25,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "red pepper",
+      "prep": "diced",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "bell-pepper",
+      "amount": {
+        "value": 59.147,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "¼ cup green pepper, diced",
+      "quantity": 0.25,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "green pepper",
+      "prep": "diced",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "bell-pepper",
+      "amount": {
+        "value": 59.147,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 tomato, diced",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": null,
+      "item": "tomato",
+      "prep": "diced",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "tomato",
+      "amount": {
+        "value": 1,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "2 TBSP red onion, diced",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "red onion",
+      "prep": "diced",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "red-onion",
+      "amount": {
+        "value": 29.574,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "2 TBSP olive oil",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "olive oil",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "olive-oil",
+      "amount": {
+        "value": 29.574,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 tsp lime juice",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "lime juice",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "lime-juice",
+      "amount": {
+        "value": 4.929,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 TBSP cilantro, chopped",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "cilantro",
+      "prep": "chopped",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "fresh-cilantro",
+      "amount": {
+        "value": 14.787,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "¼ tsp ground cumin",
+      "quantity": 0.25,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "ground cumin",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "cumin",
+      "amount": {
+        "value": 1.232,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "¼ tsp salt",
+      "quantity": 0.25,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "salt",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "salt",
+      "amount": {
+        "value": 1.232,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "¼ tsp pepper",
+      "quantity": 0.25,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "pepper",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "black-pepper",
+      "amount": {
+        "value": 1.232,
+        "unit": "ml"
+      }
+    }
+  ],
+  "steps": [
+    {
+      "text": "Combine all ingredients. Serve immediately with grilled flank steak.",
+      "group": null
+    },
+    {
+      "text": "Meant to be served cold, but try hot !",
+      "group": null
+    }
+  ],
+  "footnotes": [],
+  "nutrition": null,
+  "importedNotes": [],
+  "seeAlso": [],
+  "source": {
+    "attribution": null,
+    "file": "RECIPES/SALADS/Mexican Corn Salad.doc",
+    "type": "doc",
+    "duplicateFiles": []
+  }
+}

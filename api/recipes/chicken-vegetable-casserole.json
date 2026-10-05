@@ -1,0 +1,306 @@
+{
+  "schemaVersion": 1,
+  "id": "679f1924-09fb-5880-a983-7b0ceda73d4f",
+  "slug": "chicken-vegetable-casserole",
+  "title": "Chicken Vegetable Casserole",
+  "description": null,
+  "category": "Casseroles",
+  "subcategory": null,
+  "tags": [
+    "main"
+  ],
+  "servings": null,
+  "times": [],
+  "ingredients": [
+    {
+      "raw": "12 oz leftover rotisserie chicken, diced",
+      "quantity": 12,
+      "quantityMax": null,
+      "unit": "oz",
+      "item": "leftover rotisserie chicken",
+      "prep": "diced",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "chicken",
+      "amount": {
+        "value": 340.194,
+        "unit": "g"
+      }
+    },
+    {
+      "raw": "2 TBSP all purpose flour",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "all purpose flour",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "all-purpose-flour",
+      "amount": {
+        "value": 29.574,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "2 TBSP butter, unsalted",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "butter",
+      "prep": "unsalted",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "butter",
+      "amount": {
+        "value": 29.574,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "10 oz skim milk",
+      "quantity": 10,
+      "quantityMax": null,
+      "unit": "oz",
+      "item": "skim milk",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "milk",
+      "amount": {
+        "value": 283.495,
+        "unit": "g"
+      }
+    },
+    {
+      "raw": "2 TBSP low fat cream cheese",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "low fat cream cheese",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "cream-cheese",
+      "amount": {
+        "value": 29.574,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 pinch white pepper",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "pinch",
+      "item": "white pepper",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "white-pepper",
+      "amount": {
+        "value": 0.31,
+        "unit": "ml",
+        "approximate": true
+      }
+    },
+    {
+      "raw": "1 tsp Italian seasoning",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "Italian seasoning",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "italian-seasoning",
+      "amount": {
+        "value": 4.929,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 TBSP parmesan cheese, grated",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "parmesan cheese",
+      "prep": "grated",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "parmesan-cheese",
+      "amount": {
+        "value": 14.787,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "7 oz penne pasta (GF)",
+      "quantity": 7,
+      "quantityMax": null,
+      "unit": "oz",
+      "item": "penne pasta",
+      "prep": null,
+      "note": "GF",
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "penne",
+      "amount": {
+        "value": 198.446,
+        "unit": "g"
+      }
+    },
+    {
+      "raw": "2 yellow or orange bell peppers, chopped & sauteed",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": null,
+      "item": "yellow or orange bell peppers",
+      "prep": "chopped & sauteed",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "bell-pepper",
+      "amount": {
+        "value": 2,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "1 zucchini, chopped & sautéed",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": null,
+      "item": "zucchini",
+      "prep": "chopped & sautéed",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "zucchini",
+      "amount": {
+        "value": 1,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "1 small onion (or green onions), chopped & sauteed",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": null,
+      "item": "small onion",
+      "prep": "chopped & sauteed",
+      "note": "or green onions",
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "onion",
+      "amount": {
+        "value": 1,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "2 heads, approx. 12 ounces broccoli, chopped & sauteed",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "head",
+      "item": ", approx. 12 ounces broccoli, chopped & sauteed",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "broccoli",
+      "amount": {
+        "value": 2,
+        "unit": "each",
+        "countUnit": "head"
+      }
+    },
+    {
+      "raw": "2/3 cup Monterey Jack cheese",
+      "quantity": 0.667,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "Monterey Jack cheese",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "mexican-cheese-blend",
+      "amount": {
+        "value": 157.804,
+        "unit": "ml"
+      }
+    }
+  ],
+  "steps": [
+    {
+      "text": "Preheat oven to 350. Grease 9x13 glass dish.",
+      "group": null
+    },
+    {
+      "text": "Prepare the white sauce by placing the butter in a small sauce pot that has been preheated over medium heat. Once the butter foams, add flour and stir for 1 minute; try not to let the mixture turn brown.",
+      "group": null
+    },
+    {
+      "text": "Add milk to the mixture and continue to stir until it starts to bubble. Reduce heat and simmer for 10 minutes. Add pepper, Italian seasoning, cream cheese and parmesan cheese to the sauce & stir.",
+      "group": null
+    },
+    {
+      "text": "Cook pasta according to package directions. During the last minute, add the chopped broccoli to the water. Simmer for 1 min.",
+      "group": null
+    },
+    {
+      "text": "Drain the pasta and broccoli.",
+      "group": null
+    },
+    {
+      "text": "Combine the pasta and broccoli with the chicken and chopped vegetables; cover with the sauce. Sprinkle with cheese and cover with foil. Bake for 20 minutes; remove foil and continue to bake until cheese is melted.",
+      "group": null
+    }
+  ],
+  "footnotes": [],
+  "nutrition": null,
+  "importedNotes": [],
+  "seeAlso": [],
+  "source": {
+    "attribution": null,
+    "file": "RECIPES/CASSEROLES/Chicken Vegetable Casserole.doc",
+    "type": "doc",
+    "duplicateFiles": []
+  }
+}

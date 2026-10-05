@@ -1,0 +1,152 @@
+{
+  "schemaVersion": 1,
+  "id": "93e1b66c-93c2-54ab-a1ac-691c0f49adfd",
+  "slug": "fudgy-macadamia-chocolate-fat-bomb",
+  "title": "Fudgy Macadamia Chocolate Fat Bomb",
+  "description": null,
+  "category": "Protein Recipes",
+  "subcategory": "KETO RECIPES",
+  "tags": [
+    "keto"
+  ],
+  "servings": null,
+  "times": [],
+  "ingredients": [
+    {
+      "raw": "2 oz (58gr) Cocoa Butter (if you make a lot of chocolate this one is the most convenient)",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "oz",
+      "item": "Cocoa Butter",
+      "prep": null,
+      "note": "package size: 58gr; if you make a lot of chocolate this one is the most convenient",
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "butter",
+      "amount": {
+        "value": 56.699,
+        "unit": "g"
+      }
+    },
+    {
+      "raw": "2 Tbs unsweetened cocoa powder",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "unsweetened cocoa powder",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "cocoa-powder",
+      "amount": {
+        "value": 29.574,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "2 Tbs Swerve",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "Swerve",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "sweetener",
+      "amount": {
+        "value": 29.574,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "4 oz (112gr) Chopped macadamias (bulk is cheaper!)",
+      "quantity": 4,
+      "quantityMax": null,
+      "unit": "oz",
+      "item": "Chopped macadamias",
+      "prep": null,
+      "note": "package size: 112gr; bulk is cheaper!",
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "macadamia-nuts",
+      "amount": {
+        "value": 113.398,
+        "unit": "g"
+      }
+    },
+    {
+      "raw": "¼ cup Heavy cream or coconut oil for dairy free option",
+      "quantity": 0.25,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "Heavy cream or coconut oil for dairy free option",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "heavy-cream",
+      "amount": {
+        "value": 59.147,
+        "unit": "ml"
+      }
+    }
+  ],
+  "steps": [
+    {
+      "text": "Melt cocoa butter in a small sauce pan in a bath of water. (I just use another slightly bigger sauce pan, half full with water)",
+      "group": null
+    },
+    {
+      "text": "Add cocoa powder to the sauce pan.",
+      "group": null
+    },
+    {
+      "text": "Now add the Swerve and mix well until all ingredients are well blended and melted.",
+      "group": null
+    },
+    {
+      "text": "Add macadamias and stir in well.",
+      "group": null
+    },
+    {
+      "text": "Add cream, mix well and bring back to temperature.",
+      "group": null
+    },
+    {
+      "text": "Now pour in molds or paper candy cups.",
+      "group": null
+    },
+    {
+      "text": "Let cool, then put in the fridge to harden.",
+      "group": null
+    },
+    {
+      "text": "Keeps at room temperature, with a slightly softer consistency than chocolate.",
+      "group": null
+    }
+  ],
+  "footnotes": [],
+  "nutrition": {
+    "text": "Serving size: 6 portions Calories: 267 Fat: 28gr Carbohydrates: 3gr Protein: 3gr"
+  },
+  "importedNotes": [],
+  "seeAlso": [],
+  "source": {
+    "attribution": null,
+    "file": "RECIPES/PROTEIN RECIPES/KETO RECIPES/Fudgy Macadamia Chocolate Fat Bomb.doc",
+    "type": "doc",
+    "duplicateFiles": []
+  }
+}

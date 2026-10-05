@@ -1,0 +1,278 @@
+{
+  "schemaVersion": 1,
+  "id": "579b553c-ef71-5fca-997b-cf231045ec7a",
+  "slug": "coal-miners-pie",
+  "title": "Coal Miner's Pie",
+  "description": null,
+  "category": "Casseroles",
+  "subcategory": null,
+  "tags": [
+    "main"
+  ],
+  "servings": {
+    "text": "Serves 6",
+    "amount": 6
+  },
+  "times": [],
+  "ingredients": [
+    {
+      "raw": "1 lb ground chuck or round",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "lb",
+      "item": "ground chuck or round",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "ground-beef",
+      "amount": {
+        "value": 453.592,
+        "unit": "g"
+      }
+    },
+    {
+      "raw": "2 medium onions, chopped (approx. 1 cup)",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": null,
+      "item": "medium onions",
+      "prep": "chopped",
+      "note": "approx. 1 cup",
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "onion",
+      "amount": {
+        "value": 2,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "1 can (15oz) tomato sauce",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "can",
+      "item": "tomato sauce",
+      "prep": null,
+      "note": "package size: 15oz",
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "tomato-sauce",
+      "amount": {
+        "value": 1,
+        "unit": "pkg",
+        "package": "can",
+        "packageOz": 15
+      }
+    },
+    {
+      "raw": "2 medium green bell peppers, coarsely chopped",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": null,
+      "item": "medium green bell peppers",
+      "prep": "coarsely chopped",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "bell-pepper",
+      "amount": {
+        "value": 2,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "1 cup canned or frozen whole corn",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "canned or frozen whole corn",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "corn-canned",
+      "amount": {
+        "value": 236.588,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 to 2 Tbsp chili powder",
+      "quantity": 1,
+      "quantityMax": 2,
+      "unit": "tbsp",
+      "item": "chili powder",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "chili-powder",
+      "amount": {
+        "value": 22.18,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1/2 tsp salt",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "salt",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "salt",
+      "amount": {
+        "value": 2.464,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 tsp pepper",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "pepper",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "black-pepper",
+      "amount": {
+        "value": 4.929,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 box gluten free Cornbread, follow directions on box",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "box",
+      "item": "gluten free Cornbread, follow directions on box",
+      "prep": null,
+      "note": null,
+      "group": "Topping",
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "cornbread-mix",
+      "amount": {
+        "value": 1,
+        "unit": "pkg",
+        "package": "box"
+      }
+    },
+    {
+      "raw": "Add 1 Tbsp honey to batter (optional)",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "honey",
+      "prep": null,
+      "note": "add to batter",
+      "group": "Topping",
+      "optional": true,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "honey",
+      "amount": {
+        "value": 14.787,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "¼ tsp cumin (optional)",
+      "quantity": 0.25,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "cumin",
+      "prep": null,
+      "note": null,
+      "group": "Topping",
+      "optional": true,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "cumin",
+      "amount": {
+        "value": 1.232,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "Sprinkle with ½ cup shredded cheddar cheese (optional)",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "shredded cheddar cheese",
+      "prep": null,
+      "note": "sprinkle on top",
+      "group": "Topping",
+      "optional": true,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "cheddar-cheese",
+      "amount": {
+        "value": 118.294,
+        "unit": "ml"
+      }
+    }
+  ],
+  "steps": [
+    {
+      "text": "Preheat oven to moderate (350 degrees).",
+      "group": null
+    },
+    {
+      "text": "Brown beef and onions in Dutch oven or large kettle, breaking up meat with a wooden spoon and cooking until no longer pink.",
+      "group": null
+    },
+    {
+      "text": "Stir in tomato sauce, green pepper, corn, chili powder, salt and pepper.",
+      "group": null
+    },
+    {
+      "text": "Bring to boiling, lower heat, cover, and simmer for 15 minutes.",
+      "group": null
+    },
+    {
+      "text": "Pour meat mixture into ungreased 10 inch deep pie plate.",
+      "group": null
+    },
+    {
+      "text": "Spread Jiffy cornbread batter over top of meat. Spread evenly to cover entire surface. (Some of the mixture may run into the meat, but it will rise during baking).",
+      "group": null
+    },
+    {
+      "text": "Bake in preheated moderate oven for 20 minutes or until toothpick inserted into the cornbread comes out clean.",
+      "group": null
+    }
+  ],
+  "footnotes": [],
+  "nutrition": null,
+  "importedNotes": [],
+  "seeAlso": [],
+  "source": {
+    "attribution": null,
+    "file": "RECIPES/CASSEROLES/Coal Miner_s Pie.doc",
+    "type": "doc",
+    "duplicateFiles": []
+  }
+}

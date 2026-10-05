@@ -1,0 +1,279 @@
+{
+  "schemaVersion": 1,
+  "id": "133a3a72-1d2a-54e2-bddc-6d0ff4d45df5",
+  "slug": "crunchy-ginger-cookies",
+  "title": "Crunchy Ginger Cookies",
+  "description": null,
+  "category": "Desserts",
+  "subcategory": null,
+  "tags": [],
+  "servings": {
+    "text": "recipe makes 48 cookies",
+    "amount": 48
+  },
+  "times": [],
+  "ingredients": [
+    {
+      "raw": "1 1⁄4 cups GF flour",
+      "quantity": 1.25,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "GF flour",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "gluten-free-flour",
+      "amount": {
+        "value": 295.735,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 teaspoon baking powder",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "baking powder",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "baking-powder",
+      "amount": {
+        "value": 4.929,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 teaspoon baking soda",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "baking soda",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "baking-soda",
+      "amount": {
+        "value": 4.929,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1⁄2 cup old (GF) fashioned oats",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "old  fashioned oats",
+      "prep": null,
+      "note": "GF",
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "oats",
+      "amount": {
+        "value": 118.294,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1⁄2 cup butter",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "butter",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "butter",
+      "amount": {
+        "value": 118.294,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "3⁄4 cup firmly packed brown sugar",
+      "quantity": 0.75,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "firmly packed brown sugar",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "brown-sugar",
+      "amount": {
+        "value": 177.441,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1⁄2 cup sugar",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "sugar",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "sugar",
+      "amount": {
+        "value": 118.294,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 egg",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": null,
+      "item": "egg",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "eggs",
+      "amount": {
+        "value": 1,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "1 teaspoon vanilla",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "vanilla",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "vanilla-extract",
+      "amount": {
+        "value": 4.929,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 cup Rice Crispies",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "Rice Crispies",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "cornflakes",
+      "amount": {
+        "value": 236.588,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "½ cup sliced crystallized ginger",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "sliced crystallized ginger",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "ginger",
+      "amount": {
+        "value": 118.294,
+        "unit": "ml"
+      }
+    }
+  ],
+  "steps": [
+    {
+      "text": "Preheat oven to 350ºF.",
+      "group": null
+    },
+    {
+      "text": "Mix flour, baking powder, baking soda and oats; set aside.",
+      "group": null
+    },
+    {
+      "text": "Beat butter in large bowl with electric mixer on medium speed until light and fluffy.",
+      "group": null
+    },
+    {
+      "text": "Gradually add sugars.",
+      "group": null
+    },
+    {
+      "text": "Add egg and mix well.",
+      "group": null
+    },
+    {
+      "text": "Gradually add flour and oat mixture, beating until well blended after each addition.",
+      "group": null
+    },
+    {
+      "text": "Rub ginger pieces between your palms to remove excess sugar.",
+      "group": null
+    },
+    {
+      "text": "Add cereal and ginger pieces and stir until well blended.",
+      "group": null
+    },
+    {
+      "text": "Drop teaspoonfuls of dough, 2 inches apart, onto ungreased baking sheets.",
+      "group": null
+    },
+    {
+      "text": "Bake 12 to 14 minutes or until lighty browned.",
+      "group": null
+    },
+    {
+      "text": "Cool on baking sheets 3 to 4 minutes; remove to wire racks.",
+      "group": null
+    },
+    {
+      "text": "Cool completely.",
+      "group": null
+    },
+    {
+      "text": "Store in tightly covered container at room temperature.",
+      "group": null
+    }
+  ],
+  "footnotes": [],
+  "nutrition": null,
+  "importedNotes": [],
+  "seeAlso": [],
+  "source": {
+    "attribution": null,
+    "file": "RECIPES/DESSERTS/Crunchy Ginger Cookies.doc",
+    "type": "doc",
+    "duplicateFiles": []
+  }
+}

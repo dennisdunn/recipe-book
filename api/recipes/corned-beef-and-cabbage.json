@@ -1,0 +1,113 @@
+{
+  "schemaVersion": 1,
+  "id": "3b305f74-de66-5e38-88dc-f636a76e4e33",
+  "slug": "corned-beef-and-cabbage",
+  "title": "Corned Beef and Cabbage",
+  "description": "\"What's more Irish than a traditional recipe for corned beef and cabbage? Serve with mustard or horseradish if desired.\"",
+  "category": "Beef Dishes",
+  "subcategory": null,
+  "tags": [
+    "main"
+  ],
+  "servings": null,
+  "times": [],
+  "ingredients": [
+    {
+      "raw": "3 pounds corned beef brisket with spice packet",
+      "quantity": 3,
+      "quantityMax": null,
+      "unit": "lb",
+      "item": "corned beef brisket with spice packet",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "corned-beef",
+      "amount": {
+        "value": 1360.776,
+        "unit": "g"
+      }
+    },
+    {
+      "raw": "10 small red potatoes",
+      "quantity": 10,
+      "quantityMax": null,
+      "unit": null,
+      "item": "small red potatoes",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "potato",
+      "amount": {
+        "value": 10,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "5 carrots, peeled and cut into 3-inch pieces",
+      "quantity": 5,
+      "quantityMax": null,
+      "unit": null,
+      "item": "carrots",
+      "prep": "peeled and cut into 3-inch pieces",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "carrot",
+      "amount": {
+        "value": 5,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "1 large head cabbage, cut into small wedges",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "head",
+      "item": "cabbage",
+      "prep": "cut into small wedges",
+      "note": "size: large",
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "cabbage",
+      "amount": {
+        "value": 1,
+        "unit": "each",
+        "countUnit": "head"
+      }
+    }
+  ],
+  "steps": [
+    {
+      "text": "Place corned beef in large pot or Dutch oven and cover with water. Add the spice packet that came with the corned beef. Cover pot and bring to a boil, then reduce to a simmer. Simmer approximately 50 minutes per pound or until tender.",
+      "group": null
+    },
+    {
+      "text": "Add whole potatoes and carrots, and cook until the vegetables are almost tender. Add cabbage and cook for 15 more minutes. Remove meat and let rest 15 minutes.",
+      "group": null
+    },
+    {
+      "text": "Place vegetables in a bowl and cover. Add as much broth (cooking liquid reserved in the Dutch oven or large pot) as you want. Slice meat across the grain.",
+      "group": null
+    }
+  ],
+  "footnotes": [],
+  "nutrition": null,
+  "importedNotes": [],
+  "seeAlso": [],
+  "source": {
+    "attribution": null,
+    "file": "RECIPES/BEEF DISHES/Corned Beef and Cabbage.doc",
+    "type": "doc",
+    "duplicateFiles": []
+  }
+}

@@ -1,0 +1,269 @@
+{
+  "schemaVersion": 1,
+  "id": "942c8a75-b5a8-5cc7-a29c-8b972686e342",
+  "slug": "pumpkin-cheesecake",
+  "title": "Pumpkin Cheesecake",
+  "description": "Low Carb, Keto, Gluten-Free, Grain-Free, THM S",
+  "category": "Protein Recipes",
+  "subcategory": "KETO RECIPES",
+  "tags": [
+    "keto"
+  ],
+  "servings": null,
+  "times": [
+    {
+      "label": "Prep time",
+      "text": "20 mins  Cook Time 1 hr  Total Time  1 hr 20 mins"
+    }
+  ],
+  "ingredients": [
+    {
+      "raw": "2 cups pecans",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "pecans",
+      "prep": null,
+      "note": null,
+      "group": "Pecan Crust",
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "pecans",
+      "amount": {
+        "value": 473.176,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "2 tbsp butter",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "butter",
+      "prep": null,
+      "note": null,
+      "group": "Pecan Crust",
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "butter",
+      "amount": {
+        "value": 29.574,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "2 tbsp Trim Healthy Mama Gentle Sweet",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "Trim Healthy Mama Gentle Sweet",
+      "prep": null,
+      "note": null,
+      "group": "Pecan Crust",
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "sweetener",
+      "amount": {
+        "value": 29.574,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "16 oz cream cheese",
+      "quantity": 16,
+      "quantityMax": null,
+      "unit": "oz",
+      "item": "cream cheese",
+      "prep": null,
+      "note": null,
+      "group": "Pumpkin Filling",
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "cream-cheese",
+      "amount": {
+        "value": 453.592,
+        "unit": "g"
+      }
+    },
+    {
+      "raw": "1 cup cottage cheese",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "cottage cheese",
+      "prep": null,
+      "note": null,
+      "group": "Pumpkin Filling",
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "cottage-cheese",
+      "amount": {
+        "value": 236.588,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 cup pumpkin",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "pumpkin",
+      "prep": null,
+      "note": null,
+      "group": "Pumpkin Filling",
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "pumpkin-puree",
+      "amount": {
+        "value": 236.588,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "6 eggs",
+      "quantity": 6,
+      "quantityMax": null,
+      "unit": null,
+      "item": "eggs",
+      "prep": null,
+      "note": null,
+      "group": "Pumpkin Filling",
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "eggs",
+      "amount": {
+        "value": 6,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "1 cup Trim Healthy Mama Gentle Sweet or my sweetener",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "Trim Healthy Mama Gentle Sweet or my sweetener",
+      "prep": null,
+      "note": null,
+      "group": "Pumpkin Filling",
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "sweetener",
+      "amount": {
+        "value": 236.588,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 tbsp cinnamon",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "cinnamon",
+      "prep": null,
+      "note": null,
+      "group": "Pumpkin Filling",
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "cinnamon",
+      "amount": {
+        "value": 14.787,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 cup heavy cream",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "heavy cream",
+      "prep": null,
+      "note": null,
+      "group": "Whipped Cream Topping",
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "heavy-cream",
+      "amount": {
+        "value": 236.588,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "2 tbsp Trim Healthy Mama Gentle Sweet or my sweetener, optional",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "Trim Healthy Mama Gentle Sweet or my sweetener",
+      "prep": null,
+      "note": null,
+      "group": "Whipped Cream Topping",
+      "optional": true,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "sweetener",
+      "amount": {
+        "value": 29.574,
+        "unit": "ml"
+      }
+    }
+  ],
+  "steps": [
+    {
+      "text": "Preheat the oven to 350. Cover the bottom and sides of a 9-inch springform pan with foil to prevent any leaks.",
+      "group": null
+    },
+    {
+      "text": "Add the crust ingredients to a food processor or blender. Pulse until the nuts are finely chopped. Press into the bottom and 1/2 inch up the sides of a 9-inch springform pan. Bake for 10 minutes.",
+      "group": null
+    },
+    {
+      "text": "Meanwhile, in the same food processor or blender bowl (no need to wash) pulse the cream cheese and cottage cheese until smooth. Scrape down the sides as needed. Add the rest of the filling ingredients and blend until smooth.",
+      "group": null
+    },
+    {
+      "text": "Pour the filling on top of the prepared crust. Bake for 1 hour to 1 hour 15 minutes or until the edges are golden brown and the center only jiggles slightly. Cool until room temperature. Refrigerate to chill for at least 3-4 hours.",
+      "group": null
+    },
+    {
+      "text": "Whip cream until peaks form. Mix in sweetener, if using. Spread on the cooled cheesecake. Store in the refrigerator.",
+      "group": null
+    }
+  ],
+  "footnotes": [],
+  "nutrition": {
+    "text": "Pumpkin Cheesecake - Low Carb, Keto, Gluten-Free, Grain-Free, THM S Amount Per Serving (1 slice) Calories 381 Calories from Fat 324 % Daily Value* Total Fat 36g 55% Saturated Fat 15g 75% Cholesterol 158mg 53% Sodium 240mg 10% Potassium 216mg 6% Total Carbohydrates 6g 2% Dietary Fiber 1g 4% Sugars 2g Protein 9g 18% Vitamin A 36.7% Vitamin C 1.4% Calcium 9.7% Iron 6%"
+  },
+  "importedNotes": [
+    {
+      "text": "Notes on Sweeteners:"
+    },
+    {
+      "text": "I use my own blend of xylitol, erythritol, and stevia in my recipes. This is twice as sweet as sugar. It is comparable to Trim Healthy Mama Gentle Sweet and Truvia."
+    },
+    {
+      "text": "To sub in Swerve use 1.5 to 2 times the amount of sweetener called for."
+    },
+    {
+      "text": "To sub in Pyure or Trim Healthy Mama Super Sweet use half the amount of sweetener called for."
+    },
+    {
+      "text": "Substitutions will work in most recipes. They may not work in candies, such as caramel."
+    }
+  ],
+  "seeAlso": [],
+  "source": {
+    "attribution": null,
+    "file": "RECIPES/PROTEIN RECIPES/KETO RECIPES/Keto Pumpkin Cheesecake.doc",
+    "type": "doc",
+    "duplicateFiles": []
+  }
+}

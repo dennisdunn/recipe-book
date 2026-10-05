@@ -1,0 +1,191 @@
+{
+  "schemaVersion": 1,
+  "id": "10c6d652-a059-5e5a-9f90-0baf580ea29d",
+  "slug": "sherry-johns-favorite-crabcakes",
+  "title": "Sherry Johns' Favorite Crabcakes",
+  "description": null,
+  "category": "Seafood",
+  "subcategory": null,
+  "tags": [
+    "main"
+  ],
+  "servings": null,
+  "times": [],
+  "ingredients": [
+    {
+      "raw": "1 lb crabmeat",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "lb",
+      "item": "crabmeat",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "crabmeat",
+      "amount": {
+        "value": 453.592,
+        "unit": "g"
+      }
+    },
+    {
+      "raw": "1/4 cup finely chopped green pepper",
+      "quantity": 0.25,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "finely chopped green pepper",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "bell-pepper",
+      "amount": {
+        "value": 59.147,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1/4 cup finely chopped onion",
+      "quantity": 0.25,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "finely chopped onion",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "onion",
+      "amount": {
+        "value": 59.147,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1/4 cup mayo or, better yet, helmons mayo",
+      "quantity": 0.25,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "mayo or, better yet, helmons mayo",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "mayonnaise",
+      "amount": {
+        "value": 59.147,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 egg",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": null,
+      "item": "egg",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "eggs",
+      "amount": {
+        "value": 1,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "1/2 to 3/4 cup bread crumbs",
+      "quantity": 0.5,
+      "quantityMax": 0.75,
+      "unit": "cup",
+      "item": "bread crumbs",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "bread-crumbs",
+      "amount": {
+        "value": 147.868,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 tbsp. old bay seasoning",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "old bay seasoning",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "old-bay-seasoning",
+      "amount": {
+        "value": 14.787,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1/2 tsp. dry mustard",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "dry mustard",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "mustard-seed",
+      "amount": {
+        "value": 2.464,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "Dash of Worcestershire sauce",
+      "quantity": null,
+      "quantityMax": null,
+      "unit": "dash",
+      "item": "Worcestershire sauce",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "low",
+      "shop": true,
+      "catalogId": "worcestershire-sauce",
+      "amount": null
+    }
+  ],
+  "steps": [
+    {
+      "text": "Combine all ingredients in a large bowl (don't get carried away with bread crumbs, just enough to hold cakes together). Make into patties and fry in butter -- for lower fat use cooking spray.",
+      "group": null
+    }
+  ],
+  "footnotes": [],
+  "nutrition": null,
+  "importedNotes": [],
+  "seeAlso": [],
+  "source": {
+    "attribution": "Sherry Johns of Breton Bay, southern Maryland (via a web page)",
+    "file": "RECIPES/SEAFOOD/Crabcake Recipe.png",
+    "type": "image",
+    "duplicateFiles": []
+  }
+}

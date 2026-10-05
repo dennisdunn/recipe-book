@@ -1,0 +1,318 @@
+{
+  "schemaVersion": 1,
+  "id": "f106ff82-006a-5c5c-ba44-be6868fa2cae",
+  "slug": "spaghetti-with-best-ever-bolognese-sauce",
+  "title": "Spaghetti with Best-Ever Bolognese Sauce",
+  "description": null,
+  "category": "Pasta Dishes",
+  "subcategory": null,
+  "tags": [
+    "main"
+  ],
+  "servings": null,
+  "times": [],
+  "ingredients": [
+    {
+      "raw": "1 ½ pounds 85 percent lean ground beef chuck",
+      "quantity": 1.5,
+      "quantityMax": null,
+      "unit": "lb",
+      "item": "85 percent lean ground beef chuck",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "ground-beef",
+      "amount": {
+        "value": 680.388,
+        "unit": "g"
+      }
+    },
+    {
+      "raw": "1 large onion, chopped (1 cup)",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": null,
+      "item": "large onion",
+      "prep": "chopped",
+      "note": "1 cup",
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "onion",
+      "amount": {
+        "value": 1,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "2 medium carrots, chopped (1 cup)",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": null,
+      "item": "medium carrots",
+      "prep": "chopped",
+      "note": "1 cup",
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "carrot",
+      "amount": {
+        "value": 2,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "3 cloves garlic, minced",
+      "quantity": 3,
+      "quantityMax": null,
+      "unit": "clove",
+      "item": "garlic",
+      "prep": "minced",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "garlic",
+      "amount": {
+        "value": 3,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "1 cup half-and-half or milk",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "half-and-half or milk",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "half-and-half",
+      "amount": {
+        "value": 236.588,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 cup chicken broth",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "chicken broth",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "chicken-broth",
+      "amount": {
+        "value": 236.588,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 Tbsp white wine vinegar",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "white wine vinegar",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "white-wine-vinegar",
+      "amount": {
+        "value": 14.787,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 28 oz can crushed tomatoes",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "can",
+      "item": "crushed tomatoes",
+      "prep": null,
+      "note": "package size: 28 oz",
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "diced-tomatoes",
+      "amount": {
+        "value": 1,
+        "unit": "pkg",
+        "package": "can",
+        "packageOz": 28
+      }
+    },
+    {
+      "raw": "1 6 oz can tomato paste",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "can",
+      "item": "tomato paste",
+      "prep": null,
+      "note": "package size: 6 oz",
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "tomato-paste",
+      "amount": {
+        "value": 1,
+        "unit": "pkg",
+        "package": "can",
+        "packageOz": 6
+      }
+    },
+    {
+      "raw": "2 tsp Italian seasoning, crushed",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "Italian seasoning",
+      "prep": "crushed",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "italian-seasoning",
+      "amount": {
+        "value": 9.858,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 tsp ground black pepper",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "ground black pepper",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "black-pepper",
+      "amount": {
+        "value": 4.929,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "½ tsp salt",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "salt",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "salt",
+      "amount": {
+        "value": 2.464,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 14 - 16 oz package dried whole wheat, multigrain or regular spaghetti",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "pkg",
+      "item": "dried whole wheat, multigrain or regular spaghetti",
+      "prep": null,
+      "note": "package size: 14 - 16 oz",
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "spaghetti",
+      "amount": {
+        "value": 1,
+        "unit": "pkg",
+        "package": "pkg",
+        "packageOz": 14
+      }
+    },
+    {
+      "raw": "Grated Parmesan, Romano, or Asiago cheese (optional)",
+      "quantity": null,
+      "quantityMax": null,
+      "unit": null,
+      "item": "Grated Parmesan, Romano, or Asiago cheese",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": true,
+      "confidence": "low",
+      "shop": true,
+      "catalogId": "parmesan-cheese",
+      "amount": null
+    },
+    {
+      "raw": "Fresh oregano (optional)",
+      "quantity": null,
+      "quantityMax": null,
+      "unit": null,
+      "item": "Fresh oregano",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": true,
+      "confidence": "low",
+      "shop": true,
+      "catalogId": "fresh-oregano",
+      "amount": null
+    }
+  ],
+  "steps": [
+    {
+      "text": "In 12-inch skillet brown ground beef, onion, carrot, and garlic until meat is no longer pink, stirring occasionally. Drain off fat.",
+      "group": null
+    },
+    {
+      "text": "Add half-and-half. Bring to boiling. Reduce heat; simmer, uncovered, 5 minutes or until half-and-half is nearly evaporated.",
+      "group": null
+    },
+    {
+      "text": "Stir in broth, then vinegar. Return to boiling. Reduce heat; simmer, uncovered, 15 minutes or until liquid is nearly evaporated.",
+      "group": null
+    },
+    {
+      "text": "Stir in crushed tomatoes, tomato paste, seasoning, pepper, and salt. Bring to boiling. Reduce heat; simmer, uncovered, 5 minutes or until thickened.",
+      "group": null
+    },
+    {
+      "text": "Meanwhile, cook spaghetti, with 1 tablespoon salt added to water, according to package directions. Drain. Serve spaghetti with sauce. Sprinkle with cheese and oregano. Makes 8 servings.",
+      "group": null
+    }
+  ],
+  "footnotes": [],
+  "nutrition": null,
+  "importedNotes": [],
+  "seeAlso": [],
+  "source": {
+    "attribution": null,
+    "file": "RECIPES/PASTA DISHES/Spaghetti with Bolognese Sauce.doc",
+    "type": "doc",
+    "duplicateFiles": []
+  }
+}

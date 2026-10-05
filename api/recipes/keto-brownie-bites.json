@@ -1,0 +1,303 @@
+{
+  "schemaVersion": 1,
+  "id": "cc703a9e-ca3a-5a4c-a670-c4864bf3cfc6",
+  "slug": "keto-brownie-bites",
+  "title": "Keto Brownie Bites",
+  "description": null,
+  "category": "Protein Recipes",
+  "subcategory": "KETO RECIPES",
+  "tags": [
+    "keto"
+  ],
+  "servings": null,
+  "times": [],
+  "ingredients": [
+    {
+      "raw": "6 tablespoons cream cheese",
+      "quantity": 6,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "cream cheese",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "cream-cheese",
+      "amount": {
+        "value": 88.721,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "3 large eggs",
+      "quantity": 3,
+      "quantityMax": null,
+      "unit": null,
+      "item": "large eggs",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "eggs",
+      "amount": {
+        "value": 3,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "3 tablespoons coconut oil",
+      "quantity": 3,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "coconut oil",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "coconut-oil",
+      "amount": {
+        "value": 44.36,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "¼ cup almond milk",
+      "quantity": 0.25,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "almond milk",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "almond-milk",
+      "amount": {
+        "value": 59.147,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 teaspoon vanilla extract",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "vanilla extract",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "vanilla-extract",
+      "amount": {
+        "value": 4.929,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "¼ cup cocoa powder",
+      "quantity": 0.25,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "cocoa powder",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "cocoa-powder",
+      "amount": {
+        "value": 59.147,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "¼ cup almond flour",
+      "quantity": 0.25,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "almond flour",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "almond-flour",
+      "amount": {
+        "value": 59.147,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "¼ cup coconut flour",
+      "quantity": 0.25,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "coconut flour",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "coconut-flour",
+      "amount": {
+        "value": 59.147,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "¼ teaspoon baking soda",
+      "quantity": 0.25,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "baking soda",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "baking-soda",
+      "amount": {
+        "value": 1.232,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "6 TBSP Spenda",
+      "quantity": 6,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "Spenda",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "sweetener",
+      "amount": {
+        "value": 88.721,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "Pinch of salt",
+      "quantity": null,
+      "quantityMax": null,
+      "unit": "pinch",
+      "item": "salt",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "low",
+      "shop": true,
+      "catalogId": "salt",
+      "amount": null
+    },
+    {
+      "raw": "1/3 cup walnut pieces (optional)",
+      "quantity": 0.333,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "walnut pieces",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": true,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "walnuts",
+      "amount": {
+        "value": 78.784,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1/3 cup date pieces (optional)",
+      "quantity": 0.333,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "date pieces",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": true,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "dates",
+      "amount": {
+        "value": 78.784,
+        "unit": "ml"
+      }
+    }
+  ],
+  "steps": [
+    {
+      "text": "Preheat oven to 375 F",
+      "group": null
+    },
+    {
+      "text": "Combine cream cheese, eggs, coconut oil, almond milk, and vanilla extract in one",
+      "group": null
+    },
+    {
+      "text": "bowl. Mix well, and make sure it’s smoooth.",
+      "group": null
+    },
+    {
+      "text": "Combine cocoa powder, almond flour, coconut flour, baking soda, Splenda, and salt in",
+      "group": null
+    },
+    {
+      "text": "a bowl.",
+      "group": null
+    },
+    {
+      "text": "Slowly add the wet ingredients to the dry, mixing well. Add walnuts and dates, if desired.",
+      "group": null
+    },
+    {
+      "text": "Spoon batter into no stick mini cupcake pan.",
+      "group": null
+    },
+    {
+      "text": "Bake for 10 minutes, or until",
+      "group": null
+    },
+    {
+      "text": "Pop out brownie bites using a toothpick and let cool for 5 minutes on cooling rack.",
+      "group": null
+    },
+    {
+      "text": "This makes a total of 6 servings of Delicious Chocolate Keto Brownies.",
+      "group": null
+    },
+    {
+      "text": "Each serving has 196 Calories, 17.68g Fats, 2.7g Net Carbs, and 6.13g Protein.",
+      "group": null
+    }
+  ],
+  "footnotes": [],
+  "nutrition": null,
+  "importedNotes": [],
+  "seeAlso": [],
+  "source": {
+    "attribution": null,
+    "file": "RECIPES/PROTEIN RECIPES/KETO RECIPES/KETO BROWNIES.doc",
+    "type": "doc",
+    "duplicateFiles": []
+  }
+}

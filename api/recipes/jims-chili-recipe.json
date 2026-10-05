@@ -1,0 +1,244 @@
+{
+  "schemaVersion": 1,
+  "id": "c67f359a-789d-5810-a48b-9181f643fef8",
+  "slug": "jims-chili-recipe",
+  "title": "Jim's Chili Recipe",
+  "description": null,
+  "category": "Soups and Stews",
+  "subcategory": null,
+  "tags": [
+    "main"
+  ],
+  "servings": {
+    "text": "Serves 6",
+    "amount": 6
+  },
+  "times": [],
+  "ingredients": [
+    {
+      "raw": "1 ½ lb hamburger meat",
+      "quantity": 1.5,
+      "quantityMax": null,
+      "unit": "lb",
+      "item": "hamburger meat",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "ground-beef",
+      "amount": {
+        "value": 680.388,
+        "unit": "g"
+      }
+    },
+    {
+      "raw": "30 oz can dark red kidney beans, drained",
+      "quantity": 30,
+      "quantityMax": null,
+      "unit": "oz",
+      "item": "can dark red kidney beans",
+      "prep": "drained",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "kidney-beans",
+      "amount": {
+        "value": 850.485,
+        "unit": "g"
+      }
+    },
+    {
+      "raw": "2  16oz can stewed tomatoes",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "can",
+      "item": "stewed tomatoes",
+      "prep": null,
+      "note": "package size: 16 oz",
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "diced-tomatoes",
+      "amount": {
+        "value": 2,
+        "unit": "pkg",
+        "package": "can",
+        "packageOz": 16
+      }
+    },
+    {
+      "raw": "¼ cup dried parsley",
+      "quantity": 0.25,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "dried parsley",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "dried-parsley",
+      "amount": {
+        "value": 59.147,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "2 cups chopped onion",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "chopped onion",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "onion",
+      "amount": {
+        "value": 473.176,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "2 cloves garlic, minced",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "clove",
+      "item": "garlic",
+      "prep": "minced",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "garlic",
+      "amount": {
+        "value": 2,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "1 ½ tsp cumin",
+      "quantity": 1.5,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "cumin",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "cumin",
+      "amount": {
+        "value": 7.393,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "3 TBSP chili powder",
+      "quantity": 3,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "chili powder",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "chili-powder",
+      "amount": {
+        "value": 44.36,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 beer",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": null,
+      "item": "beer",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "beer",
+      "amount": {
+        "value": 1,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "1 bay leaf",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": null,
+      "item": "bay leaf",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "bay-leaf",
+      "amount": {
+        "value": 1,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "V8 low sodium juice as needed",
+      "quantity": null,
+      "quantityMax": null,
+      "unit": null,
+      "item": "V8 low sodium juice as needed",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "vegetable-juice",
+      "amount": null
+    }
+  ],
+  "steps": [
+    {
+      "text": "Brown and drain hamburger",
+      "group": null
+    },
+    {
+      "text": "Add mostly drained tomatoes, 2/3 of kidney beans and remaining ingredients",
+      "group": null
+    },
+    {
+      "text": "Mash reserved kidney beans (to help thicken soup) and add to above",
+      "group": null
+    },
+    {
+      "text": "Simmer covered for 1 ½ to 2 hours.",
+      "group": null
+    }
+  ],
+  "footnotes": [],
+  "nutrition": null,
+  "importedNotes": [],
+  "seeAlso": [],
+  "source": {
+    "attribution": null,
+    "file": "RECIPES/SOUPS AND STEWS/Jim_s Chili Recipe.doc",
+    "type": "doc",
+    "duplicateFiles": []
+  }
+}

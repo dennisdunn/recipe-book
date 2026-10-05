@@ -1,0 +1,217 @@
+{
+  "schemaVersion": 1,
+  "id": "e58e6abf-e99b-5204-8cfc-0a7797c58680",
+  "slug": "chef-johns-cheesy-crackers",
+  "title": "Chef John's Cheesy Crackers",
+  "description": "\"These crunchy, crispy crackers have a big, bold cheese flavor. They're vastly superior to anything you can get at the store. You can change up the cheeses and the spices. It's really a fun thing to play around with.\"",
+  "category": "Snacks",
+  "subcategory": null,
+  "tags": [],
+  "servings": null,
+  "times": [],
+  "ingredients": [
+    {
+      "raw": "1/2 teaspoon vegetable oil",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "vegetable oil",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "vegetable-oil",
+      "amount": {
+        "value": 2.464,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "2 tablespoons unsalted butter at room temperature",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "unsalted butter at room temperature",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "butter",
+      "amount": {
+        "value": 29.574,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "3/4 cup lightly packed shredded sharp Cheddar cheese",
+      "quantity": 0.75,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "lightly packed shredded sharp Cheddar cheese",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "cheddar-cheese",
+      "amount": {
+        "value": 177.441,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1/3 cup lightly packed freshly shredded Parmesan cheese",
+      "quantity": 0.333,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "lightly packed freshly shredded Parmesan cheese",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "parmesan-cheese",
+      "amount": {
+        "value": 78.784,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1/2 teaspoon paprika",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "paprika",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "paprika",
+      "amount": {
+        "value": 2.464,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 pinch cayenne pepper, or to taste",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "pinch",
+      "item": "cayenne pepper",
+      "prep": null,
+      "note": "to taste",
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "cayenne",
+      "amount": {
+        "value": 0.31,
+        "unit": "ml",
+        "approximate": true
+      }
+    },
+    {
+      "raw": "1/4 teaspoon salt",
+      "quantity": 0.25,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "salt",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "salt",
+      "amount": {
+        "value": 1.232,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1/2 cup all-purpose flour",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "all-purpose flour",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "all-purpose-flour",
+      "amount": {
+        "value": 118.294,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 tablespoon cold water, or as needed",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "cold water",
+      "prep": "or as needed",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "water",
+      "amount": {
+        "value": 14.787,
+        "unit": "ml"
+      }
+    }
+  ],
+  "steps": [
+    {
+      "text": "Line a baking sheet with aluminum foil and lightly grease with vegetable oil.",
+      "group": null
+    },
+    {
+      "text": "Place butter into a mixing bowl; add Cheddar cheese, Parmesan cheese, paprika, cayenne pepper, and salt. Mix together with the back of a spatula until thoroughly combined.",
+      "group": null
+    },
+    {
+      "text": "Mix flour into cheese mixture with a fork until crumbly. Sprinkle in cold water, 1 or 2 drops at a time, and mix with spatula until it comes together in a dough that holds its shape when squeezed.",
+      "group": null
+    },
+    {
+      "text": "Transfer dough to a work surface and press into a thick, flattened disk. Wrap in plastic wrap and refrigerate 30 minutes.",
+      "group": null
+    },
+    {
+      "text": "Preheat oven to 375 degrees F (190 degrees C).",
+      "group": null
+    },
+    {
+      "text": "Roll dough out on a floured work surface to about 1/8-inch thick. Use a pizza cutter to cut 1-inch wide strips from the dough. Cut strips crosswise into rectangles about 1 1/2-inches long. Use the back of a bamboo skewer to punch 5 small holes into each cracker. Arrange crackers onto prepared baking sheet.",
+      "group": null
+    },
+    {
+      "text": "Bake in the preheated oven until crackers are browned and crisp, about 15 minutes. Let stand about 3 minutes for crackers to cool and release from the foil. Let cool completely before serving.",
+      "group": null
+    }
+  ],
+  "footnotes": [],
+  "nutrition": null,
+  "importedNotes": [],
+  "seeAlso": [],
+  "source": {
+    "attribution": null,
+    "file": "RECIPES/SNACKS/Cheesy Crackers.doc",
+    "type": "doc",
+    "duplicateFiles": []
+  }
+}

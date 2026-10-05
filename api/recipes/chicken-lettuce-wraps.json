@@ -1,0 +1,297 @@
+{
+  "schemaVersion": 1,
+  "id": "e80f3b9a-9a40-5529-8225-5bb9c18b39b5",
+  "slug": "chicken-lettuce-wraps",
+  "title": "Chicken Lettuce Wraps",
+  "description": "PF Chang’s copycat recipe",
+  "category": "Salads",
+  "subcategory": null,
+  "tags": [
+    "main"
+  ],
+  "servings": null,
+  "times": [],
+  "ingredients": [
+    {
+      "raw": "2 T. sesame oil, divided",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "sesame oil",
+      "prep": "divided",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "sesame-oil",
+      "amount": {
+        "value": 9.858,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 c. mushrooms, chopped",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "mushrooms",
+      "prep": "chopped",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "mushrooms",
+      "amount": {
+        "value": 236.588,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 lb. ground chicken",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "lb",
+      "item": "ground chicken",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "chicken",
+      "amount": {
+        "value": 453.592,
+        "unit": "g"
+      }
+    },
+    {
+      "raw": "2 garlic cloves, minced",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": null,
+      "item": "garlic cloves",
+      "prep": "minced",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "garlic",
+      "amount": {
+        "value": 2,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "6 basil leaves, finely chopped",
+      "quantity": 6,
+      "quantityMax": null,
+      "unit": null,
+      "item": "basil leaves",
+      "prep": "finely chopped",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "fresh-basil",
+      "amount": {
+        "value": 6,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "2 T. hoisin sauce",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "hoisin sauce",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "hoisin-sauce",
+      "amount": {
+        "value": 9.858,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "2 T. teriyaki sauce",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "teriyaki sauce",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "teriyaki-sauce",
+      "amount": {
+        "value": 9.858,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 T. soy sauce",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "soy sauce",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "soy-sauce",
+      "amount": {
+        "value": 4.929,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 t. rice wine vinegar",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "rice wine vinegar",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "rice-vinegar",
+      "amount": {
+        "value": 4.929,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 t. ground ginger",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "ground ginger",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "ground-ginger",
+      "amount": {
+        "value": 4.929,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 t. cornstarch",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "cornstarch",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "cornstarch",
+      "amount": {
+        "value": 4.929,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 T. Sriracha sauce or chili garlic sauce (to taste, optional)",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "Sriracha sauce or chili garlic sauce (",
+      "prep": null,
+      "note": "to taste",
+      "group": null,
+      "optional": true,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "sriracha",
+      "amount": {
+        "value": 4.929,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 head bibb or butter lettuce, separated into leaves",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "head",
+      "item": "bibb or butter lettuce",
+      "prep": "separated into leaves",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "lettuce",
+      "amount": {
+        "value": 1,
+        "unit": "each",
+        "countUnit": "head"
+      }
+    },
+    {
+      "raw": "2 small green onions, sliced",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": null,
+      "item": "small green onions",
+      "prep": "sliced",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "green-onion",
+      "amount": {
+        "value": 2,
+        "unit": "each"
+      }
+    }
+  ],
+  "steps": [
+    {
+      "text": "In a medium wok or skillet over medium heat, heat 1 tablespoon of the sesame oil. Add the mushrooms, and cook, stirring occasionally, until golden brown and softened (about 5 minutes); transfer to a plate and set aside. Add 1 more tablespoon of sesame oil to the skillet and bring the heat back up. Add the chicken and cook until done, about 4-5 minutes, crumbling the meat as it cooks. Drain fat, if needed. Add the minced garlic, stir for 30 seconds. Add the mushrooms back into the skillet and sprinkle in the basil leaves; stir to combine.",
+      "group": null
+    },
+    {
+      "text": "Meanwhile, in a small mason jar or mixing bowl, combine the hoisin sauce, teriyaki sauce, soy sauce, rice wine vinegar, ground ginger, cornstarch, and sriracha; shake or whisk to combine.",
+      "group": null
+    },
+    {
+      "text": "Pour sauce over the chicken mixture and stir to coat evenly; cook until heated through and slightly thickened, about 1 minute.",
+      "group": null
+    },
+    {
+      "text": "Spoon into the leaves of butter lettuce (or scoop over bowls of rice). Top with sliced green onions.",
+      "group": null
+    }
+  ],
+  "footnotes": [],
+  "nutrition": null,
+  "importedNotes": [],
+  "seeAlso": [],
+  "source": {
+    "attribution": null,
+    "file": "RECIPES/SALADS/Chicken Lettuce Wraps.doc",
+    "type": "doc",
+    "duplicateFiles": []
+  }
+}

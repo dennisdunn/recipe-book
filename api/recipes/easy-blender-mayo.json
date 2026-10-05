@@ -1,0 +1,148 @@
+{
+  "schemaVersion": 1,
+  "id": "1c87690a-38fa-5e2d-b787-df2299d5c379",
+  "slug": "easy-blender-mayo",
+  "title": "Easy Blender Mayo",
+  "description": null,
+  "category": "Protein Recipes",
+  "subcategory": "KETO RECIPES",
+  "tags": [
+    "keto"
+  ],
+  "servings": null,
+  "times": [],
+  "ingredients": [
+    {
+      "raw": "2 large egg yolks",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": null,
+      "item": "large egg yolks",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "egg-yolks",
+      "amount": {
+        "value": 2,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "2 tsp lemon juice",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "lemon juice",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "lemon-juice",
+      "amount": {
+        "value": 9.858,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 cup MCT oil (or avocado oil or bacon fat)",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "MCT oil",
+      "prep": null,
+      "note": "or avocado oil or bacon fat",
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "vegetable-oil",
+      "amount": {
+        "value": 236.588,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 TBSP Dijon mustard",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "Dijon mustard",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "dijon-mustard",
+      "amount": {
+        "value": 14.787,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "½ tsp fine sea salt",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "fine sea salt",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "salt",
+      "amount": {
+        "value": 2.464,
+        "unit": "ml"
+      }
+    }
+  ],
+  "steps": [
+    {
+      "text": "Place the ingredients in the order listed in a wife-mouth, pint sized mason jar.",
+      "group": null
+    },
+    {
+      "text": "Place the immersion blender at the bottom of the jar.",
+      "group": null
+    },
+    {
+      "text": "Turn the blender on and bery slowly move it to the top of the jar. Be patient. It should take you about a minute to reach the top.",
+      "group": null
+    },
+    {
+      "text": "Moving the blender slowly is the key to getting the mayonnaise to emulsify.",
+      "group": null
+    },
+    {
+      "text": "Store in the fridge for up to 5 days.",
+      "group": null
+    },
+    {
+      "text": "Option:",
+      "group": null
+    },
+    {
+      "text": "Replace the MCT oil with melted but not hot bacon fat and omit the ½ tsp salt. Taste the mayo and add salt if needed (it may be salty enough from the bacon fat).",
+      "group": null
+    }
+  ],
+  "footnotes": [],
+  "nutrition": {
+    "text": "Calories: 92  Fat: 10g   Protein: .3g   Carbs: 0   Fiber: 0"
+  },
+  "importedNotes": [],
+  "seeAlso": [],
+  "source": {
+    "attribution": null,
+    "file": "RECIPES/PROTEIN RECIPES/KETO RECIPES/Easy Blender Mayo.doc",
+    "type": "doc",
+    "duplicateFiles": []
+  }
+}

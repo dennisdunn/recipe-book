@@ -1,0 +1,261 @@
+{
+  "schemaVersion": 1,
+  "id": "142789eb-3996-59e2-a132-7ba6cb27b88f",
+  "slug": "zuppa-toscana-soup",
+  "title": "Zuppa Toscana Soup",
+  "description": null,
+  "category": "Soups and Stews",
+  "subcategory": null,
+  "tags": [
+    "main"
+  ],
+  "servings": null,
+  "times": [],
+  "ingredients": [
+    {
+      "raw": "1/2 lb mild ground Italian sausage",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "lb",
+      "item": "mild ground Italian sausage",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "sausage",
+      "amount": {
+        "value": 226.796,
+        "unit": "g"
+      }
+    },
+    {
+      "raw": "1/2 lb spicy ground sausage.",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "lb",
+      "item": "spicy ground sausage.",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "sausage",
+      "amount": {
+        "value": 226.796,
+        "unit": "g"
+      }
+    },
+    {
+      "raw": "20 oz frozen cubed potatoes",
+      "quantity": 20,
+      "quantityMax": null,
+      "unit": "oz",
+      "item": "frozen cubed potatoes",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "hash-browns",
+      "amount": {
+        "value": 566.99,
+        "unit": "g"
+      }
+    },
+    {
+      "raw": "3/4 cup (1 medium) chopped onion",
+      "quantity": 0.75,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "chopped onion",
+      "prep": null,
+      "note": "package size: 1 medium",
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "onion",
+      "amount": {
+        "value": 177.441,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 1/2 teaspoons minced garlic",
+      "quantity": 1.5,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "minced garlic",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "garlic",
+      "amount": {
+        "value": 7.393,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "2 cups kale, washed and dried",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "kale",
+      "prep": "washed and dried",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "kale",
+      "amount": {
+        "value": 473.176,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "¼ cup chopped or dried parsley",
+      "quantity": 0.25,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "chopped or dried parsley",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "dried-parsley",
+      "amount": {
+        "value": 59.147,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "2 tablespoons chicken soup base or 6 chicken bullion cubes",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "chicken soup base or 6 chicken bullion cubes",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "chicken-broth",
+      "amount": {
+        "value": 29.574,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 and ½ quarts water",
+      "quantity": 1.5,
+      "quantityMax": null,
+      "unit": "qt",
+      "item": "water",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "water",
+      "amount": {
+        "value": 1419.529,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "¼ tsp coarse black pepper",
+      "quantity": 0.25,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "coarse black pepper",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "black-pepper",
+      "amount": {
+        "value": 1.232,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "Sprinkle of red pepper flakes",
+      "quantity": null,
+      "quantityMax": null,
+      "unit": null,
+      "item": "Sprinkle of red pepper flakes",
+      "prep": null,
+      "note": "add-in as desired",
+      "group": null,
+      "optional": true,
+      "confidence": "low",
+      "shop": false,
+      "catalogId": "red-pepper-flakes",
+      "amount": null
+    },
+    {
+      "raw": "1/2 cup heavy whipping cream",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "heavy whipping cream",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "heavy-cream",
+      "amount": {
+        "value": 118.294,
+        "unit": "ml"
+      }
+    }
+  ],
+  "steps": [
+    {
+      "text": "Cook sausage until done.",
+      "group": null
+    },
+    {
+      "text": "Cook bacon slices over medium heat. Remove bacon and crumble. Set aside.",
+      "group": null
+    },
+    {
+      "text": "Cook onions until translucent. Then add garlic to the onions and cook an additional 1 minute.",
+      "group": null
+    },
+    {
+      "text": "Add chicken soup base, water, and potatoes, simmer 15 minutes.",
+      "group": null
+    },
+    {
+      "text": "Add sausage, kale, and cream. Simmer 4 minutes and serve.",
+      "group": null
+    }
+  ],
+  "footnotes": [],
+  "nutrition": null,
+  "importedNotes": [],
+  "seeAlso": [],
+  "source": {
+    "attribution": null,
+    "file": "RECIPES/SOUPS AND STEWS/Zuppa Toscana.doc",
+    "type": "doc",
+    "duplicateFiles": []
+  }
+}

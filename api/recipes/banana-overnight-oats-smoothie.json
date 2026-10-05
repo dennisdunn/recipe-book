@@ -1,0 +1,146 @@
+{
+  "schemaVersion": 1,
+  "id": "708e29a8-0624-5925-81e5-8f1bd717de32",
+  "slug": "banana-overnight-oats-smoothie",
+  "title": "Banana Overnight Oats Smoothie",
+  "description": "Just soak the oats overnight in your blender container, and in the morning add the frozen banana and ice cubes, and whip it up. Soaking the oats overnight is a must, because if you just add regular rolled oats to your blender, the texture isn't quite as smoothe and silky.",
+  "category": "Protein Recipes",
+  "subcategory": null,
+  "tags": [],
+  "servings": null,
+  "times": [],
+  "ingredients": [
+    {
+      "raw": "1 large banana",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": null,
+      "item": "large banana",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "banana",
+      "amount": {
+        "value": 1,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "1/2 cup rolled oats",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "rolled oats",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "oats",
+      "amount": {
+        "value": 118.294,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 teaspoon chia seeds",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "chia seeds",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "chia-seeds",
+      "amount": {
+        "value": 4.929,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 cup unsweetened soy milk",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "unsweetened soy milk",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "soy-milk",
+      "amount": {
+        "value": 236.588,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1/2 teaspoon maple syrup",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "maple syrup",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "maple-syrup",
+      "amount": {
+        "value": 2.464,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "3 ice cubes",
+      "quantity": 3,
+      "quantityMax": null,
+      "unit": null,
+      "item": "ice cubes",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "ice",
+      "amount": {
+        "value": 3,
+        "unit": "each"
+      }
+    }
+  ],
+  "steps": [
+    {
+      "text": "Peel the banana, break it into about six pieces, and place them in a freezer bag in the freezer overnight.",
+      "group": null
+    },
+    {
+      "text": "Add the rest of the ingredients except for the ice cubes to your blender container, put on the top, and refrigerate overnight.",
+      "group": null
+    },
+    {
+      "text": "In the morning, add the frozen banana and ice cubes to the blender and puree until smooth. Enjoy right away.",
+      "group": null
+    }
+  ],
+  "footnotes": [],
+  "nutrition": null,
+  "importedNotes": [],
+  "seeAlso": [],
+  "source": {
+    "attribution": null,
+    "file": "RECIPES/PROTEIN RECIPES/Banana Overnight Oats Smoothie.doc",
+    "type": "doc",
+    "duplicateFiles": []
+  }
+}

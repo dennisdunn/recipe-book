@@ -1,0 +1,235 @@
+{
+  "schemaVersion": 1,
+  "id": "17f40661-e142-53ff-9016-f38c6f166f25",
+  "slug": "apricot-glazed-chicken",
+  "title": "Apricot Glazed Chicken",
+  "description": null,
+  "category": "Chicken Dishes",
+  "subcategory": null,
+  "tags": [
+    "main"
+  ],
+  "servings": {
+    "text": "Serves 6",
+    "amount": 6
+  },
+  "times": [],
+  "ingredients": [
+    {
+      "raw": "¼ cup low sodium soy sauce",
+      "quantity": 0.25,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "low sodium soy sauce",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "soy-sauce",
+      "amount": {
+        "value": 59.147,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "2 TBSP vegetable oil",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "vegetable oil",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "vegetable-oil",
+      "amount": {
+        "value": 29.574,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "2 TBSP cider vinegar",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "cider vinegar",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "apple-cider-vinegar",
+      "amount": {
+        "value": 29.574,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "2 cloves garlic, minced",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "clove",
+      "item": "garlic",
+      "prep": "minced",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "garlic",
+      "amount": {
+        "value": 2,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "1 TBSP fresh ginger, minced and pealed",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "fresh ginger",
+      "prep": "minced and pealed",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "ginger",
+      "amount": {
+        "value": 14.787,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "¼ tsp salt",
+      "quantity": 0.25,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "salt",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "salt",
+      "amount": {
+        "value": 1.232,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "¼ tsp pepper",
+      "quantity": 0.25,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "pepper",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "black-pepper",
+      "amount": {
+        "value": 1.232,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "¼ tsp red pepper flakes",
+      "quantity": 0.25,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "red pepper flakes",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "red-pepper-flakes",
+      "amount": {
+        "value": 1.232,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "2/3 cup apricot jam",
+      "quantity": 0.667,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "apricot jam",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "jam",
+      "amount": {
+        "value": 157.804,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "4 bone-in chicken breasts",
+      "quantity": 4,
+      "quantityMax": null,
+      "unit": null,
+      "item": "bone-in chicken breasts",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "chicken-breast",
+      "amount": {
+        "value": 4,
+        "unit": "each"
+      }
+    }
+  ],
+  "steps": [
+    {
+      "text": "Whisk together soy sauce, vegetable oil, vinegar, garlic, ginger, salt, red pepper and apricot jam to make a marinade.",
+      "group": null
+    },
+    {
+      "text": "Place chicken in sealable plastic bag and pour marinade over the chicken.",
+      "group": null
+    },
+    {
+      "text": "Marinate in the refrigerator for at least one hour.",
+      "group": null
+    },
+    {
+      "text": "Remove chicken from marinade.",
+      "group": null
+    },
+    {
+      "text": "Grill chicken for approx. 6 minutes on each side, basting with leftover marinade until the chicken reaches internal temperature of 165 degrees.",
+      "group": null
+    },
+    {
+      "text": "Refrigerate any leftovers.",
+      "group": null
+    }
+  ],
+  "footnotes": [],
+  "nutrition": null,
+  "importedNotes": [],
+  "seeAlso": [],
+  "source": {
+    "attribution": null,
+    "file": "RECIPES/CHICKEN DISHES/Apricot Glazed Chicken.doc",
+    "type": "doc",
+    "duplicateFiles": []
+  }
+}

@@ -1,0 +1,214 @@
+{
+  "schemaVersion": 1,
+  "id": "efd24b6c-fd66-50ec-91d2-5a95afd9caa5",
+  "slug": "blueberry-cobbler",
+  "title": "Blueberry Cobbler",
+  "description": null,
+  "category": "Desserts",
+  "subcategory": null,
+  "tags": [],
+  "servings": null,
+  "times": [],
+  "ingredients": [
+    {
+      "raw": "2 cups flour",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "flour",
+      "prep": null,
+      "note": null,
+      "group": "Batter",
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "all-purpose-flour",
+      "amount": {
+        "value": 473.176,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "½ cup sugar",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "sugar",
+      "prep": null,
+      "note": null,
+      "group": "Batter",
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "sugar",
+      "amount": {
+        "value": 118.294,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "3 tsp baking powder",
+      "quantity": 3,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "baking powder",
+      "prep": null,
+      "note": null,
+      "group": "Batter",
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "baking-powder",
+      "amount": {
+        "value": 14.787,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "½ cup butter",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "butter",
+      "prep": null,
+      "note": null,
+      "group": "Batter",
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "butter",
+      "amount": {
+        "value": 118.294,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 cup milk",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "milk",
+      "prep": null,
+      "note": null,
+      "group": "Batter",
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "milk",
+      "amount": {
+        "value": 236.588,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "21 oz. blueberry pie filling",
+      "quantity": 21,
+      "quantityMax": null,
+      "unit": "oz",
+      "item": "blueberry pie filling",
+      "prep": null,
+      "note": null,
+      "group": "Batter",
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "pie-filling",
+      "amount": {
+        "value": 595.339,
+        "unit": "g"
+      }
+    },
+    {
+      "raw": "¼ cup butter",
+      "quantity": 0.25,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "butter",
+      "prep": null,
+      "note": null,
+      "group": "Topping",
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "butter",
+      "amount": {
+        "value": 59.147,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "¼ cup brown sugar",
+      "quantity": 0.25,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "brown sugar",
+      "prep": null,
+      "note": null,
+      "group": "Topping",
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "brown-sugar",
+      "amount": {
+        "value": 59.147,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "½ tsp cinnamon",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "cinnamon",
+      "prep": null,
+      "note": null,
+      "group": "Topping",
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "cinnamon",
+      "amount": {
+        "value": 2.464,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "½ cup chopped walnuts",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "chopped walnuts",
+      "prep": null,
+      "note": null,
+      "group": "Topping",
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "walnuts",
+      "amount": {
+        "value": 118.294,
+        "unit": "ml"
+      }
+    }
+  ],
+  "steps": [
+    {
+      "text": "Mix together dry ingredients. Cut in butter. Add milk. Stir lightly. Pour into pan with tall sides (a large soufflé dish or a dutch oven). Spread blueberries on top and dot with topping.",
+      "group": null
+    },
+    {
+      "text": "Bake at 400 degrees for 40 mins.  Enjoy!",
+      "group": null
+    }
+  ],
+  "footnotes": [],
+  "nutrition": null,
+  "importedNotes": [],
+  "seeAlso": [],
+  "source": {
+    "attribution": null,
+    "file": "RECIPES/DESSERTS/Blueberry Cobbler.doc",
+    "type": "doc",
+    "duplicateFiles": []
+  }
+}

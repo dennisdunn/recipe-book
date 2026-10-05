@@ -1,0 +1,319 @@
+{
+  "schemaVersion": 1,
+  "id": "05c8fba8-262d-55f6-867f-a95c7943a5ab",
+  "slug": "au-gratin-potatoes",
+  "title": "Au Gratin Potatoes",
+  "description": null,
+  "category": "Side Dishes",
+  "subcategory": null,
+  "tags": [],
+  "servings": null,
+  "times": [
+    {
+      "label": "Prep time",
+      "text": "15 mins."
+    },
+    {
+      "label": "Cook time",
+      "text": "1 hr 30 mins"
+    }
+  ],
+  "ingredients": [
+    {
+      "raw": "1 (2 pound) package frozen hash browns (plain or O’Brian)",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "pkg",
+      "item": "frozen hash browns",
+      "prep": null,
+      "note": "package size: 2 pound; plain or O’Brian",
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "hash-browns",
+      "amount": {
+        "value": 1,
+        "unit": "pkg",
+        "package": "pkg",
+        "packageOz": 32
+      }
+    },
+    {
+      "raw": "1 (10.75 ounce) can condensed cream of potato soup",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "can",
+      "item": "condensed cream of potato soup",
+      "prep": null,
+      "note": "package size: 10.75 ounce",
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "cream-of-potato-soup",
+      "amount": {
+        "value": 1,
+        "unit": "pkg",
+        "package": "can",
+        "packageOz": 10.75
+      }
+    },
+    {
+      "raw": "1 (10.75 ounce) can condensed cream of celery soup",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "can",
+      "item": "condensed cream of celery soup",
+      "prep": null,
+      "note": "package size: 10.75 ounce",
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "cream-of-celery-soup",
+      "amount": {
+        "value": 1,
+        "unit": "pkg",
+        "package": "can",
+        "packageOz": 10.75
+      }
+    },
+    {
+      "raw": "1 (8 ounce) container sour cream",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "pkg",
+      "item": "container sour cream",
+      "prep": null,
+      "note": "package size: 8 ounce",
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "sour-cream",
+      "amount": {
+        "value": 1,
+        "unit": "pkg",
+        "package": "pkg",
+        "packageOz": 8
+      }
+    },
+    {
+      "raw": "1 small finely diced onion or onion powder (leave out if using O’Brian potatoes)",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": null,
+      "item": "small finely diced onion or onion powder",
+      "prep": null,
+      "note": "leave out if using O’Brian potatoes",
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "onion",
+      "amount": {
+        "value": 1,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "1/2 green bell pepper, minced (leave out if using O’Brian potatoes)",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": null,
+      "item": "green bell pepper",
+      "prep": "minced",
+      "note": "leave out if using O’Brian potatoes",
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "bell-pepper",
+      "amount": {
+        "value": 0.5,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "Salt and pepper to taste",
+      "quantity": null,
+      "quantityMax": null,
+      "unit": null,
+      "item": "Salt and pepper",
+      "prep": null,
+      "note": "to taste",
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "salt",
+      "amount": null
+    },
+    {
+      "raw": "2 cups shredded Cheddar cheese",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "shredded Cheddar cheese",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "cheddar-cheese",
+      "amount": {
+        "value": 473.176,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 (2 pound) package frozen hash browns",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "pkg",
+      "item": "frozen hash browns",
+      "prep": null,
+      "note": "package size: 2 pound",
+      "group": "Version Two",
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "hash-browns",
+      "amount": {
+        "value": 1,
+        "unit": "pkg",
+        "package": "pkg",
+        "packageOz": 32
+      }
+    },
+    {
+      "raw": "1 (10.75 ounce) can condensed cream of chicken soup",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "can",
+      "item": "condensed cream of chicken soup",
+      "prep": null,
+      "note": "package size: 10.75 ounce",
+      "group": "Version Two",
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "cream-of-chicken-soup",
+      "amount": {
+        "value": 1,
+        "unit": "pkg",
+        "package": "can",
+        "packageOz": 10.75
+      }
+    },
+    {
+      "raw": "1 (10.75 ounce) can condensed cream of mushroom soup",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "can",
+      "item": "condensed cream of mushroom soup",
+      "prep": null,
+      "note": "package size: 10.75 ounce",
+      "group": "Version Two",
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "cream-of-mushroom-soup",
+      "amount": {
+        "value": 1,
+        "unit": "pkg",
+        "package": "can",
+        "packageOz": 10.75
+      }
+    },
+    {
+      "raw": "1 (8 ounce) container sour cream",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "pkg",
+      "item": "container sour cream",
+      "prep": null,
+      "note": "package size: 8 ounce",
+      "group": "Version Two",
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "sour-cream",
+      "amount": {
+        "value": 1,
+        "unit": "pkg",
+        "package": "pkg",
+        "packageOz": 8
+      }
+    },
+    {
+      "raw": "2 cups shredded Cheddar cheese",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "shredded Cheddar cheese",
+      "prep": null,
+      "note": null,
+      "group": "Version Two",
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "cheddar-cheese",
+      "amount": {
+        "value": 473.176,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "Dot potato/soup mixture with butter",
+      "quantity": null,
+      "quantityMax": null,
+      "unit": null,
+      "item": "Dot potato/soup mixture with butter",
+      "prep": null,
+      "note": null,
+      "group": "Version Two",
+      "optional": false,
+      "confidence": "low",
+      "shop": true,
+      "catalogId": "potato",
+      "amount": null
+    }
+  ],
+  "steps": [
+    {
+      "text": "Preheat oven to 350 degrees F (150 degrees C). Grease a 9x13 inch baking pan.",
+      "group": null
+    },
+    {
+      "text": "Mix together potato soup, celery soup, (onion and green bell pepper), sour cream, and half of the cheese.",
+      "group": null
+    },
+    {
+      "text": "Pour the mixture over the potatoes, stir and transfer to baking pan.",
+      "group": null
+    },
+    {
+      "text": "Dot with butter, cover with foil and bake in the preheated 300 degrees F (150 degrees C) oven for 60 minutes.",
+      "group": null
+    },
+    {
+      "text": "Remove pan from oven, sprinkle with (*cornflakes) and remaining cheese, and bake another 30 minutes or until the cheese melts.",
+      "group": null
+    }
+  ],
+  "footnotes": [
+    "Optional: Mix together 1 cup cornflakes and ½ cup melted unsalted butter and sprinkle over top, then add remaining cheese and bake uncovered until cheese has melted and cornflakes are golden brown (approx. 20 to 30 minutes)."
+  ],
+  "nutrition": null,
+  "importedNotes": [],
+  "seeAlso": [],
+  "source": {
+    "attribution": null,
+    "file": "RECIPES/SIDE DISHES/Au Gratin Potatoes.doc",
+    "type": "doc",
+    "duplicateFiles": []
+  }
+}

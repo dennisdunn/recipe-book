@@ -1,0 +1,134 @@
+{
+  "schemaVersion": 1,
+  "id": "c7b6284c-73ff-5a7e-8307-873341351aa3",
+  "slug": "coconut-curry",
+  "title": "Coconut Curry",
+  "description": "To serve 4, use large vegetables, full quart of sauce and 1 cup of rice.",
+  "category": "Protein Recipes",
+  "subcategory": "KETO RECIPES",
+  "tags": [
+    "keto",
+    "main"
+  ],
+  "servings": {
+    "text": "Serves 2 with small amount left over.",
+    "amount": 2
+  },
+  "times": [],
+  "ingredients": [
+    {
+      "raw": "1 yam, peeled and diced",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": null,
+      "item": "yam",
+      "prep": "peeled and diced",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "sweet-potato",
+      "amount": {
+        "value": 1,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "1 yellow squash, peeled and diced",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": null,
+      "item": "yellow squash",
+      "prep": "peeled and diced",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "yellow-squash",
+      "amount": {
+        "value": 1,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "1 zucchini, diced",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": null,
+      "item": "zucchini",
+      "prep": "diced",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "zucchini",
+      "amount": {
+        "value": 1,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "½ quart Coconut Curry Sauce (from Costco)",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "qt",
+      "item": "Coconut Curry Sauce",
+      "prep": null,
+      "note": "from Costco",
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "curry-sauce",
+      "amount": {
+        "value": 473.176,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "½ cup rice (Jasmine, Basmati or wild rice) Salt and pepper lightly and add butter.",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "rice  Salt and pepper lightly and add butter.",
+      "prep": null,
+      "note": "Jasmine, Basmati or wild rice",
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "rice",
+      "amount": {
+        "value": 118.294,
+        "unit": "ml"
+      }
+    }
+  ],
+  "steps": [
+    {
+      "text": "Saute yams halfway, then add squash and zucchini and continue sautéing,",
+      "group": null
+    },
+    {
+      "text": "Add Coconut Curry sauce and simmer.",
+      "group": null
+    },
+    {
+      "text": "Note: I did not add spices because sauce is great without additional seasoning.",
+      "group": null
+    }
+  ],
+  "footnotes": [],
+  "nutrition": null,
+  "importedNotes": [],
+  "seeAlso": [],
+  "source": {
+    "attribution": null,
+    "file": "RECIPES/PROTEIN RECIPES/KETO RECIPES/COCONUT CURRY.doc",
+    "type": "doc",
+    "duplicateFiles": []
+  }
+}

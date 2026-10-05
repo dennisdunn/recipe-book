@@ -1,0 +1,167 @@
+{
+  "schemaVersion": 1,
+  "id": "0c2adcf2-ee7a-565f-bcef-92b5264b5add",
+  "slug": "bacon-stuffed-yams",
+  "title": "Bacon-Stuffed Yams",
+  "description": null,
+  "category": "Protein Recipes",
+  "subcategory": "KETO RECIPES",
+  "tags": [
+    "keto"
+  ],
+  "servings": {
+    "text": "Yield: 4 servings",
+    "amount": 4
+  },
+  "times": [],
+  "ingredients": [
+    {
+      "raw": "4 medium garnet yams, baked and cooled*",
+      "quantity": 4,
+      "quantityMax": null,
+      "unit": null,
+      "item": "medium garnet yams",
+      "prep": "baked and cooled",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "sweet-potato",
+      "amount": {
+        "value": 4,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "4 eggs",
+      "quantity": 4,
+      "quantityMax": null,
+      "unit": null,
+      "item": "eggs",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "eggs",
+      "amount": {
+        "value": 4,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "½ teaspoon minced rosemary (fresh or dried)",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "minced rosemary",
+      "prep": null,
+      "note": "fresh or dried",
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "fresh-rosemary",
+      "amount": {
+        "value": 2.464,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "½ teaspoon sea salt",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "sea salt",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "salt",
+      "amount": {
+        "value": 2.464,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "¼ teaspoon cracked black pepper",
+      "quantity": 0.25,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "cracked black pepper",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "black-pepper",
+      "amount": {
+        "value": 1.232,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "½ cup finely chopped cooked clean, pastured bacon or sausage",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "finely chopped cooked bacon or sausage",
+      "prep": null,
+      "note": "clean, pastured",
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "bacon",
+      "amount": {
+        "value": 118.294,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "2 tablespoons finely chopped shallot",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "finely chopped shallot",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "shallot",
+      "amount": {
+        "value": 29.574,
+        "unit": "ml"
+      }
+    }
+  ],
+  "steps": [
+    {
+      "text": "Set the oven temp to 350°F and line a baking sheet with aluminum foil. Using a sharp knife, cleanly slice off the very top of each baked potato and set aside. Carefully scoop out the flesh and set aside for another use – a melon baller works well for this. Leave enough flesh inside the skin for the potato to hold its shape well. Arrange potatoes open-side-up on the prepared baking sheet.",
+      "group": null
+    },
+    {
+      "text": "In a small bowl lightly whisk together the eggs, rosemary, salt and pepper. Add the meat and shallot and stir with a fork to thoroughly combine. Carefully spoon the egg filling into the cavity of each potato until it is nearly full. Bake for 20–25 minutes or until the centers are nearly solid, but the mixture is still soft. Do not over-bake.",
+      "group": null
+    }
+  ],
+  "footnotes": [
+    "To bake your potatoes, simply scrub them well, wipe dry and arrange on a foil-lined baking sheet. Bake them for 1 hour at 400°F or until soft to the squeeze. Cool and prepare the recipe as follows."
+  ],
+  "nutrition": null,
+  "importedNotes": [],
+  "seeAlso": [],
+  "source": {
+    "attribution": null,
+    "file": "RECIPES/PROTEIN RECIPES/KETO RECIPES/Bacon-Stuffed Yams.doc",
+    "type": "doc",
+    "duplicateFiles": []
+  }
+}

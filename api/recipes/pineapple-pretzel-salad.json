@@ -1,0 +1,199 @@
+{
+  "schemaVersion": 1,
+  "id": "d8059e18-cca7-5454-b0ed-5d58ee8e9773",
+  "slug": "pineapple-pretzel-salad",
+  "title": "Pineapple Pretzel Salad",
+  "description": null,
+  "category": "Salads",
+  "subcategory": null,
+  "tags": [],
+  "servings": {
+    "text": "Original recipe makes 1 - 9x13 inch dish",
+    "amount": 1
+  },
+  "times": [],
+  "ingredients": [
+    {
+      "raw": "2 cups crushed pretzels",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "crushed pretzels",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "pretzels",
+      "amount": {
+        "value": 473.176,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 stick butter, melted",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "stick",
+      "item": "butter",
+      "prep": "melted",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "butter",
+      "amount": {
+        "value": 113.4,
+        "unit": "g"
+      }
+    },
+    {
+      "raw": "1 (8 ounce) package cream cheese",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "pkg",
+      "item": "cream cheese",
+      "prep": null,
+      "note": "package size: 8 ounce",
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "cream-cheese",
+      "amount": {
+        "value": 1,
+        "unit": "pkg",
+        "package": "pkg",
+        "packageOz": 8
+      }
+    },
+    {
+      "raw": "1 cup white sugar",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "white sugar",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "sugar",
+      "amount": {
+        "value": 236.588,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 (8 ounce) container frozen whipped topping, thawed",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "pkg",
+      "item": "container frozen whipped topping",
+      "prep": "thawed",
+      "note": "package size: 8 ounce",
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "whipped-topping",
+      "amount": {
+        "value": 1,
+        "unit": "pkg",
+        "package": "pkg",
+        "packageOz": 8
+      }
+    },
+    {
+      "raw": "2 (20 ounce) cans crushed pineapple, drained",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "can",
+      "item": "crushed pineapple",
+      "prep": "drained",
+      "note": "package size: 20 ounce",
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "crushed-pineapple",
+      "amount": {
+        "value": 2,
+        "unit": "pkg",
+        "package": "can",
+        "packageOz": 20
+      }
+    },
+    {
+      "raw": "1/2 (3.4 ounce) package instant vanilla pudding mix",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "pkg",
+      "item": "instant vanilla pudding mix",
+      "prep": null,
+      "note": "package size: 3.4 ounce",
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "pudding-mix",
+      "amount": {
+        "value": 0.5,
+        "unit": "pkg",
+        "package": "pkg",
+        "packageOz": 3.4
+      }
+    }
+  ],
+  "steps": [
+    {
+      "text": "Preheat oven to 350 degrees F (175 degrees C).",
+      "group": null
+    },
+    {
+      "text": "Place crushed pretzels in the bottom of a 9x13 inch baking dish.",
+      "group": null
+    },
+    {
+      "text": "Pour melted butter carefully over top. Bake in preheated oven 10 minutes.",
+      "group": null
+    },
+    {
+      "text": "Cream together cream cheese and sugar.",
+      "group": null
+    },
+    {
+      "text": "Fold in whipped topping.",
+      "group": null
+    },
+    {
+      "text": "Spread over cooled crust.",
+      "group": null
+    },
+    {
+      "text": "Combine pineapple and pudding mix. Spread over whipped topping layer.",
+      "group": null
+    },
+    {
+      "text": "Chill until serving.",
+      "group": null
+    }
+  ],
+  "footnotes": [],
+  "nutrition": null,
+  "importedNotes": [
+    {
+      "text": "Do NOT make the pudding, just mix in the dry mix with the pineapple."
+    }
+  ],
+  "seeAlso": [],
+  "source": {
+    "attribution": null,
+    "file": "RECIPES/SALADS/Pineapple Pretzel Salad.doc",
+    "type": "doc",
+    "duplicateFiles": []
+  }
+}

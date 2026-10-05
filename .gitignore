@@ -1,0 +1,3 @@
+.DS_Store
+# points at a per-session scratch directory
+.claude/launch.json

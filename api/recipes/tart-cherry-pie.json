@@ -1,0 +1,238 @@
+{
+  "schemaVersion": 1,
+  "id": "3136d6af-064a-595f-af9b-4aa332c636e3",
+  "slug": "tart-cherry-pie",
+  "title": "Tart Cherry Pie",
+  "description": null,
+  "category": "Desserts",
+  "subcategory": null,
+  "tags": [],
+  "servings": null,
+  "times": [],
+  "ingredients": [
+    {
+      "raw": "5 (14.5 ounce) cans tart pitted cherries packed in water, drained",
+      "quantity": 5,
+      "quantityMax": null,
+      "unit": "can",
+      "item": "tart pitted cherries packed in water",
+      "prep": "drained",
+      "note": "package size: 14.5 ounce",
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "pie-filling",
+      "amount": {
+        "value": 5,
+        "unit": "pkg",
+        "package": "can",
+        "packageOz": 14.5
+      }
+    },
+    {
+      "raw": "1 cup brown sugar",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "brown sugar",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "brown-sugar",
+      "amount": {
+        "value": 236.588,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1/2 cup white sugar",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "white sugar",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "sugar",
+      "amount": {
+        "value": 118.294,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "Liquid pectin (see directions on box)",
+      "quantity": null,
+      "quantityMax": null,
+      "unit": null,
+      "item": "Liquid pectin",
+      "prep": null,
+      "note": "see directions on box",
+      "group": null,
+      "optional": false,
+      "confidence": "low",
+      "shop": true,
+      "catalogId": "liquid-pectin",
+      "amount": null
+    },
+    {
+      "raw": "1/2 teaspoon almond extract",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "almond extract",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "almond-extract",
+      "amount": {
+        "value": 2.464,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1/4 teaspoon cinnamon",
+      "quantity": 0.25,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "cinnamon",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "cinnamon",
+      "amount": {
+        "value": 1.232,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 pinch salt",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "pinch",
+      "item": "salt",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "salt",
+      "amount": {
+        "value": 0.31,
+        "unit": "ml",
+        "approximate": true
+      }
+    },
+    {
+      "raw": "1 tablespoon butter, diced",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "butter",
+      "prep": "diced",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "butter",
+      "amount": {
+        "value": 14.787,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 recipe pastry for double-crust pie",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": null,
+      "item": "pie crust",
+      "prep": null,
+      "note": "double crust, unbaked",
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "pie-crust",
+      "amount": {
+        "value": 1,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "2 tablespoons milk",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "milk",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "milk",
+      "amount": {
+        "value": 29.574,
+        "unit": "ml"
+      }
+    }
+  ],
+  "steps": [
+    {
+      "text": "Preheat oven to 400 degrees F (200 degrees C).",
+      "group": null
+    },
+    {
+      "text": "In a large bowl, gently stir the cherries, brown sugar, and white sugar until all the sugar has dissolved.",
+      "group": null
+    },
+    {
+      "text": "Mix in the liquid pectin (for thickening), almond extract, cinnamon, and salt. Let stand 15 minutes.",
+      "group": null
+    },
+    {
+      "text": "Roll out half of pastry into a circle slightly larger than the pie plate, and place in bottom of pie plate.",
+      "group": null
+    },
+    {
+      "text": "Pour filling into pie plate, and dot with butter.",
+      "group": null
+    },
+    {
+      "text": "Roll out top crust pie slightly larger than the pie plate, cut into wide lattice strips and place over the cherries. Seal lattice where it overlaps bottom crust, and brush with milk.",
+      "group": null
+    },
+    {
+      "text": "Bake 45 minutes in the preheated oven, until crust is browned and filling is bubbly.",
+      "group": null
+    },
+    {
+      "text": "Cool 1 hour before serving.",
+      "group": null
+    }
+  ],
+  "footnotes": [],
+  "nutrition": null,
+  "importedNotes": [],
+  "seeAlso": [],
+  "source": {
+    "attribution": null,
+    "file": "RECIPES/DESSERTS/Tart Cherry Pie.doc",
+    "type": "doc",
+    "duplicateFiles": []
+  }
+}

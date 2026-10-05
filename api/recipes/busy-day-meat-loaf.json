@@ -1,0 +1,217 @@
+{
+  "schemaVersion": 1,
+  "id": "efd2b32c-02d4-549c-84e2-5963235e0aef",
+  "slug": "busy-day-meat-loaf",
+  "title": "Busy Day Meat Loaf",
+  "description": null,
+  "category": "Beef Dishes",
+  "subcategory": null,
+  "tags": [
+    "main"
+  ],
+  "servings": {
+    "text": "Serves 6",
+    "amount": 6
+  },
+  "times": [],
+  "ingredients": [
+    {
+      "raw": "1 egg",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": null,
+      "item": "egg",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "eggs",
+      "amount": {
+        "value": 1,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "1 cup milk",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "milk",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "milk",
+      "amount": {
+        "value": 236.588,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "2 TBSP Worchestershire Sauce",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "Worchestershire Sauce",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "worcestershire-sauce",
+      "amount": {
+        "value": 29.574,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "2 TBSP catsup",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "catsup",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "ketchup",
+      "amount": {
+        "value": 29.574,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 tsp celery salt",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "celery salt",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "celery-salt",
+      "amount": {
+        "value": 4.929,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "¼ cup chopped onions",
+      "quantity": 0.25,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "chopped onions",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "onion",
+      "amount": {
+        "value": 59.147,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "2 cup cornflakes",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "cornflakes",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "cornflakes",
+      "amount": {
+        "value": 473.176,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 ½ lb ground beef",
+      "quantity": 1.5,
+      "quantityMax": null,
+      "unit": "lb",
+      "item": "ground beef",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "ground-beef",
+      "amount": {
+        "value": 680.388,
+        "unit": "g"
+      }
+    },
+    {
+      "raw": "¼ lb ground pork sausage",
+      "quantity": 0.25,
+      "quantityMax": null,
+      "unit": "lb",
+      "item": "ground pork sausage",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "sausage",
+      "amount": {
+        "value": 113.398,
+        "unit": "g"
+      }
+    }
+  ],
+  "steps": [
+    {
+      "text": "Beat egg, milk, Worchestershire, catsup, celery salt and onions together",
+      "group": null
+    },
+    {
+      "text": "All cornflakes and mix well",
+      "group": null
+    },
+    {
+      "text": "Add meat and mix thoroughly",
+      "group": null
+    },
+    {
+      "text": "Pack lightly into 9x5x3 bread pan",
+      "group": null
+    },
+    {
+      "text": "Glaze with catsup, brown sugar and mustard mixture",
+      "group": null
+    },
+    {
+      "text": "Bake at 350 degrees for 1 to 1 ¼ hours",
+      "group": null
+    }
+  ],
+  "footnotes": [],
+  "nutrition": null,
+  "importedNotes": [],
+  "seeAlso": [],
+  "source": {
+    "attribution": null,
+    "file": "RECIPES/BEEF DISHES/Busy Day Meatloaf.doc",
+    "type": "doc",
+    "duplicateFiles": []
+  }
+}

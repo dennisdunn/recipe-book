@@ -1,0 +1,154 @@
+{
+  "schemaVersion": 1,
+  "id": "4b2c7077-2018-5874-a285-1bfc39ff1b41",
+  "slug": "marinade-for-pork-tenderloin",
+  "title": "Marinade for Pork Tenderloin",
+  "description": null,
+  "category": "Pork Dishes",
+  "subcategory": null,
+  "tags": [],
+  "servings": null,
+  "times": [],
+  "ingredients": [
+    {
+      "raw": "1 Tbsp hot mustard",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "hot mustard",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "yellow-mustard",
+      "amount": {
+        "value": 14.787,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "¼ cup brown sugar",
+      "quantity": 0.25,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "brown sugar",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "brown-sugar",
+      "amount": {
+        "value": 59.147,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "¼ cup chili sauce",
+      "quantity": 0.25,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "chili sauce",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "sriracha",
+      "amount": {
+        "value": 59.147,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "¼ cup pineapple juice",
+      "quantity": 0.25,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "pineapple juice",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "pineapple",
+      "amount": {
+        "value": 59.147,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 Tbsp crushed pineapple (or more as desired)",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "crushed pineapple",
+      "prep": null,
+      "note": "or more as desired",
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "crushed-pineapple",
+      "amount": {
+        "value": 14.787,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 tsp minced garlic",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "minced garlic",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "garlic",
+      "amount": {
+        "value": 4.929,
+        "unit": "ml"
+      }
+    }
+  ],
+  "steps": [
+    {
+      "text": "Combine ingredients",
+      "group": null
+    },
+    {
+      "text": "Put ½ of a tenderloin in plastic bag",
+      "group": null
+    },
+    {
+      "text": "Cover with marinade and let rest for 6 hours",
+      "group": null
+    },
+    {
+      "text": "Put in glass baking dish and cover with foil.",
+      "group": null
+    },
+    {
+      "text": "Bake at 225 for 45 minutes then increase temperature to 425 for 20 minutes",
+      "group": null
+    }
+  ],
+  "footnotes": [],
+  "nutrition": null,
+  "importedNotes": [],
+  "seeAlso": [],
+  "source": {
+    "attribution": null,
+    "file": "RECIPES/PORK DISHES/Marinade for Pork Tenderloin.doc",
+    "type": "doc",
+    "duplicateFiles": []
+  }
+}

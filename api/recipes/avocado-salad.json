@@ -1,0 +1,193 @@
+{
+  "schemaVersion": 1,
+  "id": "015b968b-86f5-51f3-8557-1e028f954e56",
+  "slug": "avocado-salad",
+  "title": "Avocado Salad",
+  "description": "\"Make sure to use large, ripe avocados and Walla Walla sweet, or Vidalia onions in this recipe. I think you'll like it.\"",
+  "category": "Salads",
+  "subcategory": null,
+  "tags": [],
+  "servings": {
+    "text": "6",
+    "amount": 6
+  },
+  "times": [
+    {
+      "label": "Prep time",
+      "text": "10 Min"
+    },
+    {
+      "label": "Ready in",
+      "text": "10 Min"
+    }
+  ],
+  "ingredients": [
+    {
+      "raw": "2 avocados - peeled, pitted and diced",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": null,
+      "item": "avocados",
+      "prep": "peeled, pitted and diced",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "avocado",
+      "amount": {
+        "value": 2,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "1 sweet onion, chopped",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": null,
+      "item": "sweet onion",
+      "prep": "chopped",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "onion",
+      "amount": {
+        "value": 1,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "1 green bell pepper, chopped",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": null,
+      "item": "green bell pepper",
+      "prep": "chopped",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "bell-pepper",
+      "amount": {
+        "value": 1,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "1 large ripe tomato, chopped",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": null,
+      "item": "large ripe tomato",
+      "prep": "chopped",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "tomato",
+      "amount": {
+        "value": 1,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "1/4 cup chopped fresh cilantro",
+      "quantity": 0.25,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "chopped fresh cilantro",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "fresh-cilantro",
+      "amount": {
+        "value": 59.147,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1/2 lime, juiced",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": null,
+      "item": "lime",
+      "prep": "juiced",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "lime",
+      "amount": {
+        "value": 0.5,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "salt and pepper to taste",
+      "quantity": null,
+      "quantityMax": null,
+      "unit": null,
+      "item": "salt and pepper",
+      "prep": null,
+      "note": "to taste",
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "salt",
+      "amount": null
+    },
+    {
+      "raw": "Serve over baby spinach",
+      "quantity": null,
+      "quantityMax": null,
+      "unit": null,
+      "item": "Serve over baby spinach",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "low",
+      "shop": true,
+      "catalogId": "spinach",
+      "amount": null
+    }
+  ],
+  "steps": [
+    {
+      "text": "In a medium bowl, combine avocados, onion, bell pepper, tomato, cilantro and lime juice. Gently toss until evenly coated. Season with salt and pepper and serve it over baby spinach",
+      "group": null
+    }
+  ],
+  "footnotes": [],
+  "nutrition": null,
+  "importedNotes": [
+    {
+      "text": "Use red or yellow bell pepper for color"
+    },
+    {
+      "text": "Use lemon instead of lime"
+    },
+    {
+      "text": "Substitute parsley instead of cilantro"
+    },
+    {
+      "text": "Add garlic and onion powders"
+    }
+  ],
+  "seeAlso": [],
+  "source": {
+    "attribution": null,
+    "file": "RECIPES/SALADS/Avacado Salad.doc",
+    "type": "doc",
+    "duplicateFiles": []
+  }
+}

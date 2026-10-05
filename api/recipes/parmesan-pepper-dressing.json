@@ -1,0 +1,160 @@
+{
+  "schemaVersion": 1,
+  "id": "51f4d7f9-7ae6-5fd6-a5be-52a6f79da739",
+  "slug": "parmesan-pepper-dressing",
+  "title": "Parmesan-Pepper Dressing",
+  "description": null,
+  "category": "Protein Recipes",
+  "subcategory": "KETO RECIPES",
+  "tags": [
+    "keto"
+  ],
+  "servings": null,
+  "times": [],
+  "ingredients": [
+    {
+      "raw": "3 tablespoons oil (extra-virgin olive oil)",
+      "quantity": 3,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "oil",
+      "prep": null,
+      "note": "extra-virgin olive oil",
+      "group": "Basic creamy vinaigrette",
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "vegetable-oil",
+      "amount": {
+        "value": 44.36,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "2 tablespoons vinegar (white, cider, wine, red wine vinegar, not balsamic)",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "vinegar",
+      "prep": null,
+      "note": "white, cider, wine, red wine vinegar, not balsamic",
+      "group": "Basic creamy vinaigrette",
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "white-vinegar",
+      "amount": {
+        "value": 29.574,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "salt",
+      "quantity": null,
+      "quantityMax": null,
+      "unit": null,
+      "item": "salt",
+      "prep": null,
+      "note": null,
+      "group": "Basic creamy vinaigrette",
+      "optional": false,
+      "confidence": "low",
+      "shop": true,
+      "catalogId": "salt",
+      "amount": null
+    },
+    {
+      "raw": "black pepper (fresh-ground)",
+      "quantity": null,
+      "quantityMax": null,
+      "unit": null,
+      "item": "black pepper",
+      "prep": null,
+      "note": "fresh-ground",
+      "group": "Basic creamy vinaigrette",
+      "optional": false,
+      "confidence": "low",
+      "shop": true,
+      "catalogId": "black-pepper",
+      "amount": null
+    },
+    {
+      "raw": "2 - 3 TBSP mayonnaise (or sour cream or plain yogurt)",
+      "quantity": 2,
+      "quantityMax": 3,
+      "unit": "tbsp",
+      "item": "mayonnaise",
+      "prep": null,
+      "note": "or sour cream or plain yogurt",
+      "group": "Basic creamy vinaigrette",
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "mayonnaise",
+      "amount": {
+        "value": 36.967,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 TBSP grated parmesan cheese",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "grated parmesan cheese",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "parmesan-cheese",
+      "amount": {
+        "value": 14.787,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1/8 teaspoon fresh ground black pepper (to taste)",
+      "quantity": 0.125,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "fresh ground black pepper",
+      "prep": null,
+      "note": "to taste",
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "black-pepper",
+      "amount": {
+        "value": 0.616,
+        "unit": "ml"
+      }
+    }
+  ],
+  "steps": [
+    {
+      "text": "Shake all ingredients together in a tightly-lidded container OR whisk together in a small bowl.",
+      "group": null
+    },
+    {
+      "text": "Let stand 10 minutes to rehydrate dried herbs and blend flavors.",
+      "group": null
+    },
+    {
+      "text": "Shake again then dress salad as desired.",
+      "group": null
+    }
+  ],
+  "footnotes": [],
+  "nutrition": null,
+  "importedNotes": [],
+  "seeAlso": [],
+  "source": {
+    "attribution": null,
+    "file": "RECIPES/PROTEIN RECIPES/KETO RECIPES/Basic Vinaigrette.doc",
+    "type": "doc",
+    "duplicateFiles": []
+  }
+}

@@ -1,0 +1,198 @@
+{
+  "schemaVersion": 1,
+  "id": "103ed669-6cc7-5db2-8f55-1cedebc55405",
+  "slug": "mamas-potato-salad",
+  "title": "Mama's Potato Salad",
+  "description": null,
+  "category": "Salads",
+  "subcategory": null,
+  "tags": [],
+  "servings": null,
+  "times": [],
+  "ingredients": [
+    {
+      "raw": "5 pounds potatoes, peeled and cubed",
+      "quantity": 5,
+      "quantityMax": null,
+      "unit": "lb",
+      "item": "potatoes",
+      "prep": "peeled and cubed",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "potato",
+      "amount": {
+        "value": 2267.96,
+        "unit": "g"
+      }
+    },
+    {
+      "raw": "2 cups mayonnaise",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "mayonnaise",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "mayonnaise",
+      "amount": {
+        "value": 473.176,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1/2 cup yellow mustard",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "yellow mustard",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "yellow-mustard",
+      "amount": {
+        "value": 118.294,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 cup chopped onion",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "chopped onion",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "onion",
+      "amount": {
+        "value": 236.588,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "2 tablespoons prepared horseradish",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "prepared horseradish",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "horseradish",
+      "amount": {
+        "value": 29.574,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "sea salt to taste",
+      "quantity": null,
+      "quantityMax": null,
+      "unit": null,
+      "item": "sea salt",
+      "prep": null,
+      "note": "to taste",
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "salt",
+      "amount": null
+    },
+    {
+      "raw": "8 hard-cooked eggs, chopped",
+      "quantity": 8,
+      "quantityMax": null,
+      "unit": null,
+      "item": "hard-cooked eggs",
+      "prep": "chopped",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "eggs",
+      "amount": {
+        "value": 8,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "3 dill pickles, chopped (optional)",
+      "quantity": 3,
+      "quantityMax": null,
+      "unit": null,
+      "item": "dill pickles",
+      "prep": "chopped",
+      "note": null,
+      "group": null,
+      "optional": true,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "pickles",
+      "amount": {
+        "value": 3,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "freshly ground black pepper to taste",
+      "quantity": null,
+      "quantityMax": null,
+      "unit": null,
+      "item": "freshly ground black pepper",
+      "prep": null,
+      "note": "to taste",
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "black-pepper",
+      "amount": null
+    }
+  ],
+  "steps": [
+    {
+      "text": "Place the potatoes in a large pot with enough water to cover. Bring to a boil, and cook for about 10 minutes, or until tender. Drain, and place in a serving bowl.",
+      "group": null
+    },
+    {
+      "text": "Stir the onion, salt and pepper into the potatoes while they are still hot. This allows the potatoes to absorb the flavor. Allow to cool for about 20 minutes.",
+      "group": null
+    },
+    {
+      "text": "Add the mayonnaise, mustard and horseradish to the salad, and mix well. Gently stir in the eggs and dill pickles. Finish off with a generous grinding of black pepper on top. Chill for about 30 minutes before serving.",
+      "group": null
+    }
+  ],
+  "footnotes": [],
+  "nutrition": null,
+  "importedNotes": [
+    {
+      "text": "For hard-cooked eggs, place the eggs in a saucepan, and cover with cold water. Bring to a boil, then remove from the heat immediately, and let stand covered in the hot water for 10 minutes. Cool, peel and use as desired."
+    }
+  ],
+  "seeAlso": [],
+  "source": {
+    "attribution": null,
+    "file": "RECIPES/SALADS/Mama_s Potato Salad.doc",
+    "type": "doc",
+    "duplicateFiles": []
+  }
+}

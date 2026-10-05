@@ -1,0 +1,324 @@
+{
+  "schemaVersion": 1,
+  "id": "ac6b28c9-f776-566a-b9c2-c00e47afc41e",
+  "slug": "greek-pasta-salad",
+  "title": "Greek Pasta Salad",
+  "description": null,
+  "category": "Salads",
+  "subcategory": null,
+  "tags": [],
+  "servings": null,
+  "times": [],
+  "ingredients": [
+    {
+      "raw": "2 1/2 cups cooked tri-colored rotini",
+      "quantity": 2.5,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "cooked tri-colored rotini",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "rotini",
+      "amount": {
+        "value": 591.47,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "3 cups fresh sliced mushrooms (omit for Shawn)  or artichoke hearts (not marinated)",
+      "quantity": 3,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "fresh sliced mushrooms",
+      "prep": null,
+      "note": "omit for Shawn; or artichoke hearts (not marinated)",
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "mushrooms",
+      "amount": {
+        "value": 709.764,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "15 cherry tomatoes, halved",
+      "quantity": 15,
+      "quantityMax": null,
+      "unit": null,
+      "item": "cherry tomatoes",
+      "prep": "halved",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "cherry-tomatoes",
+      "amount": {
+        "value": 15,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "½ cup sliced red bell peppers",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "sliced red bell peppers",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "bell-pepper",
+      "amount": {
+        "value": 118.294,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "½ cup slice yellow peppers (for color)",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "slice yellow peppers",
+      "prep": null,
+      "note": "for color",
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "bell-pepper",
+      "amount": {
+        "value": 118.294,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "3/4 cup crumbled tomato basil feta cheese",
+      "quantity": 0.75,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "crumbled tomato basil feta cheese",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "feta-cheese",
+      "amount": {
+        "value": 177.441,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1/4 cup chopped red onion (or green onions)",
+      "quantity": 0.25,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "chopped red onion",
+      "prep": null,
+      "note": "or green onions",
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "red-onion",
+      "amount": {
+        "value": 59.147,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 (4 ounce) can sliced black olives",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "can",
+      "item": "sliced black olives",
+      "prep": null,
+      "note": "package size: 4 ounce",
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "olives",
+      "amount": {
+        "value": 1,
+        "unit": "pkg",
+        "package": "can",
+        "packageOz": 4
+      }
+    },
+    {
+      "raw": "1/2 cup sliced pepperoni sausage, cut into strips",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "sliced pepperoni sausage",
+      "prep": "cut into strips",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "pepperoni",
+      "amount": {
+        "value": 118.294,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1/4 cup olive oil",
+      "quantity": 0.25,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "olive oil",
+      "prep": null,
+      "note": null,
+      "group": "Dressing",
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "olive-oil",
+      "amount": {
+        "value": 59.147,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1/4 cup white Balsamic vinegar  (or 2 Tbsp red wine vinegar and 2 Tbsp white balsamic vinegar)",
+      "quantity": 0.25,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "white Balsamic vinegar",
+      "prep": null,
+      "note": "(or 2 Tbsp red wine vinegar and 2 Tbsp white balsamic vinegar)",
+      "group": "Dressing",
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "balsamic-vinegar",
+      "amount": {
+        "value": 59.147,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 1/2 teaspoons garlic powder",
+      "quantity": 1.5,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "garlic powder",
+      "prep": null,
+      "note": null,
+      "group": "Dressing",
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "garlic-powder",
+      "amount": {
+        "value": 7.393,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 1/2 teaspoons dried basil",
+      "quantity": 1.5,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "dried basil",
+      "prep": null,
+      "note": null,
+      "group": "Dressing",
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "dried-basil",
+      "amount": {
+        "value": 7.393,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 1/2 teaspoons dried oregano",
+      "quantity": 1.5,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "dried oregano",
+      "prep": null,
+      "note": null,
+      "group": "Dressing",
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "dried-oregano",
+      "amount": {
+        "value": 7.393,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "3/4 teaspoon ground black pepper",
+      "quantity": 0.75,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "ground black pepper",
+      "prep": null,
+      "note": null,
+      "group": "Dressing",
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "black-pepper",
+      "amount": {
+        "value": 3.697,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "3/4 teaspoon white sugar",
+      "quantity": 0.75,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "white sugar",
+      "prep": null,
+      "note": null,
+      "group": "Dressing",
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "sugar",
+      "amount": {
+        "value": 3.697,
+        "unit": "ml"
+      }
+    }
+  ],
+  "steps": [
+    {
+      "text": "In a large bowl, whisk together olive oil, vinegar, garlic powder, basil, oregano, black pepper, and sugar. Add cooked pasta, artichoke hearts, tomatoes, red and yellow peppers, feta cheese, onions, olives, and pepperoni. Toss until evenly coated. Cover, and chill 2 hours or overnight.",
+      "group": null
+    },
+    {
+      "text": "Leave a little dressing left over to toss right before serving.",
+      "group": null
+    }
+  ],
+  "footnotes": [],
+  "nutrition": null,
+  "importedNotes": [],
+  "seeAlso": [],
+  "source": {
+    "attribution": null,
+    "file": "RECIPES/SALADS/Greek Pasta Salad.doc",
+    "type": "doc",
+    "duplicateFiles": []
+  }
+}

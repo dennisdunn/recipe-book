@@ -1,0 +1,127 @@
+{
+  "schemaVersion": 1,
+  "id": "9d218685-521d-58e3-974b-fb05b274c27b",
+  "slug": "pineapple-walnut-salad",
+  "title": "Pineapple Walnut Salad",
+  "description": null,
+  "category": "Salads",
+  "subcategory": null,
+  "tags": [],
+  "servings": {
+    "text": "Original recipe makes 2 cups",
+    "amount": 2
+  },
+  "times": [],
+  "ingredients": [
+    {
+      "raw": "1 (8 ounce) can crushed pineapple, drained",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "can",
+      "item": "crushed pineapple",
+      "prep": "drained",
+      "note": "package size: 8 ounce",
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "crushed-pineapple",
+      "amount": {
+        "value": 1,
+        "unit": "pkg",
+        "package": "can",
+        "packageOz": 8
+      }
+    },
+    {
+      "raw": "4 ounces cream cheese",
+      "quantity": 4,
+      "quantityMax": null,
+      "unit": "oz",
+      "item": "cream cheese",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "cream-cheese",
+      "amount": {
+        "value": 113.398,
+        "unit": "g"
+      }
+    },
+    {
+      "raw": "1 tablespoon vanilla extract",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "vanilla extract",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "vanilla-extract",
+      "amount": {
+        "value": 14.787,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 cup walnuts",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "walnuts",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "walnuts",
+      "amount": {
+        "value": 236.588,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 (8 ounce) container frozen whipped topping, thawed",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "pkg",
+      "item": "container frozen whipped topping",
+      "prep": "thawed",
+      "note": "package size: 8 ounce",
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "whipped-topping",
+      "amount": {
+        "value": 1,
+        "unit": "pkg",
+        "package": "pkg",
+        "packageOz": 8
+      }
+    }
+  ],
+  "steps": [
+    {
+      "text": "Blend together the pineapple, cream cheese and vanilla. Stir in nuts, fold in whipped topping and chill before serving.",
+      "group": null
+    }
+  ],
+  "footnotes": [],
+  "nutrition": null,
+  "importedNotes": [],
+  "seeAlso": [],
+  "source": {
+    "attribution": null,
+    "file": "RECIPES/SALADS/Pineapple Walnut Salad.doc",
+    "type": "doc",
+    "duplicateFiles": []
+  }
+}

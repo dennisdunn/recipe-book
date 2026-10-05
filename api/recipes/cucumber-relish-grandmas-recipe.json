@@ -1,0 +1,222 @@
+{
+  "schemaVersion": 1,
+  "id": "09cf8660-d09d-5070-9f68-55316eda0e7d",
+  "slug": "cucumber-relish-grandmas-recipe",
+  "title": "Cucumber Relish (Grandma's Recipe)",
+  "description": null,
+  "category": "Side Dishes",
+  "subcategory": null,
+  "tags": [],
+  "servings": {
+    "text": "Makes 6 - 8 pints",
+    "amount": 6
+  },
+  "times": [],
+  "ingredients": [
+    {
+      "raw": "4 cups ground cucumbers",
+      "quantity": 4,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "ground cucumbers",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "cucumber",
+      "amount": {
+        "value": 946.352,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "4 large onions, ground up",
+      "quantity": 4,
+      "quantityMax": null,
+      "unit": null,
+      "item": "large onions, ground up",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "onion",
+      "amount": {
+        "value": 4,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "4 green peppers, ground up",
+      "quantity": 4,
+      "quantityMax": null,
+      "unit": null,
+      "item": "green peppers, ground up",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "bell-pepper",
+      "amount": {
+        "value": 4,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "1 or 2 red peppers, ground up",
+      "quantity": 1,
+      "quantityMax": 2,
+      "unit": null,
+      "item": "red peppers, ground up",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "bell-pepper",
+      "amount": {
+        "value": 1.5,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "1 tbsp salt",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "salt",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "salt",
+      "amount": {
+        "value": 14.787,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "4 tsp celery seed",
+      "quantity": 4,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "celery seed",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "celery-seed",
+      "amount": {
+        "value": 19.716,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "2 tsp turmeric",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "turmeric",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "turmeric",
+      "amount": {
+        "value": 9.858,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "pepper (amount unreadable in source)",
+      "quantity": null,
+      "quantityMax": null,
+      "unit": null,
+      "item": "pepper",
+      "prep": null,
+      "note": "amount unreadable in source",
+      "group": null,
+      "optional": false,
+      "confidence": "low",
+      "shop": true,
+      "catalogId": "black-pepper",
+      "amount": null
+    },
+    {
+      "raw": "4 cups vinegar",
+      "quantity": 4,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "vinegar",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "white-vinegar",
+      "amount": {
+        "value": 946.352,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "4 cups sugar",
+      "quantity": 4,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "sugar",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "sugar",
+      "amount": {
+        "value": 946.352,
+        "unit": "ml"
+      }
+    }
+  ],
+  "steps": [
+    {
+      "text": "Combine the vegetables and salt and let stand for 2 hours. Drain well.",
+      "group": null
+    },
+    {
+      "text": "Add the remaining ingredients and cook slowly for 1 hour.",
+      "group": null
+    },
+    {
+      "text": "Pack hot into hot jars and process in a boiling water bath 15 minutes for pints.",
+      "group": null
+    }
+  ],
+  "footnotes": [],
+  "nutrition": null,
+  "importedNotes": [
+    {
+      "text": "I use the big cucumbers to make Grandma's cucumber relish; we went through jars of it every year. Great on burgers and pulled pork."
+    }
+  ],
+  "seeAlso": [],
+  "source": {
+    "attribution": null,
+    "file": "RECIPES/SIDE DISHES/Recipes for overgrown cucumbers.doc",
+    "type": "doc",
+    "duplicateFiles": []
+  }
+}

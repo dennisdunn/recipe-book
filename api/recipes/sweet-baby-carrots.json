@@ -1,0 +1,138 @@
+{
+  "schemaVersion": 1,
+  "id": "9465d61f-9901-52b8-b917-9cff73c09ae6",
+  "slug": "sweet-baby-carrots",
+  "title": "Sweet Baby Carrots",
+  "description": null,
+  "category": "Side Dishes",
+  "subcategory": null,
+  "tags": [],
+  "servings": {
+    "text": "Serves 8",
+    "amount": 8
+  },
+  "times": [],
+  "ingredients": [
+    {
+      "raw": "2 (16 ounce) package baby carrots",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "pkg",
+      "item": "baby carrots",
+      "prep": null,
+      "note": "package size: 16 ounce",
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "carrot",
+      "amount": {
+        "value": 2,
+        "unit": "pkg",
+        "package": "pkg",
+        "packageOz": 16
+      }
+    },
+    {
+      "raw": "1/2 cup butter",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "butter",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "butter",
+      "amount": {
+        "value": 118.294,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "3 tablespoons honey",
+      "quantity": 3,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "honey",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "honey",
+      "amount": {
+        "value": 44.36,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1/2 cup brown sugar",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "brown sugar",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "brown-sugar",
+      "amount": {
+        "value": 118.294,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "Season with salt, pepper and cinnamon",
+      "quantity": null,
+      "quantityMax": null,
+      "unit": null,
+      "item": "Season with salt, pepper and cinnamon",
+      "prep": null,
+      "note": "add-in as desired",
+      "group": null,
+      "optional": true,
+      "confidence": "low",
+      "shop": false,
+      "catalogId": "salt",
+      "amount": null
+    }
+  ],
+  "steps": [
+    {
+      "text": "Place the carrots into a large pot and cover with salted water. Bring to a boil over high heat until tender, about 15 minutes. Drain and allow to steam dry for a minute or two.",
+      "group": null
+    },
+    {
+      "text": "Return the pot to the stove; reduce the heat to medium-low. Melt the butter in the pot. Stir in the honey and brown sugar; add the carrots and stir until evenly coated; cook another 5 minutes",
+      "group": null
+    },
+    {
+      "text": "Great flavor, I let carrots simmer in sauce til reduced and carrots were tender still more than enough sauce.",
+      "group": null
+    },
+    {
+      "text": "I decreased the amount of sauce - I used 3 T butter, 3 T Brown Sugar & 1 T honey with a dash of cinnamon... I steamed 1 pound of baby carrots since we like prefer our carrots a little less done for about 10 minutes and then tossed them in the sauce. They were delicious!",
+      "group": null
+    },
+    {
+      "text": "I add a little bit of orange juice to my boiling water to give the carrots a little more zing.",
+      "group": null
+    }
+  ],
+  "footnotes": [],
+  "nutrition": null,
+  "importedNotes": [],
+  "seeAlso": [],
+  "source": {
+    "attribution": null,
+    "file": "RECIPES/SIDE DISHES/Sweet Baby Carrots.doc",
+    "type": "doc",
+    "duplicateFiles": []
+  }
+}

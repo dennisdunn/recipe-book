@@ -1,0 +1,318 @@
+{
+  "schemaVersion": 1,
+  "id": "e4ac14e6-b182-5ede-891b-f9b5d23b65bb",
+  "slug": "indian-carrot-curry-gadjar-kari",
+  "title": "Indian Carrot Curry (Gadjar Kari)",
+  "description": null,
+  "category": "Indian & Curries",
+  "subcategory": null,
+  "tags": [
+    "main"
+  ],
+  "servings": {
+    "text": "4 Servings",
+    "amount": 4
+  },
+  "times": [],
+  "ingredients": [
+    {
+      "raw": "1/4 c Vegetable oil",
+      "quantity": 0.25,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "Vegetable oil",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "vegetable-oil",
+      "amount": {
+        "value": 59.147,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 lb Carrots; sliced or cut into",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "lb",
+      "item": "Carrots; sliced or cut into",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "carrot",
+      "amount": {
+        "value": 453.592,
+        "unit": "g"
+      }
+    },
+    {
+      "raw": "1 tb Cumin seeds or ground cumin",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "Cumin seeds or ground cumin",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "cumin",
+      "amount": {
+        "value": 14.787,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 Banana; peeled and sliced",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": null,
+      "item": "Banana; peeled and sliced",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "banana",
+      "amount": {
+        "value": 1,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "5 1/2 ts Yellow mustard seeds",
+      "quantity": 5.5,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "yellow mustard seeds",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "mustard-seed",
+      "amount": {
+        "value": 27.109,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1/4 c Golden raisins",
+      "quantity": 0.25,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "Golden raisins",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "raisins",
+      "amount": {
+        "value": 59.147,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "5 1/2 ts Ground turmeric",
+      "quantity": 5.5,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "ground turmeric",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "turmeric",
+      "amount": {
+        "value": 27.109,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 c Water",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "Water",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "water",
+      "amount": {
+        "value": 236.588,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 ts Ground cardamom",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "Ground cardamom",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "cardamom",
+      "amount": {
+        "value": 4.929,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 ts Salt or to taste",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "Salt or",
+      "prep": null,
+      "note": "to taste",
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "salt",
+      "amount": {
+        "value": 4.929,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 ts Curry powder",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "Curry powder",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "curry-powder",
+      "amount": {
+        "value": 4.929,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "Pepper",
+      "quantity": null,
+      "quantityMax": null,
+      "unit": null,
+      "item": "Pepper",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "low",
+      "shop": true,
+      "catalogId": "black-pepper",
+      "amount": null
+    },
+    {
+      "raw": "1/4 ts Ground cloves",
+      "quantity": 0.25,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "Ground cloves",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "cloves",
+      "amount": {
+        "value": 1.232,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1/4 c Chopped parsley or coriander",
+      "quantity": 0.25,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "Chopped parsley or coriander",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "fresh-parsley",
+      "amount": {
+        "value": 59.147,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1/4 ts Cayenne",
+      "quantity": 0.25,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "Cayenne",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "cayenne",
+      "amount": {
+        "value": 1.232,
+        "unit": "ml"
+      }
+    }
+  ],
+  "steps": [
+    {
+      "text": "Heat oil in a large nonreactive saucepan over medium heat. Add cumin seeds, mustard seeds, turmeric, cardamom, curry powder, cloves and cayenne and saute until fragrant, about 30 seconds.",
+      "group": null
+    },
+    {
+      "text": "Add carrots and saute until lightly golden, 3 to 5 minutes. Stir in bananas and raisins. Add water, salt and pepper to taste. Bring to a boil, cover and reduce heat to low. Simmer until carrots are tender but not mushy, about 20 to 25 minutes.",
+      "group": null
+    },
+    {
+      "text": "Shake pan occasionally. Uncover, increase heat to medium, and cook, shaking the pan frequently, until most of the liquid evaporates and vegetables are glazed, 5 to 10 minutes. Garnish with parsley or coriander. Yields 4 side-dish servings.",
+      "group": null
+    },
+    {
+      "text": "PER SERVING: CALORIES 207, PROTEIN 2 G, FAT 11 G, CARBOHYDRATES",
+      "group": null
+    },
+    {
+      "text": "Note: The first Jews arrived in India more than 2,000 years ago. Three distinct communities later sprang up on the subcontinent: Bombay in the west, Cochin in the southwest; and in the east, Calcutta. This Bombay dish is sweetened with bananas and raisins, quite different from European honey-glazed carrots.",
+      "group": null
+    }
+  ],
+  "footnotes": [],
+  "nutrition": null,
+  "importedNotes": [],
+  "seeAlso": [],
+  "source": {
+    "attribution": null,
+    "file": "RECIPES/INDIAN & CURRIES/Indian Carrot Curry.doc",
+    "type": "doc",
+    "duplicateFiles": []
+  }
+}

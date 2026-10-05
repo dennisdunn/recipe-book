@@ -1,0 +1,207 @@
+{
+  "schemaVersion": 1,
+  "id": "c1faa6c6-2492-5555-9a82-ae9e30d7c030",
+  "slug": "maggies-super-moist-chocolate-cake",
+  "title": "Maggie's Super Moist Chocolate Cake",
+  "description": null,
+  "category": "Desserts",
+  "subcategory": null,
+  "tags": [],
+  "servings": null,
+  "times": [],
+  "ingredients": [
+    {
+      "raw": "2 cups sugar",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "sugar",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "sugar",
+      "amount": {
+        "value": 473.176,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "2 cups all-purpose flour",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "all-purpose flour",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "all-purpose-flour",
+      "amount": {
+        "value": 473.176,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "2 cups brewed coffee, cooled",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "brewed coffee",
+      "prep": "cooled",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "coffee",
+      "amount": {
+        "value": 473.176,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 cup cocoa",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "cocoa",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "cocoa-powder",
+      "amount": {
+        "value": 236.588,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 cup mayonnaise",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "mayonnaise",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "mayonnaise",
+      "amount": {
+        "value": 236.588,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "2 tsp baking soda",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "baking soda",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "baking-soda",
+      "amount": {
+        "value": 9.858,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "2 eggs",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": null,
+      "item": "eggs",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "eggs",
+      "amount": {
+        "value": 2,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "Confectioners’ sugar",
+      "quantity": null,
+      "quantityMax": null,
+      "unit": null,
+      "item": "Confectioners’ sugar",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "low",
+      "shop": true,
+      "catalogId": "powdered-sugar",
+      "amount": null
+    }
+  ],
+  "steps": [
+    {
+      "text": "Preheat oven to 350 degrees.",
+      "group": null
+    },
+    {
+      "text": "Grease 13” by 9” baking pan.",
+      "group": null
+    },
+    {
+      "text": "Into large bowl, measure all ingredients except the confectioners’ sugar.",
+      "group": null
+    },
+    {
+      "text": "With mixer on low speed, beat ingredients until well blended, constantly scraping bowl with rubber spatula.",
+      "group": null
+    },
+    {
+      "text": "Pour batter into pan.",
+      "group": null
+    },
+    {
+      "text": "Bake 40 to 45 minutes until toothpick comes out clean.",
+      "group": null
+    },
+    {
+      "text": "Cool cake in pan on wire rack for 10 minutes.",
+      "group": null
+    },
+    {
+      "text": "Remove cake from pan and cool completely on wire rack.",
+      "group": null
+    },
+    {
+      "text": "If desired, sprinkle powdered sugar on top before serving.",
+      "group": null
+    },
+    {
+      "text": "Makes 16 servings, 275 calories per serving.",
+      "group": null
+    }
+  ],
+  "footnotes": [],
+  "nutrition": null,
+  "importedNotes": [],
+  "seeAlso": [],
+  "source": {
+    "attribution": null,
+    "file": "RECIPES/DESSERTS/Maggie_s Super Poist Chocolate Cake.doc",
+    "type": "doc",
+    "duplicateFiles": []
+  }
+}

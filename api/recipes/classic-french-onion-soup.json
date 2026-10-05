@@ -1,0 +1,221 @@
+{
+  "schemaVersion": 1,
+  "id": "a39f8362-9dfe-5ecf-b4db-1073ff3add80",
+  "slug": "classic-french-onion-soup",
+  "title": "Classic French Onion Soup",
+  "description": null,
+  "category": "Soups and Stews",
+  "subcategory": null,
+  "tags": [],
+  "servings": {
+    "text": "Makes 4 servings",
+    "amount": 4
+  },
+  "times": [],
+  "ingredients": [
+    {
+      "raw": "1/4 cup (1/2 stick) butter",
+      "quantity": 0.25,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "butter",
+      "prep": null,
+      "note": "package size: 1/2 stick",
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "butter",
+      "amount": {
+        "value": 59.147,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "3 large yellow onions, sliced",
+      "quantity": 3,
+      "quantityMax": null,
+      "unit": null,
+      "item": "large yellow onions",
+      "prep": "sliced",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "onion",
+      "amount": {
+        "value": 3,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "1 cup dry white wine",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "dry white wine",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "wine",
+      "amount": {
+        "value": 236.588,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "3 cans (14-1/2 ounces each) beef or chicken broth",
+      "quantity": 3,
+      "quantityMax": null,
+      "unit": "can",
+      "item": "beef or chicken broth",
+      "prep": null,
+      "note": "package size: 14-1/2 ounces each",
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "chicken-broth",
+      "amount": {
+        "value": 3,
+        "unit": "pkg",
+        "package": "can",
+        "packageOz": 2
+      }
+    },
+    {
+      "raw": "1 teaspoon Worcestershire sauce",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "Worcestershire sauce",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "worcestershire-sauce",
+      "amount": {
+        "value": 4.929,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1/2 teaspoon salt",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "salt",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "salt",
+      "amount": {
+        "value": 2.464,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1/2 teaspoon dried thyme leaves",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "dried thyme leaves",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "dried-thyme",
+      "amount": {
+        "value": 2.464,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "4 slices French bread, toasted",
+      "quantity": 4,
+      "quantityMax": null,
+      "unit": "slice",
+      "item": "French bread",
+      "prep": "toasted",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "bread",
+      "amount": {
+        "value": 4,
+        "unit": "each",
+        "countUnit": "slice"
+      }
+    },
+    {
+      "raw": "1 cup (4 ounces) shredded Swiss cheese",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "shredded Swiss cheese",
+      "prep": null,
+      "note": "package size: 4 ounces",
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "swiss-cheese",
+      "amount": {
+        "value": 236.588,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "Fresh thyme for garnish",
+      "quantity": null,
+      "quantityMax": null,
+      "unit": null,
+      "item": "Fresh thyme for garnish",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "fresh-thyme",
+      "amount": null
+    }
+  ],
+  "steps": [
+    {
+      "text": "Melt butter in large skillet over medium heat. Add onions, cook and stir 15 minutes or until onions are soft and lightly browned. Stir in wine.",
+      "group": "Slow Cooker Directions"
+    },
+    {
+      "text": "Combine onion mixture, broth, Worcestershire sauce, salt and thyme in slow cooker. Cover; cook on LOW 4 to 4-1/2 hours.",
+      "group": "Slow Cooker Directions"
+    },
+    {
+      "text": "Ladle soup into 4 bowls; top with bread slice and cheese. Garnish with fresh thyme, if desired.",
+      "group": "Slow Cooker Directions"
+    }
+  ],
+  "footnotes": [],
+  "nutrition": null,
+  "importedNotes": [],
+  "seeAlso": [],
+  "source": {
+    "attribution": null,
+    "file": "RECIPES/SOUPS AND STEWS/Classic French Onion Soup.doc",
+    "type": "doc",
+    "duplicateFiles": []
+  }
+}

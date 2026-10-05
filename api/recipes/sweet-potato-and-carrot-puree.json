@@ -1,0 +1,209 @@
+{
+  "schemaVersion": 1,
+  "id": "649d0b27-3855-58bd-8f38-fd52d1f8952a",
+  "slug": "sweet-potato-and-carrot-puree",
+  "title": "Sweet Potato and Carrot Puree",
+  "description": null,
+  "category": "Soups and Stews",
+  "subcategory": null,
+  "tags": [],
+  "servings": {
+    "text": "6 portions",
+    "amount": 6
+  },
+  "times": [],
+  "ingredients": [
+    {
+      "raw": "2 large sweet potatoes (about 2 pounds), of a moist variety",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": null,
+      "item": "large sweet potatoes , of a moist variety",
+      "prep": null,
+      "note": "about 2 pounds",
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "sweet-potato",
+      "amount": {
+        "value": 2,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "1 pound carrots",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "lb",
+      "item": "carrots",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "carrot",
+      "amount": {
+        "value": 453.592,
+        "unit": "g"
+      }
+    },
+    {
+      "raw": "2 1/4 cups water",
+      "quantity": 2.25,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "water",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "water",
+      "amount": {
+        "value": 532.323,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 tablespoon granulated sugar",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "granulated sugar",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "sugar",
+      "amount": {
+        "value": 14.787,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "12 tablespoons (1 1/2 sticks) sweet butter, softened",
+      "quantity": 12,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "sweet butter",
+      "prep": "softened",
+      "note": "package size: 1 1/2 sticks",
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "butter",
+      "amount": {
+        "value": 177.442,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "salt and freshly ground black pepper, to taste",
+      "quantity": null,
+      "quantityMax": null,
+      "unit": null,
+      "item": "salt and freshly ground black pepper",
+      "prep": null,
+      "note": "to taste",
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "salt",
+      "amount": null
+    },
+    {
+      "raw": "1/2 cup Creme Fraiche (see page 339)",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "Creme Fraiche",
+      "prep": null,
+      "note": "see page 339",
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "creme-fraiche",
+      "amount": {
+        "value": 118.294,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1/4 teaspoon freshly grated nutmeg",
+      "quantity": 0.25,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "freshly grated nutmeg",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "nutmeg",
+      "amount": {
+        "value": 1.232,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "dash of cayenne pepper (optional)",
+      "quantity": null,
+      "quantityMax": null,
+      "unit": "dash",
+      "item": "cayenne pepper",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": true,
+      "confidence": "low",
+      "shop": true,
+      "catalogId": "cayenne",
+      "amount": null
+    }
+  ],
+  "steps": [
+    {
+      "text": "Scrub potatoes and cut a small, deep slit in the top of each. Set on the center rack of a preheated 375 degrees F oven and bake for about 1 hour, or until potatoes are tender when pierced with a fork.",
+      "group": null
+    },
+    {
+      "text": "Meanwhile, peel and trim the carrots and cut them into 1-inch lengths. Put them in a saucepan and add the water, sugar, 2 tablespoons of the butter, and salt and pepper to taste. Set over medium heat, bring to a boil, and cook uncovered until water has evaporated and carrots begin to sizzle in the butter, about 30 minutes. The carrots should be tender. If not, add a little additional water and cook until carrots are done and all liquid has evaporated.",
+      "group": null
+    },
+    {
+      "text": "Scrape out the flesh of sweet potatoes and combine with carrots in the bowl of a food processor fitted with a steel blade. Add remaining butter and creme fraiche and process until very smooth.",
+      "group": null
+    },
+    {
+      "text": "Add nutmeg, and season to taste with salt and pepper. Add cayenne, if desired, and process briefly to blend.",
+      "group": null
+    },
+    {
+      "text": "To reheat, transfer to an ovenproof serving dish and cover with foil. Heat in a preheated 350 degrees F oven for about 25 minutes, or until steaming hot.",
+      "group": null
+    }
+  ],
+  "footnotes": [
+    "Handwritten 'Yum!' at the top of the clipping."
+  ],
+  "nutrition": null,
+  "importedNotes": [],
+  "seeAlso": [
+    "sweet-potato-carrot-puree-deborahs"
+  ],
+  "source": {
+    "attribution": null,
+    "file": "RECIPES/SOUPS AND STEWS/Sweet Potato & Carrot Puree.png",
+    "type": "image",
+    "duplicateFiles": []
+  }
+}

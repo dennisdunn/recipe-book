@@ -1,0 +1,225 @@
+{
+  "schemaVersion": 1,
+  "id": "0fe694cf-9fe3-5036-a1c4-03138c6d9607",
+  "slug": "sausage-gravy",
+  "title": "Sausage Gravy",
+  "description": null,
+  "category": "Pork Dishes",
+  "subcategory": null,
+  "tags": [],
+  "servings": null,
+  "times": [],
+  "ingredients": [
+    {
+      "raw": "1 pound sage flavored ground breakfast sausage",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "lb",
+      "item": "sage flavored ground breakfast sausage",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "sausage",
+      "amount": {
+        "value": 453.592,
+        "unit": "g"
+      }
+    },
+    {
+      "raw": "6 slices crumbled bacon (used in other recipes)",
+      "quantity": 6,
+      "quantityMax": null,
+      "unit": "slice",
+      "item": "crumbled bacon",
+      "prep": null,
+      "note": "used in other recipes",
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "bacon",
+      "amount": {
+        "value": 6,
+        "unit": "each",
+        "countUnit": "slice"
+      }
+    },
+    {
+      "raw": "2 tablespoons finely chopped onion",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "finely chopped onion",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "onion",
+      "amount": {
+        "value": 29.574,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "2 tablespoon all-purpose flour",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "all-purpose flour",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "all-purpose-flour",
+      "amount": {
+        "value": 29.574,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "2 cups milk",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "milk",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "milk",
+      "amount": {
+        "value": 473.176,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1/2 teaspoon poultry seasoning",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "poultry seasoning",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "poultry-seasoning",
+      "amount": {
+        "value": 2.464,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1/2 teaspoon ground nutmeg",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "ground nutmeg",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "nutmeg",
+      "amount": {
+        "value": 2.464,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1/4 teaspoon salt",
+      "quantity": 0.25,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "salt",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "salt",
+      "amount": {
+        "value": 1.232,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 dash Worcestershire sauce",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "dash",
+      "item": "Worcestershire sauce",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "worcestershire-sauce",
+      "amount": {
+        "value": 0.62,
+        "unit": "ml",
+        "approximate": true
+      }
+    },
+    {
+      "raw": "1 dash hot pepper sauce",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "dash",
+      "item": "hot pepper sauce",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "hot-sauce",
+      "amount": {
+        "value": 0.62,
+        "unit": "ml",
+        "approximate": true
+      }
+    }
+  ],
+  "steps": [
+    {
+      "text": "Crumble sausage in skillet and cook over medium-low heat.",
+      "group": null
+    },
+    {
+      "text": "Add onion and cook until tender; drain. Add gluten free flour to make a roux and cook for about 6 minutes or until bubbly and golden.",
+      "group": null
+    },
+    {
+      "text": "Stir in milk ½ cup at a time to get desired consistency.",
+      "group": null
+    },
+    {
+      "text": "Add Worcestershire sauce, hot pepper sauce, nutmeg (optional) and poultry seasoning (optional) and cook until thick.",
+      "group": null
+    }
+  ],
+  "footnotes": [],
+  "nutrition": null,
+  "importedNotes": [],
+  "seeAlso": [],
+  "source": {
+    "attribution": null,
+    "file": "RECIPES/PORK DISHES/Sausage Gravy.doc",
+    "type": "doc",
+    "duplicateFiles": []
+  }
+}

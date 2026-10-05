@@ -1,0 +1,199 @@
+{
+  "schemaVersion": 1,
+  "id": "883105d6-1a38-511c-a78e-f8eb076e1cd9",
+  "slug": "keto-brownies",
+  "title": "Keto Brownies",
+  "description": null,
+  "category": "Protein Recipes",
+  "subcategory": "KETO RECIPES",
+  "tags": [
+    "keto"
+  ],
+  "servings": {
+    "text": "Serves: 16",
+    "amount": 16
+  },
+  "times": [],
+  "ingredients": [
+    {
+      "raw": "1 cup macadamia nuts",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "macadamia nuts",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "macadamia-nuts",
+      "amount": {
+        "value": 236.588,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "¼ teaspoon pink salt",
+      "quantity": 0.25,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "pink salt",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "salt",
+      "amount": {
+        "value": 1.232,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "¼ teaspoon baking soda",
+      "quantity": 0.25,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "baking soda",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "baking-soda",
+      "amount": {
+        "value": 1.232,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "3 ounces 100% dark chocolate, chopped",
+      "quantity": 3,
+      "quantityMax": null,
+      "unit": "oz",
+      "item": "100% dark chocolate",
+      "prep": "chopped",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "chocolate",
+      "amount": {
+        "value": 85.048,
+        "unit": "g"
+      }
+    },
+    {
+      "raw": "½ cup coconut oil, melted",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "coconut oil",
+      "prep": "melted",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "coconut-oil",
+      "amount": {
+        "value": 118.294,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "2 tablespoons Splenda",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "Splenda",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "sweetener",
+      "amount": {
+        "value": 29.574,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "3 large eggs",
+      "quantity": 3,
+      "quantityMax": null,
+      "unit": null,
+      "item": "large eggs",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "eggs",
+      "amount": {
+        "value": 3,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "1 teaspoon vanilla",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "vanilla",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "vanilla-extract",
+      "amount": {
+        "value": 4.929,
+        "unit": "ml"
+      }
+    }
+  ],
+  "steps": [
+    {
+      "text": "In a food processor pulse macadamia nuts, salt, and baking soda until the texture of gravel",
+      "group": null
+    },
+    {
+      "text": "Pulse in chocolate and coconut oil until smooth",
+      "group": null
+    },
+    {
+      "text": "Pulse in erythritol, eggs, and stevia",
+      "group": null
+    },
+    {
+      "text": "Transfer mixture to a greased 8 x 8 inch baking dish",
+      "group": null
+    },
+    {
+      "text": "Bake at 350° for 22-27 minutes, batter will set up when cooled",
+      "group": null
+    },
+    {
+      "text": "Cool 1 hour and serve",
+      "group": null
+    }
+  ],
+  "footnotes": [],
+  "nutrition": null,
+  "importedNotes": [],
+  "seeAlso": [],
+  "source": {
+    "attribution": null,
+    "file": "RECIPES/PROTEIN RECIPES/KETO RECIPES/Keto Brownies 02.doc",
+    "type": "doc",
+    "duplicateFiles": []
+  }
+}

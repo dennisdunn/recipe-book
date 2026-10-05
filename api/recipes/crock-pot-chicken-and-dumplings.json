@@ -1,0 +1,237 @@
+{
+  "schemaVersion": 1,
+  "id": "bb72f2f7-8049-5204-8281-cac7983221ff",
+  "slug": "crock-pot-chicken-and-dumplings",
+  "title": "Crock Pot Chicken and Dumplings",
+  "description": null,
+  "category": "Chicken Dishes",
+  "subcategory": null,
+  "tags": [
+    "main"
+  ],
+  "servings": {
+    "text": "Serves: 4 servings",
+    "amount": 4
+  },
+  "times": [],
+  "ingredients": [
+    {
+      "raw": "1 large onion, diced",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": null,
+      "item": "large onion",
+      "prep": "diced",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "onion",
+      "amount": {
+        "value": 1,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "1 can (10.5 oz) cream of celery soup",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "can",
+      "item": "cream of celery soup",
+      "prep": null,
+      "note": "package size: 10.5 oz",
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "cream-of-celery-soup",
+      "amount": {
+        "value": 1,
+        "unit": "pkg",
+        "package": "can",
+        "packageOz": 10.5
+      }
+    },
+    {
+      "raw": "1 can (10.5 oz) cream of chicken soup",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "can",
+      "item": "cream of chicken soup",
+      "prep": null,
+      "note": "package size: 10.5 oz",
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "cream-of-chicken-soup",
+      "amount": {
+        "value": 1,
+        "unit": "pkg",
+        "package": "can",
+        "packageOz": 10.5
+      }
+    },
+    {
+      "raw": "1 tablespoon fresh parsley",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "fresh parsley",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "fresh-parsley",
+      "amount": {
+        "value": 14.787,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 teaspoon poultry seasoning",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "poultry seasoning",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "poultry-seasoning",
+      "amount": {
+        "value": 4.929,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "black pepper to taste",
+      "quantity": null,
+      "quantityMax": null,
+      "unit": null,
+      "item": "black pepper",
+      "prep": null,
+      "note": "to taste",
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "black-pepper",
+      "amount": null
+    },
+    {
+      "raw": "4 skinless boneless chicken breasts",
+      "quantity": 4,
+      "quantityMax": null,
+      "unit": null,
+      "item": "skinless boneless chicken breasts",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "chicken-breast",
+      "amount": {
+        "value": 4,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "2 cups low sodium chicken broth",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "low sodium chicken broth",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "chicken-broth",
+      "amount": {
+        "value": 473.176,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "2 cups frozen vegetables or peas and carrots, defrosted",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "frozen vegetables or peas and carrots",
+      "prep": "defrosted",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "frozen-mixed-vegetables",
+      "amount": {
+        "value": 473.176,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 can (8 pieces) refrigerated biscuits",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "can",
+      "item": "refrigerated biscuits",
+      "prep": null,
+      "note": "package size: 8 pieces",
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "biscuits",
+      "amount": {
+        "value": 1,
+        "unit": "pkg",
+        "package": "can"
+      }
+    }
+  ],
+  "steps": [
+    {
+      "text": "Add onion to 6 qt crock pot and top with chicken breasts.",
+      "group": null
+    },
+    {
+      "text": "In a small bowl, combine cream of celery soup, cream of chicken soup, parsley, poultry seasoning and pepper. Spread over chicken breasts. Top with chicken broth and cook on high 5 hours.",
+      "group": null
+    },
+    {
+      "text": "Approximately 1 hour (I allow 60 - 90 minutes) before serving, roll each biscuit thin and flat. Cut into 4 strips. Add vegetables and biscuit strips to the slow cooker and stir.",
+      "group": null
+    },
+    {
+      "text": "Remove chicken breasts and slightly shred. Add back into slow cooker and stir (this will break up the dumplings somewhat which is ok).",
+      "group": "To Serve"
+    },
+    {
+      "text": "Let cook an additional 10 minutes and serve.",
+      "group": "To Serve"
+    }
+  ],
+  "footnotes": [],
+  "nutrition": null,
+  "importedNotes": [
+    {
+      "text": "Note: My biscuits were perfectly cooked after 60 minutes however some slow cookers have required extra time to cook the biscuits."
+    }
+  ],
+  "seeAlso": [],
+  "source": {
+    "attribution": null,
+    "file": "RECIPES/CHICKEN DISHES/Crock Pot Chicken and Dumplings.doc",
+    "type": "doc",
+    "duplicateFiles": []
+  }
+}

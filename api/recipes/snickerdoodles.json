@@ -1,0 +1,243 @@
+{
+  "schemaVersion": 1,
+  "id": "535b16f4-60f0-5135-86d8-8fccdaef09bd",
+  "slug": "snickerdoodles",
+  "title": "Snickerdoodles",
+  "description": null,
+  "category": "Desserts",
+  "subcategory": null,
+  "tags": [],
+  "servings": {
+    "text": "Original Recipe Yield 3 dozen",
+    "amount": 3
+  },
+  "times": [],
+  "ingredients": [
+    {
+      "raw": "1 cup butter-flavor Crisco shortening",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "butter-flavor Crisco shortening",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "shortening",
+      "amount": {
+        "value": 236.588,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 1/2 cups white sugar",
+      "quantity": 1.5,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "white sugar",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "sugar",
+      "amount": {
+        "value": 354.882,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "2 eggs",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": null,
+      "item": "eggs",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "eggs",
+      "amount": {
+        "value": 2,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "1 tsp vanilla",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "vanilla",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "vanilla-extract",
+      "amount": {
+        "value": 4.929,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "2 3/4 cups all-purpose flour",
+      "quantity": 2.75,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "all-purpose flour",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "all-purpose-flour",
+      "amount": {
+        "value": 650.617,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 teaspoon baking soda",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "baking soda",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "baking-soda",
+      "amount": {
+        "value": 4.929,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "2 teaspoons cream of tartar",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "cream of tartar",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "cream-of-tartar",
+      "amount": {
+        "value": 9.858,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1/2 teaspoon salt",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "salt",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "salt",
+      "amount": {
+        "value": 2.464,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "2 tablespoons white sugar",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "white sugar",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "sugar",
+      "amount": {
+        "value": 29.574,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 tsp nutmeg",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "nutmeg",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "nutmeg",
+      "amount": {
+        "value": 4.929,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "2 teaspoons ground cinnamon",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "ground cinnamon",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "cinnamon",
+      "amount": {
+        "value": 9.858,
+        "unit": "ml"
+      }
+    }
+  ],
+  "steps": [
+    {
+      "text": "Preheat oven to 375 degrees F (190 degrees C).",
+      "group": null
+    },
+    {
+      "text": "In a medium bowl, cream together the shortening and 1 1/2 cups sugar. Stir in the eggs. Sift together the flour, baking soda, cream of tartar, and salt; stir into the creamed mixture until well blended. In a small bowl, stir together the 2 tablespoons of sugar, and the cinnamon. Roll dough into walnut sized balls, then roll the balls in the cinnamon-nutmeg-sugar. Place them onto an unprepared cookie sheet, two inches apart.",
+      "group": null
+    },
+    {
+      "text": "Bake for 8 minutes in the preheated oven. Edges should be slightly brown. Remove from sheets to cool on wire racks.",
+      "group": null
+    }
+  ],
+  "footnotes": [],
+  "nutrition": null,
+  "importedNotes": [
+    {
+      "text": "Don't expect these to brown before you take them out of the oven - if they're brown, you overcooked them."
+    }
+  ],
+  "seeAlso": [],
+  "source": {
+    "attribution": null,
+    "file": "RECIPES/DESSERTS/Snickerdoodles.doc",
+    "type": "doc",
+    "duplicateFiles": []
+  }
+}

@@ -1,0 +1,144 @@
+{
+  "schemaVersion": 1,
+  "id": "912f7f9c-1f31-54e3-bcaa-38ab84c8d909",
+  "slug": "easy-chocolate-triple-layer-pie",
+  "title": "Easy Chocolate Triple Layer Pie",
+  "description": null,
+  "category": "Desserts",
+  "subcategory": null,
+  "tags": [],
+  "servings": null,
+  "times": [
+    {
+      "label": "Prep time",
+      "text": "10 Min"
+    },
+    {
+      "label": "Ready in",
+      "text": "4 Hrs 10 Min"
+    }
+  ],
+  "ingredients": [
+    {
+      "raw": "2 cups cold milk",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "cold milk",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "milk",
+      "amount": {
+        "value": 473.176,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "2 (3.9 ounce) packages instant chocolate pudding mix",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "pkg",
+      "item": "instant chocolate pudding mix",
+      "prep": null,
+      "note": "package size: 3.9 ounce",
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "pudding-mix",
+      "amount": {
+        "value": 2,
+        "unit": "pkg",
+        "package": "pkg",
+        "packageOz": 3.9
+      }
+    },
+    {
+      "raw": "1 (9 inch) prepared graham cracker crust, chocolate",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": null,
+      "item": "prepared graham cracker crust, chocolate",
+      "prep": null,
+      "note": "package size: 9 inch",
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "pie-crust",
+      "amount": {
+        "value": 1,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "1 (8 ounce) container frozen whipped topping, thawed",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "pkg",
+      "item": "container frozen whipped topping",
+      "prep": "thawed",
+      "note": "package size: 8 ounce",
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "whipped-topping",
+      "amount": {
+        "value": 1,
+        "unit": "pkg",
+        "package": "pkg",
+        "packageOz": 8
+      }
+    },
+    {
+      "raw": "1/2 cup chocolate shavings",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "chocolate shavings",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "chocolate",
+      "amount": {
+        "value": 118.294,
+        "unit": "ml"
+      }
+    }
+  ],
+  "steps": [
+    {
+      "text": "In a large bowl, mix milk and pudding. Beat with wire whisk for 1 minute. Spoon 1 1/2 cups of pudding into graham cracker crust.",
+      "group": null
+    },
+    {
+      "text": "Gently fold in 1/2 of the whipped topping into remaining pudding. Spread this mixture over the pudding layer in crust. Top with remaining whipped topping. Garnish with chocolate shavings and cover and refrigerate for 4 hours.",
+      "group": null
+    }
+  ],
+  "footnotes": [],
+  "nutrition": null,
+  "importedNotes": [
+    {
+      "text": "Everyone loved this recipe! My 10 year old son made it and added crushed oreos into the pudding and whipped cream layer, and topped with more crushed oreos. Yum!"
+    },
+    {
+      "text": "Excellent recipe! Easy to make and very tasty. I made a second pie with fat free milk, sugar free pudding, and fat free Cool Whip that tasted just as good."
+    }
+  ],
+  "seeAlso": [],
+  "source": {
+    "attribution": null,
+    "file": "RECIPES/DESSERTS/Easy Chocolate cream pie.doc",
+    "type": "doc",
+    "duplicateFiles": []
+  }
+}

@@ -1,0 +1,197 @@
+{
+  "schemaVersion": 1,
+  "id": "c93f3bf5-c460-54f7-91f1-81ca506fab8a",
+  "slug": "perfect-pie-crust",
+  "title": "Perfect Pie Crust",
+  "description": null,
+  "category": "Desserts",
+  "subcategory": null,
+  "tags": [],
+  "servings": {
+    "text": "Original recipe makes 4 single crusts",
+    "amount": 4
+  },
+  "times": [],
+  "ingredients": [
+    {
+      "raw": "4 cups unbleached flour",
+      "quantity": 4,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "unbleached flour",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "all-purpose-flour",
+      "amount": {
+        "value": 946.352,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "3/4 cup shortening",
+      "quantity": 0.75,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "shortening",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "shortening",
+      "amount": {
+        "value": 177.441,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "3/4 cup unsalted butter",
+      "quantity": 0.75,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "unsalted butter",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "butter",
+      "amount": {
+        "value": 177.441,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 egg, beaten",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": null,
+      "item": "egg, beaten",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "eggs",
+      "amount": {
+        "value": 1,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "2 1/2 teaspoons white sugar",
+      "quantity": 2.5,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "white sugar",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "sugar",
+      "amount": {
+        "value": 12.322,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 1/4 teaspoons salt",
+      "quantity": 1.25,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "salt",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "salt",
+      "amount": {
+        "value": 6.161,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 tablespoon lemon juice",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "lemon juice",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "lemon-juice",
+      "amount": {
+        "value": 14.787,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1/2 cup ice water",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "ice water",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "water",
+      "amount": {
+        "value": 118.294,
+        "unit": "ml"
+      }
+    }
+  ],
+  "steps": [
+    {
+      "text": "Place flour in a large bowl. Cut in shortening and butter until mixture is crumbly.",
+      "group": null
+    },
+    {
+      "text": "In a separate bowl, mix together egg, sugar, salt, and lemon juice.",
+      "group": null
+    },
+    {
+      "text": "Make a well in the center of flour mixture. Pour in all of egg mixture and half of ice water.",
+      "group": null
+    },
+    {
+      "text": "Stir gently with a fork, adding more water as needed, just until mixture forms a ball.",
+      "group": null
+    },
+    {
+      "text": "Turn dough onto a floured surface and cut into 4 equal portions. Knead each piece briefly and shape into a disc.",
+      "group": null
+    },
+    {
+      "text": "Chill 1 hour before rolling out.",
+      "group": null
+    }
+  ],
+  "footnotes": [],
+  "nutrition": null,
+  "importedNotes": [],
+  "seeAlso": [],
+  "source": {
+    "attribution": null,
+    "file": "RECIPES/DESSERTS/Perfect Pie Crust.doc",
+    "type": "doc",
+    "duplicateFiles": []
+  }
+}

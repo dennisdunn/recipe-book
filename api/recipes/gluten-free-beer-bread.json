@@ -1,0 +1,277 @@
+{
+  "schemaVersion": 1,
+  "id": "fe070ccc-4cf2-59d9-b0ee-1eea549815f3",
+  "slug": "gluten-free-beer-bread",
+  "title": "Gluten-Free Beer Bread",
+  "description": null,
+  "category": "Breads & Cereals",
+  "subcategory": null,
+  "tags": [],
+  "servings": null,
+  "times": [],
+  "ingredients": [
+    {
+      "raw": "2 3/4 cups gluten-free flour blend",
+      "quantity": 2.75,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "gluten-free flour blend",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "gluten-free-flour",
+      "amount": {
+        "value": 650.617,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1/4 cup buckwheat flour",
+      "quantity": 0.25,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "buckwheat flour",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "other-flour",
+      "amount": {
+        "value": 59.147,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "2 1/2 teaspoons xanthan gum",
+      "quantity": 2.5,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "xanthan gum",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "xanthan-gum",
+      "amount": {
+        "value": 12.322,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 tablespoon white sugar",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "white sugar",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "sugar",
+      "amount": {
+        "value": 14.787,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 teaspoon salt",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "salt",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "salt",
+      "amount": {
+        "value": 4.929,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "3 eggs at room temperature",
+      "quantity": 3,
+      "quantityMax": null,
+      "unit": null,
+      "item": "eggs at room temperature",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "eggs",
+      "amount": {
+        "value": 3,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "3 tablespoons vegetable oil",
+      "quantity": 3,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "vegetable oil",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "vegetable-oil",
+      "amount": {
+        "value": 44.36,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "2 tablespoons agave nectar",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "agave nectar",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "agave",
+      "amount": {
+        "value": 29.574,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 teaspoon apple cider vinegar",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "apple cider vinegar",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "apple-cider-vinegar",
+      "amount": {
+        "value": 4.929,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 (12 fluid ounce) can or bottle gluten-free beer at room temperature",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "can",
+      "item": "or bottle gluten-free beer at room temperature",
+      "prep": null,
+      "note": "package size: 12 fluid ounce",
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "beer",
+      "amount": {
+        "value": 1,
+        "unit": "pkg",
+        "package": "can"
+      }
+    },
+    {
+      "raw": "2 1/4 teaspoons rapid-rise yeast",
+      "quantity": 2.25,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "rapid-rise yeast",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "yeast",
+      "amount": {
+        "value": 11.09,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "2 tablespoons milk, or to taste (optional)",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "milk",
+      "prep": null,
+      "note": "to taste",
+      "group": null,
+      "optional": true,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "milk",
+      "amount": {
+        "value": 29.574,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 tablespoon poppy seeds, or to taste (optional)",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "poppy seeds",
+      "prep": null,
+      "note": "to taste",
+      "group": null,
+      "optional": true,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "poppy-seeds",
+      "amount": {
+        "value": 14.787,
+        "unit": "ml"
+      }
+    }
+  ],
+  "steps": [
+    {
+      "text": "Preheat oven to 375 degrees F (190 degrees C). Grease a 9x5-inch loaf pan.",
+      "group": null
+    },
+    {
+      "text": "Mix flour blend, buckwheat flour, xanthan gum, sugar, and salt together in a bowl.",
+      "group": null
+    },
+    {
+      "text": "Beat eggs, vegetable oil, agave nectar, and apple cider vinegar together in a separate large bowl; add flour mixture and beat with an electric mixer until you get a smooth batter. Stir beer and yeast into the batter, increase mixer speed to High, and beat batter for 4 minutes; pour into prepared loaf pan. Brush the top of the loaf with milk and sprinkle poppy seeds evenly over the surface. Cover the loaf with oiled wax paper and let rise until doubled in volume, 30 to 60 minutes.",
+      "group": null
+    },
+    {
+      "text": "Bake in preheated oven until set in the middle and the internal temperature of the loaf reaches 210 degrees F (99 degrees C), 35 to 45 minutes.",
+      "group": null
+    }
+  ],
+  "footnotes": [],
+  "nutrition": null,
+  "importedNotes": [],
+  "seeAlso": [],
+  "source": {
+    "attribution": null,
+    "file": "RECIPES/BREADS & CEREALS/Gluten-free Beer Bread.doc",
+    "type": "doc",
+    "duplicateFiles": []
+  }
+}

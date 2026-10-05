@@ -1,0 +1,199 @@
+{
+  "schemaVersion": 1,
+  "id": "ceec8c08-8e5a-5220-a815-737badac413e",
+  "slug": "easy-baked-pork-chops",
+  "title": "Easy Baked Pork Chops",
+  "description": null,
+  "category": "Pork Dishes",
+  "subcategory": null,
+  "tags": [
+    "main"
+  ],
+  "servings": null,
+  "times": [],
+  "ingredients": [
+    {
+      "raw": "4 (1 1/4 inch thick) pork chops",
+      "quantity": 4,
+      "quantityMax": null,
+      "unit": null,
+      "item": "pork chops",
+      "prep": null,
+      "note": "package size: 1 1/4 inch thick",
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "pork-chops",
+      "amount": {
+        "value": 4,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "1 small onion sliced",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": null,
+      "item": "small onion sliced",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "onion",
+      "amount": {
+        "value": 1,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "2 clove garlic minced",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "clove",
+      "item": "garlic minced",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "garlic",
+      "amount": {
+        "value": 2,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "Old Bay seasoning",
+      "quantity": null,
+      "quantityMax": null,
+      "unit": null,
+      "item": "Old Bay seasoning",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "low",
+      "shop": true,
+      "catalogId": "old-bay-seasoning",
+      "amount": null
+    },
+    {
+      "raw": "Salt (if needed) and pepper to taste",
+      "quantity": null,
+      "quantityMax": null,
+      "unit": null,
+      "item": "Salt  and pepper",
+      "prep": null,
+      "note": "if needed; to taste",
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "salt",
+      "amount": null
+    },
+    {
+      "raw": "1 tablespoon butter and/or olive oil",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "butter and/or olive oil",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "butter",
+      "amount": {
+        "value": 14.787,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "2/3 cup milk",
+      "quantity": 0.667,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "milk",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "milk",
+      "amount": {
+        "value": 157.804,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 (10.75 ounce) can condensed cream of mushroom soup",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "can",
+      "item": "condensed cream of mushroom soup",
+      "prep": null,
+      "note": "package size: 10.75 ounce",
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "cream-of-mushroom-soup",
+      "amount": {
+        "value": 1,
+        "unit": "pkg",
+        "package": "can",
+        "packageOz": 10.75
+      }
+    }
+  ],
+  "steps": [
+    {
+      "text": "Preheat oven to 350 degrees F (175 degrees C).",
+      "group": null
+    },
+    {
+      "text": "Season pork chops with Old Bay (check sodium content before adding salt), salt and pepper to taste. Melt the butter in a large skillet over medium high heat. Sautee pork chops until brown, about 5 minutes per side.",
+      "group": null
+    },
+    {
+      "text": "Sautee onion slices, mushrooms and garlic in pan drippings.",
+      "group": null
+    },
+    {
+      "text": "In a separate medium bowl, combine the milk, soup and Kitchen Bouquet for coloring.",
+      "group": null
+    },
+    {
+      "text": "Place the pork chops in a 9x13 inch baking dish and pour the soup mixture over the chops.",
+      "group": null
+    },
+    {
+      "text": "Bake at 275 F for 2 hours.",
+      "group": null
+    }
+  ],
+  "footnotes": [],
+  "nutrition": null,
+  "importedNotes": [
+    {
+      "text": "Option:  add a package of pork gravy mix and a cup of water to the soup, and some Old Bay and onion powder, then poured it over the chops to bake."
+    },
+    {
+      "text": "My basic pork chop philosophy is low and slow. I cooked the chops at 275 degrees for 3 hours. They were extremely tender and flavorful."
+    }
+  ],
+  "seeAlso": [],
+  "source": {
+    "attribution": null,
+    "file": "RECIPES/PORK DISHES/Easy baked pork chops.doc",
+    "type": "doc",
+    "duplicateFiles": []
+  }
+}

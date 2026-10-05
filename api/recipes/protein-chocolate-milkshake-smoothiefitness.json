@@ -1,0 +1,179 @@
+{
+  "schemaVersion": 1,
+  "id": "3dd70565-5ce0-5908-891a-59a92e93fc69",
+  "slug": "protein-chocolate-milkshake-smoothiefitness",
+  "title": "Protein Chocolate Milkshake SmoothieFitness",
+  "description": null,
+  "category": "Protein Recipes",
+  "subcategory": null,
+  "tags": [],
+  "servings": null,
+  "times": [],
+  "ingredients": [
+    {
+      "raw": "1/2 package silken tofu",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "pkg",
+      "item": "silken tofu",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "tofu",
+      "amount": {
+        "value": 0.5,
+        "unit": "pkg",
+        "package": "pkg"
+      }
+    },
+    {
+      "raw": "1/8 cup cocoa powder",
+      "quantity": 0.125,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "cocoa powder",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "cocoa-powder",
+      "amount": {
+        "value": 29.573,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1/2 frozen banana",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": null,
+      "item": "frozen banana",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "banana",
+      "amount": {
+        "value": 0.5,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "1/4 cup fresh raspberries",
+      "quantity": 0.25,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "fresh raspberries",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "raspberries",
+      "amount": {
+        "value": 59.147,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "2 cups spinach",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "spinach",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "spinach",
+      "amount": {
+        "value": 473.176,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 tablespoon flaxmeal",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "flaxmeal",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "flaxmeal",
+      "amount": {
+        "value": 14.787,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 cup vanilla soy milk",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "vanilla soy milk",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "soy-milk",
+      "amount": {
+        "value": 236.588,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "3 ice cubes",
+      "quantity": 3,
+      "quantityMax": null,
+      "unit": null,
+      "item": "ice cubes",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "ice",
+      "amount": {
+        "value": 3,
+        "unit": "each"
+      }
+    }
+  ],
+  "steps": [
+    {
+      "text": "Mix everything in a blender until smooth.",
+      "group": null
+    },
+    {
+      "text": "Enjoy immediately.",
+      "group": null
+    }
+  ],
+  "footnotes": [],
+  "nutrition": null,
+  "importedNotes": [],
+  "seeAlso": [],
+  "source": {
+    "attribution": null,
+    "file": "RECIPES/PROTEIN RECIPES/Protein Chocolate Milkshake Smoothie.doc",
+    "type": "doc",
+    "duplicateFiles": []
+  }
+}

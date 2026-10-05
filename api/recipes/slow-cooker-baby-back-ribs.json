@@ -1,0 +1,192 @@
+{
+  "schemaVersion": 1,
+  "id": "9063ba42-6199-5e50-a816-835212988975",
+  "slug": "slow-cooker-baby-back-ribs",
+  "title": "Slow Cooker Baby Back Ribs",
+  "description": null,
+  "category": "Pork Dishes",
+  "subcategory": null,
+  "tags": [
+    "main"
+  ],
+  "servings": null,
+  "times": [
+    {
+      "label": "Prep time",
+      "text": "10 mins"
+    },
+    {
+      "label": "Cook time",
+      "text": "4 hours"
+    }
+  ],
+  "ingredients": [
+    {
+      "raw": "3 pounds baby back ribs, trimmed",
+      "quantity": 3,
+      "quantityMax": null,
+      "unit": "lb",
+      "item": "baby back ribs",
+      "prep": "trimmed",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "pork-ribs",
+      "amount": {
+        "value": 1360.776,
+        "unit": "g"
+      }
+    },
+    {
+      "raw": "½ cup Pepsi or beer",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "Pepsi or beer",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "beer",
+      "amount": {
+        "value": 118.294,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 Tbsp liquid smoke",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "liquid smoke",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "liquid-smoke",
+      "amount": {
+        "value": 14.787,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "Rub made of salt, pepper, garlic powder, onion powder, brown sugar, and smoked paprika",
+      "quantity": null,
+      "quantityMax": null,
+      "unit": null,
+      "item": "Rub made of salt, pepper, garlic powder, onion powder, brown sugar, and smoked paprika",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "low",
+      "shop": true,
+      "catalogId": "salt",
+      "amount": null
+    },
+    {
+      "raw": "½ onion, sliced",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": null,
+      "item": "onion",
+      "prep": "sliced",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "onion",
+      "amount": {
+        "value": 0.5,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "1 clove garlic, minced",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "clove",
+      "item": "garlic",
+      "prep": "minced",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "garlic",
+      "amount": {
+        "value": 1,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "18 oz bottle BBQ sauce",
+      "quantity": 18,
+      "quantityMax": null,
+      "unit": "oz",
+      "item": "bottle BBQ sauce",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "bbq-sauce",
+      "amount": {
+        "value": 510.291,
+        "unit": "g"
+      }
+    }
+  ],
+  "steps": [
+    {
+      "text": "Season ribs with rub.",
+      "group": null
+    },
+    {
+      "text": "Pour Pepsi into slow cooker. Layer the ribs into the slow cooker. Top the ribs with onion and garlic.",
+      "group": null
+    },
+    {
+      "text": "Cook on High for 4 hours (or Low for 8 hours).",
+      "group": null
+    },
+    {
+      "text": "Preheat oven to 350 degrees F (190 degrees C).",
+      "group": null
+    },
+    {
+      "text": "Transfer ribs to a 9x11 uncovered baking sheet covered with tin foil. Discard onion and garlic. Coat ribs with barbeque sauce.",
+      "group": null
+    },
+    {
+      "text": "Bake in preheated oven until the sauce caramelizes and sticks to the meat, 20 minutes.",
+      "group": null
+    },
+    {
+      "text": "Add another thin layer of BBQ sauce and broil for 7-10 minutes.",
+      "group": null
+    }
+  ],
+  "footnotes": [
+    "Handwritten amounts for the rub ingredients are written beside the rub line on the card; not legible enough to transcribe."
+  ],
+  "nutrition": null,
+  "importedNotes": [],
+  "seeAlso": [],
+  "source": {
+    "attribution": null,
+    "file": "RECIPES/PORK DISHES/Slow Cooker Baby Back Ribs.doc",
+    "type": "doc",
+    "duplicateFiles": [
+      "RECIPES/PORK DISHES/Slow Cooker Baby Back Ribs.png"
+    ]
+  }
+}

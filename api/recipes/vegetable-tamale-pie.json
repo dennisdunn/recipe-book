@@ -1,0 +1,326 @@
+{
+  "schemaVersion": 1,
+  "id": "221f9ada-916f-5d38-90b8-b34295debc1b",
+  "slug": "vegetable-tamale-pie",
+  "title": "Vegetable Tamale Pie",
+  "description": null,
+  "category": "Mexican Dishes",
+  "subcategory": null,
+  "tags": [
+    "main"
+  ],
+  "servings": {
+    "text": "Makes 6 servings",
+    "amount": 6
+  },
+  "times": [],
+  "ingredients": [
+    {
+      "raw": "1 medium onion, chopped",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": null,
+      "item": "medium onion",
+      "prep": "chopped",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "onion",
+      "amount": {
+        "value": 1,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "1 medium green pepper, chopped",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": null,
+      "item": "medium green pepper",
+      "prep": "chopped",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "bell-pepper",
+      "amount": {
+        "value": 1,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "Add any left over zucchini or summer squash, chopped",
+      "quantity": null,
+      "quantityMax": null,
+      "unit": null,
+      "item": "Add any left over zucchini or summer squash",
+      "prep": "chopped",
+      "note": "add-in as desired",
+      "group": null,
+      "optional": true,
+      "confidence": "low",
+      "shop": false,
+      "catalogId": "zucchini",
+      "amount": null
+    },
+    {
+      "raw": "2 cloves garlic, minced",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "clove",
+      "item": "garlic",
+      "prep": "minced",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "garlic",
+      "amount": {
+        "value": 2,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "2 TBSP oil",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "oil",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "vegetable-oil",
+      "amount": {
+        "value": 29.574,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 can tomatoes (16oz), diced and drained",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "can",
+      "item": "tomatoes",
+      "prep": "diced and drained",
+      "note": "16oz",
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "tomato",
+      "amount": {
+        "value": 1,
+        "unit": "pkg",
+        "package": "can",
+        "packageOz": 16
+      }
+    },
+    {
+      "raw": "2 TBSP chili powder",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "chili powder",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "chili-powder",
+      "amount": {
+        "value": 29.574,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "½ cup chopped stuffed green olives (24 small) OR black olives",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "chopped stuffed green olives  OR black olives",
+      "prep": null,
+      "note": "24 small",
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "olives",
+      "amount": {
+        "value": 118.294,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 can dark red kidney beans, drained",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "can",
+      "item": "dark red kidney beans",
+      "prep": "drained",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "kidney-beans",
+      "amount": {
+        "value": 1,
+        "unit": "pkg",
+        "package": "can"
+      }
+    },
+    {
+      "raw": "1 can black beans, drained",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "can",
+      "item": "black beans",
+      "prep": "drained",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "black-beans",
+      "amount": {
+        "value": 1,
+        "unit": "pkg",
+        "package": "can"
+      }
+    },
+    {
+      "raw": "1 can whole kernel corn, drained",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "can",
+      "item": "whole kernel corn",
+      "prep": "drained",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "corn-canned",
+      "amount": {
+        "value": 1,
+        "unit": "pkg",
+        "package": "can"
+      }
+    },
+    {
+      "raw": "½ cup V8 juice to moisten",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "V8 juice to moisten",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "vegetable-juice",
+      "amount": {
+        "value": 118.294,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 box gluten free cornbread",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "box",
+      "item": "gluten free cornbread",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "cornbread-mix",
+      "amount": {
+        "value": 1,
+        "unit": "pkg",
+        "package": "box"
+      }
+    },
+    {
+      "raw": "½ cup cheddar cheese",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "cheddar cheese",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "cheddar-cheese",
+      "amount": {
+        "value": 118.294,
+        "unit": "ml"
+      }
+    }
+  ],
+  "steps": [
+    {
+      "text": "Preheat oven to 400 degrees.",
+      "group": null
+    },
+    {
+      "text": "In large skillet, sauté onion, green pepper and leftover veggies in oil until onion is tender,",
+      "group": null
+    },
+    {
+      "text": "Add tomatoes, chili powder, olives and garlic.",
+      "group": null
+    },
+    {
+      "text": "Stir occasionally, simmer 10 minutes",
+      "group": null
+    },
+    {
+      "text": "Remove from heat, stir in beans and corn.",
+      "group": null
+    },
+    {
+      "text": "Prepare cornbread mix according to directions, spread over bean mixture. (GF cornbread mix makes more than needed. Save extra batter for cornbread muffins which bake at 350 degrees).",
+      "group": null
+    },
+    {
+      "text": "Sprinkle cheese over cornbread mixture.",
+      "group": null
+    },
+    {
+      "text": "Bake for 20 minutes or until toothpick comes out clean.",
+      "group": null
+    },
+    {
+      "text": "Let stand for 10 minutes before serving.",
+      "group": null
+    },
+    {
+      "text": "557 calories, 19 grams protein, 82 grams carbs, 19 grams fat per serving.",
+      "group": null
+    }
+  ],
+  "footnotes": [],
+  "nutrition": null,
+  "importedNotes": [],
+  "seeAlso": [],
+  "source": {
+    "attribution": null,
+    "file": "RECIPES/MEXICAN DISHES/Vegetable Tamale Pie.doc",
+    "type": "doc",
+    "duplicateFiles": []
+  }
+}

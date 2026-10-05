@@ -1,0 +1,180 @@
+{
+  "schemaVersion": 1,
+  "id": "bc84324a-6e76-5afe-a2c7-d359ed85d00b",
+  "slug": "bacon-eggs-potatoes-casserole",
+  "title": "Bacon, Eggs & Potatoes Casserole",
+  "description": null,
+  "category": "Breakfast",
+  "subcategory": null,
+  "tags": [],
+  "servings": null,
+  "times": [],
+  "ingredients": [
+    {
+      "raw": "12 oz bacon",
+      "quantity": 12,
+      "quantityMax": null,
+      "unit": "oz",
+      "item": "bacon",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "bacon",
+      "amount": {
+        "value": 340.194,
+        "unit": "g"
+      }
+    },
+    {
+      "raw": "1/4 cup diced onion",
+      "quantity": 0.25,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "diced onion",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "onion",
+      "amount": {
+        "value": 59.147,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1/4 cup diced green bell pepper",
+      "quantity": 0.25,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "diced green bell pepper",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "bell-pepper",
+      "amount": {
+        "value": 59.147,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "2 cups shredded Cheddar cheese",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "shredded Cheddar cheese",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "cheddar-cheese",
+      "amount": {
+        "value": 473.176,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "6 eggs",
+      "quantity": 6,
+      "quantityMax": null,
+      "unit": null,
+      "item": "eggs",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "eggs",
+      "amount": {
+        "value": 6,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "1 ½  cups milk",
+      "quantity": 1.5,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "milk",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "milk",
+      "amount": {
+        "value": 354.882,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "12 oz frozen hash brown potatoes, thawed",
+      "quantity": 12,
+      "quantityMax": null,
+      "unit": "oz",
+      "item": "frozen hash brown potatoes",
+      "prep": "thawed",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "hash-browns",
+      "amount": {
+        "value": 340.194,
+        "unit": "g"
+      }
+    }
+  ],
+  "steps": [
+    {
+      "text": "Preheat oven to 350 degrees F (175 degrees C). Lightly grease a 9x9 inch casserole dish.",
+      "group": null
+    },
+    {
+      "text": "Layer hash browns in casserole dish, dot with butter and season with salt and pepper. Bake at 425 for 20 to 30 minutes.",
+      "group": null
+    },
+    {
+      "text": "Meanwhile, fry the bacon in a large, deep skillet over medium-high heat until evenly browned, about 10 minutes. Drain on a paper towel-lined plate. Crumble.",
+      "group": null
+    },
+    {
+      "text": "Layer bacon, cheese, onion and green pepper over potatoes. Season with salt and pepper.",
+      "group": null
+    },
+    {
+      "text": "In a large bowl beat together eggs and milk. Pour mixture over all.",
+      "group": null
+    },
+    {
+      "text": "Cover with aluminum foil and bake at 350 degrees for 45 minutes. Uncover and bake for another 30 minutes until eggs have set.",
+      "group": null
+    }
+  ],
+  "footnotes": [],
+  "nutrition": null,
+  "importedNotes": [
+    {
+      "text": "Original recipe recommended that you refrigerate it overnight (unbaked) and bake it in the morning. I made mine in the morning and baked it in the afternoon."
+    }
+  ],
+  "seeAlso": [],
+  "source": {
+    "attribution": null,
+    "file": "RECIPES/BREAKFAST/Bacon, Eggs & Potatoes Casserole.doc",
+    "type": "doc",
+    "duplicateFiles": []
+  }
+}

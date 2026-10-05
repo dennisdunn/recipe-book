@@ -1,0 +1,212 @@
+{
+  "schemaVersion": 1,
+  "id": "c72d1e1a-71b5-5e3f-b7da-b145fbb909e1",
+  "slug": "brown-sugar-cookies-ii",
+  "title": "Brown Sugar Cookies II",
+  "description": "\"This dough can be frozen for up to 3 months and you can make variations with chocolate chips, oatmeal coconut, peanut butter, nuts or fruit.\"",
+  "category": "Desserts",
+  "subcategory": null,
+  "tags": [],
+  "servings": null,
+  "times": [],
+  "ingredients": [
+    {
+      "raw": "2/3 cup shortening",
+      "quantity": 0.667,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "shortening",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "shortening",
+      "amount": {
+        "value": 157.804,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "2/3 cup butter, softened",
+      "quantity": 0.667,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "butter",
+      "prep": "softened",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "butter",
+      "amount": {
+        "value": 157.804,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 cup white sugar",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "white sugar",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "sugar",
+      "amount": {
+        "value": 236.588,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 cup packed brown sugar",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "packed brown sugar",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "brown-sugar",
+      "amount": {
+        "value": 236.588,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "2 eggs",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": null,
+      "item": "eggs",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "eggs",
+      "amount": {
+        "value": 2,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "2 teaspoons vanilla extract",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "vanilla extract",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "vanilla-extract",
+      "amount": {
+        "value": 9.858,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "3 1/4 cups all-purpose flour",
+      "quantity": 3.25,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "all-purpose flour",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "all-purpose-flour",
+      "amount": {
+        "value": 768.911,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 teaspoon baking soda",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "baking soda",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "baking-soda",
+      "amount": {
+        "value": 4.929,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 teaspoon salt",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "salt",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "salt",
+      "amount": {
+        "value": 4.929,
+        "unit": "ml"
+      }
+    }
+  ],
+  "steps": [
+    {
+      "text": "Mix shortening, butter or margarine, sugars, eggs and vanilla thoroughly. Stir in all purpose or unbleached flour, baking soda and salt.",
+      "group": null
+    },
+    {
+      "text": "Turn dough onto lightly floured board. Shape dough into ball with lightly floured hands, pressing to make dough compact. Cut dough in half.",
+      "group": null
+    },
+    {
+      "text": "Shape each half into a roll 2 inches in diameter and about 8 inches long by gently rolling dough back and forth on floured board. Roll dough onto plastic wrap: wrap and twist ends tightly. Dough can be refrigerated up to 1 month or frozen up to 3 months.",
+      "group": null
+    },
+    {
+      "text": "Preheat oven to 375 degrees F (190 degrees C).",
+      "group": null
+    },
+    {
+      "text": "Cut roll into 1/4-inch slices. (It is not necessary to thaw frozen dough before slicing.) Place slices about 2 inches apart on ungreased baking sheet. Bake 9 to 11 minutes. Immediately remove cookies from baking sheet onto wire rack.",
+      "group": null
+    },
+    {
+      "text": "CHOCOLATE CHIP: Add 1 cup mini semisweet chocolate chips and 1 cup chopped nuts with the flour. OATMEAL-COCONUT: Reduce flour to 2 3/4 cups. Add 1 cup flaked coconut and 1 cup quick-cooking oats with the flour. PEANUT BUTTER: Add 1 cup creamy or chunky peanut butter with the shortening. CHOCOLATE-NUT: Add 1 cup chopped nuts and 1/2 cup cocoa with the flour. FRUIT SLICES: Add 1 cup whole candied cherries, 1/2 cup chopped nuts and 1/2 cup cut-up mixed candied fruit with the flour.",
+      "group": null
+    }
+  ],
+  "footnotes": [],
+  "nutrition": null,
+  "importedNotes": [],
+  "seeAlso": [],
+  "source": {
+    "attribution": null,
+    "file": "RECIPES/DESSERTS/Brown Sugar Cookies II.doc",
+    "type": "doc",
+    "duplicateFiles": []
+  }
+}

@@ -1,0 +1,248 @@
+{
+  "schemaVersion": 1,
+  "id": "0408edad-ecaf-579e-a420-a02743471265",
+  "slug": "mushroom-soup-without-cream",
+  "title": "Mushroom Soup without Cream",
+  "description": "\"A delicious broth-based soup that can be modified to your taste! Great with salad or a sandwich. Recommended mushrooms: Shitake, Baby Portabellas &/or White/Button Mushrooms.\"  Original recipe makes 8 - (1 cup) servings",
+  "category": "Soups and Stews",
+  "subcategory": null,
+  "tags": [],
+  "servings": null,
+  "times": [],
+  "ingredients": [
+    {
+      "raw": "2 tbsp butter",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "butter",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "butter",
+      "amount": {
+        "value": 29.574,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 cup peeled and sliced carrots",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "peeled and sliced carrots",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "carrot",
+      "amount": {
+        "value": 236.588,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 cup slice onions",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "slice onions",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "onion",
+      "amount": {
+        "value": 236.588,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 cup sliced leeks (optional)",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "sliced leeks",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": true,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "leek",
+      "amount": {
+        "value": 236.588,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "½ cup sliced celery",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "sliced celery",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "celery",
+      "amount": {
+        "value": 118.294,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 tsp fresh thyme leaves",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "fresh thyme leaves",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "fresh-thyme",
+      "amount": {
+        "value": 4.929,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "2 lbs sliced fresh portabella mushrooms",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "lb",
+      "item": "sliced fresh portabella mushrooms",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "portobello-mushrooms",
+      "amount": {
+        "value": 907.184,
+        "unit": "g"
+      }
+    },
+    {
+      "raw": "1/2 cup sliced celery",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "sliced celery",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "celery",
+      "amount": {
+        "value": 118.294,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "6 cups chicken stock",
+      "quantity": 6,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "chicken stock",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "chicken-broth",
+      "amount": {
+        "value": 1419.528,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "salt and pepper to taste",
+      "quantity": null,
+      "quantityMax": null,
+      "unit": null,
+      "item": "salt and pepper",
+      "prep": null,
+      "note": "to taste",
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "salt",
+      "amount": null
+    },
+    {
+      "raw": "1/2 cup chopped green onion",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "chopped green onion",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "green-onion",
+      "amount": {
+        "value": 118.294,
+        "unit": "ml"
+      }
+    }
+  ],
+  "steps": [
+    {
+      "text": "Melt the butter in a stock pot over medium heat. Add carrots, onions, leeks, and celery. Cook and stir until tender, but not browned, about 10 minutes. Stir in thyme and mushrooms, and continue cooking until mushrooms are soft, about 5 minutes.",
+      "group": null
+    },
+    {
+      "text": "Pour chicken stock into the pot, and season with salt and pepper. Cover, and simmer over low heat for 30 minutes. Ladle into bowls, and serve with green onions sprinkled on the top.",
+      "group": null
+    }
+  ],
+  "footnotes": [],
+  "nutrition": null,
+  "importedNotes": [
+    {
+      "text": "If you do not use leeks, increase the amounts of the other vegetables or add your favorites. Dried thyme may be used in place of the fresh. Add your favorite herbs with or in place of the thyme."
+    },
+    {
+      "text": "For a smoother texture, you may puree the soup after it has simmered the final 30 minutes."
+    },
+    {
+      "text": "Prepare some wild rice according to package directions, and add to soup during the final 10 minutes of cooking or after soup has been pureed."
+    },
+    {
+      "text": "I added three cloves of freshly chopped garlic when I sauteed the veggies; and added a handful of dry orzo to cook up as the soup simmered. I used my immersion blender to slightly puree a small amount of the soup which gave an illusion of creaminess; but still left it very chunky."
+    },
+    {
+      "text": "I didn't have any leeks, so I left them out, and the only thing I added that was different was a packet of onion-mushroom soup mix. I may try some white wine next time."
+    },
+    {
+      "text": "I added garlic to the onion/celery mixture, a couple of sprinkles of beef boullion granules, and a few dashes hot sauce."
+    }
+  ],
+  "seeAlso": [],
+  "source": {
+    "attribution": null,
+    "file": "RECIPES/SOUPS AND STEWS/Mushroom Soup without Cream.doc",
+    "type": "doc",
+    "duplicateFiles": []
+  }
+}

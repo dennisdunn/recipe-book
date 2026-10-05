@@ -1,0 +1,154 @@
+{
+  "schemaVersion": 1,
+  "id": "2125398c-efcb-5d0e-91e1-057f4eb62eba",
+  "slug": "cucumber-chunks",
+  "title": "Cucumber Chunks",
+  "description": null,
+  "category": "Side Dishes",
+  "subcategory": null,
+  "tags": [],
+  "servings": null,
+  "times": [],
+  "ingredients": [
+    {
+      "raw": "overgrown cucumbers",
+      "quantity": null,
+      "quantityMax": null,
+      "unit": null,
+      "item": "overgrown cucumbers",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "low",
+      "shop": true,
+      "catalogId": "cucumber",
+      "amount": null
+    },
+    {
+      "raw": "diced green pepper",
+      "quantity": null,
+      "quantityMax": null,
+      "unit": null,
+      "item": "diced green pepper",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "low",
+      "shop": true,
+      "catalogId": "bell-pepper",
+      "amount": null
+    },
+    {
+      "raw": "onion",
+      "quantity": null,
+      "quantityMax": null,
+      "unit": null,
+      "item": "onion",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "low",
+      "shop": true,
+      "catalogId": "onion",
+      "amount": null
+    },
+    {
+      "raw": "water",
+      "quantity": null,
+      "quantityMax": null,
+      "unit": null,
+      "item": "water",
+      "prep": null,
+      "note": null,
+      "group": "Pickle syrup",
+      "optional": false,
+      "confidence": "low",
+      "shop": true,
+      "catalogId": "water",
+      "amount": null
+    },
+    {
+      "raw": "vinegar (equal parts to the water)",
+      "quantity": null,
+      "quantityMax": null,
+      "unit": null,
+      "item": "vinegar",
+      "prep": null,
+      "note": "equal parts to the water",
+      "group": "Pickle syrup",
+      "optional": false,
+      "confidence": "low",
+      "shop": true,
+      "catalogId": "white-vinegar",
+      "amount": null
+    },
+    {
+      "raw": "2 cups sugar (\"a couple cups\")",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "sugar",
+      "prep": null,
+      "note": "\"a couple cups\"",
+      "group": "Pickle syrup",
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "sugar",
+      "amount": {
+        "value": 473.176,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "pickling spice",
+      "quantity": null,
+      "quantityMax": null,
+      "unit": null,
+      "item": "pickling spice",
+      "prep": null,
+      "note": null,
+      "group": "Pickle syrup",
+      "optional": false,
+      "confidence": "low",
+      "shop": true,
+      "catalogId": "pickling-spice",
+      "amount": null
+    }
+  ],
+  "steps": [
+    {
+      "text": "Scrub the cukes, cut off the stem end and tip. Cut in half lengthwise, then into quarters lengthwise. Cut away the seeds. Cut into small chunks.",
+      "group": null
+    },
+    {
+      "text": "Add diced green pepper and onion. Follow the instructions for basic brining for 3 to 4 hours.",
+      "group": null
+    },
+    {
+      "text": "Mix up a simple bread and butter pickle syrup: equal parts water and vinegar, a couple cups sugar, some pickling spice. Bring to a gentle boil. Add the drained cucumber chunks.",
+      "group": null
+    },
+    {
+      "text": "Bring to a boil, then remove from heat. Portion into clean jars. Cool and store in the fridge, or process in a cold water bath canner to store in the pantry.",
+      "group": null
+    }
+  ],
+  "footnotes": [],
+  "nutrition": null,
+  "importedNotes": [
+    {
+      "text": "Overgrown cukes make the BEST cucumber chunks."
+    }
+  ],
+  "seeAlso": [],
+  "source": {
+    "attribution": null,
+    "file": "RECIPES/SIDE DISHES/Recipes for overgrown cucumbers.doc",
+    "type": "doc",
+    "duplicateFiles": []
+  }
+}

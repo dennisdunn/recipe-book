@@ -1,0 +1,166 @@
+{
+  "schemaVersion": 1,
+  "id": "a88d9a6c-8628-538e-a879-33463d66d465",
+  "slug": "bacon-eggs-cheese-and-avocado-quickie",
+  "title": "Bacon, Eggs, Cheese and Avocado Quickie",
+  "description": null,
+  "category": "Breakfast",
+  "subcategory": null,
+  "tags": [],
+  "servings": null,
+  "times": [],
+  "ingredients": [
+    {
+      "raw": "1 avocado",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": null,
+      "item": "avocado",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "avocado",
+      "amount": {
+        "value": 1,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "3 strips bacon, cooked crisp and broken into small pieces (other breakfast meats work, but must be cooked first)",
+      "quantity": 3,
+      "quantityMax": null,
+      "unit": null,
+      "item": "strips bacon",
+      "prep": "cooked crisp and broken into small pieces",
+      "note": "other breakfast meats work, but must be cooked first",
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "bacon",
+      "amount": {
+        "value": 3,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "2 eggs (one for each half of the avocado; increase for more servings)",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": null,
+      "item": "eggs",
+      "prep": null,
+      "note": "one for each half of the avocado; increase for more servings",
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "eggs",
+      "amount": {
+        "value": 2,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "dash of Pink Himalayan salt and pepper to taste",
+      "quantity": null,
+      "quantityMax": null,
+      "unit": "dash",
+      "item": "Pink Himalayan salt and pepper",
+      "prep": null,
+      "note": "to taste",
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "salt",
+      "amount": null
+    },
+    {
+      "raw": "1 tbsp sour cream",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "sour cream",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "sour-cream",
+      "amount": {
+        "value": 14.787,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 tbsp grated cheese (I used a combination of cheddar and mozzarella)",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "grated cheese",
+      "prep": null,
+      "note": "I used a combination of cheddar and mozzarella",
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "mexican-cheese-blend",
+      "amount": {
+        "value": 14.787,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 tbsp heavy cream",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "heavy cream",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "heavy-cream",
+      "amount": {
+        "value": 14.787,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 tsp coconut oil",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "coconut oil",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "coconut-oil",
+      "amount": {
+        "value": 4.929,
+        "unit": "ml"
+      }
+    }
+  ],
+  "steps": [],
+  "footnotes": [],
+  "nutrition": null,
+  "importedNotes": [],
+  "seeAlso": [],
+  "source": {
+    "attribution": null,
+    "file": "RECIPES/BREAKFAST/Bacon egg avocado quickie.doc",
+    "type": "doc",
+    "duplicateFiles": []
+  }
+}

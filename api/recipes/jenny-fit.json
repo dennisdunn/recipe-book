@@ -1,0 +1,176 @@
+{
+  "schemaVersion": 1,
+  "id": "7f86f067-14a5-5ee1-93a1-a1c7e8e917ab",
+  "slug": "jenny-fit",
+  "title": "Jenny  Fit",
+  "description": null,
+  "category": "Protein Recipes",
+  "subcategory": null,
+  "tags": [],
+  "servings": null,
+  "times": [],
+  "ingredients": [
+    {
+      "raw": "1 cup almond butter",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "almond butter",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "almond-butter",
+      "amount": {
+        "value": 236.588,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "3 ounces vanilla plant-based protein powder (I used Vega)",
+      "quantity": 3,
+      "quantityMax": null,
+      "unit": "oz",
+      "item": "vanilla plant-based protein powder",
+      "prep": null,
+      "note": "I used Vega",
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "protein-powder",
+      "amount": {
+        "value": 85.048,
+        "unit": "g"
+      }
+    },
+    {
+      "raw": "1/2 cup maple syrup",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "maple syrup",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "maple-syrup",
+      "amount": {
+        "value": 118.294,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "2 eggs",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": null,
+      "item": "eggs",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "eggs",
+      "amount": {
+        "value": 2,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "2 cups gluten-free rolled oats",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "gluten-free rolled oats",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "oats",
+      "amount": {
+        "value": 473.176,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1/2 cup unsweetened coconut",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "unsweetened coconut",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "coconut",
+      "amount": {
+        "value": 118.294,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 teaspoon baking soda",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "baking soda",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "baking-soda",
+      "amount": {
+        "value": 4.929,
+        "unit": "ml"
+      }
+    }
+  ],
+  "steps": [
+    {
+      "text": "Preheat oven to 350°F. Spray a 9-by-11-inch pan with cooking spray.",
+      "group": null
+    },
+    {
+      "text": "In a small bowl, use an electric mixer to mix almond butter, protein powder, and maple syrup. Beat in the eggs.",
+      "group": null
+    },
+    {
+      "text": "Stir in rolled oats, coconut, and baking soda, and mix well.",
+      "group": null
+    },
+    {
+      "text": "Firmly press stiff dough into the pan using the back of a spoon.",
+      "group": null
+    },
+    {
+      "text": "Bake for 12 minutes or until the top browns slightly.",
+      "group": null
+    },
+    {
+      "text": "Cool pan on a rack, cut into 18 squares, and store leftovers in an airtight container.",
+      "group": null
+    }
+  ],
+  "footnotes": [],
+  "nutrition": null,
+  "importedNotes": [],
+  "seeAlso": [],
+  "source": {
+    "attribution": null,
+    "file": "RECIPES/PROTEIN RECIPES/GF Protein Bar.doc",
+    "type": "doc",
+    "duplicateFiles": []
+  }
+}

@@ -1,0 +1,162 @@
+{
+  "schemaVersion": 1,
+  "id": "1d2e9b56-54c3-5224-a420-7c777d5e63cf",
+  "slug": "cucumber-salad",
+  "title": "Cucumber Salad",
+  "description": null,
+  "category": "Side Dishes",
+  "subcategory": null,
+  "tags": [],
+  "servings": null,
+  "times": [],
+  "ingredients": [
+    {
+      "raw": "2 large cucumbers",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": null,
+      "item": "large cucumbers",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "cucumber",
+      "amount": {
+        "value": 2,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "salt",
+      "quantity": null,
+      "quantityMax": null,
+      "unit": null,
+      "item": "salt",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "low",
+      "shop": true,
+      "catalogId": "salt",
+      "amount": null
+    },
+    {
+      "raw": "1 cup water",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "water",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "water",
+      "amount": {
+        "value": 236.588,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 cup regular vinegar",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "regular vinegar",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "white-vinegar",
+      "amount": {
+        "value": 236.588,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1/2 cup sugar",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "sugar",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "sugar",
+      "amount": {
+        "value": 118.294,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 large onion, sliced",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": null,
+      "item": "large onion",
+      "prep": "sliced",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "onion",
+      "amount": {
+        "value": 1,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "chopped scallions (optional)",
+      "quantity": null,
+      "quantityMax": null,
+      "unit": null,
+      "item": "chopped scallions",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": true,
+      "confidence": "low",
+      "shop": true,
+      "catalogId": "green-onion",
+      "amount": null
+    }
+  ],
+  "steps": [
+    {
+      "text": "Peel the cucumbers (or not, or partially for decoration) and thinly slice into a glass bowl. Salt the slices and let sit about 1/2 hour. Rinse and drain.",
+      "group": null
+    },
+    {
+      "text": "Add the water, vinegar, sugar and sliced onion (and scallions, if using). Stir well.",
+      "group": null
+    },
+    {
+      "text": "Pack into large containers, preferably glass, and refrigerate. You can start eating it the next day; under refrigeration it lasts at least 1 week.",
+      "group": null
+    }
+  ],
+  "footnotes": [],
+  "nutrition": null,
+  "importedNotes": [
+    {
+      "text": "Amounts are per 2 large cucumbers. For lots of cukes, double or triple the recipe."
+    }
+  ],
+  "seeAlso": [],
+  "source": {
+    "attribution": null,
+    "file": "RECIPES/SIDE DISHES/Recipes for overgrown cucumbers.doc",
+    "type": "doc",
+    "duplicateFiles": []
+  }
+}

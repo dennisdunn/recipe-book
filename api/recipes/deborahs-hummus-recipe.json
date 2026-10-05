@@ -1,0 +1,157 @@
+{
+  "schemaVersion": 1,
+  "id": "fab2edc6-8e3e-5b7f-a197-1f9f0cfbe549",
+  "slug": "deborahs-hummus-recipe",
+  "title": "Deborah's Hummus Recipe",
+  "description": null,
+  "category": "Dips, Rubs, Sauces & Marinades",
+  "subcategory": null,
+  "tags": [],
+  "servings": null,
+  "times": [],
+  "ingredients": [
+    {
+      "raw": "1 can drained and rinsed chickpeas",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "can",
+      "item": "drained and rinsed chickpeas",
+      "prep": null,
+      "note": null,
+      "group": "Put into processor",
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "chickpeas",
+      "amount": {
+        "value": 1,
+        "unit": "pkg",
+        "package": "can"
+      }
+    },
+    {
+      "raw": "3 TBSP Sesame Tahini Paste",
+      "quantity": 3,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "Sesame Tahini Paste",
+      "prep": null,
+      "note": null,
+      "group": "Put into processor",
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "tahini",
+      "amount": {
+        "value": 44.36,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 TBSP olive oil",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "olive oil",
+      "prep": null,
+      "note": null,
+      "group": "Put into processor",
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "olive-oil",
+      "amount": {
+        "value": 14.787,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "Juice of 1 lemon",
+      "quantity": null,
+      "quantityMax": null,
+      "unit": null,
+      "item": "Juice of 1 lemon",
+      "prep": null,
+      "note": null,
+      "group": "Put into processor",
+      "optional": false,
+      "confidence": "low",
+      "shop": true,
+      "catalogId": "lemon",
+      "amount": {
+        "value": 1,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "1 clove garlic",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "clove",
+      "item": "garlic",
+      "prep": null,
+      "note": null,
+      "group": "Put into processor",
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "garlic",
+      "amount": {
+        "value": 1,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "1 tsp cumin",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "cumin",
+      "prep": null,
+      "note": null,
+      "group": "Put into processor",
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "cumin",
+      "amount": {
+        "value": 4.929,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "2 TBSP water",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "water",
+      "prep": null,
+      "note": null,
+      "group": "Put into processor",
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "water",
+      "amount": {
+        "value": 29.574,
+        "unit": "ml"
+      }
+    }
+  ],
+  "steps": [
+    {
+      "text": "Puree and taste. Adjust seasonings as needed.",
+      "group": null
+    }
+  ],
+  "footnotes": [],
+  "nutrition": null,
+  "importedNotes": [],
+  "seeAlso": [],
+  "source": {
+    "attribution": null,
+    "file": "RECIPES/DIPS, RUBS, SAUCES & MARINADES/Deb_s Hummus Recipe.doc",
+    "type": "doc",
+    "duplicateFiles": []
+  }
+}

@@ -1,0 +1,290 @@
+{
+  "schemaVersion": 1,
+  "id": "ffb39b9b-0707-5ebe-89d8-e2d428a71136",
+  "slug": "heart-healthy-pumpkin-muffins",
+  "title": "Heart Healthy Pumpkin Muffins",
+  "description": null,
+  "category": "Desserts",
+  "subcategory": null,
+  "tags": [],
+  "servings": null,
+  "times": [],
+  "ingredients": [
+    {
+      "raw": "15 oz canned pumpkin (instead of 1 small sugar pumpkin, seeded)",
+      "quantity": 15,
+      "quantityMax": null,
+      "unit": "oz",
+      "item": "canned pumpkin",
+      "prep": null,
+      "note": "instead of 1 small sugar pumpkin, seeded",
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "pumpkin-puree",
+      "amount": {
+        "value": 425.243,
+        "unit": "g"
+      }
+    },
+    {
+      "raw": "2 cups whole wheat flour (instead of white flour and no oats)",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "whole wheat flour",
+      "prep": null,
+      "note": "instead of white flour and no oats",
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "whole-wheat-flour",
+      "amount": {
+        "value": 473.176,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "¾ cup sugar (instead of 2 cups sugar)",
+      "quantity": 0.75,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "sugar",
+      "prep": null,
+      "note": "instead of 2 cups sugar",
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "sugar",
+      "amount": {
+        "value": 177.441,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 cup rolled oats",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "rolled oats",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "oats",
+      "amount": {
+        "value": 236.588,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "2 teaspoons baking soda",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "baking soda",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "baking-soda",
+      "amount": {
+        "value": 9.858,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1/2 teaspoon baking powder",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "baking powder",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "baking-powder",
+      "amount": {
+        "value": 2.464,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "¾ cup sugar",
+      "quantity": 0.75,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "sugar",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "sugar",
+      "amount": {
+        "value": 177.441,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 teaspoon ground cloves",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "ground cloves",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "cloves",
+      "amount": {
+        "value": 4.929,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 teaspoon ground cinnamon",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "ground cinnamon",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "cinnamon",
+      "amount": {
+        "value": 4.929,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 teaspoon ground nutmeg",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "ground nutmeg",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "nutmeg",
+      "amount": {
+        "value": 4.929,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1/2 teaspoon ground allspice",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "ground allspice",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "allspice",
+      "amount": {
+        "value": 2.464,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1/2 teaspoon salt",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "salt",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "salt",
+      "amount": {
+        "value": 2.464,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "2/3 cup applesauce (instead of oil)",
+      "quantity": 0.667,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "applesauce",
+      "prep": null,
+      "note": "instead of oil",
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "applesauce",
+      "amount": {
+        "value": 157.804,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "¾ cup egg beaters (instead of 3 eggs)",
+      "quantity": 0.75,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "egg beaters",
+      "prep": null,
+      "note": "instead of 3 eggs",
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "eggs",
+      "amount": {
+        "value": 177.441,
+        "unit": "ml"
+      }
+    }
+  ],
+  "steps": [
+    {
+      "text": "Preheat oven to 350 degrees F (175 degrees C). Grease 12 muffin cups or line with paper muffin liners.",
+      "group": null
+    },
+    {
+      "text": "In a large bowl, stir together flour, oats, sugar, baking soda, baking powder, cloves, cinnamon, nutmeg, allspice and salt. In a separate bowl, beat together 2 cups pumpkin puree, applesauce (or oil) and eggbeaters (or eggs). Stir pumpkin mixture into flour mixture until smooth. Scoop batter into prepared muffin cups.",
+      "group": null
+    },
+    {
+      "text": "Bake in preheated oven for 20 to 25 minutes, until a toothpick inserted into the center of a muffin comes out clean.",
+      "group": null
+    }
+  ],
+  "footnotes": [],
+  "nutrition": null,
+  "importedNotes": [],
+  "seeAlso": [],
+  "source": {
+    "attribution": null,
+    "file": "RECIPES/DESSERTS/Heart Healthy Pumpkin Muffins.doc",
+    "type": "doc",
+    "duplicateFiles": []
+  }
+}

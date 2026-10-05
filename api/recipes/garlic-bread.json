@@ -1,0 +1,193 @@
+{
+  "schemaVersion": 1,
+  "id": "5fc0c4b7-b30d-5372-8618-233610ae03c4",
+  "slug": "garlic-bread",
+  "title": "Garlic Bread",
+  "description": null,
+  "category": "Breads & Cereals",
+  "subcategory": null,
+  "tags": [],
+  "servings": {
+    "text": "Makes ½ cup",
+    "amount": null
+  },
+  "times": [],
+  "ingredients": [
+    {
+      "raw": "1/2  cup butter, softened",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "butter",
+      "prep": "softened",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "butter",
+      "amount": {
+        "value": 118.294,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1and 1/2 tsp minced garlic",
+      "quantity": 1.5,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "minced garlic",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "garlic",
+      "amount": {
+        "value": 7.393,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "2 Tbsp grated Parmesan cheese",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "grated Parmesan cheese",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "parmesan-cheese",
+      "amount": {
+        "value": 29.574,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 tsp garlic powder",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "garlic powder",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "garlic-powder",
+      "amount": {
+        "value": 4.929,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1/4 tsp salt",
+      "quantity": 0.25,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "salt",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "salt",
+      "amount": {
+        "value": 1.232,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1/2 teaspoon Italian seasoning",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "Italian seasoning",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "italian-seasoning",
+      "amount": {
+        "value": 2.464,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1/4 teaspoon ground black pepper",
+      "quantity": 0.25,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "ground black pepper",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "black-pepper",
+      "amount": {
+        "value": 1.232,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1/8 teaspoon ground paprika",
+      "quantity": 0.125,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "ground paprika",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "paprika",
+      "amount": {
+        "value": 0.616,
+        "unit": "ml"
+      }
+    }
+  ],
+  "steps": [
+    {
+      "text": "In a small bowl, combine softened butter, minced garlic and parmesan cheese.",
+      "group": null
+    },
+    {
+      "text": "Season with garlic salt, Italian seasoning, and pepper.",
+      "group": null
+    },
+    {
+      "text": "Mix until smooth and spread on face up side of bread.",
+      "group": null
+    },
+    {
+      "text": "Sprinkle the paprika on top.",
+      "group": null
+    },
+    {
+      "text": "Bake at 425 for 10 – 12 mins.",
+      "group": null
+    }
+  ],
+  "footnotes": [],
+  "nutrition": null,
+  "importedNotes": [],
+  "seeAlso": [],
+  "source": {
+    "attribution": null,
+    "file": "RECIPES/BREADS & CEREALS/GARLIC BREAD.doc",
+    "type": "doc",
+    "duplicateFiles": []
+  }
+}

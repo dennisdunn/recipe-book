@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "id": "52cf91b9-0313-5e05-b89a-f39c0b9e2027",
+  "slug": "chocolate-frosting",
+  "title": "Chocolate Frosting",
+  "description": "Stays light like whipped cream",
+  "category": "Desserts",
+  "subcategory": null,
+  "tags": [],
+  "servings": null,
+  "times": [],
+  "ingredients": [
+    {
+      "raw": "¾ cup butter",
+      "quantity": 0.75,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "butter",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "butter",
+      "amount": {
+        "value": 177.441,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 ½ cup sifted confectioners’ sugar",
+      "quantity": 1.5,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "sifted confectioners’ sugar",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "powdered-sugar",
+      "amount": {
+        "value": 354.882,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "½ cup cocoa",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "cocoa",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "cocoa-powder",
+      "amount": {
+        "value": 118.294,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "2 egg yokes",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": null,
+      "item": "egg yokes",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "egg-yolks",
+      "amount": {
+        "value": 2,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "1 tsp vanilla",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "vanilla",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "vanilla-extract",
+      "amount": {
+        "value": 4.929,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "2 egg whites beaten until fluffy",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": null,
+      "item": "egg whites beaten until fluffy",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "egg-whites",
+      "amount": {
+        "value": 2,
+        "unit": "each"
+      }
+    }
+  ],
+  "steps": [
+    {
+      "text": "Cream butter, sugar and cocoa until light and fluffy.",
+      "group": null
+    },
+    {
+      "text": "Add egg yokes and vanilla.",
+      "group": null
+    },
+    {
+      "text": "Beat thoroughly.",
+      "group": null
+    },
+    {
+      "text": "Fold egg whites into mixture until blended.",
+      "group": null
+    }
+  ],
+  "footnotes": [],
+  "nutrition": null,
+  "importedNotes": [],
+  "seeAlso": [],
+  "source": {
+    "attribution": null,
+    "file": "RECIPES/DESSERTS/Chocolate Frosting.doc",
+    "type": "doc",
+    "duplicateFiles": []
+  }
+}

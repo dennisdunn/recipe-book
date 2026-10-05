@@ -1,0 +1,221 @@
+{
+  "schemaVersion": 1,
+  "id": "81e28a8f-e073-57f6-91d9-6c53b81f6a69",
+  "slug": "mandys-chicken-va-tel",
+  "title": "Mandy's Chicken Va-Tel",
+  "description": null,
+  "category": "Chicken Dishes",
+  "subcategory": null,
+  "tags": [
+    "main"
+  ],
+  "servings": {
+    "text": "Serves 6 to 8",
+    "amount": 6
+  },
+  "times": [],
+  "ingredients": [
+    {
+      "raw": "5 chicken breast halves",
+      "quantity": 5,
+      "quantityMax": null,
+      "unit": null,
+      "item": "chicken breast halves",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "chicken-breast",
+      "amount": {
+        "value": 5,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "½ lb spaghetti",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "lb",
+      "item": "spaghetti",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "spaghetti",
+      "amount": {
+        "value": 226.796,
+        "unit": "g"
+      }
+    },
+    {
+      "raw": "2 cans cream of mushroom soup (Campbell’s)",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "can",
+      "item": "cream of mushroom soup",
+      "prep": null,
+      "note": "Campbell’s",
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "cream-of-mushroom-soup",
+      "amount": {
+        "value": 2,
+        "unit": "pkg",
+        "package": "can"
+      }
+    },
+    {
+      "raw": "1 lb Velveeta cheese",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "lb",
+      "item": "Velveeta cheese",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "american-cheese",
+      "amount": {
+        "value": 453.592,
+        "unit": "g"
+      }
+    },
+    {
+      "raw": "6 to 8 slices of muenster cheese",
+      "quantity": 6,
+      "quantityMax": 8,
+      "unit": "slice",
+      "item": "muenster cheese",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "american-cheese",
+      "amount": {
+        "value": 7,
+        "unit": "each",
+        "countUnit": "slice"
+      }
+    },
+    {
+      "raw": "½ stick butter",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "stick",
+      "item": "butter",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "butter",
+      "amount": {
+        "value": 56.7,
+        "unit": "g"
+      }
+    },
+    {
+      "raw": "1 cup of milk",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "milk",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "milk",
+      "amount": {
+        "value": 236.588,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "2 Tbsp flour",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "flour",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "all-purpose-flour",
+      "amount": {
+        "value": 29.574,
+        "unit": "ml"
+      }
+    }
+  ],
+  "steps": [
+    {
+      "text": "Bake chicken, cool and dice.",
+      "group": null
+    },
+    {
+      "text": "Cook spaghetti and put in large mixing bowl.",
+      "group": null
+    },
+    {
+      "text": "Stir in soup.",
+      "group": null
+    },
+    {
+      "text": "In a separate pan, melt cheese, butter, milk and flour",
+      "group": null
+    },
+    {
+      "text": "(on medium low to medium high so as not to scald or burn the milk).",
+      "group": null
+    },
+    {
+      "text": "Add to spaghetti and soup mixture and mix well.",
+      "group": null
+    },
+    {
+      "text": "Add diced chicken and mix well.",
+      "group": null
+    },
+    {
+      "text": "Put in 3 quart baking dish.",
+      "group": null
+    },
+    {
+      "text": "Top with slices of muenster cheese.",
+      "group": null
+    },
+    {
+      "text": "Bake at 350 degrees for 35 minutes uncovered.",
+      "group": null
+    }
+  ],
+  "footnotes": [],
+  "nutrition": null,
+  "importedNotes": [
+    {
+      "text": "Mandy thinks this recipe will serve 10 people."
+    }
+  ],
+  "seeAlso": [],
+  "source": {
+    "attribution": null,
+    "file": "RECIPES/CHICKEN DISHES/Mandy_s Chicken Va-Tel.doc",
+    "type": "doc",
+    "duplicateFiles": []
+  }
+}

@@ -1,0 +1,232 @@
+{
+  "schemaVersion": 1,
+  "id": "fb4042ff-8008-58fe-bf80-6a638ab4af9f",
+  "slug": "chicken-piccata",
+  "title": "Chicken Piccata",
+  "description": null,
+  "category": "Chicken Dishes",
+  "subcategory": null,
+  "tags": [
+    "main"
+  ],
+  "servings": {
+    "text": "Serves 4",
+    "amount": 4
+  },
+  "times": [],
+  "ingredients": [
+    {
+      "raw": "1 lb boneless, skinless, chicken filets (thin)",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "lb",
+      "item": "boneless, skinless, chicken filets",
+      "prep": null,
+      "note": "thin",
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "chicken-breast",
+      "amount": {
+        "value": 453.592,
+        "unit": "g"
+      }
+    },
+    {
+      "raw": "Salt and pepper for seasoning",
+      "quantity": null,
+      "quantityMax": null,
+      "unit": null,
+      "item": "Salt and pepper for seasoning",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "low",
+      "shop": true,
+      "catalogId": "salt",
+      "amount": null
+    },
+    {
+      "raw": "½ cup gluten free flour",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "gluten free flour",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "gluten-free-flour",
+      "amount": {
+        "value": 118.294,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "2 TBSP vegetable oil, divided",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "vegetable oil",
+      "prep": "divided",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "vegetable-oil",
+      "amount": {
+        "value": 29.574,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 clove garlic, minced",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "clove",
+      "item": "garlic",
+      "prep": "minced",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "garlic",
+      "amount": {
+        "value": 1,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "1 cup sliced mushrooms",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "sliced mushrooms",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "mushrooms",
+      "amount": {
+        "value": 236.588,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1/2 cup chicken broth",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "chicken broth",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "chicken-broth",
+      "amount": {
+        "value": 118.294,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "2 TBSP fresh lemon juice",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "fresh lemon juice",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "lemon-juice",
+      "amount": {
+        "value": 29.574,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 TBSP butter",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "butter",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "butter",
+      "amount": {
+        "value": 14.787,
+        "unit": "ml"
+      }
+    }
+  ],
+  "steps": [
+    {
+      "text": "Sprinkle filets with salt and pepper.",
+      "group": null
+    },
+    {
+      "text": "Dust with flour, shaking off excess.",
+      "group": null
+    },
+    {
+      "text": "Heat 1 TBSP oil in skillet over medium-high heat.",
+      "group": null
+    },
+    {
+      "text": "Add the filets and sauté 2-3 minutes on each side until golden brown and cooked to internal temp of 165 degrees.",
+      "group": null
+    },
+    {
+      "text": "Remove and set aside.",
+      "group": null
+    },
+    {
+      "text": "Add remaining oil, garlic and mushrooms to skillet and sauté until mushrooms are browned.",
+      "group": null
+    },
+    {
+      "text": "Add chicken broth and heat to boiling, scraping to loosen browned bits from pan,",
+      "group": null
+    },
+    {
+      "text": "Simmer 2 minutes. Stir in lemon juice and butter.",
+      "group": null
+    },
+    {
+      "text": "Return cooked filets to skillet. Heat through, turning to coat with sauce.",
+      "group": null
+    },
+    {
+      "text": "Serve and refrigerate leftovers.",
+      "group": null
+    }
+  ],
+  "footnotes": [],
+  "nutrition": {
+    "text": "Per serving: 280 cal; 11 gram fat; 3 grams saturate fat, 0 grams trans fat; 70 mg cholesterol; 190 mg sodium; 13 grams carbs; 1 gram fiber; 1 gram sugar, 29 grams protein."
+  },
+  "importedNotes": [],
+  "seeAlso": [],
+  "source": {
+    "attribution": null,
+    "file": "RECIPES/CHICKEN DISHES/Chicken Piccata.doc",
+    "type": "doc",
+    "duplicateFiles": []
+  }
+}

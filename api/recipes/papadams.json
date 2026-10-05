@@ -1,0 +1,287 @@
+{
+  "schemaVersion": 1,
+  "id": "a455fc8d-ef80-5dfc-8f35-6c7cf7705037",
+  "slug": "papadams",
+  "title": "Papadams",
+  "description": "Found this recipe on the Net in response to a request. Here's what the recipe said: \"Papadams are delicious, spicy Indian crackers that traditionally require many ingredients and take days to make. They are prepared ahead in quantity and deep fried just before serving. This is a simplified version. It still requires time, but the results are worth it.",
+  "category": "Indian & Curries",
+  "subcategory": null,
+  "tags": [],
+  "servings": null,
+  "times": [
+    {
+      "label": "Prep time",
+      "text": "30 mins."
+    }
+  ],
+  "ingredients": [
+    {
+      "raw": "2 cups gram flour (chickpea flour)",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "gram flour",
+      "prep": null,
+      "note": "chickpea flour",
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "other-flour",
+      "amount": {
+        "value": 473.176,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 teaspoon cracked/coarsely ground black pepper",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "cracked/coarsely ground black pepper",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "black-pepper",
+      "amount": {
+        "value": 4.929,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 teaspoon ground cumin",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "ground cumin",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "cumin",
+      "amount": {
+        "value": 4.929,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1/2 teaspoon salt",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "salt",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "salt",
+      "amount": {
+        "value": 2.464,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 clove garlic, pressed",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "clove",
+      "item": "garlic",
+      "prep": "pressed",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "garlic",
+      "amount": {
+        "value": 1,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "1/4 cup water",
+      "quantity": 0.25,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "water",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "water",
+      "amount": {
+        "value": 59.147,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 tablespoon water",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "water",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "water",
+      "amount": {
+        "value": 14.787,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "cayenne (for dusting tops)",
+      "quantity": null,
+      "quantityMax": null,
+      "unit": null,
+      "item": "cayenne",
+      "prep": null,
+      "note": "for dusting tops",
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "cayenne",
+      "amount": null
+    },
+    {
+      "raw": "oil, for frying (optional)",
+      "quantity": null,
+      "quantityMax": null,
+      "unit": null,
+      "item": "oil",
+      "prep": "for frying",
+      "note": null,
+      "group": null,
+      "optional": true,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "vegetable-oil",
+      "amount": null
+    }
+  ],
+  "steps": [
+    {
+      "text": "Stir together the flour, pepper, ground cumin seed, and salt in a large bowl or in the food processor; mix thoroughly until the spices are evenly distributed.",
+      "group": null
+    },
+    {
+      "text": "Add the garlic and mix well.",
+      "group": null
+    },
+    {
+      "text": "Add enough of the water to form a dough that will hold together in a cohesive ball; if necessary, add up to 1 additional tablespoon water.",
+      "group": null
+    },
+    {
+      "text": "The dough should be fairly stiff and dry; if it is too wet, it will not roll well.",
+      "group": null
+    },
+    {
+      "text": "Knead the dough for about 5 minutes by hand or pulse for about 15 seconds in the food processor; the dough should be smooth.",
+      "group": null
+    },
+    {
+      "text": "With your hands, shape the dough into a cylinder or log about 2 inches thick and 6 inches long.",
+      "group": null
+    },
+    {
+      "text": "With a sharp knife, cut the cylinder into 1/2-inch thick slices.",
+      "group": null
+    },
+    {
+      "text": "The next step uses oil, so do not use your pastry cloth and rolling pin sleeve.",
+      "group": null
+    },
+    {
+      "text": "Place each slice on a lightly oiled surface.",
+      "group": null
+    },
+    {
+      "text": "Lightly oil the top of the slice and then roll out into a very thin circle about 6 or 7 inches in diameter.",
+      "group": null
+    },
+    {
+      "text": "1Papadams must be rolled extremely thin, maximum 1/16 inch.",
+      "group": null
+    },
+    {
+      "text": "If the dough sticks to your rolling pin, gently pull it off.",
+      "group": null
+    },
+    {
+      "text": "Dust the tops of each papadam with cayenne pepper.",
+      "group": null
+    },
+    {
+      "text": "Using a metal spatula to loosen the edges of the papadams from the rolling surface, carefully place them on large baking sheets.",
+      "group": null
+    },
+    {
+      "text": "The traditional method for preparing and frying papadams is described below; you can also bake them in a 300F oven for about 15 to 25 minutes, or until crisp and dry.",
+      "group": null
+    },
+    {
+      "text": "The cooking time may vary beyond this range depending upon the thickness and moisture in the rolled dough.",
+      "group": null
+    },
+    {
+      "text": "Cool them on a rack.",
+      "group": null
+    },
+    {
+      "text": "To prepare the papadams in an authentic manner, don't bake them; first allow them to dry by leaving them in the sun for a few hours or by placing them in a very low oven (less than 200F) for 1 to 2 hours, turning occasionally.",
+      "group": null
+    },
+    {
+      "text": "Dry the papadams until they are just slightly flexible and show no moisture; they should not brown or bake, however.",
+      "group": null
+    },
+    {
+      "text": "At this point, the papadams may be stacked flat and stored in an airtight container until needed; they will keep for months if stored properly.",
+      "group": null
+    },
+    {
+      "text": "When ready to serve, heat about 1/8 inch of oil in a large skillet; the oil should be hot, but not smoking; a drop of water flicked into the skillet should sizzle immediately.",
+      "group": null
+    },
+    {
+      "text": "One at a time, drop the papadams into the hot oil.",
+      "group": null
+    },
+    {
+      "text": "Turn the papadam when it begins to curl at the edges; it will quickly fry and become crisp.",
+      "group": null
+    },
+    {
+      "text": "Remove it before it turns brown.",
+      "group": null
+    },
+    {
+      "text": "Cool and drain the papadams on paper towels and eat them immediately.",
+      "group": null
+    }
+  ],
+  "footnotes": [],
+  "nutrition": null,
+  "importedNotes": [],
+  "seeAlso": [],
+  "source": {
+    "attribution": null,
+    "file": "RECIPES/INDIAN & CURRIES/Papadams.doc",
+    "type": "doc",
+    "duplicateFiles": []
+  }
+}

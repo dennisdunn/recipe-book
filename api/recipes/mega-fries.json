@@ -1,0 +1,192 @@
+{
+  "schemaVersion": 1,
+  "id": "e946aba2-5db7-5454-bd66-bdec6f034ee7",
+  "slug": "mega-fries",
+  "title": "Mega Fries",
+  "description": null,
+  "category": "Side Dishes",
+  "subcategory": null,
+  "tags": [],
+  "servings": null,
+  "times": [],
+  "ingredients": [
+    {
+      "raw": "2 baking potatoes (about one per diner)",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": null,
+      "item": "baking potatoes",
+      "prep": null,
+      "note": "about one per diner",
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "potato",
+      "amount": {
+        "value": 2,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "olive oil",
+      "quantity": null,
+      "quantityMax": null,
+      "unit": null,
+      "item": "olive oil",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "low",
+      "shop": true,
+      "catalogId": "olive-oil",
+      "amount": null
+    },
+    {
+      "raw": "salt",
+      "quantity": null,
+      "quantityMax": null,
+      "unit": null,
+      "item": "salt",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "low",
+      "shop": true,
+      "catalogId": "salt",
+      "amount": null
+    },
+    {
+      "raw": "pepper",
+      "quantity": null,
+      "quantityMax": null,
+      "unit": null,
+      "item": "pepper",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "low",
+      "shop": true,
+      "catalogId": "black-pepper",
+      "amount": null
+    },
+    {
+      "raw": "a splash of water",
+      "quantity": null,
+      "quantityMax": null,
+      "unit": null,
+      "item": "a splash of water",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "low",
+      "shop": true,
+      "catalogId": "water",
+      "amount": null
+    },
+    {
+      "raw": "cooking spray",
+      "quantity": null,
+      "quantityMax": null,
+      "unit": null,
+      "item": "cooking spray",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "low",
+      "shop": true,
+      "catalogId": "cooking-spray",
+      "amount": null
+    },
+    {
+      "raw": "1 pinch cayenne",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "pinch",
+      "item": "cayenne",
+      "prep": null,
+      "note": null,
+      "group": "Spicy variation (optional)",
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "cayenne",
+      "amount": {
+        "value": 0.31,
+        "unit": "ml",
+        "approximate": true
+      }
+    },
+    {
+      "raw": "1 pinch paprika",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "pinch",
+      "item": "paprika",
+      "prep": null,
+      "note": null,
+      "group": "Spicy variation (optional)",
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "paprika",
+      "amount": {
+        "value": 0.31,
+        "unit": "ml",
+        "approximate": true
+      }
+    },
+    {
+      "raw": "1 pinch garlic salt",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "pinch",
+      "item": "garlic salt",
+      "prep": null,
+      "note": null,
+      "group": "Spicy variation (optional)",
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "garlic-salt",
+      "amount": {
+        "value": 0.31,
+        "unit": "ml",
+        "approximate": true
+      }
+    }
+  ],
+  "steps": [
+    {
+      "text": "Heat oven to 425F.",
+      "group": null
+    },
+    {
+      "text": "Cut the potatoes into wedges. Toss in a bowl with olive oil, salt, pepper, and a splash of water. (For spicy mega fries, add a pinch of cayenne, paprika, and garlic salt, evenly distributed.)",
+      "group": null
+    },
+    {
+      "text": "Lay foil on a baking sheet and spray with a little cooking spray. (Crucial; the fries are hard to remove from foil otherwise.) Line up the fries in rows.",
+      "group": null
+    },
+    {
+      "text": "Bake for 25 minutes or until crispy and golden.",
+      "group": null
+    }
+  ],
+  "footnotes": [],
+  "nutrition": null,
+  "importedNotes": [],
+  "seeAlso": [],
+  "source": {
+    "attribution": null,
+    "file": "RECIPES/SIDE DISHES/Mega Fries.doc",
+    "type": "doc",
+    "duplicateFiles": []
+  }
+}

@@ -1,0 +1,224 @@
+{
+  "schemaVersion": 1,
+  "id": "da74ee21-1140-5310-82bb-55a8bacb5fbd",
+  "slug": "chai-tea-mix",
+  "title": "Chai Tea Mix",
+  "description": "\"Instant Chai tea mix. You can spice it up even further by adding 1 teaspoon nutmeg and allspice, and 1/4 teaspoon white pepper.\"",
+  "category": "Snacks",
+  "subcategory": null,
+  "tags": [],
+  "servings": {
+    "text": "Servings: 36",
+    "amount": 36
+  },
+  "times": [
+    {
+      "label": "Prep time",
+      "text": "30 mins."
+    },
+    {
+      "label": "Cook time",
+      "text": "2 mins."
+    }
+  ],
+  "ingredients": [
+    {
+      "raw": "1 cup nonfat dry milk powder",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "nonfat dry milk powder",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "nonfat-dry-milk",
+      "amount": {
+        "value": 236.588,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 cup powdered non-dairy creamer",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "powdered non-dairy creamer",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "creamer",
+      "amount": {
+        "value": 236.588,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 cup French vanilla flavored powdered non-dairy creamer*",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "French vanilla flavored powdered non-dairy creamer",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "creamer",
+      "amount": {
+        "value": 236.588,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "2 1/2 cups white sugar",
+      "quantity": 2.5,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "white sugar",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "sugar",
+      "amount": {
+        "value": 591.47,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 1/2 cups unsweetened instant tea",
+      "quantity": 1.5,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "unsweetened instant tea",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "instant-tea",
+      "amount": {
+        "value": 354.882,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "2 teaspoons ground ginger",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "ground ginger",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "ground-ginger",
+      "amount": {
+        "value": 9.858,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "2 teaspoons ground cinnamon",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "ground cinnamon",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "cinnamon",
+      "amount": {
+        "value": 9.858,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 teaspoon ground cloves",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "ground cloves",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "cloves",
+      "amount": {
+        "value": 4.929,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 teaspoon ground cardamom",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "ground cardamom",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "cardamom",
+      "amount": {
+        "value": 4.929,
+        "unit": "ml"
+      }
+    }
+  ],
+  "steps": [
+    {
+      "text": "In a large bowl, combine milk powder, non-dairy creamer, vanilla flavored creamer, sugar and instant tea. Stir in ginger, cinnamon, cloves and cardamom. In a blender or food processor, blend 1 cup at a time, until mixture is the consistency of fine powder.",
+      "group": null
+    },
+    {
+      "text": "To serve: Stir 2 heaping tablespoons Chai tea mixture into a mug of hot water.",
+      "group": null
+    }
+  ],
+  "footnotes": [],
+  "nutrition": null,
+  "importedNotes": [
+    {
+      "text": "*You may choose to omit the French vanilla creamer, and use 2 teaspoons vanilla extract instead. To do so, mix the vanilla into the sugar, let it dry, then break the sugar into small lumps. Follow the same procedure as above."
+    },
+    {
+      "text": "I cut the sugar down a third, though. It was a little sweet for my personal tastes."
+    },
+    {
+      "text": "I have decreased the sugar by 1/3, to just one cup and in the future I will probably eliminate the French vanilla creamer and just add powdered vanilla (vanilin)."
+    },
+    {
+      "text": "This recipe matches the taste perfectly (except I cut the sugar back to 1 1/2 cups). Don't be put off by the expense of the cardamom -- it's worth it. If using a blender, mix ingredients with a fork first, then blend only about a cup and a half at a time. Also, be sure to blend it really well (because the spices can get kind of chunky in your drink)."
+    },
+    {
+      "text": "I use 1 and 1/2 cups of Splenda. I also add nutmeg, coriander and allspice. Great with water, fantastic with milk."
+    }
+  ],
+  "seeAlso": [],
+  "source": {
+    "attribution": null,
+    "file": "RECIPES/SNACKS/Chai Tea Mix.doc",
+    "type": "doc",
+    "duplicateFiles": []
+  }
+}

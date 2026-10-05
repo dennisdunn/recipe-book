@@ -1,0 +1,195 @@
+{
+  "schemaVersion": 1,
+  "id": "d70b8df3-f932-598a-97c2-8ea38b458c8f",
+  "slug": "brens-italian-meatballs-allrecipes",
+  "title": "Bren's Italian Meatballs (allrecipes)",
+  "description": null,
+  "category": "Pasta Dishes",
+  "subcategory": null,
+  "tags": [
+    "main"
+  ],
+  "servings": {
+    "text": "Makes 20 meatballs, prep 15 minutes, bake 15 mins, ready in 30 mins",
+    "amount": 20
+  },
+  "times": [],
+  "ingredients": [
+    {
+      "raw": "½ cup GF bread crumbs",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "GF bread crumbs",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "bread-crumbs",
+      "amount": {
+        "value": 118.294,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "½ cup grated Parmesan/Romano cheese",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "grated Parmesan/Romano cheese",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "parmesan-cheese",
+      "amount": {
+        "value": 118.294,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "2 large cloves garlic, minced",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": null,
+      "item": "large cloves garlic",
+      "prep": "minced",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "garlic",
+      "amount": {
+        "value": 2,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "1 TBSP dried parsley",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "dried parsley",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "dried-parsley",
+      "amount": {
+        "value": 14.787,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "¼ tsp black pepper",
+      "quantity": 0.25,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "black pepper",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "black-pepper",
+      "amount": {
+        "value": 1.232,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 egg",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": null,
+      "item": "egg",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "eggs",
+      "amount": {
+        "value": 1,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "½ lb ground beef",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "lb",
+      "item": "ground beef",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "ground-beef",
+      "amount": {
+        "value": 226.796,
+        "unit": "g"
+      }
+    },
+    {
+      "raw": "½ lb spicy sausage",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "lb",
+      "item": "spicy sausage",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "sausage",
+      "amount": {
+        "value": 226.796,
+        "unit": "g"
+      }
+    }
+  ],
+  "steps": [
+    {
+      "text": "Preheat oven to 350 degrees. Line a baking sheet with parchment paper.",
+      "group": null
+    },
+    {
+      "text": "Toss bread crumbs, Romano cheese, garlic, pepper and egg together.",
+      "group": null
+    },
+    {
+      "text": "Crumble ground beef and ground sausage into above ingredients.",
+      "group": null
+    },
+    {
+      "text": "Mix with hands and form into 1 ¼ inch diameter balls.",
+      "group": null
+    },
+    {
+      "text": "Bake in preheated oven for 10 minutes; turn meatballs over and bake until no longer pink in the center (above 5 minutes or til thermometer reads at least 160).",
+      "group": null
+    }
+  ],
+  "footnotes": [],
+  "nutrition": null,
+  "importedNotes": [],
+  "seeAlso": [],
+  "source": {
+    "attribution": null,
+    "file": "RECIPES/PASTA DISHES/Bren_s Italian Meatballs.doc",
+    "type": "doc",
+    "duplicateFiles": []
+  }
+}

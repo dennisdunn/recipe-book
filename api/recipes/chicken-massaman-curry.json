@@ -1,0 +1,262 @@
+{
+  "schemaVersion": 1,
+  "id": "9c89f49f-37d9-5f4c-ac9e-a46270a53aa8",
+  "slug": "chicken-massaman-curry",
+  "title": "Chicken Massaman Curry",
+  "description": null,
+  "category": "Chicken Dishes",
+  "subcategory": null,
+  "tags": [
+    "main"
+  ],
+  "servings": {
+    "text": "Servings: 4",
+    "amount": 4
+  },
+  "times": [
+    {
+      "label": "Prep time",
+      "text": "20 mins."
+    },
+    {
+      "label": "Cook time",
+      "text": "35 mins."
+    }
+  ],
+  "ingredients": [
+    {
+      "raw": "2 tablespoons vegetable oil",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "vegetable oil",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "vegetable-oil",
+      "amount": {
+        "value": 29.574,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "3 tablespoons curry paste",
+      "quantity": 3,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "curry paste",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "curry-paste",
+      "amount": {
+        "value": 44.36,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 (3/4 inch thick) slice ginger, minced",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "slice",
+      "item": "ginger",
+      "prep": "minced",
+      "note": "package size: 3/4 inch thick",
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "ginger",
+      "amount": {
+        "value": 1,
+        "unit": "each",
+        "countUnit": "slice"
+      }
+    },
+    {
+      "raw": "1 1/4 pounds skinless, boneless chicken breast meat - cubed",
+      "quantity": 1.25,
+      "quantityMax": null,
+      "unit": "lb",
+      "item": "skinless, boneless chicken breast meat - cubed",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "chicken-breast",
+      "amount": {
+        "value": 566.99,
+        "unit": "g"
+      }
+    },
+    {
+      "raw": "3 tablespoons brown sugar",
+      "quantity": 3,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "brown sugar",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "brown-sugar",
+      "amount": {
+        "value": 44.36,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "3 tablespoons fish sauce",
+      "quantity": 3,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "fish sauce",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "fish-sauce",
+      "amount": {
+        "value": 44.36,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "3 tablespoons tamarind paste",
+      "quantity": 3,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "tamarind paste",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "tamarind-paste",
+      "amount": {
+        "value": 44.36,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1/3 cup peanut butter",
+      "quantity": 0.333,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "peanut butter",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "peanut-butter",
+      "amount": {
+        "value": 78.784,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "3 cups peeled, cubed sweet potatoes",
+      "quantity": 3,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "peeled, cubed sweet potatoes",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "sweet-potato",
+      "amount": {
+        "value": 709.764,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 (13.5 ounce) can coconut milk",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "can",
+      "item": "coconut milk",
+      "prep": null,
+      "note": "package size: 13.5 ounce",
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "coconut-milk",
+      "amount": {
+        "value": 1,
+        "unit": "pkg",
+        "package": "can",
+        "packageOz": 13.5
+      }
+    },
+    {
+      "raw": "3 tablespoons fresh lime juice",
+      "quantity": 3,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "fresh lime juice",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "lime-juice",
+      "amount": {
+        "value": 44.36,
+        "unit": "ml"
+      }
+    }
+  ],
+  "steps": [
+    {
+      "text": "Heat vegetable oil in a large saucepan over medium heat. Stir in curry paste and minced ginger; cook and stir for 2 minutes. Stir in the cubed chicken and potatoes and cook until the pieces turn white on the outside.",
+      "group": null
+    },
+    {
+      "text": "Stir in brown sugar, fish sauce, tamarind paste, peanut butter and coconut milk. Bring to a boil, reduce heat to medium-low, cover, and simmer until the potatoes are tender and the chicken pieces are no longer pink in the center, about 20 minutes. Add the lime juice and cook for an additional 5 minutes before serving.",
+      "group": null
+    }
+  ],
+  "footnotes": [],
+  "nutrition": null,
+  "importedNotes": [
+    {
+      "text": "1. I used lite coconut milk and I added some carrots, basil and unsalted cashews."
+    },
+    {
+      "text": "2. I cut the fish sauce and the lime in half, but that is just personal preference. I also added a sliced up onion (big slices) on step two which adds a little something and whole salted peanuts on top as a garnish."
+    },
+    {
+      "text": "3. Fabulous! I didn't have the tamarind, and I had to use lemon juice instead of lime, but it still turned out great. I added peas and used red curry paste for color, though 2 tablespoon of the red curry paste made it way too spicy for my family. Also, I cooked it almost an hour longer than the recipe stated and the potatoes were still crunchy."
+    },
+    {
+      "text": "Tasting tip: Try slightly sweet, lower-alcohol wine with spicy foods! Riesling is frequently bright with acidity and, depending on where it's grown, on the low-alcohol side, with flavors of apple and citrus. Its crisp, palate-refreshing acidity pairs beautifully with spicy foods and there's nothing better with Thai food.  Washington State Rieslings offer a touch of sweetness balanced with refreshing acidity."
+    }
+  ],
+  "seeAlso": [],
+  "source": {
+    "attribution": null,
+    "file": "RECIPES/CHICKEN DISHES/Chicken Massaman Curry.doc",
+    "type": "doc",
+    "duplicateFiles": []
+  }
+}

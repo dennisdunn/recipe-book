@@ -1,0 +1,225 @@
+{
+  "schemaVersion": 1,
+  "id": "6cd94467-6f31-531a-803b-1b303e06da14",
+  "slug": "sloppy-joes-ii",
+  "title": "Sloppy Joes II",
+  "description": null,
+  "category": "Beef Dishes",
+  "subcategory": null,
+  "tags": [
+    "main"
+  ],
+  "servings": null,
+  "times": [],
+  "ingredients": [
+    {
+      "raw": "1 pound lean ground beef",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "lb",
+      "item": "lean ground beef",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "ground-beef",
+      "amount": {
+        "value": 453.592,
+        "unit": "g"
+      }
+    },
+    {
+      "raw": "1 lb Bob Evans hot pork sausage",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "lb",
+      "item": "Bob Evans hot pork sausage",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "sausage",
+      "amount": {
+        "value": 453.592,
+        "unit": "g"
+      }
+    },
+    {
+      "raw": "1/2 cup chopped onion (OMIT for Jeff)",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "chopped onion",
+      "prep": null,
+      "note": "OMIT for Jeff",
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "onion",
+      "amount": {
+        "value": 118.294,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1/2 cup red bell pepper (chopped)",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "red bell pepper",
+      "prep": null,
+      "note": "chopped",
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "bell-pepper",
+      "amount": {
+        "value": 118.294,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 teaspoon garlic powder",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "garlic powder",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "garlic-powder",
+      "amount": {
+        "value": 4.929,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 TBSP (or more) Ben's mustard",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "Ben's mustard",
+      "prep": null,
+      "note": "package size: or more",
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "yellow-mustard",
+      "amount": {
+        "value": 14.787,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 1/2 cup ketchup",
+      "quantity": 1.5,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "ketchup",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "ketchup",
+      "amount": {
+        "value": 354.882,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "6 teaspoons brown sugar",
+      "quantity": 6,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "brown sugar",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "brown-sugar",
+      "amount": {
+        "value": 29.574,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "salt to taste",
+      "quantity": null,
+      "quantityMax": null,
+      "unit": null,
+      "item": "salt",
+      "prep": null,
+      "note": "to taste",
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "salt",
+      "amount": null
+    },
+    {
+      "raw": "black pepper (ground) to taste",
+      "quantity": null,
+      "quantityMax": null,
+      "unit": null,
+      "item": "black pepper",
+      "prep": null,
+      "note": "ground; to taste",
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "black-pepper",
+      "amount": null
+    },
+    {
+      "raw": "Cayenne powder or flakes to taste",
+      "quantity": null,
+      "quantityMax": null,
+      "unit": null,
+      "item": "Cayenne powder or flakes",
+      "prep": null,
+      "note": "to taste",
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "cayenne",
+      "amount": null
+    }
+  ],
+  "steps": [
+    {
+      "text": "In a skillet over medium heat, brown the ground beef, sausage and red pepper; drain off liquids.",
+      "group": null
+    },
+    {
+      "text": "Stir in the garlic powder, mustard, ketchup, and brown sugar; mix thoroughly. Reduce heat, and simmer for 30 minutes. Season with salt, pepper and cayenne powder or flakes.",
+      "group": null
+    }
+  ],
+  "footnotes": [],
+  "nutrition": null,
+  "importedNotes": [],
+  "seeAlso": [],
+  "source": {
+    "attribution": null,
+    "file": "RECIPES/BEEF DISHES/Sloppy Joes II.doc",
+    "type": "doc",
+    "duplicateFiles": []
+  }
+}

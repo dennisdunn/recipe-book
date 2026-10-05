@@ -1,0 +1,234 @@
+{
+  "schemaVersion": 1,
+  "id": "7db3419d-3241-5469-9f8b-1575023aa716",
+  "slug": "busy-day-oven-stew",
+  "title": "Busy Day Oven Stew",
+  "description": null,
+  "category": "Soups and Stews",
+  "subcategory": null,
+  "tags": [
+    "main"
+  ],
+  "servings": {
+    "text": "Serves 6",
+    "amount": 6
+  },
+  "times": [],
+  "ingredients": [
+    {
+      "raw": "1 can cream of mushroom soup",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "can",
+      "item": "cream of mushroom soup",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "cream-of-mushroom-soup",
+      "amount": {
+        "value": 1,
+        "unit": "pkg",
+        "package": "can"
+      }
+    },
+    {
+      "raw": "1 can cream of celery soup",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "can",
+      "item": "cream of celery soup",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "cream-of-celery-soup",
+      "amount": {
+        "value": 1,
+        "unit": "pkg",
+        "package": "can"
+      }
+    },
+    {
+      "raw": "1m envelop Lipton onion soup mix",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": null,
+      "item": "m envelop Lipton onion soup mix",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "onion-soup-mix",
+      "amount": {
+        "value": 1,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "1 Tbsp Worchestershire Sauce",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "Worchestershire Sauce",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "worcestershire-sauce",
+      "amount": {
+        "value": 14.787,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "2 lbs stew meat",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "lb",
+      "item": "stew meat",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "stew-meat",
+      "amount": {
+        "value": 907.184,
+        "unit": "g"
+      }
+    },
+    {
+      "raw": "6 potatoes peeled and quartered",
+      "quantity": 6,
+      "quantityMax": null,
+      "unit": null,
+      "item": "potatoes peeled and quartered",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "potato",
+      "amount": {
+        "value": 6,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "6 carrots or equivalent in whole baby carrots",
+      "quantity": 6,
+      "quantityMax": null,
+      "unit": null,
+      "item": "carrots or equivalent in whole baby carrots",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "carrot",
+      "amount": {
+        "value": 6,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "1 can baby peas",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "can",
+      "item": "baby peas",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "frozen-peas",
+      "amount": {
+        "value": 1,
+        "unit": "pkg",
+        "package": "can"
+      }
+    },
+    {
+      "raw": "½ lb mushrooms, quartered",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "lb",
+      "item": "mushrooms",
+      "prep": "quartered",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "mushrooms",
+      "amount": {
+        "value": 226.796,
+        "unit": "g"
+      }
+    },
+    {
+      "raw": "¼ cup red wine, if available",
+      "quantity": 0.25,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "red wine",
+      "prep": "if available",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "wine",
+      "amount": {
+        "value": 59.147,
+        "unit": "ml"
+      }
+    }
+  ],
+  "steps": [
+    {
+      "text": "Mix soups, onion soup mix and Worchestershire Sauce in a deep stew kettle or crock pot.",
+      "group": null
+    },
+    {
+      "text": "Add stew meat (no need to brown fist but it’s okay if you do), potatoes, carrots, peas and mushrooms.",
+      "group": null
+    },
+    {
+      "text": "Cover and bake at 250 degrees for 4 hours. If using crock pot, cook on high for 1 hour and then turn to low and cook for 4 to 5 hours more).",
+      "group": null
+    },
+    {
+      "text": "Stir once or twice during cooking. If stew is too thick, add 8 oz. beef broth or 2 beef bullion cubes in one cup hot water.",
+      "group": null
+    },
+    {
+      "text": "This recipe is very forgiving and always turns out great!",
+      "group": null
+    }
+  ],
+  "footnotes": [],
+  "nutrition": null,
+  "importedNotes": [],
+  "seeAlso": [],
+  "source": {
+    "attribution": null,
+    "file": "RECIPES/SOUPS AND STEWS/Busy Day Oven Stew.doc",
+    "type": "doc",
+    "duplicateFiles": []
+  }
+}

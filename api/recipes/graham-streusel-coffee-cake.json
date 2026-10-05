@@ -1,0 +1,286 @@
+{
+  "schemaVersion": 1,
+  "id": "f51e3948-157f-56b9-848f-0dfd9bb1ca3f",
+  "slug": "graham-streusel-coffee-cake",
+  "title": "Graham Streusel Coffee Cake",
+  "description": null,
+  "category": "Desserts",
+  "subcategory": null,
+  "tags": [],
+  "servings": null,
+  "times": [],
+  "ingredients": [
+    {
+      "raw": "1 1/3 cups graham cracker crumbs",
+      "quantity": 1.333,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "graham cracker crumbs",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "graham-cracker-crumbs",
+      "amount": {
+        "value": 315.372,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "3/4 cup chopped walnuts",
+      "quantity": 0.75,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "chopped walnuts",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "walnuts",
+      "amount": {
+        "value": 177.441,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "3/4 cup packed brown sugar",
+      "quantity": 0.75,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "packed brown sugar",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "brown-sugar",
+      "amount": {
+        "value": 177.441,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 1/2 teaspoons ground cinnamon",
+      "quantity": 1.5,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "ground cinnamon",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "cinnamon",
+      "amount": {
+        "value": 7.393,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "2/3 cup butter, melted",
+      "quantity": 0.667,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "butter",
+      "prep": "melted",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "butter",
+      "amount": {
+        "value": 157.804,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 (18.25 ounce) package yellow cake mix",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "pkg",
+      "item": "yellow cake mix",
+      "prep": null,
+      "note": "package size: 18.25 ounce",
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "cake-mix",
+      "amount": {
+        "value": 1,
+        "unit": "pkg",
+        "package": "pkg",
+        "packageOz": 18.25
+      }
+    },
+    {
+      "raw": "1 cup water",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "water",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "water",
+      "amount": {
+        "value": 236.588,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1/4 cup vegetable oil",
+      "quantity": 0.25,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "vegetable oil",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "vegetable-oil",
+      "amount": {
+        "value": 59.147,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "3 eggs",
+      "quantity": 3,
+      "quantityMax": null,
+      "unit": null,
+      "item": "eggs",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "eggs",
+      "amount": {
+        "value": 3,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "Dust with powdered sugar OR drizzle icing",
+      "quantity": null,
+      "quantityMax": null,
+      "unit": null,
+      "item": "Dust with powdered sugar OR drizzle icing",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "low",
+      "shop": true,
+      "catalogId": "powdered-sugar",
+      "amount": null
+    },
+    {
+      "raw": "1 cup confectioners' sugar",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "confectioners' sugar",
+      "prep": null,
+      "note": null,
+      "group": "Icing Recipe",
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "powdered-sugar",
+      "amount": {
+        "value": 236.588,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 1/2 teaspoons vanilla extract",
+      "quantity": 1.5,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "vanilla extract",
+      "prep": null,
+      "note": null,
+      "group": "Icing Recipe",
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "vanilla-extract",
+      "amount": {
+        "value": 7.393,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1/2 teaspoon butter flavored extract (optional)",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "butter flavored extract",
+      "prep": null,
+      "note": null,
+      "group": "Icing Recipe",
+      "optional": true,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "butter-extract",
+      "amount": {
+        "value": 2.464,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "Few drops water as needed for consistency",
+      "quantity": null,
+      "quantityMax": null,
+      "unit": null,
+      "item": "Few drops water as needed for consistency",
+      "prep": null,
+      "note": null,
+      "group": "Icing Recipe",
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "water",
+      "amount": null
+    }
+  ],
+  "steps": [
+    {
+      "text": "Preheat oven to 350 degrees F (175 degrees C). Grease a 9x13 inch pan. Make the streusel: In a medium bowl, combine the graham cracker crumbs, nuts, brown sugar and cinnamon. Stir in the melted butter. Set aside.",
+      "group": null
+    },
+    {
+      "text": "In a large mixing bowl, combine the cake mix, water, oil, and eggs. Beat on low speed with an electric mixer just until moistened. Beat on medium speed for 2 minutes longer. Spread 1/2 of the batter into a greased 9x13 inch pan. Sprinkle on 1/2 of the streusel mixture. Carefully spread the remaining 1/2 of the cake batter over the streusel, and sprinkle with the remaining streusel.",
+      "group": null
+    },
+    {
+      "text": "Bake for 35 to 40 minutes or until a toothpick inserted comes out clean. Cool slightly, then drizzle with the powdered sugar icing. Best if served warm. Makes 12 to 16 servings.",
+      "group": null
+    }
+  ],
+  "footnotes": [],
+  "nutrition": null,
+  "importedNotes": [],
+  "seeAlso": [],
+  "source": {
+    "attribution": null,
+    "file": "RECIPES/DESSERTS/Graham Streusel Coffee Cake.doc",
+    "type": "doc",
+    "duplicateFiles": []
+  }
+}

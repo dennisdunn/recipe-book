@@ -1,0 +1,296 @@
+{
+  "schemaVersion": 1,
+  "id": "5875ecaa-5584-543b-87bf-41127bf4cf82",
+  "slug": "zesty-rice-n-bean-casserole",
+  "title": "Zesty Rice 'N' Bean Casserole",
+  "description": null,
+  "category": "Mexican Dishes",
+  "subcategory": null,
+  "tags": [
+    "main"
+  ],
+  "servings": null,
+  "times": [],
+  "ingredients": [
+    {
+      "raw": "2 medium green peppers, chopped",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": null,
+      "item": "medium green peppers",
+      "prep": "chopped",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "bell-pepper",
+      "amount": {
+        "value": 2,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "1 1/2 cups sliced fresh mushrooms",
+      "quantity": 1.5,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "sliced fresh mushrooms",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "mushrooms",
+      "amount": {
+        "value": 354.882,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 medium onion, chopped",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": null,
+      "item": "medium onion",
+      "prep": "chopped",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "onion",
+      "amount": {
+        "value": 1,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "2 garlic cloves, minced",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": null,
+      "item": "garlic cloves",
+      "prep": "minced",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "garlic",
+      "amount": {
+        "value": 2,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "1/2 cup water",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "water",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "water",
+      "amount": {
+        "value": 118.294,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 teaspoon canola oil",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "canola oil",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "vegetable-oil",
+      "amount": {
+        "value": 4.929,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 (28 ounce) can diced tomatoes, undrained",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "can",
+      "item": "diced tomatoes",
+      "prep": "undrained",
+      "note": "package size: 28 ounce",
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "diced-tomatoes",
+      "amount": {
+        "value": 1,
+        "unit": "pkg",
+        "package": "can",
+        "packageOz": 28
+      }
+    },
+    {
+      "raw": "1 (16 ounce) can kidney beans, rinsed and drained",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "can",
+      "item": "kidney beans",
+      "prep": "rinsed and drained",
+      "note": "package size: 16 ounce",
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "kidney-beans",
+      "amount": {
+        "value": 1,
+        "unit": "pkg",
+        "package": "can",
+        "packageOz": 16
+      }
+    },
+    {
+      "raw": "3/4 cup uncooked long grain rice",
+      "quantity": 0.75,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "uncooked long grain rice",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "rice",
+      "amount": {
+        "value": 177.441,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "2 teaspoons ground cumin",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "ground cumin",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "cumin",
+      "amount": {
+        "value": 9.858,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 teaspoon chili powder",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "chili powder",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "chili-powder",
+      "amount": {
+        "value": 4.929,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1/4 teaspoon cayenne pepper",
+      "quantity": 0.25,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "cayenne pepper",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "cayenne",
+      "amount": {
+        "value": 1.232,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 cup shredded part-skim mozzarella cheese, divided",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "shredded part-skim mozzarella cheese",
+      "prep": "divided",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "mozzarella-cheese",
+      "amount": {
+        "value": 236.588,
+        "unit": "ml"
+      }
+    }
+  ],
+  "steps": [
+    {
+      "text": "In a large nonstick skillet, saute the green peppers, mushrooms, onion and garlic in water and oil until onion is tender. Add the tomatoes, beans, rice and seasonings. bring to a boil. Reduce heat; cover and simmer for 25 minutes or until rice is tender and most of the liquid is absorbed. Remove from the heat; stir in 1/2 cup cheese.",
+      "group": null
+    },
+    {
+      "text": "Transfer to a 2-1/2-qt. baking dish coated with nonstick cooking spray. Sprinkle with remaining cheese. bake, uncovered, at 350 degrees F for 15-20 minutes or until cheese is melted.",
+      "group": null
+    }
+  ],
+  "footnotes": [],
+  "nutrition": null,
+  "importedNotes": [
+    {
+      "text": "This was great. The only real change I made to it was using frozen corn in place of the green peppers. I thought the corn went well with the beans and tomatoes. The flavor of the dish was excellent and it was very hearty. I did sprinkle a little bit of shredded cheddar on top with the mozzarella for color. I could also see throwing leftover cubed chicken or cooked ground beef in with this as well."
+    },
+    {
+      "text": "Yum! I really, really enjoyed this delicious, filling dish! I agree, however, that a little bit of salt is needed."
+    },
+    {
+      "text": "Overall very good, but the cooking time wasn't long enough to cook the rice completely - I used brown rice instead of white, so this may have been part of the problem. Also, the recipe needs a fair amount of salt added. I don't like mushrooms, so I left those out and added one zucchini and one yellow squash instead."
+    },
+    {
+      "text": "I added a little more of each seasoning & I did add some salt as well. I also substituted pepper jack cheese. I will definetly be making this again & again!"
+    },
+    {
+      "text": "I used Lundford Wild/Brown Rice and shredded pepper jack cheese. For me, this was a great mix of rice and beans with the right amount of spicy without too much HOT."
+    },
+    {
+      "text": "This recipe was pretty good. In the future I will add shredded chicken and more tomatoes."
+    },
+    {
+      "text": "I doubled up on all spices and added a little salt."
+    }
+  ],
+  "seeAlso": [],
+  "source": {
+    "attribution": null,
+    "file": "RECIPES/MEXICAN DISHES/Zesty Rice & Beans Casserole.doc",
+    "type": "doc",
+    "duplicateFiles": []
+  }
+}

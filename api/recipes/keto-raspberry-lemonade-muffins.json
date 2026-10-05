@@ -1,0 +1,195 @@
+{
+  "schemaVersion": 1,
+  "id": "c477c361-a271-5f4d-bfe4-dfa1b0c86ad4",
+  "slug": "keto-raspberry-lemonade-muffins",
+  "title": "Keto Raspberry Lemonade Muffins",
+  "description": null,
+  "category": "Protein Recipes",
+  "subcategory": "KETO RECIPES",
+  "tags": [
+    "keto"
+  ],
+  "servings": {
+    "text": "Serves: 8",
+    "amount": 8
+  },
+  "times": [],
+  "ingredients": [
+    {
+      "raw": "1 cup blanched almond flour (not almond meal)",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "blanched almond flour",
+      "prep": null,
+      "note": "not almond meal",
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "almond-flour",
+      "amount": {
+        "value": 236.588,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "⅛ teaspoon baking soda",
+      "quantity": 0.125,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "baking soda",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "baking-soda",
+      "amount": {
+        "value": 0.616,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "⅛ teaspoon pink salt",
+      "quantity": 0.125,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "pink salt",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "salt",
+      "amount": {
+        "value": 0.616,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "3 large eggs",
+      "quantity": 3,
+      "quantityMax": null,
+      "unit": null,
+      "item": "large eggs",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "eggs",
+      "amount": {
+        "value": 3,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "¼ cup coconut oil",
+      "quantity": 0.25,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "coconut oil",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "coconut-oil",
+      "amount": {
+        "value": 59.147,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 tablespoon lemon zest",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "lemon zest",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "lemon",
+      "amount": {
+        "value": 14.787,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "⅛ teaspoon vanilla",
+      "quantity": 0.125,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "vanilla",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "vanilla-extract",
+      "amount": {
+        "value": 0.616,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 cup frozen raspberries",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "frozen raspberries",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "raspberries",
+      "amount": {
+        "value": 236.588,
+        "unit": "ml"
+      }
+    }
+  ],
+  "steps": [
+    {
+      "text": "In a food processor, pulse almond flour, baking soda, and salt",
+      "group": null
+    },
+    {
+      "text": "Pulse in eggs, oil, lemon zest, and vanilla for 20 seconds",
+      "group": null
+    },
+    {
+      "text": "Stir in raspberries by hand",
+      "group": null
+    },
+    {
+      "text": "Divide batter between 8 muffins cups",
+      "group": null
+    },
+    {
+      "text": "Bake at 350°F for 30 minutes, cool 30 minutes before serving",
+      "group": null
+    }
+  ],
+  "footnotes": [],
+  "nutrition": null,
+  "importedNotes": [],
+  "seeAlso": [],
+  "source": {
+    "attribution": null,
+    "file": "RECIPES/PROTEIN RECIPES/KETO RECIPES/Raspberry Lemonade Muffins.doc",
+    "type": "doc",
+    "duplicateFiles": []
+  }
+}

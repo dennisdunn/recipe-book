@@ -1,0 +1,233 @@
+{
+  "schemaVersion": 1,
+  "id": "54ac9739-b2d6-57f4-94a2-48416683fee8",
+  "slug": "cheesy-chicken-and-rice-casserole",
+  "title": "Cheesy Chicken and Rice Casserole",
+  "description": null,
+  "category": "Casseroles",
+  "subcategory": null,
+  "tags": [
+    "main"
+  ],
+  "servings": null,
+  "times": [],
+  "ingredients": [
+    {
+      "raw": "2 grilled or fully cooked chicken breasts",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": null,
+      "item": "grilled or fully cooked chicken breasts",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "chicken-breast",
+      "amount": {
+        "value": 2,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "1 10oz. can cream of mushroom soup",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "can",
+      "item": "cream of mushroom soup",
+      "prep": null,
+      "note": "package size: 10 oz",
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "cream-of-mushroom-soup",
+      "amount": {
+        "value": 1,
+        "unit": "pkg",
+        "package": "can",
+        "packageOz": 10
+      }
+    },
+    {
+      "raw": "1 medium bell pepper",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": null,
+      "item": "medium bell pepper",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "bell-pepper",
+      "amount": {
+        "value": 1,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "1 8 oz package of cream cheese",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "pkg",
+      "item": "cream cheese",
+      "prep": null,
+      "note": "package size: 8 oz",
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "cream-cheese",
+      "amount": {
+        "value": 1,
+        "unit": "pkg",
+        "package": "pkg",
+        "packageOz": 8
+      }
+    },
+    {
+      "raw": "1/2 red onion",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": null,
+      "item": "red onion",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "red-onion",
+      "amount": {
+        "value": 0.5,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "1/4 cup Louisiana Hot Sauce (optional)",
+      "quantity": 0.25,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "Louisiana Hot Sauce",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": true,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "hot-sauce",
+      "amount": {
+        "value": 59.147,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "2 cups of rice (cooked)",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "rice",
+      "prep": null,
+      "note": "cooked",
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "rice",
+      "amount": {
+        "value": 473.176,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "2 Tbsp margarine or butter",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "margarine or butter",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "margarine",
+      "amount": {
+        "value": 29.574,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 1/2 cups shredded Monterrey Jack cheese",
+      "quantity": 1.5,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "shredded Monterrey Jack cheese",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "mexican-cheese-blend",
+      "amount": {
+        "value": 354.882,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "salt and pepper to taste",
+      "quantity": null,
+      "quantityMax": null,
+      "unit": null,
+      "item": "salt and pepper",
+      "prep": null,
+      "note": "to taste",
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "salt",
+      "amount": null
+    }
+  ],
+  "steps": [
+    {
+      "text": "Heat oven to 350.",
+      "group": null
+    },
+    {
+      "text": "Take 2 grilled chicken breasts and allow them to slightly cool. Shred chicken breasts and place to the side in a mixing bowl.",
+      "group": null
+    },
+    {
+      "text": "Finely chop your pepper and onion and sauté in 2 Tbsp butter for 5 minutes until soft.",
+      "group": null
+    },
+    {
+      "text": "Add cream cheese into the onion and pepper and mix well.",
+      "group": null
+    },
+    {
+      "text": "Pour into the large bowl with chicken. Mix in rice, hot sauce, cream of mushroom soup, ½ cup Monterrey Jack cheese, and salt and pepper. Mix well.",
+      "group": null
+    },
+    {
+      "text": "Pour mixture in a 9 x 13 dish, and cover with remaining cheese and add salt and pepper to taste. Bake for 30 minutes. Allow to cool for 5 minutes before serving.",
+      "group": null
+    }
+  ],
+  "footnotes": [],
+  "nutrition": null,
+  "importedNotes": [],
+  "seeAlso": [],
+  "source": {
+    "attribution": null,
+    "file": "RECIPES/CASSEROLES/Cheesy Chicken and Rice Casserole.doc",
+    "type": "doc",
+    "duplicateFiles": []
+  }
+}

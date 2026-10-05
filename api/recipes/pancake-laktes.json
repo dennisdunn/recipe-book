@@ -1,0 +1,177 @@
+{
+  "schemaVersion": 1,
+  "id": "84218954-6815-57ab-a103-cf0e1c89cc86",
+  "slug": "pancake-laktes",
+  "title": "Pancake Laktes",
+  "description": null,
+  "category": "Side Dishes",
+  "subcategory": null,
+  "tags": [],
+  "servings": null,
+  "times": [],
+  "ingredients": [
+    {
+      "raw": "3 large russet potatoes",
+      "quantity": 3,
+      "quantityMax": null,
+      "unit": null,
+      "item": "large russet potatoes",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "potato",
+      "amount": {
+        "value": 3,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "1 small onion",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": null,
+      "item": "small onion",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "onion",
+      "amount": {
+        "value": 1,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "1 egg",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": null,
+      "item": "egg",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "eggs",
+      "amount": {
+        "value": 1,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "2 TBSP flour",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "flour",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "all-purpose-flour",
+      "amount": {
+        "value": 29.574,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1/2 tsp baking powder",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "baking powder",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "baking-powder",
+      "amount": {
+        "value": 2.464,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "A handful of shredded carrots and zucchini",
+      "quantity": null,
+      "quantityMax": null,
+      "unit": null,
+      "item": "A handful of shredded carrots and zucchini",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "low",
+      "shop": true,
+      "catalogId": "zucchini",
+      "amount": null
+    },
+    {
+      "raw": "Sour cream",
+      "quantity": null,
+      "quantityMax": null,
+      "unit": null,
+      "item": "Sour cream",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "low",
+      "shop": true,
+      "catalogId": "sour-cream",
+      "amount": null
+    },
+    {
+      "raw": "Applesauce",
+      "quantity": null,
+      "quantityMax": null,
+      "unit": null,
+      "item": "Applesauce",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "low",
+      "shop": true,
+      "catalogId": "applesauce",
+      "amount": null
+    }
+  ],
+  "steps": [
+    {
+      "text": "Grate 3 large russet potatoes and 1 small onion in a food processer using the shredding disk.",
+      "group": null
+    },
+    {
+      "text": "Drain in a colander and add to a large mixing bowl with 1 egg, 2 tablespoons flour, 1/2 teaspoon baking powder, a handful of shredded carrots and zucchini",
+      "group": null
+    },
+    {
+      "text": "salt and pepper to taste",
+      "group": null
+    },
+    {
+      "text": "Fry large dollops of the mix in vegetable oil (flattening with a spoon) for about 4 minutes a side and serve warm with sour cream and apple sauce.",
+      "group": null
+    }
+  ],
+  "footnotes": [],
+  "nutrition": null,
+  "importedNotes": [],
+  "seeAlso": [],
+  "source": {
+    "attribution": null,
+    "file": "RECIPES/SIDE DISHES/Pancake Laktes.doc",
+    "type": "doc",
+    "duplicateFiles": []
+  }
+}

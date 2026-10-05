@@ -1,0 +1,225 @@
+{
+  "schemaVersion": 1,
+  "id": "18a8b3f6-4e6e-53c1-8b51-63fdf94c24e1",
+  "slug": "grilled-marinated-flank-steak",
+  "title": "Grilled Marinated Flank Steak",
+  "description": null,
+  "category": "Beef Dishes",
+  "subcategory": null,
+  "tags": [
+    "main"
+  ],
+  "servings": {
+    "text": "Serves 6",
+    "amount": 6
+  },
+  "times": [],
+  "ingredients": [
+    {
+      "raw": "½ cup vegetable oil",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "vegetable oil",
+      "prep": null,
+      "note": null,
+      "group": "Ingredients for marinade",
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "vegetable-oil",
+      "amount": {
+        "value": 118.294,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "¼ cup low sodium soy sauce",
+      "quantity": 0.25,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "low sodium soy sauce",
+      "prep": null,
+      "note": null,
+      "group": "Ingredients for marinade",
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "soy-sauce",
+      "amount": {
+        "value": 59.147,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "3 TBSP honey",
+      "quantity": 3,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "honey",
+      "prep": null,
+      "note": null,
+      "group": "Ingredients for marinade",
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "honey",
+      "amount": {
+        "value": 44.36,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "2 TBSP vinegar",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "vinegar",
+      "prep": null,
+      "note": null,
+      "group": "Ingredients for marinade",
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "white-vinegar",
+      "amount": {
+        "value": 29.574,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 tsp garlic powder",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "garlic powder",
+      "prep": null,
+      "note": null,
+      "group": "Ingredients for marinade",
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "garlic-powder",
+      "amount": {
+        "value": 4.929,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 tsp fresh ginger, grated",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "fresh ginger",
+      "prep": "grated",
+      "note": null,
+      "group": "Ingredients for marinade",
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "ginger",
+      "amount": {
+        "value": 4.929,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 cup green onions, chopped",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "green onions",
+      "prep": "chopped",
+      "note": null,
+      "group": "Ingredients for marinade",
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "green-onion",
+      "amount": {
+        "value": 236.588,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 (2 lb) flank steak",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "pkg",
+      "item": "flank steak",
+      "prep": null,
+      "note": "package size: 2 lb",
+      "group": "Ingredients for marinade",
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "beef-steak",
+      "amount": {
+        "value": 1,
+        "unit": "pkg",
+        "package": "pkg",
+        "packageOz": 32
+      }
+    }
+  ],
+  "steps": [
+    {
+      "text": "Whisk the oil, soy sauce, honey, vinegar, garlic powder and ginger in a bowl.",
+      "group": null
+    },
+    {
+      "text": "Stir in the green onions.",
+      "group": null
+    },
+    {
+      "text": "Pour over the steak in a shallow dish, turning to coat.",
+      "group": null
+    },
+    {
+      "text": "Marinate covered in frig for 12 hours, turning occasionally.",
+      "group": null
+    },
+    {
+      "text": "Drain and discard marinate.",
+      "group": null
+    },
+    {
+      "text": "Preheat grill:",
+      "group": null
+    },
+    {
+      "text": "Grill steak directly over medium heat, turning once, until a meat thermometer registers 145 F. for medium rare (about 5 minutes per side).",
+      "group": null
+    },
+    {
+      "text": "Let stand for 5 minutes.",
+      "group": null
+    },
+    {
+      "text": "Slice diagonally against the grain into thin strips.",
+      "group": null
+    },
+    {
+      "text": "Serve with Mexican Corn Salad (see separate recipe).",
+      "group": null
+    },
+    {
+      "text": "TIP: This marinade works well with other cuts of steak, chicken breasts and",
+      "group": null
+    },
+    {
+      "text": "hearty fish like salmon.",
+      "group": null
+    }
+  ],
+  "footnotes": [],
+  "nutrition": null,
+  "importedNotes": [],
+  "seeAlso": [],
+  "source": {
+    "attribution": null,
+    "file": "RECIPES/BEEF DISHES/Grilled Marinated Flank Steak.doc",
+    "type": "doc",
+    "duplicateFiles": []
+  }
+}

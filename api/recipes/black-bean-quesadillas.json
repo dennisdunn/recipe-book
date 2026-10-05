@@ -1,0 +1,153 @@
+{
+  "schemaVersion": 1,
+  "id": "5f4ecf65-1d28-5eed-a58a-bedb772817b3",
+  "slug": "black-bean-quesadillas",
+  "title": "Black Bean Quesadillas",
+  "description": null,
+  "category": "Mexican Dishes",
+  "subcategory": null,
+  "tags": [
+    "main"
+  ],
+  "servings": null,
+  "times": [],
+  "ingredients": [
+    {
+      "raw": "2 (15 ounce) cans black beans, rinsed and drained",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "can",
+      "item": "black beans",
+      "prep": "rinsed and drained",
+      "note": "package size: 15 ounce",
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "black-beans",
+      "amount": {
+        "value": 2,
+        "unit": "pkg",
+        "package": "can",
+        "packageOz": 15
+      }
+    },
+    {
+      "raw": "Taco Seasoning or chili powder",
+      "quantity": null,
+      "quantityMax": null,
+      "unit": null,
+      "item": "Taco Seasoning or chili powder",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "low",
+      "shop": true,
+      "catalogId": "taco-seasoning",
+      "amount": null
+    },
+    {
+      "raw": "1 2/3 cups salsa, divided",
+      "quantity": 1.667,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "salsa",
+      "prep": "divided",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "salsa",
+      "amount": {
+        "value": 394.392,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "10 (8 inch) flour tortillas",
+      "quantity": 10,
+      "quantityMax": null,
+      "unit": null,
+      "item": "flour tortillas",
+      "prep": null,
+      "note": "package size: 8 inch",
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "tortillas",
+      "amount": {
+        "value": 10,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "2 cups shredded Colby-Monterey Jack cheese",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "shredded Colby-Monterey Jack cheese",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "mexican-cheese-blend",
+      "amount": {
+        "value": 473.176,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1/3 cup sour cream",
+      "quantity": 0.333,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "sour cream",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "sour-cream",
+      "amount": {
+        "value": 78.784,
+        "unit": "ml"
+      }
+    }
+  ],
+  "steps": [
+    {
+      "text": "In a bowl, mash the beans; add 1 cup salsa. Place five tortillas on ungreased baking sheets; spread with bean mixture. Sprinkle with cheese; top with the remaining tortillas.",
+      "group": null
+    },
+    {
+      "text": "Bake at 400 degrees F for 10-15 minutes or until crisp and heated through. Cut into wedges. Serve with sour cream and remaining salsa.",
+      "group": null
+    }
+  ],
+  "footnotes": [],
+  "nutrition": null,
+  "importedNotes": [
+    {
+      "text": "Very good. I added taco seasoning because I found the bean mixture a little bland"
+    },
+    {
+      "text": "I threw the beans and salsa in the food processor and added some seasoning to them."
+    },
+    {
+      "text": "If you warm the beans a bit, they are very easy to mash. I added the salsa to taste, plus added chili powder.."
+    }
+  ],
+  "seeAlso": [],
+  "source": {
+    "attribution": null,
+    "file": "RECIPES/MEXICAN DISHES/Black Bean Quesadillas.doc",
+    "type": "doc",
+    "duplicateFiles": []
+  }
+}

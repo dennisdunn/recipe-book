@@ -1,0 +1,385 @@
+{
+  "schemaVersion": 1,
+  "id": "00d543dd-88cd-5246-bfcc-79da8167942f",
+  "slug": "mediterranean-boneless-pork-chops",
+  "title": "Mediterranean Boneless Pork Chops",
+  "description": null,
+  "category": "Protein Recipes",
+  "subcategory": "KETO RECIPES",
+  "tags": [
+    "keto",
+    "main"
+  ],
+  "servings": null,
+  "times": [
+    {
+      "label": "Total time",
+      "text": "30 minutes"
+    }
+  ],
+  "ingredients": [
+    {
+      "raw": "16 oz (8) thin sliced center cut boneless pork chops",
+      "quantity": 16,
+      "quantityMax": null,
+      "unit": "oz",
+      "item": "thin sliced center cut boneless pork chops",
+      "prep": null,
+      "note": "package size: 8",
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "pork-chops",
+      "amount": {
+        "value": 453.592,
+        "unit": "g"
+      }
+    },
+    {
+      "raw": "3/4 tsp of McCormick Montreal Chicken Seasoning",
+      "quantity": 0.75,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "McCormick Montreal Chicken Seasoning",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "other-seasoning-blend",
+      "amount": {
+        "value": 3.697,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 small (6 oz) zucchini, ends trimmed off",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "pkg",
+      "item": "small  zucchini, ends trimmed off",
+      "prep": null,
+      "note": "package size: 6 oz; 6 oz",
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "zucchini",
+      "amount": {
+        "value": 1,
+        "unit": "pkg",
+        "package": "pkg",
+        "packageOz": 6
+      }
+    },
+    {
+      "raw": "1 small (6 oz) yellow squash, ends trimmed off",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "pkg",
+      "item": "small  yellow squash, ends trimmed off",
+      "prep": null,
+      "note": "package size: 6 oz; 6 oz",
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "yellow-squash",
+      "amount": {
+        "value": 1,
+        "unit": "pkg",
+        "package": "pkg",
+        "packageOz": 6
+      }
+    },
+    {
+      "raw": "1 cup halved grape tomatoes",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "halved grape tomatoes",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "diced-tomatoes",
+      "amount": {
+        "value": 236.588,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 tablespoon extra virgin olive oil",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "extra virgin olive oil",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "olive-oil",
+      "amount": {
+        "value": 14.787,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "¼ tsp Kosher salt and fresh cracked pepper",
+      "quantity": 0.25,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "Kosher salt and fresh cracked pepper",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "salt",
+      "amount": {
+        "value": 1.232,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "¼ teaspoon oregano",
+      "quantity": 0.25,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "oregano",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "dried-oregano",
+      "amount": {
+        "value": 1.232,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "3 garlic cloves, sliced thin",
+      "quantity": 3,
+      "quantityMax": null,
+      "unit": null,
+      "item": "garlic cloves",
+      "prep": "sliced thin",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "garlic",
+      "amount": {
+        "value": 3,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "cooking spray",
+      "quantity": null,
+      "quantityMax": null,
+      "unit": null,
+      "item": "cooking spray",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "low",
+      "shop": true,
+      "catalogId": "cooking-spray",
+      "amount": null
+    },
+    {
+      "raw": "1/4 cup of pitted and sliced Kalamata olives",
+      "quantity": 0.25,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "pitted and sliced Kalamata olives",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "olives",
+      "amount": {
+        "value": 59.147,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1/4 cup of crumbled Feta cheese",
+      "quantity": 0.25,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "crumbled Feta cheese",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "feta-cheese",
+      "amount": {
+        "value": 59.147,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "fresh juice from 1/2 large lemon",
+      "quantity": null,
+      "quantityMax": null,
+      "unit": null,
+      "item": "fresh juice from 1/2 large lemon",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "low",
+      "shop": true,
+      "catalogId": "lemon",
+      "amount": {
+        "value": 0.5,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "1 tsp grated Lemon rind",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "grated Lemon rind",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "lemon",
+      "amount": {
+        "value": 4.929,
+        "unit": "ml"
+      }
+    }
+  ],
+  "steps": [
+    {
+      "text": "Preheat oven to 450 degrees. Season the pork chops with Montreal",
+      "group": null
+    },
+    {
+      "text": "seasoning (or any seasoned salt you like).",
+      "group": null
+    },
+    {
+      "text": "To Julienne the Zucchini and Yellow Squash: slice the zucchini into",
+      "group": null
+    },
+    {
+      "text": "1/8-inch thick slices. Cut the slices lengthwise into 1/8-inch thick",
+      "group": null
+    },
+    {
+      "text": "strips.",
+      "group": null
+    },
+    {
+      "text": "Toss the tomatoes with 1/2 tbsp of the olive oil, 1/8 tsp salt, pepper,",
+      "group": null
+    },
+    {
+      "text": "and oregano.  Place tomatoes, cut side up, on a baking sheet lightly",
+      "group": null
+    },
+    {
+      "text": "sprayed with cooking spray; roast for 10 minutes.",
+      "group": null
+    },
+    {
+      "text": "Add sliced garlic and roast for another 5 minutes (this will prevent",
+      "group": null
+    },
+    {
+      "text": "the garlic from burning).",
+      "group": null
+    },
+    {
+      "text": "Transfer to a large work bowl and set aside.",
+      "group": null
+    },
+    {
+      "text": "Reduce oven to 200°F.",
+      "group": null
+    },
+    {
+      "text": "Heat a large non-stick skillet over medium-high heat, add remaining",
+      "group": null
+    },
+    {
+      "text": "1/2 tablespoon of olive oil and zucchini with 1/8 tsp salt and sauté",
+      "group": null
+    },
+    {
+      "text": "until tender, about 5 minutes.",
+      "group": null
+    },
+    {
+      "text": "Add to bowl with tomatoes and place in the warm oven.",
+      "group": null
+    },
+    {
+      "text": "Working in two batches, spray the skillet with cooking spray and",
+      "group": null
+    },
+    {
+      "text": "cook half of the the pork chops on medium-high heat for about 1 1/2",
+      "group": null
+    },
+    {
+      "text": "to 2 minutes on each side.  The pork chops are thin so you don’t want",
+      "group": null
+    },
+    {
+      "text": "to over cook them or they will be tough.  Set aside on a platter.",
+      "group": null
+    },
+    {
+      "text": "Remove the vegetables from the oven toss with Kalamata olives,",
+      "group": null
+    },
+    {
+      "text": "juice of lemon and lemon rind.",
+      "group": null
+    },
+    {
+      "text": "Serve the vegetables over the pork chops and top with Feta cheese.",
+      "group": null
+    },
+    {
+      "text": "Yield: 4 Servings, Serving Size: 2 chops, 3/4c veggies",
+      "group": null
+    }
+  ],
+  "footnotes": [],
+  "nutrition": {
+    "text": "Calories: 230 calories, Total Fat: 9g, Sodium: 502mg, Carbohydrates: 9g, Fiber: 2g, Sugar: 2g, Protein: 28g"
+  },
+  "importedNotes": [],
+  "seeAlso": [],
+  "source": {
+    "attribution": null,
+    "file": "RECIPES/PROTEIN RECIPES/KETO RECIPES/Mediterranean Pork Chops.doc",
+    "type": "doc",
+    "duplicateFiles": []
+  }
+}

@@ -1,0 +1,268 @@
+{
+  "schemaVersion": 1,
+  "id": "8dba25fc-ba06-594b-9f19-3cba936744f6",
+  "slug": "busy-day-chicken-rice-casserole",
+  "title": "Busy Day Chicken Rice Casserole",
+  "description": null,
+  "category": "Casseroles",
+  "subcategory": null,
+  "tags": [
+    "main"
+  ],
+  "servings": {
+    "text": "Serves: 4",
+    "amount": 4
+  },
+  "times": [
+    {
+      "label": "Prep time",
+      "text": "10 mins"
+    },
+    {
+      "label": "Cook time",
+      "text": "2 hours"
+    }
+  ],
+  "ingredients": [
+    {
+      "raw": "1 (10.75 ounce) can low sodium cream of mushroom soup",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "can",
+      "item": "low sodium cream of mushroom soup",
+      "prep": null,
+      "note": "package size: 10.75 ounce",
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "cream-of-mushroom-soup",
+      "amount": {
+        "value": 1,
+        "unit": "pkg",
+        "package": "can",
+        "packageOz": 10.75
+      }
+    },
+    {
+      "raw": "1 (10.75 ounce) can low sodium cream of celery soup",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "can",
+      "item": "low sodium cream of celery soup",
+      "prep": null,
+      "note": "package size: 10.75 ounce",
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "cream-of-celery-soup",
+      "amount": {
+        "value": 1,
+        "unit": "pkg",
+        "package": "can",
+        "packageOz": 10.75
+      }
+    },
+    {
+      "raw": "1 cup water OR ½ cup white wine and ½ cup water",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "water OR 1/2 cup white wine and 1/2 cup water",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "water",
+      "amount": {
+        "value": 236.588,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 cup uncooked white rice",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "uncooked white rice",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "rice",
+      "amount": {
+        "value": 236.588,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 (4.5 ounce) can mushrooms, drained",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "can",
+      "item": "mushrooms",
+      "prep": "drained",
+      "note": "package size: 4.5 ounce",
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "mushrooms",
+      "amount": {
+        "value": 1,
+        "unit": "pkg",
+        "package": "can",
+        "packageOz": 4.5
+      }
+    },
+    {
+      "raw": "½ cup chopped onion",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "chopped onion",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "onion",
+      "amount": {
+        "value": 118.294,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "2 cloves minced garlic",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "clove",
+      "item": "minced garlic",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "garlic",
+      "amount": {
+        "value": 2,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "ground black pepper to taste",
+      "quantity": null,
+      "quantityMax": null,
+      "unit": null,
+      "item": "ground black pepper",
+      "prep": null,
+      "note": "to taste",
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "black-pepper",
+      "amount": null
+    },
+    {
+      "raw": "1 (1 ounce) package dry onion soup mix (save some out for topping)",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "pkg",
+      "item": "dry onion soup mix",
+      "prep": null,
+      "note": "package size: 1 ounce; save some out for topping",
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "onion-soup-mix",
+      "amount": {
+        "value": 1,
+        "unit": "pkg",
+        "package": "can",
+        "packageOz": 1
+      }
+    },
+    {
+      "raw": "4 skinless, boneless chicken breast halves (whole or sliced thin)",
+      "quantity": 4,
+      "quantityMax": null,
+      "unit": null,
+      "item": "skinless, boneless chicken breast halves",
+      "prep": null,
+      "note": "whole or sliced thin",
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "chicken-breast",
+      "amount": {
+        "value": 4,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "Frozen broccoli pieces",
+      "quantity": null,
+      "quantityMax": null,
+      "unit": null,
+      "item": "Frozen broccoli pieces",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "low",
+      "shop": true,
+      "catalogId": "broccoli",
+      "amount": null
+    }
+  ],
+  "steps": [
+    {
+      "text": "Preheat oven to 325 degrees, cook for 1 and ½ hrs OR 200 degrees for 3 to 4 hrs.",
+      "group": null
+    },
+    {
+      "text": "In a large bowl combine the mushroom soup, celery soup, water, rice, mushrooms, garlic powder and black pepper. Mix all together. Pour mixture into a 9x13 inch baking dish and spread on bottom.",
+      "group": null
+    },
+    {
+      "text": "Lay chicken pieces over soup mixture and sprinkle dry onion soup mix over all. Cover tightly with aluminum foil and bake in the preheated oven for 1 and 1/2 hours or until chicken is cooked through and no longer pink inside.",
+      "group": null
+    }
+  ],
+  "footnotes": [],
+  "nutrition": null,
+  "importedNotes": [
+    {
+      "text": "Brown the chicken before placing it in the baking dish with the rice mixture."
+    },
+    {
+      "text": "I also use garlic/onion powder, seasoning salt and cracked black pepper."
+    },
+    {
+      "text": "It is very important to stir it about every 30 minutes to help the rice cook more evenly so you don't end up with crunchy rice."
+    },
+    {
+      "text": "To top off the chicken, mix plain gluten free bread crumbs with dried basil, a pinch of cayenne pepper, and some more onion soup mix. Make a lot to cover the whole top. To make it crisp up a bit, remove the foil, raise the temperature very high, and cook for a few more minutes"
+    },
+    {
+      "text": "OR top it off with 1/4 tsp of cayenne pepper, a tbsp of dry mustard, and 2 cups of shredded cheddar cheese."
+    }
+  ],
+  "seeAlso": [],
+  "source": {
+    "attribution": null,
+    "file": "RECIPES/CASSEROLES/Busy Day Chicken Rice Casserole.doc",
+    "type": "doc",
+    "duplicateFiles": []
+  }
+}

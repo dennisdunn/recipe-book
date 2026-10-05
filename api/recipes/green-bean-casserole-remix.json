@@ -1,0 +1,190 @@
+{
+  "schemaVersion": 1,
+  "id": "9320e599-8d77-593f-b8d3-22e6b202d6a8",
+  "slug": "green-bean-casserole-remix",
+  "title": "Green Bean Casserole Remix",
+  "description": "\"Welcome to a new and tastier version of the classic green bean casserole with bacon and fresh mushrooms.\"     Prep time: 15 mins.     Cook time:  30 mins.",
+  "category": "Side Dishes",
+  "subcategory": null,
+  "tags": [],
+  "servings": null,
+  "times": [],
+  "ingredients": [
+    {
+      "raw": "2 (9 ounce) packages frozen cut green beans, thawed",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "pkg",
+      "item": "frozen cut green beans",
+      "prep": "thawed",
+      "note": "package size: 9 ounce",
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "frozen-green-beans",
+      "amount": {
+        "value": 2,
+        "unit": "pkg",
+        "package": "pkg",
+        "packageOz": 9
+      }
+    },
+    {
+      "raw": "10 slices bacon",
+      "quantity": 10,
+      "quantityMax": null,
+      "unit": "slice",
+      "item": "bacon",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "bacon",
+      "amount": {
+        "value": 10,
+        "unit": "each",
+        "countUnit": "slice"
+      }
+    },
+    {
+      "raw": "10 small fresh mushrooms, chopped",
+      "quantity": 10,
+      "quantityMax": null,
+      "unit": null,
+      "item": "small fresh mushrooms",
+      "prep": "chopped",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "mushrooms",
+      "amount": {
+        "value": 10,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "1/2 teaspoon garlic powder  (or use other seasonings to taste)",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "garlic powder",
+      "prep": null,
+      "note": "or use other seasonings to taste; to taste",
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "garlic-powder",
+      "amount": {
+        "value": 2.464,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1/2 teaspoon onion powder  (or use other seasonings to taste)",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "onion powder",
+      "prep": null,
+      "note": "or use other seasonings to taste; to taste",
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "onion-powder",
+      "amount": {
+        "value": 2.464,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 cup ½ and ½ or heavy cream",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "1/2 1/2 or heavy cream",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "heavy-cream",
+      "amount": {
+        "value": 236.588,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "¼ cup grated Parmesan cheese",
+      "quantity": 0.25,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "grated Parmesan cheese",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "parmesan-cheese",
+      "amount": {
+        "value": 59.147,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "salt and pepper to taste",
+      "quantity": null,
+      "quantityMax": null,
+      "unit": null,
+      "item": "salt and pepper",
+      "prep": null,
+      "note": "to taste",
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "salt",
+      "amount": null
+    }
+  ],
+  "steps": [
+    {
+      "text": "Preheat the oven to 350 degrees F (175 degrees C). Place green beans into a 1 quart or similar sized casserole dish.",
+      "group": null
+    },
+    {
+      "text": "Fry bacon in a large deep skillet over medium-high heat until browned and crispy. Remove to drain on paper towels. Drain off some of the grease, leaving enough to coat the bottom of the pan. Add mushrooms to the grease in the pan and season with garlic powder and onion powder. Cook and stir until tender, about 4 minutes.",
+      "group": null
+    },
+    {
+      "text": "Pour the cream into the pan with the mushrooms and stir to scrape the bacon flavor from the bottom of the pan. Add some of the parmesan to the sauce as it simmers. Simmer until thickened slightly, about 5 minutes. Pour this mixture over the green beans. Crumble bacon over the top and sprinkle with Parmesan cheese. Season with salt and pepper.",
+      "group": null
+    },
+    {
+      "text": "Bake for 20 minutes in the preheated oven, or until the sauce is bubbling and the top is toasted.",
+      "group": null
+    }
+  ],
+  "footnotes": [],
+  "nutrition": null,
+  "importedNotes": [
+    {
+      "text": "Have a can of cream of mushroom soup on hand to add to the sauce in case it doesn’t thicken sufficiently."
+    }
+  ],
+  "seeAlso": [],
+  "source": {
+    "attribution": null,
+    "file": "RECIPES/SIDE DISHES/Green Bean Casserole Remix.doc",
+    "type": "doc",
+    "duplicateFiles": []
+  }
+}

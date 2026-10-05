@@ -1,0 +1,193 @@
+{
+  "schemaVersion": 1,
+  "id": "d86d2005-1b54-50f0-8058-edb9943fa992",
+  "slug": "tomato-cucumber-onion-salad",
+  "title": "Tomato Cucumber Onion Salad",
+  "description": "\"Tomato, cucumber, and onion in a simple red wine vinegar and olive oil dressing is a quick and easy salad.\"",
+  "category": "Salads",
+  "subcategory": null,
+  "tags": [],
+  "servings": null,
+  "times": [],
+  "ingredients": [
+    {
+      "raw": "1 cup diced cucumber",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "diced cucumber",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "cucumber",
+      "amount": {
+        "value": 236.588,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 cup diced fresh tomato",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "diced fresh tomato",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "tomato",
+      "amount": {
+        "value": 236.588,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1/4 cup olive oil",
+      "quantity": 0.25,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "olive oil",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "olive-oil",
+      "amount": {
+        "value": 59.147,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1/4 cup red wine vinegar",
+      "quantity": 0.25,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "red wine vinegar",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "red-wine-vinegar",
+      "amount": {
+        "value": 59.147,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1/4 cup diced red onion",
+      "quantity": 0.25,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "diced red onion",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "red-onion",
+      "amount": {
+        "value": 59.147,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 teaspoon white pepper",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "white pepper",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "white-pepper",
+      "amount": {
+        "value": 4.929,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 teaspoon salt, or to taste",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "salt",
+      "prep": null,
+      "note": "to taste",
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "salt",
+      "amount": {
+        "value": 4.929,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 tsp sugar (or more)",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "sugar",
+      "prep": null,
+      "note": "or more",
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "sugar",
+      "amount": {
+        "value": 4.929,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "Parsley or oregano for color",
+      "quantity": null,
+      "quantityMax": null,
+      "unit": null,
+      "item": "Parsley or oregano for color",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "low",
+      "shop": true,
+      "catalogId": "fresh-parsley",
+      "amount": null
+    }
+  ],
+  "steps": [
+    {
+      "text": "Remove seeds from cukes with thumb. Toss cucumber, tomato, olive oil, red wine vinegar, red onion, and white pepper together in a large bowl; season with salt. Refrigerate until slightly chilled, 10 to 15 minutes.",
+      "group": null
+    }
+  ],
+  "footnotes": [],
+  "nutrition": null,
+  "importedNotes": [
+    {
+      "text": "I love this salad and make it all summer long. I use about half the oil, and I add a little sugar (maybe a teaspoon or two for this amount of veggies) and some chopped fresh oregano and parsley (a tablespoon or so of each--they add eye appeal, too). And I usually do a quick seeding of the tomatoes & cukes with my thumb just to help cut down on the liquid. Goes great with grilled anything!"
+    }
+  ],
+  "seeAlso": [],
+  "source": {
+    "attribution": null,
+    "file": "RECIPES/SALADS/Tomato Cucumber Onion Salad.doc",
+    "type": "doc",
+    "duplicateFiles": []
+  }
+}

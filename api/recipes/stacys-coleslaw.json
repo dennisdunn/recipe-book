@@ -1,0 +1,211 @@
+{
+  "schemaVersion": 1,
+  "id": "b1136757-4226-5614-8dc5-64fe3f619896",
+  "slug": "stacys-coleslaw",
+  "title": "Stacy's Coleslaw",
+  "description": null,
+  "category": "Salads",
+  "subcategory": null,
+  "tags": [],
+  "servings": null,
+  "times": [],
+  "ingredients": [
+    {
+      "raw": "1 head cabbage, very thinly sliced",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "head",
+      "item": "cabbage, very thinly sliced",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "cabbage",
+      "amount": {
+        "value": 1,
+        "unit": "each",
+        "countUnit": "head"
+      }
+    },
+    {
+      "raw": "1 onion, very thinly sliced",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": null,
+      "item": "onion, very thinly sliced",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "onion",
+      "amount": {
+        "value": 1,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "3/4 cup sugar",
+      "quantity": 0.75,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "sugar",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "sugar",
+      "amount": {
+        "value": 177.441,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "3/4 cup salad oil",
+      "quantity": 0.75,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "salad oil",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "vegetable-oil",
+      "amount": {
+        "value": 177.441,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "2/3 cup cider vinegar",
+      "quantity": 0.667,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "cider vinegar",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "apple-cider-vinegar",
+      "amount": {
+        "value": 157.804,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 tsp celery seed",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "celery seed",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "celery-seed",
+      "amount": {
+        "value": 4.929,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 tsp salt",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "salt",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "salt",
+      "amount": {
+        "value": 4.929,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 tsp prepared mustard",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "prepared mustard",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "yellow-mustard",
+      "amount": {
+        "value": 4.929,
+        "unit": "ml"
+      }
+    }
+  ],
+  "steps": [
+    {
+      "text": "Layer a small portion of the shredded cabbage in serving bowl.",
+      "group": null
+    },
+    {
+      "text": "Layer a portion of sliced onion over cabbage.",
+      "group": null
+    },
+    {
+      "text": "Sprinkle 1/4 cup of the sugar over the onion.",
+      "group": null
+    },
+    {
+      "text": "Continue layering cabbage, onion and sugar. Use entire amount.",
+      "group": null
+    },
+    {
+      "text": "Heat oil, vinegar, 1/2 cup sugar, celery seed, salt and prepared mustard over low heat until sugar is dissolved.",
+      "group": null
+    },
+    {
+      "text": "Pour over cabbage mixture. DO NOT STIR.",
+      "group": null
+    },
+    {
+      "text": "Leave untouched and cover tightly.",
+      "group": null
+    },
+    {
+      "text": "Refrigerate for 24 hours.",
+      "group": null
+    },
+    {
+      "text": "Mix when ready to serve.",
+      "group": null
+    }
+  ],
+  "footnotes": [],
+  "nutrition": null,
+  "importedNotes": [
+    {
+      "text": "May be kept in fridge for up to a week and can also be frozen."
+    }
+  ],
+  "seeAlso": [],
+  "source": {
+    "attribution": "Recipe from Stacy Butcher",
+    "file": "RECIPES/SALADS/Stacy_s Coleslaw.png",
+    "type": "image",
+    "duplicateFiles": []
+  }
+}

@@ -1,0 +1,144 @@
+{
+  "schemaVersion": 1,
+  "id": "f6e34c14-c967-523e-b96f-79a71010d982",
+  "slug": "bevs-no-bake-protein-balls",
+  "title": "Bev's No Bake Protein Balls",
+  "description": null,
+  "category": "Protein Recipes",
+  "subcategory": null,
+  "tags": [],
+  "servings": null,
+  "times": [],
+  "ingredients": [
+    {
+      "raw": "¾ cup protein powder",
+      "quantity": 0.75,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "protein powder",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "protein-powder",
+      "amount": {
+        "value": 177.441,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "½ cup almonds",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "almonds",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "almonds",
+      "amount": {
+        "value": 118.294,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "½ cup cashews",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "cashews",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "cashews",
+      "amount": {
+        "value": 118.294,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 1/3 cup dried fruit (cranberries, blueberries, etc.)",
+      "quantity": 1.333,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "dried fruit",
+      "prep": null,
+      "note": "cranberries, blueberries, etc.",
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "dried-fruit",
+      "amount": {
+        "value": 315.372,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "5 TBSP honey",
+      "quantity": 5,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "honey",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "honey",
+      "amount": {
+        "value": 73.934,
+        "unit": "ml"
+      }
+    }
+  ],
+  "steps": [
+    {
+      "text": "Mix all ingredients together in large bowl.",
+      "group": null
+    },
+    {
+      "text": "Divide mixture roughly in half and blend in food processor.",
+      "group": null
+    },
+    {
+      "text": "Blend remaining half in food processor.",
+      "group": null
+    },
+    {
+      "text": "Mixture will be coarse and sticky.",
+      "group": null
+    },
+    {
+      "text": "Scoop enough in palm of hand to make a 1 inch ball or slightly larger.",
+      "group": null
+    },
+    {
+      "text": "Squish mixture in palm of hand until it holds together.",
+      "group": null
+    },
+    {
+      "text": "Place balls in airtight container and keep in refrigerator.",
+      "group": null
+    }
+  ],
+  "footnotes": [],
+  "nutrition": null,
+  "importedNotes": [],
+  "seeAlso": [],
+  "source": {
+    "attribution": null,
+    "file": "RECIPES/PROTEIN RECIPES/Bev_s No Bake Protein Balls.doc",
+    "type": "doc",
+    "duplicateFiles": []
+  }
+}

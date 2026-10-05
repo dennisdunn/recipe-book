@@ -1,0 +1,252 @@
+{
+  "schemaVersion": 1,
+  "id": "1b0970c5-8d99-52d7-868d-087d4b9ea736",
+  "slug": "pressure-cooker-watermelon-baby-back-ribs",
+  "title": "Pressure Cooker Watermelon Baby Back Ribs",
+  "description": null,
+  "category": "Pork Dishes",
+  "subcategory": null,
+  "tags": [
+    "main"
+  ],
+  "servings": null,
+  "times": [
+    {
+      "label": "Prep time",
+      "text": "15 mins Cook Time 20 mins Total Time 35 mins"
+    }
+  ],
+  "ingredients": [
+    {
+      "raw": "4 lbs Baby Back Ribs",
+      "quantity": 4,
+      "quantityMax": null,
+      "unit": "lb",
+      "item": "Baby Back Ribs",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "pork-ribs",
+      "amount": {
+        "value": 1814.368,
+        "unit": "g"
+      }
+    },
+    {
+      "raw": "1/4 cup Watermelon Rind Juice",
+      "quantity": 0.25,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "Watermelon Rind Juice",
+      "prep": null,
+      "note": "made from the watermelon rind in this recipe",
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": false,
+      "catalogId": "watermelon",
+      "amount": {
+        "value": 59.147,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "Watermelon Rind Barbecue Sauce",
+      "quantity": null,
+      "quantityMax": null,
+      "unit": null,
+      "item": "Watermelon Rind Barbecue Sauce",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "low",
+      "shop": true,
+      "catalogId": "bbq-sauce",
+      "amount": null
+    },
+    {
+      "raw": "1 cup Watermelon Rind Pulp (from small Watermelon)",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "Watermelon Rind Pulp",
+      "prep": null,
+      "note": "made from the watermelon rind in this recipe",
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": false,
+      "catalogId": "watermelon",
+      "amount": {
+        "value": 236.588,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 cup Dark Corn Syrup",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "Dark Corn Syrup",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "corn-syrup",
+      "amount": {
+        "value": 236.588,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1/4 cup Watermelon Rind Juice",
+      "quantity": 0.25,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "Watermelon Rind Juice",
+      "prep": null,
+      "note": "made from the watermelon rind in this recipe",
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": false,
+      "catalogId": "watermelon",
+      "amount": {
+        "value": 59.147,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1/4 cup Heinz Ketchup",
+      "quantity": 0.25,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "Heinz Ketchup",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "ketchup",
+      "amount": {
+        "value": 59.147,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1/4 cup Distilled Vinegar",
+      "quantity": 0.25,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "Distilled Vinegar",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "white-vinegar",
+      "amount": {
+        "value": 59.147,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1/2 tsp Liquid Smoke",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "Liquid Smoke",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "liquid-smoke",
+      "amount": {
+        "value": 2.464,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1/4 tsp Crushed Red Pepper Flakes",
+      "quantity": 0.25,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "Crushed Red Pepper Flakes",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "red-pepper-flakes",
+      "amount": {
+        "value": 1.232,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1/4 tsp Freshly Ground Black Pepper",
+      "quantity": 0.25,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "Freshly Ground Black Pepper",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "black-pepper",
+      "amount": {
+        "value": 1.232,
+        "unit": "ml"
+      }
+    }
+  ],
+  "steps": [
+    {
+      "text": "Remove green skin and the hard white part of Watermelon Rind. Cut up the white/lighter red part of the rind and place into a food processor. Process for a few seconds to make Watermelon Pulp.",
+      "group": null
+    },
+    {
+      "text": "Strain most of the Juice from Watermelon Pulp and set aside.  Add 1 full cup of Watermelon Pulp to Pressure Cooker cooking pot. Add the rest of the ingredients.",
+      "group": null
+    },
+    {
+      "text": "Lock on lid and close pressure valve. Cook at High Pressure for 15 minutes. Allow all pressure to release naturally.  Remove lid and simmer for 5 minutes.  Remove a cup of Sauce from the cooking pot and set aside.",
+      "group": null
+    },
+    {
+      "text": "Remove membrane from back of Ribs and cut into sections.  Add 1/4 cup of Watermelon Rind Juice and mix into Sauce.  Add Baby Back Ribs to cooking pot and push into the Sauce.",
+      "group": null
+    },
+    {
+      "text": "Lock on Lid and Close Pressure Valve.  Cook at High Pressure for 20 minutes.  Allow Pressure to release naturally.  Remove Ribs from Pressure Cooker cooking pot.  Toss out liquid.",
+      "group": null
+    },
+    {
+      "text": "Place ribs on Cookie Sheet, bone side up. Brush with Watermelon Rind Sauce.  Place under Broiler for 2 minutes, or until bubbly.  Turn over Ribs and brush on more Watermelon Rind Sauce.  Return to Broiler.",
+      "group": null
+    }
+  ],
+  "footnotes": [],
+  "nutrition": null,
+  "importedNotes": [],
+  "seeAlso": [],
+  "source": {
+    "attribution": null,
+    "file": "RECIPES/PORK DISHES/Watermelon Baby Back Ribs.doc",
+    "type": "doc",
+    "duplicateFiles": []
+  }
+}

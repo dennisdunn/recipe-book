@@ -1,0 +1,238 @@
+{
+  "schemaVersion": 1,
+  "id": "253e3a04-6ec4-5069-b8d7-65154e350bb7",
+  "slug": "butternut-squash-and-black-bean-stew",
+  "title": "Butternut Squash and Black Bean Stew",
+  "description": null,
+  "category": "Soups and Stews",
+  "subcategory": null,
+  "tags": [
+    "main"
+  ],
+  "servings": null,
+  "times": [],
+  "ingredients": [
+    {
+      "raw": "2 Tbsp olive oil",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "olive oil",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "olive-oil",
+      "amount": {
+        "value": 29.574,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 medium onion, chopped",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": null,
+      "item": "medium onion",
+      "prep": "chopped",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "onion",
+      "amount": {
+        "value": 1,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "2 cloves garlic, minced",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "clove",
+      "item": "garlic",
+      "prep": "minced",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "garlic",
+      "amount": {
+        "value": 2,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "1 1/2 pounds butternut squash, peeled and cut into bite-size pieces",
+      "quantity": 1.5,
+      "quantityMax": null,
+      "unit": "lb",
+      "item": "butternut squash",
+      "prep": "peeled and cut into bite-size pieces",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "butternut-squash",
+      "amount": {
+        "value": 680.388,
+        "unit": "g"
+      }
+    },
+    {
+      "raw": "1 (14.5 ounce) can Diced Tomatoes with Zesty Mild Green Chilies, undrained",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "can",
+      "item": "Diced Tomatoes with Zesty Mild Green Chilies",
+      "prep": "undrained",
+      "note": "package size: 14.5 ounce",
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "diced-tomatoes",
+      "amount": {
+        "value": 1,
+        "unit": "pkg",
+        "package": "can",
+        "packageOz": 14.5
+      }
+    },
+    {
+      "raw": "1 (14.5 ounce) can vegetable broth",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "can",
+      "item": "vegetable broth",
+      "prep": null,
+      "note": "package size: 14.5 ounce",
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "vegetable-broth",
+      "amount": {
+        "value": 1,
+        "unit": "pkg",
+        "package": "can",
+        "packageOz": 14.5
+      }
+    },
+    {
+      "raw": "1 teaspoon ground cumin",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "tsp",
+      "item": "ground cumin",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "cumin",
+      "amount": {
+        "value": 4.929,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 (15 ounce) can Black Bean Fiesta",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "can",
+      "item": "Black Bean Fiesta",
+      "prep": null,
+      "note": "package size: 15 ounce",
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "mixed-beans",
+      "amount": {
+        "value": 1,
+        "unit": "pkg",
+        "package": "can",
+        "packageOz": 15
+      }
+    },
+    {
+      "raw": "Chopped fresh cilantro (optional)",
+      "quantity": null,
+      "quantityMax": null,
+      "unit": null,
+      "item": "Chopped fresh cilantro",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": true,
+      "confidence": "low",
+      "shop": true,
+      "catalogId": "fresh-cilantro",
+      "amount": null
+    },
+    {
+      "raw": "2 Tbsp lime juice",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "lime juice",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "lime-juice",
+      "amount": {
+        "value": 29.574,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "Basmati Rice",
+      "quantity": null,
+      "quantityMax": null,
+      "unit": null,
+      "item": "Basmati Rice",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "low",
+      "shop": true,
+      "catalogId": "rice",
+      "amount": null
+    }
+  ],
+  "steps": [
+    {
+      "text": "Heat oil over medium heat in a large pot. Cook onion and garlic in hot oil for 4 minutes or until tender. Stir in squash, undrained canned diced tomatoes, broth,  cumin.",
+      "group": null
+    },
+    {
+      "text": "Simmer, covered, for 30 minutes or until squash is tender. Stir in undrained canned seasoned black beans. Cook for 5 more minutes or until heated through. Serve over hot cooked rice. If desired, sprinkle with cilantro and lime juice.",
+      "group": null
+    }
+  ],
+  "footnotes": [],
+  "nutrition": null,
+  "importedNotes": [
+    {
+      "text": "You may want to drain off and reserve some of the broth. The rice absorbs a lot of the fluid so you may want to add the broth back in for second servings."
+    }
+  ],
+  "seeAlso": [],
+  "source": {
+    "attribution": null,
+    "file": "RECIPES/SOUPS AND STEWS/Butternut Squash and Black Bean Stew.doc",
+    "type": "doc",
+    "duplicateFiles": []
+  }
+}

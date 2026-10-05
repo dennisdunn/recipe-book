@@ -1,0 +1,203 @@
+{
+  "schemaVersion": 1,
+  "id": "120bfca0-af63-5576-acbf-f953f3c69437",
+  "slug": "easy-chicken-and-pasta",
+  "title": "Easy Chicken and Pasta",
+  "description": null,
+  "category": "Chicken Dishes",
+  "subcategory": null,
+  "tags": [
+    "main"
+  ],
+  "servings": null,
+  "times": [],
+  "ingredients": [
+    {
+      "raw": "1/8 cup olive oil",
+      "quantity": 0.125,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "olive oil",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "olive-oil",
+      "amount": {
+        "value": 29.573,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1/8 cup fresh lemon juice",
+      "quantity": 0.125,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "fresh lemon juice",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "lemon-juice",
+      "amount": {
+        "value": 29.573,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1/4 cup diced onion",
+      "quantity": 0.25,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "diced onion",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "onion",
+      "amount": {
+        "value": 59.147,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "2 skinless, boneless chicken breast halves",
+      "quantity": 2,
+      "quantityMax": null,
+      "unit": null,
+      "item": "skinless, boneless chicken breast halves",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "chicken-breast",
+      "amount": {
+        "value": 2,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "1/2 cup sliced fresh mushrooms",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "sliced fresh mushrooms",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "mushrooms",
+      "amount": {
+        "value": 118.294,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1/2 cup diced tomatoes, do not drain",
+      "quantity": 0.5,
+      "quantityMax": null,
+      "unit": "cup",
+      "item": "diced tomatoes, do not drain",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "diced-tomatoes",
+      "amount": {
+        "value": 118.294,
+        "unit": "ml"
+      }
+    },
+    {
+      "raw": "1 lg garlic clove, diced",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": null,
+      "item": "lg garlic clove",
+      "prep": "diced",
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "medium",
+      "shop": true,
+      "catalogId": "garlic",
+      "amount": {
+        "value": 1,
+        "unit": "each"
+      }
+    },
+    {
+      "raw": "1 tbsp sugar",
+      "quantity": 1,
+      "quantityMax": null,
+      "unit": "tbsp",
+      "item": "sugar",
+      "prep": null,
+      "note": null,
+      "group": null,
+      "optional": false,
+      "confidence": "high",
+      "shop": true,
+      "catalogId": "sugar",
+      "amount": {
+        "value": 14.787,
+        "unit": "ml"
+      }
+    }
+  ],
+  "steps": [
+    {
+      "text": "Heat oil and lemon juice in a large skillet over medium heat",
+      "group": null
+    },
+    {
+      "text": "Cut chicken into pieces and add to skillet, cook over medium high heat until nicely browned.",
+      "group": null
+    },
+    {
+      "text": "Add onion and garlic and cook on medium heat until onion is tender and chicken is no longer pink inside.",
+      "group": null
+    },
+    {
+      "text": "Add mushrooms and tomatoes to skillet and simmer on low 10 to 15 minutes.",
+      "group": null
+    },
+    {
+      "text": "Season to taste and serve over spaghetti",
+      "group": null
+    },
+    {
+      "text": "Season to taste with basil, black pepper, paprika.",
+      "group": null
+    }
+  ],
+  "footnotes": [],
+  "nutrition": null,
+  "importedNotes": [
+    {
+      "text": "I added a bit of sugar to cut the acidity of both lemon and tomatoes. Makes a thin sauce that goes great with pasta and adds a hint of lemon."
+    },
+    {
+      "text": "I thought that this recipe was great! I cut up fresh cherry tomatoes that I put around the chicken on a plate. Tasty and looks appetizing too."
+    }
+  ],
+  "seeAlso": [],
+  "source": {
+    "attribution": null,
+    "file": "RECIPES/CHICKEN DISHES/Easy Chicken and Pasta.doc",
+    "type": "doc",
+    "duplicateFiles": []
+  }
+}
