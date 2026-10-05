@@ -30,9 +30,10 @@ export async function render({ slug }) {
           ${recipe.source?.attribution ? html`<span>${/^(from|recipe|magazine)\b/i.test(recipe.source.attribution) ? '' : 'From '}${recipe.source.attribution}</span>` : ''}
         </p>
         <div class="row wrap gap">
-          <span class="rating-slot">${stars(stat.rating, { interactive: true, size: 'big' })}</span>
+          <span class="rating-slot no-print">${stars(stat.rating, { interactive: true, size: 'big' })}</span>
           <button class="btn ${stat.favorite ? 'on' : ''}" data-action="favorite" aria-pressed="${!!stat.favorite}">${stat.favorite ? '♥ Favorite' : '♡ Favorite'}</button>
           <button class="btn primary" data-action="cook">Start cooking</button>
+          <button class="btn" data-action="print">Print</button>
           <button class="btn primary exit-cook" data-action="cook">Done cooking</button>
         </div>
       </header>
@@ -59,13 +60,14 @@ export async function render({ slug }) {
         html`<li><a href="#/recipe/${s}">${index.find(e => e.slug === s)?.title ?? s}</a></li>`)}</ul></section>` : ''}
       ${recipe.nutrition ? html`<details><summary>Nutrition</summary><p class="small">${recipe.nutrition.text}</p></details>` : ''}
 
-      <section class="card stack">
+      <section class="card stack notes ${note.trim() ? '' : 'empty'}">
         <h2>My notes</h2>
         <textarea name="note" rows="4" placeholder="Changes, timings, what everyone thought…">${note}</textarea>
+        <p class="print-only note-print">${note}</p>
         <span class="muted small save-state" aria-live="polite"></span>
       </section>
 
-      <section class="card stack planner-box">
+      <section class="card stack planner-box no-print">
         <h2>Meal planning</h2>
         <p class="muted stat-line"></p>
         <label class="toggle"><input type="checkbox" name="main" ${isMain(entry, stat) ? 'checked' : ''}> Can be a dinner main</label>
@@ -138,6 +140,8 @@ export async function render({ slug }) {
         btn.setAttribute('aria-pressed', current.favorite);
         btn.textContent = current.favorite ? '♥ Favorite' : '♡ Favorite';
         return;
+      case 'print':
+        return window.print();
       case 'cook': {
         const on = document.body.classList.toggle('cooking');
         if (on) { await lockScreen(); window.scrollTo(0, 0); } else { wakeLock?.release(); wakeLock = null; }
@@ -155,6 +159,8 @@ export async function render({ slug }) {
   let noteTimer;
   el.addEventListener('input', e => {
     if (e.target.name !== 'note') return;
+    el.querySelector('.note-print').textContent = e.target.value;
+    el.querySelector('.notes').classList.toggle('empty', !e.target.value.trim());
     const state = el.querySelector('.save-state');
     state.textContent = '';
     clearTimeout(noteTimer);

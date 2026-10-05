@@ -24,13 +24,17 @@ export async function render() {
   const el = view(html`
     <div class="row between wrap">
       <h1>Shopping list</h1>
-      <label class="toggle"><input type="checkbox" data-action="staples" ${showStaples ? 'checked' : ''}> Show staples (${staples})</label>
+      <div class="row wrap gap no-print">
+        <button class="btn" data-action="print">Print</button>
+        <label class="toggle"><input type="checkbox" data-action="staples" ${showStaples ? 'checked' : ''}> Show staples (${staples})</label>
+      </div>
     </div>
     <p class="muted">For ${entries.map(e => e.recipe.title).join(', ')}.</p>
-    <form class="row gap" data-form="extra">
+    <form class="row gap no-print" data-form="extra">
       <input name="extra" placeholder="Add something else…" autocomplete="off" aria-label="Add an item">
       <button class="btn" type="submit">Add</button>
     </form>
+    <div class="aisles">
     ${plan.extras.length ? html`<section class="aisle"><h2>Added by you</h2><ul class="shop">${plan.extras.map((x, i) => html`
       <li class="${plan.checked.includes(`extra:${x}`) ? 'done' : ''}">
         <label><input type="checkbox" data-key="extra:${x}" ${plan.checked.includes(`extra:${x}`) ? 'checked' : ''}>
@@ -41,6 +45,7 @@ export async function render() {
       const items = a.items.filter(i => showStaples || !i.staple);
       return items.length ? html`<section class="aisle"><h2>${a.aisle}</h2><ul class="shop">${items.map(it => itemRow(it, plan.checked.includes(it.catalogId)))}</ul></section>` : '';
     })}
+    </div>
     <p class="muted small">≈ marks amounts that are approximate (ranges, pinches, dashes). Lines in quotes are copied
       from the recipe because the amount could not be read reliably.</p>
     <button class="btn quiet" data-action="clear">Uncheck everything</button>`);
@@ -60,6 +65,7 @@ export async function render() {
   });
   el.addEventListener('click', async e => {
     const action = e.target.closest('[data-action]')?.dataset.action;
+    if (action === 'print') window.print();
     if (action === 'clear') { plan.checked = []; await putPlan(plan); rerender(); }
     if (action === 'remove-extra') { plan.extras.splice(+e.target.closest('[data-index]').dataset.index, 1); await putPlan(plan); rerender(); }
   });

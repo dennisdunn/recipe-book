@@ -46,6 +46,14 @@ async function route() {
 }
 
 window.addEventListener('hashchange', route);
+
+// print collapsed sections (nutrition) expanded, then put them back
+let closedForPrint = [];
+window.addEventListener('beforeprint', () => {
+  closedForPrint = [...document.querySelectorAll('details:not([open])')];
+  closedForPrint.forEach(d => { d.open = true; });
+});
+window.addEventListener('afterprint', () => closedForPrint.forEach(d => { d.open = false; }));
 route();
 
 if ('serviceWorker' in navigator) {
