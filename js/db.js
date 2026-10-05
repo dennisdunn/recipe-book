@@ -46,6 +46,8 @@ export async function setNote(id, text) {
 
 export const getPlan = async id => (await dbp).get('plans', id);
 export const putPlan = async plan => (await dbp).put('plans', plan);
+export const allPlans = async () => (await dbp).getAll('plans');
+export const deletePlan = async id => (await dbp).delete('plans', id);
 
 export const getMeta = async key => (await dbp).get('meta', key);
 export const setMeta = async (key, value) => (await dbp).put('meta', value, key);

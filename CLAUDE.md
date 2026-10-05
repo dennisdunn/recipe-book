@@ -32,6 +32,9 @@ Small scale, one household, no deadlines. Prefer simple over clever; avoid addin
 - Recipes cooked or recommended within the no-repeat window (default 3 weeks, set in Settings) are left out while enough remain.
 - Ratings and favorites raise the odds; long-unseen recipes get a mild boost; the same category on adjacent days is discouraged.
 - Days can be locked, swapped, skipped (eating out), scaled (½× to 3×) and marked cooked.
+- Every plan is kept (store `plans`, keyed by start date, so a new plan with the same start replaces the old one).
+  Past plans (`#/plans`): Open makes one current; Repeat copies its dinners into a new week (locked; days whose recipe
+  left the book get a fresh pick), defaulting to the day after the latest plan; Delete has an Undo toast.
 - `timesRecommended` / `lastRecommended` only change when a plan is **saved**, never on a swap; `timesCooked` / `lastCooked`
   on "Cooked it".
 

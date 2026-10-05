@@ -21,6 +21,11 @@ export async function render() {
   return plan ? planView(plan, byId, stats, cfg, pantry) : startView(cfg, pantry);
 }
 
+/** Fill the given days (default: all unlocked) with the user's current planner settings. */
+export async function fillDays(plan, which) {
+  return fillPlan(plan, ...(await pickArgs(which)));
+}
+
 /** Everything fillPlan needs; with "Use what I have" on, recipes covered by the pantry get a weight boost. */
 async function pickArgs(which) {
   const [index, stats, cfg, { pantry, have, staples }] = await Promise.all([getIndex(), allStats(), settings(), loadPantry()]);
@@ -51,7 +56,8 @@ function startView(cfg, pantry, start = isoDate(new Date())) {
       </label>
       ${pantryToggle(cfg, pantry)}
       <button class="btn primary big" type="submit">Plan my week</button>
-    </form>`);
+    </form>
+    <p><a href="#/plans">Past plans</a></p>`);
   el.querySelector('form').addEventListener('submit', async e => {
     e.preventDefault();
     const [index, stats, opts] = await pickArgs();
@@ -85,6 +91,7 @@ function planView(plan, byId, stats, cfg, pantry) {
     <div class="row wrap gap">
       <button class="btn" data-action="reroll-all">Swap all unlocked</button>
       <button class="btn quiet" data-action="new-plan">Start a new week</button>
+      <a class="btn quiet" href="#/plans">Past plans</a>
     </div>`);
 
   el.addEventListener('click', async e => {

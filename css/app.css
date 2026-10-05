@@ -180,6 +180,13 @@ input[type="checkbox"] { min-height: 0; width: 26px; height: 26px; accent-color:
 .recipe-list .missing { font-size: 0.9rem; color: var(--text); }
 .already .shop li { padding: 6px 0; gap: 12px; }
 .already summary { font-weight: 600; }
+.plan-history { list-style: none; padding: 0; margin: 0; }
+.plan-history > li.current { border-color: var(--accent); }
+.plan-history h2 { margin: 0; }
+.plan-days { list-style: none; padding: 0; margin: 10px 0 14px; display: grid; gap: 4px; }
+.plan-days li { display: grid; grid-template-columns: 3.2em 1fr; gap: 8px; }
+.cooked-mark { color: var(--ok); font-size: 0.9rem; }
+.repeat input[type="date"] { min-height: 42px; padding: 4px 8px; font-size: 0.9rem; }
 
 /* recipe */
 .recipe .meta { display: flex; flex-wrap: wrap; gap: 4px 18px; }
