@@ -69,8 +69,9 @@ p { margin: 0.5em 0; }
 main {
   max-width: 820px; margin: 0 auto;
   padding: 8px max(16px, env(safe-area-inset-right)) 24px max(16px, env(safe-area-inset-left));
-  outline: none;
 }
+/* main is focused after each navigation (for screen readers); never draw the focus ring around the whole page */
+main:focus, main:focus-visible { outline: none; }
 .row { display: flex; align-items: center; }
 .between { justify-content: space-between; }
 .wrap { flex-wrap: wrap; }
