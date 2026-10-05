@@ -86,7 +86,9 @@ Small scale, one household, no deadlines. Prefer simple over clever; avoid addin
   items (`balance()` in `js/views/shop.js`); check print changes in WebKit, not just Chromium.
 - Run `node tools/check.mjs` before every commit (offline file list, imports, URLs, syntax, `tests/`). Put logic in the pure
   modules (`planner.js`, `shopping.js`, `pantry.js`, `units.js`) and cover it in `tests/`; state shared by screens goes
-  in `js/store.js` (screens never import each other); redraw a screen with `rerender()` from `js/ui.js`.
+  in `js/store.js` and UI pieces used by several screens in `js/widgets.js` (screens never import each other).
+  From `js/ui.js`: build markup with `html` (escapes values), insert it with `setHTML()`, redraw with `rerender()`,
+  and use `plural()` for counts.
 - Keep dependencies few. Any build tooling must produce plain static files that work on GitHub Pages.
 - Test with the real data (254 recipes), including edge cases: recipes with no directions, no quantities, ranges (`quantityMax`),
   groups (`ingredients[].group`, `steps[].group`), and `seeAlso` links.

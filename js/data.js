@@ -20,10 +20,6 @@ export const getRecipe = slug => getJSON(`api/recipes/${encodeURIComponent(slug)
 export async function indexById() {
   return new Map((await getIndex()).map(e => [e.id, e]));
 }
-export async function getRecipeById(id) {
-  const entry = (await indexById()).get(id);
-  return entry ? getRecipe(entry.slug) : null;
-}
 
 /**
  * Compare api/version.json with the version this device last saw. When it changed, ask the

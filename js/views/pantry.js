@@ -1,5 +1,5 @@
 import { loadPantry, savePantry } from '../store.js';
-import { html, view, toast, rerender } from '../ui.js';
+import { html, view, toast, rerender, plural } from '../ui.js';
 
 let query = '';
 let onlyHave = false;
@@ -53,7 +53,7 @@ export async function render() {
     for (const s of el.querySelectorAll('.pantry-aisle')) s.hidden = !s.querySelector('li:not([hidden])');
     el.querySelector('.empty-note').hidden = shown > 0;
     const n = pantry.have.length;
-    el.querySelector('.have-count').textContent = `${n} item${n === 1 ? '' : 's'} ticked`;
+    el.querySelector('.have-count').textContent = `${plural(n, 'item')} ticked`;
     el.querySelector('[data-action=clear]').disabled = n === 0;
   };
 
@@ -81,7 +81,7 @@ export async function render() {
     const previous = pantry.have;
     await savePantry({ ...pantry, have: [] });
     rerender();
-    toast(`Pantry cleared (${previous.length} item${previous.length === 1 ? '' : 's'})`, {
+    toast(`Pantry cleared (${plural(previous.length, 'item')})`, {
       label: 'Undo',
       run: async () => { await savePantry({ ...(await loadPantry()).pantry, have: previous }); rerender(); },
     });

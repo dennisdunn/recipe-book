@@ -1,7 +1,7 @@
 import { getIndex, getCategories } from '../data.js';
 import { allStats } from '../db.js';
 import { isMain } from '../planner.js';
-import { html, view, stars } from '../ui.js';
+import { html, view, stars, setHTML, plural } from '../ui.js';
 
 // kept while the app is open so going back to the list restores the search
 const state = { q: '', filter: 'all', category: '' };
@@ -41,15 +41,15 @@ export async function render() {
       return words.every(w => hay.includes(w));
     });
     if (state.filter === 'rated') rows.sort((a, b) => (stats.get(b.id).rating - stats.get(a.id).rating) || a.title.localeCompare(b.title));
-    count.textContent = `${rows.length} recipe${rows.length === 1 ? '' : 's'}`;
-    list.innerHTML = rows.map(e => {
+    count.textContent = plural(rows.length, 'recipe');
+    setHTML(list, html`${rows.map(e => {
       const s = stats.get(e.id);
       return html`<li><a href="#/recipe/${e.slug}">
         <span class="title">${e.title}</span>
         <span class="muted">${e.category}${e.subcategory && e.subcategory !== 'KETO RECIPES' ? ` · ${e.subcategory}` : ''}
           ${stars(s?.rating, { size: 'small' })}${s?.favorite ? ' ♥' : ''}</span>
-      </a></li>`.__html;
-    }).join('');
+      </a></li>`;
+    })}`);
   };
   el.addEventListener('input', e => {
     if (e.target.name === 'q') { state.q = e.target.value; update(); }

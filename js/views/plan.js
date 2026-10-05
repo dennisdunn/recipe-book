@@ -3,7 +3,7 @@ import { allStats, setMeta, putPlan, updateStat } from '../db.js';
 import { newPlan, uncounted, isoDate, addDays } from '../planner.js';
 import { coverage } from '../pantry.js';
 import { currentPlan, settings, saveSettings, loadPantry, fillDays } from '../store.js';
-import { html, view, stars, formatDay, toast, rerender } from '../ui.js';
+import { html, view, stars, formatDay, toast, rerender, plural } from '../ui.js';
 
 const MULTIPLIERS = [0.5, 1, 1.5, 2, 3];
 const multLabel = m => ({ 0.5: '½×', 1.5: '1½×' })[m] ?? `${m}×`;
@@ -16,7 +16,7 @@ export async function render() {
 const pantryToggle = (cfg, { pantry }) => html`<label class="toggle">
   <input type="checkbox" name="usePantry" ${cfg.usePantry && pantry.have.length ? 'checked' : ''} ${pantry.have.length ? '' : 'disabled'}>
   <span>Use what I have <span class="muted">(${pantry.have.length
-    ? html`${pantry.have.length} item${pantry.have.length === 1 ? '' : 's'} in the <a href="#/pantry">pantry</a>`
+    ? html`${plural(pantry.have.length, 'item')} in the <a href="#/pantry">pantry</a>`
     : html`the <a href="#/pantry">pantry</a> is empty`})</span></span></label>`;
 
 async function savePantryToggle(e) {

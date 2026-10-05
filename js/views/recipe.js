@@ -1,8 +1,9 @@
 import { getRecipe, getIndex } from '../data.js';
-import { getStat, updateStat, getNote, setNote, putPlan } from '../db.js';
+import { getStat, updateStat, getNote, setNote } from '../db.js';
 import { isMain, isoDate } from '../planner.js';
 import { formatQuantity } from '../units.js';
-import { html, view, stars, formatDay, toast } from '../ui.js';
+import { html, view, stars, formatDay, toast, setHTML, plural } from '../ui.js';
+import { planDayPicker, assignPlanDay } from '../widgets.js';
 import { coverage } from '../pantry.js';
 import { currentPlan, loadPantry } from '../store.js';
 
@@ -79,24 +80,21 @@ export async function render({ slug }) {
         <label class="toggle"><input type="checkbox" name="excluded" ${stat.excluded ? 'checked' : ''}> Never suggest this</label>
         <div class="row wrap gap">
           <button class="btn" data-action="cooked">Cooked it today</button>
-          ${plan ? html`<label class="small-select">Put in plan
-            <select name="plan-day"><option value="">Choose a day…</option>${plan.days.map((d, i) =>
-              html`<option value="${i}">${formatDay(d.date)}${d.recipeId === recipe.id ? ' (already)' : ''}</option>`)}</select></label>` : ''}
+          ${planDayPicker(plan, { recipeId: recipe.id })}
         </div>
       </section>
     </article>`);
 
   const list = el.querySelector('.ingredient-list');
   const drawIngredients = () => {
-    list.innerHTML = groupBy(recipe.ingredients).map(([group, lines]) => html`
+    setHTML(list, html`${groupBy(recipe.ingredients).map(([group, lines]) => html`
       ${group ? html`<h3>${group}</h3>` : ''}
-      <ul>${lines.map(l => html`<li tabindex="0" class="${l.optional ? 'optional' : ''}">${ingredientText(l, scale)}</li>`)}</ul>`.__html).join('');
+      <ul>${lines.map(l => html`<li tabindex="0" class="${l.optional ? 'optional' : ''}">${ingredientText(l, scale)}</li>`)}</ul>`)}`);
   };
   let current = stat;
   const drawStats = () => {
     const s = current;
-    const parts = [`Suggested ${s.timesRecommended ?? 0} time${s.timesRecommended === 1 ? '' : 's'}`,
-      `cooked ${s.timesCooked ?? 0} time${s.timesCooked === 1 ? '' : 's'}`];
+    const parts = [`Suggested ${plural(s.timesRecommended ?? 0, 'time')}`, `cooked ${plural(s.timesCooked ?? 0, 'time')}`];
     if (s.lastCooked) parts.push(`last cooked ${formatDay(s.lastCooked, { month: 'short', day: 'numeric', year: 'numeric' })}`);
     el.querySelector('.stat-line').textContent = `${parts.join(', ')}.`;
   };
@@ -136,7 +134,7 @@ export async function render({ slug }) {
       case 'rate': {
         const n = +btn.dataset.value;
         current = await updateStat(recipe.id, { rating: current.rating === n ? null : n });
-        el.querySelector('.rating-slot').innerHTML = stars(current.rating, { interactive: true, size: 'big' }).__html;
+        setHTML(el.querySelector('.rating-slot'), stars(current.rating, { interactive: true, size: 'big' }));
         return;
       }
       case 'favorite':
@@ -175,13 +173,7 @@ export async function render({ slug }) {
     const t = e.target;
     if (t.name === 'main') current = await updateStat(recipe.id, { main: t.checked === entry.tags.includes('main') ? undefined : t.checked });
     if (t.name === 'excluded') current = await updateStat(recipe.id, { excluded: t.checked });
-    if (t.name === 'plan-day' && t.value !== '') {
-      const day = plan.days[+t.value];
-      Object.assign(day, { recipeId: recipe.id, locked: true, skip: false, cooked: false });
-      await putPlan(plan);
-      toast(`Planned for ${formatDay(day.date, { weekday: 'long' })}`);
-      t.value = '';
-    }
+    await assignPlanDay(e, plan, recipe.id);
   });
   return el;
 }

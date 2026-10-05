@@ -8,6 +8,14 @@ const str = v => (v == null || v === false ? '' : Array.isArray(v) ? v.map(str).
   : v.__html !== undefined ? v.__html : esc(v));
 export const html = (strings, ...vals) => raw(strings.reduce((out, s, i) => out + s + (i < vals.length ? str(vals[i]) : ''), ''));
 
+/** Replace an element's content with a template. */
+export function setHTML(el, tpl) {
+  el.innerHTML = str(tpl);
+}
+
+/** "1 item", "3 items"; pass the plural when it is not just +s. */
+export const plural = (n, word, many = `${word}s`) => `${n} ${n === 1 ? word : many}`;
+
 /** Build a view root from a template; the caller attaches listeners to it before it is shown. */
 export function view(tpl) {
   const el = document.createElement('div');

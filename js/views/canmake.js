@@ -1,9 +1,10 @@
 import { getIndex } from '../data.js';
-import { allStats, putPlan } from '../db.js';
+import { allStats } from '../db.js';
 import { isMain } from '../planner.js';
 import { coverage } from '../pantry.js';
-import { html, view, stars, formatDay, toast } from '../ui.js';
+import { html, view, stars, setHTML, plural } from '../ui.js';
 import { currentPlan, loadPantry } from '../store.js';
+import { planDayPicker, assignPlanDay } from '../widgets.js';
 
 const filters = { mains: true, favorites: false };
 const GROUPS = [[0, 'You have everything'], [1, 'Missing 1 thing'], [2, 'Missing 2 things']];
@@ -26,7 +27,7 @@ export async function render() {
       <h1>What can I make?</h1>
       <a class="btn" href="#/pantry">Edit pantry</a>
     </div>
-    <p class="muted">From the ${pantry.have.length} item${pantry.have.length === 1 ? '' : 's'} in your pantry${pantry.assumeStaples ? ', plus staples' : ''}.</p>
+    <p class="muted">From the ${plural(pantry.have.length, 'item')} in your pantry${pantry.assumeStaples ? ', plus staples' : ''}.</p>
     <div class="chips" role="group" aria-label="Filter">
       <button class="chip" data-filter="mains" aria-pressed="${filters.mains}">Dinner mains only</button>
       <button class="chip" data-filter="favorites" aria-pressed="${filters.favorites}">Favorites</button>
@@ -36,12 +37,11 @@ export async function render() {
   const results = el.querySelector('.results');
   const draw = () => {
     const shown = rows.filter(r => (!filters.mains || isMain(r.e, r.s)) && (!filters.favorites || r.s?.favorite));
-    results.innerHTML = GROUPS.map(([n, label]) => {
-      const group = shown.filter(r => r.cov.missing.length === n)
-        // most use of the pantry first, then best rated
-        .sort((a, b) => b.cov.using - a.cov.using || (b.s?.rating ?? 0) - (a.s?.rating ?? 0) || a.e.title.localeCompare(b.e.title));
-      if (!group.length) return '';
-      return html`<section><h2>${label} <span class="muted">(${group.length})</span></h2><ul class="recipe-list match-list">${group.map(r => html`
+    const groups = GROUPS.map(([n, label]) => [label, shown.filter(r => r.cov.missing.length === n)
+      // most use of the pantry first, then best rated
+      .sort((a, b) => b.cov.using - a.cov.using || (b.s?.rating ?? 0) - (a.s?.rating ?? 0) || a.e.title.localeCompare(b.e.title))])
+      .filter(([, group]) => group.length);
+    setHTML(results, groups.length ? html`${groups.map(([label, group]) => html`<section><h2>${label} <span class="muted">(${group.length})</span></h2><ul class="recipe-list match-list">${group.map(r => html`
         <li data-id="${r.e.id}">
           <a href="#/recipe/${r.e.slug}">
             <span class="title">${r.e.title}</span>
@@ -49,11 +49,9 @@ export async function render() {
               · uses ${r.cov.using} of yours</span>
             ${r.cov.missing.length ? html`<span class="missing">Missing: ${r.cov.missing.map(id => names.get(id) ?? id).join(', ')}</span>` : ''}
           </a>
-          ${plan ? html`<label class="small-select">Plan for
-            <select name="plan-day"><option value="">…</option>${plan.days.map((d, i) =>
-              html`<option value="${i}">${formatDay(d.date, { weekday: 'short' })}</option>`)}</select></label>` : ''}
-        </li>`)}</ul></section>`.__html;
-    }).join('') || html`<p class="lead">Nothing is within two items of your pantry${filters.mains || filters.favorites ? ' with these filters' : ''}.</p>`.__html;
+          ${planDayPicker(plan, { label: 'Plan for', recipeId: r.e.id, short: true })}
+        </li>`)}</ul></section>`)}`
+      : html`<p class="lead">Nothing is within two items of your pantry${filters.mains || filters.favorites ? ' with these filters' : ''}.</p>`);
   };
 
   el.addEventListener('click', e => {
@@ -63,14 +61,7 @@ export async function render() {
     chip.setAttribute('aria-pressed', filters[chip.dataset.filter]);
     draw();
   });
-  el.addEventListener('change', async e => {
-    if (e.target.name !== 'plan-day' || e.target.value === '') return;
-    const day = plan.days[+e.target.value];
-    Object.assign(day, { recipeId: e.target.closest('[data-id]').dataset.id, locked: true, skip: false, cooked: false });
-    await putPlan(plan);
-    toast(`Planned for ${formatDay(day.date, { weekday: 'long' })}`);
-    e.target.value = '';
-  });
+  el.addEventListener('change', e => assignPlanDay(e, plan, e.target.closest('[data-id]')?.dataset.id));
   draw();
   return el;
 }

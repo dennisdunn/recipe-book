@@ -61,6 +61,7 @@ or bypass it in the browser's developer tools.
 | `js/app.js` | start-up and the hash router (`#/`, `#/shop`, `#/pantry`, `#/recipes`, …) |
 | `js/planner.js`, `js/shopping.js`, `js/pantry.js`, `js/units.js` | the logic, with no DOM or storage (runs in Node too) |
 | `js/data.js`, `js/db.js`, `js/store.js` | recipe data from `api/`; user data in IndexedDB; state shared by screens |
+| `js/ui.js`, `js/widgets.js` | markup helpers; small UI pieces shared by screens |
 | `js/views/` | one module per screen |
 | `tests/` | tests for the logic modules and the recipe data (`node --test tests/`) |
 | `api/` | the recipe data (see [`api/README.md`](api/README.md)) |
