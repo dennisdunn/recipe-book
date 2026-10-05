@@ -34,7 +34,7 @@ export async function render() {
       <input name="extra" placeholder="Add something else…" autocomplete="off" aria-label="Add an item">
       <button class="btn" type="submit">Add</button>
     </form>
-    <div class="aisles">
+    <div class="aisles"><div class="col">
     ${plan.extras.length ? html`<section class="aisle"><h2>Added by you</h2><ul class="shop">${plan.extras.map((x, i) => html`
       <li class="${plan.checked.includes(`extra:${x}`) ? 'done' : ''}">
         <label><input type="checkbox" data-key="extra:${x}" ${plan.checked.includes(`extra:${x}`) ? 'checked' : ''}>
@@ -45,10 +45,12 @@ export async function render() {
       const items = a.items.filter(i => showStaples || !i.staple);
       return items.length ? html`<section class="aisle"><h2>${a.aisle}</h2><ul class="shop">${items.map(it => itemRow(it, plan.checked.includes(it.catalogId)))}</ul></section>` : '';
     })}
-    </div>
+    </div><div class="col"></div></div>
     <p class="muted small">≈ marks amounts that are approximate (ranges, pinches, dashes). Lines in quotes are copied
       from the recipe because the amount could not be read reliably.</p>
     <button class="btn quiet" data-action="clear">Uncheck everything</button>`);
+
+  balance(el);
 
   el.addEventListener('change', e => {
     if (e.target.dataset.action === 'staples') { showStaples = e.target.checked; return rerender(); }
@@ -56,6 +58,7 @@ export async function render() {
     if (!key) return;
     plan.checked = e.target.checked ? [...plan.checked, key] : plan.checked.filter(k => k !== key);
     e.target.closest('li').classList.toggle('done', e.target.checked);
+    balance(el);
     putPlan(plan);
   });
   el.addEventListener('submit', async e => {
@@ -70,6 +73,25 @@ export async function render() {
     if (action === 'remove-extra') { plan.extras.splice(+e.target.closest('[data-index]').dataset.index, 1); await putPlan(plan); rerender(); }
   });
   return el;
+}
+
+// Two explicit columns for printing: Safari ignores CSS columns on paper. Aisles keep their order (on screen the
+// columns simply stack) and are split where the items that will print (the unticked ones) are most even.
+function balance(el) {
+  const [left, right] = el.querySelectorAll('.aisles > .col');
+  const sections = [...el.querySelectorAll('.aisle')];
+  const weights = sections.map(s => {
+    const open = s.querySelectorAll('li:not(.done)');
+    return open.length ? open.length + 1.5 + s.querySelectorAll('li:not(.done) .raw').length * 0.7 : 0;
+  });
+  const total = weights.reduce((a, b) => a + b, 0);
+  let split = 0, best = Infinity, before = 0;
+  weights.concat(0).forEach((w, i) => {
+    const longest = Math.max(before, total - before);
+    if (longest < best) { best = longest; split = i; }
+    before += w;
+  });
+  sections.forEach((s, i) => (i < split ? left : right).append(s));
 }
 
 function itemRow(it, checked) {

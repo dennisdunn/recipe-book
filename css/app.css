@@ -227,6 +227,7 @@ body.cooking .steps li.current { background: var(--accent-soft); outline: 2px so
 @media print {
   :root { --bg: #fff; --surface: #fff; --text: #000; --muted: #444; --line: #bbb; --control: #666; --accent: #000; --star: #000; }
   @page { margin: 1.5cm; }
+  html { font-size: 11pt; } /* rem sizes are relative to this on paper */
   .tabs, .topbar, .btn, .chips, form, textarea, #toast, .no-print, .save-state, .notes.empty,
   .shop li.done, .aisle:not(:has(li:not(.done))) { display: none !important; }
   body, body.cooking { font-size: 11pt; padding: 0; background: #fff; color: #000; }
@@ -242,10 +243,10 @@ body.cooking .steps li.current { background: var(--accent-soft); outline: 2px so
   a { color: inherit; text-decoration: none; }
   summary { min-height: 0; }
   .ingredients li, .steps li { margin: 0.25em 0; }
-  .aisles { columns: 2; column-gap: 2em; }
-  .aisle { break-inside: avoid; }
+  .aisles { display: flex; gap: 2em; align-items: flex-start; }
+  .aisles > .col { flex: 1; min-width: 0; }
   .aisle h2 { margin-top: 0.6em; }
-  .shop label { padding: 3px 0; gap: 8px; }
-  .shop input[type="checkbox"] { width: 14px; height: 14px; margin-top: 3px; }
-  .shop .from { font-size: 8pt; }
+  .shop label { padding: 2pt 0; gap: 6pt; }
+  .shop input[type="checkbox"] { -webkit-appearance: none; appearance: none; width: 10pt; height: 10pt; min-height: 0; padding: 0; margin-top: 2pt; border: 1pt solid #000; border-radius: 2pt; }
+  .shop .from { font-size: 7.5pt; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 }

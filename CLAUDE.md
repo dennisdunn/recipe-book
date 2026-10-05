@@ -69,6 +69,8 @@ Small scale, one household, no deadlines. Prefer simple over clever; avoid addin
 - Printing (recipe page and shopping list have a Print button): `@media print` in `css/app.css` prints black on white and
   hides controls, anything marked `.no-print` (rating, meal planning box) and ticked-off shopping items. Notes print via a
   `.print-only` copy of the textarea; collapsed `<details>` open for printing (`beforeprint` in `js/app.js`).
+  Safari ignores CSS `columns` on paper, so the shopping list renders two explicit `.col` containers, balanced by unticked
+  items (`balance()` in `js/views/shop.js`); check print changes in WebKit, not just Chromium.
 - Keep dependencies few. Any build tooling must produce plain static files that work on GitHub Pages.
 - Test with the real data (254 recipes), including edge cases: recipes with no directions, no quantities, ranges (`quantityMax`),
   groups (`ingredients[].group`, `steps[].group`), and `seeAlso` links.
