@@ -3,9 +3,8 @@ import { getStat, updateStat, getNote, setNote, putPlan } from '../db.js';
 import { isMain, isoDate } from '../planner.js';
 import { formatQuantity } from '../units.js';
 import { html, view, stars, formatDay, toast } from '../ui.js';
-import { currentPlan } from './plan.js';
-import { loadPantry } from './pantry.js';
 import { coverage } from '../pantry.js';
+import { currentPlan, loadPantry } from '../store.js';
 
 const SCALES = [0.5, 1, 2];
 

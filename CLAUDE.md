@@ -10,7 +10,7 @@ Small scale, one household, no deadlines. Prefer simple over clever; avoid addin
 - **Plain static, no framework, no build step, no Jekyll** (`.nojekyll` at the root). ES modules in `js/`, one stylesheet
   in `css/`, hash routes (`#/`, `#/shop`, `#/recipes`, `#/recipe/<slug>`, `#/settings`) because Pages has no SPA fallback.
   The only dependency is `idb`, vendored in `js/vendor/idb.js`.
-- **Recipes are read-only static JSON** in `api/` (see `README.md` and `api/recipe.schema.json`). No server, no database.
+- **Recipes are read-only static JSON** in `api/` (see `api/README.md` and `api/recipe.schema.json`). No server, no database.
   The import was one-time; recipes are edited by hand-editing files, then `node tools/build-index.mjs`.
 - **User data lives in the browser** (IndexedDB): ratings, notes, plans, planner counts. Never write it to the API files.
   Full CRUD / server storage is a possible future project, not part of this one.
@@ -20,7 +20,7 @@ Small scale, one household, no deadlines. Prefer simple over clever; avoid addin
 - Fetch order for the UI: `api/version.json` -> `api/index.json` (list + search) -> `api/recipes/<slug>.json` on demand.
   `api/catalog.json` supplies ingredient names, aisles and staple flags; `api/categories/` and `api/tags/` for browsing.
 - Recipe `id` is an immutable UUID: key all user data on it. `slug` is only the URL/file name and may change.
-- Do not change the recipe JSON shape without updating `api/recipe.schema.json`, `tools/build-index.mjs` and `README.md`.
+- Do not change the recipe JSON shape without updating `api/recipe.schema.json`, `tools/build-index.mjs` and `api/README.md`.
 - `REVIEW.md` lists recipes with uncertain data (blurry image transcriptions, missing directions). The app does not use it
   (Pages does publish it, along with `tools/` and `README.md`).
 - The `main` tag marks dinner entrées the planner may pick (110 recipes, hand-curated). Users can override it per recipe in the app.
@@ -84,6 +84,9 @@ Small scale, one household, no deadlines. Prefer simple over clever; avoid addin
   `.print-only` copy of the textarea; collapsed `<details>` open for printing (`beforeprint` in `js/app.js`).
   Safari ignores CSS `columns` on paper, so the shopping list renders two explicit `.col` containers, balanced by unticked
   items (`balance()` in `js/views/shop.js`); check print changes in WebKit, not just Chromium.
+- Run `node tools/check.mjs` before every commit (offline file list, imports, URLs, syntax, `tests/`). Put logic in the pure
+  modules (`planner.js`, `shopping.js`, `pantry.js`, `units.js`) and cover it in `tests/`; state shared by screens goes
+  in `js/store.js` (screens never import each other); redraw a screen with `rerender()` from `js/ui.js`.
 - Keep dependencies few. Any build tooling must produce plain static files that work on GitHub Pages.
 - Test with the real data (254 recipes), including edge cases: recipes with no directions, no quantities, ranges (`quantityMax`),
   groups (`ingredients[].group`, `steps[].group`), and `seeAlso` links.

@@ -1,36 +1,16 @@
-import { getIndex, indexById } from '../data.js';
-import { allStats, getMeta, setMeta, getPlan, putPlan, updateStat } from '../db.js';
-import { newPlan, fillPlan, uncounted, isoDate, addDays, DEFAULTS } from '../planner.js';
-import { coverage, pantryBoost } from '../pantry.js';
-import { html, view, stars, formatDay, toast } from '../ui.js';
-import { loadPantry } from './pantry.js';
+import { indexById } from '../data.js';
+import { allStats, setMeta, putPlan, updateStat } from '../db.js';
+import { newPlan, uncounted, isoDate, addDays } from '../planner.js';
+import { coverage } from '../pantry.js';
+import { currentPlan, settings, saveSettings, loadPantry, fillDays } from '../store.js';
+import { html, view, stars, formatDay, toast, rerender } from '../ui.js';
 
 const MULTIPLIERS = [0.5, 1, 1.5, 2, 3];
 const multLabel = m => ({ 0.5: '½×', 1.5: '1½×' })[m] ?? `${m}×`;
 
-export async function currentPlan() {
-  const id = await getMeta('currentPlan');
-  return id ? getPlan(id) : null;
-}
-export async function settings() {
-  return { ...DEFAULTS, ...(await getMeta('settings')) };
-}
-
 export async function render() {
   const [plan, byId, stats, cfg, pantry] = await Promise.all([currentPlan(), indexById(), allStats(), settings(), loadPantry()]);
   return plan ? planView(plan, byId, stats, cfg, pantry) : startView(cfg, pantry);
-}
-
-/** Fill the given days (default: all unlocked) with the user's current planner settings. */
-export async function fillDays(plan, which) {
-  return fillPlan(plan, ...(await pickArgs(which)));
-}
-
-/** Everything fillPlan needs; with "Use what I have" on, recipes covered by the pantry get a weight boost. */
-async function pickArgs(which) {
-  const [index, stats, cfg, { pantry, have, staples }] = await Promise.all([getIndex(), allStats(), settings(), loadPantry()]);
-  const boost = cfg.usePantry && pantry.have.length ? e => pantryBoost(coverage(e, have, pantry, staples)) : undefined;
-  return [index, stats, { ...cfg, which, boost }];
 }
 
 const pantryToggle = (cfg, { pantry }) => html`<label class="toggle">
@@ -41,7 +21,7 @@ const pantryToggle = (cfg, { pantry }) => html`<label class="toggle">
 
 async function savePantryToggle(e) {
   if (e.target.name !== 'usePantry') return false;
-  await setMeta('settings', { ...(await getMeta('settings')), usePantry: e.target.checked });
+  await saveSettings({ usePantry: e.target.checked });
   return true;
 }
 
@@ -60,8 +40,7 @@ function startView(cfg, pantry, start = isoDate(new Date())) {
     <p><a href="#/plans">Past plans</a></p>`);
   el.querySelector('form').addEventListener('submit', async e => {
     e.preventDefault();
-    const [index, stats, opts] = await pickArgs();
-    const plan = fillPlan(newPlan(e.target.start.value, opts.days), index, stats, opts);
+    const plan = await fillDays(newPlan(e.target.start.value, cfg.days));
     await putPlan(plan);
     await setMeta('currentPlan', plan.id);
     rerender();
@@ -100,7 +79,7 @@ function planView(plan, byId, stats, cfg, pantry) {
     const i = +btn.closest('[data-day]')?.dataset.day;
     const day = plan.days[i];
     const save = async p => { await putPlan(p); rerender(); };
-    const refill = async which => fillPlan(plan, ...(await pickArgs(which)));
+    const refill = which => fillDays(plan, which);
     switch (btn.dataset.action) {
       case 'swap': return save(await refill([i]));
       case 'reroll-all': return save(await refill());
@@ -137,7 +116,7 @@ function planView(plan, byId, stats, cfg, pantry) {
     if (await savePantryToggle(e)) return;
     if (e.target.name !== 'multiplier') return;
     plan.days[+e.target.closest('[data-day]').dataset.day].multiplier = +e.target.value;
-    putPlan(plan);
+    await putPlan(plan);
   });
   return el;
 }
@@ -169,4 +148,3 @@ function dayCard(d, i, entry, stat, cov) {
   </li>`;
 }
 
-const rerender = () => window.dispatchEvent(new HashChangeEvent('hashchange'));

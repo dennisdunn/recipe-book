@@ -2,9 +2,8 @@ import { getCatalog, indexById, getRecipe } from '../data.js';
 import { putPlan } from '../db.js';
 import { buildShoppingList } from '../shopping.js';
 import { formatAmount } from '../units.js';
-import { html, view } from '../ui.js';
-import { currentPlan } from './plan.js';
-import { loadPantry, savePantry } from './pantry.js';
+import { currentPlan, loadPantry, savePantry } from '../store.js';
+import { html, view, rerender } from '../ui.js';
 
 let showStaples = false;
 
@@ -22,8 +21,6 @@ export async function render() {
   const inPantry = new Set(pantry.have);
   const alreadyHave = all.flatMap(a => a.items).filter(i => inPantry.has(i.catalogId));
   const aisles = all.map(a => ({ ...a, items: a.items.filter(i => !inPantry.has(i.catalogId)) }));
-  plan.checked ??= [];
-  plan.extras ??= [];
   const staples = aisles.flatMap(a => a.items).filter(i => i.staple).length;
 
   const el = view(html`
@@ -64,14 +61,14 @@ export async function render() {
 
   balance(el);
 
-  el.addEventListener('change', e => {
+  el.addEventListener('change', async e => {
     if (e.target.dataset.action === 'staples') { showStaples = e.target.checked; return rerender(); }
     const key = e.target.dataset.key;
     if (!key) return;
     plan.checked = e.target.checked ? [...plan.checked, key] : plan.checked.filter(k => k !== key);
     e.target.closest('li').classList.toggle('done', e.target.checked);
     balance(el);
-    putPlan(plan);
+    await putPlan(plan);
   });
   el.addEventListener('submit', async e => {
     e.preventDefault();
@@ -128,4 +125,3 @@ function itemRow(it, checked) {
   </li>`;
 }
 
-const rerender = () => window.dispatchEvent(new HashChangeEvent('hashchange'));

@@ -30,6 +30,9 @@ export function formatDay(iso, opts = { weekday: 'short', month: 'short', day: '
   return new Date(`${iso}T12:00:00`).toLocaleDateString(undefined, opts);
 }
 
+/** Redraw the current screen (the router re-renders on hashchange and keeps the scroll position). */
+export const rerender = () => window.dispatchEvent(new HashChangeEvent('hashchange'));
+
 let toastTimer;
 /** Brief message; with `action` ({ label, run }) it shows a button (e.g. Undo) and stays up a little longer. */
 export function toast(message, action) {

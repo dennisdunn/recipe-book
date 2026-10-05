@@ -1,15 +1,5 @@
-import { getCatalog } from '../data.js';
-import { getMeta, setMeta } from '../db.js';
-import { EMPTY_PANTRY, onHand } from '../pantry.js';
-import { html, view, toast } from '../ui.js';
-
-/** Pantry plus what the matching code needs: the on-hand set and the staple ids. */
-export async function loadPantry() {
-  const [stored, catalog] = await Promise.all([getMeta('pantry'), getCatalog()]);
-  const pantry = { ...EMPTY_PANTRY, ...stored };
-  return { pantry, catalog, have: onHand(pantry, catalog), staples: new Set(catalog.filter(c => c.staple).map(c => c.id)) };
-}
-export const savePantry = pantry => setMeta('pantry', pantry);
+import { loadPantry, savePantry } from '../store.js';
+import { html, view, toast, rerender } from '../ui.js';
 
 let query = '';
 let onlyHave = false;
@@ -100,4 +90,3 @@ export async function render() {
   return el;
 }
 
-const rerender = () => window.dispatchEvent(new HashChangeEvent('hashchange'));

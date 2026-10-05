@@ -39,9 +39,11 @@ export async function checkForUpdate() {
   const seen = await getMeta('apiVersion');
   if (seen === latest) return false;
   if (seen && navigator.serviceWorker?.controller) {
+    // the worker re-downloads ~280 files; give up after two minutes (e.g. the worker was stopped) and retry later
     const ok = await new Promise(resolve => {
       const ch = new MessageChannel();
-      ch.port1.onmessage = e => resolve(e.data?.ok);
+      const timer = setTimeout(() => resolve(false), 120000);
+      ch.port1.onmessage = e => { clearTimeout(timer); resolve(e.data?.ok); };
       navigator.serviceWorker.controller.postMessage({ type: 'refresh-api' }, [ch.port2]);
     });
     if (!ok) return false; // try again next launch

@@ -3,8 +3,7 @@ import { allStats, putPlan } from '../db.js';
 import { isMain } from '../planner.js';
 import { coverage } from '../pantry.js';
 import { html, view, stars, formatDay, toast } from '../ui.js';
-import { loadPantry } from './pantry.js';
-import { currentPlan } from './plan.js';
+import { currentPlan, loadPantry } from '../store.js';
 
 const filters = { mains: true, favorites: false };
 const GROUPS = [[0, 'You have everything'], [1, 'Missing 1 thing'], [2, 'Missing 2 things']];

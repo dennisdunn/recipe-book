@@ -1,10 +1,13 @@
 // Per-device user data in IndexedDB. Everything about a recipe is keyed by its immutable `id`.
 //
-//   stats  { id, rating, favorite, main, excluded, timesRecommended, lastRecommended, timesCooked, lastCooked }
+//   stats  { id, rating, favorite, main, excluded, timesRecommended, lastRecommended, timesCooked, lastCooked, prevCooked }
 //          `main` is an override of the recipe's "main" tag (undefined = use the tag)
+//          `prevCooked` is the lastCooked before the latest "Cooked it", so one accidental tap can be undone
 //   notes  { id, text, updated }
-//   plans  see planner.js; key is the plan's start date
-//   meta   key/value: currentPlan, settings, apiVersion
+//   plans  see planner.js; key is the plan's start date. Read plans through store.js, which normalizes them.
+//   meta   key/value: currentPlan (plan id), settings ({ noRepeatDays, usePantry }),
+//          pantry ({ have: [catalog ids], assumeStaples }), apiVersion (recipe data version cached on this device)
+// Changing a store's shape: bump the openDB version and add an upgrade step; old backups must still import.
 import { openDB } from './vendor/idb.js';
 
 const STORES = ['stats', 'notes', 'plans', 'meta'];

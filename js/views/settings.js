@@ -1,8 +1,8 @@
-import { exportAll, importAll, getMeta, setMeta } from '../db.js';
+import { exportAll, importAll, getMeta } from '../db.js';
 import { checkForUpdate } from '../data.js';
 import { isoDate } from '../planner.js';
-import { html, view, toast } from '../ui.js';
-import { settings } from './plan.js';
+import { html, view, toast, rerender } from '../ui.js';
+import { settings, saveSettings } from '../store.js';
 
 export async function render() {
   const [cfg, apiVersion, persisted, estimate] = await Promise.all([
@@ -56,12 +56,12 @@ export async function render() {
     if (action === 'update') {
       const changed = await checkForUpdate();
       toast(changed ? 'Recipes updated' : navigator.onLine ? 'Recipes are up to date' : 'You are offline');
-      if (changed) window.dispatchEvent(new HashChangeEvent('hashchange'));
+      if (changed) rerender();
     }
   });
   el.addEventListener('change', async e => {
     if (e.target.name === 'noRepeat') {
-      await setMeta('settings', { ...(await getMeta('settings')), noRepeatDays: +e.target.value * 7 });
+      await saveSettings({ noRepeatDays: +e.target.value * 7 });
       toast('Saved');
     }
     if (e.target.name === 'import') {

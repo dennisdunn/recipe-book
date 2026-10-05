@@ -1,6 +1,11 @@
 // Weekly dinner planner. Pure: works on index entries + per-recipe stats, no DOM or storage.
 //
-// A plan: { id, start, days: [{ date, recipeId, locked, skip, multiplier, cooked }], accepted, counted, checked }
+// A plan (stored in IndexedDB `plans`, keyed by `id` = start date):
+//   { id, start: 'YYYY-MM-DD',
+//     days: [{ date, recipeId (null = none), locked, skip, multiplier, cooked }],
+//     accepted (saved at least once), counted: [recipe ids already counted as recommended],
+//     checked: [shopping keys ticked: catalogId or 'extra:<text>'], extras: [items added to the shopping list] }
+// Plans saved by older versions may lack fields; read them through normalizePlan().
 // Picks are weighted random:
 //   - candidates are mains (tag "main", or the user's per-recipe override), not excluded, not rated 1 star
 //   - recipes cooked or recommended within `noRepeatDays` are left out while enough others remain
@@ -17,12 +22,21 @@ export const addDays = (s, n) => isoDate(new Date(parseDate(s).getTime() + n * D
 
 export const isMain = (entry, stat) => stat?.main ?? entry.tags.includes('main');
 
+const NEW_DAY = { recipeId: null, locked: false, skip: false, multiplier: 1, cooked: false };
+
 export function newPlan(start, days = DEFAULTS.days) {
   return {
-    id: start, start, accepted: false, counted: [], checked: [],
-    days: Array.from({ length: days }, (_, i) => ({
-      date: addDays(start, i), recipeId: null, locked: false, skip: false, multiplier: 1, cooked: false,
-    })),
+    id: start, start, accepted: false, counted: [], checked: [], extras: [],
+    days: Array.from({ length: days }, (_, i) => ({ ...NEW_DAY, date: addDays(start, i) })),
+  };
+}
+
+/** Fill in fields missing from plans stored by older versions. */
+export function normalizePlan(plan) {
+  if (!plan) return plan;
+  return {
+    accepted: false, counted: [], checked: [], extras: [], ...plan,
+    days: plan.days.map(d => ({ ...NEW_DAY, ...d })),
   };
 }
 

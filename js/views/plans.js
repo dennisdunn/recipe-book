@@ -1,8 +1,8 @@
 import { indexById } from '../data.js';
-import { allPlans, getPlan, putPlan, deletePlan, getMeta, setMeta } from '../db.js';
+import { putPlan, deletePlan, getMeta, setMeta } from '../db.js';
 import { newPlan, isoDate, addDays } from '../planner.js';
-import { html, view, formatDay, toast } from '../ui.js';
-import { fillDays } from './plan.js';
+import { allPlans, getPlan, fillDays } from '../store.js';
+import { html, view, formatDay, toast, rerender } from '../ui.js';
 
 const short = { month: 'short', day: 'numeric' };
 
@@ -87,4 +87,3 @@ export async function render() {
   return el;
 }
 
-const rerender = () => window.dispatchEvent(new HashChangeEvent('hashchange'));
