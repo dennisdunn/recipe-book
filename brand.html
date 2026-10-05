@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Brand sheet · Adele's Recipe Book</title>
+  <link rel="icon" href="icons/favicon.svg" type="image/svg+xml">
+  <style>
+    :root { --bg: #fbfaf5; --surface: #fff; --text: #1e2a23; --muted: #56635a; --line: #dfe4d8; --accent: #2f5d46; color-scheme: light dark; }
+    @media (prefers-color-scheme: dark) { :root { --bg: #131b16; --surface: #1c2620; --text: #eef2ea; --muted: #a8b4aa; --line: #33433a; --accent: #8fc7a0; } }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: var(--bg); color: var(--text); font: 17px/1.55 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+    main { max-width: 900px; margin: 0 auto; padding: 24px 16px 64px; }
+    h1 { font-size: 2rem; margin: 0.2em 0; color: var(--accent); }
+    h2 { margin-top: 2em; border-bottom: 3px solid #d9a42b; padding-bottom: 4px; }
+    .muted { color: var(--muted); }
+    .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 14px; }
+    .sw { border: 1px solid var(--line); border-radius: 12px; overflow: hidden; background: var(--surface); }
+    .sw div { height: 72px; }
+    .sw p { margin: 0; padding: 8px 10px; font-size: 0.85rem; }
+    .sw code { display: block; color: var(--muted); }
+    .icons { display: flex; flex-wrap: wrap; gap: 24px; align-items: flex-end; }
+    .icons figure { margin: 0; text-align: center; font-size: 0.85rem; color: var(--muted); }
+    .ios { border-radius: 22.5%; }
+    table { border-collapse: collapse; width: 100%; font-size: 0.95rem; }
+    td, th { text-align: left; padding: 6px 8px; border-bottom: 1px solid var(--line); }
+    .demo { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; padding: 16px; border: 1px solid var(--line); border-radius: 14px; background: var(--surface); }
+    .btn { display: inline-flex; align-items: center; min-height: 48px; padding: 0 18px; border-radius: 999px; font-weight: 600; border: 1.5px solid #86938a; background: #fff; color: #1e2a23; }
+    .btn.primary { background: #2f5d46; border-color: #2f5d46; color: #fff; }
+    .star { color: #b07c12; font-size: 1.4rem; }
+    pre { overflow-x: auto; background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 12px; font-size: 0.85rem; }
+  </style>
+</head>
+<body>
+<main>
+  <img src="icons/favicon.svg" width="56" height="56" alt="">
+  <h1>Adele's Recipe Book</h1>
+  <p class="muted">Brand direction: Herb garden. Fresh, calm and homey: a rosemary sprig on a plate with a mustard rim.
+    Home Screen label: "Adele's Recipes".</p>
+
+  <h2>Icon</h2>
+  <div class="icons">
+    <figure><img class="ios" src="icons/apple-touch-icon.png" width="120" height="120" alt="App icon"><figcaption>Home Screen</figcaption></figure>
+    <figure><img src="icons/icon-maskable-512.png" width="120" height="120" style="border-radius:50%" alt="Maskable icon in a circle"><figcaption>Android (masked)</figcaption></figure>
+    <figure><img src="icons/favicon.svg" width="48" height="48" alt="Favicon"><figcaption>Favicon 48</figcaption></figure>
+    <figure><img src="icons/favicon-32.png" width="32" height="32" alt="Favicon 32px"><figcaption>32</figcaption></figure>
+    <figure><img src="icons/favicon.svg" width="16" height="16" alt="Favicon 16px"><figcaption>16</figcaption></figure>
+  </div>
+  <p class="muted">Sources: <code>icons/icon.svg</code> (full-bleed app icon; the art stays inside the maskable safe circle)
+    and <code>icons/favicon.svg</code> (simplified for small sizes). Regenerate the PNGs after editing:</p>
+  <pre><code>cd icons
+rsvg-convert -w 512 -h 512 icon.svg -o icon-512.png &amp;&amp; cp icon-512.png icon-maskable-512.png
+rsvg-convert -w 192 -h 192 icon.svg -o icon-192.png
+rsvg-convert -w 180 -h 180 icon.svg -o apple-touch-icon.png
+rsvg-convert -w 32 -h 32 favicon.svg -o favicon-32.png</code></pre>
+
+  <h2>Core colors</h2>
+  <div class="grid">
+    <div class="sw"><div style="background:#2f5d46"></div><p>Rosemary <code>#2f5d46</code></p></div>
+    <div class="sw"><div style="background:#fbfaf5"></div><p>Warm white <code>#fbfaf5</code></p></div>
+    <div class="sw"><div style="background:#d9a42b"></div><p>Mustard <code>#d9a42b</code></p></div>
+    <div class="sw"><div style="background:#5d8a66"></div><p>Leaf <code>#5d8a66</code></p></div>
+    <div class="sw"><div style="background:#1e2a23"></div><p>Ink <code>#1e2a23</code></p></div>
+  </div>
+  <p class="muted">Mustard is decorative only (the rim, the header rule). It is too light for text on white.</p>
+
+  <h2>App tokens (css/app.css)</h2>
+  <table>
+    <thead><tr><th>Token</th><th>Light</th><th>Dark</th><th>Used for</th></tr></thead>
+    <tbody>
+      <tr><td><code>--bg</code></td><td>#fbfaf5</td><td>#131b16</td><td>page</td></tr>
+      <tr><td><code>--surface</code></td><td>#ffffff</td><td>#1c2620</td><td>cards, inputs</td></tr>
+      <tr><td><code>--text</code></td><td>#1e2a23</td><td>#eef2ea</td><td>body text (14:1 / 15:1)</td></tr>
+      <tr><td><code>--muted</code></td><td>#56635a</td><td>#a8b4aa</td><td>secondary text (6:1 / 7:1)</td></tr>
+      <tr><td><code>--accent</code></td><td>#2f5d46</td><td>#8fc7a0</td><td>links, primary buttons, active tab</td></tr>
+      <tr><td><code>--accent-soft</code></td><td>#e4ede5</td><td>#26392d</td><td>notices, toggled buttons</td></tr>
+      <tr><td><code>--control</code></td><td>#86938a</td><td>#66786d</td><td>input and button borders (3:1)</td></tr>
+      <tr><td><code>--line</code></td><td>#dfe4d8</td><td>#33433a</td><td>dividers, card borders</td></tr>
+      <tr><td><code>--brand-mustard</code></td><td>#d9a42b</td><td>#e5b54a</td><td>header rule</td></tr>
+      <tr><td><code>--star</code></td><td>#b07c12</td><td>#e5b54a</td><td>ratings</td></tr>
+    </tbody>
+  </table>
+
+  <h2>Type</h2>
+  <p>The system sans-serif (San Francisco on iPad and Mac): no web fonts to download, so it works offline.
+    Large sizes for reading at arm's length: 19–20px body, 24px in cooking mode. Headings bold, sentence case.</p>
+
+  <h2>In use</h2>
+  <div class="demo">
+    <span class="btn primary">Save plan</span><span class="btn">Swap</span>
+    <span class="star">★★★★</span><span class="star" style="color:#dfe4d8">★</span>
+  </div>
+</main>
+</body>
+</html>

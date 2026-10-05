@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+<title>Adele's Recipe Book</title>
+<rect width="512" height="512" fill="#2f5d46"/>
+<circle cx="256" cy="256" r="176" fill="#fbfaf5"/>
+<circle cx="256" cy="256" r="164" fill="none" stroke="#d9a42b" stroke-width="7"/>
+<circle cx="256" cy="256" r="118" fill="none" stroke="#e6ebdf" stroke-width="9"/>
+<path d="M182 330L288.1 223.9" stroke="#2f5d46" stroke-width="7" stroke-linecap="round"/><ellipse cx="188.4" cy="284.9" rx="38.6" ry="6.5" transform="rotate(-97 188.4 284.9)" fill="#5d8a66"/><ellipse cx="227.1" cy="323.6" rx="38.6" ry="6.5" transform="rotate(7 227.1 323.6)" fill="#477552"/><ellipse cx="203.4" cy="271.8" rx="36.6" ry="6.5" transform="rotate(-97 203.4 271.8)" fill="#477552"/><ellipse cx="240.2" cy="308.6" rx="36.6" ry="6.5" transform="rotate(7 240.2 308.6)" fill="#5d8a66"/><ellipse cx="218.5" cy="258.7" rx="34.7" ry="6.5" transform="rotate(-97 218.5 258.7)" fill="#5d8a66"/><ellipse cx="253.3" cy="293.5" rx="34.7" ry="6.5" transform="rotate(7 253.3 293.5)" fill="#477552"/><ellipse cx="233.6" cy="245.6" rx="32.7" ry="6.5" transform="rotate(-97 233.6 245.6)" fill="#477552"/><ellipse cx="266.4" cy="278.4" rx="32.7" ry="6.5" transform="rotate(7 266.4 278.4)" fill="#5d8a66"/><ellipse cx="248.6" cy="232.5" rx="30.8" ry="6.5" transform="rotate(-97 248.6 232.5)" fill="#5d8a66"/><ellipse cx="279.5" cy="263.4" rx="30.8" ry="6.5" transform="rotate(7 279.5 263.4)" fill="#477552"/><ellipse cx="263.7" cy="219.4" rx="28.8" ry="6.5" transform="rotate(-97 263.7 219.4)" fill="#477552"/><ellipse cx="292.6" cy="248.3" rx="28.8" ry="6.5" transform="rotate(7 292.6 248.3)" fill="#5d8a66"/><ellipse cx="301.6" cy="210.4" rx="24" ry="6.5" transform="rotate(-45 301.6 210.4)" fill="#5d8a66"/>
+</svg>

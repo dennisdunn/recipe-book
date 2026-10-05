@@ -5,7 +5,7 @@
 // - API: the whole recipe set (~2 MB) is precached, because the planner needs every recipe's ingredients
 //   offline. Served stale-while-revalidate. api/version.json is always fetched from the network; when the
 //   page sees a new version it sends 'refresh-api' and everything is downloaded again.
-const SHELL_VERSION = 1;
+const SHELL_VERSION = 2;
 const SHELL = `shell-v${SHELL_VERSION}`;
 const API = 'api';
 
@@ -13,7 +13,7 @@ const SHELL_FILES = [
   './', 'index.html', 'manifest.webmanifest', 'css/app.css',
   'js/app.js', 'js/data.js', 'js/db.js', 'js/planner.js', 'js/shopping.js', 'js/ui.js', 'js/units.js', 'js/vendor/idb.js',
   'js/views/plan.js', 'js/views/recipe.js', 'js/views/recipes.js', 'js/views/settings.js', 'js/views/shop.js',
-  'icons/favicon-32.png', 'icons/apple-touch-icon.png', 'icons/icon-192.png', 'icons/icon-512.png', 'icons/icon-maskable-512.png',
+  'icons/favicon.svg', 'icons/favicon-32.png', 'icons/apple-touch-icon.png', 'icons/icon-192.png', 'icons/icon-512.png', 'icons/icon-maskable-512.png',
 ];
 
 const url = path => new URL(path, self.registration.scope).href;
@@ -89,7 +89,7 @@ self.addEventListener('fetch', event => {
     event.respondWith(fetch(req).catch(() => caches.match(url(path))));
   } else if (path.startsWith('api/')) {
     event.respondWith(staleWhileRevalidate(event, API));
-  } else if (req.mode === 'navigate') {
+  } else if (req.mode === 'navigate' && (path === '' || path === 'index.html')) {
     event.respondWith(staleWhileRevalidate(event, SHELL, url('index.html')));
   } else {
     event.respondWith(staleWhileRevalidate(event, SHELL));

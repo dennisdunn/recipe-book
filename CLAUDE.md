@@ -1,6 +1,6 @@
 # Recipe site
 
-Hobby project to give Dennis's wife a searchable recipe collection with weekly dinner plans, shopping lists and cook notes.
+Hobby project ("Adele's Recipe Book") to give Dennis's wife a searchable recipe collection with weekly dinner plans, shopping lists and cook notes.
 Small scale, one household, no deadlines. Prefer simple over clever; avoid adding infrastructure.
 
 ## Shape of the system
@@ -76,9 +76,12 @@ Serve the repo's parent so the site is at `/recipe-book/`, as on Pages (catches 
 `python3 -m http.server 8411 --directory ..` then open http://localhost:8411/recipe-book/.
 The service worker caches aggressively; use DevTools > Application to bypass or unregister it while developing.
 
-## Not done yet
+## Branding
 
-- Branding: the palette in `css/app.css` (`:root` tokens) and the icons in `icons/` are placeholders. Keep the file names.
+- Name: "Adele's Recipe Book"; Home Screen label "Adele's Recipes". Direction "Herb garden": rosemary green, warm white, mustard.
+- `brand.html` is the reference sheet (palette, tokens with contrast ratios, icons, how to regenerate PNGs).
+- Colors only through the `:root` tokens in `css/app.css` (light and dark). Mustard is decorative, never text.
+- Icon sources are `icons/icon.svg` and `icons/favicon.svg`; PNGs are rendered from them with `rsvg-convert`. Keep the file names.
 
 ## Pending data work
 

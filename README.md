@@ -1,10 +1,11 @@
-# Recipe Book
+# Adele's Recipe Book
 
 An offline-capable web app (PWA) for our family recipes: search, weekly dinner plans, shopping lists, ratings and notes.
 Plain static files on GitHub Pages: https://dennisdunn.github.io/recipe-book/ . On an iPad, open it in Safari and use
 Share > Add to Home Screen. Ratings, notes and plans stay on the device; use Settings > Export backup now and then.
 
-App code: `index.html`, `css/`, `js/`, `sw.js`, `manifest.webmanifest`, `icons/`. Design notes are in `CLAUDE.md`.
+App code: `index.html`, `css/`, `js/`, `sw.js`, `manifest.webmanifest`, `icons/`. Design notes are in `CLAUDE.md`;
+the brand sheet (colors, icons) is `brand.html`.
 
 # Recipe API (static, read-only)
 

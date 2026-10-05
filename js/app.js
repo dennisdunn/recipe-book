@@ -40,7 +40,7 @@ async function route() {
   shown = { path, el };
   document.querySelectorAll('.tabs a').forEach(a => a.toggleAttribute('aria-current', a.dataset.tab === tab));
   const heading = el.querySelector('h1')?.textContent.trim();
-  document.title = heading && tab !== 'plan' ? `${heading} · Recipe Book` : 'Recipe Book';
+  document.title = heading && tab !== 'plan' ? `${heading} · Adele's Recipe Book` : "Adele's Recipe Book";
   window.scrollTo(0, sameView ? scroll : 0);
   if (!sameView) main.focus({ preventScroll: true });
 }

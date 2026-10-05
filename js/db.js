@@ -66,7 +66,7 @@ export async function exportAll() {
 
 /** Replace all user data with an export file's contents. */
 export async function importAll(data) {
-  if (data?.app !== 'recipe-book' || !data.stores) throw new Error('This is not a Recipe Book backup file.');
+  if (data?.app !== 'recipe-book' || !data.stores) throw new Error("This is not an Adele's Recipe Book backup file.");
   const db = await dbp;
   const tx = db.transaction(STORES, 'readwrite');
   const apiVersion = await tx.objectStore('meta').get('apiVersion'); // describes this device's cache, not the backup
