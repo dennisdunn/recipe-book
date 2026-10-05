@@ -4,6 +4,7 @@ import { buildShoppingList } from '../shopping.js';
 import { formatAmount } from '../units.js';
 import { html, view } from '../ui.js';
 import { currentPlan } from './plan.js';
+import { loadPantry, savePantry } from './pantry.js';
 
 let showStaples = false;
 
@@ -16,7 +17,11 @@ export async function render() {
   }
   const byId = await indexById();
   const entries = await Promise.all(days.map(async d => ({ recipe: await getRecipe(byId.get(d.recipeId).slug), multiplier: d.multiplier })));
-  const aisles = buildShoppingList(entries, await getCatalog());
+  const [all, { pantry }] = await Promise.all([getCatalog().then(c => buildShoppingList(entries, c)), loadPantry()]);
+  // items ticked in the pantry are set aside rather than bought
+  const inPantry = new Set(pantry.have);
+  const alreadyHave = all.flatMap(a => a.items).filter(i => inPantry.has(i.catalogId));
+  const aisles = all.map(a => ({ ...a, items: a.items.filter(i => !inPantry.has(i.catalogId)) }));
   plan.checked ??= [];
   plan.extras ??= [];
   const staples = aisles.flatMap(a => a.items).filter(i => i.staple).length;
@@ -46,6 +51,13 @@ export async function render() {
       return items.length ? html`<section class="aisle"><h2>${a.aisle}</h2><ul class="shop">${items.map(it => itemRow(it, plan.checked.includes(it.catalogId)))}</ul></section>` : '';
     })}
     </div><div class="col"></div></div>
+    ${alreadyHave.length ? html`<details class="card already no-print"><summary>Already have (${alreadyHave.length}, from your pantry)</summary>
+      <ul class="shop">${alreadyHave.map(it => html`<li>
+        <span><span class="item-name">${it.name}</span>
+          <span class="qty">${it.amounts.map(formatAmount).join(' + ')}</span>
+          <span class="from">${it.recipes.join(' · ')}</span></span>
+        <button class="btn small" data-action="out-of" data-id="${it.catalogId}">I'm out</button>
+      </li>`)}</ul></details>` : ''}
     <p class="muted small">≈ marks amounts that are approximate (ranges, pinches, dashes). Lines in quotes are copied
       from the recipe because the amount could not be read reliably.</p>
     <button class="btn quiet" data-action="clear">Uncheck everything</button>`);
@@ -69,6 +81,11 @@ export async function render() {
   el.addEventListener('click', async e => {
     const action = e.target.closest('[data-action]')?.dataset.action;
     if (action === 'print') window.print();
+    if (action === 'out-of') {
+      pantry.have = pantry.have.filter(id => id !== e.target.closest('[data-id]').dataset.id);
+      await savePantry(pantry);
+      rerender();
+    }
     if (action === 'clear') { plan.checked = []; await putPlan(plan); rerender(); }
     if (action === 'remove-extra') { plan.extras.splice(+e.target.closest('[data-index]').dataset.index, 1); await putPlan(plan); rerender(); }
   });

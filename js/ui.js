@@ -31,10 +31,16 @@ export function formatDay(iso, opts = { weekday: 'short', month: 'short', day: '
 }
 
 let toastTimer;
-export function toast(message) {
+/** Brief message; with `action` ({ label, run }) it shows a button (e.g. Undo) and stays up a little longer. */
+export function toast(message, action) {
   const el = document.getElementById('toast');
   el.textContent = message;
+  if (action) {
+    const btn = Object.assign(document.createElement('button'), { type: 'button', textContent: action.label });
+    btn.addEventListener('click', () => { el.hidden = true; action.run(); });
+    el.append(' ', btn);
+  }
   el.hidden = false;
   clearTimeout(toastTimer);
-  toastTimer = setTimeout(() => { el.hidden = true; }, 3000);
+  toastTimer = setTimeout(() => { el.hidden = true; }, action ? 6000 : 3000);
 }

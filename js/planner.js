@@ -6,6 +6,7 @@
 //   - recipes cooked or recommended within `noRepeatDays` are left out while enough others remain
 //   - higher ratings and favorites are more likely; long-unseen recipes get a mild boost
 //   - the same category on neighbouring days is discouraged
+//   - optional `boost(entry)` multiplies the weight (used to favor recipes that use what's in the pantry)
 
 export const DEFAULTS = { days: 7, noRepeatDays: 21 };
 
@@ -46,7 +47,7 @@ function pick(weighted, rng) {
  * Fill the days at `which` (default: every unlocked, unskipped day) with new picks.
  * `stats` is a Map of recipe id -> stat record. Returns a new plan; the input is not changed.
  */
-export function fillPlan(plan, index, stats, { noRepeatDays = DEFAULTS.noRepeatDays, rng = Math.random, now = new Date(), which } = {}) {
+export function fillPlan(plan, index, stats, { noRepeatDays = DEFAULTS.noRepeatDays, rng = Math.random, now = new Date(), which, boost } = {}) {
   const days = plan.days.map(d => ({ ...d }));
   const targets = which ?? days.map((d, i) => i).filter(i => !days[i].locked && !days[i].skip);
   for (const i of targets) days[i].recipeId = null;
@@ -68,7 +69,7 @@ export function fillPlan(plan, index, stats, { noRepeatDays = DEFAULTS.noRepeatD
     const fresh = choices.filter(e => !recent.has(e.id));
     if (fresh.length >= targets.length) choices = fresh;
     const neighbours = [days[i - 1], days[i + 1]].map(d => byId.get(d?.recipeId)?.categorySlug).filter(Boolean);
-    const weighted = choices.map(e => [e, weight(e, stats.get(e.id), today) * (neighbours.includes(e.categorySlug) ? 0.3 : 1)]);
+    const weighted = choices.map(e => [e, weight(e, stats.get(e.id), today) * (neighbours.includes(e.categorySlug) ? 0.3 : 1) * (boost?.(e) ?? 1)]);
     days[i].recipeId = pick(weighted, rng)?.id ?? null;
     days[i].cooked = false;
   }

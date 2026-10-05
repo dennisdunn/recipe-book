@@ -1,4 +1,4 @@
-// Boot + hash router. Routes: #/ (plan), #/shop, #/recipes, #/recipe/<slug>, #/settings
+// Boot + hash router. Routes: #/ (plan), #/shop, #/pantry, #/can-make, #/recipes, #/recipe/<slug>, #/settings
 import { checkForUpdate } from './data.js';
 import { toast, html, view } from './ui.js';
 import * as plan from './views/plan.js';
@@ -6,6 +6,8 @@ import * as shop from './views/shop.js';
 import * as recipes from './views/recipes.js';
 import * as recipe from './views/recipe.js';
 import * as settings from './views/settings.js';
+import * as pantry from './views/pantry.js';
+import * as canMake from './views/canmake.js';
 
 const ROUTES = [
   [/^\/?$/, plan, 'plan'],
@@ -13,6 +15,8 @@ const ROUTES = [
   [/^\/recipes$/, recipes, 'recipes'],
   [/^\/recipe\/([a-z0-9-]+)$/, recipe, 'recipes', m => ({ slug: m[1] })],
   [/^\/settings$/, settings, 'settings'],
+  [/^\/pantry$/, pantry, 'pantry'],
+  [/^\/can-make$/, canMake, 'pantry'],
 ];
 
 const main = document.getElementById('main');

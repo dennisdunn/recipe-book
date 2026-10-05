@@ -4,6 +4,8 @@ import { isMain, isoDate } from '../planner.js';
 import { formatQuantity } from '../units.js';
 import { html, view, stars, formatDay, toast } from '../ui.js';
 import { currentPlan } from './plan.js';
+import { loadPantry } from './pantry.js';
+import { coverage } from '../pantry.js';
 
 const SCALES = [0.5, 1, 2];
 
@@ -14,8 +16,10 @@ export async function render({ slug }) {
   } catch {
     return view(html`<h1>Recipe not found</h1><p class="lead">It may have been renamed.</p><a class="btn" href="#/recipes">All recipes</a>`);
   }
-  const [stat, note, index, plan] = await Promise.all([getStat(recipe.id), getNote(recipe.id), getIndex(), currentPlan()]);
+  const [stat, note, index, plan, pantry] = await Promise.all([getStat(recipe.id), getNote(recipe.id), getIndex(), currentPlan(), loadPantry()]);
   const entry = index.find(e => e.id === recipe.id);
+  const cov = pantry.pantry.have.length ? coverage(entry, pantry.have, pantry.pantry, pantry.staples) : null;
+  const names = new Map(pantry.catalog.map(c => [c.id, c.name]));
   let scale = 1;
 
   const el = view(html`
@@ -70,6 +74,8 @@ export async function render({ slug }) {
       <section class="card stack planner-box no-print">
         <h2>Meal planning</h2>
         <p class="muted stat-line"></p>
+        ${cov?.needed ? html`<p>From your <a href="#/pantry">pantry</a>: you have ${cov.using} of ${cov.needed} ingredients${
+          cov.missing.length ? html`; missing ${cov.missing.map(id => names.get(id) ?? id).join(', ')}` : ''}.</p>` : ''}
         <label class="toggle"><input type="checkbox" name="main" ${isMain(entry, stat) ? 'checked' : ''}> Can be a dinner main</label>
         <label class="toggle"><input type="checkbox" name="excluded" ${stat.excluded ? 'checked' : ''}> Never suggest this</label>
         <div class="row wrap gap">

@@ -59,6 +59,8 @@ const index = recipes.map(r => ({
   servings: r.servings?.text ?? null,
   ingredients: [...new Set(r.ingredients.map(i =>
     (i.catalogId ? existing[i.catalogId].name : i.item).toLowerCase()))].sort(),
+  // catalog ids the recipe cannot do without (not optional, purchasable): used for pantry matching
+  need: [...new Set(r.ingredients.filter(i => i.catalogId && !i.optional && i.shop !== false).map(i => i.catalogId))].sort(),
 })).sort((a, b) => a.title.localeCompare(b.title));
 
 // ---- categories + tags ----

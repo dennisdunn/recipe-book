@@ -1,7 +1,9 @@
 import { getIndex, indexById } from '../data.js';
 import { allStats, getMeta, setMeta, getPlan, putPlan, updateStat } from '../db.js';
 import { newPlan, fillPlan, uncounted, isoDate, addDays, DEFAULTS } from '../planner.js';
+import { coverage, pantryBoost } from '../pantry.js';
 import { html, view, stars, formatDay, toast } from '../ui.js';
+import { loadPantry } from './pantry.js';
 
 const MULTIPLIERS = [0.5, 1, 1.5, 2, 3];
 const multLabel = m => ({ 0.5: '½×', 1.5: '1½×' })[m] ?? `${m}×`;
@@ -15,11 +17,30 @@ export async function settings() {
 }
 
 export async function render() {
-  const [plan, byId, stats] = await Promise.all([currentPlan(), indexById(), allStats()]);
-  return plan ? planView(plan, byId, stats) : startView();
+  const [plan, byId, stats, cfg, pantry] = await Promise.all([currentPlan(), indexById(), allStats(), settings(), loadPantry()]);
+  return plan ? planView(plan, byId, stats, cfg, pantry) : startView(cfg, pantry);
 }
 
-function startView(start = isoDate(new Date())) {
+/** Everything fillPlan needs; with "Use what I have" on, recipes covered by the pantry get a weight boost. */
+async function pickArgs(which) {
+  const [index, stats, cfg, { pantry, have, staples }] = await Promise.all([getIndex(), allStats(), settings(), loadPantry()]);
+  const boost = cfg.usePantry && pantry.have.length ? e => pantryBoost(coverage(e, have, pantry, staples)) : undefined;
+  return [index, stats, { ...cfg, which, boost }];
+}
+
+const pantryToggle = (cfg, { pantry }) => html`<label class="toggle">
+  <input type="checkbox" name="usePantry" ${cfg.usePantry && pantry.have.length ? 'checked' : ''} ${pantry.have.length ? '' : 'disabled'}>
+  <span>Use what I have <span class="muted">(${pantry.have.length
+    ? html`${pantry.have.length} item${pantry.have.length === 1 ? '' : 's'} in the <a href="#/pantry">pantry</a>`
+    : html`the <a href="#/pantry">pantry</a> is empty`})</span></span></label>`;
+
+async function savePantryToggle(e) {
+  if (e.target.name !== 'usePantry') return false;
+  await setMeta('settings', { ...(await getMeta('settings')), usePantry: e.target.checked });
+  return true;
+}
+
+function startView(cfg, pantry, start = isoDate(new Date())) {
   const el = view(html`
     <h1>This week's dinners</h1>
     <p class="lead">Pick seven dinners at random from your mains, favoring the ones you rate highly
@@ -28,20 +49,23 @@ function startView(start = isoDate(new Date())) {
       <label class="field">First day
         <input type="date" name="start" value="${start}" required>
       </label>
+      ${pantryToggle(cfg, pantry)}
       <button class="btn primary big" type="submit">Plan my week</button>
     </form>`);
   el.querySelector('form').addEventListener('submit', async e => {
     e.preventDefault();
-    const [index, stats, cfg] = await Promise.all([getIndex(), allStats(), settings()]);
-    const plan = fillPlan(newPlan(e.target.start.value, cfg.days), index, stats, cfg);
+    const [index, stats, opts] = await pickArgs();
+    const plan = fillPlan(newPlan(e.target.start.value, opts.days), index, stats, opts);
     await putPlan(plan);
     await setMeta('currentPlan', plan.id);
     rerender();
   });
+  el.addEventListener('change', savePantryToggle);
   return el;
 }
 
-function planView(plan, byId, stats) {
+function planView(plan, byId, stats, cfg, pantry) {
+  const cov = pantry.pantry.have.length ? e => coverage(e, pantry.have, pantry.pantry, pantry.staples) : () => null;
   const pending = uncounted(plan);
   const end = plan.days.at(-1).date;
   const el = view(html`
@@ -54,7 +78,10 @@ function planView(plan, byId, stats) {
         <span>${plan.accepted ? 'You changed the plan.' : 'Happy with these? Saving counts them as suggested, so they rest for a few weeks.'}</span>
         <button class="btn primary" data-action="accept">Save plan</button>
       </div>` : ''}
-    <ol class="days">${plan.days.map((d, i) => dayCard(d, i, byId.get(d.recipeId), stats.get(d.recipeId)))}</ol>
+    <ol class="days">${plan.days.map((d, i) => dayCard(d, i, byId.get(d.recipeId), stats.get(d.recipeId), byId.has(d.recipeId) ? cov(byId.get(d.recipeId)) : null))}</ol>
+    <div class="row wrap gap">
+      ${pantryToggle(cfg, pantry)}
+    </div>
     <div class="row wrap gap">
       <button class="btn" data-action="reroll-all">Swap all unlocked</button>
       <button class="btn quiet" data-action="new-plan">Start a new week</button>
@@ -66,10 +93,7 @@ function planView(plan, byId, stats) {
     const i = +btn.closest('[data-day]')?.dataset.day;
     const day = plan.days[i];
     const save = async p => { await putPlan(p); rerender(); };
-    const refill = async which => {
-      const [index, st, cfg] = await Promise.all([getIndex(), allStats(), settings()]);
-      return fillPlan(plan, index, st, { ...cfg, which });
-    };
+    const refill = async which => fillPlan(plan, ...(await pickArgs(which)));
     switch (btn.dataset.action) {
       case 'swap': return save(await refill([i]));
       case 'reroll-all': return save(await refill());
@@ -99,10 +123,11 @@ function planView(plan, byId, stats) {
       case 'new-plan':
         if (pending.length && !confirm('This plan has not been saved. Start a new week anyway?')) return;
         await setMeta('currentPlan', null);
-        el.replaceWith(startView(addDays(end, 1) > isoDate(new Date()) ? addDays(end, 1) : isoDate(new Date())));
+        el.replaceWith(startView(cfg, pantry, addDays(end, 1) > isoDate(new Date()) ? addDays(end, 1) : isoDate(new Date())));
     }
   });
-  el.addEventListener('change', e => {
+  el.addEventListener('change', async e => {
+    if (await savePantryToggle(e)) return;
     if (e.target.name !== 'multiplier') return;
     plan.days[+e.target.closest('[data-day]').dataset.day].multiplier = +e.target.value;
     putPlan(plan);
@@ -110,7 +135,7 @@ function planView(plan, byId, stats) {
   return el;
 }
 
-function dayCard(d, i, entry, stat) {
+function dayCard(d, i, entry, stat, cov) {
   const weekday = formatDay(d.date, { weekday: 'long' });
   const date = formatDay(d.date, { month: 'short', day: 'numeric' });
   if (d.skip || !entry) {
@@ -124,6 +149,7 @@ function dayCard(d, i, entry, stat) {
     <div class="day-date"><strong>${weekday}</strong> ${date}</div>
     <a class="day-title" href="#/recipe/${entry.slug}">${entry.title}</a>
     <div class="muted">${entry.category} ${stars(stat?.rating, { size: 'small' })}${stat?.favorite ? ' ♥' : ''}</div>
+    ${cov?.needed ? html`<div class="muted small">You have ${cov.using} of ${cov.needed} ingredients</div>` : ''}
     <div class="row wrap gap controls">
       <button class="btn small ${d.locked ? 'on' : ''}" data-action="lock" aria-pressed="${d.locked}">${d.locked ? 'Locked' : 'Lock'}</button>
       <button class="btn small" data-action="swap" ${d.locked ? 'disabled' : ''}>Swap</button>

@@ -35,6 +35,16 @@ Small scale, one household, no deadlines. Prefer simple over clever; avoid addin
 - `timesRecommended` / `lastRecommended` only change when a plan is **saved**, never on a swap; `timesCooked` / `lastCooked`
   on "Cooked it".
 
+## Pantry (`js/pantry.js`, pure; screens `#/pantry` and `#/can-make`)
+
+- A persistent have/don't-have list of catalog ids (no quantities), stored in `meta.pantry` as `{ have, assumeStaples }`.
+  With `assumeStaples` (default) catalog staples count as on hand and are left out of the counts.
+- Matching uses `index.json` `need`: the recipe's required catalog ids (not optional, `shop !== false`).
+- "What can I make?" lists recipes using at least one ticked item, grouped by missing 0, 1 or 2.
+- "Use what I have" (`settings.usePantry`) multiplies planner weights by `20 ** coverage` for recipes using ticked items.
+- The shopping list moves ticked pantry items to a collapsed "Already have" section (not printed); "I'm out" unticks one.
+- Clearing is a weekly chore: one tap with an Undo toast, no confirmation dialog.
+
 ## Shopping list rules (`js/shopping.js`, pure; runs in Node for testing)
 
 - Skip lines with `shop: false`; hide `catalog.staple` items by default (with a toggle to show them).
@@ -49,7 +59,7 @@ Small scale, one household, no deadlines. Prefer simple over clever; avoid addin
 
 - IndexedDB database `recipe-book` (see `js/db.js`): `stats` (rating, favorite, main override, excluded, recommended/cooked
   counts and dates) and `notes`, both keyed by recipe `id`; `plans` keyed by start date (days, shopping checkmarks, extra items);
-  `meta` (currentPlan, settings, apiVersion). Change the schema only with a version bump and an upgrade step.
+  `meta` (currentPlan, settings, pantry, apiVersion). Change the schema only with a version bump and an upgrade step.
 - Request persistent storage (`navigator.storage.persist()`) so notes are not evicted.
 - Export/import of user data as a JSON file (Settings) is the only backup. On an iPad Home Screen app, export uses the share sheet.
 

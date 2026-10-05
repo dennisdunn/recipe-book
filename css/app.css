@@ -175,6 +175,11 @@ input[type="checkbox"] { min-height: 0; width: 26px; height: 26px; accent-color:
 }
 .recipe-list .title { font-weight: 600; font-size: 1.05rem; }
 .recipe-list .muted { font-size: 0.9rem; }
+.match-list li { display: flex; align-items: center; justify-content: space-between; gap: 12px; border-bottom: 1px solid var(--line); }
+.match-list li a { border-bottom: 0; flex: 1; }
+.recipe-list .missing { font-size: 0.9rem; color: var(--text); }
+.already .shop li { padding: 6px 0; gap: 12px; }
+.already summary { font-weight: 600; }
 
 /* recipe */
 .recipe .meta { display: flex; flex-wrap: wrap; gap: 4px 18px; }
@@ -219,6 +224,10 @@ body.cooking .steps li.current { background: var(--accent-soft); outline: 2px so
   background: var(--text); color: var(--bg);
   padding: 12px 22px; border-radius: 999px; font-weight: 600;
   box-shadow: 0 4px 16px rgb(0 0 0 / 0.2);
+}
+#toast button {
+  margin-left: 10px; min-height: 36px; padding: 0 14px; border: 0; border-radius: 999px;
+  background: var(--bg); color: var(--text); font: inherit; font-weight: 700; cursor: pointer;
 }
 
 .print-only { display: none; }
