@@ -20,6 +20,11 @@
       "text": "4 hours"
     }
   ],
+  "time": {
+    "text": "All afternoon (slow cooker)",
+    "minutes": 270,
+    "reviewed": false
+  },
   "ingredients": [
     {
       "raw": "3 pounds baby back ribs, trimmed",

@@ -15,6 +15,11 @@
     "amount": 2
   },
   "times": [],
+  "time": {
+    "text": "About 30 minutes",
+    "minutes": 30,
+    "reviewed": false
+  },
   "ingredients": [
     {
       "raw": "1 yam, peeled and diced",

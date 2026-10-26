@@ -2,7 +2,7 @@ import { indexById } from '../data.js';
 import { allStats, setMeta, putPlan, updateStat } from '../db.js';
 import { newPlan, uncounted, isoDate, addDays } from '../planner.js';
 import { coverage } from '../pantry.js';
-import { currentPlan, settings, saveSettings, loadPantry, fillDays } from '../store.js';
+import { currentPlan, settings, saveSettings, loadPantry, fillDays, savePlanCounts, startMenuWeek } from '../store.js';
 import { html, view, stars, formatDay, toast, rerender, plural } from '../ui.js';
 
 const MULTIPLIERS = [0.5, 1, 1.5, 2, 3];
@@ -28,14 +28,19 @@ async function savePantryToggle(e) {
 function startView(cfg, pantry, start = isoDate(new Date())) {
   const el = view(html`
     <h1>This week's dinners</h1>
-    <p class="lead">Pick seven dinners at random from your mains, favoring the ones you rate highly
-      and skipping anything you've had in the last few weeks.</p>
+    <p class="lead">Two ways to plan: let it pick seven dinners at once, or build a menu one dinner at a time.
+      Either way it favors the ones you rate highly and rests anything you've had in the last few weeks.</p>
     <form class="card stack" data-form="start">
       <label class="field">First day
         <input type="date" name="start" value="${start}" required>
       </label>
       ${pantryToggle(cfg, pantry)}
-      <button class="btn primary big" type="submit">Plan my week</button>
+      <div class="row wrap gap">
+        <button class="btn primary big" type="submit">Plan my week</button>
+        <button class="btn big" type="button" data-action="menu">Build a menu</button>
+      </div>
+      <p class="muted small">Plan my week picks all seven at random. Build a menu shows one full recipe at a time
+        to add or pass over.</p>
     </form>
     <p><a href="#/plans">Past plans</a></p>`);
   el.querySelector('form').addEventListener('submit', async e => {
@@ -45,6 +50,10 @@ function startView(cfg, pantry, start = isoDate(new Date())) {
     await setMeta('currentPlan', plan.id);
     rerender();
   });
+  el.addEventListener('click', async e => {
+    if (e.target.closest('[data-action]')?.dataset.action !== 'menu') return;
+    if (await startMenuWeek(el.querySelector('input[name=start]').value)) location.hash = '#/menu';
+  });
   el.addEventListener('change', savePantryToggle);
   return el;
 }
@@ -52,13 +61,22 @@ function startView(cfg, pantry, start = isoDate(new Date())) {
 function planView(plan, byId, stats, cfg, pantry) {
   const cov = pantry.pantry.have.length ? e => coverage(e, pantry.have, pantry.pantry, pantry.staples) : () => null;
   const pending = uncounted(plan);
+  const open = plan.days.map((d, i) => (!d.recipeId && !d.skip ? i : -1)).filter(i => i >= 0);
   const end = plan.days.at(-1).date;
   const el = view(html`
     <div class="row between wrap">
       <h1>Dinners ${formatDay(plan.start, { month: 'short', day: 'numeric' })} – ${formatDay(end, { month: 'short', day: 'numeric' })}</h1>
       <a class="btn" href="#/shop">Shopping list</a>
     </div>
-    ${pending.length ? html`
+    ${open.length ? html`
+      <div class="card notice row between wrap">
+        <span>${plural(open.length, 'day')} still to fill.</span>
+        <span class="row wrap gap">
+          <a class="btn primary" href="#/menu">${plan.menu ? 'Continue the menu' : 'Choose in the menu builder'}</a>
+          <button class="btn" data-action="fill-open">Fill at random</button>
+        </span>
+      </div>` : ''}
+    ${pending.length && !open.length ? html`
       <div class="card notice row between wrap">
         <span>${plan.accepted ? 'You changed the plan.' : 'Happy with these? Saving counts them as suggested, so they rest for a few weeks.'}</span>
         <button class="btn primary" data-action="accept">Save plan</button>
@@ -83,6 +101,7 @@ function planView(plan, byId, stats, cfg, pantry) {
     switch (btn.dataset.action) {
       case 'swap': return save(await refill([i]));
       case 'reroll-all': return save(await refill());
+      case 'fill-open': return save(await refill(open));
       case 'lock': day.locked = !day.locked; return save(plan);
       case 'skip':
         day.skip = !day.skip;
@@ -96,16 +115,9 @@ function planView(plan, byId, stats, cfg, pantry) {
           : { timesCooked: Math.max((s.timesCooked ?? 1) - 1, 0), lastCooked: s.prevCooked ?? null });
         return save(plan);
       }
-      case 'accept': {
-        const today = isoDate(new Date());
-        for (const id of uncounted(plan)) {
-          await updateStat(id, s => ({ timesRecommended: (s.timesRecommended ?? 0) + 1, lastRecommended: today }));
-        }
-        plan.counted = plan.days.map(d => d.recipeId).filter(Boolean);
-        plan.accepted = true;
+      case 'accept':
         toast('Plan saved');
-        return save(plan);
-      }
+        return save(await savePlanCounts(plan));
       case 'new-plan':
         if (pending.length && !confirm('This plan has not been saved. Start a new week anyway?')) return;
         await setMeta('currentPlan', null);
@@ -124,11 +136,21 @@ function planView(plan, byId, stats, cfg, pantry) {
 function dayCard(d, i, entry, stat, cov) {
   const weekday = formatDay(d.date, { weekday: 'long' });
   const date = formatDay(d.date, { month: 'short', day: 'numeric' });
-  if (d.skip || !entry) {
+  if (d.skip) {
     return html`<li class="day card skip" data-day="${i}">
       <div class="day-date"><strong>${weekday}</strong> ${date}</div>
-      <p class="muted">${d.skip ? 'No dinner planned (out, leftovers…)' : 'No main dishes left to choose from.'}</p>
-      <div class="row wrap gap"><button class="btn" data-action="skip">${d.skip ? 'Plan a dinner' : 'Skip this day'}</button></div>
+      <p class="muted">No dinner planned (out, leftovers…)</p>
+      <div class="row wrap gap"><button class="btn" data-action="skip">Plan a dinner</button></div>
+    </li>`;
+  }
+  if (!entry) {
+    return html`<li class="day card skip" data-day="${i}">
+      <div class="day-date"><strong>${weekday}</strong> ${date}</div>
+      <p class="muted">${d.recipeId ? 'That recipe is no longer in the book.' : 'Not chosen yet.'}</p>
+      <div class="row wrap gap">
+        <button class="btn small" data-action="swap">Pick at random</button>
+        <button class="btn small" data-action="skip">Skip this day</button>
+      </div>
     </li>`;
   }
   return html`<li class="day card ${d.locked ? 'locked' : ''} ${d.cooked ? 'cooked' : ''}" data-day="${i}">

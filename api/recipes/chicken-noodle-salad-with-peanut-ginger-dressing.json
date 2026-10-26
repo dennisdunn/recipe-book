@@ -23,6 +23,11 @@
       "text": "10 mins."
     }
   ],
+  "time": {
+    "text": "About 1 hour",
+    "minutes": 55,
+    "reviewed": false
+  },
   "ingredients": [
     {
       "raw": "1/3 cup smooth peanut butter",

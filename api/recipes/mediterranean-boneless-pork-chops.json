@@ -17,6 +17,11 @@
       "text": "30 minutes"
     }
   ],
+  "time": {
+    "text": "About 30 minutes",
+    "minutes": 30,
+    "reviewed": false
+  },
   "ingredients": [
     {
       "raw": "16 oz (8) thin sliced center cut boneless pork chops",

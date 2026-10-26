@@ -23,6 +23,11 @@
       "text": "35 mins."
     }
   ],
+  "time": {
+    "text": "About 1 hour",
+    "minutes": 55,
+    "reviewed": false
+  },
   "ingredients": [
     {
       "raw": "2 tablespoons vegetable oil",

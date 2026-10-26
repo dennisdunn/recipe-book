@@ -11,6 +11,11 @@
   ],
   "servings": null,
   "times": [],
+  "time": {
+    "text": "About 30 minutes",
+    "minutes": 30,
+    "reviewed": false
+  },
   "ingredients": [
     {
       "raw": "Whole wheat (or gluten free) spaghetti",

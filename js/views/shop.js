@@ -12,7 +12,7 @@ export async function render() {
   const days = plan?.days.filter(d => d.recipeId && !d.skip) ?? [];
   if (!days.length) {
     return view(html`<h1>Shopping list</h1><p class="lead">Plan your week first and the list builds itself.</p>
-      <a class="btn primary big" href="#/">Plan dinners</a>`);
+      <a class="btn primary big" href="#/plan">Plan dinners</a>`);
   }
   const byId = await indexById();
   const entries = await Promise.all(days.map(async d => ({ recipe: await getRecipe(byId.get(d.recipeId).slug), multiplier: d.multiplier })));

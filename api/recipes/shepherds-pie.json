@@ -11,6 +11,11 @@
   ],
   "servings": null,
   "times": [],
+  "time": {
+    "text": "About 1¼ hours",
+    "minutes": 75,
+    "reviewed": false
+  },
   "ingredients": [
     {
       "raw": "1 lb sausage",

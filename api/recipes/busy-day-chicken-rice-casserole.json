@@ -23,6 +23,11 @@
       "text": "2 hours"
     }
   ],
+  "time": {
+    "text": "About 2¼ hours",
+    "minutes": 130,
+    "reviewed": false
+  },
   "ingredients": [
     {
       "raw": "1 (10.75 ounce) can low sodium cream of mushroom soup",

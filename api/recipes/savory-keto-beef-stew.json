@@ -12,6 +12,11 @@
   ],
   "servings": null,
   "times": [],
+  "time": {
+    "text": "All day (slow cooker)",
+    "minutes": 480,
+    "reviewed": false
+  },
   "ingredients": [
     {
       "raw": "1 lb beef stew meat",

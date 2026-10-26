@@ -14,6 +14,11 @@
     "amount": 4
   },
   "times": [],
+  "time": {
+    "text": "About 30 minutes",
+    "minutes": 30,
+    "reviewed": false
+  },
   "ingredients": [
     {
       "raw": "1 lb boneless, skinless, chicken filets (thin)",

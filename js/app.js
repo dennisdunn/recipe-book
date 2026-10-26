@@ -1,6 +1,8 @@
-// Boot + hash router. Routes: #/ (plan), #/plans, #/shop, #/pantry, #/can-make, #/recipes, #/recipe/<slug>, #/settings
+// Boot + hash router.
+// Simple view (the default): #/ (home), #/choose, #/tonight.
+// Helper view: #/plan, #/menu, #/plans, #/shop, #/pantry, #/can-make, #/recipes, #/recipe/<slug>, #/settings
 import { checkForUpdate } from './data.js';
-import { toast, html, view } from './ui.js';
+import { toast, html, view, takeScrollTop } from './ui.js';
 import * as plan from './views/plan.js';
 import * as shop from './views/shop.js';
 import * as recipes from './views/recipes.js';
@@ -9,10 +11,17 @@ import * as settings from './views/settings.js';
 import * as pantry from './views/pantry.js';
 import * as canMake from './views/canmake.js';
 import * as plans from './views/plans.js';
+import * as menu from './views/menu.js';
+import * as simple from './views/simple.js';
 
+// [path, screen, helper tab (null = simple view), params]
 const ROUTES = [
-  [/^\/?$/, plan, 'plan'],
+  [/^\/?$/, { render: simple.home }, null],
+  [/^\/choose$/, { render: simple.choose }, null],
+  [/^\/tonight$/, { render: simple.tonight }, null],
+  [/^\/plan$/, plan, 'plan'],
   [/^\/plans$/, plans, 'plan'],
+  [/^\/menu$/, menu, 'plan'],
   [/^\/shop$/, shop, 'shop'],
   [/^\/recipes$/, recipes, 'recipes'],
   [/^\/recipe\/([a-z0-9-]+)$/, recipe, 'recipes', m => ({ slug: m[1] })],
@@ -29,6 +38,7 @@ async function route() {
   const path = decodeURIComponent(location.hash.slice(1)) || '/';
   let match, mod, tab, params;
   for (const [re, m, t, p] of ROUTES) if ((match = path.match(re))) { [mod, tab, params] = [m, t, p?.(match) ?? {}]; break; }
+  const mode = mod && tab === null ? 'simple' : 'helper';
   const sameView = path === shown.path;
   const scroll = window.scrollY;
   const n = ++seq;
@@ -45,9 +55,12 @@ async function route() {
   main.replaceChildren(el);
   shown = { path, el };
   document.querySelectorAll('.tabs a').forEach(a => a.toggleAttribute('aria-current', a.dataset.tab === tab));
+  document.body.dataset.mode = mode;               // simple view: no tab bar; helper view: tabs + "Simple view"
+  document.body.dataset.home = String(path === '/'); // the Home button is hidden on Home itself
   const heading = el.querySelector('h1')?.textContent.trim();
-  document.title = heading && tab !== 'plan' ? `${heading} · Adele's Recipe Book` : "Adele's Recipe Book";
-  window.scrollTo(0, sameView ? scroll : 0);
+  document.title = heading && mode === 'helper' && tab !== 'plan' ? `${heading} · Adele's Recipe Book` : "Adele's Recipe Book";
+  const top = takeScrollTop();
+  window.scrollTo(0, sameView && !top ? scroll : 0);
   if (!sameView) main.focus({ preventScroll: true });
 }
 

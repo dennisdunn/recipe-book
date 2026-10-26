@@ -4,6 +4,8 @@ import { isoDate } from '../planner.js';
 import { html, view, toast, rerender } from '../ui.js';
 import { settings, saveSettings } from '../store.js';
 
+const DAYS = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+
 export async function render() {
   const [cfg, apiVersion, persisted, estimate] = await Promise.all([
     settings(), getMeta('apiVersion'),
@@ -35,6 +37,21 @@ export async function render() {
     </section>
 
     <section class="card stack">
+      <h2>Simple view</h2>
+      <p class="muted">The simple view (what opens first) chooses this many dinners, one a day, starting on this day.</p>
+      <div class="row wrap gap">
+        <label class="field">Dinners
+          <select name="simpleCount">${[3, 4, 5, 6, 7].map(n =>
+            html`<option value="${n}" ${n === cfg.simple.count ? 'selected' : ''}>${n}</option>`)}</select>
+        </label>
+        <label class="field">Starting on
+          <select name="simpleStart">${DAYS.map((d, i) =>
+            html`<option value="${i}" ${i === cfg.simple.startDay ? 'selected' : ''}>${d}</option>`)}</select>
+        </label>
+      </div>
+    </section>
+
+    <section class="card stack">
       <h2>Recipe data</h2>
       <p class="muted">Version ${apiVersion ?? 'unknown'}. Updates download automatically when you are online.</p>
       <div><button class="btn" data-action="update">Check for updates</button></div>
@@ -60,6 +77,11 @@ export async function render() {
     }
   });
   el.addEventListener('change', async e => {
+    if (e.target.name === 'simpleCount' || e.target.name === 'simpleStart') {
+      const form = e.target.closest('section');
+      await saveSettings({ simple: { count: +form.querySelector('[name=simpleCount]').value, startDay: +form.querySelector('[name=simpleStart]').value } });
+      toast('Saved');
+    }
     if (e.target.name === 'noRepeat') {
       await saveSettings({ noRepeatDays: +e.target.value * 7 });
       toast('Saved');

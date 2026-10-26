@@ -27,6 +27,11 @@
       "text": "40 minutes"
     }
   ],
+  "time": {
+    "text": "About 40 minutes",
+    "minutes": 40,
+    "reviewed": false
+  },
   "ingredients": [
     {
       "raw": "4 oz cream cheese softened",

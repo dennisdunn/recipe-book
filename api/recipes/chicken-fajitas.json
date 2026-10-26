@@ -19,6 +19,11 @@
       "text": "Approx. 1 hour"
     }
   ],
+  "time": {
+    "text": "About 1 hour",
+    "minutes": 60,
+    "reviewed": false
+  },
   "ingredients": [
     {
       "raw": "(2) 22oz bags of Tyson's Grilled & Ready Chicken Strips",

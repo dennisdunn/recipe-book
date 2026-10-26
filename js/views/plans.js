@@ -1,23 +1,20 @@
 import { indexById } from '../data.js';
 import { putPlan, deletePlan, getMeta, setMeta } from '../db.js';
-import { newPlan, isoDate, addDays } from '../planner.js';
-import { allPlans, getPlan, fillDays } from '../store.js';
+import { newPlan } from '../planner.js';
+import { allPlans, getPlan, fillDays, nextFreeStart } from '../store.js';
 import { html, view, formatDay, toast, rerender } from '../ui.js';
 
 const short = { month: 'short', day: 'numeric' };
 
 export async function render() {
-  const [plans, byId, currentId] = await Promise.all([allPlans(), indexById(), getMeta('currentPlan')]);
+  // Repeat defaults to the day after the latest plan ends, so it doesn't collide with an existing week
+  const [plans, byId, currentId, repeatStart] = await Promise.all([allPlans(), indexById(), getMeta('currentPlan'), nextFreeStart()]);
   plans.sort((a, b) => b.start.localeCompare(a.start));
-  // default for Repeat: the day after the latest plan ends, so it doesn't collide with an existing week
-  const today = isoDate(new Date());
-  const nextFree = plans.length ? addDays(plans.reduce((m, p) => (p.days.at(-1).date > m ? p.days.at(-1).date : m), ''), 1) : today;
-  const repeatStart = nextFree > today ? nextFree : today;
 
   const el = view(html`
     <div class="row between wrap">
       <h1>Past plans</h1>
-      <a class="btn" href="#/">This week</a>
+      <a class="btn" href="#/plan">This week</a>
     </div>
     ${plans.length ? '' : html`<p class="lead">No plans yet. Plan a week and it will be kept here.</p>`}
     <ol class="plan-history">${plans.map(p => html`
@@ -49,7 +46,7 @@ export async function render() {
     if (!action || !id) return;
     if (action === 'open') {
       await setMeta('currentPlan', id);
-      location.hash = '#/';
+      location.hash = '#/plan';
     }
     if (action === 'delete') {
       const plan = await getPlan(id);
@@ -82,7 +79,7 @@ export async function render() {
     await putPlan(plan);
     await setMeta('currentPlan', plan.id);
     toast(`Planned the week of ${formatDay(start, short)}`);
-    location.hash = '#/';
+    location.hash = '#/plan';
   });
   return el;
 }

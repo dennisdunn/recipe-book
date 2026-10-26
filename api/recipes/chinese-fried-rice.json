@@ -11,6 +11,11 @@
   ],
   "servings": null,
   "times": [],
+  "time": {
+    "text": "About 30 minutes",
+    "minutes": 30,
+    "reviewed": false
+  },
   "ingredients": [
     {
       "raw": "2 -3 cups left over rice",
@@ -216,30 +221,6 @@
     },
     {
       "text": "Heat the vegetable oil in a skillet over medium heat. Stir in the onion and garlic and cook until fragrant. Toss in the ground chicken and mushroom. Cook and stir until the chicken is crumbly, evenly browned, and no longer pink. Stir in the dark soy sauce, green onions, and rice. Cook and stir until the rice is evenly coated with the sauce. Pour the eggs over the rice, stirring until the eggs are no longer runny.",
-      "group": null
-    },
-    {
-      "text": "Hmm. None of these ingredients are on sale today.",
-      "group": null
-    },
-    {
-      "text": "Show ingredients on sale",
-      "group": null
-    },
-    {
-      "text": "Sort stores by",
-      "group": null
-    },
-    {
-      "text": "Save money at local stores when ingredients are on sale!",
-      "group": null
-    },
-    {
-      "text": "Watch video tips and tricks",
-      "group": null
-    },
-    {
-      "text": "All about Eggs",
       "group": null
     }
   ],

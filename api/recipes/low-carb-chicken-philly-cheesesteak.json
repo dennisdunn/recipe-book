@@ -28,6 +28,11 @@
       "text": "25 minutes"
     }
   ],
+  "time": {
+    "text": "About 25 minutes",
+    "minutes": 25,
+    "reviewed": false
+  },
   "ingredients": [
     {
       "raw": "10 oz boneless chicken breasts (about 2)",

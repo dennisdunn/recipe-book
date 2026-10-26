@@ -20,6 +20,11 @@
       "text": "5 minutes, Cook Time 40 minutes"
     }
   ],
+  "time": {
+    "text": "About 45 minutes",
+    "minutes": 45,
+    "reviewed": false
+  },
   "ingredients": [
     {
       "raw": "2 pounds chicken wings about 20 wingettes & drumettes",

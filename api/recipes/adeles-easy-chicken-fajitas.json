@@ -14,6 +14,11 @@
     "amount": 14
   },
   "times": [],
+  "time": {
+    "text": "About 45 minutes",
+    "minutes": 45,
+    "reviewed": false
+  },
   "ingredients": [
     {
       "raw": "2 bags of Tyson’s (frozen) Grilled & Ready Chicken Strips (22 oz each)",

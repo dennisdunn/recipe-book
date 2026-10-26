@@ -16,6 +16,11 @@
       "text": "15 mins Cook Time 20 mins Total Time 35 mins"
     }
   ],
+  "time": {
+    "text": "About 45 minutes",
+    "minutes": 45,
+    "reviewed": false
+  },
   "ingredients": [
     {
       "raw": "4 lbs Baby Back Ribs",

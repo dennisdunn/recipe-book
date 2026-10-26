@@ -14,6 +14,11 @@
     "amount": 6
   },
   "times": [],
+  "time": {
+    "text": "About 30 minutes",
+    "minutes": 30,
+    "reviewed": false
+  },
   "ingredients": [
     {
       "raw": "1 (2 1/2 pounds) sirloin steak, 1 1/2 inches thick",

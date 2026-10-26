@@ -8,7 +8,8 @@ Small scale, one household, no deadlines. Prefer simple over clever; avoid addin
 - **PWA** (installable, works offline, added to an iPad Home Screen) with a service worker. Static hosting on GitHub Pages
   as a project site: https://dennisdunn.github.io/recipe-book/ (repo `dennisdunn/recipe-book`, site and API in one repo).
 - **Plain static, no framework, no build step, no Jekyll** (`.nojekyll` at the root). ES modules in `js/`, one stylesheet
-  in `css/`, hash routes (`#/`, `#/shop`, `#/recipes`, `#/recipe/<slug>`, `#/settings`) because Pages has no SPA fallback.
+  in `css/`, hash routes because Pages has no SPA fallback: simple view `#/`, `#/choose`, `#/tonight`; helper view
+  `#/plan`, `#/menu`, `#/plans`, `#/shop`, `#/pantry`, `#/can-make`, `#/recipes`, `#/recipe/<slug>`, `#/settings`.
   The only dependency is `idb`, vendored in `js/vendor/idb.js`.
 - **Recipes are read-only static JSON** in `api/` (see `api/README.md` and `api/recipe.schema.json`). No server, no database.
   The import was one-time; recipes are edited by hand-editing files, then `node tools/build-index.mjs`.
@@ -26,9 +27,35 @@ Small scale, one household, no deadlines. Prefer simple over clever; avoid addin
 - The `main` tag marks dinner entrées the planner may pick (110 recipes, hand-curated). Users can override it per recipe in the app.
 - Ingredient lines with `confidence: "low"`: display `raw`, not the parsed fields.
 
+## Simple view (the default; `js/views/simple.js`)
+
+The main user is in the early stage of dementia and uses the app alone, mostly to decide the week's dinners.
+The app opens in the simple view; everything else is the **helper view**, reached by a small "Helper" link on Home
+(the topbar then shows "Simple view"). Rules for the simple view — keep them when changing it:
+
+- One task per screen and **at most two choices**, always in the same place (the choice bar is pinned to the bottom).
+- Plain words: weekday names, no dates, no jargon (no lock/swap/scale/staples). No tab bar.
+- Nothing that deletes, no `confirm()` dialogs, no timed messages or Undo toasts. Mistakes are fixed in the helper view.
+- Home shows one big button for where things stand: "Choose dinners" / "Choose the next dinner" / "Tonight's dinner".
+- Choose: the dinner's title, time (only once all are reviewed) and main ingredient **names** (no amounts, staples or
+  optional lines); "Yes, add it" / "Show me another". Days fill in order; finishing counts the week as suggested.
+  Tonight's pick never takes more than 2 hours (`TONIGHT_MAX_MINUTES` in `js/store.js`).
+- Tonight: the full recipe, large, with the screen kept awake; nothing else to press.
+- The week is `menuDates()` (helper Settings: how many dinners, from which weekday; default 5 from Monday): the rest of
+  the current window, or the next one once it is over. The stored plan covering those dates is the simple week.
+- `time` (in each main's recipe file) is a draft until reviewed; see `TIMES-REVIEW.md`. Times stay hidden until every
+  main has `reviewed: true`, so they never appear on some recipes and not others.
+
 ## Meal planner (`js/planner.js`, pure)
 
-- Plans 7 days from a chosen start date: weighted random over mains that are not excluded and not rated 1 star.
+- Two ways to plan a week, both offered on the plan screen:
+  - **Plan my week** (`fillPlan`): all 7 days at once, at random.
+  - **Build a menu** (`#/menu`, `pickOne`): one dinner at a time, shown as the full recipe (`js/recipe-view.js`).
+    "Add to menu" fills the next open day (locked), "Show another" passes it over, "No dinner <day>" skips the day.
+    Progress lives in `plan.menu` ({ offer, passed }), so a menu can be left and resumed. When every day is filled or
+    skipped, the done screen offers Save (counts the dinners, like "Save plan"). Open days in any plan show
+    "Not chosen yet" with Pick at random / Skip, and the plan screen offers to continue in the menu builder.
+- Both pick by weighted random over mains that are not excluded and not rated 1 star.
 - Recipes cooked or recommended within the no-repeat window (default 3 weeks, set in Settings) are left out while enough remain.
 - Ratings and favorites raise the odds; long-unseen recipes get a mild boost; the same category on adjacent days is discouraged.
 - Days can be locked, swapped, skipped (eating out), scaled (½× to 3×) and marked cooked.
@@ -86,8 +113,10 @@ Small scale, one household, no deadlines. Prefer simple over clever; avoid addin
   items (`balance()` in `js/views/shop.js`); check print changes in WebKit, not just Chromium.
 - Run `node tools/check.mjs` before every commit (offline file list, imports, URLs, syntax, `tests/`). Put logic in the pure
   modules (`planner.js`, `shopping.js`, `pantry.js`, `units.js`) and cover it in `tests/`; state shared by screens goes
-  in `js/store.js` and UI pieces used by several screens in `js/widgets.js` (screens never import each other).
-  From `js/ui.js`: build markup with `html` (escapes values), insert it with `setHTML()`, redraw with `rerender()`,
+  in `js/store.js` and UI pieces used by several screens in `js/widgets.js` and `js/recipe-view.js` (the full
+  recipe page) — screens never import each other.
+  From `js/ui.js`: build markup with `html` (escapes values), insert it with `setHTML()` / `appendHTML()`, redraw with
+  `rerender()` (`{ top: true }` to start at the top),
   and use `plural()` for counts.
 - Keep dependencies few. Any build tooling must produce plain static files that work on GitHub Pages.
 - Test with the real data (254 recipes), including edge cases: recipes with no directions, no quantities, ranges (`quantityMax`),

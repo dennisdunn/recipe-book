@@ -20,6 +20,11 @@
       "text": "8 hours on LOW or 4 hours on HIGH"
     }
   ],
+  "time": {
+    "text": "All day (slow cooker)",
+    "minutes": 480,
+    "reviewed": false
+  },
   "ingredients": [
     {
       "raw": "3 pounds boneless pork loin roast, trimmed",

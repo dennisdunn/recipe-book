@@ -27,6 +27,11 @@
       "text": "30 Minutes"
     }
   ],
+  "time": {
+    "text": "About 50 minutes",
+    "minutes": 50,
+    "reviewed": false
+  },
   "ingredients": [
     {
       "raw": "1 pound fettuccine pasta",

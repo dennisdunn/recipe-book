@@ -14,6 +14,11 @@
     "amount": 6
   },
   "times": [],
+  "time": {
+    "text": "About 30 minutes, plus marinating overnight",
+    "minutes": 750,
+    "reviewed": false
+  },
   "ingredients": [
     {
       "raw": "½ cup vegetable oil",

@@ -11,6 +11,11 @@
   ],
   "servings": null,
   "times": [],
+  "time": {
+    "text": "About 20 minutes",
+    "minutes": 20,
+    "reviewed": false
+  },
   "ingredients": [
     {
       "raw": "2 (15 ounce) cans black beans, rinsed and drained",

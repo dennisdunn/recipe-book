@@ -23,6 +23,11 @@
       "text": "30 mins."
     }
   ],
+  "time": {
+    "text": "About 1 hour",
+    "minutes": 60,
+    "reviewed": false
+  },
   "ingredients": [
     {
       "raw": "4 to 6 bone-in chicken pieces",

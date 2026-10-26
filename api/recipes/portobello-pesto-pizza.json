@@ -15,6 +15,11 @@
     "amount": 4
   },
   "times": [],
+  "time": {
+    "text": "About 30 minutes",
+    "minutes": 30,
+    "reviewed": false
+  },
   "ingredients": [
     {
       "raw": "2 TBSP of pine nuts (or walnuts)",

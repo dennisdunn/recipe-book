@@ -11,6 +11,11 @@
   ],
   "servings": null,
   "times": [],
+  "time": {
+    "text": "About 45 minutes",
+    "minutes": 45,
+    "reviewed": false
+  },
   "ingredients": [
     {
       "raw": "1 tablespoon olive oil",

@@ -15,6 +15,11 @@
     "amount": 6
   },
   "times": [],
+  "time": {
+    "text": "About 1½ hours",
+    "minutes": 90,
+    "reviewed": false
+  },
   "ingredients": [
     {
       "raw": "1 pound ground beef",

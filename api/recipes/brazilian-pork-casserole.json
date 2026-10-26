@@ -19,6 +19,11 @@
       "text": "30 mins.  Cooking time:  2 hours."
     }
   ],
+  "time": {
+    "text": "About 2½ hours",
+    "minutes": 150,
+    "reviewed": false
+  },
   "ingredients": [
     {
       "raw": "2 Tbsp butter",

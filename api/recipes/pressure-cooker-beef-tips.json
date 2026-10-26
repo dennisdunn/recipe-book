@@ -24,6 +24,11 @@
       "text": "15 min."
     }
   ],
+  "time": {
+    "text": "About 45 minutes",
+    "minutes": 45,
+    "reviewed": false
+  },
   "ingredients": [
     {
       "raw": "3 teaspoons olive oil",

@@ -27,6 +27,7 @@ for (const f of files) {
   if (!r.category) err('missing category');
   if (!Array.isArray(r.ingredients) || r.ingredients.length === 0) err('no ingredients');
   if (!Array.isArray(r.steps)) err('steps must be an array (may be empty)');
+  if (r.time != null && (typeof r.time.text !== 'string' || typeof r.time.reviewed !== 'boolean')) err('time needs text and reviewed');
   recipes.push(r);
 }
 const slugs = new Set(recipes.map(r => r.slug));
@@ -57,6 +58,7 @@ const index = recipes.map(r => ({
   subcategory: r.subcategory ?? null,
   tags: r.tags ?? [],
   servings: r.servings?.text ?? null,
+  time: r.time ? { text: r.time.text, minutes: r.time.minutes ?? null, reviewed: r.time.reviewed } : null,
   ingredients: [...new Set(r.ingredients.map(i =>
     (i.catalogId ? existing[i.catalogId].name : i.item).toLowerCase()))].sort(),
   // catalog ids the recipe cannot do without (not optional, purchasable): used for pantry matching

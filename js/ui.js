@@ -12,6 +12,10 @@ export const html = (strings, ...vals) => raw(strings.reduce((out, s, i) => out 
 export function setHTML(el, tpl) {
   el.innerHTML = str(tpl);
 }
+/** Add a template's markup at the end of an element. */
+export function appendHTML(el, tpl) {
+  el.insertAdjacentHTML('beforeend', str(tpl));
+}
 
 /** "1 item", "3 items"; pass the plural when it is not just +s. */
 export const plural = (n, word, many = `${word}s`) => `${n} ${n === 1 ? word : many}`;
@@ -38,8 +42,18 @@ export function formatDay(iso, opts = { weekday: 'short', month: 'short', day: '
   return new Date(`${iso}T12:00:00`).toLocaleDateString(undefined, opts);
 }
 
-/** Redraw the current screen (the router re-renders on hashchange and keeps the scroll position). */
-export const rerender = () => window.dispatchEvent(new HashChangeEvent('hashchange'));
+/** Redraw the current screen. The router keeps the scroll position unless `top` is set (e.g. new content). */
+let scrollTopNext = false;
+export function rerender({ top = false } = {}) {
+  scrollTopNext = top;
+  window.dispatchEvent(new HashChangeEvent('hashchange'));
+}
+/** For the router: whether the redraw asked to start at the top (reading clears it). */
+export function takeScrollTop() {
+  const top = scrollTopNext;
+  scrollTopNext = false;
+  return top;
+}
 
 let toastTimer;
 /** Brief message; with `action` ({ label, run }) it shows a button (e.g. Undo) and stays up a little longer. */

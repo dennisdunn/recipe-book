@@ -11,6 +11,11 @@
   ],
   "servings": null,
   "times": [],
+  "time": {
+    "text": "About 40 minutes",
+    "minutes": 40,
+    "reviewed": false
+  },
   "ingredients": [
     {
       "raw": "1/2 pound hard pretzels, coarsely crushed (4 cups)",

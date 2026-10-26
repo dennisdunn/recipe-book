@@ -27,6 +27,11 @@
       "text": "50 mins to 1 hr"
     }
   ],
+  "time": {
+    "text": "About 1½ hours, plus 2 to 4 hours marinating",
+    "minutes": 270,
+    "reviewed": false
+  },
   "ingredients": [
     {
       "raw": "3 cups  buttermilk",

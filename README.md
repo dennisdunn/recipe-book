@@ -7,9 +7,15 @@ and keep ratings and cooking notes. It runs from plain static files on GitHub Pa
 
 ## What it does
 
-- **Plan:** picks seven dinners at random from the recipes tagged as mains. Favorites and high ratings come up more
-  often, and anything cooked or suggested in the last few weeks rests. Days can be locked, swapped, skipped, scaled
-  (½× to 3×) and marked cooked. Every week is kept under **Past plans**, where it can be reopened, repeated or deleted.
+The app opens in a **simple view** made for someone who needs one clear step at a time: a big button on Home, one
+dinner at a time with just "Yes, add it" or "Show me another", and tonight's recipe in large type. Everything below
+is the **helper view**, reached from the small "Helper" link at the bottom of Home.
+
+- **Plan:** two ways to fill a week. **Plan my week** picks seven dinners at once; **Build a menu** shows one
+  random dinner at a time as the full recipe, to add to the menu or pass over until the week is full. Both pick from
+  the recipes tagged as mains. Favorites and high ratings come up more often, and anything cooked or suggested in
+  the last few weeks rests. Days can be locked, swapped, skipped, scaled (½× to 3×) and marked cooked. Every week
+  is kept under **Past plans**, where it can be reopened, repeated or deleted.
 - **Shop:** a shopping list for the week, merged by ingredient and grouped by aisle, in US kitchen units. Staples
   (salt, oil, flour…) are hidden unless you want them, and items already in the pantry are set aside. Prints in two
   columns without the ticked-off items.

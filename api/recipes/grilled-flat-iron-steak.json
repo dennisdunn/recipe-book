@@ -11,6 +11,11 @@
   ],
   "servings": null,
   "times": [],
+  "time": {
+    "text": "About 30 minutes, plus 5 hours marinating",
+    "minutes": 330,
+    "reviewed": false
+  },
   "ingredients": [
     {
       "raw": "1/4 cup red wine vinegar",

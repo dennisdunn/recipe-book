@@ -11,6 +11,11 @@
   ],
   "servings": null,
   "times": [],
+  "time": {
+    "text": "About 3 hours",
+    "minutes": 180,
+    "reviewed": false
+  },
   "ingredients": [
     {
       "raw": "3 med onions, chopped",

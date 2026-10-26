@@ -14,6 +14,11 @@
     "amount": 6
   },
   "times": [],
+  "time": {
+    "text": "About 45 minutes",
+    "minutes": 45,
+    "reviewed": false
+  },
   "ingredients": [
     {
       "raw": "1 lb ground chuck or round",

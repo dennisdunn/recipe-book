@@ -81,3 +81,50 @@ test('uncounted lists recipes not yet counted as recommended', () => {
   plan.counted = ['a'];
   assert.deepEqual(uncounted(plan), ['b']);
 });
+
+test('pickOne offers a main not already in the plan or passed over', async () => {
+  const { pickOne, nextOpenDay } = await import('../js/planner.js');
+  const plan = newPlan('2026-10-05');
+  plan.days[0].recipeId = 'r0';
+  plan.days[1].skip = true;
+  assert.equal(nextOpenDay(plan), 2);
+  const passed = Array.from({ length: 17 }, (_, i) => `r${i + 1}`); // everything except r0, r18, r19
+  for (let s = 1; s < 30; s++) {
+    const e = pickOne(plan, 2, index, new Map(), { rng: seeded(s), now: NOW, exclude: passed });
+    assert.ok(['r18', 'r19'].includes(e.id), e.id);
+  }
+  assert.equal(pickOne(plan, 2, index, new Map(), { now: NOW, exclude: index.map(e => e.id) }), null);
+  plan.days.forEach(d => { d.recipeId ??= d.skip ? null : 'r1'; });
+  assert.equal(nextOpenDay(plan), -1);
+});
+
+test('pickOne rests recently cooked recipes while others remain, then offers them', async () => {
+  const { pickOne } = await import('../js/planner.js');
+  const stats = new Map([['r19', { lastCooked: '2026-10-03' }]]);
+  const allBut19 = index.slice(0, 19).map(e => e.id);
+  const plan = newPlan('2026-10-05');
+  assert.equal(pickOne(plan, 0, index, stats, { now: NOW, exclude: allBut19.slice(1) }).id, 'r0');
+  assert.equal(pickOne(plan, 0, index, stats, { now: NOW, exclude: allBut19 }).id, 'r19');
+});
+
+test('menuDates: the rest of this Monday–Friday window, or next week once it is over', async () => {
+  const { menuDates } = await import('../js/planner.js');
+  // 2026-10-26 is a Monday
+  assert.deepEqual(menuDates('2026-10-26'), ['2026-10-26', '2026-10-27', '2026-10-28', '2026-10-29', '2026-10-30']);
+  assert.deepEqual(menuDates('2026-10-28'), ['2026-10-28', '2026-10-29', '2026-10-30']); // Wednesday
+  assert.deepEqual(menuDates('2026-10-30'), ['2026-10-30']); // Friday
+  assert.deepEqual(menuDates('2026-10-31'), ['2026-11-02', '2026-11-03', '2026-11-04', '2026-11-05', '2026-11-06']); // Saturday
+  assert.deepEqual(menuDates('2026-11-01'), ['2026-11-02', '2026-11-03', '2026-11-04', '2026-11-05', '2026-11-06']); // Sunday
+  // a Sunday-to-Thursday week of 5
+  assert.deepEqual(menuDates('2026-10-30', { startDay: 0, count: 5 }), ['2026-11-01', '2026-11-02', '2026-11-03', '2026-11-04', '2026-11-05']);
+  assert.equal(menuDates('2026-10-26', { startDay: 1, count: 7 }).length, 7);
+});
+
+test('pickOne honours allow (e.g. nothing long for tonight)', async () => {
+  const { pickOne } = await import('../js/planner.js');
+  const timed = index.map((e, i) => ({ ...e, time: { minutes: i < 18 ? 600 : 30 } }));
+  for (let s = 1; s < 30; s++) {
+    const e = pickOne(newPlan('2026-10-05'), 0, timed, new Map(), { rng: seeded(s), now: NOW, allow: x => x.time.minutes <= 120 });
+    assert.ok(['r18', 'r19'].includes(e.id), e.id);
+  }
+});

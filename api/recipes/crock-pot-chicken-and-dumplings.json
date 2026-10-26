@@ -14,6 +14,11 @@
     "amount": 4
   },
   "times": [],
+  "time": {
+    "text": "All afternoon (slow cooker)",
+    "minutes": 360,
+    "reviewed": false
+  },
   "ingredients": [
     {
       "raw": "1 large onion, diced",

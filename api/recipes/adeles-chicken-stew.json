@@ -23,6 +23,11 @@
       "text": "3 to 4 hours."
     }
   ],
+  "time": {
+    "text": "About 4 hours (slow cooker)",
+    "minutes": 240,
+    "reviewed": false
+  },
   "ingredients": [
     {
       "raw": "1 roll of Grands Buttermilk biscuits",
