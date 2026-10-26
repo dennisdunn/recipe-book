@@ -1,11 +1,11 @@
-# Cooking times to review
+# Cooking times
 
-Draft times for the 110 dinner mains, shown on the simple choosing screen once reviewed.
-Each is the whole time from starting to eating, rounded to a friendly figure. "Plus marinating/soaking" means it must
-be started earlier. Guesses (no times in the recipe) are marked; please check those first.
+Reviewed by Dennis on 2026-10-26: all 110 dinner mains have `time.reviewed: true`, so the simple view shows them.
+This table records where each time came from. Each is the whole time from starting to eating, rounded to a friendly
+figure; "plus marinating/soaking" means it must be started earlier.
 
-To correct one, edit `time.text` (and `time.minutes`) in `api/recipes/<slug>.json`, or tell Claude.
-When the list is right, set `reviewed` to true for all of them (Claude can do it) and run `node tools/build-index.mjs`.
+To change one, edit `time.text` (and `time.minutes`) in `api/recipes/<slug>.json` and run `node tools/build-index.mjs`.
+A new dinner main needs a `time` too; until it has a reviewed one, the simple view hides times for every recipe.
 
 Guesses: 18. From the recipe: 20. From the directions: 72.
 
