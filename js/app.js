@@ -49,8 +49,12 @@ async function route() {
     el = mod ? await mod.render(params) : view(html`<h1>Not found</h1><a class="btn" href="#/">Home</a>`);
   } catch (err) {
     console.error(err);
-    el = view(html`<h1>Something went wrong</h1><p class="lead">${err.message}</p>
-      <p>If you are offline, this page may not have been saved yet.</p><a class="btn" href="#/">Home</a>`);
+    // the simple view gets plain words and one way out; the helper view also gets the technical message
+    el = mode === 'simple'
+      ? view(html`<h1>Something went wrong</h1><p class="simple-lead">Please go back to the start and try again.</p>
+          <a class="btn primary huge" href="#/">Start again</a>`)
+      : view(html`<h1>Something went wrong</h1><p class="lead">${err.message}</p>
+          <p>If you are offline, this page may not have been saved yet.</p><a class="btn" href="#/plan">Back to the plan</a>`);
   }
   if (n !== seq) return el.cleanup?.(); // a newer navigation finished first
   shown.el?.cleanup?.();

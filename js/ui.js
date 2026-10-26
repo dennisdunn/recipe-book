@@ -41,6 +41,8 @@ export function stars(rating, { size = '', interactive = false } = {}) {
 export function formatDay(iso, opts = { weekday: 'short', month: 'short', day: 'numeric' }) {
   return new Date(`${iso}T12:00:00`).toLocaleDateString(undefined, opts);
 }
+/** "Monday" */
+export const weekday = iso => formatDay(iso, { weekday: 'long' });
 
 /** Redraw the current screen. The router keeps the scroll position unless `top` is set (e.g. new content). */
 let scrollTopNext = false;

@@ -5,7 +5,8 @@
 //     days: [{ date, recipeId (null = none), locked, skip, multiplier, cooked }],
 //     accepted (saved at least once), counted: [recipe ids already counted as recommended],
 //     checked: [shopping keys ticked: catalogId or 'extra:<text>'], extras: [items added to the shopping list],
-//     menu (only for weeks built in the menu builder): { offer: recipe id on show, passed: [ids passed over] } }
+//     menu (weeks built one dinner at a time: helper menu builder or simple view):
+//       { offer: recipe id on show, passed: [ids passed over], lastAdded: index of the day just filled (simple view) } }
 // Plans saved by older versions may lack fields; read them through normalizePlan().
 // Picks are weighted random:
 //   - candidates are mains (tag "main", or the user's per-recipe override), not excluded, not rated 1 star

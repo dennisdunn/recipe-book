@@ -1,3 +1,5 @@
+/* ==== 1. Tokens ==== */
+
 /* Brand: "Herb garden". Rosemary green, warm white, mustard. See brand.html for the reference sheet.
    Every text pairing meets WCAG AA in both themes; --control (input and button borders) meets 3:1. */
 :root {
@@ -35,6 +37,8 @@
   }
 }
 
+/* ==== 2. Base ==== */
+
 * { box-sizing: border-box; }
 html { -webkit-text-size-adjust: 100%; }
 body {
@@ -57,8 +61,10 @@ p { margin: 0.5em 0; }
 .small { font-size: 0.85rem; }
 [hidden] { display: none !important; }
 
-/* layout */
+/* ==== 3. Layout: top bar, page, rows, cards, tab bar ==== */
+
 .topbar {
+  display: flex; align-items: center; justify-content: space-between; gap: 12px;
   position: sticky; top: 0; z-index: 10;
   padding: calc(10px + env(safe-area-inset-top)) max(16px, env(safe-area-inset-right)) 10px max(16px, env(safe-area-inset-left));
   background: var(--bg);
@@ -87,7 +93,7 @@ main:focus, main:focus-visible { outline: none; }
 }
 .notice { background: var(--accent-soft); border-color: transparent; }
 
-/* bottom tabs */
+/* bottom tab bar (helper view only) */
 .tabs {
   position: fixed; left: 0; right: 0; bottom: 0; z-index: 10;
   display: flex;
@@ -102,7 +108,8 @@ main:focus, main:focus-visible { outline: none; }
 }
 .tabs a[aria-current] { color: var(--accent); box-shadow: inset 0 3px 0 var(--accent); }
 
-/* controls */
+/* ==== 4. Controls: buttons, inputs, chips, tags, stars ==== */
+
 .btn {
   display: inline-flex; align-items: center; justify-content: center; gap: 6px;
   min-height: var(--tap); padding: 0 18px;
@@ -153,6 +160,8 @@ input[type="checkbox"] { min-height: 0; width: 26px; height: 26px; accent-color:
 }
 .stars.rate button.on { color: var(--star); }
 
+/* ==== 5. Helper view screens ==== */
+
 /* plan */
 .days { list-style: none; padding: 0; margin: 0; display: grid; gap: 12px; }
 @media (min-width: 900px) { main:has(.days) { max-width: 1100px; } .days { grid-template-columns: 1fr 1fr; } }
@@ -175,11 +184,14 @@ input[type="checkbox"] { min-height: 0; width: 26px; height: 26px; accent-color:
 }
 .recipe-list .title { font-weight: 600; font-size: 1.05rem; }
 .recipe-list .muted { font-size: 0.9rem; }
+/* what can I make? */
 .match-list li { display: flex; align-items: center; justify-content: space-between; gap: 12px; border-bottom: 1px solid var(--line); }
 .match-list li a { border-bottom: 0; flex: 1; }
 .recipe-list .missing { font-size: 0.9rem; color: var(--text); }
+/* shopping list: "Already have" (pantry) */
 .already .shop li { padding: 6px 0; gap: 12px; }
 .already summary { font-weight: 600; }
+/* menu builder */
 .menu-head { margin: 4px 0 8px; }
 .menu-day { font-size: 1.2rem; margin: 2px 0 6px; }
 .menu-chosen { list-style: none; padding: 0; margin: 6px 0 0; display: flex; flex-wrap: wrap; gap: 4px 14px; font-size: 0.9rem; }
@@ -194,6 +206,7 @@ input[type="checkbox"] { min-height: 0; width: 26px; height: 26px; accent-color:
   background: var(--bg); border-top: 3px solid var(--brand-mustard);
 }
 body.cooking .menu-bar, body.cooking .menu-head { display: none; }
+/* past plans */
 .plan-history { list-style: none; padding: 0; margin: 0; }
 .plan-history > li.current { border-color: var(--accent); }
 .plan-history h2 { margin: 0; }
@@ -239,6 +252,7 @@ body.cooking .steps li.current { background: var(--accent-soft); outline: 2px so
 .shop .raw { font-style: italic; }
 .shop li.done .item-name, .shop li.done .qty { text-decoration: line-through; color: var(--muted); }
 
+/* toast (helper view only; the simple view has no timed messages) */
 #toast {
   position: fixed; left: 50%; transform: translateX(-50%);
   bottom: calc(80px + env(safe-area-inset-bottom)); z-index: 20;
@@ -251,8 +265,8 @@ body.cooking .steps li.current { background: var(--accent-soft); outline: 2px so
   background: var(--bg); color: var(--text); font: inherit; font-weight: 700; cursor: pointer;
 }
 
-/* ---- Simple view (the default): bigger type, one or two big buttons, no tab bar ---- */
-.topbar { display: flex; align-items: center; justify-content: space-between; gap: 12px; }
+/* ==== 6. Simple view (the default): bigger type, one or two big buttons, no tab bar ==== */
+
 .topbar .btn { min-height: 44px; }
 .topbar-home, .topbar-simple { display: none; }
 body[data-mode="simple"][data-home="false"] .topbar-home { display: inline-flex; font-size: 1.05rem; padding: 0 22px; }
@@ -300,6 +314,8 @@ body[data-mode="simple"] h1 { font-size: 2rem; }
 main:has(.simple-bar) { padding-bottom: calc(130px + env(safe-area-inset-bottom)); }
 .helper-link { margin-top: 56px; font-size: 0.9rem; }
 .helper-link a { color: var(--muted); }
+
+/* ==== 7. Printing ==== */
 
 .print-only { display: none; }
 .simple-print { display: none; }

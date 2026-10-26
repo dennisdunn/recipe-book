@@ -5,10 +5,8 @@ import { indexById } from '../data.js';
 import { putPlan } from '../db.js';
 import { nextOpenDay, uncounted } from '../planner.js';
 import { recipeView } from '../recipe-view.js';
-import { currentPlan, getPlan, offerFor, savePlanCounts, nextFreeStart, startMenuWeek } from '../store.js';
-import { html, view, formatDay, toast, rerender, plural, appendHTML } from '../ui.js';
-
-const weekday = iso => formatDay(iso, { weekday: 'long' });
+import { currentPlan, getPlan, offerForMenu, savePlanCounts, nextFreeStart, startMenuWeek } from '../store.js';
+import { html, view, formatDay, toast, rerender, plural, appendHTML, weekday } from '../ui.js';
 
 export async function render() {
   const [plan, byId] = await Promise.all([currentPlan(), indexById()]);
@@ -17,21 +15,10 @@ export async function render() {
   if (plan?.menu && day === -1 && uncounted(plan).length) return doneView(plan, byId);
   if (!plan || day === -1) return startView(await nextFreeStart());
 
-  plan.menu ??= { offer: null, passed: [] }; // continuing a week that has open days
-  const inPlan = new Set(plan.days.map(d => d.recipeId));
-  const { menu } = plan;
-  let entry = menu.offer && !inPlan.has(menu.offer) && !menu.passed.includes(menu.offer) ? byId.get(menu.offer) : null;
-  entry ??= await offerFor(plan, day, menu.passed);
-  if (!entry && menu.passed.length) {
-    menu.passed = []; // every dinner has been passed over once: go round again
-    entry = await offerFor(plan, day, []);
-    toast("That's every dinner; starting over");
-  }
-  if (menu.offer !== (entry?.id ?? null)) {
-    menu.offer = entry?.id ?? null; // remember it, so a redraw or a later visit shows the same recipe
-    await putPlan(plan);
-  }
+  const { entry, restarted } = await offerForMenu(plan, day);
+  if (restarted) toast("That's every dinner; starting over");
   if (!entry) return emptyView(plan, day);
+  const { menu } = plan;
 
   const chosen = plan.days.filter(d => byId.has(d.recipeId) || d.skip);
   const el = view(html`
@@ -91,7 +78,10 @@ function startView(start) {
     <p class="muted">Prefer all seven at once? <a href="#/plan">Plan my week</a> picks them at random.</p>`);
   el.querySelector('form').addEventListener('submit', async e => {
     e.preventDefault();
-    if (await startMenuWeek(e.target.start.value)) rerender({ top: true });
+    const start = e.target.start.value;
+    if (await getPlan(start) && !confirm(`There is already a plan starting ${formatDay(start)}. Replace it?`)) return;
+    await startMenuWeek(start);
+    rerender({ top: true });
   });
   return el;
 }

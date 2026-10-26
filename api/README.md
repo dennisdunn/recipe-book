@@ -22,8 +22,9 @@ Size: about 2 MB of JSON in total (the index is about 125 KB); GitHub Pages serv
 ## Times
 
 `times` is what the source said ("Prep time: 20 mins"). `time` is one friendly overall figure for the simple view,
-`{ text: "About 45 minutes", minutes: 45, reviewed: false }`, set for the dinner mains. Drafts have `reviewed: false`
-and are listed in `../TIMES-REVIEW.md`; the app shows times only once every main is reviewed.
+`{ text: "About 45 minutes", minutes: 45, reviewed: true }`, set for every dinner main (`minutes` is start to eating,
+including marinating). `reviewed: false` marks a draft; the app shows times only while every main is reviewed.
+`../TIMES-REVIEW.md` records where each time came from.
 
 ## Identifiers
 

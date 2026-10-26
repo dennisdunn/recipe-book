@@ -2,8 +2,8 @@ import { indexById } from '../data.js';
 import { allStats, setMeta, putPlan, updateStat } from '../db.js';
 import { newPlan, uncounted, isoDate, addDays } from '../planner.js';
 import { coverage } from '../pantry.js';
-import { currentPlan, settings, saveSettings, loadPantry, fillDays, savePlanCounts, startMenuWeek } from '../store.js';
-import { html, view, stars, formatDay, toast, rerender, plural } from '../ui.js';
+import { currentPlan, getPlan, settings, saveSettings, loadPantry, fillDays, savePlanCounts, startMenuWeek } from '../store.js';
+import { html, view, stars, formatDay, toast, rerender, plural, weekday } from '../ui.js';
 
 const MULTIPLIERS = [0.5, 1, 1.5, 2, 3];
 const multLabel = m => ({ 0.5: '½×', 1.5: '1½×' })[m] ?? `${m}×`;
@@ -52,7 +52,10 @@ function startView(cfg, pantry, start = isoDate(new Date())) {
   });
   el.addEventListener('click', async e => {
     if (e.target.closest('[data-action]')?.dataset.action !== 'menu') return;
-    if (await startMenuWeek(el.querySelector('input[name=start]').value)) location.hash = '#/menu';
+    const start = el.querySelector('input[name=start]').value;
+    if (await getPlan(start) && !confirm(`There is already a plan starting ${formatDay(start)}. Replace it?`)) return;
+    await startMenuWeek(start);
+    location.hash = '#/menu';
   });
   el.addEventListener('change', savePantryToggle);
   return el;
@@ -134,18 +137,18 @@ function planView(plan, byId, stats, cfg, pantry) {
 }
 
 function dayCard(d, i, entry, stat, cov) {
-  const weekday = formatDay(d.date, { weekday: 'long' });
+  const dayName = weekday(d.date);
   const date = formatDay(d.date, { month: 'short', day: 'numeric' });
   if (d.skip) {
     return html`<li class="day card skip" data-day="${i}">
-      <div class="day-date"><strong>${weekday}</strong> ${date}</div>
+      <div class="day-date"><strong>${dayName}</strong> ${date}</div>
       <p class="muted">No dinner planned (out, leftovers…)</p>
       <div class="row wrap gap"><button class="btn" data-action="skip">Plan a dinner</button></div>
     </li>`;
   }
   if (!entry) {
     return html`<li class="day card skip" data-day="${i}">
-      <div class="day-date"><strong>${weekday}</strong> ${date}</div>
+      <div class="day-date"><strong>${dayName}</strong> ${date}</div>
       <p class="muted">${d.recipeId ? 'That recipe is no longer in the book.' : 'Not chosen yet.'}</p>
       <div class="row wrap gap">
         <button class="btn small" data-action="swap">Pick at random</button>
@@ -154,7 +157,7 @@ function dayCard(d, i, entry, stat, cov) {
     </li>`;
   }
   return html`<li class="day card ${d.locked ? 'locked' : ''} ${d.cooked ? 'cooked' : ''}" data-day="${i}">
-    <div class="day-date"><strong>${weekday}</strong> ${date}</div>
+    <div class="day-date"><strong>${dayName}</strong> ${date}</div>
     <a class="day-title" href="#/recipe/${entry.slug}">${entry.title}</a>
     <div class="muted">${entry.category} ${stars(stat?.rating, { size: 'small' })}${stat?.favorite ? ' ♥' : ''}</div>
     ${cov?.needed ? html`<div class="muted small">You have ${cov.using} of ${cov.needed} ingredients</div>` : ''}

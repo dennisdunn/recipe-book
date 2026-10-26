@@ -9,8 +9,9 @@ and keep ratings and cooking notes. It runs from plain static files on GitHub Pa
 
 The app opens in a **simple view** made for someone who needs one clear step at a time. Home shows tonight's dinner
 (or a button to choose it) and the week below; choosing shows one dinner at a time with just "Yes, add it" or "Show me
-another", a chosen dinner can be removed and chosen again, every title opens its recipe, and tonight's recipe is in
-large type, so the menu does not have to be finished before cooking from it. Everything below
+another", a chosen dinner can be removed and chosen again, other days' titles open their recipe, tonight's recipe is
+in large type, and one tap prints the week's shopping list. The menu does not have to be finished before cooking from
+it. Everything below
 is the **helper view**, reached from the small "Helper" link at the bottom of Home.
 
 - **Plan:** two ways to fill a week. **Plan my week** picks seven dinners at once; **Build a menu** shows one
@@ -69,13 +70,15 @@ browser's developer tools.
 |---|---|
 | `index.html`, `manifest.webmanifest`, `sw.js` | page shell, install manifest, offline cache |
 | `js/app.js` | start-up and the hash router (`#/`, `#/shop`, `#/pantry`, `#/recipes`, …) |
-| `js/planner.js`, `js/shopping.js`, `js/pantry.js`, `js/units.js` | the logic, with no DOM or storage (runs in Node too) |
+| `js/planner.js`, `js/shopping.js`, `js/pantry.js`, `js/units.js`, `js/simple-state.js` | the logic, with no DOM or storage (runs in Node too) |
 | `js/data.js`, `js/db.js`, `js/store.js` | recipe data from `api/`; user data in IndexedDB; state shared by screens |
-| `js/ui.js`, `js/widgets.js` | markup helpers; small UI pieces shared by screens |
-| `js/views/` | one module per screen |
+| `js/ui.js`, `js/widgets.js`, `js/recipe-view.js` | markup helpers; UI pieces shared by screens; the full recipe page |
+| `js/views/simple.js` | the simple view (Home, choosing, tonight, a recipe) |
+| `js/views/` | the helper view: one module per screen |
 | `tests/` | tests for the logic modules and the recipe data (`node --test tests/`) |
 | `api/` | the recipe data (see [`api/README.md`](api/README.md)) |
 | `tools/build-index.mjs` | validates recipes and regenerates the index files |
+| `REVIEW.md`, `TIMES-REVIEW.md` | import notes to check; where each dinner's time came from |
 | `tools/check.mjs` | pre-push check: offline file list, imports, URLs, syntax and tests |
 | `brand.html`, `icons/` | brand sheet, icon sources and sizes |
 | `CLAUDE.md` | design notes and conventions |

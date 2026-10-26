@@ -9,7 +9,7 @@ A new dinner main needs a `time` too; until it has a reviewed one, the simple vi
 
 Guesses: 18. From the recipe: 20. From the directions: 72.
 
-| Recipe | Draft time | Based on |
+| Recipe | Time | Based on |
 |---|---|---|
 | Adele's Experimental Curry | About 45 minutes | **my guess**: no directions in the recipe |
 | Adele's Sausage and Potato Medley | About 45 minutes | **my guess**: boil potatoes, sauté sausage |

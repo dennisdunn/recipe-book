@@ -5,7 +5,6 @@ import { buildShoppingList } from './shopping.js';
 import { allStats, getMeta, setMeta, updateStat, putPlan, getPlan as dbGetPlan, allPlans as dbAllPlans } from './db.js';
 import { newPlan, fillPlan, pickOne, normalizePlan, uncounted, isoDate, addDays, menuDates, DEFAULTS } from './planner.js';
 import { EMPTY_PANTRY, onHand, coverage, pantryBoost } from './pantry.js';
-import { formatDay } from './ui.js';
 
 export const getPlan = async id => normalizePlan(await dbGetPlan(id));
 export const allPlans = async () => (await dbAllPlans()).map(normalizePlan);
@@ -75,6 +74,32 @@ export async function offerFor(plan, dayIndex, exclude) {
     ?? (allow ? pickOne(plan, dayIndex, index, stats, { ...opts, exclude }) : null); // nothing short enough: anything
 }
 
+/**
+ * The dinner on offer for day `dayIndex` of a week built one dinner at a time (helper menu builder and simple view).
+ * Keeps showing the same recipe until it is added or passed over (`plan.menu.offer`, saved so a redraw or a later
+ * visit shows it again); once every dinner has been passed over, starts the round again.
+ * Returns { entry, restarted }; entry is null when nothing at all can be offered.
+ */
+export async function offerForMenu(plan, dayIndex) {
+  plan.menu ??= { offer: null, passed: [] };
+  const { menu } = plan;
+  const byId = await indexById();
+  const inPlan = new Set(plan.days.map(d => d.recipeId));
+  let entry = menu.offer && !inPlan.has(menu.offer) && !menu.passed.includes(menu.offer) ? byId.get(menu.offer) : null;
+  let restarted = false;
+  entry ??= await offerFor(plan, dayIndex, menu.passed);
+  if (!entry && menu.passed.length) {
+    menu.passed = [];
+    restarted = true;
+    entry = await offerFor(plan, dayIndex, []);
+  }
+  if (menu.offer !== (entry?.id ?? null) || restarted) {
+    menu.offer = entry?.id ?? null;
+    await putPlan(plan);
+  }
+  return { entry: entry ?? null, restarted };
+}
+
 /** "Save plan": count the plan's new dinners as suggested, so they rest for the no-repeat window. */
 export async function savePlanCounts(plan) {
   const today = isoDate(new Date());
@@ -86,13 +111,11 @@ export async function savePlanCounts(plan) {
   return plan;
 }
 
-/** Start an empty week for the menu builder and make it current. Asks before replacing a plan with the same start. */
+/** Start an empty week for the menu builder and make it current (replacing any plan with the same start). */
 export async function startMenuWeek(start) {
-  if (await getPlan(start) && !confirm(`There is already a plan starting ${formatDay(start)}. Replace it?`)) return false;
   const plan = { ...newPlan(start), menu: { offer: null, passed: [] } };
   await putPlan(plan);
   await setMeta('currentPlan', plan.id);
-  return true;
 }
 
 /**
