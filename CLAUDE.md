@@ -45,7 +45,8 @@ The app opens in the simple view; everything else is the **helper view**, reache
   optional lines); "Yes, add it" / "Show me another". Days fill in order from the first open one; the chosen dinners
   above have Remove buttons. Each "Yes" counts that dinner as suggested right away (`savePlanCounts`).
   Tonight's pick never takes more than 2 hours (`TONIGHT_MAX_MINUTES` in `js/store.js`).
-- Every dinner title links to its recipe (`#/dish/<slug>`: the full recipe, large, with one Back button).
+- Dinner titles link to their recipe (`#/dish/<slug>`: the full recipe, large, with one Back button), except
+  tonight's: its only way in is "Show me how to make it" (one path to tonight's recipe).
 - Tonight: the full recipe, large, with the screen kept awake; nothing else to press.
 - The week is `menuDates()` (helper Settings: how many dinners, from which weekday; default 5 from Monday): the rest of
   the current window, or the next one once it is over. The stored plan covering those dates is the simple week.

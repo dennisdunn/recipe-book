@@ -18,13 +18,16 @@ async function timesReady() {
 
 const dishLink = e => html`<a href="#/dish/${e.slug}">${e.title}</a>`;
 
-/** The week's days; chosen dinners link to their recipe, and with `remove` each gets a Remove button. */
+/**
+ * The week's days; chosen dinners link to their recipe (except tonight's, which is opened only by "Show me how to
+ * make it"), and with `remove` each gets a Remove button.
+ */
 function weekList(days, byId, { today, highlight, remove = false } = {}) {
   return html`<ul class="simple-week ${remove ? 'editable' : ''}">${days.map(d => {
     const e = byId.get(d.recipeId);
     const cls = [highlight != null && d.index === highlight ? 'new' : '', d.date === today ? 'today' : ''].join(' ');
     return html`<li class="${cls}"><span class="wk-day">${weekday(d.date)}</span>
-      <span>${e ? dishLink(e) : html`<span class="muted">${d.skip ? 'No dinner' : 'Not chosen yet'}</span>`}</span>
+      <span>${e ? (d.date === today ? e.title : dishLink(e)) : html`<span class="muted">${d.skip ? 'No dinner' : 'Not chosen yet'}</span>`}</span>
       ${remove ? (e ? html`<button class="btn small" data-remove="${d.index}" aria-label="Remove ${e.title} from ${weekday(d.date)}">Remove</button>` : html`<span></span>`) : ''}
     </li>`;
   })}</ul>`;
@@ -51,7 +54,7 @@ export async function home() {
   return view(html`
     <h1>Tonight</h1>
     ${tonight ? html`<div class="tonight-card">
-        <p class="tonight-title">${dishLink(tonight)}</p>
+        <p class="tonight-title">${tonight.title}</p>
         ${showTime && tonight.time ? html`<p class="simple-time">${tonight.time.text}</p>` : ''}
       </div>`
       : html`<p class="simple-lead">${tonightDay ? 'Nothing is chosen for tonight yet.' : 'No dinner is planned for tonight.'}</p>`}
