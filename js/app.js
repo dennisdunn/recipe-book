@@ -72,6 +72,24 @@ async function route() {
 
 window.addEventListener('hashchange', route);
 
+// The way into the helper view: press and hold the logo for 2 seconds (a ring fills while holding). Nothing on screen
+// points to it, so the simple view stays simple; a plain tap still goes Home.
+const HOLD_MS = 2000;
+const brand = document.querySelector('.brand');
+let holdTimer = null, holdStart = null, swallowClick = false;
+const endHold = () => { clearTimeout(holdTimer); holdTimer = null; brand.classList.remove('holding'); };
+brand.addEventListener('pointerdown', e => {
+  holdStart = { x: e.clientX, y: e.clientY };
+  brand.classList.add('holding');
+  holdTimer = setTimeout(() => { endHold(); swallowClick = true; location.hash = '#/plan'; }, HOLD_MS);
+});
+brand.addEventListener('pointermove', e => { // a finger that moves is scrolling, not holding
+  if (holdTimer && Math.hypot(e.clientX - holdStart.x, e.clientY - holdStart.y) > 12) endHold();
+});
+['pointerup', 'pointercancel', 'pointerleave'].forEach(type => brand.addEventListener(type, endHold));
+brand.addEventListener('click', e => { if (swallowClick) { e.preventDefault(); swallowClick = false; } });
+brand.addEventListener('contextmenu', e => e.preventDefault()); // no long-press menu on the logo
+
 // print collapsed sections (nutrition) expanded, then put them back
 let closedForPrint = [];
 window.addEventListener('beforeprint', () => {

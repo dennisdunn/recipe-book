@@ -32,8 +32,9 @@ Small scale, one household, no deadlines. Prefer simple over clever; avoid addin
 ## Simple view (the default; `js/views/simple.js`, with Home's logic in `js/simple-state.js`)
 
 The main user is in the early stage of dementia and uses the app alone, mostly to decide the week's dinners.
-The app opens in the simple view; everything else is the **helper view**, reached by a small "Helper" link on Home
-(the topbar then shows "Simple view"). Rules for the simple view — keep them when changing it:
+The app opens in the simple view; everything else is the **helper view**, reached by **pressing and holding the logo
+for 2 seconds** (a ring fills while holding; `js/app.js`). Nothing on screen points to it. The helper view's topbar has
+"Simple view", and the app always opens on Home. Rules for the simple view — keep them when changing it:
 
 - One task per screen and few choices, always in the same place (the choose bar is pinned to the bottom).
 - Plain words: weekday names, no dates, no jargon (no lock/swap/scale/staples). No tab bar.

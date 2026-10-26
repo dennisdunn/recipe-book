@@ -6,7 +6,7 @@
 // - API: the whole recipe set (~2 MB) is precached, because the planner needs every recipe's ingredients
 //   offline. Served stale-while-revalidate. api/version.json is always fetched from the network; when the
 //   page sees a new version it sends 'refresh-api' and everything is downloaded again.
-const SHELL_VERSION = 10;
+const SHELL_VERSION = 12;
 const SHELL = `shell-v${SHELL_VERSION}`;
 const API = 'api';
 

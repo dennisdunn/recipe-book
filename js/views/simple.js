@@ -60,7 +60,7 @@ export async function home() {
     ${weekButton}
     ${plan && state.canPrint ? html`<button class="btn huge print-list" data-action="print-list">Print the shopping list</button>` : ''}
     <section class="simple-print" aria-hidden="true"></section>
-    <p class="helper-link"><a href="#/plan">Helper</a></p>`);
+`);
 
   // one tap: fill the (screen-hidden) list with this week's shopping and print it; Home itself does not change
   el.addEventListener('click', async e => {

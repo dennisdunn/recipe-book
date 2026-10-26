@@ -12,7 +12,8 @@ The app opens in a **simple view** made for someone who needs one clear step at 
 another", a chosen dinner can be removed and chosen again, other days' titles open their recipe, tonight's recipe is
 in large type, and one tap prints the week's shopping list. The menu does not have to be finished before cooking from
 it. Everything below
-is the **helper view**, reached from the small "Helper" link at the bottom of Home.
+is the **helper view**: press and hold the logo at the top left for 2 seconds (a ring fills around it) to open it, and
+tap "Simple view" to go back.
 
 - **Plan:** two ways to fill a week. **Plan my week** picks seven dinners at once; **Build a menu** shows one
   random dinner at a time as the full recipe, to add to the menu or pass over until the week is full. Both pick from
