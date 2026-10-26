@@ -1,8 +1,7 @@
-import { getCatalog, indexById, getRecipe } from '../data.js';
 import { putPlan } from '../db.js';
-import { buildShoppingList } from '../shopping.js';
 import { formatAmount } from '../units.js';
-import { currentPlan, loadPantry, savePantry } from '../store.js';
+import { balanceColumns as balance, shoppingRow as itemRow } from '../widgets.js';
+import { currentPlan, savePantry, shoppingFor } from '../store.js';
 import { html, view, rerender } from '../ui.js';
 
 let showStaples = false;
@@ -14,13 +13,8 @@ export async function render() {
     return view(html`<h1>Shopping list</h1><p class="lead">Plan your week first and the list builds itself.</p>
       <a class="btn primary big" href="#/plan">Plan dinners</a>`);
   }
-  const byId = await indexById();
-  const entries = await Promise.all(days.map(async d => ({ recipe: await getRecipe(byId.get(d.recipeId).slug), multiplier: d.multiplier })));
-  const [all, { pantry }] = await Promise.all([getCatalog().then(c => buildShoppingList(entries, c)), loadPantry()]);
   // items ticked in the pantry are set aside rather than bought
-  const inPantry = new Set(pantry.have);
-  const alreadyHave = all.flatMap(a => a.items).filter(i => inPantry.has(i.catalogId));
-  const aisles = all.map(a => ({ ...a, items: a.items.filter(i => !inPantry.has(i.catalogId)) }));
+  const { entries, pantry, aisles, alreadyHave } = await shoppingFor(plan);
   const staples = aisles.flatMap(a => a.items).filter(i => i.staple).length;
 
   const el = view(html`
@@ -88,40 +82,3 @@ export async function render() {
   });
   return el;
 }
-
-// Two explicit columns for printing: Safari ignores CSS columns on paper. Aisles keep their order (on screen the
-// columns simply stack) and are split where the items that will print (the unticked ones) are most even.
-function balance(el) {
-  const [left, right] = el.querySelectorAll('.aisles > .col');
-  const sections = [...el.querySelectorAll('.aisle')];
-  const weights = sections.map(s => {
-    const open = s.querySelectorAll('li:not(.done)');
-    return open.length ? open.length + 1.5 + s.querySelectorAll('li:not(.done) .raw').length * 0.7 : 0;
-  });
-  const total = weights.reduce((a, b) => a + b, 0);
-  let split = 0, best = Infinity, before = 0;
-  weights.concat(0).forEach((w, i) => {
-    const longest = Math.max(before, total - before);
-    if (longest < best) { best = longest; split = i; }
-    before += w;
-  });
-  sections.forEach((s, i) => (i < split ? left : right).append(s));
-}
-
-function itemRow(it, checked) {
-  const qty = it.amounts.map(formatAmount).join(' + ');
-  return html`<li class="${checked ? 'done' : ''}">
-    <label>
-      <input type="checkbox" data-key="${it.catalogId}" ${checked ? 'checked' : ''}>
-      <span>
-        <span class="item-name">${it.name}</span>
-        ${qty ? html`<span class="qty">${it.approximate ? '≈ ' : ''}${qty}</span>` : ''}
-        ${it.toTaste && !qty ? html`<span class="qty muted">to taste</span>` : ''}
-        ${it.optional ? html`<span class="tag">optional</span>` : ''}
-        ${it.rawNotes.map(n => html`<span class="raw">“${n.raw}”</span>`)}
-        <span class="from">${it.recipes.join(' · ')}</span>
-      </span>
-    </label>
-  </li>`;
-}
-

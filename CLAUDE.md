@@ -48,6 +48,9 @@ The app opens in the simple view; everything else is the **helper view**, reache
 - Dinner titles link to their recipe (`#/dish/<slug>`: the full recipe, large, with one Back button), except
   tonight's: its only way in is "Show me how to make it" (one path to tonight's recipe).
 - Tonight: the full recipe, large, with the screen kept awake; nothing else to press.
+- "Print the shopping list" (Home, once a dinner is chosen): one tap prints the week's list with the helper's rules
+  (`shoppingFor` in `js/store.js`: no staples, pantry items set aside, ticked items left out) and two-column layout
+  (`balanceColumns` in `js/widgets.js`). It fills a screen-hidden `.simple-print` section and prints only that.
 - The week is `menuDates()` (helper Settings: how many dinners, from which weekday; default 5 from Monday): the rest of
   the current window, or the next one once it is over. The stored plan covering those dates is the simple week.
 - `time` (in each main's recipe file) is a draft until reviewed; see `TIMES-REVIEW.md`. Times stay hidden until every
@@ -103,8 +106,11 @@ The app opens in the simple view; everything else is the **helper view**, reache
 ## Service worker
 
 - Precache the app shell **and the whole API, every recipe included** (~2 MB): the planner needs all ingredient lists offline.
-- Everything is stale-while-revalidate (background refresh uses `cache: 'no-cache'`), so app changes show on the next launch.
-  Bump `SHELL_VERSION` in `sw.js` and update `SHELL_FILES` when adding, renaming or removing shell files.
+- The app shell is one cached set per `SHELL_VERSION`, served cache-first: a new version installs a complete fresh set
+  before taking over, so an installed app never runs a mix of old and new files (that broke the app once: a new module
+  importing from an old cached one). **Bump `SHELL_VERSION` whenever any shell file changes** and list new files in
+  `SHELL_FILES`; `tools/check.mjs` enforces both. Changes reach installed apps on the next launch.
+- API files are stale-while-revalidate (background refresh uses `cache: 'no-cache'`).
 - `version.json` is always fetched from the network (`cache: 'no-store'`). When it differs from `meta.apiVersion`, the page
   asks the worker (`refresh-api` message) to re-download the API.
 - GitHub Pages serves project sites from `/<repo>/`: use relative URLs or a configured base path, never root-absolute ones.
@@ -133,7 +139,8 @@ The app opens in the simple view; everything else is the **helper view**, reache
 
 Serve the repo's parent so the site is at `/recipe-book/`, as on Pages (catches root-absolute URLs):
 `python3 -m http.server 8411 --directory ..` then open http://localhost:8411/recipe-book/.
-The service worker caches aggressively; use DevTools > Application to bypass or unregister it while developing.
+The service worker serves the app from its cached set, so edits only show after bumping `SHELL_VERSION`
+in `sw.js` (then reload twice) or with the service worker bypassed in the browser's developer tools.
 
 ## Branding
 
@@ -141,11 +148,6 @@ The service worker caches aggressively; use DevTools > Application to bypass or 
 - `brand.html` is the reference sheet (palette, tokens with contrast ratios, icons, how to regenerate PNGs).
 - Colors only through the `:root` tokens in `css/app.css` (light and dark). Mustard is decorative, never text.
 - Icon sources are `icons/icon.svg` and `icons/favicon.svg`; PNGs are rendered from them with `rsvg-convert`. Keep the file names.
-
-## TODO
-
-- Simple view: a "Print the shopping list" option, e.g. one button on Home once dinners are chosen, using the helper
-  shopping list's print layout (`js/views/shop.js`, `@media print`). Keep it to one tap with no print settings to choose.
 
 ## Pending data work
 

@@ -302,6 +302,8 @@ main:has(.simple-bar) { padding-bottom: calc(130px + env(safe-area-inset-bottom)
 .helper-link a { color: var(--muted); }
 
 .print-only { display: none; }
+.simple-print { display: none; }
+.btn.print-list { margin-top: 14px; }
 
 /* Paper: black on white whatever the screen theme; no controls, no planning box, no ticked-off items. */
 @media print {
@@ -329,4 +331,7 @@ main:has(.simple-bar) { padding-bottom: calc(130px + env(safe-area-inset-bottom)
   .shop label { padding: 2pt 0; gap: 6pt; }
   .shop input[type="checkbox"] { -webkit-appearance: none; appearance: none; width: 10pt; height: 10pt; min-height: 0; padding: 0; margin-top: 2pt; border: 1pt solid #000; border-radius: 2pt; }
   .shop .from { font-size: 7.5pt; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  /* simple view's "Print the shopping list": only the list goes on paper, not Home */
+  body.printing-list main .view > :not(.simple-print) { display: none !important; }
+  body.printing-list .simple-print { display: block; }
 }

@@ -1,11 +1,12 @@
 // Offline support. All paths are relative to this file, so the app works under /<repo>/ on GitHub Pages.
 //
-// - App shell: precached; served from cache and refreshed in the background (changes show on next launch).
-//   Bump SHELL_VERSION when adding or removing shell files.
+// - App shell: precached as one complete set per SHELL_VERSION and served only from that set (cache first), so the
+//   app never runs a mix of old and new files. A new version installs a whole fresh set, then takes over; changes
+//   show on the next launch. Bump SHELL_VERSION whenever any shell file changes (tools/check.mjs enforces it).
 // - API: the whole recipe set (~2 MB) is precached, because the planner needs every recipe's ingredients
 //   offline. Served stale-while-revalidate. api/version.json is always fetched from the network; when the
 //   page sees a new version it sends 'refresh-api' and everything is downloaded again.
-const SHELL_VERSION = 8;
+const SHELL_VERSION = 9;
 const SHELL = `shell-v${SHELL_VERSION}`;
 const API = 'api';
 
@@ -17,6 +18,7 @@ const SHELL_FILES = [
 ];
 
 const url = path => new URL(path, self.registration.scope).href;
+const SHELL_URLS = new Set(SHELL_FILES.map(url));
 
 self.addEventListener('install', event => {
   event.waitUntil((async () => {
@@ -65,6 +67,11 @@ self.addEventListener('message', event => {
     err => { console.warn('API refresh failed', err); event.ports[0]?.postMessage({ ok: false }); }));
 });
 
+/** App files come only from this version's complete set; the network is a fallback if one is somehow missing. */
+async function fromShell(key, req) {
+  return (await (await caches.open(SHELL)).match(key)) ?? fetch(req);
+}
+
 async function staleWhileRevalidate(event, cacheName, key = event.request) {
   const cache = await caches.open(cacheName);
   const cached = await cache.match(key, { ignoreSearch: true });
@@ -90,8 +97,9 @@ self.addEventListener('fetch', event => {
   } else if (path.startsWith('api/')) {
     event.respondWith(staleWhileRevalidate(event, API));
   } else if (req.mode === 'navigate' && (path === '' || path === 'index.html')) {
-    event.respondWith(staleWhileRevalidate(event, SHELL, url('index.html')));
-  } else {
-    event.respondWith(staleWhileRevalidate(event, SHELL));
+    event.respondWith(fromShell(url('index.html'), req));
+  } else if (SHELL_URLS.has(url(path))) {
+    event.respondWith(fromShell(url(path), req));
   }
+  // anything else (brand.html, README…) goes to the network as usual
 });

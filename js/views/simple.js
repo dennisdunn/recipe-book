@@ -5,8 +5,9 @@
 import { getIndex, getRecipe, indexById } from '../data.js';
 import { putPlan } from '../db.js';
 import { recipeLines } from '../recipe-view.js';
-import { ensureSimplePlan, simpleWeek, offerFor, savePlanCounts, loadPantry } from '../store.js';
-import { html, view, formatDay, rerender, plural } from '../ui.js';
+import { ensureSimplePlan, simpleWeek, offerFor, savePlanCounts, loadPantry, shoppingFor } from '../store.js';
+import { html, view, formatDay, rerender, plural, setHTML } from '../ui.js';
+import { balanceColumns, shoppingRow } from '../widgets.js';
 
 const weekday = iso => formatDay(iso, { weekday: 'long' });
 
@@ -35,7 +36,7 @@ function weekList(days, byId, { today, highlight, remove = false } = {}) {
 
 // ---- Home: tonight first, then the week ----
 export async function home() {
-  const [{ today, dates, days }, byId] = await Promise.all([simpleWeek(), indexById()]);
+  const [{ today, dates, plan, days }, byId] = await Promise.all([simpleWeek(), indexById()]);
   // before any dinner is chosen there may be no plan yet: show the week's dates as open days
   const week = days.length ? days : dates.map(date => ({ date, recipeId: null, skip: false }));
   const tonightDay = week.find(d => d.date === today && !d.skip);
@@ -51,7 +52,7 @@ export async function home() {
     : nextOpen ? html`<a class="${weekStyle}" href="#/choose">${week.some(d => byId.has(d.recipeId)) ? 'Choose the next dinner' : 'Choose dinners'}</a>`
     : html`<a class="${weekStyle}" href="#/choose">Change dinners</a>`;
 
-  return view(html`
+  const el = view(html`
     <h1>Tonight</h1>
     ${tonight ? html`<div class="tonight-card">
         <p class="tonight-title">${tonight.title}</p>
@@ -62,7 +63,39 @@ export async function home() {
     <h2 class="simple-section">${dates.includes(today) ? 'This week' : `From ${weekday(dates[0])}`}</h2>
     ${weekList(week, byId, { today })}
     ${weekButton}
+    ${plan && days.some(d => byId.has(d.recipeId)) ? html`<button class="btn huge print-list" data-action="print-list">Print the shopping list</button>` : ''}
+    <section class="simple-print" aria-hidden="true"></section>
     <p class="helper-link"><a href="#/plan">Helper</a></p>`);
+
+  // one tap: fill the (screen-hidden) list with this week's shopping and print it; Home itself does not change
+  el.addEventListener('click', async e => {
+    if (!e.target.closest('[data-action=print-list]')) return;
+    await printShoppingList(el.querySelector('.simple-print'), plan, days);
+  });
+  return el;
+}
+
+/** The week's shopping list, as the helper's printout has it: no staples, pantry items set aside, ticked ones left out. */
+async function printShoppingList(section, plan, days) {
+  const { entries, aisles } = await shoppingFor(plan, days);
+  const extras = plan.extras.filter(x => !plan.checked.includes(`extra:${x}`));
+  const open = items => items.filter(i => !i.staple && !plan.checked.includes(i.catalogId));
+  setHTML(section, html`
+    <h1>Shopping list</h1>
+    <p class="muted">For ${entries.map(e => e.recipe.title).join(', ')}.</p>
+    <div class="aisles"><div class="col">
+      ${extras.length ? html`<section class="aisle"><h2>Also</h2><ul class="shop">${extras.map(x =>
+        html`<li><label><input type="checkbox"><span class="item-name">${x}</span></label></li>`)}</ul></section>` : ''}
+      ${aisles.map(a => open(a.items).length
+        ? html`<section class="aisle"><h2>${a.aisle}</h2><ul class="shop">${open(a.items).map(it => shoppingRow(it, false))}</ul></section>` : '')}
+    </div><div class="col"></div></div>
+    <p class="muted small">≈ marks amounts that are approximate.</p>`);
+  balanceColumns(section);
+  document.body.classList.add('printing-list');
+  const done = () => { document.body.classList.remove('printing-list'); window.removeEventListener('afterprint', done); };
+  window.addEventListener('afterprint', done);
+  window.print();
+  setTimeout(done, 60000); // in case the browser never reports that printing finished
 }
 
 // ---- Choose: one dinner, two buttons; chosen dinners can be removed ----

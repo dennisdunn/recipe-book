@@ -1,6 +1,7 @@
 // App state shared by several screens: the current plan, planner settings and the pantry.
 // Screens import from here rather than from each other.
-import { getIndex, getCatalog } from './data.js';
+import { getIndex, getCatalog, getRecipe, indexById } from './data.js';
+import { buildShoppingList } from './shopping.js';
 import { allStats, getMeta, setMeta, updateStat, putPlan, getPlan as dbGetPlan, allPlans as dbAllPlans } from './db.js';
 import { newPlan, fillPlan, pickOne, normalizePlan, uncounted, isoDate, addDays, menuDates, DEFAULTS } from './planner.js';
 import { EMPTY_PANTRY, onHand, coverage, pantryBoost } from './pantry.js';
@@ -29,6 +30,25 @@ export async function loadPantry() {
   return { pantry, catalog, have: onHand(pantry, catalog), staples: new Set(catalog.filter(c => c.staple).map(c => c.id)) };
 }
 export const savePantry = pantry => setMeta('pantry', pantry);
+
+/**
+ * The shopping list for a plan's chosen dinners (or only those in `days`), scaled by each day's multiplier.
+ * Items ticked in the pantry are set aside in `alreadyHave` rather than listed to buy.
+ */
+export async function shoppingFor(plan, days = plan.days) {
+  const byId = await indexById();
+  const chosen = days.filter(d => byId.has(d.recipeId) && !d.skip);
+  const [entries, catalog, { pantry }] = await Promise.all([
+    Promise.all(chosen.map(async d => ({ recipe: await getRecipe(byId.get(d.recipeId).slug), multiplier: d.multiplier }))),
+    getCatalog(), loadPantry()]);
+  const all = buildShoppingList(entries, catalog);
+  const inPantry = new Set(pantry.have);
+  return {
+    entries, pantry,
+    aisles: all.map(a => ({ ...a, items: a.items.filter(i => !inPantry.has(i.catalogId)) })),
+    alreadyHave: all.flatMap(a => a.items).filter(i => inPantry.has(i.catalogId)),
+  };
+}
 
 /** The planner's inputs with the user's settings; with "Use what I have" on, recipes covered by the pantry get a boost. */
 async function plannerInputs() {

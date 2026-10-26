@@ -2,7 +2,8 @@
 // Pre-push check: run before committing app changes.   node tools/check.mjs
 //   - every file the app loads is in SHELL_FILES in sw.js (a missing one breaks the app offline), and every
 //     listed file exists
-//   - SHELL_VERSION was bumped if the list changed since the last commit
+//   - SHELL_VERSION was bumped if any shell file (or the list) changed since the last commit: the service worker
+//     serves the shell as one cached set per version, so unbumped changes would never reach installed apps
 //   - relative imports resolve; no root-absolute URLs (GitHub Pages serves the site under /recipe-book/)
 //   - every script parses, and the tests pass
 import { readFileSync, readdirSync, existsSync, statSync } from 'node:fs';
@@ -44,8 +45,14 @@ for (const f of listed) if (f !== './' && !existsSync(path.join(root, f))) probl
 const head = spawnSync('git', ['show', 'HEAD:sw.js'], { cwd: root, encoding: 'utf8' });
 if (head.status === 0) {
   const before = parseShell(head.stdout);
-  const changed = before.files.join('\n') !== shell.files.join('\n');
-  if (changed && before.version === shell.version) problems.push(`sw.js: SHELL_FILES changed since the last commit; bump SHELL_VERSION (now ${shell.version})`);
+  const listChanged = before.files.join('\n') !== shell.files.join('\n');
+  const files = shell.files.filter(f => f !== './');
+  const status = spawnSync('git', ['status', '--porcelain', '--', ...files], { cwd: root, encoding: 'utf8' }).stdout.trimEnd();
+  const changed = status.split('\n').filter(Boolean).map(l => l.slice(3));
+  if ((listChanged || changed.length) && before.version === shell.version) {
+    problems.push(`sw.js: ${listChanged ? 'SHELL_FILES changed' : `app files changed (${changed.slice(0, 4).join(', ')}${changed.length > 4 ? '…' : ''})`}`
+      + ` since the last commit; bump SHELL_VERSION (now ${shell.version}) so installed apps get the update`);
+  }
 }
 
 // ---- imports and URLs ----

@@ -31,7 +31,8 @@ is the **helper view**, reached from the small "Helper" link at the bottom of Ho
 
 1. Open the live site in **Safari** while online, and wait a moment so it can store the recipes.
 2. Tap **Share → Add to Home Screen**. It appears as "Adele's Recipes".
-3. App updates arrive by themselves: they show up the second time it is opened while online.
+3. App updates arrive by themselves: each update downloads in full in the background and shows up the next time
+   the app is opened.
 
 Ratings, notes, plans and the pantry live **only on that device**. Use **Settings → Export backup** now and then
 (choose "Save to Files"); **Import backup** restores it or moves it to another device. Importing replaces what is there.
@@ -60,8 +61,9 @@ Preview locally with the site under `/recipe-book/`, as on GitHub Pages, so path
 python3 -m http.server 8411 --directory ..
 ```
 
-Then open http://localhost:8411/recipe-book/. The service worker caches aggressively: reload twice to see changes,
-or bypass it in the browser's developer tools.
+Then open http://localhost:8411/recipe-book/. The service worker serves the app from its cached set, so edits
+only show after bumping `SHELL_VERSION` in `sw.js` (then reload twice), or with the service worker bypassed in the
+browser's developer tools.
 
 | Path | What it is |
 |---|---|
@@ -85,8 +87,9 @@ node tools/check.mjs
 ```
 
 It runs the tests and catches the mistakes that are easy to miss: a file the app loads but the service worker does
-not cache (the app would fail to start offline; add it to `SHELL_FILES` in `sw.js` and bump `SHELL_VERSION`), a
-broken import, or a root-absolute URL that would break under `/recipe-book/`.
+not cache (the app would fail to start offline; add it to `SHELL_FILES` in `sw.js`), an app change without a
+`SHELL_VERSION` bump in `sw.js` (installed apps would never get it), a broken import, or a root-absolute URL that
+would break under `/recipe-book/`.
 
 ## Deployment
 
