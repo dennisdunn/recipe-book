@@ -1,5 +1,5 @@
 // Boot + hash router.
-// Simple view (the default): #/ (home), #/choose, #/tonight.
+// Simple view (the default): #/ (home), #/choose, #/choose/tonight, #/tonight, #/dish/<slug>.
 // Helper view: #/plan, #/menu, #/plans, #/shop, #/pantry, #/can-make, #/recipes, #/recipe/<slug>, #/settings
 import { checkForUpdate } from './data.js';
 import { toast, html, view, takeScrollTop } from './ui.js';
@@ -18,7 +18,9 @@ import * as simple from './views/simple.js';
 const ROUTES = [
   [/^\/?$/, { render: simple.home }, null],
   [/^\/choose$/, { render: simple.choose }, null],
+  [/^\/choose\/tonight$/, { render: simple.choose }, null, () => ({ target: 'tonight' })],
   [/^\/tonight$/, { render: simple.tonight }, null],
+  [/^\/dish\/([a-z0-9-]+)$/, { render: simple.dish }, null, m => ({ slug: m[1] })],
   [/^\/plan$/, plan, 'plan'],
   [/^\/plans$/, plans, 'plan'],
   [/^\/menu$/, menu, 'plan'],

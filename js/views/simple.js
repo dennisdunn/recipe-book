@@ -1,6 +1,7 @@
-// Simple view: the default, for someone who needs one clear next step. At most two choices per screen, always in the
-// same place; plain words (weekday names, no dates or jargon); nothing that deletes, no pop-up questions, no timed
-// messages. Three screens: Home (#/), Choose (#/choose) and Tonight (#/tonight). Everything else is the helper view.
+// Simple view: the default, for someone who needs one clear next step. Few choices per screen, always in the same
+// place; plain words (weekday names, no dates or jargon); no pop-up questions, no timed messages. Removing a chosen
+// dinner only empties that day. Screens: Home (#/), Choose (#/choose, #/choose/tonight), Tonight (#/tonight) and
+// a recipe (#/dish/<slug>). Everything else is the helper view.
 import { getIndex, getRecipe, indexById } from '../data.js';
 import { putPlan } from '../db.js';
 import { recipeLines } from '../recipe-view.js';
@@ -8,7 +9,6 @@ import { ensureSimplePlan, simpleWeek, offerFor, savePlanCounts, loadPantry } fr
 import { html, view, formatDay, rerender, plural } from '../ui.js';
 
 const weekday = iso => formatDay(iso, { weekday: 'long' });
-const span = dates => (dates.length === 1 ? weekday(dates[0]) : `${weekday(dates[0])} to ${weekday(dates.at(-1))}`);
 
 /** Times are shown only once every dinner main has a reviewed one, so they never appear on some recipes and not others. */
 async function timesReady() {
@@ -16,72 +16,80 @@ async function timesReady() {
   return mains.length > 0 && mains.every(e => e.time?.reviewed);
 }
 
-function weekList(days, byId, { today, highlight } = {}) {
-  return html`<ul class="simple-week">${days.map(d => {
+const dishLink = e => html`<a href="#/dish/${e.slug}">${e.title}</a>`;
+
+/** The week's days; chosen dinners link to their recipe, and with `remove` each gets a Remove button. */
+function weekList(days, byId, { today, highlight, remove = false } = {}) {
+  return html`<ul class="simple-week ${remove ? 'editable' : ''}">${days.map(d => {
     const e = byId.get(d.recipeId);
-    const cls = [d.index === highlight ? 'new' : '', d.date === today ? 'today' : ''].join(' ');
+    const cls = [highlight != null && d.index === highlight ? 'new' : '', d.date === today ? 'today' : ''].join(' ');
     return html`<li class="${cls}"><span class="wk-day">${weekday(d.date)}</span>
-      <span>${e ? e.title : d.skip ? 'No dinner' : '—'}</span></li>`;
+      <span>${e ? dishLink(e) : html`<span class="muted">${d.skip ? 'No dinner' : 'Not chosen yet'}</span>`}</span>
+      ${remove ? (e ? html`<button class="btn small" data-remove="${d.index}" aria-label="Remove ${e.title} from ${weekday(d.date)}">Remove</button>` : html`<span></span>`) : ''}
+    </li>`;
   })}</ul>`;
 }
 
-// ---- Home: one big button that depends on where things stand ----
+// ---- Home: tonight first, then the week ----
 export async function home() {
-  const [{ today, dates, plan, days }, byId] = await Promise.all([simpleWeek(), indexById()]);
-  const chosen = days.filter(d => byId.has(d.recipeId));
-  const open = days.filter(d => !d.recipeId && !d.skip);
-  const tonight = days.find(d => d.date === today && byId.has(d.recipeId));
-  const helper = html`<p class="helper-link"><a href="#/plan">Helper</a></p>`;
+  const [{ today, dates, days }, byId] = await Promise.all([simpleWeek(), indexById()]);
+  // before any dinner is chosen there may be no plan yet: show the week's dates as open days
+  const week = days.length ? days : dates.map(date => ({ date, recipeId: null, skip: false }));
+  const tonightDay = week.find(d => d.date === today && !d.skip);
+  const tonight = byId.get(tonightDay?.recipeId);
+  const nextOpen = week.find(d => !d.recipeId && !d.skip);
+  const showTime = tonight && await timesReady();
 
-  if (!plan || chosen.length === 0) {
-    return view(html`
-      <h1>Let's choose dinners</h1>
-      <p class="simple-lead">${plural(dates.length, 'dinner')} for ${span(dates)}.</p>
-      <a class="btn primary huge" href="#/choose">Choose dinners</a>
-      ${helper}`);
-  }
-  if (open.length) {
-    return view(html`
-      <h1>Choosing dinners</h1>
-      <p class="simple-lead">You have chosen ${chosen.length} of ${days.length}.</p>
-      ${weekList(days, byId, { today })}
-      <a class="btn primary huge" href="#/choose">Choose the next dinner</a>
-      ${helper}`);
-  }
-  if (tonight) {
-    const e = byId.get(tonight.recipeId);
-    const showTime = await timesReady();
-    return view(html`
-      <h1>Tonight's dinner</h1>
-      <div class="tonight-card">
-        <p class="tonight-title">${e.title}</p>
-        ${showTime && e.time ? html`<p class="simple-time">${e.time.text}</p>` : ''}
-      </div>
-      <a class="btn primary huge" href="#/tonight">Show me how to make it</a>
-      <h2>This week</h2>
-      ${weekList(days, byId, { today })}
-      ${helper}`);
-  }
+  // Tonight: cook it, or choose it. Week: choose the next one (unless that is tonight), or change them.
+  const tonightButton = tonight ? html`<a class="btn primary huge" href="#/tonight">Show me how to make it</a>`
+    : tonightDay ? html`<a class="btn primary huge" href="#/choose/tonight">Choose tonight's dinner</a>` : '';
+  const weekStyle = tonightButton ? 'btn huge' : 'btn primary huge';
+  const weekButton = nextOpen && nextOpen === tonightDay ? ''
+    : nextOpen ? html`<a class="${weekStyle}" href="#/choose">${week.some(d => byId.has(d.recipeId)) ? 'Choose the next dinner' : 'Choose dinners'}</a>`
+    : html`<a class="${weekStyle}" href="#/choose">Change dinners</a>`;
+
   return view(html`
-    <h1>Dinners are chosen</h1>
-    <p class="simple-lead">${days.some(d => d.date === today) ? 'No dinner is planned for tonight.' : `Your dinners start ${weekday(days[0].date)}.`}</p>
-    ${weekList(days, byId, { today })}
-    ${helper}`);
+    <h1>Tonight</h1>
+    ${tonight ? html`<div class="tonight-card">
+        <p class="tonight-title">${dishLink(tonight)}</p>
+        ${showTime && tonight.time ? html`<p class="simple-time">${tonight.time.text}</p>` : ''}
+      </div>`
+      : html`<p class="simple-lead">${tonightDay ? 'Nothing is chosen for tonight yet.' : 'No dinner is planned for tonight.'}</p>`}
+    ${tonightButton}
+    <h2 class="simple-section">${dates.includes(today) ? 'This week' : `From ${weekday(dates[0])}`}</h2>
+    ${weekList(week, byId, { today })}
+    ${weekButton}
+    <p class="helper-link"><a href="#/plan">Helper</a></p>`);
 }
 
-// ---- Choose: one dinner, two buttons ----
-export async function choose() {
-  const [{ plan, days }, byId] = await Promise.all([ensureSimplePlan(), indexById()]);
+// ---- Choose: one dinner, two buttons; chosen dinners can be removed ----
+export async function choose({ target } = {}) {
+  const [{ today, plan, days }, byId] = await Promise.all([ensureSimplePlan(), indexById()]);
   plan.menu ??= { offer: null, passed: [] };
   const menu = plan.menu;
-  const next = days.find(d => !d.recipeId && !d.skip);
+  const forTonight = target === 'tonight';
+  const isOpen = d => !d.recipeId && !d.skip;
+  const next = (forTonight && days.find(d => d.date === today && isOpen(d))) || days.find(isOpen);
+
+  const onRemove = async e => {
+    const i = e.target.closest('[data-remove]')?.dataset.remove;
+    if (i === undefined) return false;
+    Object.assign(plan.days[+i], { recipeId: null, locked: false, cooked: false }); // the day opens up; nothing is deleted
+    if (menu.lastAdded === +i) menu.lastAdded = null;
+    await putPlan(plan);
+    rerender({ top: true });
+    return true;
+  };
 
   if (!next) {
-    return view(html`
+    const el = view(html`
       <h1>All done!</h1>
-      <p class="simple-lead">Your ${plural(days.filter(d => byId.has(d.recipeId)).length, 'dinner')} are chosen.</p>
-      ${weekList(days, byId, { highlight: menu.lastAdded })}
+      <p class="simple-lead">Your ${plural(days.filter(d => byId.has(d.recipeId)).length, 'dinner')} are chosen.
+        To change one, remove it and choose again.</p>
+      ${weekList(days, byId, { highlight: menu.lastAdded, today, remove: true })}
       <a class="btn primary huge" href="#/">Done</a>`);
+    el.addEventListener('click', onRemove);
+    return el;
   }
 
   const inPlan = new Set(plan.days.map(d => d.recipeId));
@@ -105,13 +113,13 @@ export async function choose() {
     .filter(i => i.catalogId && !i.optional && i.shop !== false && !staples.has(i.catalogId)).map(i => i.catalogId))]
     .map(id => names.get(id));
   const chosen = days.filter(d => byId.has(d.recipeId) || d.skip);
-  const number = days.indexOf(next) + 1;
 
   const el = view(html`
-    <p class="simple-step">Dinner ${number} of ${days.length} · <strong>${weekday(next.date)}</strong></p>
-    ${chosen.length ? weekList(chosen, byId, { highlight: menu.lastAdded }) : ''}
+    <p class="simple-step">${next.date === today ? "Tonight's dinner" : `Dinner ${days.indexOf(next) + 1} of ${days.length}`}
+      · <strong>${weekday(next.date)}</strong></p>
+    ${!forTonight && chosen.length ? weekList(chosen, byId, { highlight: menu.lastAdded, today, remove: true }) : ''}
     <article class="simple-recipe">
-      <h1>${recipe.title}</h1>
+      <h1>${dishLink(entry)}</h1>
       ${showTime && recipe.time ? html`<p class="simple-time">${recipe.time.text}</p>` : ''}
       <h2>What's in it</h2>
       <ul class="simple-ingredients">${what.map(n => html`<li>${n}</li>`)}</ul>
@@ -122,38 +130,30 @@ export async function choose() {
     </div>`);
 
   el.addEventListener('click', async e => {
+    if (await onRemove(e)) return;
     const action = e.target.closest('[data-action]')?.dataset.action;
     if (!action) return;
     if (action === 'yes') {
       Object.assign(plan.days[next.index], { recipeId: entry.id, locked: true, skip: false, cooked: false });
       menu.lastAdded = next.index;
       menu.offer = null;
-      // the last one: count the week's dinners as suggested (what "Save plan" does), with no extra step
-      if (!days.some(d => d !== next && !d.recipeId && !d.skip)) await savePlanCounts(plan);
+      await savePlanCounts(plan); // each chosen dinner counts as suggested right away, so it rests in later weeks
     } else {
       menu.passed.push(entry.id);
       menu.offer = null;
     }
     await putPlan(plan);
-    rerender({ top: true });
+    if (action === 'yes' && forTonight) location.hash = '#/'; // tonight is set: back to Home to cook it
+    else rerender({ top: true });
   });
   return el;
 }
 
-// ---- Tonight: the full recipe, large, nothing else to press ----
-export async function tonight() {
-  const [{ today, days }, byId] = await Promise.all([simpleWeek(), indexById()]);
-  const day = days.find(d => d.date === today && byId.has(d.recipeId));
-  if (!day) {
-    return view(html`<h1>No dinner tonight</h1>
-      <p class="simple-lead">There is no dinner planned for tonight.</p>
-      <a class="btn primary huge" href="#/">Home</a>`);
-  }
-  const recipe = await getRecipe(byId.get(day.recipeId).slug);
-  const showTime = await timesReady();
-  const el = view(html`
+/** The whole recipe in large type (Tonight and the recipe screen). */
+function fullRecipe(recipe, label, showTime) {
+  return html`
     <article class="simple-recipe cook">
-      <p class="simple-step">Tonight's dinner</p>
+      ${label ? html`<p class="simple-step">${label}</p>` : ''}
       <h1>${recipe.title}</h1>
       ${showTime && recipe.time ? html`<p class="simple-time">${recipe.time.text}</p>` : ''}
       <h2>You will need</h2>
@@ -161,7 +161,22 @@ export async function tonight() {
       <h2>How to make it</h2>
       ${recipe.steps.length ? recipeLines(recipe.steps, s => s.text, { ordered: true })
         : html`<p>This recipe has no written steps.</p>`}
-    </article>`);
+    </article>`;
+}
+
+// ---- Tonight: the full recipe, large, with the screen kept awake ----
+export async function tonight() {
+  const [{ today, days }, byId] = await Promise.all([simpleWeek(), indexById()]);
+  const day = days.find(d => d.date === today && byId.has(d.recipeId));
+  if (!day) {
+    return view(html`<h1>No dinner tonight</h1>
+      <p class="simple-lead">Nothing is chosen for tonight yet.</p>
+      ${days.some(d => d.date === today && !d.skip)
+        ? html`<a class="btn primary huge" href="#/choose/tonight">Choose tonight's dinner</a>`
+        : html`<a class="btn primary huge" href="#/">Home</a>`}`);
+  }
+  const [recipe, showTime] = await Promise.all([getRecipe(byId.get(day.recipeId).slug), timesReady()]);
+  const el = view(fullRecipe(recipe, "Tonight's dinner", showTime));
 
   // keep the screen on while cooking, without a button for it
   let lock = null;
@@ -170,5 +185,21 @@ export async function tonight() {
   keepAwake();
   document.addEventListener('visibilitychange', onVisible);
   el.cleanup = () => { lock?.release(); document.removeEventListener('visibilitychange', onVisible); };
+  return el;
+}
+
+// ---- A recipe, to look at: the full recipe and one Back button ----
+export async function dish({ slug }) {
+  let recipe;
+  try { recipe = await getRecipe(slug); } catch {
+    return view(html`<h1>That recipe is missing</h1><a class="btn primary huge" href="#/">Home</a>`);
+  }
+  const el = view(html`${fullRecipe(recipe, '', await timesReady())}
+    <a class="btn primary huge back" href="#/" data-action="back">Back</a>`);
+  el.addEventListener('click', e => {
+    if (!e.target.closest('[data-action=back]') || history.length < 2) return; // opened directly: Back goes Home
+    e.preventDefault();
+    history.back();
+  });
   return el;
 }

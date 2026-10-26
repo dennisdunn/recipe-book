@@ -272,9 +272,16 @@ body[data-mode="simple"] h1 { font-size: 2rem; }
 .simple-week li.today { font-weight: 700; }
 .simple-week li.new { background: var(--accent-soft); }
 .simple-week li.new .wk-day::before { content: "✓ "; color: var(--ok); }
+.simple-week a, .tonight-title a, .simple-recipe h1 a { color: inherit; text-decoration: none; }
+.simple-week a:hover, .tonight-title a:hover, .simple-recipe h1 a:hover { text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 3px; }
+.simple-week.editable li { grid-template-columns: 7.5em 1fr auto; align-items: center; }
+.simple-week.editable .btn.small { min-height: 44px; }
+.simple-section { margin-top: 1.6em; }
+.simple-recipe + .btn.back { margin-top: 1em; }
 @media (max-width: 600px) {
   .simple-week { gap: 2px; }
   .simple-week li { grid-template-columns: 5.8em 1fr; gap: 6px; padding: 3px 8px; font-size: 0.85em; line-height: 1.3; }
+  .simple-week.editable li { grid-template-columns: 5.8em 1fr auto; }
 }
 .simple-recipe h2 { font-size: 1.3rem; margin-top: 1.1em; }
 .simple-ingredients { padding-left: 1.2em; margin: 0.3em 0 1em; }

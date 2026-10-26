@@ -7,8 +7,10 @@ and keep ratings and cooking notes. It runs from plain static files on GitHub Pa
 
 ## What it does
 
-The app opens in a **simple view** made for someone who needs one clear step at a time: a big button on Home, one
-dinner at a time with just "Yes, add it" or "Show me another", and tonight's recipe in large type. Everything below
+The app opens in a **simple view** made for someone who needs one clear step at a time. Home shows tonight's dinner
+(or a button to choose it) and the week below; choosing shows one dinner at a time with just "Yes, add it" or "Show me
+another", a chosen dinner can be removed and chosen again, every title opens its recipe, and tonight's recipe is in
+large type, so the menu does not have to be finished before cooking from it. Everything below
 is the **helper view**, reached from the small "Helper" link at the bottom of Home.
 
 - **Plan:** two ways to fill a week. **Plan my week** picks seven dinners at once; **Build a menu** shows one

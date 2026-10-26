@@ -8,7 +8,8 @@ Small scale, one household, no deadlines. Prefer simple over clever; avoid addin
 - **PWA** (installable, works offline, added to an iPad Home Screen) with a service worker. Static hosting on GitHub Pages
   as a project site: https://dennisdunn.github.io/recipe-book/ (repo `dennisdunn/recipe-book`, site and API in one repo).
 - **Plain static, no framework, no build step, no Jekyll** (`.nojekyll` at the root). ES modules in `js/`, one stylesheet
-  in `css/`, hash routes because Pages has no SPA fallback: simple view `#/`, `#/choose`, `#/tonight`; helper view
+  in `css/`, hash routes because Pages has no SPA fallback: simple view `#/`, `#/choose`, `#/choose/tonight`,
+  `#/tonight`, `#/dish/<slug>`; helper view
   `#/plan`, `#/menu`, `#/plans`, `#/shop`, `#/pantry`, `#/can-make`, `#/recipes`, `#/recipe/<slug>`, `#/settings`.
   The only dependency is `idb`, vendored in `js/vendor/idb.js`.
 - **Recipes are read-only static JSON** in `api/` (see `api/README.md` and `api/recipe.schema.json`). No server, no database.
@@ -33,13 +34,18 @@ The main user is in the early stage of dementia and uses the app alone, mostly t
 The app opens in the simple view; everything else is the **helper view**, reached by a small "Helper" link on Home
 (the topbar then shows "Simple view"). Rules for the simple view — keep them when changing it:
 
-- One task per screen and **at most two choices**, always in the same place (the choice bar is pinned to the bottom).
+- One task per screen and few choices, always in the same place (the choose bar is pinned to the bottom).
 - Plain words: weekday names, no dates, no jargon (no lock/swap/scale/staples). No tab bar.
-- Nothing that deletes, no `confirm()` dialogs, no timed messages or Undo toasts. Mistakes are fixed in the helper view.
-- Home shows one big button for where things stand: "Choose dinners" / "Choose the next dinner" / "Tonight's dinner".
+- No `confirm()` dialogs, no timed messages or Undo toasts. "Remove" only empties a day (choose again to refill it).
+- Home has two sections, so an unfinished menu can still be cooked from:
+  - **Tonight**: tonight's dinner with "Show me how to make it", or "Choose tonight's dinner" (`#/choose/tonight`,
+    which returns to Home after "Yes").
+  - **This week**: the days with their dinners and "Choose the next dinner" (or "Change dinners" once all are chosen).
 - Choose: the dinner's title, time (only once all are reviewed) and main ingredient **names** (no amounts, staples or
-  optional lines); "Yes, add it" / "Show me another". Days fill in order; finishing counts the week as suggested.
+  optional lines); "Yes, add it" / "Show me another". Days fill in order from the first open one; the chosen dinners
+  above have Remove buttons. Each "Yes" counts that dinner as suggested right away (`savePlanCounts`).
   Tonight's pick never takes more than 2 hours (`TONIGHT_MAX_MINUTES` in `js/store.js`).
+- Every dinner title links to its recipe (`#/dish/<slug>`: the full recipe, large, with one Back button).
 - Tonight: the full recipe, large, with the screen kept awake; nothing else to press.
 - The week is `menuDates()` (helper Settings: how many dinners, from which weekday; default 5 from Monday): the rest of
   the current window, or the next one once it is over. The stored plan covering those dates is the simple week.
@@ -134,6 +140,11 @@ The service worker caches aggressively; use DevTools > Application to bypass or 
 - `brand.html` is the reference sheet (palette, tokens with contrast ratios, icons, how to regenerate PNGs).
 - Colors only through the `:root` tokens in `css/app.css` (light and dark). Mustard is decorative, never text.
 - Icon sources are `icons/icon.svg` and `icons/favicon.svg`; PNGs are rendered from them with `rsvg-convert`. Keep the file names.
+
+## TODO
+
+- Simple view: a "Print the shopping list" option, e.g. one button on Home once dinners are chosen, using the helper
+  shopping list's print layout (`js/views/shop.js`, `@media print`). Keep it to one tap with no print settings to choose.
 
 ## Pending data work
 
